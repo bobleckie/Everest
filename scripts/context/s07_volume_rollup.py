@@ -165,6 +165,32 @@ THEMES: List[dict] = [
 ]
 
 
+# Top-level discipline category each theme rolls into. Drives the
+# high-level filter shown first in the browser ("show only Technical") so
+# the user can scope the tree without scrolling through 17 themes.
+THEME_CATEGORY_MAP: dict[str, str] = {
+    "solution-architecture":  "Technical",
+    "inspection-operations":  "Operational",
+    "service-levels":         "Operational",
+    "reporting":              "Technical",
+    "facilities":             "Operational",
+    "personnel":              "Operational",
+    "pricing":                "Commercial",
+    "service-schedule":       "Operational",
+    "compliance-forms":       "Compliance",
+    "insurance":              "Commercial",
+    "info-sec":               "Technical",
+    "standard-tcs":           "Compliance",
+    "labor":                  "Operational",
+    "legal-regulatory":       "Compliance",
+    "amendments":             "Other",
+    "pre-quote":              "Other",
+    "uncategorized":          "Other",
+}
+
+CATEGORY_ORDER = ["Technical", "Operational", "Commercial", "Compliance", "Other"]
+
+
 def assign_theme(
     section_code: Optional[str],
     title: Optional[str],
@@ -212,6 +238,7 @@ def main() -> int:
             id          INTEGER PRIMARY KEY AUTOINCREMENT,
             slug        TEXT NOT NULL UNIQUE,
             label       TEXT NOT NULL,
+            category    TEXT,
             ord         INTEGER NOT NULL,
             description TEXT
         );
@@ -231,13 +258,15 @@ def main() -> int:
     theme_ids: List[int] = []
     for ord_, theme in enumerate(THEMES):
         cur.execute(
-            "INSERT INTO requirement_themes (slug, label, ord) VALUES (?, ?, ?)",
-            (theme["slug"], theme["label"], ord_),
+            "INSERT INTO requirement_themes (slug, label, category, ord) VALUES (?, ?, ?, ?)",
+            (theme["slug"], theme["label"],
+             THEME_CATEGORY_MAP.get(theme["slug"], "Other"), ord_),
         )
         theme_ids.append(cur.lastrowid)
     cur.execute(
-        "INSERT INTO requirement_themes (slug, label, ord) VALUES (?, ?, ?)",
-        ("uncategorized", "Uncategorized", len(THEMES) + 1),
+        "INSERT INTO requirement_themes (slug, label, category, ord) VALUES (?, ?, ?, ?)",
+        ("uncategorized", "Uncategorized",
+         THEME_CATEGORY_MAP.get("uncategorized", "Other"), len(THEMES) + 1),
     )
     catchall_id = cur.lastrowid
 

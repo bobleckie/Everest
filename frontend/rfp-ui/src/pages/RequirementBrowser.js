@@ -14,6 +14,9 @@ import {
   Tooltip,
   Button,
   TablePagination,
+  ToggleButton,
+  ToggleButtonGroup,
+  Autocomplete,
 } from '@mui/material';
 import {
   ExpandMore as ExpandMoreIcon,
@@ -56,25 +59,45 @@ export default function RequirementBrowser() {
   const [docPages, setDocPages] = useState({});      // docKey -> page index
   const [docPageSize, setDocPageSize] = useState(25); // sections per page per doc
 
+  // Filters
+  const [categoryFilter, setCategoryFilter] = useState('');           // '' = all
+  const [selectedDocs, setSelectedDocs] = useState([]);                // [] = all
+  const [filterOptions, setFilterOptions] = useState({ categories: [], documents: [] });
+
   // Per-section lazy-loaded requirement caches:
   // sectionDataByKey[`${doc_id}::${section_id}`] = { rows, total, offset, limit, loading, error }
   const [sectionDataByKey, setSectionDataByKey] = useState({});
 
+  // Pull filter option lists once per proposal
+  useEffect(() => {
+    axios
+      .get('/api/knowledge/requirements/filters', {
+        params: proposalId ? { proposal_id: proposalId } : {},
+      })
+      .then((res) => setFilterOptions(res.data))
+      .catch(() => {});
+  }, [proposalId]);
+
+  // Reload tree when proposal / category / doc selection changes.
   useEffect(() => {
     setLoading(true);
+    const params = { summary: true };
+    if (proposalId) params.proposal_id = proposalId;
+    if (categoryFilter) params.category = categoryFilter;
+    if (selectedDocs.length) params.document_ids = selectedDocs.map((d) => d.document_id).join(',');
     axios
-      .get('/api/knowledge/requirements/tree', {
-        params: { ...(proposalId ? { proposal_id: proposalId } : {}), summary: true },
-      })
+      .get('/api/knowledge/requirements/tree', { params })
       .then((res) => {
         setTree(res.data);
         setError(null);
+        // Reset open-state when filters change (otherwise old tree's keys leak)
+        setOpenThemes({}); setOpenDocs({}); setOpenSections({}); setDocPages({});
       })
       .catch((err) => {
         setError(err?.response?.data?.detail || err.message || 'Failed to load tree');
       })
       .finally(() => setLoading(false));
-  }, [proposalId]);
+  }, [proposalId, categoryFilter, selectedDocs]);
 
   const sectionKey = (themeId, docId, sectionId) => `${themeId}::${docId}::${sectionId}`;
 
@@ -173,6 +196,57 @@ export default function RequirementBrowser() {
         <Chip label={`${data.total_requirements.toLocaleString()} requirements`} color="primary" variant="outlined" />
       </Stack>
 
+      <Stack direction={{ xs: 'column', md: 'row' }} spacing={2} sx={{ mb: 2 }}>
+        {/* Category toggle */}
+        <Box>
+          <Typography variant="caption" color="text.secondary" sx={{ ml: 1 }}>Category</Typography>
+          <ToggleButtonGroup
+            size="small"
+            value={categoryFilter}
+            exclusive
+            onChange={(_, v) => setCategoryFilter(v || '')}
+            sx={{ display: 'flex', flexWrap: 'wrap' }}
+          >
+            <ToggleButton value="">All</ToggleButton>
+            {filterOptions.categories.map((c) => (
+              <ToggleButton key={c.category} value={c.category}>
+                {c.category} <Chip size="small" label={c.n_requirements} sx={{ ml: 0.5 }} />
+              </ToggleButton>
+            ))}
+          </ToggleButtonGroup>
+        </Box>
+
+        {/* Document multi-select */}
+        <Box sx={{ flex: 1, minWidth: 280 }}>
+          <Typography variant="caption" color="text.secondary" sx={{ ml: 1 }}>Documents</Typography>
+          <Autocomplete
+            multiple
+            size="small"
+            options={filterOptions.documents}
+            getOptionLabel={(opt) =>
+              `${opt.document_name || `Doc #${opt.document_id}`}  (${opt.n_requirements})`
+            }
+            isOptionEqualToValue={(a, b) => a.document_id === b.document_id}
+            value={selectedDocs}
+            onChange={(_, newValue) => setSelectedDocs(newValue)}
+            renderInput={(params) => (
+              <TextField {...params} placeholder="All documents" />
+            )}
+            renderTags={(value, getTagProps) =>
+              value.map((option, index) => (
+                <Chip
+                  size="small"
+                  variant="outlined"
+                  label={(option.document_name || `Doc #${option.document_id}`).slice(0, 32)}
+                  {...getTagProps({ index })}
+                  key={option.document_id}
+                />
+              ))
+            }
+          />
+        </Box>
+      </Stack>
+
       <TextField
         fullWidth
         size="small"
@@ -202,6 +276,14 @@ export default function RequirementBrowser() {
               <Typography variant="subtitle1" sx={{ fontWeight: 700, flex: 1 }}>
                 {theme.theme_label}
               </Typography>
+              {theme.category ? (
+                <Chip
+                  size="small"
+                  label={theme.category}
+                  variant="outlined"
+                  sx={{ mr: 1, bgcolor: 'background.paper', borderColor: 'background.paper' }}
+                />
+              ) : null}
               <Chip size="small" label={`${theme.n_requirements} reqs`} sx={{ mr: 1, bgcolor: 'background.paper' }} />
               {themeOpen ? <ExpandLessIcon /> : <ExpandMoreIcon />}
             </Box>

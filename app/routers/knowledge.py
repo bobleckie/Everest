@@ -787,6 +787,8 @@ def get_requirement_bundle(
 def get_requirement_tree(
     proposal_id: Optional[int] = Query(None),
     summary: bool = Query(True, description="If true (default), return only the theme/doc/section skeleton with counts; load requirements per section via /sections/{key}/requirements."),
+    category: Optional[str] = Query(None, description="Filter to one top-level category: Technical | Operational | Commercial | Compliance | Other"),
+    document_ids: Optional[str] = Query(None, description="Comma-separated document_ids to scope the tree to."),
     db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user),
 ):
@@ -808,11 +810,26 @@ def get_requirement_tree(
     if proposal_id is not None:
         clauses.append("(r.proposal_id = :pid OR r.proposal_id IS NULL)")
         params["pid"] = proposal_id
+    if category:
+        clauses.append("rt.category = :cat")
+        params["cat"] = category
+    doc_id_list: Optional[List[int]] = None
+    if document_ids:
+        try:
+            doc_id_list = [int(x) for x in document_ids.split(",") if x.strip()]
+        except ValueError:
+            raise HTTPException(status_code=400, detail="document_ids must be comma-separated integers")
+        if doc_id_list:
+            placeholders = ",".join(f":did_{i}" for i in range(len(doc_id_list)))
+            clauses.append(f"b.source_doc_id IN ({placeholders})")
+            for i, did in enumerate(doc_id_list):
+                params[f"did_{i}"] = did
     where_full = "WHERE " + " AND ".join(clauses)
 
     if summary:
         agg = db.execute(text(f"""
-            SELECT b.theme_id, b.theme_label, b.source_doc_id, b.source_doc_name,
+            SELECT b.theme_id, b.theme_label, rt.category AS theme_category,
+                   b.source_doc_id, b.source_doc_name,
                    r.section_id, b.breadcrumb,
                    COUNT(*) AS n_reqs,
                    SUM(CASE WHEN b.n_resolved_refs > 0 THEN 1 ELSE 0 END) AS n_with_refs,
@@ -820,8 +837,10 @@ def get_requirement_tree(
                    SUM(CASE WHEN b.n_tables > 0 THEN 1 ELSE 0 END) AS n_with_tables
             FROM requirement_context_bundle b
             JOIN rfp_requirements r ON r.id = b.requirement_id
+            LEFT JOIN requirement_themes rt ON rt.id = b.theme_id
             {where_full}
-            GROUP BY b.theme_id, b.theme_label, b.source_doc_id, b.source_doc_name,
+            GROUP BY b.theme_id, b.theme_label, rt.category,
+                     b.source_doc_id, b.source_doc_name,
                      r.section_id, b.breadcrumb
             ORDER BY b.theme_id, b.source_doc_id, r.section_id
         """), params).fetchall()
@@ -833,6 +852,7 @@ def get_requirement_tree(
             theme = themes.setdefault(tid, {
                 "theme_id": tid,
                 "theme_label": row.theme_label or "Uncategorized",
+                "category": row.theme_category or "Other",
                 "documents": {},
                 "n_requirements": 0,
             })
@@ -925,6 +945,60 @@ def get_requirement_tree(
         theme["documents"] = doc_list
         out.append(theme)
     return {"themes": out, "total_requirements": len(rows)}
+
+
+@router.get("/requirements/filters")
+def get_requirement_filters(
+    proposal_id: Optional[int] = Query(None),
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Lightweight filter options for the requirement browser:
+    available top-level categories with their requirement counts and the
+    list of source documents the user can scope to.
+    """
+    from sqlalchemy import text
+    params: Dict[str, Any] = {}
+    where = "(r.rollup_role IS NULL OR r.rollup_role = 'parent')"
+    if proposal_id is not None:
+        where += " AND (r.proposal_id = :pid OR r.proposal_id IS NULL)"
+        params["pid"] = proposal_id
+
+    cats = db.execute(text(f"""
+        SELECT COALESCE(rt.category, 'Other') AS category, COUNT(*) AS n
+        FROM requirement_context_bundle b
+        JOIN rfp_requirements r ON r.id = b.requirement_id
+        LEFT JOIN requirement_themes rt ON rt.id = b.theme_id
+        WHERE {where}
+        GROUP BY COALESCE(rt.category, 'Other')
+        ORDER BY n DESC
+    """), params).fetchall()
+
+    docs = db.execute(text(f"""
+        SELECT b.source_doc_id AS document_id,
+               b.source_doc_name AS document_name,
+               COUNT(*) AS n_requirements
+        FROM requirement_context_bundle b
+        JOIN rfp_requirements r ON r.id = b.requirement_id
+        WHERE {where} AND b.source_doc_id IS NOT NULL
+        GROUP BY b.source_doc_id, b.source_doc_name
+        ORDER BY n_requirements DESC
+    """), params).fetchall()
+
+    return {
+        "categories": [
+            {"category": r.category, "n_requirements": int(r.n)}
+            for r in cats
+        ],
+        "documents": [
+            {
+                "document_id": r.document_id,
+                "document_name": r.document_name,
+                "n_requirements": int(r.n_requirements),
+            }
+            for r in docs
+        ],
+    }
 
 
 @router.get("/requirements/in-section")
