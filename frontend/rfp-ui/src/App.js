@@ -25,6 +25,8 @@ import Questions from './pages/Questions';
 import QuestionTriage from './pages/QuestionTriage';
 import RfpDiff from './pages/RfpDiff';
 import ResponseWorkbench from './pages/ResponseWorkbench';
+import RequirementBrowser from './pages/RequirementBrowser';
+import RequirementDetail from './pages/RequirementDetail';
 import Settings from './pages/Settings';
 // Legacy pages (still accessible via direct URL)
 import Workflows from './pages/Workflows';
@@ -125,6 +127,8 @@ function AuthenticatedApp() {
             <Route path="/p/:proposalId/rfp-diff" element={<RfpDiff />} />
             <Route path="/p/:proposalId/diff-questions" element={<DiffQuestionAnalysis />} />
             <Route path="/p/:proposalId/workbench" element={<ResponseWorkbench />} />
+            <Route path="/p/:proposalId/requirement-browser" element={<RequirementBrowser />} />
+            <Route path="/p/:proposalId/requirement/:requirementId" element={<RequirementDetail />} />
 
             {/* Legacy global pages (preserved) */}
             <Route path="/legacy-dashboard" element={<Dashboard />} />
@@ -146,6 +150,8 @@ function AuthenticatedApp() {
             <Route path="/rfp-diff" element={<RfpDiff />} />
             <Route path="/diff-questions" element={<DiffQuestionAnalysis />} />
             <Route path="/workbench" element={<ResponseWorkbench />} />
+            <Route path="/requirement-browser" element={<RequirementBrowser />} />
+            <Route path="/requirement/:requirementId" element={<RequirementDetail />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="/proposals" element={<Proposals />} />
             <Route path="/workflows" element={<Workflows />} />

@@ -97,6 +97,7 @@ const navGroups = [
     subtitle: 'Understand requirements, surface gaps and questions',
     icon: <AssignmentIcon />,
     items: [
+      { id: 'requirement-browser', path: '/requirement-browser', label: 'Requirement Browser', icon: <AssignmentIcon /> },
       { id: 'compliance',      path: '/compliance-matrix', label: 'Compliance Matrix', icon: <AssignmentIcon /> },
       { id: 'knowledge',       path: '/knowledge-base',    label: 'Knowledge Base',    icon: <KnowledgeIcon /> },
       { id: 'questions',       path: '/questions',         label: 'RFP Questions',     icon: <QuestionIcon /> },

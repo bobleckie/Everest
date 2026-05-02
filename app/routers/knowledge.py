@@ -721,6 +721,216 @@ def get_requirement_citations(
     }
 
 
+@router.get("/requirements/{requirement_id}/bundle")
+def get_requirement_bundle(
+    requirement_id: int,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """
+    Return the full context bundle for a single requirement.
+
+    The bundle is precomputed by ``scripts/context/run_all.py`` and stored in
+    ``requirement_context_bundle.bundle_json``. It contains everything the
+    Requirement Detail UI needs to render in one round-trip:
+
+      - The requirement itself (title, description, source_text, classifiers).
+      - Its theme and breadcrumb section path.
+      - The verbatim source paragraph plus N chunks before/after.
+      - All resolved cross-references (Section X.Y, Appendix C, etc.) with
+        target document/section/excerpt populated.
+      - Reverse references (other requirements that point at this one).
+      - Glossary terms appearing in the requirement text.
+      - Tables nearby in the same section (with header + preview rows).
+
+    If the pipeline has not been run, returns 503 with a hint.
+    """
+    from sqlalchemy import text
+    row = db.execute(
+        text("SELECT bundle_json FROM requirement_context_bundle WHERE requirement_id=:rid"),
+        {"rid": requirement_id},
+    ).first()
+    if not row:
+        # Bundle missing — either pipeline not run or this is a superseded row.
+        existing = db.query(RfpRequirement).filter(RfpRequirement.id == requirement_id).first()
+        if not existing:
+            raise HTTPException(status_code=404, detail="Requirement not found")
+        raise HTTPException(
+            status_code=503,
+            detail=(
+                "Context bundle not built for this requirement. Run "
+                "`python -m scripts.context.run_all` to (re)build the pipeline."
+            ),
+        )
+    return json.loads(row[0])
+
+
+@router.get("/requirements/tree")
+def get_requirement_tree(
+    proposal_id: Optional[int] = Query(None),
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """
+    Return the browsing tree: theme → document → section → requirement.
+
+    Only surviving (non-superseded) requirements with a built bundle are
+    included. The tree is precomputed each call from the indexed bundle
+    rows; no per-requirement JSON is returned here (use /bundle for that).
+    """
+    from sqlalchemy import text
+    where = ""
+    params = {}
+    if proposal_id is not None:
+        where = "WHERE r.proposal_id = :pid OR r.proposal_id IS NULL"
+        params["pid"] = proposal_id
+
+    rows = db.execute(text(f"""
+        SELECT r.id AS req_id, r.title, r.section_id, r.priority, r.category,
+               r.compliance_status, r.requirement_class,
+               b.theme_id, b.theme_label, b.source_doc_id, b.source_doc_name,
+               b.breadcrumb,
+               b.n_refs, b.n_resolved_refs, b.n_glossary, b.n_reverse_refs, b.n_tables
+        FROM requirement_context_bundle b
+        JOIN rfp_requirements r ON r.id = b.requirement_id
+        {where}
+        ORDER BY b.theme_id, b.source_doc_id, r.section_id, r.id
+    """), params).fetchall()
+
+    themes: Dict[Any, Dict] = {}
+    for r in rows:
+        tid = r.theme_id or 0
+        theme = themes.setdefault(tid, {
+            "theme_id": tid, "theme_label": r.theme_label or "Uncategorized",
+            "documents": {},
+            "n_requirements": 0,
+        })
+        theme["n_requirements"] += 1
+        doc = theme["documents"].setdefault(r.source_doc_id, {
+            "document_id": r.source_doc_id,
+            "document_name": r.source_doc_name,
+            "sections": {},
+            "n_requirements": 0,
+        })
+        doc["n_requirements"] += 1
+        sec_key = r.section_id or "(no section)"
+        sec = doc["sections"].setdefault(sec_key, {
+            "section_id": sec_key,
+            "breadcrumb": r.breadcrumb,
+            "requirements": [],
+        })
+        sec["requirements"].append({
+            "requirement_id": r.req_id,
+            "title": r.title,
+            "priority": r.priority,
+            "category": r.category,
+            "compliance_status": r.compliance_status,
+            "requirement_class": r.requirement_class,
+            "n_refs": r.n_refs, "n_resolved_refs": r.n_resolved_refs,
+            "n_glossary": r.n_glossary, "n_reverse_refs": r.n_reverse_refs,
+            "n_tables": r.n_tables,
+        })
+
+    # Convert dicts to lists ordered by their natural key
+    out = []
+    for tid in sorted(themes.keys()):
+        theme = themes[tid]
+        doc_list = sorted(theme["documents"].values(),
+                          key=lambda d: (d["document_id"] or 0))
+        for d in doc_list:
+            d["sections"] = sorted(d["sections"].values(),
+                                    key=lambda s: s["section_id"])
+        theme["documents"] = doc_list
+        out.append(theme)
+    return {"themes": out, "total_requirements": len(rows)}
+
+
+@router.get("/glossary")
+def get_glossary(
+    proposal_id: Optional[int] = Query(None),
+    document_id: Optional[int] = Query(None),
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """List defined terms extracted from the corpus."""
+    from sqlalchemy import text
+    where = []
+    params: Dict[str, Any] = {}
+    if document_id is not None:
+        where.append("gt.document_id = :did")
+        params["did"] = document_id
+    where_sql = ("WHERE " + " AND ".join(where)) if where else ""
+    rows = db.execute(text(f"""
+        SELECT gt.id, gt.term, gt.definition, gt.scope,
+               gt.document_id, ind.original_filename AS document_name,
+               gt.section_code,
+               (SELECT COUNT(*) FROM requirement_glossary_links rgl
+                WHERE rgl.glossary_term_id = gt.id) AS n_uses
+        FROM glossary_terms gt
+        LEFT JOIN ingested_documents ind ON ind.id = gt.document_id
+        {where_sql}
+        ORDER BY gt.term COLLATE NOCASE
+    """), params).fetchall()
+    return {
+        "terms": [
+            {
+                "id": r.id, "term": r.term, "definition": r.definition,
+                "scope": r.scope, "document_id": r.document_id,
+                "document_name": r.document_name, "section_code": r.section_code,
+                "n_uses": r.n_uses,
+            }
+            for r in rows
+        ]
+    }
+
+
+@router.get("/tables/{table_id}")
+def get_table(
+    table_id: int,
+    highlight_rows: Optional[str] = Query(None, description="Comma-separated row indexes to highlight"),
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Return a structured table with all rows. Use highlight_rows to mark in-scope rows for the UI."""
+    from sqlalchemy import text
+    head = db.execute(text("""
+        SELECT et.id, et.document_id, et.section_code, et.title,
+               et.header_row_json, et.n_rows, et.n_cols, ind.original_filename
+        FROM extracted_tables et
+        LEFT JOIN ingested_documents ind ON ind.id = et.document_id
+        WHERE et.id = :tid
+    """), {"tid": table_id}).first()
+    if not head:
+        raise HTTPException(status_code=404, detail="Table not found")
+    rows = db.execute(text("""
+        SELECT row_index, cells_json FROM extracted_table_rows
+        WHERE table_id = :tid ORDER BY row_index
+    """), {"tid": table_id}).fetchall()
+    highlight_set = set()
+    if highlight_rows:
+        for s in highlight_rows.split(","):
+            s = s.strip()
+            if s.isdigit():
+                highlight_set.add(int(s))
+    return {
+        "table_id": head.id,
+        "document_id": head.document_id,
+        "document_name": head.original_filename,
+        "section_code": head.section_code,
+        "title": head.title,
+        "header": json.loads(head.header_row_json) if head.header_row_json else None,
+        "n_rows": head.n_rows, "n_cols": head.n_cols,
+        "rows": [
+            {
+                "row_index": r.row_index,
+                "cells": json.loads(r.cells_json),
+                "highlighted": r.row_index in highlight_set,
+            }
+            for r in rows
+        ],
+    }
+
+
 @router.get("/requirements/{requirement_id}/source")
 def get_requirement_source(
     requirement_id: int,
