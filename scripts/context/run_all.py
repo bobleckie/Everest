@@ -17,6 +17,7 @@ from . import (
     s05_resolve_references,
     s06_reverse_and_glossary_links,
     s07_volume_rollup,
+    s09_subpart_rollup,
     s08_build_bundle,
 )
 
@@ -29,6 +30,7 @@ STAGES = [
     s05_resolve_references,
     s06_reverse_and_glossary_links,
     s07_volume_rollup,
+    s09_subpart_rollup,   # must run after s07 and before s08
     s08_build_bundle,
 ]
 

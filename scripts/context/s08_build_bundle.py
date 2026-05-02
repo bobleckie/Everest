@@ -207,6 +207,18 @@ def main() -> int:
     ):
         theme_assign[rid] = tid
 
+    # Rollup children by parent
+    children_by_parent: Dict[int, List[int]] = defaultdict(list)
+    for parent_rid, child_rid in cur.execute(
+        "SELECT parent_requirement_id, child_requirement_id FROM requirement_groups"
+    ):
+        children_by_parent[parent_rid].append(child_rid)
+    parent_of_child: Dict[int, int] = {}
+    for parent_rid, child_rid in cur.execute(
+        "SELECT parent_requirement_id, child_requirement_id FROM requirement_groups"
+    ):
+        parent_of_child[child_rid] = parent_rid
+
     # Tables by section_code
     tables_by_section: Dict[tuple, List[dict]] = defaultdict(list)
     for tid, did, sec, title, header, n_rows, n_cols in cur.execute(
@@ -291,6 +303,26 @@ def main() -> int:
         theme_id = theme_assign.get(rid)
         theme = theme_meta.get(theme_id, {})
 
+        # Sub-parts: if this row is a parent, embed its children's titles +
+        # source_text so the detail view can render them as nested items.
+        sub_parts: List[dict] = []
+        for child_rid in children_by_parent.get(rid, []):
+            child_row = cur.execute(
+                """SELECT id, requirement_id, title, description, source_text,
+                          priority, category, compliance_status
+                   FROM rfp_requirements WHERE id=?""",
+                (child_rid,),
+            ).fetchone()
+            if not child_row:
+                continue
+            sub_parts.append({
+                "id": child_row[0], "code": child_row[1], "title": child_row[2],
+                "description": child_row[3], "source_text": child_row[4],
+                "priority": child_row[5], "category": child_row[6],
+                "compliance_status": child_row[7],
+            })
+        rollup_parent_id = parent_of_child.get(rid)
+
         bundle = {
             "requirement": {
                 "id": rid, "code": code, "title": title,
@@ -301,7 +333,10 @@ def main() -> int:
                 "section_id": scode, "source_page": page,
                 "extraction_pass": extr_pass,
                 "reviewer_confidence": conf,
+                "rollup_parent_id": rollup_parent_id,
+                "n_sub_parts": len(sub_parts),
             },
+            "sub_parts": sub_parts,
             "theme": theme,
             "breadcrumb": breadcrumb,
             "source": source,

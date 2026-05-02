@@ -226,6 +226,50 @@ export default function RequirementDetail() {
         </Paper>
       ) : null}
 
+      {/* Sub-parts (children of this parent obligation) */}
+      {bundle.sub_parts?.length ? (
+        <Paper sx={{ p: 3, mb: 2 }}>
+          <Typography variant="overline" color="text.secondary">
+            Sub-parts of this obligation ({bundle.sub_parts.length})
+          </Typography>
+          <Stack spacing={1.5} sx={{ mt: 1 }}>
+            {bundle.sub_parts.map((sp) => (
+              <Box key={sp.id} sx={{ pl: 2, borderLeft: '3px solid', borderColor: 'secondary.light' }}>
+                <Stack direction="row" alignItems="center" spacing={1}>
+                  <RouterLink
+                    to={proposalId ? `/p/${proposalId}/requirement/${sp.id}` : `/requirement/${sp.id}`}
+                    style={{ textDecoration: 'none', color: 'inherit', flex: 1 }}
+                  >
+                    <Typography variant="body2" sx={{ fontWeight: 600 }}>{sp.title}</Typography>
+                  </RouterLink>
+                  {sp.priority ? <Chip size="small" label={sp.priority} color={PRIORITY_COLOR[sp.priority] || 'default'} /> : null}
+                </Stack>
+                {sp.description ? (
+                  <Typography variant="body2" color="text.secondary" sx={{ mt: 0.5 }}>
+                    {sp.description}
+                  </Typography>
+                ) : null}
+              </Box>
+            ))}
+          </Stack>
+        </Paper>
+      ) : null}
+
+      {/* Parent pointer (if this is a sub-part) */}
+      {r.rollup_parent_id ? (
+        <Paper sx={{ p: 2, mb: 2, bgcolor: 'grey.50' }}>
+          <Typography variant="caption" color="text.secondary">
+            This is a sub-part of a larger obligation —{' '}
+            <RouterLink
+              to={proposalId ? `/p/${proposalId}/requirement/${r.rollup_parent_id}` : `/requirement/${r.rollup_parent_id}`}
+              style={{ color: 'inherit' }}
+            >
+              view the parent
+            </RouterLink>
+          </Typography>
+        </Paper>
+      ) : null}
+
       {/* Glossary terms appearing here */}
       {bundle.glossary_terms?.length ? (
         <Paper sx={{ p: 3, mb: 2 }}>

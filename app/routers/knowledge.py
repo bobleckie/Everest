@@ -779,21 +779,24 @@ def get_requirement_tree(
     rows; no per-requirement JSON is returned here (use /bundle for that).
     """
     from sqlalchemy import text
-    where = ""
-    params = {}
+    params: Dict[str, Any] = {}
+    clauses = ["(r.rollup_role IS NULL OR r.rollup_role = 'parent')"]
     if proposal_id is not None:
-        where = "WHERE r.proposal_id = :pid OR r.proposal_id IS NULL"
+        clauses.append("(r.proposal_id = :pid OR r.proposal_id IS NULL)")
         params["pid"] = proposal_id
+    where_full = "WHERE " + " AND ".join(clauses)
 
     rows = db.execute(text(f"""
         SELECT r.id AS req_id, r.title, r.section_id, r.priority, r.category,
-               r.compliance_status, r.requirement_class,
+               r.compliance_status, r.requirement_class, r.rollup_role,
                b.theme_id, b.theme_label, b.source_doc_id, b.source_doc_name,
                b.breadcrumb,
-               b.n_refs, b.n_resolved_refs, b.n_glossary, b.n_reverse_refs, b.n_tables
+               b.n_refs, b.n_resolved_refs, b.n_glossary, b.n_reverse_refs, b.n_tables,
+               (SELECT COUNT(*) FROM requirement_groups rg
+                  WHERE rg.parent_requirement_id = r.id) AS n_children
         FROM requirement_context_bundle b
         JOIN rfp_requirements r ON r.id = b.requirement_id
-        {where}
+        {where_full}
         ORDER BY b.theme_id, b.source_doc_id, r.section_id, r.id
     """), params).fetchall()
 
@@ -826,6 +829,8 @@ def get_requirement_tree(
             "category": r.category,
             "compliance_status": r.compliance_status,
             "requirement_class": r.requirement_class,
+            "rollup_role": r.rollup_role,
+            "n_children": int(r.n_children or 0),
             "n_refs": r.n_refs, "n_resolved_refs": r.n_resolved_refs,
             "n_glossary": r.n_glossary, "n_reverse_refs": r.n_reverse_refs,
             "n_tables": r.n_tables,

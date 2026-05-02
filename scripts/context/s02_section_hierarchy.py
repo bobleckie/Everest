@@ -118,6 +118,27 @@ def detect_headings(content: str) -> List[Tuple[str, str, int]]:
     return found
 
 
+# A chunk is treated as a table-of-contents listing (which gives titles but
+# does NOT mark a real section start) when many heading-shaped lines are
+# packed densely. We harvest titles from TOCs but don't anchor first_chunk_id
+# to them — body chunks elsewhere are the real source.
+TOC_HEADING_THRESHOLD = 6
+
+
+def is_toc_chunk(content: str, headings: List[Tuple[str, str, int]]) -> bool:
+    if len(headings) < TOC_HEADING_THRESHOLD:
+        return False
+    if len(headings) >= 2:
+        offsets = [h[2] for h in headings]
+        avg_gap = (offsets[-1] - offsets[0]) / max(1, len(offsets) - 1)
+        if avg_gap < 80:
+            return True
+    heading_chars = sum(len(h[1] or "") + len(h[0] or "") for h in headings)
+    if heading_chars >= 0.6 * len(content or ""):
+        return True
+    return False
+
+
 def main() -> int:
     con = connect()
     cur = con.cursor()
@@ -181,6 +202,28 @@ def main() -> int:
         for chunk_id, ci, content, existing in chunks:
             content = content or ""
             headings = detect_headings(content)
+            chunk_is_toc = is_toc_chunk(content, headings)
+
+            # TOC chunks: harvest TITLES but don't use them as first_chunk_id.
+            # Don't transition `current` either — the body section continues.
+            if chunk_is_toc:
+                for code, title, _ in headings:
+                    if code not in per_section:
+                        ord_counter += 1
+                        per_section[code] = {
+                            "title": title,
+                            "depth": depth_of(code),
+                            "ord": ord_counter,
+                            "first_chunk_id": None,   # to be backfilled when we hit a real body chunk
+                            "last_chunk_id": None,
+                            "char_count": 0,
+                        }
+                    else:
+                        # Update title if missing
+                        if not per_section[code].get("title") and title:
+                            per_section[code]["title"] = title
+                # Don't change `current` from a TOC chunk
+                continue
 
             # If chunk starts with a heading, transition.
             if headings and headings[0][2] < 200:  # heading near top
@@ -204,9 +247,15 @@ def main() -> int:
                         "char_count": len(content),
                     }
                 else:
-                    # Reopened — update last_chunk
+                    # Existing section (likely from TOC harvest) — set or
+                    # advance the body anchor to this chunk.
+                    if per_section[code]["first_chunk_id"] is None:
+                        per_section[code]["first_chunk_id"] = chunk_id
                     per_section[code]["last_chunk_id"] = chunk_id
                     per_section[code]["char_count"] += len(content)
+                    # Prefer a body-derived title when prior was empty.
+                    if not per_section[code].get("title") and title:
+                        per_section[code]["title"] = title
 
                 # Sub-headings within the same chunk
                 for sub_code, sub_title, _ in headings[1:]:

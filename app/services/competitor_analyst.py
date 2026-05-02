@@ -1293,7 +1293,13 @@ add the missing document.
 def predict_competitor_response(
     db: Session, competitor_id: int, section_id: str, proposal_id: Optional[int] = None
 ) -> Optional[CompetitorPrediction]:
-    """Generate a predicted RFP response for one section as this competitor."""
+    """Generate a predicted RFP response for one section as this competitor.
+
+    This is the *adversarial bar* Parsons must clear. The prompt is built to
+    extract the strongest realistic response the named competitor could
+    submit — informed by their dossier, prior FOIA responses, and the actual
+    RFP requirements + rubric criteria the section will be scored on.
+    """
     comp = db.query(Competitor).filter(Competitor.id == competitor_id).first()
     if not comp:
         return None
@@ -1317,23 +1323,95 @@ def predict_competitor_response(
     section_title = section_info.title if section_info else section_id
     section_weight = section_info.weight_points if section_info else "unknown"
 
-    prompt = f"""Write a complete RFP response for the section: **{section_title}**
-Weight: {section_weight} points out of 100
+    # ── Pull ACTUAL requirements that fall under this section ───────────
+    # Match by (a) rubric mapping, (b) prefix on rfp_requirements.section_id.
+    from sqlalchemy import or_
+    from ..models import RfpSectionRubricMap, RfpRequirement
+    mapped_section_ids = set()
+    if proposal_id:
+        for m in db.query(RfpSectionRubricMap).filter(
+            RfpSectionRubricMap.proposal_id == proposal_id,
+            RfpSectionRubricMap.rubric_section_id == section_id,
+        ).all():
+            mapped_section_ids.add(m.rfp_section_id)
+    req_q = db.query(RfpRequirement).filter(
+        RfpRequirement.superseded_by_requirement_id.is_(None),
+    )
+    if proposal_id:
+        req_q = req_q.filter(or_(RfpRequirement.proposal_id == proposal_id,
+                                  RfpRequirement.proposal_id.is_(None)))
+    if mapped_section_ids:
+        req_q = req_q.filter(RfpRequirement.section_id.in_(mapped_section_ids))
+    else:
+        req_q = req_q.filter(RfpRequirement.section_id.like(f"{section_id}%"))
+    requirements = req_q.limit(40).all()
 
-This is for the NJ Motor Vehicle Commission Vehicle Inspection Program RFP.
+    # ── Competitor's known capabilities (dossier excerpts) ───────────────
+    from ..models import CompetitorDossier
+    dossier_excerpts: list[str] = []
+    for d in db.query(CompetitorDossier).filter(
+        CompetitorDossier.competitor_id == competitor_id
+    ).limit(10).all():
+        excerpt = (d.summary or d.content or "")[:600]
+        if excerpt:
+            dossier_excerpts.append(f"[{d.category or 'general'}] {excerpt}")
 
-Write this response as {comp.name} would write it, using everything you know about their 
-capabilities, technology, past performance, and approach. 
+    # ── Parsons' draft (so the competitor knows what to beat) ────────────
+    from ..models import RfpSectionResponse
+    parsons_draft_excerpt = None
+    if proposal_id:
+        pr = db.query(RfpSectionResponse).filter(
+            RfpSectionResponse.proposal_id == proposal_id,
+            RfpSectionResponse.rfp_section_id == section_id,
+            RfpSectionResponse.author_type == "parsons",
+        ).first()
+        if pr and pr.response_text:
+            parsons_draft_excerpt = (pr.response_text or "")[:1500]
 
-The response should be:
-- 800-1500 words
-- Specific and detailed (use real technologies, methodologies, staff qualifications)
-- Structured with clear subsections
-- Persuasive and tailored to government evaluators
-- Realistic given what's known about {comp.name}
+    req_block = "\n".join(
+        f"- {r.title} ({r.category or 'requirement'})"
+        + (f"\n    description: {(r.description or '')[:280]}" if r.description else "")
+        for r in requirements[:25]
+    ) or "(no requirement detail wired for this section)"
+    dossier_block = "\n\n".join(dossier_excerpts) or "(no dossier intelligence on file yet)"
+    rubric_block = (
+        f"Title: {section_info.title}\n"
+        f"Weight: {section_info.weight_points} points\n"
+        f"Pass/fail: {section_info.pass_fail}\n"
+        f"Evaluation criteria:\n{section_info.criteria or '(none specified)'}\n"
+    ) if section_info else "(no rubric metadata)"
 
-Also provide a brief "reasoning" paragraph explaining WHY you wrote it this way 
-and what intelligence informed the response."""
+    prompt = f"""You are writing the strongest realistic RFP response section that
+{comp.name} could plausibly submit, given everything we know about their actual
+capabilities. This is for the NJ Motor Vehicle Commission Vehicle Inspection
+Program RFP.
+
+DO NOT exceed what {comp.name} can actually deliver — but DO present their
+real capabilities in the most evaluator-favorable light. The bar must be
+realistic; if you over-claim, the prediction is useless.
+
+Section: **{section_title}** (rubric id: {section_id})
+
+RFP REQUIREMENTS THIS SECTION MUST ADDRESS
+{req_block}
+
+RUBRIC THE EVALUATOR WILL APPLY
+{rubric_block}
+
+WHAT WE KNOW ABOUT {comp.name.upper()} (dossier excerpts)
+{dossier_block}
+
+{"PARSONS' CURRENT DRAFT (FOR YOUR INTELLIGENCE — beat its strongest claims):" if parsons_draft_excerpt else ""}
+{parsons_draft_excerpt or ""}
+
+Output a complete response section, 800–1500 words, structured with clear
+subsection headings, written in the voice of {comp.name}'s capture team.
+Specific technologies, named methodologies, real staff disciplines,
+quantified past-performance where the dossier supports it.
+
+After the response, add a "## Reasoning" subsection (1–2 paragraphs) that
+explains WHY you wrote it that way and what intelligence informed each move.
+"""
 
     system = persona.system_prompt if persona and persona.system_prompt else f"You are writing RFP responses as {comp.name}."
     full_response = _call_ai(prompt, system=system)

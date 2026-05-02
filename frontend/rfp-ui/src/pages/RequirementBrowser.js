@@ -282,6 +282,11 @@ function RequirementRow({ req, proposalId }) {
         <Chip size="small" label={req.compliance_status} color={COMPLIANCE_COLOR[req.compliance_status] || 'default'} />
       ) : null}
       <Stack direction="row" spacing={0.5}>
+        {req.n_children ? (
+          <Tooltip title={`${req.n_children} sub-parts rolled up under this obligation`}>
+            <Chip size="small" color="secondary" label={`+${req.n_children}`} />
+          </Tooltip>
+        ) : null}
         {req.n_resolved_refs ? (
           <Tooltip title={`${req.n_resolved_refs} resolved cross-references`}>
             <Chip size="small" icon={<LinkIcon />} label={req.n_resolved_refs} variant="outlined" />
