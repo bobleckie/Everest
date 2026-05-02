@@ -53,6 +53,8 @@ export default function RequirementBrowser() {
   const [openThemes, setOpenThemes] = useState({});
   const [openDocs, setOpenDocs] = useState({});
   const [openSections, setOpenSections] = useState({});
+  const [docPages, setDocPages] = useState({});      // docKey -> page index
+  const [docPageSize, setDocPageSize] = useState(25); // sections per page per doc
 
   // Per-section lazy-loaded requirement caches:
   // sectionDataByKey[`${doc_id}::${section_id}`] = { rows, total, offset, limit, loading, error }
@@ -181,7 +183,7 @@ export default function RequirementBrowser() {
       />
 
       {data.themes.map((theme) => {
-        const themeOpen = openThemes[theme.theme_id] !== false; // default open
+        const themeOpen = !!openThemes[theme.theme_id]; // default closed
         return (
           <Paper key={theme.theme_id} elevation={1} sx={{ mb: 1.5 }}>
             <Box
@@ -207,7 +209,11 @@ export default function RequirementBrowser() {
               <Box sx={{ pl: 1.5, pr: 1, pt: 1, pb: 1 }}>
                 {theme.documents.map((doc) => {
                   const docKey = `${theme.theme_id}::${doc.document_id}`;
-                  const docOpen = openDocs[docKey] !== false;
+                  const docOpen = !!openDocs[docKey]; // default closed
+                  const docPage = docPages[docKey] || 0;
+                  const totalSecs = doc.sections.length;
+                  const pageStart = docPage * docPageSize;
+                  const visibleSections = doc.sections.slice(pageStart, pageStart + docPageSize);
                   return (
                     <Box key={docKey} sx={{ mb: 1 }}>
                       <Stack
@@ -221,12 +227,12 @@ export default function RequirementBrowser() {
                         <Typography variant="body2" sx={{ fontWeight: 600, flex: 1 }}>
                           {doc.document_name || `Document #${doc.document_id}`}
                         </Typography>
-                        <Chip size="small" variant="outlined" label={`${doc.n_requirements}`} />
+                        <Chip size="small" variant="outlined" label={`${doc.n_requirements} reqs · ${totalSecs} sections`} />
                         {docOpen ? <ExpandLessIcon fontSize="small" /> : <ExpandMoreIcon fontSize="small" />}
                       </Stack>
                       <Collapse in={docOpen} unmountOnExit>
                         <Box sx={{ pl: 3 }}>
-                          {doc.sections.map((sec) => {
+                          {visibleSections.map((sec) => {
                             const secKey = sectionKey(theme.theme_id, doc.document_id, sec.section_id);
                             const secOpen = !!openSections[secKey];
                             const secData = sectionDataByKey[secKey];
@@ -309,6 +315,24 @@ export default function RequirementBrowser() {
                               </Box>
                             );
                           })}
+                          {totalSecs > docPageSize ? (
+                            <TablePagination
+                              component="div"
+                              count={totalSecs}
+                              page={docPage}
+                              onPageChange={(_, newPage) =>
+                                setDocPages((s) => ({ ...s, [docKey]: newPage }))
+                              }
+                              rowsPerPage={docPageSize}
+                              onRowsPerPageChange={(e) => {
+                                setDocPageSize(parseInt(e.target.value, 10));
+                                setDocPages((s) => ({ ...s, [docKey]: 0 }));
+                              }}
+                              rowsPerPageOptions={[10, 25, 50, 100]}
+                              labelRowsPerPage="Sections per page:"
+                              sx={{ '.MuiTablePagination-toolbar': { minHeight: 36, py: 0 } }}
+                            />
+                          ) : null}
                         </Box>
                       </Collapse>
                     </Box>
