@@ -10,6 +10,7 @@ python-pptx
 reportlab
 jinja2
 langchain
+langchain-openai
 openai
 anthropic
 sentence-transformers
