@@ -87,7 +87,8 @@ def main() -> int:
 
     inserted_rev = 0
     seen_pairs = set()
-    for rr_id, referrer, target_sid in cur.execute(
+    sel_rev = con.cursor()
+    for rr_id, referrer, target_sid in sel_rev.execute(
         """SELECT id, requirement_id, target_section_id FROM requirement_references
            WHERE target_section_id IS NOT NULL"""
     ):
@@ -124,48 +125,54 @@ def main() -> int:
     for tid, term, tn in terms:
         if len(tn) < 3:
             continue
-        # Skip noisy "fragments-as-terms" — must contain at least one space-or-hyphen
-        # OR be all-caps acronym OR start with a Capitalized word.
-        if " " not in term and "-" not in term and not (term.isupper() or term[0].isupper()):
+        # Skip if first character isn't alphabetic
+        if not term or not term[0].isalpha():
+            continue
+        # Skip lowercase-leading multi-word terms (likely fragments)
+        if " " in term and term[0].islower():
             continue
         # Don't double-register the same normalized term
         if tn in norm_to_id:
             continue
         norm_to_id[tn] = tid
-        # Build a regex pattern that's case-insensitive with word boundaries
-        # and tolerates internal whitespace differences.
-        pat = r"\b" + re.escape(term.strip()) + r"\b"
+        # Build a regex pattern. For multi-word terms, allow flexible
+        # whitespace; for single-word terms, require word boundaries.
+        # Hand-build instead of re.sub: re.sub's replacement parser plus
+        # re.escape's output combine to double-escape backslashes.
+        clean = term.strip()
+        if " " in clean:
+            parts = [re.escape(p) for p in re.split(r"\s+", clean) if p]
+            pat = r"\b" + r"\s+".join(parts) + r"\b"
+        else:
+            pat = r"\b" + re.escape(clean) + r"\b"
         safe_terms.append((pat, tid))
 
-    safe_terms.sort(key=lambda x: -len(x[0]))
-    big_pat = re.compile("|".join(f"(?P<t{i}>{p})" for i, (p, _) in enumerate(safe_terms)), re.I)
-    pat_to_tid: Dict[str, int] = {f"t{i}": tid for i, (_, tid) in enumerate(safe_terms)}
+    # Pre-compile every term's regex separately. Iterating each over the
+    # corpus is O(reqs × terms) but with ~50 terms × 10K reqs that's
+    # negligible and avoids the alternation pitfalls.
+    compiled = [(re.compile(p, re.I), tid) for p, tid in safe_terms]
 
     inserted_gloss = 0
-    seen: set = set()
-    for req_id, src, desc, title in cur.execute(
+    # Use a separate cursor for the SELECT iteration so INSERTs on `cur`
+    # don't invalidate it.
+    sel = con.cursor()
+    for req_id, src, desc, title in sel.execute(
         """SELECT id, source_text, description, title
            FROM rfp_requirements WHERE superseded_by_requirement_id IS NULL"""
     ):
         text = " ".join(filter(None, [title, desc, src]))
-        counts: Dict[int, int] = defaultdict(int)
-        for m in big_pat.finditer(text or ""):
-            for grp_name, tid in pat_to_tid.items():
-                if m.group(grp_name):
-                    counts[tid] += 1
-                    break
-        for tid, n in counts.items():
-            key = (req_id, tid)
-            if key in seen:
-                continue
-            seen.add(key)
-            cur.execute(
-                """INSERT INTO requirement_glossary_links
-                   (requirement_id, glossary_term_id, occurrences)
-                   VALUES (?, ?, ?)""",
-                (req_id, tid, n),
-            )
-            inserted_gloss += 1
+        if not text:
+            continue
+        for rx, tid in compiled:
+            n = len(rx.findall(text))
+            if n:
+                cur.execute(
+                    """INSERT OR IGNORE INTO requirement_glossary_links
+                       (requirement_id, glossary_term_id, occurrences)
+                       VALUES (?, ?, ?)""",
+                    (req_id, tid, n),
+                )
+                inserted_gloss += cur.rowcount
     con.commit()
 
     print()

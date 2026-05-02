@@ -10,7 +10,11 @@ DB_PATH = Path(__file__).resolve().parent.parent.parent / "rfp.db"
 
 def connect() -> sqlite3.Connection:
     con = sqlite3.connect(DB_PATH)
-    con.execute("PRAGMA foreign_keys = ON")
+    # Foreign keys deliberately OFF — every pipeline stage drops + recreates
+    # its own tables, and dependent rows in downstream tables would block
+    # the DROP under FK enforcement. The script semantically guarantees
+    # consistency by re-running stages in order.
+    con.execute("PRAGMA foreign_keys = OFF")
     con.execute("PRAGMA journal_mode = WAL")
     return con
 

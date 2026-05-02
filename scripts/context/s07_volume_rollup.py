@@ -249,12 +249,33 @@ def main() -> int:
         )
     cur.execute("UPDATE rfp_requirements SET primary_section_id = NULL")
 
-    # Build section lookup: (doc_id, lower-section_code) -> sh.id
+    # Build section lookup with several normalization passes:
+    #   - exact (case-insensitive)
+    #   - stripped of parentheticals  ("7 (Federal)" -> "7")
+    #   - stripped of trailing alpha+numbers ("3.13.1.A" -> "3.13.1")
+    #   - title contains keyword (last-resort, doc-scoped)
     sh_lookup: dict[Tuple[int, str], int] = {}
-    for sid, did, code in cur.execute(
-        "SELECT id, document_id, section_code FROM section_hierarchy"
+    sh_global_by_code: dict[str, int] = {}
+    sh_titles: dict[Tuple[int, int], str] = {}     # (doc_id, sh_id) -> title
+    for sid, did, code, title in cur.execute(
+        "SELECT id, document_id, section_code, title FROM section_hierarchy"
     ):
-        sh_lookup[(did, code.lower())] = sid
+        c = code.lower().strip()
+        sh_lookup[(did, c)] = sid
+        # Strip parenthetical "(Foo)" suffix
+        c2 = re.sub(r"\s*\([^)]+\)\s*$", "", c).strip()
+        if c2 and (did, c2) not in sh_lookup:
+            sh_lookup[(did, c2)] = sid
+        # Numeric-only prefix "3.13.1.A" -> "3.13.1"
+        m = re.match(r"^(\d+(?:\.\d+)*)", c2)
+        if m:
+            num = m.group(1)
+            if (did, num) not in sh_lookup:
+                sh_lookup[(did, num)] = sid
+        sh_global_by_code.setdefault(c, sid)
+        if c2 != c:
+            sh_global_by_code.setdefault(c2, sid)
+        sh_titles[(did, sid)] = (title or "")
 
     # Iterate surviving reqs
     rows = cur.execute(
@@ -280,16 +301,54 @@ def main() -> int:
             (rid, theme_id, conf),
         )
 
-        # Pin to a section_hierarchy node
+        # Pin to a section_hierarchy node — try progressively looser matches.
         sec_id = None
         if scode:
-            sec_id = sh_lookup.get((did, scode.lower()))
+            scode_lower = scode.lower().strip()
+            # 1. Exact (case-insensitive) same-doc
+            sec_id = sh_lookup.get((did, scode_lower))
+            # 2. Strip parenthetical suffix
             if not sec_id:
-                # Try cross-doc match
-                for (d, c), sid_ in sh_lookup.items():
-                    if c == scode.lower():
+                stripped = re.sub(r"\s*\([^)]+\)\s*$", "", scode_lower).strip()
+                if stripped and stripped != scode_lower:
+                    sec_id = sh_lookup.get((did, stripped))
+            # 3. Numeric prefix only ("3.13.1.A" -> "3.13.1")
+            if not sec_id:
+                m = re.match(r"^(\d+(?:\.\d+)*)", scode_lower)
+                if m:
+                    sec_id = sh_lookup.get((did, m.group(1)))
+            # 4. Cross-doc exact
+            if not sec_id:
+                sec_id = sh_global_by_code.get(scode_lower)
+            # 5. Title-keyword match within same doc (last resort)
+            if not sec_id and len(scode_lower) >= 4:
+                # Split section_id into significant tokens and search titles
+                tokens = [t for t in re.split(r"[\s\-_/]+", scode_lower) if len(t) >= 4]
+                for (d, sid_), title in sh_titles.items():
+                    if d != did or not title:
+                        continue
+                    title_lower = title.lower()
+                    if all(t in title_lower for t in tokens) if tokens else False:
                         sec_id = sid_
                         break
+        # 6. Source-link fallback — use the chunk we already linked this req to.
+        if not sec_id:
+            link = cur.execute(
+                """SELECT lnk.chunk_doc_id, ch.section_id
+                   FROM requirement_source_links lnk
+                   LEFT JOIN document_chunks ch ON ch.id = lnk.chunk_id
+                   WHERE lnk.requirement_id = ?""",
+                (rid,),
+            ).fetchone()
+            if link and link[1]:
+                chunk_doc, chunk_sec = link
+                sec_id = sh_lookup.get((chunk_doc, chunk_sec.lower()))
+                if not sec_id:
+                    m = re.match(r"^(\d+(?:\.\d+)*)", chunk_sec.lower())
+                    if m:
+                        sec_id = sh_lookup.get((chunk_doc, m.group(1)))
+                if not sec_id:
+                    sec_id = sh_global_by_code.get(chunk_sec.lower())
         if sec_id:
             cur.execute(
                 "UPDATE rfp_requirements SET primary_section_id=? WHERE id=?",

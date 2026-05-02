@@ -51,19 +51,56 @@ PAT_IS_DEFINED_AS = re.compile(
 )
 
 
+_FRAGMENT_BAD_STARTS = (
+    "a ", "an ", "the ", "as ", "by ", "for ", "from ", "of ", "to ",
+    "with ", "at ", "in ", "on ", "and ", "or ", "but ", "this ", "that ",
+    "these ", "those ", "any ", "if ", "when ", "where ", "while ",
+)
+_FRAGMENT_BAD_TOKENS = (" that ", " which ", " who ", " whose ")
+
+
+def looks_like_fragment(term: str) -> bool:
+    if not term:
+        return True
+    t = term.strip()
+    if len(t) < 3:
+        return True
+    low = t.lower() + " "
+    if low.startswith(_FRAGMENT_BAD_STARTS):
+        return True
+    for tok in _FRAGMENT_BAD_TOKENS:
+        if tok in (" " + low):
+            return True
+    # Must start with a letter, not a digit / punctuation
+    if not t[0].isalpha():
+        return True
+    # Reject if more than 6 words (real terms are short noun phrases)
+    if len(t.split()) > 6:
+        return True
+    return False
+
+
 def collect_pattern_hits(text: str) -> List[Tuple[str, str, str]]:
     """Yield (term, definition, source) tuples found in ``text``."""
     out: List[Tuple[str, str, str]] = []
     for m in PAT_PAREN_ALIAS.finditer(text):
         head, alias, definition = m.group(1).strip(), m.group(2).strip(), norm_ws(m.group(3))
-        out.append((head, definition, "alias"))
-        out.append((alias, definition, "alias"))
+        if not looks_like_fragment(head):
+            out.append((head, definition, "alias"))
+        if not looks_like_fragment(alias):
+            out.append((alias, definition, "alias"))
     for m in PAT_QUOTED_MEANS.finditer(text):
-        out.append((m.group(1).strip(), norm_ws(m.group(2)), "quoted"))
+        term = m.group(1).strip()
+        if not looks_like_fragment(term):
+            out.append((term, norm_ws(m.group(2)), "quoted"))
     for m in PAT_PLAIN_MEANS.finditer(text):
-        out.append((m.group(1).strip(), norm_ws(m.group(2)), "plain"))
+        term = m.group(1).strip()
+        if not looks_like_fragment(term):
+            out.append((term, norm_ws(m.group(2)), "plain"))
     for m in PAT_IS_DEFINED_AS.finditer(text):
-        out.append((m.group(1).strip(), norm_ws(m.group(2)), "is-defined"))
+        term = m.group(1).strip()
+        if not looks_like_fragment(term):
+            out.append((term, norm_ws(m.group(2)), "is-defined"))
     return out
 
 
