@@ -27,6 +27,7 @@ import RfpDiff from './pages/RfpDiff';
 import ResponseWorkbench from './pages/ResponseWorkbench';
 import RequirementBrowser from './pages/RequirementBrowser';
 import RequirementDetail from './pages/RequirementDetail';
+import AdversarialScorecard from './pages/AdversarialScorecard';
 import Settings from './pages/Settings';
 // Legacy pages (still accessible via direct URL)
 import Workflows from './pages/Workflows';
@@ -129,6 +130,7 @@ function AuthenticatedApp() {
             <Route path="/p/:proposalId/workbench" element={<ResponseWorkbench />} />
             <Route path="/p/:proposalId/requirement-browser" element={<RequirementBrowser />} />
             <Route path="/p/:proposalId/requirement/:requirementId" element={<RequirementDetail />} />
+            <Route path="/p/:proposalId/adversarial-scorecard" element={<AdversarialScorecard />} />
 
             {/* Legacy global pages (preserved) */}
             <Route path="/legacy-dashboard" element={<Dashboard />} />
@@ -152,6 +154,7 @@ function AuthenticatedApp() {
             <Route path="/workbench" element={<ResponseWorkbench />} />
             <Route path="/requirement-browser" element={<RequirementBrowser />} />
             <Route path="/requirement/:requirementId" element={<RequirementDetail />} />
+            <Route path="/adversarial-scorecard" element={<AdversarialScorecard />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="/proposals" element={<Proposals />} />
             <Route path="/workflows" element={<Workflows />} />

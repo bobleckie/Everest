@@ -106,6 +106,7 @@ def _load_parsons_pool(db: Session, proposal_id: Optional[int]) -> List[Dict[str
             "page": c.page_number,
             "parsons_category": getattr(d, "parsons_category", None),
             "scope": "proposal" if d.parsons_scope_proposal_id else "global",
+            "form_factor": getattr(c, "form_factor", None),
         })
     return pool
 

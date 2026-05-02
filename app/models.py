@@ -593,6 +593,10 @@ class DocumentChunk(Base):
     # search can boost or filter by exact section. NULL for chunks that
     # don't have a clear section boundary (e.g. cover pages, tables).
     section_id = Column(String, nullable=True, index=True)
+    # Form-factor tag for fit-aware synthesis. See
+    # scripts/context/s12_form_factor_tags.py for the taxonomy. NULL means
+    # general / cross-cutting and survives every fit filter.
+    form_factor = Column(String, nullable=True)
 
 # ── RFP Requirements (extracted from the RFP document) ───────────────
 
@@ -662,6 +666,16 @@ class RfpRequirement(Base):
     response_disposition_classified_at = Column(DateTime, nullable=True)
     # How the disposition was set: regex (rule-based), llm, or manual
     response_disposition_classifier = Column(String, nullable=True)
+    # Form-factor tag for fit-aware Parsons-content matching. Values come
+    # from scripts/context/s12_form_factor_tags.py — keeps "workstation"
+    # content out of "tablet" responses and vice versa.
+    form_factor = Column(String, nullable=True, index=True)
+    # Dedup + rollup metadata, populated by scripts/context/s01 + s09. NULL
+    # means "no relationship recorded" (= a standalone canonical row).
+    superseded_by_requirement_id = Column(Integer, ForeignKey("rfp_requirements.id"), nullable=True)
+    duplicate_group_key = Column(String, nullable=True)
+    rollup_role = Column(String, nullable=True)         # 'parent' | 'child' | NULL
+    primary_section_id = Column(Integer, nullable=True)  # FK to section_hierarchy.id (table managed by scripts)
     # ── Per-requirement Parsons response (the response-from-compliance flow) ─
     # The user-edited / AI-suggested paragraph that answers THIS requirement.
     # Section narratives are assembled from these in the response builder, so

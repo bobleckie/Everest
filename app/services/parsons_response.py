@@ -290,6 +290,37 @@ def draft_response_for_requirement(
     # Pull Parsons pool (global + scoped to this proposal) and rank by similarity.
     pool = _load_parsons_pool(db, req.proposal_id)
     pool_snippets: List[Dict[str, Any]] = []
+
+    # Fit-aware filtering: when the requirement carries a form_factor tag
+    # (set by scripts/context/s12_form_factor_tags.py), drop Parsons chunks
+    # whose form_factor is incompatible. e.g. a "tablet" requirement should
+    # not see "workstation" or "facilities" content. Untagged chunks
+    # (form_factor IS NULL — general content) always survive the filter.
+    req_ff = getattr(req, "form_factor", None)
+    if req_ff and pool:
+        # Compatibility groups: items in the same group are inter-changeable.
+        compat_groups = {
+            "inspection-device": {"tablet", "workstation", "mobile-lane"},
+            "facility":          {"cif", "pif", "facilities"},
+            "data":              {"reporting", "performance"},
+            "compliance":        {"forms", "legal"},
+            "ops":               {"staffing", "pricing"},
+        }
+        compatible = {req_ff}
+        for group in compat_groups.values():
+            if req_ff in group:
+                compatible |= group
+        before = len(pool)
+        pool = [
+            p for p in pool
+            if (p.get("form_factor") in (None, "") or p.get("form_factor") in compatible)
+        ]
+        if before and before != len(pool):
+            logger.info(
+                "fit-aware filter: req %d (form_factor=%s) reduced Parsons pool %d → %d",
+                requirement_id, req_ff, before, len(pool),
+            )
+
     if pool:
         # Compose richer query text from the bundle when available so
         # similarity ranks pull in the right Parsons sections instead of
