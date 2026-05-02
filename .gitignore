@@ -32,6 +32,8 @@ yarn-error.log*
 
 # ---- App data / runtime ----
 rfp.db
+rfp.db-shm
+rfp.db-wal
 *.sqlite
 *.sqlite3
 uploads/
