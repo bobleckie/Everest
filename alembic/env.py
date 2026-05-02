@@ -7,6 +7,10 @@ from sqlalchemy import pool
 
 from alembic import context
 
+# Ensure the project root is on sys.path so `app` is importable when alembic
+# is invoked from the venv's entry-point script (which doesn't add CWD).
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)))
+
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
 config = context.config
