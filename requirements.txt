@@ -12,6 +12,9 @@ jinja2
 langchain
 langchain-openai
 openai
+openpyxl
+apscheduler
+pdfplumber
 anthropic
 sentence-transformers
 chromadb
