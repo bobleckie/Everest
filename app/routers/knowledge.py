@@ -721,6 +721,103 @@ def get_requirement_citations(
     }
 
 
+@router.get("/requirements/{requirement_id}/source")
+def get_requirement_source(
+    requirement_id: int,
+    context_chunks: int = Query(1, ge=0, le=5),
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """
+    Resolve a requirement back to its verbatim source paragraph.
+
+    The extractor stores a short ``source_text`` snippet (intended verbatim,
+    sometimes layout-compressed). Reconstructing the full paragraph requires
+    a join through ``requirement_source_links`` (built by
+    ``scripts/build_requirement_source_links.py``) to ``document_chunks``.
+
+    For requirements stored under the synthetic "consolidation_run" document,
+    the linker walks ``consolidated_requirements.source_document_id`` back
+    to the real source document.
+
+    Set ``context_chunks`` > 0 to also return N chunks before and after the
+    matched chunk (same document, ordered by chunk_index) — useful when the
+    requirement spans a chunk boundary.
+    """
+    req = db.query(RfpRequirement).filter(RfpRequirement.id == requirement_id).first()
+    if not req:
+        raise HTTPException(status_code=404, detail="Requirement not found")
+
+    from sqlalchemy import text
+    link_row = db.execute(
+        text(
+            """SELECT chunk_id, chunk_doc_id, match_quality, redirected_from_doc_id
+               FROM requirement_source_links WHERE requirement_id = :rid"""
+        ),
+        {"rid": requirement_id},
+    ).first()
+
+    response: Dict[str, Any] = {
+        "requirement_id": req.id,
+        "stored_doc_id": req.document_id,
+        "section_id": req.section_id,
+        "title": req.title,
+        "description": req.description,
+        "llm_source_text": req.source_text,
+        "source_page": req.source_page,
+        "match_quality": link_row.match_quality if link_row else "unlinked",
+        "redirected_from_doc_id": link_row.redirected_from_doc_id if link_row else None,
+        "linked_chunk": None,
+        "context_before": [],
+        "context_after": [],
+    }
+
+    if not link_row or not link_row.chunk_id:
+        return response
+
+    main = db.query(DocumentChunk).filter(DocumentChunk.id == link_row.chunk_id).first()
+    if not main:
+        return response
+
+    doc = db.query(IngestedDocument).filter(IngestedDocument.id == main.document_id).first()
+    response["linked_chunk"] = {
+        "id": main.id,
+        "document_id": main.document_id,
+        "document_filename": doc.original_filename if doc else None,
+        "chunk_index": main.chunk_index,
+        "page_number": main.page_number,
+        "content": main.content,
+    }
+
+    if context_chunks > 0:
+        before = (
+            db.query(DocumentChunk)
+            .filter(DocumentChunk.document_id == main.document_id)
+            .filter(DocumentChunk.chunk_index < main.chunk_index)
+            .order_by(DocumentChunk.chunk_index.desc())
+            .limit(context_chunks)
+            .all()
+        )
+        after = (
+            db.query(DocumentChunk)
+            .filter(DocumentChunk.document_id == main.document_id)
+            .filter(DocumentChunk.chunk_index > main.chunk_index)
+            .order_by(DocumentChunk.chunk_index.asc())
+            .limit(context_chunks)
+            .all()
+        )
+        response["context_before"] = [
+            {"id": c.id, "chunk_index": c.chunk_index, "page_number": c.page_number, "content": c.content}
+            for c in reversed(before)
+        ]
+        response["context_after"] = [
+            {"id": c.id, "chunk_index": c.chunk_index, "page_number": c.page_number, "content": c.content}
+            for c in after
+        ]
+
+    return response
+
+
 # ── Facts ────────────────────────────────────────────────────────────
 
 @router.get("/facts")
