@@ -120,8 +120,31 @@ _SYSTEM_DRAFTER = (
 )
 
 
+def _load_bundle(db: Session, requirement_id: int) -> Optional[Dict[str, Any]]:
+    """Pull the precomputed context bundle if one exists.
+
+    The bundle is built by ``scripts/context/run_all.py`` and contains
+    everything the drafter needs to produce a context-rich response:
+    breadcrumb path, resolved cross-references with target excerpts,
+    glossary terms with definitions, the verbatim source paragraph plus
+    surrounding chunks, and nearby tables.
+    """
+    from sqlalchemy import text as _sql_text
+    row = db.execute(
+        _sql_text("SELECT bundle_json FROM requirement_context_bundle WHERE requirement_id=:rid"),
+        {"rid": requirement_id},
+    ).first()
+    if not row or not row[0]:
+        return None
+    try:
+        return json.loads(row[0])
+    except (json.JSONDecodeError, TypeError):
+        return None
+
+
 def _build_drafter_user_prompt(req: RfpRequirement,
-                                pool_snippets: List[Dict[str, Any]]) -> str:
+                                pool_snippets: List[Dict[str, Any]],
+                                bundle: Optional[Dict[str, Any]] = None) -> str:
     bits: List[str] = []
     bits.append("REQUIREMENT")
     bits.append(f"  id: {req.requirement_id or req.id}")
@@ -132,6 +155,66 @@ def _build_drafter_user_prompt(req: RfpRequirement,
         bits.append(f"  description: {req.description.strip()[:1500]}")
     if req.source_text:
         bits.append(f"  source text: {req.source_text.strip()[:1500]}")
+
+    # Inline context bundle: breadcrumb + source paragraph + resolved
+    # references + applicable defined terms. Each block is bounded so
+    # the prompt stays manageable.
+    if bundle:
+        breadcrumb = bundle.get("breadcrumb") or []
+        if breadcrumb:
+            path = " > ".join(
+                f"{b['section_code']}{(' ' + b['title']) if b.get('title') else ''}"
+                for b in breadcrumb
+            )
+            bits.append(f"  position: {path}")
+
+        src = bundle.get("source") or {}
+        chunk = src.get("chunk") or {}
+        if chunk.get("content"):
+            bits.append("")
+            bits.append(f"  surrounding paragraph (verbatim from {src.get('document_name','source')}, "
+                        f"p.{chunk.get('page_number','?')}):")
+            ctx = (chunk["content"] or "").strip()
+            bits.append(f"    {ctx[:1800]}")
+
+        refs = bundle.get("references") or []
+        if refs:
+            bits.append("")
+            bits.append(f"  cross-references the requirement points at ({len(refs)}):")
+            for ref in refs[:8]:
+                tgt = ref.get("target") or {}
+                target_str = ""
+                if tgt.get("section_code"):
+                    target_str = f"§{tgt['section_code']}"
+                    if tgt.get("section_title"):
+                        target_str += f" {tgt['section_title']}"
+                elif tgt.get("document_name"):
+                    target_str = tgt["document_name"]
+                excerpt = (tgt.get("excerpt") or "")[:300]
+                bits.append(f"    - {ref.get('label')!r} → {target_str or ref.get('target_kind','?')}")
+                if excerpt:
+                    bits.append(f"        excerpt: {excerpt}")
+
+        gloss = bundle.get("glossary_terms") or []
+        if gloss:
+            bits.append("")
+            bits.append(f"  defined terms used in this requirement ({len(gloss)}):")
+            for g in gloss[:6]:
+                term = g.get("term") or "?"
+                defn = (g.get("definition") or "")[:240]
+                bits.append(f"    - {term}: {defn}")
+
+        tables = bundle.get("tables_in_section") or []
+        if tables:
+            bits.append("")
+            bits.append(f"  tables in this section ({len(tables)}; preview):")
+            for t in tables[:2]:
+                hdr = t.get("header") or []
+                if hdr:
+                    bits.append(f"    - {t.get('title') or 'Table'}: cols = " + " | ".join(hdr[:6]))
+                else:
+                    bits.append(f"    - {t.get('title') or 'Table'} ({t.get('n_rows',0)} rows × {t.get('n_cols',0)} cols)")
+
     bits.append("")
     if not pool_snippets:
         bits.append("PARSONS EVIDENCE EXCERPTS")
@@ -199,11 +282,31 @@ def draft_response_for_requirement(
                 "skipped": True,
                 "reason": f"status={req.parsons_response_status} — preserving user content (pass force=true to override)"}
 
+    # Pull the precomputed bundle (verbatim paragraph + resolved refs +
+    # glossary + tables). Its richer text becomes both the embedding query
+    # for Parsons-content matching AND the LLM's surrounding context.
+    bundle = _load_bundle(db, requirement_id)
+
     # Pull Parsons pool (global + scoped to this proposal) and rank by similarity.
     pool = _load_parsons_pool(db, req.proposal_id)
     pool_snippets: List[Dict[str, Any]] = []
     if pool:
-        query_text = " ".join(filter(None, [req.title, req.description, req.source_text]))[:4000]
+        # Compose richer query text from the bundle when available so
+        # similarity ranks pull in the right Parsons sections instead of
+        # generic keyword matches.
+        query_parts = [req.title, req.description, req.source_text]
+        if bundle:
+            chunk = (bundle.get("source") or {}).get("chunk") or {}
+            if chunk.get("content"):
+                query_parts.append(chunk["content"][:2000])
+            for ref in (bundle.get("references") or [])[:5]:
+                tgt = ref.get("target") or {}
+                if tgt.get("excerpt"):
+                    query_parts.append(tgt["excerpt"][:600])
+            for g in (bundle.get("glossary_terms") or [])[:5]:
+                if g.get("term") and g.get("definition"):
+                    query_parts.append(f"{g['term']}: {g['definition'][:200]}")
+        query_text = " ".join(filter(None, query_parts))[:6000]
         if query_text.strip():
             try:
                 q_vec = embed_text(query_text)
@@ -217,7 +320,7 @@ def draft_response_for_requirement(
             except Exception as e:  # noqa: BLE001
                 logger.warning(f"embed_text failed in drafter: {e}")
 
-    user_prompt = _build_drafter_user_prompt(req, pool_snippets)
+    user_prompt = _build_drafter_user_prompt(req, pool_snippets, bundle=bundle)
     # If a reviewer kicked back the prior draft, hand the feedback to the LLM.
     feedback = (review_feedback or req.parsons_response_review_feedback or "").strip()
     if feedback:

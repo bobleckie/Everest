@@ -224,34 +224,68 @@ def main() -> int:
 
             if kind == "section":
                 code = normalized
-                # Same-doc first
-                hit = section_by_doc.get(doc_id, {}).get(code.lower())
-                if hit:
-                    target_kind = "section"
-                    target_section_id = hit[0]
-                    target_doc_id = doc_id
-                    excerpt = excerpt_for_section(hit[0])
-                    confidence = 0.95
-                else:
-                    # Cross-doc match
+                # Determine the "primary" RFP master document for cross-doc
+                # resolution preference. If the requirement is from doc 40
+                # (consolidated baseline), follow the consolidated chain to
+                # the source doc. Otherwise we prefer the doc the requirement
+                # came from, then the closest sibling RFP master document.
+                preferred_docs = [doc_id]
+                if doc_id == 40:
+                    chain = cur.execute(
+                        """SELECT cr.source_document_id
+                           FROM consolidated_requirements cr
+                           JOIN rfp_requirements r ON r.notes LIKE
+                             ('Materialized from ConsolidatedRequirement ' || cr.id || '%')
+                           WHERE r.id = ? LIMIT 1""",
+                        (req_id,),
+                    ).fetchone()
+                    if chain and chain[0]:
+                        preferred_docs.insert(0, chain[0])
+
+                # Try each preferred doc in order
+                hit = None
+                for pdoc in preferred_docs:
+                    hit = section_by_doc.get(pdoc, {}).get(code.lower())
+                    if hit:
+                        target_kind = "section"
+                        target_section_id = hit[0]
+                        target_doc_id = pdoc
+                        excerpt = excerpt_for_section(hit[0])
+                        confidence = 0.95
+                        break
+
+                if not hit:
+                    # Fallback to global lookup but only if the requirement's
+                    # own doc has NO section by this code (avoids resolving
+                    # to a same-numbered section in an unrelated doc).
                     rows = section_global.get(code.lower())
                     if rows:
                         target_kind = "section"
                         target_section_id = rows[0][0]
                         target_doc_id = rows[0][1]
                         excerpt = excerpt_for_section(rows[0][0])
-                        confidence = 0.7
+                        confidence = 0.65
                     else:
-                        # Prefix match: "3.2" -> any "3.2.x"
-                        for cand_code in section_global:
-                            if cand_code.startswith(code.lower() + "."):
-                                rows2 = section_global[cand_code]
-                                target_kind = "section"
-                                target_section_id = rows2[0][0]
-                                target_doc_id = rows2[0][1]
-                                excerpt = excerpt_for_section(rows2[0][0])
-                                confidence = 0.5
+                        # Prefix match: "3.2" -> any "3.2.x" (prefer same doc)
+                        cand = None
+                        for d in preferred_docs:
+                            for cand_code in section_global:
+                                if cand_code.startswith(code.lower() + "."):
+                                    rows2 = section_global[cand_code]
+                                    for sid_, did_, _, _, _ in rows2:
+                                        if did_ == d:
+                                            cand = (sid_, did_)
+                                            break
+                                    if cand:
+                                        break
+                            if cand:
                                 break
+                        if cand:
+                            target_kind = "section"
+                            target_section_id = cand[0]
+                            target_doc_id = cand[1]
+                            excerpt = excerpt_for_section(cand[0])
+                            confidence = 0.55
 
             elif kind in ("appendix", "attachment", "exhibit", "schedule"):
                 code_lower = normalized.lower()
