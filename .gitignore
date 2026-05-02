@@ -63,3 +63,5 @@ temp_openai_*.py
 
 # ---- Bundled portable git (Windows) ----
 mingit/
+everest.db
+rfp.db.empty_pre_restore_*
