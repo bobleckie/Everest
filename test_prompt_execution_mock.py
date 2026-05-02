@@ -1,0 +1,183 @@
+#!/usr/bin/env python3
+"""
+Mock test script for prompt execution workflow (no API calls).
+"""
+import os
+import sys
+import json
+from dotenv import load_dotenv
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+load_dotenv()
+
+from app.database import SessionLocal
+from app.models import PromptTemplate, Persona, PromptExecution, User
+from datetime import datetime
+
+
+def test_prompt_execution_mock():
+    """Test the prompt execution workflow with mock data."""
+    print("🔧 Testing Prompt Execution Workflow (Mock)")
+    print("=" * 50)
+
+    db = SessionLocal()
+
+    try:
+        # Get a test user (create one if needed)
+        test_user = db.query(User).filter(User.email == "test@example.com").first()
+        if not test_user:
+            test_user = User(
+                email="test@example.com",
+                hashed_password="dummy_hash",
+                role="proposal_manager",
+                is_active=True
+            )
+            db.add(test_user)
+            db.commit()
+            db.refresh(test_user)
+
+        # Get the first available prompt template
+        template = db.query(PromptTemplate).filter(PromptTemplate.is_active == True).first()
+        if not template:
+            print("❌ No active prompt templates found. Run seed_personas_prompts.py first.")
+            return
+
+        print(f"📝 Using template: {template.name}")
+        print(f"📋 Description: {template.description}")
+        print(f"🤖 Model: {template.model_provider}/{template.model_name}")
+
+        # Get associated persona
+        persona = None
+        if template.persona_id:
+            persona = db.query(Persona).filter(Persona.id == template.persona_id).first()
+
+        if persona:
+            print(f"🎭 Persona: {persona.name} - {persona.description}")
+
+        # Prepare test variables based on template requirements
+        variables = {}
+        required_vars = json.loads(template.variables) if template.variables else []
+
+        if "proposal_content" in required_vars:
+            variables["proposal_content"] = "This is a sample government proposal for infrastructure development."
+        if "requirements" in required_vars:
+            variables["requirements"] = "Must comply with federal regulations, demonstrate technical expertise, and provide competitive pricing."
+        if "compliance_areas" in required_vars:
+            variables["compliance_areas"] = "FAR compliance, environmental regulations, safety standards"
+        if "cost_data" in required_vars:
+            variables["cost_data"] = "$2.5M total project cost, $500K engineering, $1.2M construction, $800K management"
+        if "schedule_requirements" in required_vars:
+            variables["schedule_requirements"] = "24-month project duration, critical path items must be completed within 12 months"
+
+        print(f"🔄 Test variables: {json.dumps(variables, indent=2)}")
+
+        # Simulate prompt content preparation
+        prompt_content = template.template_content
+        for key, value in variables.items():
+            placeholder = f"{{{key}}}"
+            prompt_content = prompt_content.replace(placeholder, str(value))
+
+        if persona:
+            persona_context = f"""
+
+You are role-playing as: {persona.name}
+Description: {persona.description}
+Expertise Areas: {', '.join(json.loads(persona.expertise_areas))}
+Writing Style: {json.dumps(json.loads(persona.writing_style), indent=2)}
+Tone: {persona.tone}
+Audience: {persona.audience}
+
+Please respond in character, maintaining the specified tone and writing style appropriate for the audience.
+"""
+            prompt_content = persona_context + "\n\n" + prompt_content
+
+        print("\n📄 Prepared Prompt Content (first 500 chars):")
+        print("-" * 50)
+        print(prompt_content[:500] + "..." if len(prompt_content) > 500 else prompt_content)
+        print("-" * 50)
+
+        # Simulate execution result
+        mock_content = f"""
+[Mock Response - {persona.name if persona else 'No Persona'}]
+
+Thank you for providing the proposal content. As a {persona.name if persona else 'AI assistant'}, I have reviewed the material and prepared the following {'refined response' if 'refinement' in template.name.lower() else 'analysis'}:
+
+## Executive Summary
+The proposal demonstrates strong technical capabilities and compliance with federal requirements. The proposed solution aligns well with the stated objectives and shows competitive positioning.
+
+## Key Strengths
+- Comprehensive understanding of requirements
+- Strong technical approach
+- Clear compliance framework
+- Competitive pricing structure
+
+## Recommendations
+1. Enhance the technical narrative with more specific examples
+2. Strengthen the compliance documentation
+3. Consider additional risk mitigation strategies
+4. Validate cost estimates with current market data
+
+This mock response simulates the AI-powered analysis that would be generated by the {template.model_provider} {template.model_name} model.
+"""
+
+        # Record execution in database
+        execution = PromptExecution(
+            prompt_template_id=template.id,
+            persona_id=template.persona_id,
+            user_id=test_user.id,
+            input_variables=json.dumps(variables),
+            output_content=mock_content,
+            model_provider=template.model_provider,
+            model_name=template.model_name,
+            tokens_used=150,  # Mock token usage
+            execution_time_ms=1250,  # Mock execution time
+            success=True
+        )
+        db.add(execution)
+
+        # Update template statistics
+        template.usage_count += 1
+        if template.usage_count > 0:
+            template.success_rate = ((template.success_rate * (template.usage_count - 1)) + 1) / template.usage_count
+
+        # Update persona usage if applicable
+        if persona:
+            persona.usage_count += 1
+
+        db.commit()
+
+        print("✅ Mock prompt execution successful!")
+        print(f"⏱️  Execution time: 1250ms")
+        print(f"🔢 Tokens used: 150")
+        print(f"🎭 Persona used: {persona.name if persona else 'None'}")
+        print(f"📊 Execution ID: {execution.id}")
+
+        print("\n📄 Generated Content:")
+        print("-" * 30)
+        print(mock_content)
+        print("-" * 30)
+
+        # Verify execution was recorded
+        saved_execution = db.query(PromptExecution).filter(
+            PromptExecution.id == execution.id
+        ).first()
+
+        if saved_execution:
+            print("✅ Execution recorded in database")
+            print(f"📊 Success: {saved_execution.success}")
+            print(f"⏱️  Recorded time: {saved_execution.execution_time_ms}ms")
+            print(f"🔢 Recorded tokens: {saved_execution.tokens_used}")
+        else:
+            print("❌ Execution not found in database")
+
+    except Exception as e:
+        print(f"❌ Test failed: {str(e)}")
+        import traceback
+        traceback.print_exc()
+
+    finally:
+        db.close()
+
+
+if __name__ == "__main__":
+    test_prompt_execution_mock()

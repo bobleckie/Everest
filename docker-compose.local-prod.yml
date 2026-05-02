@@ -1,0 +1,130 @@
+# ============================================================
+# Everest — local PRODUCTION-EQUIVALENT stack
+# ============================================================
+# A rehearsal of the deploy you'll do once a server is available.
+# Brings up:
+#   * Postgres 16        (named volume: everest_pg_data_localprod)
+#   * Backend (FastAPI)  (named volume: everest_app_data_localprod)
+#   * Frontend (nginx)   serves the built React bundle on port 80
+#   * Proxy (nginx)      TLS termination, https://localhost:8443
+#
+# Bring up:
+#   docker compose -f docker-compose.local-prod.yml --env-file .env.local-prod up -d --build
+# Tear down (KEEP DATA):
+#   docker compose -f docker-compose.local-prod.yml down
+# Tear down + DROP DATA:
+#   docker compose -f docker-compose.local-prod.yml down -v
+#
+# This stack is COMPLETELY ISOLATED from your dev `rfp.db` /
+# `chroma_db/` / `uploads/` — it uses its own Postgres and its own
+# Docker volumes. To migrate dev SQLite into the compose Postgres,
+# follow docs/POSTGRES_MIGRATION.md.
+# ============================================================
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: everest-localprod-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-everest}
+      POSTGRES_USER: ${POSTGRES_USER:-everest}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD required (set it in .env.local-prod)}
+    volumes:
+      - everest_pg_data_localprod:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-everest}"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 5s
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    image: everest-backend:local
+    container_name: everest-localprod-backend
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      # Critical config — see docs/DEPLOYMENT.md.
+      SECRET_KEY: ${SECRET_KEY:?SECRET_KEY required}
+      DATABASE_URL: postgresql+psycopg2://${POSTGRES_USER:-everest}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-everest}
+      DEBUG: "false"
+      ACCESS_TOKEN_EXPIRE_MINUTES: ${ACCESS_TOKEN_EXPIRE_MINUTES:-480}
+      REFRESH_TOKEN_EXPIRE_DAYS: ${REFRESH_TOKEN_EXPIRE_DAYS:-7}
+      # CORS — only the proxy hostname is needed since the SPA is
+      # served from the same origin in this stack.
+      CORS_ORIGINS: ${CORS_ORIGINS:-https://localhost:8443}
+      EVEREST_PUBLIC_URL: ${EVEREST_PUBLIC_URL:-https://localhost:8443}
+      # AI providers
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      # Data dirs all live on the mounted volume.
+      EVEREST_DATA_DIR: /data
+      # Misc
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      SENTRY_DSN: ${SENTRY_DSN:-}
+      SENTRY_ENVIRONMENT: ${SENTRY_ENVIRONMENT:-local-prod}
+      # Rate limits
+      EVEREST_RATE_LIMIT_LLM_PER_HOUR: ${EVEREST_RATE_LIMIT_LLM_PER_HOUR:-30}
+      # Optional SMTP for invitations
+      SMTP_HOST: ${SMTP_HOST:-}
+      SMTP_PORT: ${SMTP_PORT:-587}
+      SMTP_USERNAME: ${SMTP_USERNAME:-}
+      SMTP_PASSWORD: ${SMTP_PASSWORD:-}
+      SMTP_FROM: ${SMTP_FROM:-}
+      SMTP_USE_TLS: ${SMTP_USE_TLS:-true}
+    volumes:
+      - everest_app_data_localprod:/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://127.0.0.1:8000/healthz || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 90s
+
+  frontend:
+    build:
+      context: ./frontend/rfp-ui
+      dockerfile: Dockerfile
+    image: everest-frontend:local
+    container_name: everest-localprod-frontend
+    restart: unless-stopped
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://127.0.0.1:80/"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  proxy:
+    build:
+      context: ./infra/proxy
+      dockerfile: Dockerfile
+    image: everest-proxy:local
+    container_name: everest-localprod-proxy
+    restart: unless-stopped
+    depends_on:
+      frontend:
+        condition: service_healthy
+    ports:
+      - "${PROXY_HTTPS_PORT:-8443}:8443"
+      - "${PROXY_HTTP_PORT:-8080}:8080"
+    volumes:
+      - everest_tls_localprod:/etc/nginx/tls
+    environment:
+      TLS_HOSTS: ${TLS_HOSTS:-localhost,127.0.0.1,everest.local}
+
+volumes:
+  everest_pg_data_localprod:
+    name: everest_pg_data_localprod
+  everest_app_data_localprod:
+    name: everest_app_data_localprod
+  everest_tls_localprod:
+    name: everest_tls_localprod

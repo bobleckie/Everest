@@ -1,0 +1,15 @@
+{
+  "short_name": "Everest",
+  "name": "Everest — RFP Platform",
+  "icons": [
+    {
+      "src": "everest-logo.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1B3349",
+  "background_color": "#081931"
+}

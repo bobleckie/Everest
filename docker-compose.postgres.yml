@@ -1,0 +1,39 @@
+# ============================================================
+# Everest — Postgres-only compose file
+# ============================================================
+# Runs JUST Postgres for the SQLite -> Postgres migration (and
+# eventually as the production data store). Deliberately does NOT
+# spawn the FastAPI app — keep that decoupled until we have an image
+# we trust.
+#
+# Bring up:
+#   docker compose -f docker-compose.postgres.yml up -d
+# Tear down (preserves data):
+#   docker compose -f docker-compose.postgres.yml down
+# Tear down + DROP ALL DATA:
+#   docker compose -f docker-compose.postgres.yml down -v
+# ============================================================
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: everest-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-everest}
+      POSTGRES_USER: ${POSTGRES_USER:-everest}
+      # Default is intentionally obviously-bogus so operators must set it.
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-CHANGE_ME_BEFORE_RUNNING}
+    ports:
+      - "5432:5432"
+    volumes:
+      - everest_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-everest}"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+volumes:
+  everest_pgdata:
+    name: everest_pgdata

@@ -1,0 +1,80 @@
+# ============================================================
+# Everest backend image
+# ============================================================
+# Multi-stage build:
+#   stage 1: install build deps + pip install
+#   stage 2: copy venv + app source into a clean slim image
+# Both stages run as non-root in stage 2.
+# ============================================================
+
+# ─── Stage 1: build ───────────────────────────────────────────────
+FROM python:3.11-slim-bookworm AS builder
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    PIP_NO_CACHE_DIR=1
+
+# C-extension build deps (needed for psycopg2-binary, pytesseract OCR
+# wrappers, opencv-python). Removed in the runtime stage.
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        build-essential \
+        libpq-dev \
+        libgomp1 \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+COPY requirements.txt .
+# Build into an isolated prefix we can copy to the runtime stage.
+RUN pip install --prefix=/install -r requirements.txt
+
+
+# ─── Stage 2: runtime ─────────────────────────────────────────────
+FROM python:3.11-slim-bookworm AS runtime
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    EVEREST_DATA_DIR=/data \
+    PORT=8000
+
+# Runtime libs only (libpq for psycopg2, tesseract for OCR if used,
+# libgl/libglib for opencv-python, libgomp for sklearn/torch).
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        libpq5 \
+        libgomp1 \
+        libgl1 \
+        libglib2.0-0 \
+        tesseract-ocr \
+        curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Bring in the wheels installed in stage 1
+COPY --from=builder /install /usr/local
+
+# Non-root user
+RUN useradd --create-home --shell /usr/sbin/nologin --uid 10001 everest
+
+WORKDIR /app
+# Copy only what the backend needs; .dockerignore handles dev cruft.
+COPY app/ ./app/
+COPY alembic/ ./alembic/
+COPY alembic.ini ./alembic.ini
+COPY seed_admin.py ./seed_admin.py
+COPY migrate.py ./migrate.py
+
+# Make sure the data dir exists and is owned by everest BEFORE we drop privs.
+RUN mkdir -p /data/uploads /data/chroma_db /data/logs && \
+    chown -R everest:everest /app /data
+
+USER everest
+
+EXPOSE 8000
+
+# Liveness check used by docker / load balancer.
+HEALTHCHECK --interval=15s --timeout=5s --start-period=60s --retries=3 \
+    CMD curl -fsS http://127.0.0.1:8000/healthz || exit 1
+
+# No --reload in containers. One worker is intentional — torch import
+# is slow and the existing app uses module-level state that's not
+# fork-safe. Scale by adding more containers, not workers.
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]

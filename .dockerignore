@@ -1,0 +1,70 @@
+# Keep the Docker build context small. Everything listed here is
+# excluded from `docker build`. Both the backend and frontend builds
+# share this single ignore file.
+
+# VCS / IDE
+.git
+.gitignore
+.vscode
+.idea
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Local data (provided via volumes in compose, not via image build)
+rfp.db
+rfp.db-wal
+rfp.db-shm
+rfp_database.db
+rfp.db.bak_*
+db_backups
+chroma_db
+uploads
+logs
+_tmp_*
+_audit_*
+_check_*
+_run_*
+_inspect_*
+_state_*
+_xlsx_*
+_seed_*
+_extract_*
+_ingest_*
+_peek_*
+_run_diff.py
+_draft_*
+_cleanup_*
+_fingerprint.py
+_fp_*.json
+_pytest_*.txt
+_migrate_sqlite_to_postgres.py
+
+# Frontend dev artifacts
+frontend/rfp-ui/node_modules
+frontend/rfp-ui/build
+frontend/rfp-ui/.eslintcache
+
+# Backups + secrets
+.env
+.env.example
+*.bak
+*.backup
+
+# Tests + dev tooling that shouldn't ship
+tests
+pytest.ini
+.pytest_cache
+.mypy_cache
+
+# Portable git checked into the workspace
+mingit
+
+# Documentation isn't needed in the image (it's still in the repo)
+docs
+
+# Misc
+*.md
+README.md
+!frontend/rfp-ui/README.md

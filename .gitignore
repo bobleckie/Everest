@@ -1,0 +1,3 @@
+db_backups/
+*.bak
+rfp.db.schedule_cleanup_20260424_082657.bak
