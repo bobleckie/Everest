@@ -302,8 +302,10 @@ def list_requirements(
     parsons_coverage_status: Optional[str] = Query(None,
         description="Filter by Parsons-evidence coverage: covered | partial | gap | uncertain | not_assessed"),
     search: Optional[str] = Query(None, description="Case-insensitive substring match against title/description/source_text/section_id/requirement_id"),
-    limit: Optional[int] = Query(None, ge=1, le=10000, description="Max rows to return (omit for all)"),
+    limit: Optional[int] = Query(200, ge=1, le=10000, description="Max rows to return. Default 200 — pass higher explicitly if you really need a full dump."),
     offset: int = Query(0, ge=0, description="Rows to skip"),
+    include_children: bool = Query(False, description="If true, include requirements rolled up under a parent (sub-parts)."),
+    include_superseded: bool = Query(False, description="If true, include requirements marked as duplicates of another canonical row."),
     db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user),
 ):
@@ -333,6 +335,13 @@ def list_requirements(
             RfpRequirement.section_id.ilike(term),
             RfpRequirement.requirement_id.ilike(term),
         ))
+    if not include_children:
+        q = q.filter(or_(
+            RfpRequirement.rollup_role.is_(None),
+            RfpRequirement.rollup_role == "parent",
+        ))
+    if not include_superseded:
+        q = q.filter(RfpRequirement.superseded_by_requirement_id.is_(None))
 
     # Total count (before pagination) so the UI can render page controls
     total = q.with_entities(sa_func.count(RfpRequirement.id)).scalar()
@@ -503,6 +512,8 @@ def list_requirements_by_section(
     priority: Optional[str] = Query(None),
     compliance_status: Optional[str] = Query(None),
     search: Optional[str] = Query(None, description="Case-insensitive substring match against title/description/source_text/section_id/requirement_id"),
+    include_children: bool = Query(False, description="If true, include requirements rolled up under a parent (sub-parts). Default false hides them — they're shown inline on the parent's detail view."),
+    include_superseded: bool = Query(False, description="If true, include requirements marked as duplicates of another canonical row."),
     db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user),
 ):
@@ -537,6 +548,13 @@ def list_requirements_by_section(
             RfpRequirement.section_id.ilike(term),
             RfpRequirement.requirement_id.ilike(term),
         ))
+    if not include_children:
+        q = q.filter(or_(
+            RfpRequirement.rollup_role.is_(None),
+            RfpRequirement.rollup_role == "parent",
+        ))
+    if not include_superseded:
+        q = q.filter(RfpRequirement.superseded_by_requirement_id.is_(None))
     # Stable per-section row order: by document, then requirement_id.
     reqs = q.order_by(
         RfpRequirement.document_id, RfpRequirement.requirement_id
@@ -768,15 +786,21 @@ def get_requirement_bundle(
 @router.get("/requirements/tree")
 def get_requirement_tree(
     proposal_id: Optional[int] = Query(None),
+    summary: bool = Query(True, description="If true (default), return only the theme/doc/section skeleton with counts; load requirements per section via /sections/{key}/requirements."),
     db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user),
 ):
     """
-    Return the browsing tree: theme → document → section → requirement.
+    Return the browsing tree: theme → document → section [→ requirement].
 
-    Only surviving (non-superseded) requirements with a built bundle are
-    included. The tree is precomputed each call from the indexed bundle
-    rows; no per-requirement JSON is returned here (use /bundle for that).
+    The default ``summary=true`` returns just theme/document/section nodes
+    with requirement counts — small, fast, ~tens of KB. The UI then
+    lazy-loads requirements per section via
+    ``GET /requirements/by-bundle?theme_id=&doc_id=&section_id=&offset=&limit=``
+    when the user expands the section.
+
+    Pass ``summary=false`` to get the legacy fully-hydrated tree (slow,
+    multi-MB on large RFPs — only use for export tooling).
     """
     from sqlalchemy import text
     params: Dict[str, Any] = {}
@@ -785,6 +809,59 @@ def get_requirement_tree(
         clauses.append("(r.proposal_id = :pid OR r.proposal_id IS NULL)")
         params["pid"] = proposal_id
     where_full = "WHERE " + " AND ".join(clauses)
+
+    if summary:
+        agg = db.execute(text(f"""
+            SELECT b.theme_id, b.theme_label, b.source_doc_id, b.source_doc_name,
+                   r.section_id, b.breadcrumb,
+                   COUNT(*) AS n_reqs,
+                   SUM(CASE WHEN b.n_resolved_refs > 0 THEN 1 ELSE 0 END) AS n_with_refs,
+                   SUM(CASE WHEN b.n_glossary > 0 THEN 1 ELSE 0 END) AS n_with_gloss,
+                   SUM(CASE WHEN b.n_tables > 0 THEN 1 ELSE 0 END) AS n_with_tables
+            FROM requirement_context_bundle b
+            JOIN rfp_requirements r ON r.id = b.requirement_id
+            {where_full}
+            GROUP BY b.theme_id, b.theme_label, b.source_doc_id, b.source_doc_name,
+                     r.section_id, b.breadcrumb
+            ORDER BY b.theme_id, b.source_doc_id, r.section_id
+        """), params).fetchall()
+
+        themes: Dict[Any, Dict] = {}
+        total = 0
+        for row in agg:
+            tid = row.theme_id or 0
+            theme = themes.setdefault(tid, {
+                "theme_id": tid,
+                "theme_label": row.theme_label or "Uncategorized",
+                "documents": {},
+                "n_requirements": 0,
+            })
+            theme["n_requirements"] += int(row.n_reqs)
+            total += int(row.n_reqs)
+            doc = theme["documents"].setdefault(row.source_doc_id, {
+                "document_id": row.source_doc_id,
+                "document_name": row.source_doc_name,
+                "sections": [],
+                "n_requirements": 0,
+            })
+            doc["n_requirements"] += int(row.n_reqs)
+            doc["sections"].append({
+                "section_id": row.section_id or "(no section)",
+                "breadcrumb": row.breadcrumb,
+                "n_requirements": int(row.n_reqs),
+                "n_with_refs": int(row.n_with_refs or 0),
+                "n_with_gloss": int(row.n_with_gloss or 0),
+                "n_with_tables": int(row.n_with_tables or 0),
+            })
+
+        out = []
+        for tid in sorted(themes.keys()):
+            theme = themes[tid]
+            doc_list = sorted(theme["documents"].values(),
+                              key=lambda d: (d["document_id"] or 0))
+            theme["documents"] = doc_list
+            out.append(theme)
+        return {"themes": out, "total_requirements": total, "summary": True}
 
     rows = db.execute(text(f"""
         SELECT r.id AS req_id, r.title, r.section_id, r.priority, r.category,
@@ -848,6 +925,88 @@ def get_requirement_tree(
         theme["documents"] = doc_list
         out.append(theme)
     return {"themes": out, "total_requirements": len(rows)}
+
+
+@router.get("/requirements/in-section")
+def list_requirements_in_section(
+    proposal_id: Optional[int] = Query(None),
+    theme_id: Optional[int] = Query(None),
+    document_id: Optional[int] = Query(None),
+    section_id: Optional[str] = Query(None),
+    search: Optional[str] = Query(None, description="Substring filter on title"),
+    offset: int = Query(0, ge=0),
+    limit: int = Query(50, ge=1, le=500),
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Paginated requirements list for a single section in the browse tree.
+
+    Filters mirror the tree node identity (theme_id + document_id + section_id).
+    Children rolled up under a parent are excluded by default; the detail view
+    shows them inline on the parent.
+    """
+    from sqlalchemy import text
+    clauses = ["(r.rollup_role IS NULL OR r.rollup_role = 'parent')"]
+    params: Dict[str, Any] = {"offset": offset, "limit": limit}
+    if proposal_id is not None:
+        clauses.append("(r.proposal_id = :pid OR r.proposal_id IS NULL)")
+        params["pid"] = proposal_id
+    if theme_id is not None:
+        clauses.append("b.theme_id = :tid")
+        params["tid"] = theme_id
+    if document_id is not None:
+        clauses.append("b.source_doc_id = :did")
+        params["did"] = document_id
+    if section_id is not None:
+        if section_id == "(no section)":
+            clauses.append("(r.section_id IS NULL OR r.section_id = '')")
+        else:
+            clauses.append("r.section_id = :sec")
+            params["sec"] = section_id
+    if search:
+        clauses.append("r.title LIKE :search")
+        params["search"] = f"%{search}%"
+    where_full = "WHERE " + " AND ".join(clauses)
+
+    total = db.execute(text(f"""
+        SELECT COUNT(*) FROM requirement_context_bundle b
+        JOIN rfp_requirements r ON r.id = b.requirement_id
+        {where_full}
+    """), params).scalar()
+
+    rows = db.execute(text(f"""
+        SELECT r.id AS req_id, r.title, r.section_id, r.priority, r.category,
+               r.compliance_status, r.requirement_class, r.rollup_role,
+               b.n_refs, b.n_resolved_refs, b.n_glossary, b.n_reverse_refs, b.n_tables,
+               (SELECT COUNT(*) FROM requirement_groups rg
+                  WHERE rg.parent_requirement_id = r.id) AS n_children
+        FROM requirement_context_bundle b
+        JOIN rfp_requirements r ON r.id = b.requirement_id
+        {where_full}
+        ORDER BY r.id
+        LIMIT :limit OFFSET :offset
+    """), params).fetchall()
+
+    return {
+        "total": int(total or 0),
+        "offset": offset, "limit": limit,
+        "requirements": [
+            {
+                "requirement_id": r.req_id,
+                "title": r.title,
+                "section_id": r.section_id,
+                "priority": r.priority,
+                "category": r.category,
+                "compliance_status": r.compliance_status,
+                "requirement_class": r.requirement_class,
+                "rollup_role": r.rollup_role,
+                "n_children": int(r.n_children or 0),
+                "n_refs": r.n_refs, "n_resolved_refs": r.n_resolved_refs,
+                "n_glossary": r.n_glossary, "n_reverse_refs": r.n_reverse_refs,
+                "n_tables": r.n_tables,
+            } for r in rows
+        ],
+    }
 
 
 @router.get("/glossary")

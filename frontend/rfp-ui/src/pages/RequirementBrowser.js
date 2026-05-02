@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState, useCallback } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 import axios from 'axios';
 import {
@@ -11,12 +11,9 @@ import {
   Alert,
   CircularProgress,
   Collapse,
-  IconButton,
   Tooltip,
-  Divider,
   Button,
-  ToggleButton,
-  ToggleButtonGroup,
+  TablePagination,
 } from '@mui/material';
 import {
   ExpandMore as ExpandMoreIcon,
@@ -45,6 +42,8 @@ const COMPLIANCE_COLOR = {
   not_assessed: 'default',
 };
 
+const PAGE_SIZE_DEFAULT = 25;
+
 export default function RequirementBrowser() {
   const { proposalId } = useProposal();
   const [tree, setTree] = useState(null);
@@ -55,11 +54,15 @@ export default function RequirementBrowser() {
   const [openDocs, setOpenDocs] = useState({});
   const [openSections, setOpenSections] = useState({});
 
+  // Per-section lazy-loaded requirement caches:
+  // sectionDataByKey[`${doc_id}::${section_id}`] = { rows, total, offset, limit, loading, error }
+  const [sectionDataByKey, setSectionDataByKey] = useState({});
+
   useEffect(() => {
     setLoading(true);
     axios
       .get('/api/knowledge/requirements/tree', {
-        params: proposalId ? { proposal_id: proposalId } : {},
+        params: { ...(proposalId ? { proposal_id: proposalId } : {}), summary: true },
       })
       .then((res) => {
         setTree(res.data);
@@ -71,35 +74,77 @@ export default function RequirementBrowser() {
       .finally(() => setLoading(false));
   }, [proposalId]);
 
-  const filtered = useMemo(() => {
-    if (!tree || !search.trim()) return tree;
-    const q = search.toLowerCase();
-    const themes = tree.themes
-      .map((t) => {
-        const docs = t.documents
-          .map((d) => {
-            const sections = d.sections
-              .map((s) => {
-                const reqs = s.requirements.filter((r) =>
-                  (r.title || '').toLowerCase().includes(q),
-                );
-                return reqs.length ? { ...s, requirements: reqs } : null;
-              })
-              .filter(Boolean);
-            return sections.length ? { ...d, sections } : null;
-          })
-          .filter(Boolean);
-        return docs.length ? { ...t, documents: docs } : null;
-      })
-      .filter(Boolean);
-    return { themes, total_requirements: themes.reduce(
-      (acc, t) => acc + t.documents.reduce(
-        (a, d) => a + d.sections.reduce((b, s) => b + s.requirements.length, 0), 0), 0) };
-  }, [tree, search]);
+  const sectionKey = (themeId, docId, sectionId) => `${themeId}::${docId}::${sectionId}`;
+
+  const fetchSectionRequirements = useCallback(
+    async (themeId, docId, sectionId, offset, limit) => {
+      const key = sectionKey(themeId, docId, sectionId);
+      setSectionDataByKey((prev) => ({
+        ...prev,
+        [key]: { ...(prev[key] || {}), loading: true, error: null },
+      }));
+      try {
+        const res = await axios.get('/api/knowledge/requirements/in-section', {
+          params: {
+            ...(proposalId ? { proposal_id: proposalId } : {}),
+            theme_id: themeId,
+            document_id: docId,
+            section_id: sectionId,
+            offset,
+            limit,
+            ...(search.trim() ? { search: search.trim() } : {}),
+          },
+        });
+        setSectionDataByKey((prev) => ({
+          ...prev,
+          [key]: {
+            rows: res.data.requirements,
+            total: res.data.total,
+            offset: res.data.offset,
+            limit: res.data.limit,
+            loading: false,
+            error: null,
+          },
+        }));
+      } catch (err) {
+        setSectionDataByKey((prev) => ({
+          ...prev,
+          [key]: {
+            ...(prev[key] || {}),
+            loading: false,
+            error: err?.response?.data?.detail || err.message || 'Failed to load',
+          },
+        }));
+      }
+    },
+    [proposalId, search],
+  );
 
   const toggleTheme = (id) => setOpenThemes((s) => ({ ...s, [id]: !s[id] }));
   const toggleDoc = (id) => setOpenDocs((s) => ({ ...s, [id]: !s[id] }));
-  const toggleSection = (k) => setOpenSections((s) => ({ ...s, [k]: !s[k] }));
+  const toggleSection = (themeId, docId, sectionId) => {
+    const key = sectionKey(themeId, docId, sectionId);
+    setOpenSections((s) => {
+      const newOpen = !s[key];
+      if (newOpen && !sectionDataByKey[key]) {
+        fetchSectionRequirements(themeId, docId, sectionId, 0, PAGE_SIZE_DEFAULT);
+      }
+      return { ...s, [key]: newOpen };
+    });
+  };
+
+  // Re-fetch open sections whenever search changes (debounced)
+  useEffect(() => {
+    const handle = setTimeout(() => {
+      Object.keys(openSections).forEach((key) => {
+        if (!openSections[key]) return;
+        const [themeId, docId, sectionId] = key.split('::');
+        fetchSectionRequirements(Number(themeId), Number(docId), sectionId, 0, PAGE_SIZE_DEFAULT);
+      });
+    }, 350);
+    return () => clearTimeout(handle);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [search]);
 
   if (loading) {
     return (
@@ -116,7 +161,8 @@ export default function RequirementBrowser() {
     );
   }
 
-  const data = filtered || tree;
+  const data = tree;
+  if (!data) return null;
 
   return (
     <Box sx={{ p: 3 }}>
@@ -128,7 +174,7 @@ export default function RequirementBrowser() {
       <TextField
         fullWidth
         size="small"
-        placeholder="Filter by title…"
+        placeholder="Filter by title (re-applies to open sections)…"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
         sx={{ mb: 2 }}
@@ -157,7 +203,7 @@ export default function RequirementBrowser() {
               <Chip size="small" label={`${theme.n_requirements} reqs`} sx={{ mr: 1, bgcolor: 'background.paper' }} />
               {themeOpen ? <ExpandLessIcon /> : <ExpandMoreIcon />}
             </Box>
-            <Collapse in={themeOpen}>
+            <Collapse in={themeOpen} unmountOnExit>
               <Box sx={{ pl: 1.5, pr: 1, pt: 1, pb: 1 }}>
                 {theme.documents.map((doc) => {
                   const docKey = `${theme.theme_id}::${doc.document_id}`;
@@ -178,18 +224,19 @@ export default function RequirementBrowser() {
                         <Chip size="small" variant="outlined" label={`${doc.n_requirements}`} />
                         {docOpen ? <ExpandLessIcon fontSize="small" /> : <ExpandMoreIcon fontSize="small" />}
                       </Stack>
-                      <Collapse in={docOpen}>
+                      <Collapse in={docOpen} unmountOnExit>
                         <Box sx={{ pl: 3 }}>
                           {doc.sections.map((sec) => {
-                            const secKey = `${docKey}::${sec.section_id}`;
+                            const secKey = sectionKey(theme.theme_id, doc.document_id, sec.section_id);
                             const secOpen = !!openSections[secKey];
+                            const secData = sectionDataByKey[secKey];
                             return (
                               <Box key={secKey} sx={{ mb: 0.5 }}>
                                 <Stack
                                   direction="row"
                                   alignItems="center"
                                   spacing={1}
-                                  onClick={() => toggleSection(secKey)}
+                                  onClick={() => toggleSection(theme.theme_id, doc.document_id, sec.section_id)}
                                   sx={{
                                     cursor: 'pointer',
                                     py: 0.4,
@@ -213,13 +260,50 @@ export default function RequirementBrowser() {
                                       </Typography>
                                     ) : null}
                                   </Typography>
-                                  <Chip size="small" variant="outlined" label={sec.requirements.length} />
+                                  <Chip size="small" variant="outlined" label={sec.n_requirements} />
                                 </Stack>
-                                <Collapse in={secOpen}>
+                                <Collapse in={secOpen} unmountOnExit>
                                   <Box sx={{ pl: 4, py: 0.5 }}>
-                                    {sec.requirements.map((req) => (
-                                      <RequirementRow key={req.requirement_id} req={req} proposalId={proposalId} />
-                                    ))}
+                                    {!secData || secData.loading ? (
+                                      <Box sx={{ p: 1, display: 'flex', alignItems: 'center', gap: 1 }}>
+                                        <CircularProgress size={14} />
+                                        <Typography variant="caption" color="text.secondary">Loading…</Typography>
+                                      </Box>
+                                    ) : secData.error ? (
+                                      <Alert severity="error" sx={{ my: 0.5 }}>{secData.error}</Alert>
+                                    ) : secData.rows.length === 0 ? (
+                                      <Typography variant="caption" color="text.secondary">
+                                        No matching requirements (filter active).
+                                      </Typography>
+                                    ) : (
+                                      <>
+                                        {secData.rows.map((req) => (
+                                          <RequirementRow key={req.requirement_id} req={req} proposalId={proposalId} />
+                                        ))}
+                                        {secData.total > secData.limit ? (
+                                          <TablePagination
+                                            component="div"
+                                            count={secData.total}
+                                            page={Math.floor(secData.offset / secData.limit)}
+                                            onPageChange={(_, newPage) =>
+                                              fetchSectionRequirements(
+                                                theme.theme_id, doc.document_id, sec.section_id,
+                                                newPage * secData.limit, secData.limit,
+                                              )
+                                            }
+                                            rowsPerPage={secData.limit}
+                                            onRowsPerPageChange={(e) =>
+                                              fetchSectionRequirements(
+                                                theme.theme_id, doc.document_id, sec.section_id,
+                                                0, parseInt(e.target.value, 10),
+                                              )
+                                            }
+                                            rowsPerPageOptions={[10, 25, 50, 100]}
+                                            sx={{ '.MuiTablePagination-toolbar': { minHeight: 32, py: 0 } }}
+                                          />
+                                        ) : null}
+                                      </>
+                                    )}
                                   </Box>
                                 </Collapse>
                               </Box>
