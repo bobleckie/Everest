@@ -20,6 +20,10 @@ python-dotenv
 fastapi-security
 python-jose[cryptography]
 passlib[bcrypt]
+# Pin bcrypt < 4 — passlib 1.7.4 (unmaintained since 2020) calls
+# bcrypt.__about__.__version__ which was removed in bcrypt 4.0,
+# breaking password hashing on fresh installs.
+bcrypt<4.0
 psycopg2-binary
 alembic
 sentry-sdk[fastapi]
