@@ -1351,6 +1351,107 @@ def _narrative_to_dict(n: ProposalSectionNarrative) -> Dict[str, Any]:
     }
 
 
+@router.get("/proposals/{proposal_id}/export.docx")
+def export_assembled_narratives_docx(
+    proposal_id: int,
+    include_per_requirement: bool = Query(
+        False,
+        description="If true, include each individual requirement's drafted response under its parent section. Useful for review; default off keeps the deliverable clean.",
+    ),
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Export the assembled section narratives as a single .docx.
+
+    Reads from ``proposal_section_narratives`` (built via
+    POST /sections/{root}/assemble) — i.e., what the user worked through
+    on the Section Narratives page. Sections without an assembled
+    narrative are still included with a placeholder so the user can spot
+    the gap.
+    """
+    try:
+        from docx import Document as DocxDocument
+        from docx.shared import Pt
+    except Exception as e:
+        raise HTTPException(500, f"python-docx not installed: {e}")
+    from fastapi.responses import StreamingResponse
+    from io import BytesIO
+    from ..models import (Proposal, ProposalSectionNarrative,
+                            ProposalSubmissionSection)
+
+    proposal = db.query(Proposal).filter(Proposal.id == proposal_id).first()
+    if not proposal:
+        raise HTTPException(404, "Proposal not found")
+
+    submission = compute_submission_readiness(db, proposal_id)
+    narratives = {
+        n.section_root: n
+        for n in db.query(ProposalSectionNarrative)
+                   .filter(ProposalSectionNarrative.proposal_id == proposal_id)
+                   .all()
+    }
+
+    d = DocxDocument()
+    d.add_heading(f"Parsons — Response to {proposal.name or 'RFP'}", level=0)
+    d.add_paragraph(f"Generated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}")
+    d.add_paragraph("")
+
+    for s in submission["sections"]:
+        d.add_heading(s["label"], level=1)
+        meta = []
+        if s.get("rfp_section_ref"):
+            meta.append(f"RFP Section: {s['rfp_section_ref']}")
+        if s.get("description"):
+            meta.append(s["description"])
+        if meta:
+            p = d.add_paragraph(" — ".join(meta))
+            for run in p.runs:
+                run.italic = True
+                run.font.size = Pt(9)
+
+        n = narratives.get(s["section_root"])
+        if n and n.narrative_md:
+            for line in (n.narrative_md or "").splitlines():
+                if line.startswith("# "):
+                    d.add_heading(line[2:], level=2)
+                elif line.startswith("## "):
+                    d.add_heading(line[3:], level=3)
+                elif line.startswith("### "):
+                    d.add_heading(line[4:], level=4)
+                else:
+                    d.add_paragraph(line)
+        else:
+            p = d.add_paragraph("[Section narrative not yet assembled — assemble drafts on the Section Narratives page]")
+            for run in p.runs:
+                run.italic = True
+
+        if include_per_requirement:
+            d.add_heading("Per-requirement drafts", level=2)
+            reqs = (db.query(RfpRequirement)
+                    .filter(RfpRequirement.proposal_id == proposal_id)
+                    .filter(RfpRequirement.parsons_response.isnot(None))
+                    .filter(RfpRequirement.parsons_response != "")
+                    .order_by(RfpRequirement.section_id, RfpRequirement.id)
+                    .all())
+            for r in reqs:
+                if _section_root(r.section_id) != s["section_root"]:
+                    continue
+                d.add_paragraph(f"[{r.requirement_id or r.id}] {r.title}",
+                                style="Intense Quote")
+                for line in (r.parsons_response or "").splitlines():
+                    d.add_paragraph(line)
+
+    buf = BytesIO()
+    d.save(buf)
+    buf.seek(0)
+    fname = f"parsons-response-proposal-{proposal_id}-{datetime.utcnow().strftime('%Y%m%d')}.docx"
+    return StreamingResponse(
+        buf,
+        media_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        headers={"Content-Disposition": f'attachment; filename="{fname}"'},
+    )
+
+
 @router.get("/proposals/{proposal_id}/narratives")
 def list_section_narratives(
     proposal_id: int,

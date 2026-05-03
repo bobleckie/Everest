@@ -20,6 +20,7 @@ import {
   AutoFixHigh as AssembleIcon,
   Visibility as ViewIcon,
   Refresh as RefreshIcon,
+  FileDownload as ExportIcon,
 } from '@mui/icons-material';
 import { useProposal } from '../proposal/ProposalContext';
 
@@ -81,6 +82,23 @@ export default function SectionNarratives() {
     }
   };
 
+  const exportDocx = async () => {
+    try {
+      const res = await axios.get(
+        `/api/parsons-response/proposals/${proposalId}/export.docx`,
+        { responseType: 'blob' },
+      );
+      const url = URL.createObjectURL(res.data);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `parsons-response-proposal-${proposalId}.docx`;
+      a.click();
+      URL.revokeObjectURL(url);
+    } catch (err) {
+      setError(err?.response?.data?.detail || err.message || 'Export failed');
+    }
+  };
+
   const preview = async (root) => {
     setPreviewSection(root);
     setPreviewBody('');
@@ -105,6 +123,14 @@ export default function SectionNarratives() {
         <Chip label={`${submission.section_count} sections · ${submission.total_requirements} requirements`} />
         <Box sx={{ flex: 1 }} />
         <Button startIcon={<RefreshIcon />} onClick={reload} size="small">Refresh</Button>
+        <Button
+          startIcon={<ExportIcon />}
+          variant="contained"
+          size="small"
+          onClick={exportDocx}
+        >
+          Export .docx
+        </Button>
       </Stack>
       <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
         Assemble approved per-requirement drafts within each section into a single narrative
