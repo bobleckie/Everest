@@ -137,6 +137,41 @@ def main() -> int:
             k2_collisions += 1
         group_keys.setdefault(cid, f"k2::{key[1]}::{key[0][:50]}")
 
+    # K4 — title-PREFIX dedup, CROSS-DOC ONLY. When the first 40 normalized
+    # characters of the title match across two rows from DIFFERENT documents,
+    # treat as the same obligation. Different docs commonly paraphrase the
+    # same obligation by appending an SLA code or a few extra words at the
+    # end ("...within 365 days" vs "...within 365 days (SLA I-16)"). Same-doc
+    # rows are NOT collapsed — within one doc, each row is intentional.
+    k4_prefix_len = 40
+    k4: Dict[tuple, List] = defaultdict(list)
+    for r in rows:
+        rid, did, section, title, src, prio, cat, klass = r
+        if rid in super_map:
+            continue
+        title_n = norm_alnum(title)
+        if len(title_n) < k4_prefix_len:
+            continue
+        k4[(title_n[:k4_prefix_len],)].append(r)
+
+    k4_collisions = 0
+    for key, group in k4.items():
+        if len(group) <= 1:
+            continue
+        # Cross-doc only — skip if all members are from the same document.
+        doc_ids = {r[1] for r in group}
+        if len(doc_ids) <= 1:
+            continue
+        canonical = min(group, key=score)
+        cid = canonical[0]
+        for r in group:
+            if r[0] == cid:
+                continue
+            super_map[r[0]] = cid
+            group_keys[r[0]] = f"k4::prefix::{key[0]}"
+            k4_collisions += 1
+        group_keys.setdefault(cid, f"k4::prefix::{key[0]}")
+
     # Persist
     cur.executemany(
         "UPDATE rfp_requirements SET superseded_by_requirement_id=? WHERE id=?",
@@ -158,6 +193,10 @@ def main() -> int:
     print()
     stat("K1 (title+source+section) duplicates", k1_collisions, len(rows))
     stat("K2 (source+section) duplicates",       k2_collisions, len(rows))
+<<<<<<< HEAD
+=======
+    stat("K3 (title-only, len>=18) duplicates",  k3_collisions, len(rows))
+    stat("K4 (title-prefix 40, cross-doc only)", k4_collisions, len(rows))
     stat("Surviving canonical rows",              surviving,    len(rows))
     stat("Superseded (hidden in default views)",  superseded,   len(rows))
 
