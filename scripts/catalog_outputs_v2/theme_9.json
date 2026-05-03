@@ -1,0 +1,77 @@
+{
+  "title": "Compliance Forms, Certifications, and Bid Submission Execution",
+  "capability_statement": "Parsons routinely executes the full administrative-compliance package for state and federal procurements: portal-based bid submission, transmittal letters with delegated signature authority, addenda acknowledgments, ownership and investigations disclosures, exceptions/no-exceptions statements, mandatory insurance certifications, supplier-diversity utilization plans, and the supporting attestations (AWS PCI-DSS, SOC 2 Type II, accessibility/ACR, security testing) that state procurements typically require as separate exhibits. On the Maryland MDOT MVA emissions submittal, Parsons filed through eMaryland Marketplace (eMM vendor number 259737), acknowledged Addenda 1-16, designated dual signatories (Senior Vice President + Senior Program Director), and stated 'NO exceptions' to RFP, contract, and exhibit provisions [3621, 3647]. On the PennDOT 3522R12 submittal, Parsons assembled and filed the corresponding compliance set including AWS PCI-DSS Compliance Attestation, SOC 2 Type II Report and Spreadsheet, Section 508 / WCAG Accessibility Conformance Reports, Disaster Recovery Plan, Escrow Agreements, and redacted Security Testing Results as numbered attachments [1960]. The dossier-level posture supporting these filings: Parsons Corporation is a publicly traded NYSE-listed company (NYSE: PSN), recognized 17 consecutive years by Ethisphere as one of the World's Most Ethical Companies, ranked #1 ENR Program Management firm (2025), with a Chief Legal Officer (John Martinez, named December 2025) and CEO Carey Smith holding NACD Fellow / NACD cyber-governance certifications [3554, 3555, 3556] - all material facts that flow directly into Ownership Disclosure, Disclosure of Investigations, and corporate-responsibility forms.",
+  "named_past_performance": [
+    {
+      "name": "Maryland MDOT Motor Vehicle Administration - Vehicle Emissions Inspection Program (Volume I Technical Proposal)",
+      "scope": "Full bid-submission package: Tab A Table of Contents through Tab N Required Forms and Certifications, including Offeror Information Sheet and Transmittal Letter, Executive Summary, References, List of Current/Prior State Contracts, Financial Capability, Certificate of Insurance, Subcontractors, Legal Action Summary, Economic Benefit Factors, and the Required Forms and Certifications package. eMM vendor number 259737; Addenda 1-16 acknowledged; dual signature authority (Robert Suess SVP and Jim Valerio Senior Program Director). Submitted on behalf of Parsons Transportation Group Inc. as a subsidiary of Parsons Corporation.",
+      "outcome": "Proposal filed stating Parsons takes NO exceptions to any contractual provisions in the RFP, Contract (Attachment M), or exhibits/attachments. Supplier Diversity submission committed to exceed the 30% MBE utilization goal and the 2% VSBE utilization requirement, with 7 minority businesses on the program team.",
+      "source_chunk_ids": [3574, 3575, 3612, 3613, 3614, 3621, 3647]
+    },
+    {
+      "name": "PennDOT Solicitation 3522R12 - Emissions Program Management (Technical Submittal)",
+      "scope": "Bid response to Pennsylvania Department of Transportation, Bureau of Office Services, including the full attached compliance set: Project Experience, Disaster Recovery Plan, Work Plan/Program Schedule, Monthly Status Report, Escrow Agreements, AWS PCI-DSS Compliance Attestation (with AWS PCI Responsibility Summary and PCI-DSS AWS Responsibility Summary), SOC 2 Type II Report & Spreadsheet, Section 508 and WCAG Accessibility Conformance Reports (ACR), and redacted Security Testing Results. Transmittal letter on Parsons letterhead (Harrisburg, PA office) addressed to PennDOT contracting officer, dated December 5, 2023.",
+      "outcome": "Submittal filed as the incumbent program manager. Added two Veteran Business Enterprises (1Alpha Consulting and Berry Solutions Group) to the Small Diverse Business / Small Business team for this procurement; declared no exceptions framework consistent with PennDOT requirements.",
+      "source_chunk_ids": [1927, 1928, 1958, 1959, 1960, 1961, 1962, 1965, 1966]
+    },
+    {
+      "name": "FAA Technical Support Services Contract V (TSSC V) - federal compliance-submission lineage",
+      "scope": "Continuous FAA TSSC prime through TSSC III (2001), TSSC IV (2012), and TSSC V (2024) - demonstrating sustained ability to submit and re-win complex federal compliance packages over 24+ years.",
+      "outcome": "TSSC V awarded with $1.8B ceiling, 4-year base + two 3-year options, supporting 600+ FAA sites; in January 2026 received a $593M option exercise extending performance to 2030.",
+      "source_chunk_ids": [3534]
+    }
+  ],
+  "quantified_outcomes": [
+    {
+      "metric": "eMaryland Marketplace vendor number on file",
+      "value": "259737",
+      "context": "Parsons registered and active in the Maryland state procurement portal for the MDOT MVA emissions submittal.",
+      "source_chunk_ids": [3621]
+    },
+    {
+      "metric": "RFP addenda acknowledged in transmittal letter",
+      "value": "Addenda Nos. 1-16",
+      "context": "Maryland MDOT MVA emissions RFP - Parsons acknowledged all 16 addenda issued, demonstrating full document-control discipline on a complex state solicitation.",
+      "source_chunk_ids": [3621]
+    },
+    {
+      "metric": "Exceptions taken to RFP / contract / exhibits",
+      "value": "0 (NO exceptions)",
+      "context": "Maryland MDOT MVA emissions proposal stated explicitly: 'we take NO exceptions to any of the contractual provisions outlined in the RFP, the Contract (Attachment M), or any other exhibits or attachments.'",
+      "source_chunk_ids": [3647]
+    },
+    {
+      "metric": "MBE / VSBE utilization commitments on a state emissions procurement",
+      "value": "Exceeds 30% MBE goal and 2% VSBE requirement; 7 minority businesses on program team",
+      "context": "Maryland MDOT MVA emissions submittal - Supplier Diversity Program commitment.",
+      "source_chunk_ids": [3647]
+    },
+    {
+      "metric": "Veteran Business Enterprises added to PennDOT submittal team",
+      "value": "2 (1Alpha Consulting; Berry Solutions Group)",
+      "context": "PennDOT 3522R12 Emissions Program Management - additions to existing Small Diverse Business / Small Business commitments.",
+      "source_chunk_ids": [1928]
+    },
+    {
+      "metric": "Consecutive years of Ethisphere World's Most Ethical Companies recognition",
+      "value": "17 years",
+      "context": "Material to Ownership Disclosure, Disclosure of Investigations, and corporate-integrity certifications across state and federal solicitations.",
+      "source_chunk_ids": [3554]
+    },
+    {
+      "metric": "ENR Program Management firm rank (2025)",
+      "value": "#1",
+      "context": "Used to substantiate corporate-experience attestations and references sections.",
+      "source_chunk_ids": [3534, 3554]
+    },
+    {
+      "metric": "Continuous FAA TSSC prime tenure",
+      "value": "TSSC III (2001) -> TSSC IV (2012) -> TSSC V (2024); $593M option exercise Jan 2026",
+      "context": "Demonstrates sustained federal compliance-submission and re-compete success over 24+ years.",
+      "source_chunk_ids": [3534]
+    }
+  ],
+  "differentiators": "Parsons brings a publicly traded NYSE-listed corporate parent (NYSE: PSN) with documented IPO advisory record, a 17-year run of Ethisphere ethics recognition, and an in-house Chief Legal Officer (John Martinez, named Dec 2025) - which materially de-risks the corporate-disclosure, investigations-disclosure, and signature-authority sections of state forms [3554, 3556, 3567]. The Maryland submittal demonstrates 'no-exceptions' bid posture and >30% MBE / 2% VSBE diversity commitments executed in a real state filing with eMM vendor number, dual-signatory transmittal, and 16-addenda acknowledgment [3621, 3647]. The PennDOT submittal demonstrates pre-built compliance-attestation depth: AWS PCI-DSS, SOC 2 Type II, Section 508 / WCAG ACRs, Disaster Recovery, Escrow, and redacted Security Testing Results delivered as discrete numbered attachments rather than narrative-only - a configuration that maps directly onto the New Jersey-style Third-Party Information Security Questionnaire and supplemental security forms in this theme [1960]. Cleared-workforce concentration (multiple acquired companies at 80-90%+ TS/SCI) and CEO-level NACD cyber-governance / PMP credentialing add further weight to corporate-officer attestations [3531, 3554, 3555].",
+  "gap_notes": "Most requirements in this theme are direct, mechanical submission obligations - portal filing (NJSTART eProcurement), Q&A submission via portal tabs, ownership-disclosure forms, MacBride Principles certifications, Iran investment-activities certifications, Disclosure of Investigations Parts 1-3, exceptions to State Standard Terms and Conditions, dues authorization Exhibits A/B, performance-security submission, and continuing-obligation notification clauses. The provided Parsons evidence does NOT contain the actual completed New Jersey forms (no NJSTART screenshots, no completed Ownership Disclosure for 10%-or-greater owners, no completed MacBride box-check, no completed Iran disclosure, no completed Disclosure of Investigations Parts 1-3, no completed dues/COPE Exhibits A/B, no Cyber Breach Insurance certificate showing $2,000,000 minimum, no Commercial General Liability $1,000,000-per-occurrence COI, no Professional Liability/E&O policy face). Two material disclosure items must be reported on Disclosure of Investigations forms based on the dossier: (1) Parsons protested the New Jersey Bid Solicitation #20DPP00471 (Enhanced Motor Vehicle Inspection Maintenance System) award to Opus Inspection in 2021/2022, and protested the 2016 award - these are public-sector adverse civil/administrative matters within the standard 5-year disclosure window for some forms [3538, 3558]; (2) a Virginia Business reference to a $250M classified contract 'lawsuit' is noted in the dossier, with specifics 'not material here' per the dossier author's framing - capture team must obtain primary source before any sworn certification [3558]. The Confidential State Department contract wind-down and the FAA BNATCS prime-integrator loss are commercial/financial events, not investigations, but may surface in financial-capability narrative (Tab I-style) [3557, 3558]. Insurance: dossier does not state policy limits actually carried; capture must pull current COI to confirm the >=$2M Cyber Breach and >=$1M CGL thresholds. Subcontractor (Tab K) and Legal Action Summary (Tab L) detail must be assembled fresh - none of the 16 dossier chunks list current Parsons-side litigation comprehensively. The FAA BNATCS market-impact disclosure (~15-23% stock drop, analyst downgrades) is not directly responsive to investigations-disclosure questions but capture should review the Ownership Disclosure publicly-traded-company question (R-004) since Parsons is NYSE-listed and most equity-detail disclosures are then waived under typical state form instructions [3554, 3567]. Theme is overwhelmingly direct, mechanical submission - honest framing: Parsons has the institutional muscle and prior-state-submittal evidence to execute the package, but every form must be freshly completed by the capture team with current data; the dossier and prior submittals serve as posture and template, not as drop-in answers.",
+  "source_chunk_ids": [1927, 1928, 1934, 1938, 1939, 1940, 1943, 1944, 1949, 1951, 1952, 1958, 1959, 1960, 1961, 1962, 1965, 1966, 1968, 1969, 3520, 3531, 3532, 3534, 3538, 3539, 3544, 3545, 3546, 3548, 3554, 3555, 3556, 3557, 3558, 3567, 3574, 3575, 3586, 3591, 3592, 3602, 3603, 3606, 3612, 3613, 3614, 3617, 3621, 3645, 3646, 3647, 3664, 3668, 3678, 3683, 3686, 3689, 3690, 3691, 3693, 3697, 3705, 3720, 3721, 3723]
+}

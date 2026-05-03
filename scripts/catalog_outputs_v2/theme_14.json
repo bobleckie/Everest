@@ -1,0 +1,65 @@
+{
+  "title": "Customer & Public Interface: Motorist Hotlines, Reservation/Appointment Systems, and Access-Controlled ERT Web Modules",
+  "capability_statement": "Operate the customer- and public-facing interface of vehicle inspection programs, including toll-free Motorist Hotlines and Call Center operations, motorist reservation and appointment systems accessible by website and telephone, and access-controlled web/console modules used by Emissions Repair Technicians (ERTs) and station operators. Capabilities span hiring and training Call Center Representatives (CCRs), assuming an existing toll-free number on contract commencement and reverting it on termination, operating Customer Service and Station Operator Hotlines, and providing a Help Desk for stations, manufacturers, and consumers. The contemplated technology backbone uses ZenDesk and Amazon Connect for the call center solution, with limited-access repair data entry modules within the program Management Console.",
+  "named_past_performance": [
+    {
+      "name": "Pennsylvania Vehicle Emissions Inspection and Maintenance (I/M) Program (PennDOT)",
+      "scope": "Long-running program management contract under which the contractor delivers public information and education (I&E) activities, motorist compliance, Help Desk facilities for equipment manufacturers, I/M stations and consumers, Customer Service and Station Operator Hotlines, a Toll-Free Hotline, referee and waiver services, and call center support; the proposal includes upgrading the call center solution with ZenDesk and Amazon Connect.",
+      "outcome": "Continuous program operation cited from 1997 through the current contract term, with proposed cloud-based VIID and call center modernization on AWS without service interruption.",
+      "source_chunk_ids": [1927, 1942, 1963, 1970, 1987, 1993]
+    },
+    {
+      "name": "New Jersey Motor Vehicle Inspection System (NJ MVC)",
+      "scope": "Project and operations management of the Enhanced I/M Program, including VIID development, data security, software certification, equipment ATP, motorist call center, and Public Information & Education (PI&E).",
+      "outcome": "Sustained program delivery cited from 1998 through the current term, with motorist call center and PI&E among the recurring services rendered.",
+      "source_chunk_ids": [1988, 1990, 3642]
+    },
+    {
+      "name": "Texas Automated Vehicle Inspection System (TX DPS)",
+      "scope": "Program management, software development and maintenance, comparable inspection station volume in a decentralized program, reporting, hearings application, and call center support.",
+      "outcome": "Integrated a comprehensive service call ticketing and response tracking system in support of decentralized stations.",
+      "source_chunk_ids": [1988, 1989, 1990, 1991]
+    },
+    {
+      "name": "Ontario Integrated Vehicle Safety and Emissions Inspection Program (Ontario MOECC/Ministry of the Environment)",
+      "scope": "Program and operations management of the LDV emissions program, including VIID development, information systems development, management and reporting, call center operations, inspector training, facility certification, overt and covert auditing, program QA/QC, fee collection, and equipment software certification.",
+      "outcome": "Successfully transitioned the Ontario Heavy-Duty Emissions program to the AWS cloud with no service interruption or impact to existing emissions stations.",
+      "source_chunk_ids": [1963, 1993]
+    }
+  ],
+  "quantified_outcomes": [
+    {
+      "metric": "Tenure on Pennsylvania I/M Program (continuous program management with public-facing services)",
+      "value": "1997-2025 (referenced as more than 20 years on the program)",
+      "context": "Includes Toll-Free Hotline, Help Desk, Customer Service and Station Operator Hotlines, and motorist compliance/I&E services delivered to PennDOT.",
+      "source_chunk_ids": [1984, 1987]
+    },
+    {
+      "metric": "Tenure on New Jersey Motor Vehicle Inspection System with motorist call center and PI&E",
+      "value": "1998-2024",
+      "context": "Operations include VIID, data security, software certification, equipment ATP, motorist call center, and PI&E for the NJ MVC Enhanced I/M Program.",
+      "source_chunk_ids": [1988, 1990]
+    },
+    {
+      "metric": "Maryland centralized network covered by the customer-facing solution",
+      "value": "18 inspection stations and 10 program kiosks (Phase 1 hardware refresh of 81 testing lanes / 114 test units)",
+      "context": "Scope across which the proposed customer interface (live queue stream, wait-time tracking, self-service tablets, kiosks) operates as part of the program redesign.",
+      "source_chunk_ids": [3681, 3705]
+    },
+    {
+      "metric": "Public-facing wait-time and queue transparency",
+      "value": "Live stream of each station's queue area and an estimated wait time at each station for all hours stations are open to the public, delivered via a RESTful JSON web service",
+      "context": "Customer-facing transparency built into the inspection program operations.",
+      "source_chunk_ids": [3665]
+    },
+    {
+      "metric": "Local presence supporting customer-facing operations",
+      "value": "More than 750 staff members described as residents of the contracting state in the Maryland proposal narrative",
+      "context": "Used to argue local accountability for the customer interface function.",
+      "source_chunk_ids": [3650]
+    }
+  ],
+  "differentiators": "Modernized call center stack proposed with ZenDesk and Amazon Connect on AWS, layered onto a long-running track record of operating Toll-Free Hotlines, Customer Service Hotlines, Station Operator Hotlines, and a Help Desk that simultaneously serves equipment manufacturers, I/M stations, and consumers (chunks 1927, 1942, 1963, 1970). Customer-facing operations are reinforced by transparency features including a live RESTful JSON video stream of each station's queue and an estimated wait time during all open hours, ALPR-based wait-time tracking with a tuned OCR engine, motorist pre-registration and pre-payment to reduce on-site time, and integrated tablets for self-service and motorist/staff use (chunks 3659, 3661, 3662, 3665, 3667). Repair-effectiveness and motorist assistance is delivered through MAC lanes converted from existing testing lanes and through limited-access data entry capability tied to the Management Console (chunks 3666, 3681, 3709). The PI&E and motorist compliance functions are delivered with named subcontractor support (Berry Solutions Group for I&E and 1Alpha Consulting for motorist compliance) under a defined organizational chart that includes dedicated Call Center Operations leadership (chunks 1928, 1999, 2001, 2002, 2004, 2005). Continuity is supported by demonstrated transitions of similar programs without service interruption (Ontario heavy-duty to AWS) and by a tenured cross-jurisdiction portfolio (PA, NJ, TX, Ontario, Vermont, Hawaii) that all include call center, hotline, or motorist-facing services (chunks 1987-1993, 3642).",
+  "gap_notes": "The provided evidence does not contain quantitative proof of the specific Motorist Hotline service levels demanded by Requirement A-014 - namely 98% of calls received and queued, answered within 10 minutes from the queue, or returned within 2 Motorist Hotline Business Hours; the proposal text describes the existence of hotlines and modernization (ZenDesk/Amazon Connect) but does not state historical answer-rate, queue-time, or callback-time metrics in the chunks supplied. Similarly, the chunks describe an existing Toll-Free Hotline and Help Desk but do not document a specific past instance of taking over an incumbent toll-free number and reverting it at contract end, as required by A-068. There is also no chunk-level evidence of an access-controlled webpage or limited-access ERT repair data entry module being already deployed (R-048, R-061); the Maryland proposal references the Management Console and MAC-lane workflows but does not contain a description of the ERT-only access tier. Likewise, no chunk in the supplied set describes prior hire-and-train numbers for Call Center Representatives (A-076) or a past instance of obtaining state approval for a motorist appointment system (A-017) or a website-and-telephone reservation system (A-018); pre-registration and pre-payment are mentioned but not as a state-approved appointment/reservation system. These gaps should be closed with additional past-performance evidence and CONOPS detail before final response.",
+  "source_chunk_ids": [1927, 1928, 1941, 1942, 1946, 1963, 1970, 1984, 1987, 1988, 1989, 1990, 1991, 1993, 1999, 2001, 2002, 2004, 2005, 2007, 3572, 3617, 3641, 3642, 3650, 3653, 3654, 3655, 3656, 3657, 3659, 3661, 3662, 3663, 3665, 3666, 3667, 3681, 3705, 3709]
+}

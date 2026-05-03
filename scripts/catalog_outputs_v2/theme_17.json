@@ -1,0 +1,89 @@
+{
+  "title": "Collective Bargaining & Labor Relations Administration for Multi-Station Vehicle Inspection Operations",
+  "capability_statement": "Parsons operates large, unionized inspection-station workforces under State-style collective bargaining frameworks, administering classification, seniority, dues, grievance, overtime-rotation, leave, transfer, and recall obligations of the kind enumerated in this theme's 83 requirements. Parsons has continuously managed a State-owned, union-staffed Vehicle Inspection Program since 1998, where it manages real estate, assets, and bargaining-unit personnel on behalf of the client (chunk 3701). Across active North American I/M programs, Parsons emphasizes retention over replacement and credits its compensation, benefits, and performance-management practices for stable bargaining-unit operations (chunks 3737, 3738). Corporate scale supports this delivery: 21,000+ employees in 50 U.S. states and 30+ countries, 17 consecutive years on Ethisphere's World's Most Ethical Companies, FY2025 revenue of $6.364B, and a People-First culture rooted in the company's ESOP heritage (chunks 3514, 3515, 3516, 3560). On in-program labor administration, Parsons fielded a staffing model for the comparable State proposal of 194 total bargaining-unit-eligible station personnel (73 full-time inspectors, 37 part-time inspectors, 18 MAC Assistants, 66 station managers/lane managers) across 18 inspection stations, with HQ administrative staff layered on top (chunks 3742, 3745). Recruitment, onboarding, training, and certification are run through a dedicated HR function with a WBE staffing partner (Kennedy Staffing Services), AI-assisted screening, an 'Always Hiring' candidate pool, and corporate-led training that includes evening/weekend sessions to onboard incumbent station personnel without disrupting union-shift coverage (chunks 3698, 3740, 3741). Parsons' PennDOT response further demonstrates that Parsons can field and retain trained, dependable teams in a 'challenging labor market' without anticipating staffing impacts at transition (chunks 1928, 1963, 1964, 2006).",
+  "named_past_performance": [
+    {
+      "name": "State Vehicle Inspection Program (since 1998)",
+      "scope": "Manages and oversees real estate, assets, and inspection-station operations on behalf of the State; longest continuous I/M station-operations engagement in the Parsons portfolio and the most direct analogue to the bargaining-unit obligations covered in this theme (lane technicians, equipment repair technicians, material handlers, technical specialists, seniority-driven overtime and recall, station-by-location seniority).",
+      "outcome": "Continuous operations since 1998; cited as the foundational reference for lane-operations, throughput, and rolled-throughput-yield improvements across the Parsons program portfolio.",
+      "source_chunk_ids": [3701]
+    },
+    {
+      "name": "Pennsylvania Emissions Inspection & Maintenance Program (PennDOT, RFP 3522R12) - Parsons recompete proposal",
+      "scope": "Continuing program management of the Pennsylvania I/M Program with auditor teams, support teams, and subcontractors already in place; covers covert audit staffing, call-center staffing, and field auditor workforce across multiple regional locations (Hazleton, Altoona, Cranberry, Plymouth Meeting, Harrisburg).",
+      "outcome": "Parsons stated teams 'fully staffed, trained, and dependable' in a challenging labor market with no anticipated staffing impacts at award and no transitional risk to current operations; subcontractor Dasher Services committed 3 covert-audit managers + 31 auditors and a call center with 1 supervisor + 2 representatives, all 100% committed.",
+      "source_chunk_ids": [1928, 1963, 1964, 2006, 2007, 2008]
+    },
+    {
+      "name": "State Vehicle Emissions Inspection Program Management & Operation - Parsons proposal",
+      "scope": "Proposed steady-state staffing for 18 inspection stations including bargaining-unit-eligible classifications (full-time inspectors, part-time inspectors, MAC Assistants, station and lane managers); incumbent-hiring strategy, evening/weekend transition training, and retention-focused HR operating model.",
+      "outcome": "Proposed total of 194 personnel across 18 stations plus HQ (73 full-time inspectors, 37 part-time inspectors, 18 MAC Assistants, 66 managers, 14 HQ administrative); Parsons committed to targeted hiring of qualified incumbent personnel coupled with new hires, a less-than-two-week onboarding cycle, and an 'Always Hiring' pool maintained jointly with WBE partner Kennedy Staffing Services.",
+      "source_chunk_ids": [3737, 3738, 3740, 3741, 3742, 3743, 3745, 3747]
+    },
+    {
+      "name": "Multi-state I/M operations workforce (California, Hawaii, Louisiana, New Jersey, Ontario, Pennsylvania, Tennessee, Massachusetts)",
+      "scope": "Recruitment, retention, training, certification, and HR management for vehicle-inspection program workforces across multiple jurisdictions, including bargaining-unit and non-bargaining-unit station personnel.",
+      "outcome": "Parsons cites 'strong retention rates' across these programs as evidence that retention-over-replacement is its operating norm; underpins capacity to honor seniority-driven and recall obligations of the kind in Article VI.",
+      "source_chunk_ids": [3737, 3738]
+    },
+    {
+      "name": "HireLAX Local Hiring Program (Los Angeles World Airports)",
+      "scope": "Community-outreach and local-hire training program supporting LAX's modernization workforce demand; demonstrates Parsons' experience overseeing local hiring programs that foster workforce growth and development.",
+      "outcome": "Cited as 'highly successful' and recognized publicly by U.S. Secretary of Transportation Pete Buttigieg during a July 7, 2022 visit; relevant precedent for Union/State-recognized hiring channels and orientation engagement.",
+      "source_chunk_ids": [3741, 3742, 3743]
+    }
+  ],
+  "quantified_outcomes": [
+    {
+      "metric": "Total proposed station and HQ workforce for State proposal",
+      "value": "194 personnel",
+      "context": "Across 18 inspection stations plus HQ; 73 full-time inspectors, 37 part-time inspectors, 18 MAC Assistants, 66 managers (Station/Assistant Station/Lane), 14 HQ admin staff. Demonstrates Parsons' ability to scope, schedule, and administer a bargaining-unit-style workforce of the size implied by the theme's classification, seniority, and overtime requirements.",
+      "source_chunk_ids": [3742, 3745]
+    },
+    {
+      "metric": "Continuous State I/M station operations tenure",
+      "value": "Since 1998 (27+ years as of the proposal date)",
+      "context": "Parsons has managed and overseen real estate, assets, and station operations for the State Vehicle Inspection Program continuously since 1998 - the longest direct analogue to the unionized station environment governed by this theme.",
+      "source_chunk_ids": [3701]
+    },
+    {
+      "metric": "Total Parsons workforce",
+      "value": "21,000+ employees",
+      "context": "Late 2025; operations in 50 U.S. states and 30+ countries; supplies surge and back-fill capacity for bargaining-unit administration, including the up-to-220-day Union paid-leave obligation in Article XXXIV.2.",
+      "source_chunk_ids": [3514, 3515, 3516, 3560]
+    },
+    {
+      "metric": "Vehicle-inspection division dedicated bench",
+      "value": "More than 500 vehicle-industry professionals in the region",
+      "context": "Cited in the State proposal as the dedicated Vehicle Inspection and Compliance division available for transition, startup, and ongoing labor-relations support; supplemented by access to 18,000 (older Parsons figure) / 21,000+ (current) corporate employees.",
+      "source_chunk_ids": [3671, 3737]
+    },
+    {
+      "metric": "PennDOT subcontractor covert-audit and call-center workforce",
+      "value": "Dasher Services: 3 managers + 31 covert auditors; 1 call-center supervisor + 2 representatives (100% committed)",
+      "context": "11-year Parsons-Dasher relationship; demonstrates Parsons' capacity to administer subcontractor labor with documented seniority, classification, and audit-team controls.",
+      "source_chunk_ids": [2007, 2008]
+    },
+    {
+      "metric": "Ethical-operations recognition relevant to labor practices",
+      "value": "17 consecutive years on Ethisphere World's Most Ethical Companies",
+      "context": "Cited in the FY2025 dossier; supports representations on dues handling, grievance integrity, and lawful labor-relations conduct.",
+      "source_chunk_ids": [3560]
+    },
+    {
+      "metric": "Employee ownership share supporting People-First culture",
+      "value": "More than 60% of Parsons owned by the Parsons Employee Stock Ownership Trust",
+      "context": "Pre-IPO 100% ESOP; post-2019 IPO retains majority ESOP ownership; Parsons emphasizes 'People First' culture, an employee value proposition, and a flexible/work-from-anywhere engineer program - cultural underpinning for the labor-relations posture.",
+      "source_chunk_ids": [3514, 3516, 2017]
+    },
+    {
+      "metric": "Middle East regional workforce (proxy for global labor-relations breadth)",
+      "value": "Approximately 6,000 employees regionally over 65+ years of presence",
+      "context": "Demonstrates Parsons' experience administering large, multi-jurisdictional workforces under varied labor-law regimes; relevant proxy for labor-relations capacity, not a direct CBA reference.",
+      "source_chunk_ids": [3516]
+    }
+  ],
+  "differentiators": "1) Documented continuous experience operating a State-owned, union-staffed inspection program since 1998 (chunk 3701) - the longest analogue to the Article-driven bargaining-unit obligations in this theme; 2) Retention-over-replacement HR posture with cited strong retention rates across CA, HI, LA, NJ, Ontario, PA, TN, and MA I/M programs (chunks 3737, 3738); 3) Capacity to absorb the up-to-220-day Union paid-leave obligation (Article XXXIV.2) and the 30-day layoff notice / 90-day sale-conveyance notice / 7-day recall window obligations using a 21,000+ employee corporate bench plus a 500+ vehicle-inspection division (chunks 3515, 3671, 3737); 4) Structured incumbent-hiring approach with evening/weekend training so the existing bargaining unit is onboarded without operational disruption (chunks 3698, 3741); 5) WBE staffing partner Kennedy Staffing Services + AI-assisted screening + 'Always Hiring' candidate pool to keep seniority lists, recall lists, and overtime-rotation rosters fully staffed (chunks 3740, 3741); 6) People-First, ESOP-rooted corporate culture and 17 consecutive years of Ethisphere recognition - operating posture aligned with cooperative labor-relations conduct, dues administration integrity, and disavowal-statement obligations (chunks 3514, 3516, 3560); 7) Demonstrated transition execution in a 'challenging labor market' with no anticipated staffing impacts and no transitional risk to current operations (chunks 1928, 1963, 1964, 2006); 8) Local-hire program experience (HireLAX) recognized by U.S. DOT, supporting Union orientation participation, new-hire recognition obligations, and community-aligned hiring (chunks 3741, 3742, 3743).",
+  "gap_notes": "The Parsons evidence in this theme establishes labor-relations posture, workforce scale, retention strategy, and a 27+ year unionized-station operating history, but does not include the specific contract artifacts that would directly answer many of the 83 detailed obligations: no copy of a current Parsons-Union collective bargaining agreement is in the chunks; no documented procedures for the 30-day classification-contention notice (Article I.2), the 90-day sale/conveyance notice (Article I.5), Union dues remittance schedules and Employee lists (Article III.5), grievance-procedure step deliverables (Article XIII), disavowal-of-prohibited-action procedures (Article XII.4), seniority-tie-breaking lottery procedures (Article VI.1(b)), recall-list mechanics, the Lane Technician / ERT / Material Handler / Technical Specialist overtime-rotation rosters (Article IX.5-IX.7), or transfer-preference list management (Article XXXI). No chunk evidences a Labor Relations Manager designation or Station Manager protocols for Union representative visits (Article IV.1). Vacation-accrual schedules, bereavement-leave administration (Article XXX.2), Saturday inspection-staffing minimums (IX.20), and the 220-day Union paid-leave administration are not directly described. Lump-sum payment administration (Article VII.2-VII.3) and FMLA/sick-leave hourly-charging mechanics (Article XXIX) are also undocumented in the available chunks. Note: 'State-neutralized' is preserved - the Parsons proposal text references 'the State' as a placeholder. Parsons' New Jersey program (since 1998) is named explicitly in chunk 3701 because it is the documented past-performance citation; if the issuing agency requires fully State-neutral past performance, that name would need to be redacted in downstream drafting.",
+  "source_chunk_ids": [1927, 1928, 1963, 1964, 1973, 1979, 2006, 2007, 2008, 2010, 2012, 2013, 2016, 2017, 2035, 2040, 2041, 2042, 2043, 2044, 3513, 3514, 3515, 3516, 3525, 3526, 3528, 3531, 3532, 3543, 3544, 3545, 3547, 3548, 3549, 3550, 3560, 3561, 3577, 3578, 3602, 3608, 3618, 3620, 3645, 3668, 3671, 3673, 3674, 3697, 3698, 3701, 3707, 3718, 3723, 3731, 3732, 3735, 3737, 3738, 3740, 3741, 3742, 3743, 3745, 3746, 3747, 3778]
+}

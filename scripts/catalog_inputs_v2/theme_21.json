@@ -1,0 +1,807 @@
+{
+  "theme_id": 21,
+  "theme_label": "Uncategorized",
+  "category": "Other",
+  "rfp_requirements": [
+    {
+      "id": 4271,
+      "code": "V-003",
+      "title": "Acknowledge State ownership of all legacy VID data",
+      "description": "The State owns all data on the legacy VID and its related data structures; Contractor must acknowledge and respect this ownership throughout migration activities.",
+      "section": "4.30.2.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4359,
+      "code": "A-077",
+      "title": "Distribute Apple-compatible iOS applications via State's App Store account",
+      "description": "",
+      "section": "4.36",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1136,
+      "code": "R-058",
+      "title": "Provide Quality Management",
+      "description": "Contractor must provide Quality Management.",
+      "section": "4.5",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1138,
+      "code": "R-060",
+      "title": "Provide Issue Tracking System",
+      "description": "Contractor must provide an Issue Tracking System.",
+      "section": "4.7",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1595,
+      "code": "A-027",
+      "title": "Provide secure internet access to ITS via approved browsers",
+      "description": "Provide secure internet access to the ITS for multiple State-approved stakeholders through popular internet browsers such as Microsoft Edge, Firefox, Chrome.",
+      "section": "4.7.H",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1139,
+      "code": "R-061",
+      "title": "Adhere to Deliverable Review and Change Timeline",
+      "description": "Contractor must adhere to the Deliverable Review and Change Timeline.",
+      "section": "4.8",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1843,
+      "code": "A-065",
+      "title": "Comply with State procedures/Circular Letter for property disposal",
+      "description": "All removal/disposal of State property from a CIF must follow State procedures including Circular Letter No. 08-03-DPP and current applicable Circular guidance.",
+      "section": "4.9.4.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5004,
+      "code": "A-084",
+      "title": "Establish contracts with external incident response specialists",
+      "description": "Maintain contracts with external incident response services specialists.",
+      "section": "6.11.E",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 4927,
+      "code": "A-007",
+      "title": "Develop and implement compliance processes",
+      "description": "Contractor must develop and implement processes ensuring compliance with all statutory, regulatory, contractual, and internal policy obligations applicable to the Contract (e.g., GDPR, PCI DSS, HIPAA, IRS-1075).",
+      "section": "6.2",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 4948,
+      "code": "A-028",
+      "title": "Restrict data transmission to authorized parties",
+      "description": "Contractor shall only transmit or exchange State Data with other parties when expressly requested in writing and permitted by the Contract or the State.",
+      "section": "6.5.D",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4956,
+      "code": "A-036",
+      "title": "Designate 24/7 breach contact individual",
+      "description": "Contractor must designate a single individual employed by Contractor available to the State 24 hours per day, 7 days per week as the incident response contact.",
+      "section": "6.5.G(b)",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 4972,
+      "code": "A-052",
+      "title": "Apply cryptographic protections",
+      "description": "Media protections must include application of cryptographic protections.",
+      "section": "6.6.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4973,
+      "code": "A-053",
+      "title": "Restrict use of portable storage devices",
+      "description": "Media protections must include restricting the use of portable storage devices.",
+      "section": "6.6.D",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 4977,
+      "code": "A-057",
+      "title": "Centralize remote access management",
+      "description": "Contractor must establish centralized management of the remote access infrastructure.",
+      "section": "6.7.A",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 5663,
+      "code": "A-001",
+      "title": "Record each CIF audit on the web portal",
+      "description": "The auditor must record each audit on the web portal, including date of audit, CIF, and auditor's description.",
+      "section": "Audit Recording",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5728,
+      "code": "A-066",
+      "title": "Conduct Covert Audits at CIFs",
+      "description": "MVC shall conduct unannounced Covert Audits to ensure licensed inspectors follow all procedures and protocols set by the State.",
+      "section": "CIF Audits",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7377,
+      "code": "A-009",
+      "title": "Acknowledge Entity License Data Source",
+      "description": "License data for facilities, inspectors, and other entities is stored on tables generally updated from the MVC Business License System (BLS), covering approximately 20,000 licensed entities.",
+      "section": "Entity License Data",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 6795,
+      "code": "A-028",
+      "title": "Set rulesVersion in Initialize Rule Sheet",
+      "description": "Each ruleset must set the rulesVersion number in the initialize rule sheet and the rulesVersion should always be the same for all three rulesets even if unchanged.",
+      "section": "General Notes - 1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6796,
+      "code": "A-029",
+      "title": "Use Consistent Aliases in All Rule Sheets of a Ruleset",
+      "description": "The aliases defined in the Scope section must be the same in all rule sheets in a ruleset and must always be used to identify attributes in the rule sheets.",
+      "section": "General Notes - 2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6798,
+      "code": "A-031",
+      "title": "Use inspExtentCode to Terminate Rulesets",
+      "description": "The inspExtentCode is used to terminate a ruleset; almost all rule sheets check this attribute in Preconditions/Filters and if set to 'T', rule sheets will not execute.",
+      "section": "General Notes - 3",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6799,
+      "code": "A-032",
+      "title": "Every Rule Sheet Must Have postInfo Entry in N.1",
+      "description": "Every rule sheet must have a postInfo entry in row N.1 of the Rules (non-conditional) section, with Rule Statement equal to a dash followed by the rule sheet name.",
+      "section": "General Notes - 4",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6800,
+      "code": "A-033",
+      "title": "Every Rules Conditions/Actions Column Must Have CurrInsp.post Row",
+      "description": "Every Rules Conditions/Actions column must have a CurrInsp.post row in the Actions section to force tracking of which rules have fired, with the Rules Statement starting with the rule sheet name followed by a colon.",
+      "section": "General Notes - 5",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5513,
+      "code": "R-019",
+      "title": "Lowering procedure - press yellow safety release and air valve",
+      "description": "When lowering the jack, press the yellow safety release lever on the right side of the jack all the way down with the right hand while pushing the air valve lever to the left with the left hand to release air pressure.",
+      "section": "Operation",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5676,
+      "code": "A-014",
+      "title": "Record each PIF audit on the web portal",
+      "description": "The auditor must record each PIF audit on the web portal, including date, PIF, and auditor's description.",
+      "section": "PIF Audit Recording",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5672,
+      "code": "A-010",
+      "title": "Conduct automated record analysis",
+      "description": "Record audits shall include automated record analysis to identify statistical inconsistencies, unusual patterns, and other discrepancies.",
+      "section": "PIF Audits",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 5414,
+      "code": "R-038",
+      "title": "Check operation of all controls",
+      "description": "During annual PM, check operation of all controls.",
+      "section": "PM Check List - NJIL-12 Annual",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5502,
+      "code": "R-008",
+      "title": "Remove washer/nut from inside anchor bolt locations",
+      "description": "Remove the washer/nut from the two inside anchor bolt locations on each column for Challenger 4P12 & 4015.",
+      "section": "Runway Spacer",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 5500,
+      "code": "R-006",
+      "title": "Oil guide pins with jack at full height",
+      "description": "Raise the jack to full height, oil the guide pins (do not grease), and lower the jack back down, repeating as necessary.",
+      "section": "Startup",
+      "priority": "medium",
+      "category": "mandatory"
+    }
+  ],
+  "parsons_evidence": [
+    {
+      "chunk_id": 1926,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 1,
+      "content": "TECHNICAL PROPOSAL ELECTRONIC\nEMISSIONS PROGRAM\nMANAGEMENT\nRFP NUMBER 3522R12 / 2023\nPennsylvania Department of Transportation\nTECHNICAL PROPOSAL | ELECTRONIC"
+    },
+    {
+      "chunk_id": 1927,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 2,
+      "content": "5340 Jaycee Avenue, Suite E, Harrisburg, PA 17112\n+1 717.565.7500 /Direct: +1 416.676.179 / www.parsons.com\nDecember 5, 2023\nDawn Grabuloff\nPennsylvania Department of Transportation\nBureau of Office Services\n400 North St., Keystone Bldg. 5th Floor\nHarrisburg PA 17120\nSubject: Solicitation 3522R12, Emissions Program Management\nDear Ms. Grabuloff,\nParsons Transportation Group Inc. (Parsons) is pleased to provide this proposal to the Pennsylvania Department of\nTransportation (PennDOT), Bureau of Office Services, in response to Request for Proposal (RFP) Number 3522R12\nfor Emissions Program Management.\nOur commitment to PennDOT is to continue delivering an effective Pennsylvania Vehicle Emissions Inspection and\nMaintenance Program and to innovate responsibly to move the Program forward. Building on our past performance,\nwe will implement new, cloud-based VIID systems and improved auditing infrastructure that efficiently gets Program\ndata to PennDOT. Our upgrades to the e-SAFETY system will support the enhanced safety inspection Program\ncompliance. We will upgrade our call center solution with new technology using ZenDesk and AmazonConnect as\nthe backbone of the system.\nOur Program Mana"
+    },
+    {
+      "chunk_id": 1928,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 2,
+      "content": "auditor teams, support teams, and subcontractors are in place. In this challenging\nlabor market, we do not anticipate any staffing impacts as your selected vendor in the new contract. Upon Notice to\nProceed, with no transitional risk to current operations, we will begin the implementation tasks to fulfill all RFP\nrequirements.\nParsons continues its commitment to Small Diverse Businesses and Small Businesses for this procurement.\nAdditionally, we have added two Veteran Business Enterprises to our team, 1Alpha Consulting to bolster our\nmotorist compliance activities and Berry Solutions Group for our information and education development and to\nprovide enhanced auditor training.\nOfferor Responsibilities and Exceptions to the RFP Requirements\nAll information submitted pertains exclusively to Parsons Transportation Group Inc. as a subsidiary of Parsons\nCorporation. Our proposal satisfies all mandatory requirements listed in the RFP, and we take no exceptions to any\nof the contractual provisions outlined in the RFP.\nOn behalf of Parsons, I am authorized to bind the Corporation to all the provisions in this proposal and acknowledge\nreceipt of Addenda 1 through 5. This proposal is good for"
+    },
+    {
+      "chunk_id": 1929,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 2,
+      "content": "y executed, whichever is\nlater.\nThank you again for the opportunity to be selected as your vendor for this important Program. Should you have any\nquestions pertaining to our proposal, please contact:\nMike Butler, Vice President, Executive Sponsor 416.676.1799 Mike.Butler@parsons.com\nMark Colangelo, Vice President, Program Manager 717.329.5088 Mark.Colangelo@parsons.com\nSincerely,\nMike Butler, Vice President Mark Colangelo, Vice President\nSmart Vehicle Solutions Business Leader Program Manager"
+    },
+    {
+      "chunk_id": 1930,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 2,
+      "content": "o, Vice President, Program Manager 717.329.5088 Mark.Colangelo@parsons.com\nSincerely,\nMike Butler, Vice President Mark Colangelo, Vice President\nSmart Vehicle Solutions Business Leader Program Manager"
+    },
+    {
+      "chunk_id": 1931,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 3,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nnization with Certainty\nTECHNICAL PROPOSAL \u2013 TABLE OF CONTENTS\nEXECUTIVE SUMMARY ................................................................................................................................................. ES-1\nI-1. STATEMENT OF THE PROJECT .................................................................................................................................... 1\nI-2. QUALIFICATIONS ......................................................................................................................................................... 2\nI-2A: Company Overview ........................................................................................................................................................ 2\nI-2B: Prior Experience ............................................................................................................................................................. 4\nI-2C: Personnel ........................................................................................................................................................."
+    },
+    {
+      "chunk_id": 1932,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 3,
+      "content": ".................... 6\nProject Organization ......................................................................................................................................................... 7\nI-2D: Background Checks ...................................................................................................................................................... 8\nI-2E: Subcontractors .............................................................................................................................................................. 8\nI-3. TRAINING .................................................................................................................................................................... 9\nI-4. FINANCIAL CAPABILITY ............................................................................................................................................. 10\nI-5. REQUIREMENTS ....................................................................................................................................................... 10\nI-5A \u2013 C: Emissions Inspection and Maintenance (I/M) Program ......................................................."
+    },
+    {
+      "chunk_id": 1933,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 3,
+      "content": "................... 10\nI-5D: Program Changes ....................................................................................................................................................... 11\nI-5E: Transition .................................................................................................................................................................... 11\nI-5F: Disaster Recovery ....................................................................................................................................................... 12\nI-5G: Back-Up and Back-Up Storage .................................................................................................................................. 13\nI-5H: Emergency Preparedness .......................................................................................................................................... 14\nOperational Impact ........................................................................................................................................................ 14\nContinuity of Operations ................................................................................................."
+    },
+    {
+      "chunk_id": 1934,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 3,
+      "content": ".............. 15\nI-6. TASKS ....................................................................................................................................................................... 15\nProgram Schedule ......................................................................................................................................................... 16\nTask A: Storage and Handling of All Pennsylvania I/M Program-Related Data ....................................................................... 16\nA.1 I/M Data Handling System ........................................................................................................................................... 17\nA.2 I/M Inspections Data and Documentation ................................................................................................................. 18\nA.3 I/M Data Access ........................................................................................................................................................... 21\nA.4 System Performance ..............................................................................................................................................."
+    },
+    {
+      "chunk_id": 1935,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 3,
+      "content": "............................ 21\nA.5 Equipment Testing and Approval ................................................................................................................................. 25\nA.6 Maintenance of Database Access for Emission Inspection Stations ........................................................................ 26\nA.7 System Access by Authorized Personnel ..................................................................................................................... 26\nA.8 Data Transfer Between Parsons and PennDOT .......................................................................................................... 27\nA.9 Connection Frequencies and Transaction Throughout Capacity ............................................................................... 27\nA.10 Development and System Changes .......................................................................................................................... 27\nTask B: Quality Assurance and Oversight Activities for the I/M Program ................................................................................ 28\nB.1 Oversight Activities ................................................."
+    },
+    {
+      "chunk_id": 1938,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 4,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nTraining Procedures ...................................................................................................................................................... 29\nPerformance Monitoring Procedures ........................................................................................................................... 30\nProgram Materials and Data Security .......................................................................................................................... 31\nB.4 Station Operators and Personnel Oversight ............................................................................................................... 32\nPreparatory Work ........................................................................................................................................................... 32\nReporting Violations ...................................................................................................................................................... 32\nProgram Evaluation Functions ................................................................."
+    },
+    {
+      "chunk_id": 1940,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 4,
+      "content": "................................. 35\nB.7 Remote Visual Observation of Inspectors ................................................................................................................... 37\nB.8 Covert Oversight Activities ........................................................................................................................................... 37\nOverview ......................................................................................................................................................................... 37\nActivities ......................................................................................................................................................................... 38\nVehicles .......................................................................................................................................................................... 38\nTask C: Establish and Conduct an Inspection Station Information & Education Program ..................................................... 39\nC.1 Development and Dissemination of Materials ........................................................................................"
+    },
+    {
+      "chunk_id": 1941,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 4,
+      "content": "..................................... 39\nC.2 Use of Established Communications Outlets ............................................................................................................. 40\nC.3 Oversight by and Coordination with PennDOT ............................................................................................................ 40\nIndustry Meetings .......................................................................................................................................................... 41\nPrint and Electronic Newsletter .................................................................................................................................... 41\nToll-Free Hotline ............................................................................................................................................................. 41\nTask D: Deliver Waivers and Operate Referee Program ........................................................................................................... 42\nD.1 Waivers ..............................................................................................................................................."
+    },
+    {
+      "chunk_id": 1942,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 4,
+      "content": "......................... 42\nElectronic Waiver Delivery ............................................................................................................................................ 42\nWaiver Auditing Process ............................................................................................................................................... 42\nD.2 Referee Program .......................................................................................................................................................... 43\nD.3 Help Desk Services ...................................................................................................................................................... 43\nCommonwealth and Equipment Manufacturer-related Help Desk/Conference Calls ............................................. 43\nHelp Desk ....................................................................................................................................................................... 44\nCustomer Service and Station Operator Hotlines ....................................................................................................... 45\nTask E: Hold I/"
+    },
+    {
+      "chunk_id": 1945,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 5,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nImmediate Hearings ...................................................................................................................................................... 48\nHearing Procedures ....................................................................................................................................................... 48\nPenalties ........................................................................................................................................................................ 48\nService of Suspensions ................................................................................................................................................. 48\nAttendance at Hearings ................................................................................................................................................ 48\nAppeal of a Suspension ................................................................................................................................................ 49\nReports ...................................................."
+    },
+    {
+      "chunk_id": 1947,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 5,
+      "content": "................. 50\nTechnology Overview ........................................................................................................................................................... 50\nSite Selection and Equipment Installation ........................................................................................................................ 51\nData Collection .................................................................................................................................................................... 51\nData Storage and Analysis .................................................................................................................................................. 51\nReporting Procedures ......................................................................................................................................................... 51\nTask H: Evaluation and Use of Dedicated Portion of I/M Program Management Fee ............................................................ 52\nTask I: Manage the Delivery, Installation, and Certification of Emission Inspection Equipment ........................................... 53\nCommunication"
+    },
+    {
+      "chunk_id": 1948,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 5,
+      "content": "................................... 53\nCommunications with EMs and I/M Stations .................................................................................................................... 53\nEquipment/Software Certification ..................................................................................................................................... 54\nATPs ................................................................................................................................................................................ 54\nCoordination with EMs .................................................................................................................................................. 54\nAcceptance Testing Management ................................................................................................................................ 54\nCommunications Protocol ............................................................................................................................................. 55\nOngoing Monitoring ..........................................................................................................................."
+    },
+    {
+      "chunk_id": 1949,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 5,
+      "content": "................................................. 55\nTask J: Provide Oversight for the Safety Inspection Program in the 25 I/M Counties ............................................................ 56\nJ.1 Quality Assurance/Staff Qualifications and Training .................................................................................................. 56\nPerformance Monitoring Procedures ........................................................................................................................... 58\nJ.2 Quality Assurance and Audit Responsibilities ............................................................................................................. 59\nProgram Materials and Data Security .......................................................................................................................... 59\nOvert Activities ............................................................................................................................................................... 60\nSafety Audits .................................................................................................................................................................. "
+    },
+    {
+      "chunk_id": 1953,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 6,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nImmediate Suspensions ............................................................................................................................................... 64\nHearing Procedures ....................................................................................................................................................... 64\nPenalties ........................................................................................................................................................................ 64\nService of Suspensions ................................................................................................................................................. 65\nAttendance at Hearings ................................................................................................................................................ 65\nAppeal of a Suspension ................................................................................................................................................ 65\nReports ........................................................"
+    },
+    {
+      "chunk_id": 1960,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 7,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nATTACHMENT C -- Work Plan/Program Schedule\nATTACHMENT D -- Monthly Status Report\nATTACHMENT E -- Escrow Agreements\nATTACHMENT F -- AWS PCI-DSS Compliance Attestation (Electronic Files Uploaded Under 1.1.6 and 1.1.7.)\nF1. AWS PC Responsibility Summary\nF2. PCI-DSS AWS Responsibility Summary\nATTACHMENT G - SOC 2 Type II Report & Spreadsheet. (Electronic Files Uploaded Under 1.1.6 and 1.1.7.)\nG1. SOC 2 Spreadsheet\nG2. SOC 2 Report\nATTACHMENT H - Accessibility Conformance Reports (ACR). (Electronic Files Uploaded Under 1.1.6 and 1.1.7.)\nH1. Revised Sec. 508 Edition\nH2. WCAG Edition\nATTACHMENT I. Security Testing Results Redacted. (Electronic Files Uploaded Under 1.1.6 and 1.1.7.)\nATTACHMENT J. Security Incident Response Plan. (Electronic Files Uploaded Under 1.1.6 and 1.1.7.)\nTechnical Submittal v"
+    },
+    {
+      "chunk_id": 3513,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 1,
+      "content": "Parsons Corporation (NYSE: PSN) \u2014 Comprehensive Dossier\nPrepared for AI-agent ingestion in support of RFP responses. Tone: analytical and factual. All material claims are\nlinked to publicly available primary sources or major business/trade publications. Currency: April 2026; data\nthrough Parsons\u2019 FY2025 10-K filing (December 31, 2025) where applicable.\n1. Corporate Overview\nParsons Corporation is an 81-year-old, technology-focused engineering and solutions provider operating at the\nintersection of national security and global critical infrastructure, dual-listed in the Fortune 1000 and S&P\nMidCap 400.\nFounding, Structure, and Headquarters\nFounded: 1944 by Ralph M. Parsons in Pasadena, California, as the Ralph M. Parsons Company\nCompany Histories Source Source.\nHeadquarters: Chantilly, Virginia (Suite 100, 14291 Park Meadow Drive). GlobalData Parsons relocated its\nHQ from Pasadena, California to Centreville, Virginia in February 2019, Los Angeles Business Journal then\nmoved within Fairfax County to Chantilly between August and October 2023 Virginia Business Source\nSource.\nPublic/Private History: IPO\u2019d on the NYSE under ticker \u201cPSN\u201d on May 8, 2019, raising approximately $500\nmillion "
+    },
+    {
+      "chunk_id": 3514,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 1,
+      "content": "public markets after 35 years;\nWikipedia the company had become 100% employee-owned via an ESOP Jones Day finalized in 1985\nWikipedia (the ESOP was the sole stockholder pre-IPO) Source Source Source.\nIndex inclusion: Fortune 1000 (added 2020); S&P MidCap 400 (added 2024) Wikipedia Source.\nFinancials (FY2025, year ended December 31, 2025)\nRevenue: $6.364 billion (down 5.7% from MacroTrends $6.751 billion in 2024) sec Source Source.\nNet income attributable to Parsons (FY2025): $241.1 million Stocktitan Source.\nAdjusted EBITDA (FY2025): $609.3 million Stocktitan Source.\nBacklog (12/31/2025): $8.7 billion total; $6.4 billion funded; $4.1 billion expected to convert to revenue\nwithin 12 months Stocktitan Source.\nSegment revenue mix (FY2025): Federal Solutions 51%; Critical Infrastructure 49% Stocktitan Source.\nPrior-year benchmarks: FY2024 revenue $6.751 billion (24% total / 22% organic growth),\nWashington Technology net income $235 million, adjusted EBITDA $605 million (9.0% margin) sec\nWashington Technology Source Source.\nWorkforce and Footprint\nEmployees: Over 21,000 as of late 2025, Wikipedia Virginia Business with operations in 50 U.S. states and"
+    },
+    {
+      "chunk_id": 3516,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 2,
+      "content": "more than 30 countries Source Source.\nMiddle East presence: Approximately 6,000 employees regionally, more than 65 years of presence; over\n900 projects completed in the UAE alone, with ~550 ongoing Parsons as of 2025 Source.\nMission/Positioning\nParsons positions itself as \u201ca leading disruptive technology provider in the national security and global\ninfrastructure markets, with capabilities across cyber and Fairfax County EDA electronic warfare, space and\nmissile defense, transportation, water and environment, urban development, and critical infrastructure\nprotection\u201d GlobeNewswire Parsons Source. The company emphasizes a \u201cPeople First\u201d culture, an employee\nvalue proposition, and a flexible/work-from-anywhere engineer program Fairfax County EDA Source.\n2. Business Segments and Divisions\nParsons reports two segments \u2014 Federal Solutions and Critical Infrastructure \u2014 that share underlying digital,\ncyber, AI/ML, and engineering capabilities.\nFederal Solutions (FY2025: ~51% of revenue)\nFederal Solutions delivers technology-driven mission solutions to U.S. defense, intelligence, and federal civilian\ncustomers across the all-domain battlespace Source. FY2025 segment revenue declined 20% Yo"
+    },
+    {
+      "chunk_id": 3517,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 2,
+      "content": "largely due to the wind-down of a confidential State Department contract and timing delays Source.\nPrimary business units: Defense & Intelligence (D&I) \u2014 led by President Mike Kushin \u2014 and Engineered\nSystems \u2014 led by President Jon Moretta (later succeeded by Martin Boson) Source Source Source.\nMarkets covered: cyber and intelligence; space and missile defense; electronic warfare; critical infrastructure\nprotection; engineered systems for federal customers (DOE, DHS, FAA) Parsons Source.\nCritical Infrastructure (FY2025: ~49% of revenue)\nThe segment provides \u201cintegrated design and engineering services for complex physical and digital\ninfrastructure\u201d sec globally, with a leading position in next-generation aviation, rail and transit,\nbridges/roads/highways, environmental remediation, water/wastewater, urban development, and\nprogram/construction management Source. Q3 2025 revenue grew 18% YoY (12.7% organic), with adjusted\nEBITDA up 83% and margin expanding 360 bps to 10.3% Parsons Source Source.\nPrimary business units: Infrastructure North America (President Mark Fialkowski) and Connected\nCommunities, which houses the \u201cParsons X\u201d digital accelerator Source Source.\nCustomers include: t"
+    },
+    {
+      "chunk_id": 3518,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 2,
+      "content": "ersey,\nAmtrak, CSX, Metrolinx (Ontario), the Riyadh Royal Commission, Dubai Roads and Transportation Authority, and\nthe Abu Dhabi Municipality Source.\n3. Cybersecurity Capabilities (Priority Section)\nParsons positions itself as a full-spectrum cyber operations provider \u2014 offensive, defensive, and resiliency \u2014\nbuilt through organic R&D and a series of accretive acquisitions integrated into the Defense & Intelligence\nbusiness unit."
+    },
+    {
+      "chunk_id": 3520,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 3,
+      "content": "Offerings\nOffensive Cyber Operations (OCO): automated vulnerability research, zero-day exploit development,\nParsons Corporation reverse engineering of binary code/firmware, multi-source collection platforms Source\nSource.\nDefensive Cyber Operations (DCO) and Computer Network Exploitation (CNE): threat hunting, incident\nresponse, mission planning, AI/ML-enhanced analysis, cloud-native architectures and DevSecOps\nParsons Corporation Source.\nCritical-infrastructure cyber resiliency: IT/OT convergence, grid modernization, and cyber resilience for\nutilities \u2014 delivered via the IPKeys Power Partners platform serving \u201chundreds of electric, water, and gas\nutilities\u201d Parsons Corporation in North America Source.\nKey Cyber Products and Platforms\nJoint Cyber Hunt Kit (JCHK) \u2014 deployable defensive-cyber kit produced by Sealing Technologies; received\nan Intent to Award notification from USCYBERCOM in February 2026 for a sole-source, three-year contract\nwith a ceiling value of up to $500 million Source Source.\nTEMPO (Tactical Electronic Warfare Machine Learning Planning Optimization) \u2014 AI/evolutionary-\nalgorithm tool Parsons PR Newswire supporting Army PM Electronic Warfare\u2019s EWPMT Parsons Corpor"
+    },
+    {
+      "chunk_id": 3521,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 3,
+      "content": "ck ML classifier for counter-UAS (drone vs. biological) Parsons Corporation Source.\nTReX, Galileo \u2014 automated spectrum-sensing/EW systems GovCon Wire brought in via the BlackHorse\nacquisition Source.\nJavelinXL rugged Android multi-modal biometric handhelds and Ares Gateway mobile biometrics\napplication Parsons Source.\nMajor Cyber Contracts (Selected Recent)\nUSCYBERCOM JCHK production (2026): up to $500M sole-source, three-year contract via Sealing\nTechnologies Source.\nDTRA Cooperative Threat Reduction Integration Contract (CTRIC) IV (Dec 2025): $3.5 billion ceiling\nIDIQ MATOC, 5-year base + 5-year option, for chemical/biological/radiological/nuclear (WMD) threat\nreduction Nasdaq Stock Titan Source. Parsons is the incumbent on CTRIC III Investing.com Source.\nDTRA AEMSS cyber operations task order (June 2025): $137 million ceiling, 1-year base + 4 one-year +\n6-month options Source.\nGSA CEOIS task order (May 2021): $618 million for advancing the Intelligence Community\u2019s global cyber\nand intelligence technologies for C5ISR \u2014 supporting agencies including the State Department and ODNI\nVirginia Business Source Source.\nUSCYBERCOM J9 PEO Cyber/JCWA (CYBERCOM C4CD): $109 million classified,"
+    },
+    {
+      "chunk_id": 3524,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 4,
+      "content": "Intelligence Community classified (Feb 2022): $104 million single-award, 5-year for vulnerability\nresearch, reverse engineering, software development GlobeNewswire Source.\nIntelligence Community IDIQ (July 2020): $178 million, 5-year for security/protection of classified\nfacilities, assets, and personnel worldwide FedSavvy Strategies Source.\nNSA SHARKSEER 2.0 task order: under DISA SETI, total potential value $28 million (1 base + 4 option\nyears) Source. Parsons has been the original contractor on the SHARKSEER program since 2011\nFedSavvy Strategies Source.\nCyber-Related Acquisitions (see \u00a78 for full list)\nPolaris Alpha (2018, AI/SIGINT/cyber), OGSystems (2019, GEOINT), Braxton (2020, space/satellite ground),\nBlackHorse (2021, EW/cyber), Echo Ridge (2021, PNT/SIGINT), Xator (2022, cUAS/biometrics/IC cyber), IPKeys\nPower Partners (2023, OT cyber), Sealing Technologies (2023, defensive cyber), BlackSignal (2024,\nEW/RF/cyber), Chesapeake Technology International (2025, EW/all-domain), Altamira (2026, SIGINT/space)\nSource.\nCyber Recognition\n16 consecutive years (through 2025), GlobeNewswire 17 consecutive (through 2026) The Globe and Mail\nnamed to Ethisphere\u2019s World\u2019s Most Ethical Comp"
+    },
+    {
+      "chunk_id": 3525,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 4,
+      "content": "vices category Parsons Corporation WFXG Source Source.\nM&A team named \u201cDeal Team of the Year\u201d by the Association for Corporate Growth sec following the 2024\nBCC and BlackSignal transactions Source.\n4. High-Security / Classified Work\nParsons is one of the most cleared mid-cap government services contractors in the market, with multiple\nacquired companies posting cleared workforces of 80\u201390%.\nIntelligence Community (CIA, NSA, NRO, NGA, DIA)\nPolaris Alpha (acquired 2018) brought ~1,300 employees Baird with nearly 90% cleared, PR Newswire\nsupporting the U.S. Intelligence Community, multiple DoD agencies, DHS, and other federal agencies, with\ndeep capabilities in cyber, ML/AI, EW, SIGINT, space situational awareness, and multi-domain command and\ncontrol Source Source.\nOGSystems (acquired 2019) core customers were named as the National Geospatial-Intelligence Agency\n(NGA), the National Reconnaissance Office (NRO), and Special Operations Command (SOCOM)\nParsons Corporation Source Source.\nBraxton Science & Technology Group (acquired 2020) added 370+ employees, 80% cleared, focused on\nsatellite operations, ground-system automation, flight dynamics, and spacecraft simulation for DoD and the\n"
+    },
+    {
+      "chunk_id": 3526,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 4,
+      "content": "e across DoD and IC; ~150 employees with\n70% security clearances Source.\nXator (acquired 2022) had nearly 90% cleared workforce, with full-spectrum C4ISR solutions; expanded\nParsons\u2019 footprint at U.S. SOCOM, the IC, federal civilian agencies, and the Department of State Source."
+    },
+    {
+      "chunk_id": 3527,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 4,
+      "content": "(acquired 2022) had nearly 90% cleared workforce, with full-spectrum C4ISR solutions; expanded\nParsons\u2019 footprint at U.S. SOCOM, the IC, federal civilian agencies, and the Department of State Source."
+    },
+    {
+      "chunk_id": 3528,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 5,
+      "content": "Chesapeake Technology International (acquired 2025) added ~225 employees with 87% cleared\nGovCon Wire Source.\nAltamira (acquired January 2026) added 600+ employees with over 90% cleared, Parsons Corporation\nspecializing in SIGINT, missile warning, space data analytics, and AI/ML SpaceNews sec Source Source.\nDoD Classified Programs\nMDA SHIELD IDIQ (Dec 2025): $151 billion ceiling Scalable Homeland Innovative Enterprise Layered\nDefense IDIQ for rapid delivery of warfighter capabilities Yahoo Finance Source.\n40-year relationship with the Missile Defense Agency as engineering and technical advisory provider;\n\u201cresponsible for the ground infrastructure supporting every U.S. intercontinental ballistic missile program in\nhistory\u201d Washington Technology except Sentinel, per CEO Carey Smith Source.\nMDA TEAMS (2016): 5-year, $455 million potential ceiling for weapons and missiles engineering support\nFedSavvy Strategies Source.\nMDA Real Property Program (2022): $104.2 million for facility restoration/modernization Source.\n$47M classified contract extension (March 2026) Source.\nSpecial Operations Command (SOCOM)\nLong-standing customer through OGSystems and Xator legacy; SOCOM identified explicit"
+    },
+    {
+      "chunk_id": 3529,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 5,
+      "content": "acquisition (2025) \u201cstrengthens Parsons\u2019 defense customer posture with the Special Operations forces\nand enhances Parsons\u2019 position in the Indo-Pacific Command (INDOPACOM) area of operations\u201d Source.\nParsons participated at Special Operations Forces Week 2025 Source.\nSpace Force / Space Domain\nResilient MWT MEO Epoch 1 ground operations (April 2023): $55 million task order from U.S. Space\nForce Space Systems Command to develop hardware/software for the Space Operations Center supporting\nthe constellation of missile-warning satellites in medium Earth orbit Source Source.\nDARPA Blackjack: $10.8 million prototype ground operations center contract; later expanded with a $30\nmillion Blackjack space mission award (Dec 2025) Source Source.\nNOAA TraCSS systems integrator (March 2024): $15.5M base / $26.9M total for the cloud-based Traffic\nCoordination System for Space \u2014 civil space situational awareness software backbone (TraCSS-OASIS /\nTraCSS-SKYLINE). Won the 2025 SpaceNews Icon Award for Civil Space Achievement Source Source\nSource.\nElectronic Warfare and SIGINT\nBlackHorse Solutions, BlackSignal Technologies, Chesapeake Technology International, and Altamira\ntogether give Parsons full-s"
+    },
+    {
+      "chunk_id": 3530,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 5,
+      "content": "cessing, and SIGINT capabilities Source Source Source.\nCleared Workforce \u2014 Aggregate Indicators\nWhile Parsons does not publish a single corporate cleared-workforce number, acquired-company disclosures"
+    },
+    {
+      "chunk_id": 3531,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 6,
+      "content": "show 70\u201390% clearance rates, totaling thousands of TS/SCI-cleared employees concentrated in Chantilly,\nCentreville, (regional location) Junction (MD), Aberdeen (MD), Columbia (MD), Colorado Springs (CO), and\nFredericksburg (VA) Source Source.\n5. Technology and R&D\nParsons has shifted from a traditional EPC firm to a \u201cdigitally enabled solutions provider\u201d anchored by\nproprietary software products and AI/ML technology developed both organically and through 20+ acquisitions\nsince 2017.\nKey Proprietary Platforms and Products\niNET\u00ae (Intelligent NETworks): cloud-based, COTS smart-mobility / Advanced Traffic Management System\nused by NJDOT, GDOT, and others; powers the first integrated statewide ATMS for NJDOT (go-live August\n2025); manages 5,000+ monthly traffic events Source Source.\nTraCSS (Traffic Coordination System for Space): civil SSA system delivered to NOAA\u2019s Office of Space\nCommerce Source.\nTEMPO (EW planning optimization), DeclutterML (radar-track classification), Project DECIDER (predictive\nanalytics) Source.\nJavelinXL rugged biometric handhelds, Ares Gateway mobile biometrics application, ABIS In A Box,\nDetectWise\u2122, ICS\u2122, Intelligent Intersections, Intellisight\u2122 Source Source"
+    },
+    {
+      "chunk_id": 3532,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 6,
+      "content": "(Jan 2025) in support of Project Linchpin,\nthe Army\u2019s AI/ML \u201cAIOps+\u201d program (PEO IEW&S) Source.\nStrategic agreement with BrainChip (Oct 2025) through Parsons subsidiary Blue Ridge Envisioneering to\nintegrate Akida neuromorphic processors into edge-AI platforms for defense/intelligence; Blue Ridge\nEnvisioneering was acquired as part of BlackSignal in 2024 Source.\nCloud/AI training: AWS DeepRacer enterprise upskilling program reached 470+ employees, generating\n1,500+ ML models Source.\nParsons X: internal digital accelerator organization within Connected Communities; integrates IPKeys\nsoftware Source.\nCTO and R&D Organization\nRico Lorenzo, Chief Technology Officer, leads enterprise R&D and innovation strategy, including internal\nR&D, commercial technology partnerships, contract R&D, and university partnerships Source.\nThe Defense & Intelligence sector has its own CTO (Ryan Gabriele) Source.\nStrategic Investment Areas (per FY2024 proxy)\n\u201cAI; cyber; biometrics; counter unmanned air systems; PFOS/PFAS; and assured position, navigation, and timing\n(PNT)\u201d Source."
+    },
+    {
+      "chunk_id": 3534,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 7,
+      "content": "6. Critical Infrastructure Work\nParsons has 80+ years of physical-infrastructure delivery experience and currently ranks #1 program\nmanagement firm by Engineering News-Record (2025) and #15 on ENR\u2019s Top 500 Design Firms (2024)\nSource Source.\nAviation\nPlanned, designed, constructed, or sustained terminal/landside/airside infrastructure for over 450 airports\nin 40 countries Source.\nFAA Technical Support Services Contract (TSSC) V (2024): $1.8 billion ceiling, 4-year base + two 3-year\noptions, supporting 600+ FAA sites; in January 2026 Parsons received a $593 million option exercise\nextending performance to 2030 Source Source. Parsons has been continuous FAA TSSC prime through\nTSSC III (2001, $1B), TSSC IV (2012, $1.3B), and TSSC V Source.\nKing Salman International Airport (Riyadh): Two four-year Delivery Partner contracts (May 2025) \u2014\nairfield assets and landside infrastructure for the 57 km\u00b2, 6-runway, 120M-passenger (by 2030) airport\nproject Source Source.\nJFK International Airport Roadways redevelopment \u2014 Parsons is lead designer of the simplified roadway\nnetwork (part of the $19 billion JFK transformation) Source Source.\nNewark Liberty International Airport Terminal A \u2014 design-bu"
+    },
+    {
+      "chunk_id": 3535,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 7,
+      "content": "ld\u2019s Best New Airport Source. Currently lead designer for the Newark AirTrain Replacement\nSource.\n(regional location)/Washington (BWI): 50 consecutive years of planning, design, construction management Source.\nParsons-IBM partnership (June 2025) to bid as prime on the FAA\u2019s Brand New Air Traffic Control System\n(BNATCS); contract was ultimately awarded to Peraton (see \u00a712) Source.\nRail and Transit\nTrack record of 10,000+ miles of roadways, 4,500 bridges, and 50+ ATMS deployments Source.\nSound Transit MATOC (Dec 2025): $1 billion ceiling, 5-year + two 1-year options for design services on the\nagency\u2019s $60B capital program Source.\nSound Transit projects: lead designer of the 7.8-mile Federal Way Link Extension (Envision Platinum award,\nopened December 2025); major design partner for the 16-mile Everett Link Extension; track and rail systems\npreliminary engineering for Downtown Redmond Link Extension Source.\nRiyadh Metro: centerpiece of the $22.5B King Abdulaziz Project for Riyadh Public Transport \u2014 176 km / 85\nstations / 6 lines, fully operational early 2025 Source.\nRiyadh Roads & Main and Ring Roads (Dec 2024): 3-year PMO contract for ~500 km of new/upgraded\nroad corridor works Sourc"
+    },
+    {
+      "chunk_id": 3536,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 7,
+      "content": "tri-venture; ACEC NY Engineering Excellence\nDiamond Award Source.\nNewark Bay Bridge: final designer for the $8.1-mile NJ Turnpike Extension Newark Bay-Hudson County\nImprovements Program (2024) Source."
+    },
+    {
+      "chunk_id": 3537,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 8,
+      "content": "Hudson River Tunnel \u2014 among Parsons\u2019 three largest North America transportation wins of 2023\u201324\nSource.\nFoothill Gold Line Phase 2B2 Claremont extension (Feb 2026): $60M design contract from Foothill Gold\nLine Construction Authority Source.\nEglinton Crosstown LRT (Toronto): part of a $8.4B program Source.\nVIA Metropolitan Transit (San Antonio) Rapid Silver Line final design contract (Dec 2025) Source.\nNJ TRANSIT Positive Train Control: prime contractor and design-builder for turnkey FRA-mandated\nsystem Source.\nRoads and Bridges\nI-70 Rocheport-to-Columbia design-build (Missouri, Dec 2025): $441M lead designer role Source.\nGoethals Bridge Replacement \u2014 Parsons was lead designer Source.\nGDOT Advanced Traffic Management System upgrade \u2014 recent 2026 award using iNET Source.\nI-64 Hampton Roads Express Lanes lead designer (March 2026) Source.\nVehicle Inspection / Smart Vehicle Solutions\nOperates large-scale Inspection & Maintenance (I/M) programs in Ontario, Pennsylvania, New Jersey,\nCalifornia, Texas, and Hawaii; first decentralized OBDII program (Louisiana); first-to-market tablet testing\nsolution; trained 100,000+ inspectors; managed >$100M/yr in fee collection without losses Source. N"
+    },
+    {
+      "chunk_id": 3538,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 8,
+      "content": "t 1998; Parsons\nhas remained the incumbent operator; in 2021 Parsons protested the New Jersey Bid Solicitation\n#20DPP00471 (Enhanced MV Inspection Maintenance System) award to Opus Inspection Source.\nWater and Environmental\nAFCEC Environmental Services Contract for PFAS (April 2025): $1.5 billion ceiling Source.\n2025 Engineering Excellence Honor Award for the Deer Creek Sanitary Tunnel project Source.\nMcMurdo Station (Antarctica) update/rebuild Source.\nDefense Infrastructure\nPacific Deterrence Initiative MACC (Nov 2025): $15 billion ceiling NAVFAC contract; 5-year base + three\n1-year options; design and engineering for projects exceeding $100M scope including runways, hangars,\nwaterfront facilities, and energy/fuel storage in Australia, the Philippines, and U.S. territories Source.\nU.S. Air Force Comprehensive Construction & Engineering MATOC (Dec 2025): $15 billion ceiling, 5-\nyear base + 5 option years for global facility design, construction management, maintenance, renovation,\nand restoration Source.\nAir Base Air Defense (ABAD) program: original $953M IDIQ (2021); cumulative 2025 task-order value\nreached ~$192 million including an $88M task order at Ramstein Air Base (Dec 2025)"
+    },
+    {
+      "chunk_id": 3540,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 9,
+      "content": "7. Key Contracts and Customers\nTop Federal Customers\nDepartment of Defense / Department of War: Missile Defense Agency, U.S. Cyber Command, Defense\nThreat Reduction Agency, Air Force Civil Engineering Center, NAVFAC, Space Systems Command, DARPA,\nArmy C5ISR Center, U.S. Special Operations Command, INDOPACOM.\nIntelligence Community: NSA, NRO, NGA, ODNI, plus classified IC customers.\nFederal Civilian: FAA (since 1980 for TSSCs; 25+ years), Department of State (now-reduced confidential\ncontract), DHS, Coast Guard, NOAA Office of Space Commerce, Department of Energy. Source Source\nSource\nTop Federal Contractor Ranking\n#37 on the 2024 Washington Technology Top 100 federal contractor list Source.\nMajor Contract Vehicles / IDIQs (Recent)\nVehicle Ceiling Awarding Agency Year Source\nMissile Defense\nMDA SHIELD IDIQ $151B 2025 Source\nAgency\nUSAF Comprehensive Construction & Engineering\n$15B AFCEC 2025 Source\nMATOC\nPacific Deterrence Initiative MACC $15B NAVFAC 2025 Source\nDTRA CTRIC IV $3.5B DTRA 2025 Source\nFAA TSSC 5 $1.8B FAA 2024 Source\nAFCEC Environmental Services (PFAS) $1.5B AFCEC 2025 Source\nSound Transit Design MATOC $1B Sound Transit 2025 Source\nGSA CEOIS Task Order $618M GSA / IC 2"
+    },
+    {
+      "chunk_id": 3541,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 9,
+      "content": "trics (10-yr) $392M Undisclosed federal 2026 Source\nDTRA AEMSS Cyber TO $137M DTRA 2025 Source\nIntelligence\nIC classified (2023) $160M 2023 Source\nCommunity\nCYBERCOM C4CD $109M USCYBERCOM 2024 Source\nParsons posted 15 contract wins of $100M or more in 2025, matching its company record Source.\nVehicle | Ceiling | Awarding Agency | Year | Source\nMDA SHIELD IDIQ | $151B | Missile Defense\nAgency | 2025 | Source\nUSAF Comprehensive Construction & Engineering\nMATOC | $15B | AFCEC | 2025 | Source\nPacific Deterrence Initiative MACC | $15B | NAVFAC | 2025 | Source\nDTRA CTRIC IV | $3.5B | DTRA | 2025 | Source\nFAA TSSC 5 | $1.8B | FAA | 2024 | Source\nAFCEC Environmental Services (PFAS) | $1.5B | AFCEC | 2025 | Source\nSound Transit Design MATOC | $1B | Sound Transit | 2025 | Source\nGSA CEOIS Task Order | $618M | GSA / IC | 2021 | Source\nUSCYBERCOM JCHK | $500M | USCYBERCOM (via\nDIU) | 2026 | Source\nFederal customer biometrics (10-yr) | $392M | Undisclosed federal | 2026 | Source\nDTRA AEMSS Cyber TO | $137M | DTRA | 2025 | Source\nIC classified (2023) | $160M | Intelligence\nCommunity | 2023 | Source\nCYBERCOM C4CD | $109M | USCYBERCOM | 2024 | Source"
+    },
+    {
+      "chunk_id": 3543,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 10,
+      "content": "Long-Standing Customer Relationships\nFAA: \u201cnearly 50 years\u201d/\u201cmore than five decades\u201d continuous TSSC support Source Source.\nMDA: 40-year relationship Source.\nNSA SHARKSEER: prime since 2011 Source.\nBWI Marshall Airport: 50 consecutive years Source.\nMiddle East: 65\u201370 years; first overseas project in 1949; first airport project in Saudi Arabia in 1958 Source\nSource.\nRiyadh Metro / RCRC: 10+ year relationship; PIF partnership since 2017 Source.\nInternational Work (Middle East and beyond)\nSaudi Arabia PIF mega-projects: THE LINE, Oxagon, multiple ROSHN developments, and now King Salman\nInternational Airport (KSIA) and the W Riyadh KAFD luxury hotel Source Source.\nUAE: Zayed International Airport, Sharjah International Airport Source.\nQatar: Hamad International Airport Source.\nKuwait International Airport Source.\nCanada: Eglinton Crosstown LRT (Toronto) Source.\n8. Acquisitions History (Last 10 Years)\nCEO Carey Smith has stated Parsons has \u201cacquired 14 technology-differentiated companies since 2017\u201d; Chuck\nHarrington\u2019s tenure included \u201cover 20 acquisitions\u201d total Source Source. Acquisition strategy: companies with\nrevenue growth and adjusted EBITDA margins \u226510% with critical IP that com"
+    },
+    {
+      "chunk_id": 3551,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 12,
+      "content": "Ethisphere World\u2019s Most Ethical Companies: 17 consecutive years (since 2010) \u2014 one of only four 2026\nEngineering Services honorees Source.\nENR #1 Program Management Firm (2025); ENR Top 500 Design Firms (#15, 2024) Source Source.\nWashington Technology Top 100: #37 (2024) Source.\n2025 Engineering Excellence Honor Award (Deer Creek Sanitary Tunnel) Source.\n2025 SpaceNews Icon Award for Civil Space Achievement (TraCSS) Source.\n2025 NJ Alliance for Action Excellence in Engineering Award (NJDOT statewide ATMS) Source.\nEnvision Platinum Award (Sound Transit Federal Way Link Extension) Source.\nACEC NY Engineering Excellence Diamond Award (MTA Grand Central Madison) Source.\n2025 DOL HIRE Vets Gold Medallion Source.\n2025 Military Times Best for Vets: #2 in Virginia, #2 in Defense & Aerospace, #16 overall Source.\n2026 GI Jobs Military Friendly Employer Gold/Top 10 \u2014 #9 nationally in $5B+ category Source.\nVET Indexes 5 Star Employer (2025) Source.\nBig Project Middle East Awards \u2014 three consecutive years, including KAFD Residential Uplift Project of the\nYear and Mentor of the Year Source.\nM&A Deal Team of the Year (2024) \u2014 Association for Corporate Growth, recognizing BCC and BlackSignal\ntrans"
+    },
+    {
+      "chunk_id": 3552,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 12,
+      "content": "relative to competitors (Leidos, SAIC, Booz Allen Hamilton, CACI, Peraton, ManTech) is built\naround three claimed differentiators:\n1. Convergence of Physical and Digital Capabilities (\u201cOne Parsons\u201d)\nParsons explicitly markets itself as \u201cuniquely positioned\u201d because it has both deep domain expertise in\nengineering critical-infrastructure systems (rail, transit, water, utilities, airports) and the cyber capabilities to\ndefend them. CEO Carey Smith: \u201cWe are a unique company that has the domain understanding for example of\nhow a rail and transit system works coupled with the cyber capabilities to protect the domain\u201d Source.\n2. Mission-Critical, Disruptive-Tech Focus\nInvestor Day (2023) priority growth markets: \u201cspace and missile defense, cyber and intelligence, critical\ninfrastructure protection, transportation, environmental remediation, and urban development\u201d Source Source.\n3. Acquisition-Driven Capability Stack with Internal R&D\n14 acquisitions since 2017 augmented by internal R&D and a \u201csecure, virtual software development\nenvironment\u201d plus dual technical career paths Source.\nOther Differentiators per Company Communications"
+    },
+    {
+      "chunk_id": 3554,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 13,
+      "content": "\u201cSpeed of relevance\u201d; \u201cagile, innovative, and disruptive approach\u201d Source.\nDeep cleared-workforce concentration (multiple acquired companies at 80\u201390%+).\n17 years of Ethisphere ethics recognition \u2014 strong differentiator vs. some peers facing FCA / FCPA scrutiny.\nNumber-one ENR Program Management ranking (2025).\nTrack record on legacy critical-infrastructure projects (LAX, JFK, BWI, Newark, Riyadh Metro, Mackinac\nBridge legacy via 1957 SBGB acquisition history) Source.\nComparative financial profile: Parsons\u2019 6.15% operating margin and 3.69% net margin trail Leidos (12.0% /\n8.1%) and CACI (9.3% / 5.7%), though the Critical Infrastructure segment hit 10.3% adjusted EBITDA margins\nin Q3 2025 Source.\n11. Leadership and Culture\nCEO Carey Smith\nTitle: Chair, President, and CEO since April 2021; Chairman role added later. Joined Parsons in 2016 as\nPresident of Federal Solutions; promoted to COO in 2018 and President & COO in 2019; succeeded Charles\n\u201cChuck\u201d Harrington (39 years with the company, 13 as CEO) effective July 1, 2021 Source.\nBackground: Former President of Honeywell\u2019s Defense and Space business unit; prior roles at Lockheed\nMartin including President & CEO of Canadian operations"
+    },
+    {
+      "chunk_id": 3555,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 13,
+      "content": "simulation engineer at IBM Source Source.\nEducation: B.S. Electrical Engineering from Ohio Northern University; M.S. Electrical Engineering from\nSyracuse University; honorary doctorate (2018) Source.\nBoards: Edison International, Professional Services Council (Vice Chair / Chair), Intelligence and National\nSecurity Alliance, USGIF Source.\nRecognitions: Seven-time Wash100 winner; 4\u00d724 member; PMP and Green Belt certified; certified NACD\ncyber governance professional and NACD Fellow Source Source.\nOther Key Executives (most recent disclosures)\nMatt Ofilos \u2014 Chief Financial Officer; joined Parsons in 2021; previously CFO of AWS Worldwide Public\nSector and Strategic Industries; Raytheon Space and Command & Control CFO Source.\nMike Kushin \u2014 President of Defense & Intelligence (D&I) Source Source.\nJon Moretta \u2014 President of Engineered Systems (named September 2021); succeeded by Martin Boson by\n2026 Source Source.\nMark Fialkowski \u2014 President, Infrastructure North America Source.\nJames Johnson \u2014 Senior Vice President, Parsons Space Solutions Sector Source.\nPaul Decker \u2014 Chief Growth Officer (formerly EVP/GM Cyber & Intelligence) Source Source.\nRico Lorenzo \u2014 Chief Technology Officer Sourc"
+    },
+    {
+      "chunk_id": 3557,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 14,
+      "content": "Jason Yaley \u2014 Chief Corporate Affairs Officer Source.\nTim LaChapelle \u2014 Chief Digital Officer Source.\nBoard of Directors\nIncludes Carey Smith (Chair), Suzanne \u201cZan\u201d Vautrinot (former USAF Major General, Commander 24th Air Force\n/ Air Forces Cyber), George Ball (former CFO), M. Christian Mitchell (former Deloitte National Managing Partner),\nMark Holdsworth, Bob Smith (former Blue Origin CEO), Dave Wajsgras (Everfox CEO), and Darren McDew,\namong others Source.\nWorkforce and Culture\n\u201cPeople First\u201d culture; revitalized leadership team via promotion and external hires; flexible work schedule;\nengineer \u201cwork-from-anywhere\u201d program; six enterprise business resource groups; dual technical career\npath Source.\nIn early 2025, Parsons removed diversity, equity, and inclusion programming to align with executive orders\nemphasizing merit-based hiring Source.\n12. Risks and Challenges\nConfidential State Department Contract Wind-down\nA \u201cconfidential contract\u201d tied to a State Department program office that was eliminated in a reorganization has\nbeen pulled out of guidance since June 2025; this drove FY2025 Federal Solutions revenue down 20% YoY and\ntotal revenue down 5.7% Source Source.\nFAA BNATCS Los"
+    },
+    {
+      "chunk_id": 3558,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 14,
+      "content": "(with IBM) lost the $12.5 billion Brand New Air Traffic Control System prime integrator contract to\nPeraton. The stock fell ~15\u201323% after the announcement; Raymond James downgraded from Strong Buy to\nMarket Perform; KeyBanc lowered its price target to $76; BofA cut its target from $95 to $90 (maintaining Buy)\nSource Source Source. Parsons retained the $1.8B TSSC 5 anchor work and may participate in BNATCS as a\npartner.\nCompetitive Dynamics\nFederal Solutions margins (~6%) trail peers Leidos and CACI Source.\nActive near-peer competitors include Leidos, SAIC, Booz Allen, CACI, Peraton, ManTech, and Bechtel (on\nSaudi infrastructure) Source.\nOther Notable Items\nMulti-year New Jersey procurement disputes around the Enhanced Motor Vehicle Inspection Maintenance\nSystem (Parsons protested 2016 and 2021/2022 awards); Parsons remains the historical incumbent operator\nof NJ\u2019s Centralized Inspection Facilities Source Source.\nA $250M classified contract \u201clawsuit\u201d reference appeared in Virginia Business; specifics not material here\nSource."
+    },
+    {
+      "chunk_id": 3560,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 15,
+      "content": "13. Key Facts and Figures to Highlight in Proposals\nStat Source\nFounded 1944 (81-year history) Source\n21,000+ employees worldwide; 50 U.S. states; 30+ countries Source Source\nFY2025 revenue $6.364B; FY2024 $6.75B Source\nBacklog $8.7B (12/31/2025) Source\n14 technology acquisitions since 2017 Source\n15 contract wins \u2265 $100M in 2025 Source\n17 consecutive years on Ethisphere World\u2019s Most Ethical Companies Source\n#1 Program Management firm by ENR (2025) Source\n600+ FAA sites supported under TSSC Source\n450+ airports in 40 countries planned/designed/managed Source\n10,000+ miles of roadways; 4,500+ bridges; 50+ ATMS deployments Source\n3,500+ mobile biometrics solutions delivered Source\n70-year continuous Middle East presence; 6,000+ regional employees Source\n50 consecutive years supporting BWI Marshall Source\n40-year MDA relationship; ground infrastructure for every U.S. ICBM program except\nSource\nSentinel\nPosition on $151B MDA SHIELD IDIQ; $15B PDI MACC; $15B USAF Construction MATOC; (sources cited\n$3.5B DTRA CTRIC IV; $1.8B FAA TSSC 5 above in \u00a77)\nSources / Reference List\nParsons Corporate / SEC Filings\nParsons FY2025 10-K (SEC EDGAR) \u2014\nhttps://www.sec.gov/Archives/edgar/data/0000275880"
+    },
+    {
+      "chunk_id": 3561,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 15,
+      "content": "dgar/data/275880/000095017025022754/psn-\n20241231.htm\nParsons FY2021 10-K \u2014\nhttps://www.sec.gov/Archives/edgar/data/0000275880/000156459022006026/psn-10k_20211231.htm\nParsons FY2025 Proxy (DEF 14A) \u2014\nhttps://www.sec.gov/Archives/edgar/data/0000275880/000095017025033061/psn-20250303.htm\nStat | Source\nFounded 1944 (81-year history) | Source\n21,000+ employees worldwide; 50 U.S. states; 30+ countries | Source Source\nFY2025 revenue $6.364B; FY2024 $6.75B | Source\nBacklog $8.7B (12/31/2025) | Source\n14 technology acquisitions since 2017 | Source\n15 contract wins \u2265 $100M in 2025 | Source\n17 consecutive years on Ethisphere World\u2019s Most Ethical Companies | Source\n#1 Program Management firm by ENR (2025) | Source\n600+ FAA sites supported under TSSC | Source\n450+ airports in 40 countries planned/designed/managed | Source\n10,000+ miles of roadways; 4,500+ bridges; 50+ ATMS deployments | Source\n3,500+ mobile biometrics solutions delivered | Source\n70-year continuous Middle East presence; 6,000+ regional employees | Source\n50 consecutive years supporting BWI Marshall | Source\n40-year MDA relationship; ground infrastructure for every U.S. ICBM program except\nSentinel | Source\nPosition on $151B MD"
+    },
+    {
+      "chunk_id": 3562,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 15,
+      "content": "for every U.S. ICBM program except\nSentinel | Source\nPosition on $151B MDA SHIELD IDIQ; $15B PDI MACC; $15B USAF Construction MATOC;\n$3.5B DTRA CTRIC IV; $1.8B FAA TSSC 5 | (sources cited\nabove in \u00a77)"
+    },
+    {
+      "chunk_id": 3563,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 16,
+      "content": "Parsons FY2026 8-K (Altamira) \u2014\nhttps://www.sec.gov/Archives/edgar/data/0000275880/000119312526014152/psn-ex99_1.htm\nParsons Investor Relations newsroom \u2014 https://investors.parsons.com/news-releases\nParsons Leadership page \u2014 https://www.parsons.com/leadership/\nParsons Cyber/Intel page \u2014 https://www.parsons.com/cyber/\nParsons AI page \u2014 https://www.parsons.com/ai/\nParsons Vehicle/I&M page \u2014 https://www.parsons.com/vehicle/\nParsons Rail and Transit page \u2014 https://www.parsons.com/rail-transit/\nParsons TraCSS page \u2014 https://www.parsons.com/products/tracss/\nParsons FAA TSSC project page \u2014 https://www.parsons.com/project/faa-tssc-v/\nParsons LinkedIn \u2014 https://www.linkedin.com/company/parsons\nMajor Business / News / Trade Publications\nWashington Technology \u2014 multiple articles cited inline\nGovCon Wire \u2014 multiple articles cited inline\nWashingtonExec \u2014 multiple articles cited inline\nBreaking Defense \u2014 https://breakingdefense.com/2026/03/kratos-scores-447m-space-force-award-for-\nmissile-tracking-ground-system/\nDefense Daily \u2014 https://www.defensedaily.com/parsons-acquires-altamira-for-375-million-strengthening-\ndefense-and-intelligence-work/business-financial/\nSpaceNews \u2014 https://spacenews.com/"
+    },
+    {
+      "chunk_id": 3564,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 16,
+      "content": "arsons-buys-altamira-for-375-million-to-expand-space-and-\nintelligence-portfolio/\nC4ISRNet \u2014 https://www.c4isrnet.com/industry/2019/01/09/parsons-acquires-geospatial-intelligence-\nprovider-ogsystems/\nEngineering News-Record \u2014 https://www.enr.com/articles/60747-saudi-arabia-selects-bechtel-parsons-for-\nmega-airport-project\nVirginia Business \u2014 multiple articles cited inline\nLos Angeles Business Journal \u2014 https://labusinessjournal.com/news/weekly-news/parsons-ipo-raises-\n500m-engineering-firm/\nBloomberg \u2014 https://www.bloomberg.com/profile/person/3159962\nMacrotrends \u2014 https://www.macrotrends.net/stocks/charts/PSN/parsons/revenue\nStockAnalysis \u2014 https://stockanalysis.com/stocks/psn/financials/\nStock Titan / Quiver Quant \u2014 multiple articles cited inline\nPR Newswire / GlobeNewswire \u2014 multiple press releases cited inline\nIntelligence Community News \u2014 https://intelligencecommunitynews.com/parsons-wins-uscybercom-c4cd-"
+    },
+    {
+      "chunk_id": 3565,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 16,
+      "content": "nt \u2014 multiple articles cited inline\nPR Newswire / GlobeNewswire \u2014 multiple press releases cited inline\nIntelligence Community News \u2014 https://intelligencecommunitynews.com/parsons-wins-uscybercom-c4cd-"
+    },
+    {
+      "chunk_id": 3566,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 17,
+      "content": "contract/\nExecutiveBiz / Potomac Officers Club / Executive Mosaic \u2014 multiple articles cited inline\nMilitary Embedded Systems \u2014 multiple articles cited inline\nGovernment Sources\nNew Jersey Department of the Treasury (MV Inspection bid decision) \u2014\nhttps://www.nj.gov/treasury/purchase/pdf/decisions/2022/IMOBidSolicitation20DPP00471ParsonsInfrastructure.pdf\nNew Jersey MVC \u2014 https://www.nj.gov/mvc/business/inspequipment.htm\nNOAA Office of Space Commerce \u2014 https://www.noaa.gov/office-of-space-commerce/news-release/noaa-\nselects-system-integrator-for-traffic-coordination-system-for-space and\nhttps://space.commerce.gov/traffic-coordination-system-for-space-tracss/\nU.S. Space Systems Command (SSC) press release \u2014\nhttps://www.ssc.spaceforce.mil/Portals/3/Documents/PRESS%20RELEASES/\u2026\nSound Transit \u2014 https://www.soundtransit.org/southkinglink/partners\nNew Jersey Hudson Tunnel Project \u2014 https://www.hudsontunnelproject.com/\nIBM Newsroom (Parsons-IBM ATC partnership) \u2014 https://newsroom.ibm.com/2025-06-24-parsons-\ncorporation-is-ready-now-to-build-americas-brand-new,-state-of-the-art-air-traffic-control-system\nOther Reference Sources\nWikipedia (Parsons Corporation) \u2014 https://en.wikipedia.org/wiki/"
+    },
+    {
+      "chunk_id": 3567,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 17,
+      "content": "y (IPO advisory note) \u2014 https://www.jonesday.com/en/practices/experience/2019/05/parsons-\ncorporation-completes-500-million-ipo-on-n\nUSGIF (Carey Smith bio) \u2014 https://usgif.org/biography/carey-smith/\nSyracuse University ECS (Carey Smith profile) \u2014 https://ecs.syracuse.edu/about/news/transformative-\nleadership-carey-smith-g91\nFairfax County EDA \u2014 https://fairfaxcountyeda.org/innovation-at-work-executive-profile-qa-with-parsons-\nchair-president-and-ceo-carey-smith/\nBaird (Polaris Alpha M&A) \u2014 https://www.rwbaird.com/transactions/investment-banking/dealcard/5205/\nMintz (Altamira M&A) \u2014 https://www.mintz.com/insights-center/news-press/mintz-advises-altamira-\nacquisition-parsons\nHNTB (NJDOT ATMS) \u2014 https://www.hntb.com/press_release/hntb-supports-new-jersey-department-of-\ntransportation-in-deployment-of-statewide-advanced-traffic-management-system/\nITS America technical paper (NJDOT iNET) \u2014 https://itsa.org/wp-\ncontent/uploads/2025/06/NJDOT_LocalGovernment.pdf\nAWS Machine Learning Blog (Parsons DeepRacer) \u2014 https://aws.amazon.com/blogs/machine-\nlearning/leveraging-artificial-intelligence-and-machine-learning-at-parsons-with-aws-deepracer/\nBrainChip Investor Portal \u2014 https://investor.bra"
+    },
+    {
+      "chunk_id": 3568,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 17,
+      "content": "ce-and-machine-learning-at-parsons-with-aws-deepracer/\nBrainChip Investor Portal \u2014 https://investor.brainchip.com/brainchip-and-parsons-sign-strategic-\nagreement-to-accelerate-edge-ai-defense-systems/"
+    },
+    {
+      "chunk_id": 3569,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 18,
+      "content": "Sealing Technologies / CTI press pages \u2014 https://www.sealingtech.com/press/\u2026 and\nhttps://www.ctic.us/blog/parsons-acquires-chesapeake-technology-international/\nAltamira corporate page \u2014 https://www.altamiracorp.com/parsons-acquires-altamira-technologies-\ncorporation/\nNote for the AI agent ingesting this dossier: Where a specific number, date, contract value, or executive name is\ncited, the inline Source link points to the underlying primary source. For RFP responses requiring the highest\nlevel of verification, prioritize Parsons\u2019 SEC filings (10-K, 10-Q, DEF 14A), Parsons official press releases on\nparsons.com / investors.parsons.com / GlobeNewswire, and reporting in Washington Technology, GovCon Wire,\nBreaking Defense, SpaceNews, and Engineering News-Record. Avoid generative-AI summary sites (e.g.,\nGrokipedia, dcf-model.com, ainvest.com) as primary citations; they are referenced here only when corroborating\nother primary sources.\nSealing Technologies / CTI press pages \u2014 https://www.sealingtech.com/press/\u2026 and\nhttps://www.ctic.us/blog/parsons-acquires-chesapeake-technology-international/\nAltamira corporate page \u2014 https://www.altamiracorp.com/parsons-acquires-altamira-technologies-\n"
+    },
+    {
+      "chunk_id": 3570,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 18,
+      "content": "esting this dossier: Where a specific number, date, contract value, or executive name is\ncited, the inline Source link points to the underlying primary source. For RFP responses requiring the highest\nlevel of verification, prioritize Parsons\u2019 SEC filings (10-K, 10-Q, DEF 14A), Parsons official press releases on\nparsons.com / investors.parsons.com / GlobeNewswire, and reporting in Washington Technology, GovCon Wire,\nBreaking Defense, SpaceNews, and Engineering News-Record. Avoid generative-AI summary sites (e.g.,\nGrokipedia, dcf-model.com, ainvest.com) as primary citations; they are referenced here only when corroborating\nother primary sources."
+    },
+    {
+      "chunk_id": 3572,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 1,
+      "content": "VOLUME 1 / TECHNICAL PROPOSAL ELECTRONIC\nEMPOWERING\nMOTORISTS THROUGH\nPROVEN INNOVATIONS\nVehicle Emissions Inspection Program\nManagement And Operation\nRFP Number the procurement\nMDOT Motor Vehicle Administration\nVOLUME 1 / TECHNICAL PROPOSAL | ELECTRONIC"
+    },
+    {
+      "chunk_id": 3574,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 3,
+      "content": "Title Page\nVOLUME 1 / TECHNICAL PROPOSAL COPY\nVEHICLE EMISSIONS\nINSPECTION PROGRAM\nMANAGEMENT AND OPERATION\nRFP NUMBER the procurement / MDOT Motor Vehicle Administration\nSubmitted by:\nParsons\n10 East (regional location) Street, Suite 801\n(regional location), MD 21202\nVOLUME 1 / TECHNICAL PROPOSAL | COPY"
+    },
+    {
+      "chunk_id": 3575,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 4,
+      "content": "TAB A\nTABLE OF CONTENTS\nTAB A \u2013 TABLE OF CONTENTS......................................................................................................................................... i\nTAB B - OFFEROR INFORMATION SHET AND TRANSMITTAL LETTER ..................................................................... 1\nTAB C \u2013 EXECUTIVE SUMMARY ................................................................................................................................... 21\nTAB D \u2013 TECHNICAL RESPONSE TO RFP REQUIREMENTS AND PROPOSED WORK PLAN ............................... 23\n2.3 Responsibilities and Tasks (RFP Section 2.3) ............................................................................................ 24\n2.3.1 General Requirements (RFP Section 2.3.1) ........................................................................................ 24\n2.3.1.A Managing and Operating the the Inspection Program per the Requirements, Specifications, Terms, and\nConditions (RFP Section 2.3.1.A) ............................................................................................................... 25\n2.3.1.B Contractor\u2019s Responsibilities (RFP Section 2.3.1.B) .................."
+    },
+    {
+      "chunk_id": 3576,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 4,
+      "content": "ble Local Requirements (RFP Section 2.3.1.C) ...................................... 27\n2.3.1.1 Transition of the Inspection Program Stations to New Program and Contractor (RFP Section 2.3.1.1) ..................... 28\n2.3.1.1.1 Transition (RFP Section 2.3.1.1) ............................................................................................... 29\n2.3.1.1.2 Clearly Identify the Costs to be Paid by the State (RFP Section 2.3.1.1.2) ............................ 30\n2.3.1.1.3 Smooth Transition Without Shutdown (RFP Section 2.3.1.1.3) .............................................. 31\n2.3.1.1.4 Final the Inspection Program Station Transition Plan (RFP Section 2.3.1.1.4) ..................................................... 32\n2.3.1.1.5 SAT Agenda (RFP Section 2.3.1.1.5) ........................................................................................ 47\n2.3.1.2 Contractor-Supplied Hardware, Software, and Materials (RFP Section 2.3.1.2) .......................... 49\n2.3.1.2.A State\u2019s Right to Purchase (RFP Section 2.3.1.2.A) .................................................................. 49\n2.3.1.2.B Acquisition and Operation of Hardware, Software, and Network Support "
+    },
+    {
+      "chunk_id": 3577,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 4,
+      "content": "........................................................................ 50\n2.3.1.2.C Material Costs Passed Through (RFP Section 2.3.1.2.C) ........................................................ 50\n2.3.1.2.D Test Conditions and Application (RFP Section 2.3.1.2.D) ....................................................... 50\n2.3.1.2.E Test Conditions and Application (RFP Section 2.3.1.2.E) ........................................................ 50\n2.3.1.2.F Acquisition and Operation of Hardware, Software, and Network Support (RFP\nSection 2.3.1.2.F) ....................................................................................................................................... 51\n2.3.1.2.G Manufacturer/Provider Warranties (RFP Section 2.3.1.2.G) .................................................. 51\n2.3.1.3 Required Project Policies, Guidelines, and Methodologies (RFP Section 2.3.1.3) ....................... 51\n2.3.1.4 Product Requirements (RFP Section 2.3.1.4) ................................................................................. 52\n2.3.1.5 Maintenance and Support (RFP Section 2.3.1.5) ........................................................................... 52\n2.3"
+    },
+    {
+      "chunk_id": 3578,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 4,
+      "content": "nd Program Enhancement Labor Support (RFP\nSection 2.3.1.5.A) ....................................................................................................................................... 52\n2.3.1.5.B Cooperate with The State Regarding Program Modifications (RFP Section 2.3.1.5.B) ......... 53\n2.3.1.5.C Emissions Test Equipment and Software Updates (RFP Section 2.3.1.5.C) .......................... 53\nTable of Contents i"
+    },
+    {
+      "chunk_id": 3579,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 4,
+      "content": "e Regarding Program Modifications (RFP Section 2.3.1.5.B) ......... 53\n2.3.1.5.C Emissions Test Equipment and Software Updates (RFP Section 2.3.1.5.C) .......................... 53\nTable of Contents i"
+    },
+    {
+      "chunk_id": 3580,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 5,
+      "content": "2.3.1.5.D State Notification (RFP Section 2.3.1.5.D) ............................................................................... 54\n2.3.1.5.E Virus Scans (RFP Section 2.3.1.5.E) ......................................................................................... 54\n2.3.1.6 Centralized Station Testing Distribution (RFP Section 2.3.1.6) ..................................................... 54\n2.3.1.6.A State-Owned Facilities and Kiosks (RFP Section 2.3.1.6.A) .................................................... 54\n2.3.1.6.B the Inspection Program Station and Kiosk Distribution (RFP Section 2.3.1.6.B) ................................................. 55\n2.3.1.6.C Even Testing Distribution (RFP Section 2.3.1.6.C) ................................................................... 56\n2.3.1.6.D the Inspection Program Notices (RFP Section 2.3.1.6.D) ....................................................................................... 57\n2.3.1.7 Centralized Inspection Station Standards, Maintenance, and Construction (RFP\nSection 2.3.1.7) .............................................................................................................................................. "
+    },
+    {
+      "chunk_id": 3581,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 5,
+      "content": "ehicle Emissions Inspection Stations (RFP\nSection 2.3.1.7.1) ....................................................................................................................................... 57\n2.3.1.7.2 Cessation of the Contract (RFP Section 2.3.1.7.2) .................................................................. 59\n2.3.1.7.3 the Inspection Program Centralized Station Maintenance Plan (RFP Section 2.3.1.7.3) .................................... 59\n2.3.1.7.4 Building/Pavement Assessment (RFP Section 2.3.1.7.4) ....................................................... 60\n2.3.1.7.5 Building Maintenance Work (RFP Section 2.3.7.5) ................................................................. 60\n2.3.1.7.6 Maintaining All the Inspection Program Facilities (RFP Section 2.3.1.7.6) ........................................................... 60\n2.3.1.7.7 Permits (RFP Section 2.3.1.7.7) ............................................................................................... 61\n2.3.1.7.8 Upon Contract Termination (RFP Section 2.3.1.7.8) ............................................................... 61\n2.3.1.7.9 Construction of Additional Lanes at Existing Facilities (RFP S"
+    },
+    {
+      "chunk_id": 3585,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 6,
+      "content": "2.3.1.12 Vehicle Damage Claims (RFP Section 2.3.1.12) ........................................................................... 70\n2.3.1.13 Training for Centralized Lane Operations and Supporting Activities (RFP\nSection 2.3.1.13) ............................................................................................................................................ 72\n2.3.1.13.1 Training Plan (RFP Section 2.3.1.13.1) .................................................................................. 72\n2.3.1.13.2 Training Plan (RFP Section 2.3.1.13.2) .................................................................................. 73\n2.3.1.13.3 Training Program (RFP Section 2.3.1.13.3) ........................................................................... 73\n2.3.1.13.4 Lane Inspector Training and Certification (RFP Section 2.3.1.13.4).................................... 75\n2.3.1.13.5 Technician Training and Certification (RFP Section 2.3.1.13.5) .......................................... 77\n2.3.1.13.6 Training of State Staff (RFP Section 2.3.1.13.6) ................................................................... 79\n2.3.1.13.7 Training and Certification of CSRs and St"
+    },
+    {
+      "chunk_id": 3586,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 6,
+      "content": "(RFP Section 2.3.1.13.8) ................................................ 81\n2.3.1.13.9 Training for Personnel at MACs (RFP Section 2.3.1.13.9) .................................................... 82\n2.3.1.14 Personnel for Additional Vehicle Inspections (RFP Section 2.3.1.14) ......................................... 83\n2.3.1.15 QA/QC, Operational and Performance Audits (RFP Section 2.3.1.15) ........................................ 83\n2.3.1.15.1 QA/QC Audits (RFP Section 2.3.1.15.1) ................................................................................. 84\n2.3.1.15.2 State Operational and Performance Audits (RFP Section 2.3.1.15.2) ................................. 86\n2.3.1.16 Motorist Payment Methods Permitted (RFP Section 2.3.1.16) ................................................... 86\n2.3.1.16.1 Fee Collection (RFP Section 2.3.1.16.1) ................................................................................ 87\n2.3.1.16.2 Full Fee Collection (RFP Section 2.3.1.16.2) ......................................................................... 87\n2.3.1.16.3 Accepting Cash Payments (RFP Section 2.3.1.16.3) ............................................................ 8"
+    },
+    {
+      "chunk_id": 3587,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 6,
+      "content": "from the Hybrid Programs (RFP Section 2.3.1.16.4) ..................................... 88\n2.3.1.16.5 Collected Fees Shall be Deposited into an Account (RFP Section 2.3.1.16.5) ................... 89\n2.3.1.17 Accountability and Transfer of Fees (RFP Section 2.3.1.17) ....................................................... 89\n2.3.1.17.1 Collection of Fees and Accountability (RFP Section 2.3.1.17.1) .......................................... 90\n2.3.1.17.2 Late Fee Transfer (RFP Section 2.3.1.17.2) .......................................................................... 91\n2.3.1.17.3 Test Fee Distribution (RFP Section 2.3.1.17.3) ..................................................................... 91\n2.3.1.17.4 Monthly Invoice and Process (RFP Section 2.3.1.17.4) ........................................................ 92\n2.3.1.17.5 Revenue Summary Report/Schedule A Report (RFP Section 2.3.1.17.5) ........................... 92\n2.3.1.17.6 Kiosk and FIS System Revenue Summary Report (RFP Section 2.3.1.17.6) ...................... 92\n2.3.1.17.7 Master Revenue Summary Report (RFP Section 2.3.1.17.7) ............................................... 92\n2.3.1.18 Overall Management Plan (R"
+    },
+    {
+      "chunk_id": 3590,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 7,
+      "content": "2.3.1.19.2 Weekly Transition Meetings (RFP Section 2.3.1.19.2) ........................................................ 126\n2.3.1.19.3 Weekly and Monthly Status Reports (RFP Section 2.3.1.19.3) .......................................... 126\n2.3.1.19.4 Technical Meetings (RFP Section 2.3.1.19.4) ..................................................................... 127\n2.3.1.19.5 Invoicing (RFP Section 2.3.1.19.5) ....................................................................................... 127\n2.3.1.19.6 End of Contract (RFP Section 2.3.1.19.6) ............................................................................ 128\n2.3.1.20 Inspection Personnel Attire (RFP Section 2.3.1.20) ................................................................... 128\n2.3.1.21 Damage or Destruction (RFP Section 2.3.1.21) ......................................................................... 128\n2.3.1.22 Use of Program for Commercial Promotion (Section 2.3.1.22) ................................................. 128\n2.3.1.23 Continuity of Services (RFP Section 2.3.1.23) ............................................................................ 129\n2.3.1.24 MAC (RFP Section 2.3.1.24).."
+    },
+    {
+      "chunk_id": 3595,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 8,
+      "content": "2.3.2.6 Test Procedures (RFP Section 2.3.2.6) ...................................................................................... 217\n2.3.2.7 Waivers (RFP Section 2.3.2.7) .................................................................................................... 223\n2.3.2.8 VEIC (RFP Section 2.3.2.8) ......................................................................................................... 228\n2.3.2.9 External Kiosk Operations (RFP Section 2.3.2.9) ...................................................................... 234\n2.3.2.10 MAC Operations (RFP Section 2.3.2.10) ................................................................................. 239\n2.3.2.11 On-Road Testing (RFP Section 2.3.2.11) ................................................................................. 243\n2.3.2.12 Emissions-Related Recalls (RFP Section 2.3.2.12) ................................................................ 246\n2.3.3 Scope of Work \u2013 FIS Program (RFP Section 2.3.3) .......................................................................... 249\n2.3.3.1 Program Description and State Agency Roles (RFP Section 2.3.3.1) ...................................... 250\n2"
+    },
+    {
+      "chunk_id": 3596,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 8,
+      "content": "............................................................ 252\n2.3.3.3 FIS Inspector Training (RFP Section 2.3.3.3) ............................................................................. 257\n2.3.3.4 FIS Transition (RFP Section 2.3.3.4) .......................................................................................... 258\n2.3.3.5 FIS Equipment Maintenance and Repair (RFP Section 2.3.3.5) .............................................. 262\n2.3.3.6 FIS Payment Structure (RFP Section 2.3.3.6) ........................................................................... 264\n2.3.3.7 FIS Data Management (RFP Section 2.3.3.7) ........................................................................... 267\n2.3.4 Scope of Work \u2013 Hybrid Stations Programs (RFP Section 2.3.4) .................................................... 269\n2.4 Deliverables (RFP Section 2.4) ................................................................................................................. 269\n2.4.1 Deliverable Submission (RFP Section 2.4.1) .................................................................................... 269\n2.4.2 Deliverable Acceptance (RFP Section 2.4.2) ................"
+    },
+    {
+      "chunk_id": 3597,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 8,
+      "content": "............................................................. 270\n2.4.3 Minimum Deliverable Quality (RFP Section 2.4.3) ........................................................................... 270\n2.4.4 Deliverable Descriptions/Acceptance Criteria (RFP Section 2.4.4) ................................................ 271\n2.5 Future Work (RFP Section 2.5).................................................................................................................. 271\n2.5.1 Facility Evaluation (RFP Section 2.5.1) ............................................................................................. 271\n2.5.2. External Kiosk Expansion (RFP Section 2.5.2) ................................................................................ 272\nAssociated Cost per Individual Kiosk Installation and Deployment of Additional Kiosks (RFP\nSections 2.5.2.A and 2.5.2.B) .................................................................................................................. 273\n2.6 Service Level Agreement (SLA) (RFP Section 2.6) ............................................................................... 273\n3.0 Contractor Requirements: General (RFP Section 3.0) ............"
+    },
+    {
+      "chunk_id": 3598,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 8,
+      "content": "..................................................... 273\n3.1 Contract Initiation Requirements (RFP Section 3.1) ............................................................................ 274\n3.1.A. Kickoff Meeting (RFP Section 3.1.A) ............................................................................................. 274\n3.1.B. Contractor Responsibilities (RFP Section 3.1.B) ......................................................................... 275\n3.1.C. Contractors as Subsidiary (RFP Section 3.1.C) ............................................................................ 276\n3.1.D. Parental Guarantee (RFP Section 3.1.D) ..................................................................................... 276\n3.2 End of Contract Transition (RFP Section 3.2) ....................................................................................... 277\n3.2.1 Prompt and Timely Transition (RFP Section 3.2.1) ....................................................................... 278\n3.2.2 Transfer of Knowledge and Materials (RFP Section 3.2.2) .......................................................... 279\n3.2.3 Contract Termination Transition Plan (RFP Section 3.2.3) .."
+    },
+    {
+      "chunk_id": 3600,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 9,
+      "content": "3.3 Invoicing (RFP Section 3.3.) .................................................................................................................. 282\n3.3.1 General (RFP Section 3.3.1) .......................................................................................................... 282\n3.3.2 Invoice Submission Schedule (RFP Section 3.3.2)....................................................................... 283\n3.3.3 Deliverable Invoicing (RFP Section 3.3.3) ..................................................................................... 283\n3.3.4 State Withholding Payment (RFP Section 3.3.4) .......................................................................... 284\n3.3.5 Travel Reimbursement (RFP Section 3.3.5) .................................................................................. 284\n3.3.6 Accountability and Transfer of Fees (RFP Section 3.3.6) ............................................................. 284\n3.4 Liquidated Damages (RFP Section 3.4)................................................................................................ 286\n3.4.1 MBE Liquidated Damages (RFP Section 3.4.1) ....................................................."
+    },
+    {
+      "chunk_id": 3601,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 9,
+      "content": "Liquidated Damages other than MBE (RFP Section 3.4.2) .......................................................... 287\n3.4.3 Initial System Transition of the Inspection Program Centralized, Kiosk, and FIS Stations (RFP\nSection 3.4.3) ........................................................................................................................................... 289\n3.4.4 the Inspection Program Operations (RFP Section 3.4.4) ............................................................................................. 290\n3.4.5 Data Management and Communication Systems (RFP Section 3.4.5) ...................................... 290\n3.5 Disaster Recovery and Data (RFP Section 3.5) .................................................................................... 291\n3.5.1 Redundancy, Data Backup and Disaster Recovery (RFP Section 3.5.1) .................................... 291\n3.5.2 Data Export/Import (RFP Section 3.5.2) ....................................................................................... 294\n3.5.3 Data Ownership and Access (RFP Section 3.5.3) ......................................................................... 294\n3.5.4 Acknowledgment of Provisions (R"
+    },
+    {
+      "chunk_id": 3605,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 10,
+      "content": "3.9 SOC 2 Type 2 Audit Report (RFP Section 3.9) ...................................................................................... 313\n3.9.1 SOC 2 Type 2 (RFP Section 3.9.1) ................................................................................................. 313\n3.9.2 Annual Audit (RFP Section 3.9.2) .................................................................................................. 313\n3.10 Experience and Personnel (RFP Section 3.10) .................................................................................. 316\n3.10.1 Preferred Offeror Experience (RFP Section 3.10.1) ................................................................... 316\n3.10.2 Key Personnel Experience (RFP Section 3.10.2) ....................................................................... 323\n3.10.3 Number of Personnel Proposed (RFP Section 3.10.3) .............................................................. 323\n3.10.4 Key Personnel Identified (RFP Section 3.10.4) .......................................................................... 325\n3.10.5 Contractor Personnel Maintain Certifications (RFP Section 3.10.5)......................................... 326\n3.10.6 Wor"
+    },
+    {
+      "chunk_id": 3606,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 10,
+      "content": "......................................................... 326\n3.11 Substitution of Personnel (RFP Section 3.11) ................................................................................... 327\n3.11.1 Continuous Performance of Key Personnel (RFP Section 3.11.1) ............................................ 327\n3.11.2 Definitions of Extraordinary Personal Event and Incapacitating (RFP Section 3.11.2) ........... 327\n3.11.3 Contractor Personnel General Substitution Provisions (RFP Section 3.11.3) .......................... 327\n3.11.4 Replacement Circumstances (RFP Section 3.11.4) ................................................................... 328\n3.11.5 Substitution Prior to and within 30 Days after Contract Execution (RFP Section 3.11.5) ....... 329\n3.12 MBE Reports (RFP Section 3.12) ........................................................................................................ 329\n3.12.A. Attachment D-5 (RFP Section 3.12.A) ........................................................................................ 332\n3.12.B. Attachment D-6 (RFP Section 3.12.B) ....................................................................................... 332\n3.12.C. Mainte"
+    },
+    {
+      "chunk_id": 3607,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 10,
+      "content": "..................................................... 332\n3.12.D. Access to Records (RFP Section 3.12.D) ................................................................................... 332\n3.12.E. Final Report Affidavit (RFP Section 3.12.E) ............................................................................... 332\n3.13 VSBE Reports (RFP Section 3.13) ...................................................................................................... 332\nTAB E \u2013 EXPERIENCE AND QUALIFICATIONS OF PROPOSED STAFF .................................................................. 334\nF.1 Staff Experience and Qualifications (RFP Section F.1) ........................................................................ 334\nF.2 Letters of Intended Commitment (RFP Section F.2) ............................................................................ 348\nF.3 Organization Chart (RFP Section F.3) .................................................................................................... 362\nF.4 Table of all Personnel by Position, Location, and Designation of Roles/Responsibilities (RFP\nSection F.4) ..........................................................................."
+    },
+    {
+      "chunk_id": 3608,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 10,
+      "content": ".................................................................... 363\nF.5. Organization Chart to the Individual the Inspection Program Station Level (RFP Section F.5) ....................................... 365\nF.6. Differing Personnel Work Hours (RFP Section F.6) ............................................................................. 366\nF.7. Maintain Staffing Levels (RFP Section F.7) ......................................................................................... 366\nF.8. Estimated Number of Employees (RFP Section F.8) ........................................................................... 367\nF.9 Job Descriptions and Requirements (RFP Section F.9) ....................................................................... 369\nTAB F \u2013 OFFEROR QUALIFICATIONS AND CAPABILITIES ...................................................................................... 377\nG.1 Number of Years Providing Similar Goods and Services (RFP Section G.1) ...................................... 379\nG.2 Number of Clients/Customers and Geographic Locations (RFP Section G.2) ................................... 379\nG.3 Headquarters or Regional Management Personnel (RFP Section G.3) ..."
+    },
+    {
+      "chunk_id": 3611,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 11,
+      "content": "G.7 Operating or Supporting Centralized Testing Programs Experience (RFP Section G.7) .................... 408\nG.8 Data Management Experience (RFP Section 5.3.2.H.8) ..................................................................... 408\nG.9 Centralized/FIS Experience (RFP Section G.9) .................................................................................... 409\nG.10 Experience Centralized in Emissions Testing Equipment Installation, Testing Operations,\nQuality Assurance, and Repairs (RFP Section G.10) .................................................................................. 409\nG.11 Centralized Experience \u2013 Facilities Management, Maintenance and Security Experience\n(RFP Section G.11) ....................................................................................................................................... 409\nG.12 Repair Effectiveness/MAC Experience (RFP Section G.12) .............................................................. 409\nG.13 General (RFP Section G.13) ................................................................................................................ 410\nG.14 Experience and Abilities with Emerging Technologies and Techniq"
+    },
+    {
+      "chunk_id": 3612,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 11,
+      "content": "FP Section G.14) .......... 412\nTAB G \u2013 REFERENCES ................................................................................................................................................ 413\nTAB H \u2013 LIST OF CURRENT OR PRIOR STATE CONTRACTS .................................................................................. 417\nTAB I \u2013 FINANCIAL CAPABILITY ................................................................................................................................ 418\nTAB J \u2013 CERTIFICATE OF INSURANCE ...................................................................................................................... 419\nTAB K \u2013 SUBCONTRACTORS ..................................................................................................................................... 423\nTAB L \u2013 LEGAL ACTION SUMMARY .......................................................................................................................... 425\nTAB M \u2013 ECONOMIC BENEFIT FACTORS .................................................................................................................. 429\nTAB N \u2013 TECHNICAL PROPOSAL - REQUIRED FORMS AND CERTIFICATIONS .............."
+    },
+    {
+      "chunk_id": 3616,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 14,
+      "content": "10 East (regional location) Street, Suite 801 | (regional location), MD 21202\nDirect: +1 240.687.6408 | Fax: +1 410.949.2058 | www.parsons.com\nJune 12, 2024\nJessica Mettle\nthe State Department of Transportation\nMotor Vehicle Administration\n6601 Ritchie Highway, N.E., Room 223\nProcurement and Contracts\n(regional location), MD 21062\nSubject: Vehicle Emissions Inspection Program Management and Operation, RFP Number the procurement\nDear Ms. Mettle,\nIt\u2019s a sunny Saturday morning in Beltsville, the State. The air is crisp and clean after an early morning shower. It\u2019s 8\na.m., the kids are having breakfast, and the soccer gear is by the door, ready to be loaded into your car\u2014you\u2019re one step\ncloser to spending the day with your family at the soccer field.\nOf course, like most weekends, you have some routine errands to run, but today will be a day of mostly family fun, rest,\nand relaxation. You smile to yourself\u2026but that smile disappears as an alert on your cell phone reminds you that you\nmust get your car tested today at a nearby the Inspection Program station.\nAt 9 a.m., with your kids and gear in the car and a slight feeling of dread at the back of your mind, you arrive at the the Inspect"
+    },
+    {
+      "chunk_id": 3617,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 14,
+      "content": "eyor belt of cars. The self-service lane is the shortest and seems to be moving\nquickly, so you hop in line. Before you know it, you\u2019re viewing your inspection results\u2014your car passed! Moments later,\nyou and your family are on your way to the soccer field.\nThis story will be told by many under the new the Inspection Program. Parsons offers the the State Empowering Motorists\nThrough Proven Innovations\u2014our commitment to transitioning with certainty and the stable operation of the\ncentralized lanes using our proven and effective integrated solution. Our convenient, streamlined program will take\ncustomer service to new heights, ensuring that stories like the one above become the standard the Inspection Program experience.\nRecognizing that life gets busy, we understand the concerns customers have regarding wait times and inconvenience.\nWe\u2019re committed to transforming the the Inspection Program process into positive customer experiences. With our Premier Customer\nService Plan and our Comprehensive Customer Feedback Approach, we\u2019ll ensure that the State and its customers are\nsatisfied.\nWe live here, we work here, we are Marylanders; what happens here is personal. We share your commitment "
+    },
+    {
+      "chunk_id": 3618,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 14,
+      "content": "quality to create a healthier the State. Not only are we committed to helping you\nachieve the deliverables and objectives of the the Inspection Program, but we also have a personal stake in the Program\u2019s success. We\u2019ve\nenjoyed a longstanding, productive partnership with the the State\u2019s Department of Transportation in the\ndelivery, execution, and management of many successfully implemented projects. We are committed to building a\nrelationship\u2014forged in trust, fostering real-time collaboration, and promoting open communication as your trusted\npartner.\nCombining our 80-year history, our more than $5.4 billion in annual revenue, and, most importantly, our continued and\ngrowing corporate commitment to successful engineering and IT projects throughout the State and North America\nshould provide additional assurance to the the State that we have the management structure and financial\nstrength to not only implement a contract of this size and scope but also to exceed the State\u2019s expectations."
+    },
+    {
+      "chunk_id": 3620,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 15,
+      "content": "Jessica Mettle\nthe State Department of Transportation\nVehicle Emissions Inspection Program Management and Operation, RFP Number the procurement\nJune 12, 2024\nPage 3\nParsons has endeavored to provide a quality, high-value technical solution to the requirements of this RFP. In the nearly\n15 years that have passed since the previous competitive bid process, significant structural changes have been\nimplemented in the program, including an extended model-year exemption; 50% increases in Living Wage and\nassociated supervisory compensation requirements, historic inflation, and supply chain pressures; modified liquidated\ndamages penalty clauses; and the sustained idle test requirement. From this, Parsons provides an effective and\nefficient overall technical and price offering and looks forward to discussing how cost savings could be implemented in\nthe future to continue to drive value into the program for the the State over the next 10 years.\nParsons accepts all State RFP and Contract terms and conditions. As stated in our Executive Summary, Parsons takes\nno exceptions to any of the contractual provisions outlined in the RFP.\nParsons fully comprehends the nature of the tasks involved in th"
+    },
+    {
+      "chunk_id": 3621,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 15,
+      "content": "ard of a contract, for the completion of all the work required, within the proposed schedule.\nParsons\u2019 eMaryland Marketplace (eMM) vendor number is 259737.\nParsons acknowledges receipt of Addenda Nos. 1-16 to RFP Number the procurement.\nWe welcome the opportunity to work with the State, share our experience and expertise, satisfy customers, and perform\nflawlessly. Should you require any clarification or further information regarding our proposal submission, please contact\nthe following:\nContact Phone Email\nRobert Suess, Senior Vice President 571.591.3516 Robert.Suess@parsons.com\nJim Valerio, Senior Program Director 240.687.6408 James.Valerio@parsons.com\nSincerely,\nJim Valerio Robert Suess\nProposed Program Manager Senior Vice President and Proposed Corporate Executive Sponsor\nSignature authority documents are provided on the following page.\nContact | Phone | Email"
+    }
+  ]
+}

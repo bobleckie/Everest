@@ -1,0 +1,95 @@
+{
+  "title": "Enterprise Information Security & Privacy Program",
+  "capability_statement": "Parsons operates a full-spectrum information security and privacy program built on its company-wide Cybersecurity Practice that serves U.S. federal, state, and intelligence community customers. For inspection-program engagements, dedicated security staff are embedded within the program team and work continuously with system and network administrators on antivirus and malware controls, firewall and intrusion detection, database safeguarding, OS and hardware hardening, and protection of data in transit. The Vehicle Inspection and Compliance business line operates against SOC 2 Type 2 controls covering security, availability, and confidentiality, with quarterly security reviews and annual risk-analysis meetings led by the Senior IT Director and Information Systems Manager. Production systems are designed for AWS deployment with continuous configuration compliance via AWS Config and AWS Security Hub, automated vulnerability and code scans embedded in the deployment pipeline as enforced security gates, and centralized configuration baselines that block non-compliant components from release. Vulnerability management runs on a fixed cadence: monthly internal and quarterly external vulnerability tests, with results reviewed to enhance mitigation plans, plus security assessments triggered during and after critical system changes. The same scanning technology and methodology used for high-sensitivity U.S. government programs is applied to inspection-program infrastructure. Parsons' broader cyber posture is supported by an in-house Defense & Intelligence cyber business unit with full-spectrum offensive, defensive, and resiliency capabilities, recognition by Ethisphere as one of the World's Most Ethical Companies for 16 consecutive years through 2025, and more than 100 AWS certifications across its engineering and security workforce.",
+  "named_past_performance": [
+    {
+      "name": "Pennsylvania Vehicle Emissions Inspection (I/M) Program - PennDOT",
+      "scope": "Operate the Pennsylvania VIID and supporting infrastructure with embedded cybersecurity staff, monthly internal and quarterly external vulnerability scanning, hardware/OS hardening, antivirus/malware controls, firewall and intrusion detection, database protection, and secure communications, leveraging the Parsons Cybersecurity Practice that supports sensitive U.S. government programs.",
+      "outcome": "Pennsylvania VIID has had no security or performance issue across the engagement; sustained 99.99% uptime cited for the platform; relationship spanning more than 20 years on the Pennsylvania I/M Program.",
+      "source_chunk_ids": [1962, 1963, 1973, 1974, 1979, 1982, 1983]
+    },
+    {
+      "name": "Ontario DriveON Program - AWS Migration",
+      "scope": "Migrate a vehicle inspection program from legacy infrastructure to AWS as an AWS Partner Solutions Provider, AWS DevOps Competency Partner, and AWS Advanced Tier Services Partner, with cloud-based system security and recovery features.",
+      "outcome": "Migration completed without interruption in service or uptime, demonstrating secure cloud transition for vehicle inspection workloads.",
+      "source_chunk_ids": [1963]
+    },
+    {
+      "name": "Intelligence Community Classified Cyber Contract",
+      "scope": "Single-award, 5-year contract for vulnerability research, reverse engineering, and software development for an Intelligence Community customer (awarded February 2022).",
+      "outcome": "Awarded $104 million; reflects depth of Parsons' vulnerability-research and secure software development capabilities applicable to enterprise security program standards.",
+      "source_chunk_ids": [3524]
+    },
+    {
+      "name": "Intelligence Community IDIQ - Facility, Asset, and Personnel Security",
+      "scope": "5-year IDIQ for security and protection of classified facilities, assets, and personnel worldwide (awarded July 2020).",
+      "outcome": "Awarded $178 million; demonstrates Parsons' enterprise capability to secure facilities, assets, and personnel under federal-grade security regimes.",
+      "source_chunk_ids": [3524]
+    },
+    {
+      "name": "NSA SHARKSEER Program",
+      "scope": "Original contractor on the NSA SHARKSEER program since 2011; SHARKSEER 2.0 task order under DISA SETI for cyber threat detection and protection.",
+      "outcome": "SHARKSEER 2.0 task order has total potential value of $28 million across 1 base plus 4 option years; continuous tenure since 2011 reflects sustained federal trust in Parsons' defensive cyber operations.",
+      "source_chunk_ids": [3524]
+    }
+  ],
+  "quantified_outcomes": [
+    {
+      "metric": "Platform uptime",
+      "value": "99.99%",
+      "context": "Pennsylvania VIID uptime cited in the PennDOT 3522R12 proposal; the platform has had no security or performance issue across the engagement.",
+      "source_chunk_ids": [1961, 1962]
+    },
+    {
+      "metric": "AWS certifications across engineering and security workforce",
+      "value": "more than 100",
+      "context": "Parsons engineers and in-house security experts hold over 100 AWS certifications, supporting secure cloud architecture for inspection programs.",
+      "source_chunk_ids": [1963]
+    },
+    {
+      "metric": "Internal vulnerability scan cadence",
+      "value": "monthly",
+      "context": "Internal vulnerability tests conducted monthly with results reviewed to enhance mitigation plans for the VIID environment.",
+      "source_chunk_ids": [1982]
+    },
+    {
+      "metric": "External vulnerability scan cadence",
+      "value": "quarterly",
+      "context": "External vulnerability tests conducted quarterly with results reviewed to enhance mitigation plans for the VIID environment.",
+      "source_chunk_ids": [1982]
+    },
+    {
+      "metric": "Security review cadence (SOC 2 program governance)",
+      "value": "quarterly security review meetings; annual risk-analysis meetings",
+      "context": "Per SOC 2 controls, the Senior IT Director and Information Systems Manager Darryl McCarthy lead quarterly security reviews and annual risk analysis, joined for quarterly meetings by network, security, and solution architect engineers.",
+      "source_chunk_ids": [3776]
+    },
+    {
+      "metric": "Ethisphere World's Most Ethical Companies recognition",
+      "value": "16 consecutive years through 2025",
+      "context": "Corporate-level recognition reflecting governance and ethics maturity that anchors Parsons' compliance and privacy programs.",
+      "source_chunk_ids": [3524]
+    },
+    {
+      "metric": "Workforce scale",
+      "value": "18,000+ employees",
+      "context": "Parsons is a global 18,000+-person company with 79 years (and at corporate level, 81 years) of experience, providing the resourcing depth behind its enterprise security program.",
+      "source_chunk_ids": [1975, 3513]
+    },
+    {
+      "metric": "FY2025 corporate revenue",
+      "value": "$6.364 billion",
+      "context": "FY2025 revenue (per FY2025 10-K reference in the corporate dossier); FY2024 revenue was $6.751 billion at all-time records.",
+      "source_chunk_ids": [3548]
+    },
+    {
+      "metric": "Cleared workforce penetration on cyber-relevant acquired units",
+      "value": "70%-90% cleared across multiple acquired entities",
+      "context": "Polaris Alpha ~90% cleared, Braxton ~80%, SealingTech ~70%, Xator ~90%, Altamira 90%+ - reflecting depth of personnel security clearances supporting federal-grade information security work.",
+      "source_chunk_ids": [3525, 3526, 3547, 3548]
+    }
+  ],
+  "differentiators": "Parsons brings a company-wide Cybersecurity Practice that supports high-sensitivity U.S. government programs and applies the same scanning technology and tradecraft to inspection-program infrastructure - a depth of capability rare among program-management vendors. Dedicated security staff are embedded directly in the program team rather than provided as a shared service, supported by network, security, and solution architects. The Vehicle Inspection and Compliance business line operates under SOC 2 Type 2 controls covering security, availability, and confidentiality, with documented quarterly security reviews and annual risk analysis. Cloud delivery is anchored by AWS Partner Solutions Provider, AWS DevOps Competency Partner, and AWS Advanced Tier Services Partner status, plus more than 100 AWS certifications in-house and an automated DevSecOps pipeline (AWS Config, AWS Security Hub, vulnerability and code-scan security gates) that blocks deployment of non-compliant components. Parsons has been the original contractor on NSA SHARKSEER since 2011 and holds Intelligence Community classified cyber contracts including a $104M vulnerability-research/reverse-engineering award and a $178M IDIQ for facility, asset, and personnel security worldwide - evidencing enterprise-grade security maturity that flows down to commercial program work. Recognition by Ethisphere as one of the World's Most Ethical Companies for 16 consecutive years through 2025 reinforces the governance posture behind the privacy and compliance program.",
+  "gap_notes": "Evidence in the provided chunks supports SOC 2 Type 2 controls (Vehicle Inspection and Compliance business line) and AWS PCI-DSS Compliance Attestation referenced as a proposal attachment for the PennDOT submission. The chunks do not contain explicit Parsons-level evidence for FedRAMP, FISMA authorization, IRS-1075, CJIS, ISO 27001, ISO 27701, HIPAA, NIST 800-53/800-171 control mappings, or formal third-party penetration-test reports - these will need to be confirmed and dated by Corporate Information Security before any specific certification claim is made in a response. Specific encryption-at-rest/in-transit algorithms (e.g., AES-256, TLS 1.2/1.3) and FIPS 140-2/140-3 validated module identifiers are not stated in the provided chunks and should be sourced from the System Security Plan or equivalent control inventory before assertion. Quantified breach-notification timelines, mean-time-to-patch, and disciplinary/sanction policy specifics for security-policy violations are not present in the chunks and will require sourcing from Parsons' Information Security Policy. Threat-intelligence subscription list, ICS/SCADA/OT inventory specifics, IoT and BYOD policy details, and law-enforcement cybersecurity contact registry are not enumerated in the available evidence. The PennDOT proposal references attached SOC 2 Type II Report, AWS PCI-DSS Compliance Attestation, Security Testing Results (Redacted), and Security Incident Response Plan as separate uploaded files - these source artifacts should be retrieved to populate certification dates and scope before final response.",
+  "source_chunk_ids": [1927, 1928, 1938, 1939, 1942, 1949, 1956, 1960, 1961, 1962, 1963, 1965, 1973, 1974, 1975, 1978, 1979, 1982, 1983, 1984, 3513, 3516, 3517, 3518, 3524, 3525, 3526, 3547, 3548, 3555, 3582, 3586, 3592, 3602, 3603, 3605, 3611, 3655, 3714, 3715, 3716, 3745, 3759, 3763, 3767, 3772, 3773, 3776, 3782, 3786, 3804, 3805, 3814, 3831, 3880, 3913, 3914, 3915, 3916, 3917]
+}

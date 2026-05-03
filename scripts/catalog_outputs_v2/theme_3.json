@@ -1,0 +1,113 @@
+{
+  "title": "Service Levels and Performance Management for Centralized Inspection Operations",
+  "capability_statement": "Parsons delivers an integrated service-level and performance management capability for centralized vehicle inspection programs, anchored by a purpose-built Service Level Tracking Application (SLTA) deployed in AWS that automatically identifies contract requirements, determines whether each metric has been met, and alerts both the State and Parsons of contract infractions in real time so that any deviation can be remediated before liquidated damages accrue. The supporting system architecture is engineered for reliability and resiliency through serverless and managed services, multi-availability-zone deployments in AWS US-EAST-1, geographically distant cross-region replication, Aurora real-time data replication across replicas, cloud-native load balancing that automatically reroutes traffic away from unhealthy endpoints, and auto-scaling that deploys replacement systems with no operator intervention; each availability zone is sized to absorb full production volume independently and runs 24x7 with continuous data replication. Wait-time SLAs are met by combining an automated ALPR-based wait-time system that calculates per-vehicle wait time, a notification system that alerts Operations and Station Managers as the wait-time threshold approaches exceedance so available resources can be repositioned, dedicated certified lane inspectors who can backfill any station, lane designs combining single- and multi-workstation configurations and tandem testing in selected lanes to expand throughput during peak demand, pre-registration via website or mobile app with a 2D bar-code wallet pass, expanded self-service kiosk options, and adverse-weather contingency plans (cold and hot) that commit to clearing all lanes and operating within a 15-minute maximum waiting time within two hours of an emergency event. Disaster Recovery Plans are tested at least annually and after every major release, upgrade, or recovery effort, with a first DRP test executed within 30 days of go-live. The same governance is extended to oversight, equipment certification, and audit through Parsons in-house staff and partners (Michael Baker International for third-party validation), an electronic Inventory Control System that synchronizes station-level inventory in real time with central databases, an application-controlled equipment maintenance schedule that proactively flags hardware approaching failure, and an Audit Management and Trigger (AMT) system that surfaces operational and equipment metrics for transparent shared monitoring with the State.",
+  "named_past_performance": [
+    {
+      "name": "State centralized vehicle emissions inspection program (multi-station hybrid network)",
+      "scope": "Manage and operate the State's centralized vehicle emissions inspection program with up to 81 inspection lanes across multiple stations, including Westminster, Erdman Avenue, Edgewood, Owings Mills, Bel Air, Columbia, White Oak, Derwood, Glenarden, Clinton, Waldorf, Elkton, and additional regional locations; deploy 114 staffed test units, 73 full-time inspectors, 37 part-time inspectors, 18 MAC Assistant Managers, 66 station-level managers, totaling 194 assigned staff; deliver self-service kiosks, expanded centralized lanes, ALPR-based wait-time measurement, pre-registration via website/mobile app, real-time kiosk downtime notifications, public live-stream queue feeds and estimated wait times via RESTful JSON web services, customer-feedback tablets, motorist communications via website/Help Desk/registration inserts, and lane designs supporting tandem testing in 33 of 81 lanes; subcontractor team for facility evaluation, future kiosk expansion, equipment maintenance, and call-center support.",
+      "outcome": "Solution sized and staffed for the stations identified in the RFP as having high percentages of vehicles with wait times greater than 15 minutes; tandem testing in 33 of 81 lanes plus pre-registration committed to deliver some of the lowest customer wait times compared to similar programs in North America; no convenience fees in the testing offering to reduce confusion and complaints; on-time delivery commitment with weekend/night transition work to avoid customer disruption.",
+      "source_chunk_ids": [3617, 3642, 3653, 3664, 3665, 3677, 3678, 3702, 3745, 3750, 3797, 3805]
+    },
+    {
+      "name": "Pennsylvania Vehicle Emissions I/M Program",
+      "scope": "Prime contractor for 26 years administering the Commonwealth's I/M Program, with VIID hosted in AWS, equipment certification, overt and covert oversight, remote records and visual audits, hearings and suspensions, waiver delivery and verification, referee services, motorist compliance data collection, equipment certification, on-road testing, safety inspection oversight, and safety hearings; SLTA deployed in AWS to automate identification of contract requirements and SLA delivery monitoring; partnership with Michael Baker International for third-party audit validation.",
+      "outcome": "More than 80 million transactions processed to date and routinely achieve system uptime above 99.9%; 99.99% VIID uptime since October 2012; in-place team and corporate resources removing transition risk; ability to manage program changes (multi-county expansion, equipment installs, multi-level VIID software changes) without service interruption.",
+      "source_chunk_ids": [1961, 1965, 1978, 1979, 1980, 1981, 2025, 2027, 2028, 2029]
+    },
+    {
+      "name": "New Jersey Motor Vehicle Inspection System",
+      "scope": "Operate and manage hybrid I/M program with 25 centralized stations and more than 900 decentralized facilities, including Special Inspection Facilities; lane operations, real estate and asset management on the client's behalf since 1998; throughput and rolled-throughput-yield improvements; continuous lane procedure and layout modifications driven by stakeholder feedback, identified safety risks, and coordinated reviews.",
+      "outcome": "99.99% system uptime since October 2013; world's first and largest hybrid I/M program operated continuously since 1998; demonstrated capability to deliver on-time and without disruption.",
+      "source_chunk_ids": [2027, 2028, 2029, 3642, 3677, 3701]
+    },
+    {
+      "name": "DriveON Ontario Vehicle Inspection Program",
+      "scope": "Implemented first-of-its-kind vehicle inspection program in Ontario, Canada, in 11 weeks with 2,400+ station locations and significant scope enhancements; AWS-hosted system migrated without interruption in service or uptime; ZenDesk and AmazonConnect call-center backbone.",
+      "outcome": "100% uptime since AWS migration in April 2022; demonstrates Parsons' ability to migrate to AWS without service interruption and to support call-center modernization.",
+      "source_chunk_ids": [1963, 2027, 2028, 2029, 3677]
+    },
+    {
+      "name": "Hawaii Motor Vehicle Inspection Program",
+      "scope": "New program implementation of a modernized safety inspection system to over 700 station locations across six islands.",
+      "outcome": "99.99% uptime since November 2013.",
+      "source_chunk_ids": [2027, 3678]
+    },
+    {
+      "name": "Vermont Automated Vehicle Inspection Program",
+      "scope": "Operate the automated vehicle inspection program with VIID hosted to deliver continuous availability.",
+      "outcome": "99.99% uptime since January 2016.",
+      "source_chunk_ids": [2027]
+    },
+    {
+      "name": "Other multi-state I/M and inspection program implementations and operations",
+      "scope": "Successful, on-time, and on-budget large-scale program implementations including Massachusetts, Connecticut, Ohio, Colorado, and Indiana; management and operation of large decentralized vehicle inspection program in Massachusetts including Cape Cod and the Islands (1999-2003); restored and sustained operations on Connecticut Department of Motor Vehicles centralized program through shutdown, equipment audit failures, and major contract renegotiation; team lead role on Washington State Vehicle Inspection Program implementation.",
+      "outcome": "Established procedures for equipment service oversight and performance tracking, negotiated service-level agreements, implemented improved QA techniques including statistical process control charting; restored and sustained successful operations on a contract that had experienced shutdown and equipment audit failures.",
+      "source_chunk_ids": [4029, 4030]
+    }
+  ],
+  "quantified_outcomes": [
+    {
+      "metric": "VIID/system availability across active programs",
+      "value": "99.99% uptime on NJ Motor Vehicle Inspection System (since Oct 2013), Hawaii Motor Vehicle Inspection Program (since Nov 2013), Pennsylvania I/M Program (since Oct 2012), and Vermont Automated Vehicle Inspection Program (since Jan 2016); 100% uptime on DriveON Ontario since April 2022",
+      "context": "Sustained system availability for VIID solutions hosted in AWS US-EAST-1 with multi-availability-zone redundancy that exceeds the 99% AWS service-level requirement for availability and uptime; presented as Exhibit I-5-1 in the PennDOT submittal as evidence of program reliability.",
+      "source_chunk_ids": [2026, 2027, 2028, 2029]
+    },
+    {
+      "metric": "Pennsylvania I/M transaction volume",
+      "value": "More than 80 million transactions to date with system uptime routinely above 99.9%",
+      "context": "Scale evidence supporting Parsons' ability to size capacity for periods of maximum throughput in a long-running statewide centralized program.",
+      "source_chunk_ids": [1978, 1979, 1981]
+    },
+    {
+      "metric": "Maximum customer wait-time commitment under adverse weather and emergencies",
+      "value": "15-minute maximum waiting time, with all lanes cleared and open within two hours of emergency conditions",
+      "context": "Cold Weather and Summer Contingency plans within Parsons' Adverse Weather/Emergency Response Plan commit to maintaining the 15-minute wait-time requirement during adverse weather, with snow-clearing subcontracted on an as-required basis and scheduled outside business hours where possible.",
+      "source_chunk_ids": [3842, 3843, 3844, 3845]
+    },
+    {
+      "metric": "Maximum wait-time operating standard at every station",
+      "value": "15 minutes per vehicle, calculated using an automated ALPR-based wait-time system; corrective action initiated within 5 minutes",
+      "context": "Parsons commits to ensuring the maximum 15-minute wait time is not exceeded at any station, that no vehicles are turned away due to wait time, and that all inspection positions not out-of-service for QA reasons are opened within five minutes of the station manager deciding to initiate corrective action.",
+      "source_chunk_ids": [3664, 3665]
+    },
+    {
+      "metric": "Throughput expansion via tandem testing",
+      "value": "Tandem testing implemented in 33 of 81 inspection lanes; OBD II testing available at all positions and idle/gas-cap testing at 44 of 81 lanes",
+      "context": "Lane configuration combines single- and multi-workstation designs to handle peak demand; tandem testing enables two vehicles per lane with two sets of test equipment, increasing station capacity and reducing customer wait times during periods of high demand.",
+      "source_chunk_ids": [3702]
+    },
+    {
+      "metric": "Architecture redundancy",
+      "value": "Multi-availability-zone AWS deployment with serverless/managed services rated at least 99.99% availability, plus cross-region replication and Aurora real-time replication",
+      "context": "Each availability zone is engineered to be isolated from failures in other zones, sized to absorb full production volume, runs 24x7 with continuous data replication, and uses cloud-native load balancing plus auto-scaling to reroute traffic away from unhealthy endpoints; database backups are replicated to an alternate region as an additional layer of protection.",
+      "source_chunk_ids": [2026, 2047, 2048, 2049]
+    },
+    {
+      "metric": "Disaster Recovery testing cadence",
+      "value": "At least once per year and after any major system release, upgrade, or recovery effort; first test within 30 days of go-live",
+      "context": "DRP tests are conducted in conjunction with the State to verify team preparedness, automatic failover functionality, and recovery objectives; current DRP for the PA program has been successfully tested at least annually.",
+      "source_chunk_ids": [2027, 2028]
+    },
+    {
+      "metric": "Spare-parts reorder turnaround",
+      "value": "Less than 72 hours to fulfill spare-inventory reorders; defective test equipment reported within one business day and resolved within five business days",
+      "context": "Electronic Inventory Control System tracks parts and equipment inventory at each inspection station and centrally; minimum spare quantities for each station are maintained at the station and at the maintenance facility to bolster reduction of equipment downtime; defective spares are inspected and replaced before adding to inventory.",
+      "source_chunk_ids": [3719, 3827, 3828]
+    },
+    {
+      "metric": "Kiosk downtime motorist notification",
+      "value": "Real-time notifications to the State of any kiosk downtime; public notification via the State Motor Vehicle agency channel if a kiosk is down for more than 10 minutes",
+      "context": "Centralized stations include automated wait-time systems using ALPRs and provide an estimated wait time and queue-area image to the public during all operating hours via a RESTful JSON web service.",
+      "source_chunk_ids": [3665, 3805]
+    },
+    {
+      "metric": "Staffing scale for centralized program",
+      "value": "194 assigned staff: 114 staffed test units, 73 full-time inspectors, 37 part-time inspectors, 18 MAC Assistant Managers, 66 station-level managers, plus 14 HQ office staff",
+      "context": "Station-by-station staffing distribution covers high-volume facilities flagged in the RFP for high percentages of vehicles with wait times greater than 15 minutes (Erdman Avenue, Owings Mills, Derwood, and other regional locations); each station is sized for its lane count and historical demand.",
+      "source_chunk_ids": [3745]
+    }
+  ],
+  "differentiators": "Parsons' purpose-built Service Level Tracking Application (SLTA), deployed in AWS, automatically identifies contract requirements, determines whether each metric has been met, alerts both the State and Parsons of contract infractions in real time, and reports any miss together with the associated liquidated-damages exposure so that remediation begins before damages accrue (chunks 1965, 2025, 3918). The SLTA is augmented for the State by an Audit Management and Trigger (AMT) system that displays operational and equipment metrics to flag exceptions before they fail, enabling shared monitoring and transparency for QA/QC oversight (3916). Wait-time control is a tightly engineered stack: an automated ALPR-based per-vehicle wait-time calculation; a notification system that alerts Operations and Station Managers as exceedance approaches so resources can be repositioned in advance; certified lane inspectors who can backfill any station; tandem testing in 33 of 81 lanes; pre-registration with a 2D bar-code wallet pass; expanded self-service kiosks; and live public queue feeds and estimated wait times via RESTful JSON (3664, 3665, 3702, 3791, 3797, 3805). System availability is protected by multi-availability-zone AWS deployment, geographically distant cross-region replication, Aurora real-time replication, automated failover, and auto-scaling that reroutes traffic away from unhealthy endpoints, with each availability zone sized for full production volume (2026, 2047, 2048, 2049). The track record is itself a differentiator: 99.99% uptime across NJ, Hawaii, PA, and Vermont and 100% on DriveON Ontario since the AWS migration; more than 80 million PA I/M transactions; 25-year hybrid centralized/decentralized program operations in NJ; and proven ability to restore operations on a Connecticut program through shutdown, audit failures, and renegotiation (2027, 2028, 2029, 1978, 1981, 4029, 4030). Equipment integrity is supported by an in-house equipment certification team independent of any equipment-provider role (1965), an electronic Inventory Control System with online/offline station synchronization, a less-than-72-hour spare reorder cycle, and a one-business-day defect-reporting / five-business-day defect-resolution discipline (3719, 3827, 3828). Wait-time SLAs are explicitly preserved during adverse weather: a 15-minute maximum waiting time commitment with all lanes cleared and open within two hours of emergency conditions (3842, 3843, 3844, 3845). Customer-experience differentiators include three-emoji touch-screen feedback tablets that tie ratings to specific lanes for targeted training, no convenience fees in the testing offering to reduce complaints, and proactive motorist communication through website, Help Desk, registration inserts, MAC interactions, and stakeholder briefings (3642, 3732, 3750).",
+  "gap_notes": "Source evidence does not directly address the specific Customer Wait Time SLA thresholds in the RFP - O-30 (30-minute average over two contiguous operating hours), O-31 (40-minute escalation after O-30 violation), or O-33 (25-minute monthly average after O-32 violation); the closest citations are Parsons' generic 15-minute maximum wait-time commitment per vehicle and the 15-minute average target referenced in the RFP incentive language, without breakdown by hour, by station, or against the 30/40/25-minute operational thresholds. The supplied evidence does not quantify staffing-model methodology for periods of maximum throughput beyond the station-by-station headcount table (R-040); a documented peak-hour FTE sizing methodology, queueing analysis, or simulation-based capacity plan tied to wait-time SLAs is not present and will need to be added. Defect-promotion SLAs A-002, A-014 (Critical Severity to production within one Business Day of UAT/State approval), A-016 (Moderate Severity within three Business Days), and A-018 (Low Severity with next service release or within 90 Business Days) are not addressed in the supplied evidence; SLTA and AWS deployment windows are referenced generically but no explicit SLA-tier promotion timing data is cited. Liquidated-damages process compliance items - P-4 (written notification to SCM that conditions have been corrected), P-5 (30-day balance payment), R-026 (liability for missed completion dates), and R-043/R-044 (prevailing-wage liquidated damages of $27 per calendar day per affected worker for overtime violations and federal withholding mechanism) - are not directly described in the supplied evidence. Service Level Audit clause R-023 (third-party audit access) is referenced indirectly through Michael Baker International third-party validation and shared SLTA/AMT monitoring with the State (1965, 3916, 3918) but explicit cooperation language for State or third-party SLA audit is not cited. Motorist Hotline availability and on-demand reporting via Management Console (A-070) is not described in the supplied evidence beyond the new ZenDesk/AmazonConnect call-center backbone reference (1963); Management Console-specific motorist-hotline tracking and on-demand reporting features will need to be confirmed. System availability monitoring (A-076 - network, database, transactions, errors, outages) and prior State approval for downtime in writing (A-067) are addressed only at the architecture level (multi-AZ, auto-scaling, fault tolerance) without a documented monitoring-tooling inventory or a written downtime-approval workflow. Equipment repair/replacement SLA timing for defective or worn-out equipment (R-083) is partially covered by the less-than-72-hour spare reorder turnaround, one-business-day defect reporting, and five-business-day resolution (3719, 3827, 3828), but not all equipment categories or worst-case repair times are explicitly cited. The 15-minute incentive wait-time target (A-025) is consistent with Parsons' general 15-minute maximum wait-time commitment but no incentive-tier achievement evidence (a sustained 15-minute monthly average) is present in the supplied chunks. Wait-Time data reporting to support SCM-requested reports (R-030) is implied by ALPR-based per-vehicle wait-time capture and SLTA reporting but no specific report catalog or sample is cited. No evidence in the supplied chunks for Liability for Unpaid Wages and Liquidated Damages (R-043) or the federal withholding mechanism (R-044) - both prevailing-wage compliance items will need a separate compliance section.",
+  "source_chunk_ids": [1956, 1961, 1963, 1965, 1978, 1979, 1980, 1981, 2000, 2002, 2021, 2025, 2026, 2027, 2028, 2029, 2047, 2048, 2049, 2069, 3597, 3617, 3642, 3653, 3664, 3665, 3667, 3668, 3677, 3678, 3701, 3702, 3719, 3732, 3745, 3750, 3791, 3797, 3805, 3819, 3827, 3828, 3842, 3843, 3844, 3845, 3916, 3918, 4029, 4030]
+}

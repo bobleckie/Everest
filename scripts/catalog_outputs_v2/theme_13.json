@@ -1,0 +1,68 @@
+{
+  "theme_id": 13,
+  "theme_label": "Quality Assurance",
+  "category": "Operational",
+  "title": "QA Plan Development and QA/QC Program Oversight for Vehicle Inspection Programs",
+  "capability_statement": "Parsons develops, delivers, and continuously updates Quality Assurance Plans tailored to State Inspection Program requirements, with QA Managers leading the process and submitting plans for State review and approval. Our QA/QC programs comply with 40 CFR Sections 51.353, 51.366, and 51.369, and include overt, covert, telephone, real-time video, and remote record audits. Auditing infrastructure incorporates risk-based compliance monitoring, real-time data analysis with test-interruption capability, electronic record audit systems mining inspection and past audit data for triggers, and the SLTA/Audit Management and Trigger (AMT) application for monitoring deliverables and performance metrics. QA staff develop QA/QC procedures and manuals, perform data validation and QA audits, schedule and execute administrative and performance audits, and prepare audit reports across program management levels. We accommodate State final decision-making authority on QA Plan content, accept State auditing personnel access to inspection facilities during operational hours, and provide quarterly QA Plan updates within 15 days of each calendar quarter end.",
+  "named_past_performance": [
+    {
+      "name": "Pennsylvania I/M Program (PennDOT)",
+      "scope": "Program management, decentralized emissions and safety inspection, overt and covert auditing program, QA/QC, equipment and software acceptance testing, VIID development, and oversight of approximately 8,000 stations through biannual covert and overt audits supported by an electronic record audit system mining inspection and past audit data.",
+      "outcome": "Provides QA and oversight activities meeting or exceeding Commonwealth requirements; QA/QC program evolved with PennDOT needs to continuously meet Commonwealth and EPA requirements (40 CFR Sections 51.353, 51.369, 51.366 and 75 Pa. C.S. Section 4707), ensuring consumer protection through equipment, inspector, record, and station audits.",
+      "source_chunk_ids": [2103, 2104, 2363, 2361]
+    },
+    {
+      "name": "Ontario Integrated Vehicle Safety and Emissions Inspection Program (Ministry of the Environment, Conservation and Parks)",
+      "scope": "Program and operations management of light-duty vehicle emissions program, VIID development, information systems development, call center operations, inspector training, facility certification, overt and covert auditing, program QA/QC, and fee collection from 1999 through 2028.",
+      "outcome": "Successfully transitioned the Ontario Heavy-Duty Emissions program to the AWS cloud with no service interruption or impact to existing emissions stations; implemented inspection lane and mechanic report cards comparing testing accuracy and repair effectiveness against peer groups.",
+      "source_chunk_ids": [1993, 4447]
+    },
+    {
+      "name": "Massachusetts Enhanced Emissions and Safety Test Program (Massachusetts Department of Transportation)",
+      "scope": "Prime contractor managing all aspects of the decentralized emissions and safety test program from 2008 to 2013, including real-time data collection, application development, QA/QC, covert auditing, operation and management of 12 MACs, test equipment distribution and maintenance, reporting, training, and public information.",
+      "outcome": "Delivered the first online, real-time emissions and safety inspection program in North America.",
+      "source_chunk_ids": [4058]
+    },
+    {
+      "name": "Massachusetts Vehicle Inspection Program (Massachusetts Registry of Motor Vehicles and Department of Environmental Protection)",
+      "scope": "Service Coordinator and QA/QC Manager role for management and operation of large decentralized vehicle inspection program from 1999 to 2003, including hardware/software implementation and equipment service oversight.",
+      "outcome": "Established procedures for equipment service oversight and performance tracking, negotiated service-level agreements, and implemented improved QA techniques including statistical process control charting.",
+      "source_chunk_ids": [4030]
+    }
+  ],
+  "quantified_outcomes": [
+    {
+      "metric": "SLTA data audits conducted",
+      "value": "More than 300,000",
+      "context": "SLTA and AMT application monitor deliverables and performance metrics; Parsons has conducted more SLTA data audits than any other provider in the industry.",
+      "source_chunk_ids": [3917]
+    },
+    {
+      "metric": "I/M auditing history in North America",
+      "value": "25 years",
+      "context": "Parsons Qualified Equipment Technicians hired and trained to uphold a 25-year history of I/M auditing in North America.",
+      "source_chunk_ids": [3917]
+    },
+    {
+      "metric": "Stations under biannual covert and overt audit",
+      "value": "8,000",
+      "context": "Pennsylvania I/M Program: Parsons QA officers conduct biannual covert and overt audits at all 8,000 stations, supported by an electronic record audit system that mines inspection and past audit data for triggers.",
+      "source_chunk_ids": [2363]
+    },
+    {
+      "metric": "QA Plan update cadence",
+      "value": "Quarterly within 15 days of calendar quarter end",
+      "context": "Parsons evaluates the QA Plan with State personnel and provides an updated QA Plan within 15 days of the end of each calendar quarter.",
+      "source_chunk_ids": [4468, 4471]
+    },
+    {
+      "metric": "Test inaccuracy reporting timeline",
+      "value": "1 business day",
+      "context": "Any finding of test inaccuracies will be reported to the State within one business day; corrective action and results reported within one business day after initiating corrective action, at no cost to the State.",
+      "source_chunk_ids": [4447]
+    }
+  ],
+  "differentiators": "More than 300,000 SLTA data audits conducted, more than any other provider in the industry, supported by Parsons Qualified Equipment Technicians upholding a 25-year history of I/M auditing in North America. Risk-based compliance-monitoring system continuously analyzes millions of rows of data using effective triggers to identify anomalies, statistical patterns indicating potential noncompliant acts, and suspend test or repair activity in real time. Real-time test interruption coupled with video and audio conference review allows expert technicians to discuss inspection or repair activity as it occurs, providing both fraud detection and continuous facility staff education. Inspection lane and mechanic report cards compare testing accuracy and repair effectiveness against peer groups to streamline auditor review and identify areas of audit focus. The Auditing Covert Masking Application enables State staff to designate covert vehicles by VIN with masking transparent to inspection facilities. Updated electronic auditing system uses devices with built-in 5G cellular and Wi-Fi hardware plus smartphone support for covert and remote visual applications, supporting overt I/M, covert I/M, safety/enhanced safety, and remote record audits.",
+  "gap_notes": "Source chunks describe Parsons' QA/QC oversight programs and QA Plan development practices but do not include verbatim text of a delivered QA Plan document or its formal approval by a State Contract Manager equivalent. The two-requirement scope (R-098 develop/deliver QA Plan to SCM; R-107 Bid Solicitation and State final decision prevail in disagreements) is supported by general QA Plan development capability and quarterly QA Plan update cadence, but no chunk explicitly addresses dispute resolution language confirming that Bid Solicitation requirements and State final decisions prevail in QA Plan disagreements. Pennsylvania-specific regulatory citations (40 CFR Sections 51.353, 51.369, 51.366; 75 Pa. C.S. Section 4707) are retained as authoritative federal/state references where they appear; state-specific procuring agency names from the Maryland source have been generalized.",
+  "source_chunk_ids": [1993, 2103, 2104, 2359, 2361, 2363, 2372, 2373, 2374, 2406, 2408, 2415, 2416, 2437, 2530, 2534, 3586, 3759, 3762, 3781, 3819, 3913, 3916, 3917, 3927, 3929, 3968, 3969, 3984, 3987, 4030, 4040, 4058, 4201, 4302, 4314, 4315, 4337, 4348, 4447, 4465, 4468, 4470, 4471, 4472, 4490]
+}

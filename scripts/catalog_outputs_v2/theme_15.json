@@ -1,0 +1,128 @@
+{
+  "theme_id": 15,
+  "theme_label": "Project & Implementation Management",
+  "category": "Operational",
+  "title": "Program Management Office and Implementation Lifecycle for Large-Scale Vehicle Inspection Programs",
+  "capability_statement": "Parsons stands up a dedicated Program Management Office (PMO) immediately upon contract award to plan, transition, implement, and operate large vehicle emissions and safety inspection programs end-to-end. The approach covers a Management Plan and Project Management Plan (PMP), kickoff meeting, weekly transition meetings, weekly and monthly status reports, technical meetings, invoicing, and end-of-contract transition activities; transition of stations, kiosks, hardware, software, and materials; staffing, training, audit, and compliance functions; deliverable development with technical and quality reviews and Acceptance Test Procedures (ATP); and change-management with State approval. Parsons backs this with a deep, in-place corporate structure (two business units: Critical Infrastructure and Federal Solutions), agile and innovative delivery methods (e.g., Zephyr-tracked Agile development for system testing), and an in-place team that mitigates transition and labor-market risk on day one. [3641, 3653, 3654, 3655, 3658, 3659, 3672, 1969, 1971, 1978, 1980, 1983, 2006, 2011]",
+  "named_past_performance": [
+    {
+      "name": "Pennsylvania Vehicle Emissions I/M Program (PennDOT)",
+      "scope": "Full Emissions Program Management for one of the largest, longest-running decentralized I/M programs in the U.S., covering ~8,200 stations across 25 counties and an estimated ~7 million inspections by 2025; services include VIID development and operation, station and inspector compliance/audit (overt and covert), I&E communications, training, court testimony in support of sanctions, and support for legacy connectivity and multiple equipment platforms.",
+      "outcome": "Continuous program operation since 1997; in 2012 seamlessly transitioned more than 8,000 stations to Parsons' VIID with no service disruption; in 2016 supported revision of the OBD inspection equipment specification and performed acceptance testing to certify equipment; over 80 million transactions processed to date; 99.99% VIID uptime cited; no security or performance issues on the Pennsylvania VIID.",
+      "source_chunk_ids": [1961, 1968, 1971, 1974, 1975, 1978, 1986, 1987]
+    },
+    {
+      "name": "New Jersey Motor Vehicle Inspection System (NJ MVC)",
+      "scope": "25 years of project and operations management for a hybrid I/M program with 25 centralized and 900+ decentralized stations (described as the world's first and largest hybrid I/M program), including VIID development, software certification, equipment ATP, motorist call center, and PI&E.",
+      "outcome": "Sustained operations from 1998 through 2024 with 11 Parsons PA-team members shared across the program; cited as the experience base Parsons leverages for smooth transition and stable hybrid-program operations.",
+      "source_chunk_ids": [3642, 1987, 1988, 3660]
+    },
+    {
+      "name": "Vermont Automated Vehicle Inspection Program (Vermont DMV)",
+      "scope": "Project management, VIID development, data security, equipment deployment management, station management/fee collection, training of industry and system administrators, industry outreach, and an industry technical support call center.",
+      "outcome": "Successful 6-month, 1,200-facility implementation with sticker printing-on-demand; client reference (Commissioner Wanda Minoli) describes Parsons as a 'consistent, high quality provider' who delivers 'innovative, appropriate and timely solutions' to program changes.",
+      "source_chunk_ids": [1983, 1987]
+    },
+    {
+      "name": "Hawaii Electronic Periodic Motor Vehicle Inspection Program (Hawaii DOT)",
+      "scope": "Program and operations management, VIID development, station billing, tablet-based software development, implementation, and station outreach.",
+      "outcome": "Met a short four-month implementation timeline and implemented sticker printing-on-demand.",
+      "source_chunk_ids": [1988]
+    },
+    {
+      "name": "Texas Automated Vehicle Inspection Program (Texas DPS)",
+      "scope": "Program management, software development and maintenance, and safety inspection program support across ~6,700 private inspection stations.",
+      "outcome": "Provided equipment software updates to 6,700 private inspection stations; long-running program from 2006-2024 with 7 Parsons PA team members shared across the project.",
+      "source_chunk_ids": [1988]
+    },
+    {
+      "name": "Ontario Integrated Vehicle Safety and Emissions Inspection Program (DriveON, MOECC)",
+      "scope": "Program and operations management for a light-duty-vehicle emissions program, plus VIID development, information-systems development, management and reporting, call-center operations, inspector training, facility certification, overt and covert auditing, QA/QC, fee collection, and equipment software certification.",
+      "outcome": "Successfully transitioned the Ontario Heavy-Duty Emissions program to AWS cloud with no service interruption or impact to existing emissions stations; in 2023 implemented a training system to educate 60,000+ inspection mechanics; ongoing through 2028.",
+      "source_chunk_ids": [1993, 3658, 1962, 1963]
+    }
+  ],
+  "quantified_outcomes": [
+    {
+      "metric": "Inspection mechanics trained",
+      "value": "95,500+ since 1995",
+      "context": "Cumulative inspection mechanics trained on equipment usage and customer service since 1995, demonstrating scale of training/implementation function.",
+      "source_chunk_ids": [3658]
+    },
+    {
+      "metric": "Additional inspection mechanics trained (Ontario DriveON)",
+      "value": "60,000+",
+      "context": "Training system implemented in 2023 for the Ontario DriveON program.",
+      "source_chunk_ids": [3658]
+    },
+    {
+      "metric": "Stations transitioned to new VIID without disruption",
+      "value": "8,000+ stations",
+      "context": "2012 PennDOT transition of more than 8,000 stations to Parsons' VIID to ensure program continuity.",
+      "source_chunk_ids": [1971]
+    },
+    {
+      "metric": "VIID uptime",
+      "value": "99.99%",
+      "context": "Cited uptime of the Pennsylvania VIID and of Parsons' Vehicle Inspection Database design more broadly.",
+      "source_chunk_ids": [1961, 3653]
+    },
+    {
+      "metric": "Transactions processed (PennDOT I/M)",
+      "value": "80 million+",
+      "context": "Cumulative transactions conducted to date in support of the Pennsylvania I/M Program.",
+      "source_chunk_ids": [1978]
+    },
+    {
+      "metric": "Vermont implementation",
+      "value": "6 months / 1,200 facilities",
+      "context": "Successful 6-month implementation across 1,200 facilities for the Vermont Automated Vehicle Inspection Program.",
+      "source_chunk_ids": [1987]
+    },
+    {
+      "metric": "Hawaii implementation timeline",
+      "value": "4 months",
+      "context": "Met short four-month implementation timeline for the Hawaii Electronic Periodic Motor Vehicle Inspection Program.",
+      "source_chunk_ids": [1988]
+    },
+    {
+      "metric": "Texas private inspection stations supported with software updates",
+      "value": "6,700",
+      "context": "Provided equipment software updates to 6,700 private inspection stations as part of program management.",
+      "source_chunk_ids": [1988]
+    },
+    {
+      "metric": "Vehicle inspection programs designed, implemented, and managed worldwide",
+      "value": "10 programs over three decades",
+      "context": "Three decades of experience designing, implementing, and managing 10 vehicle inspection programs worldwide.",
+      "source_chunk_ids": [3641]
+    },
+    {
+      "metric": "Years operating large hybrid I/M program",
+      "value": "25 years (1998-)",
+      "context": "Direct experience operating and managing the NJ MVIS hybrid program (25 centralized + 900+ decentralized facilities).",
+      "source_chunk_ids": [3642]
+    },
+    {
+      "metric": "In-state proposal staff and tenured inspection professionals",
+      "value": "750+ in-State staff and 500+ tenured vehicle-inspection/compliance professionals nationwide",
+      "context": "Available bench cited to ensure smooth transition and stable operations.",
+      "source_chunk_ids": [3643]
+    },
+    {
+      "metric": "Total Parsons workforce",
+      "value": "18,000+ employees",
+      "context": "Global, 18,000+-person company that can be drawn from to staff transition and startup phases of new programs.",
+      "source_chunk_ids": [1975, 3671]
+    },
+    {
+      "metric": "Annual revenue (FY2024)",
+      "value": "$6.751 billion (24% total / 22% organic growth)",
+      "context": "All-time records for revenue, net income, adjusted EBITDA, cash flow, and contract awards in FY2024 demonstrating financial strength to back large implementations. (FY2023 $5.443B; FY2025 $6.364B with 5.7% decline tied to Federal Solutions wind-down.)",
+      "source_chunk_ids": [3548]
+    }
+  ],
+  "differentiators": "In-place team and corporate resources mean transition risk is minimized on day one rather than being absorbed by the client; Parsons is the only contractor in the cited program that can guarantee no financial or business relationship with currently certified emissions equipment manufacturers, eliminating conflicts of interest. A Program Manager (Jim Valerio) with 12 years' direct prior tenure as full-time general manager of the inspection program brings deep institutional knowledge, supported by named bench (Jason Freeman, 30-year I/M veteran with 25 years' direct State program experience; Navin Dass as Testing Station Transition and Overall Implementation Manager; Robert Suess as Corporate Executive Sponsor; Mike Butler, Bonnie McPherson, John Ott, Darryl McCarthy on the PennDOT-side leadership). Parsons applies Agile development with Zephyr test-case tracking so system testing begins earlier and produces electronic, easily accessible test documentation for State oversight. The OWN ZERO safety culture, NSC-recognized safety standards, and a dedicated Vehicle Inspection and Compliance division of 500+ industry professionals provide depth most competitors cannot match. Recent corporate-dossier acquisitions (e.g., Xator, IPKeys, SealingTech, BlackSignal, BCC Engineering, Chesapeake Technology International, Altamira) and a CEO with seven Wash100 wins, NACD cyber governance certification, and a track record across Federal Solutions and Critical Infrastructure business units underline the financial and technical depth available to back implementation commitments. [3653, 3658, 3659, 3672, 1969, 1980, 3645, 3547, 3548, 3555]",
+  "gap_notes": "Evidence in the supplied chunks does not include a State-specific Project Management Plan (PMP) artifact, a Mobilization Plan for equipment/supplies purchase and distribution (R-049), or detailed templates for the Additional Plans referenced in Section 3.19 (R-026); sections of the Volume I table of contents reference these artifacts (e.g., Management Plan at 2.3.1.18.1, Project Management at 2.3.1.19, Kickoff Meeting at 2.3.1.18.2/3.1.A, Weekly Transition Meetings at 2.3.1.19.2, Weekly/Monthly Status Reports at 2.3.1.19.3, Technical Meetings at 2.3.1.19.4, End of Contract at 2.3.1.19.6/3.2, Disaster Recovery at 3.5) but the body content for those sections is not included in the evidence chunks here. Also not present in the chunks: explicit responses to State-claim notification/settlement-approval requirements (R-001, R-002 at 4.1.E), CBA/labor-transition compliance language for P.L. 2025 c.359 (R-070, R-105, R-107-R-109), motorist complaint and damage-claim procedures (R-045, R-053), shared issue-tracking-tool details (R-046), Change Request/SCM-approval workflow (R-059, A-011), database sizing/growth forecasts (A-071), data-storage/retention/archiving methods (A-125-A-127), and stakeholder/participant role tables (A-022, A-039-A-040, A-119). These should be authored or pulled from full-source files before final draft. Quantified outcome on FY2025 revenue shows a 5.7% decline that should be framed carefully if cited.",
+  "source_chunk_ids": [1928, 1933, 1961, 1962, 1963, 1968, 1969, 1971, 1974, 1975, 1978, 1980, 1982, 1983, 1986, 1987, 1988, 1993, 2006, 2011, 3547, 3548, 3555, 3575, 3576, 3588, 3590, 3596, 3598, 3600, 3601, 3609, 3610, 3617, 3641, 3642, 3643, 3644, 3645, 3650, 3651, 3653, 3654, 3655, 3656, 3658, 3659, 3660, 3663, 3668, 3669, 3671, 3672]
+}

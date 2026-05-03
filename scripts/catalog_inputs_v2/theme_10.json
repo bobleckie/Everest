@@ -1,0 +1,498 @@
+{
+  "theme_id": 10,
+  "theme_label": "Insurance & Bonding",
+  "category": "Commercial",
+  "rfp_requirements": [
+    {
+      "id": 9370,
+      "code": "A-019",
+      "title": "Describe scope of cybersecurity liability insurance coverage",
+      "description": "If the organization has purchased cybersecurity liability insurance, describe in detail the scope of the coverage.",
+      "section": "30.4",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 7732,
+      "code": "R-040",
+      "title": "Indemnify for injury, loss of life, or property damage",
+      "description": "Contractor shall indemnify the State for loss of life, property, or injury/damage to person, body, or property arising from or resulting directly or indirectly from the work and/or products supplied under the Contract or order.",
+      "section": "4.1",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7740,
+      "code": "R-005",
+      "title": "Secure and maintain insurance for contract term",
+      "description": "",
+      "section": "4.2",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7753,
+      "code": "R-018",
+      "title": "Provide Automobile Liability covering any automobile used",
+      "description": "",
+      "section": "4.2.b",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7754,
+      "code": "R-019",
+      "title": "Auto Liability limits $1,000,000 combined single limit",
+      "description": "",
+      "section": "4.2.b",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7755,
+      "code": "R-020",
+      "title": "Name State as Additional Insured on Auto Liability when applicable",
+      "description": "",
+      "section": "4.2.b",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7756,
+      "code": "R-021",
+      "title": "Provide Workers' Compensation and Employers Liability Insurance",
+      "description": "",
+      "section": "4.2.c",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 5007,
+      "code": "A-087",
+      "title": "Indemnify for loss of life or property",
+      "description": "Indemnification applies to loss of life, tangible property, or injury/damage to person or property arising from work/products supplied under the Contract.",
+      "section": "7.1 / 4.1(A)(1)(i)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5009,
+      "code": "A-089",
+      "title": "Indemnify for Breach of Security from encryption failure",
+      "description": "Indemnification applies to Breach of Security resulting from Contractor's breach of its obligation to encrypt Personal Data or otherwise prevent its release or misuse.",
+      "section": "7.1 / 4.1(A)(1)(iii)",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 5018,
+      "code": "A-098",
+      "title": "Indemnification is in addition to insurance obligations",
+      "description": "Contractor's indemnification and liability under Section 4.1(A)(1) is not limited by, but is in addition to, the insurance obligations contained in Section 4.2 of the State Standard Terms and Conditions.",
+      "section": "7.1 / 4.1(A)(1)(iv)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5046,
+      "code": "V-001",
+      "title": "Contractor relieved of IP indemnification where claim arises solely from State actions",
+      "description": "Contractor will be relieved of its IP indemnification responsibilities under Section 4.1(A)(1)(i), (ii), and (iii) for any claims made by an unaffiliated third party that arise solely from the actions or omissions of the State, its officers, employees or agents.",
+      "section": "7.1 / 4.1(A)(4)",
+      "priority": "low",
+      "category": "informational"
+    },
+    {
+      "id": 5050,
+      "code": "V-005",
+      "title": "State will not indemnify Contractor; claim payment conditions",
+      "description": "The State of New Jersey will not indemnify, defend, or hold harmless the Contractor. The State will not pay or reimburse for claims absent compliance with Section 4.1(B) and a determination by the State to pay the claim or a final order of a court of competent jurisdiction.",
+      "section": "7.1(A)(8)",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 7932,
+      "code": "A-021",
+      "title": "Contractor relief for State-caused claims",
+      "description": "Contractor is relieved of its indemnification responsibilities under Subsection A for any third-party claims that arise solely from the actions or omissions of the State, its officers, employees, or agents.",
+      "section": "8.2.4.1.C",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 7931,
+      "code": "A-020",
+      "title": "State notice obligation for indemnified claims",
+      "description": "The State will promptly notify Contractor in writing of the claim or suit (State obligation related to Contractor's indemnification duties).",
+      "section": "8.2.4.1.D.1",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 7940,
+      "code": "R-001",
+      "title": "Promptly notify Contractor of claim or suit",
+      "description": "The State will promptly notify Contractor in writing of any claim or suit subject to indemnification.",
+      "section": "8.2.D.1",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 7943,
+      "code": "R-004",
+      "title": "State will not indemnify, defend, or hold Contractor harmless",
+      "description": "The State of New Jersey will not indemnify, defend, pay or reimburse for claims on behalf of Contractor, and will not indemnify, defend or hold harmless the Contractor. The State will not pay or reimburse claims absent compliance with Section E and either a State determination to pay or a final orde",
+      "section": "8.2.F",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8031,
+      "code": "R-036",
+      "title": "Indemnification in addition to insurance and other obligations",
+      "description": "Contractor's indemnification and liability under Subsection A is not limited by but is in addition to the insurance obligations, and does not limit Contractor's other obligations under the Contract or the State's other remedies. State approval of work does not limit Contractor's obligations.",
+      "section": "9.2.4.1.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8330,
+      "code": "R-011",
+      "title": "Appendix B referenced for Aetna HMO offset recipients",
+      "description": "Appendix B identifies the specific Employees who were enrolled in the 2013 Aetna HMO option and qualify for the 2014 higher-contribution offset payment.",
+      "section": "Appendix B",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 8111,
+      "code": "A-012",
+      "title": "Union to defend and indemnify Employer",
+      "description": "The Union will defend any claims, actions or proceedings brought against the Employer and indemnify and hold the Employer harmless from any recovery of damages under this Article.",
+      "section": "Article II.6",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8120,
+      "code": "A-021",
+      "title": "Union to defend/indemnify Employer for check-off actions",
+      "description": "The Union will defend any claims, actions or proceedings brought against the Employer (other than those brought by the Union), and indemnify and hold the Employer harmless for actions taken under this Article.",
+      "section": "Article III.7",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7650,
+      "code": "V-012",
+      "title": "Comply with Vendor definition under N.J.S.A. 52:32-60.1",
+      "description": "Vendor must understand and apply the statutory definition of \"Vendor\" which includes natural persons, corporations, LLCs, partnerships, sole proprietorships, trusts, governmental entities/instrumentalities (including multilateral development institutions per 22 U.S.C. 262r(c)(3)), and any parent, su",
+      "section": "Certification of Non-Involvement in Prohibited Activities in Russia or Belarus",
+      "priority": "high",
+      "category": "mandatory"
+    }
+  ],
+  "parsons_evidence": [
+    {
+      "chunk_id": 1961,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 8,
+      "content": "EXECUTIVE SUMMARY\nWORKING WITH PENNDOT TO MOVE THE I/M\nPROGRAM FORWARD THROUGH ADAPTABILITY\nAND INNOVATION\nParsons is uniquely positioned to deliver each requirement PennDOT has outlined for the new contract, enhancing what\nworks and innovating for the future. We\u2019re fully committed to:\nApplying innovation and advanced technology tailored to Pennsylvania\u2019s Program\nEnsuring station compliance\nEmploying advanced Cybersecurity protocols to protect against security threats\nEliminating PennDOT\u2019s transition risk\nParsons appreciates PennDOT\u2019s business. Throughout our response, we demonstrate our depth of experience, our\nreliability, our compliance, and our adaptability. We have unmatched knowledge of PennDOT\u2019s emissions and safety\nprograms, and we know what you require from your vendor. Most importantly, we won\u2019t rest on our laurels; in this new\ncontract, we will demonstrate to PennDOT that we are the best vendor to bring the Program into the future.\nHighlights of Parsons\u2019 Technical Proposal\nSecure Data and Information Management Systems. Our systems are reliable, and we are proud of the 99.99% uptime\nof our Pennsylvania VIID. Program downtime is simply unacceptable to us, and our experien"
+    },
+    {
+      "chunk_id": 1966,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 9,
+      "content": "t. This will reinforce confidence in Parsons\u2019 deliverables.\nA Team with Depth that Will Deliver for Pennsylvania. Success starts with experienced leadership, and Parsons brings a\ntrusted Program team. Mark Colangelo, Vice President and Pennsylvania Program Manager, has extensive knowledge of\nCommonwealth requirements, policies, and procedures, strengthened by his many years of industry experience. Backed by\nhis in-place team and handpicked DBE/SBE/VBE companies, we stand ready to support your initiatives and deliver your\nProgram. Mike Butler, Vice President and Smart Vehicles Solutions Business Leader, and Bonnie McPherson, Vice President,\nVehicle Inspection Programs, will support Mark in making sure he has the full complement of Corporate resources and staff\nrequired to meet your goals.\nParsons brings a mindful and respectful approach to innovation that aligns with PennDOT\u2019s priorities. PennDOT has and\ncan continue to rely on us to deliver innovation based on its goals. We have carefully reviewed the RFP offered by\nPennDOT and offer a responsible, respectful, and thorough response with solid, performance-based delivery on all the\noutlined tasks.\nThe Parsons Pennsylvania team\u2019s lon"
+    },
+    {
+      "chunk_id": 1967,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 9,
+      "content": "bility, compliance, and reliability are all\nhallmarks of and a testament to delivering for PennDOT. We welcome your review of our proposal and your continued\ntrust and business.\nExecutive Summary ES-2"
+    },
+    {
+      "chunk_id": 1975,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 11,
+      "content": "and expert testimony in support of PennDOT sanctions against stations and inspectors.\n\u00a7 Program continuity\u2014we have the knowledge to support all three equipment platforms, four manufacturers, and two\nequipment specifications and the infrastructure to support legacy dial-up connectivity.\nParsons ensures a risk-free transition and reliability for PennDOT to ensure the\nI/M Program\u2019s exceptional operational performance and customer service.\nI-2. QUALIFICATIONS\nI-2A: Company Overview\nParsons is a global, 18,000+-person company with 79 years of experience supporting complex programs for its clients.\nWe entered the vehicle inspection industry in 1984, providing referee services for the California Bureau of Automotive\nRepair; our vehicle inspection team began working with PennDOT at the Program\u2019s inception that led to public safety and\na cleaner environment. We deliver cybersecurity, advanced technology solutions, and other services to federal, regional,\nand local government agencies and national and international private industrial customers. Our agile and innovative\napproach enables us to deliver solutions that satisfy our client\u2019s current and future initiatives.\nTechnical Submittal 2"
+    },
+    {
+      "chunk_id": 2006,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 17,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nParsons staff proposed in the organization chart are already in place, as are our primary subcontractors included on our\nteam. A challenging labor market will not impact Program continuity \u2013 Parsons\u2019 staff with Program knowledge will be\nready on day one, eliminating the need for program recruitment, education, and training, which mitigates transition\nrisk.\nI-2D: Background Checks\nParsons will conduct background checks for all employees and subcontractors with on-site or remote access to\nCommonwealth IT facilities. We\u2019ll provide written confirmation that the background checks have been completed via\nPennDOT\u2019s outlined procedure. We will not assign any employee who fails the background check. Current employees who\nfail a background check will have their access privileges revoked. We will conduct background checks at our expense\nbefore initial access and then annually. We understand that PennDOT may withhold access at its discretion.\nI-2E: Subcontractors\nOur subcontracting plan includes actively recruiting partners that share Parsons\u2019 core values and PennDOT\u2019s goals and\nwill add expertise,"
+    },
+    {
+      "chunk_id": 2020,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 20,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\ninterruption in services or operations. Our experience and understanding of the implemented Program changes gives us\na unique understanding of I-5A-E\u2019s requirements.\nThis decentralized Program\u2019s size and complexity poses considerable transition risk to PennDOT and a new contractor.\nOur fully operational and proven VIID mitigates all transition risks and poses no threat to the continuation of a fully\nfunctioning I/M Program, allowing us to focus on implementing improvements and advancements. Through our\nmodernization of the Ontario DriveON program to Amazon Web Services (AWS) in 2022, we have the knowledge and\nexperience to implement our proposed PA I/M Program VIID systems update safely and ensure the continuity of all\nservices we provide. On the new AWS system, we will leverage our established data handling, program operations, and\noversight, allowing us to focus on the future of the I/M Program. We commit to performing all RFP-requested\nrequirements.\nOur adaptability, reliability, and adherence to compliance are unmatched\u2014and we understand the I/M Program\nrequirements and structure be"
+    },
+    {
+      "chunk_id": 2021,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 20,
+      "content": "ailed in I-5A, 5B, and 5C, and\nwe commit to continuing our support of PennDOT\u2019s requirements and regulations. Our operations and systems will\nensure and support all the requirements of these sections. In addition, we respond to all listed specific responsibilities\nand services required in the appropriate Work Plan task responses. We have demonstrated our reliability by\nadministering a fully effective Program, managing tasks, including data storage and handling, overt and covert oversight\nactivities, remote records audits, remote visual audits, I/M hearings and suspensions, waiver delivery and verification,\nreferee services, motorist compliance data collection, I/M equipment certification, on-road testing, safety inspection\noversight activities, and safety hearings and suspensions. Our response to Section I-2 highlights our performance,\nexperience, and adaptability, listing key successful Program enhancements and deliverables during our partnership with\nPennDOT.\nI-5D: Program Changes\nWe recognize that PennDOT reserves the right to renegotiate the contract terms in the event of needed changes\nprompted by legislative (federal or state) requirements, compliance with legally binding cou"
+    },
+    {
+      "chunk_id": 2027,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 21,
+      "content": "available to end-users.\nOur proven applications run in all our programs, and we provide unmatched uptime results. \u201cExhibit I-5-1\u201d shows the\nuptime percentages for our VIID solutions in our programs.\nEXHIBIT: I-5-1. OUR PROGRAM UPTIME PERCENTAGES DEMONSTRATE OUR RELIABILITY.\nPROGRAM SYSTEM AVAILABILITY\nNew Jersey Motor Vehicle Inspection System 99.99% uptime since October 2013\nHawaii Motor Vehicle Inspection Program 99.99% uptime since November 2013\nPennsylvania Vehicle Emissions I/M Program 99.99% uptime since October 2012\nVermont Automated Vehicle Inspection Program 99.99% uptime since January 2016\nDriveON Ontario 100% uptime since April 2022\nOur experience in maintaining VIID uptime, along with our knowledge of the day-to-day needs of the PA I/M Program,\nensures that on the first day of the contract, PennDOT will have no disaster recovery concerns. Our extensive and\ndedicated US based IT staff stand ready to respond to any interruption and are prepared to exercise all protocols to\nreduce impact to the Program should we initiate disaster recovery. In addition to our unmatched Program experience,\nwe draw from our successful experience building and operating fault-tolerant systems a"
+    },
+    {
+      "chunk_id": 2043,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 24,
+      "content": "ion efforts across many disciplines and functions including software development\nand systems integration; infrastructure sizing, and redundancy; integrations with a myriad number of testing equipment\nmanufacturers, communications protocols, and other diverse end-points; and significant and distributed end-user and\nsystems support training. In addition, and arguably more important to the success of the PA I/M Program, it involves\ndeveloping effective relationships with PennDOT staff and station operators.\nParsons has demonstrated the experience, adaptability, and reliability to develop and maintain a complex and highly\nfunctioning I/M technical solution. Our proven program execution, consistent regulation compliance, and unparalleled\nTechnical Submittal 15\n | Complete Procedure Training |  |  | All employees |  |  | Upon hire | \n |  |  | All employees for applicable facilities |  |  |  |  | \n | Refresher Training |  |  | All employees |  |  | Annually or upon Plan update | \n |  |  | Key Project Personnel |  |  |  |  |"
+    },
+    {
+      "chunk_id": 2047,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 25,
+      "content": "ity. Parsons will meet all the requirements outlined in Task A: Storage and Handling of all\nPA I/M Program-related Data.\nWe\u2019ll host the system environment in the US-EAST-1 region of\nMAXIMIZING SYSTEM\nAmazon\u2019s cloud environment. This will allow us to maximize\nRELIABILITY AND RESILIENCY\nreliability and resiliency, by using serverless and managed\nservices where possible. Serverless and managed services are Our strategy also uses a combination of multi-\ncloud computing models where the cloud vendor looks after the availability zone AWS deployments and data\nserver systems and dynamically adjusts resource allocation to replication to a geographically distant region\naccommodate fluctuating capacity demands. These services to ensure system uptime by having no single\nhave automated failover built-in, with redundancy across point of failure shared between each zone\navailability zones and an availability rating of at least 99.99 and protection of the State data.\npercent. Our strategy uses a combination of multi-availability\nzone AWS deployments and data replication to a geographically distant region to ensure system uptime by having no\nsingle point of failure shared between each zone and prot"
+    },
+    {
+      "chunk_id": 2048,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 25,
+      "content": "lity and data synchronization process among the databases. Updates made to the\nprimary database instance are instantly copied to all Aurora replicas/databases. The data stored in the VIID database is\nreplicated across availability zones and as an additional layer of protection, the database backups are replicated to an\nalternate region.\nThe use of cloud-native load balancing capabilities automatically reroutes traffic away from unhealthy endpoints. Auto-\nscaling capabilities automatically deploy replacement systems as necessary, thereby minimizing service disruptions and\nthe need for emergency operations intervention. All services in production are replicated across each availability zone.\nEach availability zone has the capacity to take over complete production volume in case the primary site becomes\nunresponsive and runs 24x7, supporting continuous data replication. These measures fulfill the Commonwealth\u2019s and\nTechnical Submittal 16\n | MAXIMIZING SYSTEM |  | \n | RELIABILITY AND RESILIENCY |  | \n | Our strategy also uses a combination of multi- |  | \n | availability zone AWS deployments and data |  | \n | replication to a geographically distant region |  | \n | to ensure system upti"
+    },
+    {
+      "chunk_id": 2069,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 30,
+      "content": "to-use web-based design interface, allowing a user\nreporting tools to customize requested reports\nto create simple operational reports without the need for IT or\nand will use our PA and other program\nreport developers. We will provide the necessary training and\nexperience to ensure PennDOT gets the right\nreports the first time. ongoing support on how to use available tools, including how to\nsearch, navigate, and access the data. We will also supply\nwritten analysis of queries used in the ad hoc reports when requested and will provide direct access to the data to run\nreports to six PennDOT employees as per the RFP.\nWe understand that periodic updates may be required, and we are responsible for transmission costs as well as the cost\nof any additional hardware and software to receive the updates from PennDOT. In addition, we will work with PennDOT to\npush all data to the PennDOT system using either a batch or web service API if an API is available to load the data into\nthe State system or data warehouse.\nA.4 System Performance\nSystem performance is a key component of the Program, and we always look for ways to improve system performance\nand reliability. By migrating our system to the "
+    },
+    {
+      "chunk_id": 2133,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 43,
+      "content": "approval prior to PennDOT. A station audit history function will supply information\non past audits, violations, and any recorded complaints or investigations involving the station and/or the station\npersonnel. The auditors will review record audit results, including the number of waivers and exemptions issued, and\nother information that can indicate possible improper inspection procedures.\nParsons\u2019 audits include an examination of records and forms, verification of I/M sticker usage, and conformity of I/M\nstations to PennDOT\u2019s regulations. Auditors verify that I/M inspections at each station are performed by certified I/M\ninspectors, waivers are delivered by certified repair technicians, and I/M inspections are recorded as required by\nPennDOT regulations. We operate a fleet of auditing vehicles equipped with gas analyzer calibration verification\nsystems for emissions equipment validation. Our auditors will document all audit findings on the appropriate audit\napplication form and submitted to PennDOT, per PennDOT\u2019s direction.\nAuditors will conduct audits by inspecting the following during each station audit, in accordance with 40 CFR\n\u00a7 51.363(a) (1) through (3) and 51.363 (b) throug"
+    },
+    {
+      "chunk_id": 2134,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 43,
+      "content": "tation has the proper bond or proof\nof insurance.\n\u00a7 Verify the validity of each inspector\u2019s driving credentials and I/M inspection license and the presence of required\ninspection tools and equipment.\n\u00a7 Ensure that required record keeping practices are being followed.\n\u00a7 Review the number of exemptions issued by the station, compare it to the station\u2019s peer group, and investigate\ninconsistencies.\n\u00a7 Determine the number of waivers issued by the station since the last audit using VIID data and verify\ndocumentation for each waiver, including Vehicle Inspection Reports, repair work orders, repair data forms, and\nthat certified repair technicians delivered the waivers.\n\u00a7 Evaluate the inspector\u2019s ability to operate equipment, perform I/M inspections in compliance with regulations, and\nknowledge of the I/M Program and its rules and regulations.\nAdditionally, to ensure the station follows proper procedure in I/M inspection sticker tracking, the auditor will verify that\nstickers are kept in a lockable, secure location. They will query the sticker reconciliation application to confirm the\nnumber of stickers ordered, received, issued, voided, missing/stolen, and unused. Auditors will document a"
+    },
+    {
+      "chunk_id": 2155,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 47,
+      "content": "E\nvehicles for covert operations throughout all the Pennsylvania\nWith assistance from PennDOT and the\nProgram area. We are the only vendor with this existing\nPennsylvania Department of State, Parsons\ninfrastructure that protects the identity of covert vehicles from\nhas established its own covert vehicle\npurchase to decommissioning.\ndealership, enabling us to purchase and sell\nvehicles at auction. Parsons provides PennDOT with the specifics of the covert\nfleet monthly in electronic format. The covert vehicle report\nincludes the VIN, year, make, model, title number, starting and ending odometer readings, and the commission and\ndecommission dates of each vehicle. This information can be used with PennDOT\u2019s VIID access to the covert vehicle\nrecords for inquiry and data manipulation purposes. Parsons will provide covert vehicle insurance and will be\nTechnical Submittal 38\n | EFFECTIVE COVERT INFRASTRUCTURE |  | \n |  |  | \n | With assistance from PennDOT and the |  | \n | Pennsylvania Department of State, Parsons |  | \n | has established its own covert vehicle |  | \n | dealership, enabling us to purchase and sell |  | \n | vehicles at auction. |  |"
+    },
+    {
+      "chunk_id": 2263,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 69,
+      "content": "ehicle Fraud Investigators, and we employ several former law enforcement personnel.\nCommunication between our oversight staff, law enforcement, and PennDOT reinforces program oversight and integrity.\nWe have created an SOP detailing the safety suspension service process. This process is discussed in our response to\nTask K.\nTo minimize station interruption, safety and enhanced safety inspection audits will be performed, when possible, in\nconjunction with I/M oversight activities if the station is certified to perform safety and I/M inspections.\nOur auditors wear uniforms that we supply and that PennDOT has approved. The uniforms assist in identifying our\noversight personnel at the stations and will display a photo identification badge. To meet oversight obligations, we will\nensure an adequate number of vehicles and personnel are always available and will assume responsibility for all\napplicable vehicle insurance, fuel, repairs, and other operating expenses. Auditors will use personal vehicles to conduct\nsafety audits unless assigned a company vehicle. Auditors using personal vehicles will be reimbursed at the federal\nmileage rate.\nSafety Audits\nParsons will conduct at least one over"
+    },
+    {
+      "chunk_id": 2266,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 70,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nSafety and enhanced safety audits will be scheduled based on the date of the last audit, complaints, or performance\nissues identified by us or PennDOT. Before audits, auditors determine the station\u2019s sticker purchase, audit, and\nviolation history using our audit application, for current data to assist with oversight activities.\nAll oversight activities will be conducted in accordance with department procedures and regulations and will require a\nsite visit to the safety inspection station. Auditors will make a general survey of the safety and enhance safety\ninspection station premises to ensure regulation compliance as stated in 67 PA Code Chapter 175. The auditor will\ncheck for posting of all required certificates and station signs and ensure the station has the proper bond or proof of\ninsurance. The auditor will verify the validity of each mechanic\u2019s safety inspection and driving credentials, and the\npresence of required inspection tools and equipment for the station type. Auditors will verify that only certified safety\nand enhanced safety inspectors perform safety and enhanced safety "
+    },
+    {
+      "chunk_id": 2271,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 71,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\ncovert fleet to personnel directly involved with safety covert oversight activities and never reveal covert vehicle identity\nto any safety station personnel.\nWe will use our experience performing emissions covert oversight activities to provide personnel for this task as well as\na dedicated Safety Covert Audit Manager. We will replace vehicles and personnel at regular intervals to avoid detection\nand identification, as necessary.\nParsons has an emissions covert audit infrastructure that we can adapt for safety covert oversight activities. We will\nrevise our PennDOT-approved covert auditing investigation procedures for safety covert oversight activities. We will also\nadd safety covert oversight management capabilities to our covert auditing and vehicle applications and databases,\ncovert audit scheduling application, and covert vehicle inducement database. We will manage all safety covert\noversight activity data through the VIID. The electronic vehicle records will be available to PennDOT personnel for\ninquiry and data manipulation purposes at no cost.\nWe will provide covert vehicle insur"
+    },
+    {
+      "chunk_id": 2293,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 75,
+      "content": "n data\nkept on PennDOT\u2019s Vehicle Inspection System before recording an inspection.\nWe will improve user experience by updating the data entry screens and making them easier to use. Users will be able\nto start typing in a field and the system will suggest autofill options or create a drop-down list of matching data, such as\ninsurance company names. We will ensure that data entry remains a simple task across all platforms used to access\nthe website. Overall, our new website design will look more visually appealing and easier to understand.\nTechnical Submittal 66\n | ENHANCED MOBILITY AND ACCESSIBILITY: |  | \n | MAKING E-SAFETY INSPECTIONS MORE |  | \n | CONVENIENT FOR INSPECTORS |  | \n | Parsons will create a mobile-friendly interface, |  | \n | allowing inspectors to access the e-SAFETY |  | \n | website from any mobile device such as |  | \n | smartphones and tablets. Inspectors will be |  | \n | able to use these devices to scan vehicle |  | \n | registration and take photos of failed |  | \n | inspection items and/or required photos and |  | \n | documents for enhanced safety inspections. |  | \n | e-SAFETY INNOVATION |  | \n |  |  | \n | Our new e-SAFETY solution will be capable of |  | \n |"
+    },
+    {
+      "chunk_id": 2296,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 76,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nAs a proposed innovation, Parsons could include the optional collection of Automated Driver Assistance Systems\n(ADAS) data as part of the vehicle inspection criteria. As a service to their customers, inspectors could choose to\nevaluate the functionality of ADAS during the road test portion of the inspection, such as lane change notifications and\nautomated braking. The inspector would enter the information into e-SAFETY and provide the results on the Vehicle\nSafety Inspection Report. The collection of this information will provide PennDOT with valuable, real-world data as\nyou consider ADAS inclusion in vehicle inspections. Parsons has the knowledge and experience to work with\nPennDOT to adapt requirements as vehicle safety features evolve.\nOur updated report interface will contain data validation tools for inspections, further ensuring regulation compliance\nand reporting accuracy. The system will either flag or cause a popup for inconsistencies in entries, such as expired\ninsurance, prompting the inspector to double-check the information and confirm whether they wish to continue or\ncorre"
+    },
+    {
+      "chunk_id": 3601,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 9,
+      "content": "Liquidated Damages other than MBE (RFP Section 3.4.2) .......................................................... 287\n3.4.3 Initial System Transition of the Inspection Program Centralized, Kiosk, and FIS Stations (RFP\nSection 3.4.3) ........................................................................................................................................... 289\n3.4.4 the Inspection Program Operations (RFP Section 3.4.4) ............................................................................................. 290\n3.4.5 Data Management and Communication Systems (RFP Section 3.4.5) ...................................... 290\n3.5 Disaster Recovery and Data (RFP Section 3.5) .................................................................................... 291\n3.5.1 Redundancy, Data Backup and Disaster Recovery (RFP Section 3.5.1) .................................... 291\n3.5.2 Data Export/Import (RFP Section 3.5.2) ....................................................................................... 294\n3.5.3 Data Ownership and Access (RFP Section 3.5.3) ......................................................................... 294\n3.5.4 Acknowledgment of Provisions (R"
+    },
+    {
+      "chunk_id": 3602,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 9,
+      "content": "........................................................ 296\n3.6 Insurance Requirements (RFP Section 3.6) ......................................................................................... 296\n3.7 Security Requirements (RFP Section 3.7) ............................................................................................ 296\n3.7.1 Employee Identification (RFP Section 3.7.1) ................................................................................ 297\n3.7.2 Criminal Background Check (RFP Section 3.7.2) ......................................................................... 297\n3.7.3 On-Site Security Requirement(s) (RFP Section 3.7.3) .................................................................. 298\n3.7.4 Information Technology (RFP Section 3.7.4) ................................................................................ 298\n3.7.5 Data Protection and Controls (RFP Section 3.7.5) ....................................................................... 299\n3.7.6 Security Logs and Reports Access (RFP Section 3.7.6) ............................................................... 306\n3.7.7 Security Plan (RFP Section 3.7.7) ................................."
+    },
+    {
+      "chunk_id": 3612,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 11,
+      "content": "FP Section G.14) .......... 412\nTAB G \u2013 REFERENCES ................................................................................................................................................ 413\nTAB H \u2013 LIST OF CURRENT OR PRIOR STATE CONTRACTS .................................................................................. 417\nTAB I \u2013 FINANCIAL CAPABILITY ................................................................................................................................ 418\nTAB J \u2013 CERTIFICATE OF INSURANCE ...................................................................................................................... 419\nTAB K \u2013 SUBCONTRACTORS ..................................................................................................................................... 423\nTAB L \u2013 LEGAL ACTION SUMMARY .......................................................................................................................... 425\nTAB M \u2013 ECONOMIC BENEFIT FACTORS .................................................................................................................. 429\nTAB N \u2013 TECHNICAL PROPOSAL - REQUIRED FORMS AND CERTIFICATIONS .............."
+    },
+    {
+      "chunk_id": 3642,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 34,
+      "content": "sylvania, Hawaii, and Texas. This experience will result in an improved Program in the State that's\ndelivered on-time, within budget, and without disruptions. Parsons has 25 years of direct experience\noperating and managing the New Jersey Motor Vehicle Inspection Program, the world\u2019s first and largest\n(25 centralized and more than 900 decentralized facilities) hybrid I/M program. We\u2019ll leverage this\nexperience and lessons-learned to ensure smooth transition for the the Inspection Program.\nCustomer service is at the center of our solution. Our solution is comprehensive, reliable, and\nconvenient. We're expanding self-service options at all centralized locations during normal\noperating hours so service representatives are available when needed. We're improving the\nreliability of kiosks by updating the technology, providing better software screens, and adding a diagram\nto help motorists locate their OBD port. And, we're focused on keeping customers moving. By providing\npre-registration and pre-payment options, we'll significantly reduce wait times. Our testing offering does\nnot include convenience fees, a strategy which should reduce or eliminate confusion and complaints.\nA team that c"
+    },
+    {
+      "chunk_id": 3745,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 59,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nStation Location # of staffed test Number of full- Number of part- MAC Assistant Managers* Total Assigned\nunits time inspectors time inspectors (formerly \u201cCSR\u201d) Staff per Station\n3 \u2013 (regional location)*** 6 3 2 2 4 11\n4 \u2013 Westminster 4 1 1 0 3 5\n5 \u2013 Erdman Avenue*** 12 8 6 2 4 20\n6 \u2013 Edgewood 6 4 0 1 3 8\n7 \u2013 Owings Mills*** 7 4 2 1 3 10\n8 \u2013 Bel Air 5 3 1 1 3 8\n9 \u2013 Columbia 7 5 1 1 3 10\n11 \u2013 White Oak 12 8 6 2 4 20\n12 \u2013 Derwood*** 12 8 6 2 4 20\n13 \u2013 Glenarden 9 6 4 2 4 16\n14 \u2013 Clinton 6 4 1 1 3 9\n15 \u2013 (regional location) 6 4 2 1 3 10\n16 \u2013 (regional location)*** 6 4 1 1 3 9\n17 \u2013 Prince (regional location) 3 1 0 0 3 4\n18 \u2013 Waldorf 4 3 1 0 3 7\n19 \u2013 Elkton 3 1 0 0 3 4\nHQ Office Staff** N/A 4 3 N/A 7 14\nTotal 114 73 37 18 66 194\n*Managers include Station Manager, Assistant Station Manager, and Lane Managers/Second Assistant Managers\n**Administrative staff are represented under the \u201cInspector\u201d columns for HQ\n***Stations with high percentages of vehicles with wait times greater than 15 minutes per RFP Appendix 7\n2.3.1.1.4.S Security (RFP Section 2.3.1.1.4"
+    },
+    {
+      "chunk_id": 3746,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 59,
+      "content": "s, and State assets. We vet third-party services based on reputation and past proof of\nperformance, reliability, integrity, and professionalism. We\u2019ll seek a qualified local small business to provide\nthese services based on the criteria noted.\nSafety is our key corporate value. From the first day on the job\u2014throughout their daily lives, in the office or on\nthe job site\u2014employees are instilled with Parsons\u2019 OWN ZERO corporate safety philosophy. Whether\ncompleting safety training, developing processes to ensure safety, or attending daily safety talks, our\nphilosophy extends from the design and daily review of facilities to the knowledge and understanding of\nensuring a safe environment for the team and the customers we serve. With OWN ZERO, we empower every\nemployee with the mindset to create an injury- and incident-free environment at home and work.\n2.3.1.1.4.T Training (RFP Section 2.3.1.1.4.T)\nWe understand that a formal, consistent training program for our employees and State personnel is\nfundamental to a smooth transition. Having successfully implemented many similar programs over the past\n40 years, we\u2019re confident our approach will result in a successful implementation for the S"
+    },
+    {
+      "chunk_id": 3879,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 89,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nOur Training Team will monitor the effectiveness of examination questions. We\u2019ll clarify training material and\nedit examination questions as the courses and the Program changes and data analysis dictates. These\nchanges will aid in protecting the consistency and reliability of the the Inspection Program. This examination-result trend\nanalysis, driven by our continuous improvement culture will benefit Program staff, the State, the students,\nand State motorists. We\u2019ll seek State approval before implementing any recommended changes to the\ntraining material or examination banks.\nOur Training Plan will detail all the training recommendations and requirements for our the Inspection Program team. We\u2019ll\ntailor the training programs to job functions being performed, such as Lane Inspectors, Equipment\nTechnicians, MAC personnel, FIS inspectors, MAC Assistants, and Station Managers. Throughout this section,\nwe outline the training and certification details for several job functions.\nOnce the Program has moved to the operations phase and all personnel have unde"
+    },
+    {
+      "chunk_id": 3951,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 105,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nParsons will use the following process for collecting cash and checks at the\nthe Inspection Program Stations:\n\uf0a7 Test equipment software and VID systems will track data entry for\nofficial inspections and fees to be collected will be automated for the\nLane Inspector. Uploaded, official records will track expected fees\ncollected.\n\uf0a7 Cash collected from the customer will be secured in a locking cash\ndrawer located at each test unit in the the Inspection Program Station lanes.\nAccountability is Key\n\uf0a7 Periodically, the Inspection Program Station Management will drop any excess cash using\nParsons has had third-party\nthe test equipment software\u2019s automated entry process. The system\nindependent audits\nwill capture IDs and passwords for both the the Inspection Program Station Manager and\nconducted by KPMG on the\nthe Lane Inspector during this process, ensuring two-person control of\nE.A.S.E. fee collection and\nmoney removed from the cash drawer. reconciliation application.\n\uf0a7 The test equipment software will also track cash collected and issue an The latest aud"
+    },
+    {
+      "chunk_id": 4109,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 142,
+      "content": "upervisory, technician, and inspection personnel attire will consist of\nuniforms that display the State-approved, State-required logo, color-coded reflective vests, and employee\nidentification badges. Badges will identify staff as Parsons employees and include their full name,\nphotograph, position (i.e., Manager, Supervisor, Certified Inspector, Technician, or Trainee), identification\nnumber, and State-issued inspector\u2019s license number, if applicable. This uniform appearance will display\nprofessionalism, make a positive statement, and instill customers with confidence as they provide station\nemployees with documentation, vehicle access, and payment information.\nUnderstanding that outward appearance matters as much as demeanor when interacting with motorists,\nwe\u2019ll offer the Inspection Program-branded apparel to State staff, our employees, and stakeholders deemed appropriate by the\nState, with an eye toward professionalism. We\u2019ll provide samples of the proposed uniforms, vests, and\nbadges for approval.\n2.3.1.21 Damage or Destruction (RFP Section 2.3.1.21)\nWe maintain general liability insurance for damages or destruction occurring at a client facility while we are\nfulfilling the con"
+    },
+    {
+      "chunk_id": 4110,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 142,
+      "content": "btain funds to restore the site to its original condition. State-requested site improvements or\nmodifications will be handled through change orders. Facility restorations will require State approval.\nWe are prepared to handle situations when damage or destruction occurs at a the Inspection Program facility. Our goal is to\nmaintain facility operations, so we\u2019ll notify the State of the situation and quickly work to restore the premises\nin any such event, while maintaining our safety culture. If, for any reason, damage or destruction should\noccur to a the Inspection Program facility, we\u2019ll remedy the situation by repairing the premises as nearly as possible to the\noriginal condition and value before the damage or destruction. The State\u2019s Project Manager, or designated\nappointee, will have final approval on the construction workmanship.\nIf modifications or improvements are necessary due to force majeure, the State will pay for the repairs\nthrough its insurance carrier and reimburse Parsons. We\u2019ll invoice the State for the improvement costs but\nwill use only enough funds from the insurance carrier to refurbish the site to its original value. The State will\nmake the insurance funds immed"
+    },
+    {
+      "chunk_id": 4167,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 155,
+      "content": "pport team uses PagerDuty to manage incident notifications and escalations centrally. Upon event\nor incident detection, we send automated alerts to PagerDuty, where notification actions are triggered\ndepending on the severity of the incident. Our incident management and escalation strategy will ensure\nincidents are handled most efficiently to minimize impacts on the the Inspection Program.\nAWS Architected Solution\nWe architected our data management system in the AWS cloud with the State\u2019s security, reliability, and\ncontinuous improvement service objectives in mind. We\u2019ll host the Program in the North Virginia US-EAST-1\nregion to comply with the State IT organization policies, standards, guidelines, and RFP requirements. This region is\ngeographically closest to the State, with the option of using US-EAST-2 Ohio, if needed.\nWe will host the primary environment in the US-EAST-1 region to take advantage of the six\nisolated data center locations called availability zones, which far exceed the 98% service\nlevel requirement for availability and uptime of all systems applications.\n141 Tab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan"
+    },
+    {
+      "chunk_id": 4170,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 156,
+      "content": "Redundancy Spanning Two Availability Zones: Each availability zone will be designed with\nthe capability to meet the capacity demands of the entire program. If one availability zone suffers a failure,\nthe two remaining have capacity to sustain operations. Using the active-active multi-availability zone\ndeployment model means we can sustain program operation without service interruption or reduced\nperformance, even if either data center becomes unavailable. The two data center active-active high\navailability model also allows us to take full advantage of the system\u2019s capacity by spreading the workload to\nmaximize performance. If one availability zone goes offline, our system will automatically continue to use the\nother availability zone until the fault at the original availability zone is resolved and it is brought back online.\nIn addition, as another layer of protection, the program data will be replicated to another region. Section 3.5\ncontains additional Disaster Recovery details.\nServerless and Managed Services with Automated Failover and Redundancy Across All Availability\nZones: To maximize reliability and resiliency, we\u2019ll use serverless and managed services where possible.\nSer"
+    },
+    {
+      "chunk_id": 4175,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 157,
+      "content": "multiple availability zones. To further improve high availability, the database backend\nstorage is fault-tolerant, transparently handling the loss of up to two copies of data. Both Aurora and Amazon\nS3 storage data will be replicated across multiple availability zones and to the US-EAST-2 region. Cross-\navailability zone failover of AWS services is transparent to end-users and limits service disruptions and the\nneed for emergency operations intervention. The multi-availability zone for the Aurora database and Amazon\nS3 storage deployment has an availability rating of 99.99%, which far exceeds the State\u2019s availability service\nlevel requirement. For example, over one year a 99.99% rating equates to only 53 minutes of downtime\nwhereas a system with 99.7% uptime would allow nearly 1,600 minutes of downtime.\nReal-Time Automated Failover at Every Layer of the Architecture: Our certified AWS solutions architects\nand certified AWS cloud engineers will architect for system resiliency, reliability, and responsiveness, with\nactive-active redundancy spanning two availability zones and real-time failover capability at each layer of the\narchitecture. We\u2019ll use our experience to design a solution"
+    },
+    {
+      "chunk_id": 4183,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 159,
+      "content": "high-performance scalability with up to six copies of data\n11 replicated across multiple availability zones is used to store static content for the front-end web pages, data archiving,\nlogging data.\n12 Serverless platform used to run code with built-in scaling and high availability in multiple availability zones.\nResilient QuickSight provides a Business Intelligence reporting service that can leverage ML technologies with high\navailability spanning multiple availability zones.\n13\nHigh performance AWS reporting database with automated recovery and scaling capabilities, to ensure reporting\nperformance scalability.\nHigh Availability: Parsons\u2019 systems operate within regional data centers for disaster recovery/business\ncontinuity and offer the necessary redundancy to ensure a minimum of 98% VID uptime, with an achievable\ngoal of 100% uptime for the life of the contract.\nThe fault-tolerant VID architecture described above provides the components necessary for extremely high\nuptime. However, the key aspect underlying a system\u2019s true uptime is the quality and reliability of the\napplications developed by the vendor to run the the Inspection Program. Applications used to perform OBD inspecti"
+    },
+    {
+      "chunk_id": 4188,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 160,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nThis approach dramatically reduces the time it takes to restore a system, compared to retrieving tape media\nfrom off-site storage before the restore process can begin. Also, an automated deployment pipeline with\ninfrastructure as code allows us to deploy a fully functional replica of the production environment in less\nthan 24 hours. Data backups will meet the information systems service standard by being encrypted in\ncompliance with the State standards.\nDisaster Recovery Testing: We take business continuity very seriously and have established a solid\nreputation for system uptime in our other vehicle inspection programs. As the uptime results in the table\nbelow confirm, we\u2019ve gained valuable experience implementing high availability and automated failover\ncapabilities for multiple projects with high-uptime requirements, which will ensure we meet your service level\nfor availability and uptime of all system applications. Section 3.5 Disaster Recovery and Data details our\ndisaster recovery process.\nReliability: Our VID is architected in the AWS cloud s"
+    },
+    {
+      "chunk_id": 4209,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 165,
+      "content": "ocess will launch more container instances to handle the increased load. Using container-based\napplications also allows for faster, easier, and more consistent deployments due to a small footprint in\ncontrast to traditional server instances. Instead of virtualizing the hardware stack, as with the virtual\nmachine approach, containers virtualize at the OS level, with multiple containers running atop the OS kernel\ndirectly. This means containers are far more lightweight: they share the OS kernel, start much faster, and\nuse a fraction of memory compared to booting an entire OS.\nThe database will be hosted on AWS Aurora, MySQL edition, which is a relational database built for the cloud\nthat combines the performance and availability of high-end commercial databases with the simplicity and\ncost-effectiveness of open-source databases. The Aurora implementation of MySQL is up to five times faster\nthan standard MySQL databases. It provides the security, availability, and reliability of commercial-grade\ndatabases at a fraction of the cost. Aurora is fully managed by the Amazon Relational Database Service,\nwhich automates time-consuming administration tasks like hardware provisioning, database"
+    },
+    {
+      "chunk_id": 4240,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 172,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nValidating Scope and Quality Requirements During Test Phase\nAs per our QA process, the quality requirements are specifications of the quality of a product, service,\nprocess, or environment. The test plan will ensure quality requirements are validated during testing as it will\nlist the types of tests that will be performed which will address quality requirements such as reliability,\nconsistency, availability, usability, customer experience, look and feel, environments, customer service,\nperformance, and maintainability.\nOur plan consists of an environment specification, assumptions, limitations, testing criteria, and acceptance\ncriteria, and will identify the validation team, including its responsibilities and required documentation. Our\nuse of Agile during the software development phase of our Agile process allows our development team\u2014\nbusiness analysts, developers, and QA analysts\u2014to deliver higher-quality business value more efficiently. We\nnot only improve code quality but also deploy feature updates to end-users more quickly. This benefits the\n"
+    },
+    {
+      "chunk_id": 4327,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 195,
+      "content": "ill include daily control reports to allow the State to verify the number of records received\nmatches the number of records processed for the work volume each day. The reports will be available to be\nrun on demand at any time in the Parsons web portal and will also be emailed nightly to selected State\nemployees. The control record will include:\n\uf0a7 Tests performed per inspector \uf0a7 Fees waived by inspector/position/station\n\uf0a7 Tests performed per testing position \uf0a7 Fees returned by\n\uf0a7 Tests performed per station inspector/position/station\n\uf0a7 Total number of tests, passes, and failures by \uf0a7 Total test fees by\ninspector/position/station inspector/position/station\n\uf0a7 Dollars collected per each payment category by \uf0a7 Total late fees collected by\ninspector/position/station inspector/position/station\n2.3.1.25.5.B. System Availability (RFP Section 2.3.1.25.5.B.)\nWe designed our system for 99.99% uptime. Our certified AWS solutions architects and certified AWS cloud\nengineers will architect for system resiliency, reliability, with redundancy at every layer of the AWS architecture.\nThis will include automatic failover and load-scaling capability of each component and serverless and managed\nservices, "
+    },
+    {
+      "chunk_id": 4351,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 201,
+      "content": "cessing, and Report Generation in the Event of Loss\nCommunication (RFP Section 2.3.1.25.7.C.)\nOur Data Management Plan will include our approach for data collection, processing, and report generation\nin the event of loss of communications service, computer system breakdown, or electrical power failure. Our\nsystem design will exceed the State\u2019s resiliency and reliability objectives. We will lean on the reliability pillar\nof the AWS Well-Architected Framework, apply industry best practices, and our experience from other\nprograms to ensure our system will continue to operate.\nWe will implement a high availability strategy using a combination of multi-availability zone (availability zone)\ncommunication, service, system, serverless, network, application, storage, and database deployments within\na North Virginia US-EAST-1 region. We will ensure system uptime by having no single point of failure shared\nbetween each zone protecting against incidents such as electrical power failures or computer system\nfailures. Each availability zone will be designed with capability to meet the capacity demands of the entire\nprogram. In case one availability zone suffers a failure, the remaining availabili"
+    },
+    {
+      "chunk_id": 4355,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 202,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nsources such as tape media. The database management tools include the capability of logging and\njournalizing each backup. The use of snapshot technology minimizes impact on the environment when the\nbackup process is invoked.\nIn addition, S3 includes a version-control feature for logging and journalizing data (keeping multiple historic\nversions of a given file), which will be used for data recovery. It allows us to restore previous versions of any\nobject stored in an S3 location. The data stored in S3 will be set to replicate to alternate geographic regions,\nas further insurance against data loss. We will synchronize S3 data on a schedule with lower-tier storage.\nThese technologies replace the traditional tape backup technology and allow us to restore data instantly.\n2.3.1.25.8. Documentation (RFP Section 2.3.1.25.8)\n2.3.1.25.8.A. Documentation Updates (RFP Section 2.3.1.25.8.A.)\nParsons believes in a collaborative and efficient approach to ensure system quality and functionality. Our\ngoal is to provide the the State with a system that meets the nee"
+    },
+    {
+      "chunk_id": 4371,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 205,
+      "content": "years of experience in vehicle emissions Best practices applied from dozens of successfully managed and operated programs will ensure the\nand inspection program management ongoing success of the the Inspection Program. With a collaborative executive oversight approach, Parsons will integrate\nlessons learned and best practices into any of our programs where it is appropriate and State-\napproved, from safety to operational procedures.\nTransition with certainty The transfer of the the Inspection Program from the incumbent contractor will be smooth and seamless based on Parsons\u2019\nextensive experience in transitioning vehicle inspection programs.\nEye toward innovation Modern technology and equipment coupled with a high-availability VID provide the the Inspection Program with a\ncomplete and proven solution.\nSafety, customer convenience, reliability, data reporting, and unsurpassed\nprogram management are cornerstones of programs Parsons manages and\noperates. We are committed to providing excellence in program design and\ninnovation using proven equipment and software solutions, our wealth of\nknowledge, and our depth of resources. Our management of the reinvented\nthe Inspection Program will "
+    },
+    {
+      "chunk_id": 4446,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 225,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\nalternative, compliant and compatible equipment components. We then test these components in a UAT\nEnvironment prior to going live in our Production Environment. Using that data allows us to be proactive and\nhave \"Reliability Centered\" maintenance. We will implement the best practices gained from this methodology\nto the the Inspection Program.\n2.3.2.5.A. QA and Maintenance Plan (RFP Section 2.3.2.5.A)\nThis section details our QA and Maintenance Plan for the State Motor Vehicle agency and MDE review and approval. With approval and\nupon NTP, we\u2019ll begin implementing the QA and Maintenance Plan within the program scope of work and\nadjust the plan as necessary to continually meet the needs of all stakeholders. The QA and Maintenance\nPlan for the Inspection Program operations that we\u2019ll submit will contain the following information:\n\uf0a7 Identification and listing of key reference documents\n\uf0a7 Key contract dates and event schedules\n\uf0a7 Plan implementation\n\uf0a7 Scope of work summary\n2.3.2.5.B. Inaccuracy Identification and Corrective Actions (RFP Section 2.3.2.5.B)\nThe Parsons QA and Maintenance Plan will ensure constant monitoring of data collected"
+    },
+    {
+      "chunk_id": 4447,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 225,
+      "content": "ully in Section 2.3.2.5.C. If a test inaccuracy is discovered, Parsons will take immediate\ncorrective action, at no cost to the State. Any finding of test inaccuracies will be reported to the State Motor Vehicle agency and MDE\nwithin one business day. The corrective action and results will also be reported to the State Motor Vehicle agency and MDE within one\nbusiness day after initiating the corrective action.\nAs part of our QA Plan, Parsons will create inspection lane and mechanic report cards. We implemented this\nconcept in the Ontario program with great success. These report cards compare testing accuracy and repair\neffectiveness for inspection lanes and inspection mechanics against their peer groups, helping identify areas\nof concern. These report cards will help MDOT auditors streamline their review process and determine areas\nof audit focus.\nWe can provide the State Motor Vehicle agency and MDE with report cards in either table or graphic format. MDOT staff can search\nreport cards for any inspection lane or inspection mechanic using any period. Report cards will include an\noverview of the lane and mechanic testing metrics compared to peer group averages that can indicate\npote"
+    },
+    {
+      "chunk_id": 4448,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 225,
+      "content": "s and inspection mechanics that require further attention. Parsons will apply the report card\nmethodology to every aspect of program evaluation, including wait times and the reliability of equipment.\nThis will give the State a clear indicator of the health of the the Inspection Program under Parsons management.\n2.3.2.5.C. Procedures and Schedules for Preventive Maintenance of Testing Equipment (RFP Section\n2.3.2.5.C)\nEffective QA and maintenance plans contain several elements working in harmony to meet or exceed\nperformance goals. Our plan offers four QA elements and maintenance schedules for the Inspection Program inspection\nlocations. The four QA elements include the following:\n1. Periodic software-activated inspection workstation audits and calibrations\n2. Continuous inspection workstation component monitoring\n3. Scheduled lane monitoring\n4. Inspection lane audits\nAll maintenance and repair activities performed by Parsons will be recorded automatically in the VID by the\ntechnician who completed the inspection for easily searched and audited records. Should Parsons\u2019\n211 Tab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan"
+    },
+    {
+      "chunk_id": 4550,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 253,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\nCONCLUSION\nWe have a clear understanding of consumer demand for self-service technology, especially relevant to\nrepeated transactional services, such as emissions tests, registration renewals, tag returns, and other the State Motor Vehicle agency\nservices. We recognize the importance of having these self-service systems operational 24/7/365 without\nsignificant interruptions or downtime. Furthermore, robust solutions are vital to the harsh environment and\nrepeated use of this equipment. We stand ready to replace existing kiosks with \u201csmarter,\u201d more robust\ntechnology, while improving the software and hardware solution to increase overall system reliability.\n2.3.2.10 MAC Operations (RFP Section 2.3.2.10)\nFEATURES OF OUR APPROACH BENEFITS TO MARYLAND\nExtensive experience designing and operating Parsons\u2019 experience operating MACs provides the State a unique advantage and opportunity to\nMACs using innovative methods implement an innovative repair-assistance program.\nProven record for customer service provided to Modernized services and processes for the State MACs will result in more effective repairs and\nmotorists seeking assistance at MAC"
+    },
+    {
+      "chunk_id": 4553,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 253,
+      "content": "ng of consumer demand for self-service technology, especially relevant to |  | \n |  | repeated transactional services, such as emissions tests, registration renewals, tag returns, and other the State Motor Vehicle agency |  | \n |  | services. We recognize the importance of having these self-service systems operational 24/7/365 without |  | \n |  | significant interruptions or downtime. Furthermore, robust solutions are vital to the harsh environment and |  | \n |  | repeated use of this equipment. We stand ready to replace existing kiosks with \u201csmarter,\u201d more robust |  | \n |  | technology, while improving the software and hardware solution to increase overall system reliability. |  | \nFEATURES OF OUR APPROACH | BENEFITS TO MARYLAND\nExtensive experience designing and operating | Parsons\u2019 experience operating MACs provides the State a unique advantage and opportunity to\nMACs using innovative methods | implement an innovative repair-assistance program.\nMAC electronic scheduling systems | Implementation of a functional and proven Parsons-designed system will expedite rollout of an\n | operative MAC system, maximize the use of resources, and mitigate risk."
+    },
+    {
+      "chunk_id": 4760,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 301,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\nWe'll comply with all specified MBE Program requirements and MBE Contract provisions. We meet and often\nexceed in our small business commitments on programs we manage and will do so for the the Inspection Program as\nwell. Our subcontracting plan includes the active recruiting of partners that\nshare our core values and will add expertise, quality, and reliability to the\nprogram. Only if a potential subcontractor successfully meets or exceeds\nboth Parsons and the State\u2019s requirements will we select them to play an\nimportant role in supporting and enhancing our offering to ensure the\nsuccess of the the Inspection Program. Our Project Manager will monitor our subcontractors in\nmeeting and exceeding contractual and Program requirements, and our\nCommitment to MBE\nexpectations. We will also implement our corporate award-winning Mentor-\nPartnerships\nProt\u00e9g\u00e9 Program for MBEs in the the Inspection Program. These programs are\nWe will make an effort to\ndesigned to promote growth and build sustainable relationships with small\nrehire key, local finance staff\nfirms, with the goal of improving their ability to compete for significant work\nthat have l"
+    },
+    {
+      "chunk_id": 4777,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 305,
+      "content": "nduct disaster recovery testing to ensure the system operates as it would from the primary site\nfor every program. We understand the importance of data collected in the the Inspection Program and the need for\nthe State to have continuous access to the data to fulfill Program objectives and reporting requirements. We\nwill ensure the availability of the service to all the Inspection Program users, including State, field inspection, and motorists.\nINNOVATION SPOTLIGHT\n\u25aa Automated deployment pipeline, reducing the time it takes to develop and promote software and database improvements.\n\u25aa Snapshot technology, making backups and restoration a breeze!\n\u25aa Parsons Data Valet, our unique feature to provide ad hoc reporting support and customized dashboard development assistance.\n3.5.1 Redundancy, Data Backup and Disaster Recovery (RFP Section 3.5.1)\nParsons will host the the Inspection Program system in AWS, which provides many\nfeatures that add high availability, security, and performance to the\nprogram. Years of experience architecting comprehensive high-availability\nsolutions allows us to provide a secure system hosted in the AWS cloud\nthat meets or exceeds the RFP availability and reliabi"
+    },
+    {
+      "chunk_id": 4786,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 307,
+      "content": "extensive program experience, we draw from our\nsuccessful experience building and operating fault\ntolerant systems and creating disaster recovery plans.\nParsons\u2019 systems operate within regional data\ncenters for disaster recovery/business continuity and offer the necessary redundancy to ensure a\nminimum of 99.95% VID uptime, with our goal of 100% uptime for the life of the Contract.\nThe fault-tolerant VID architecture described above provides the necessary components for extremely high\nuptime. However, the key aspect underlying a system\u2019s true uptime is the quality and reliability of the\napplications developed by the vendor to run the the Inspection Program. Applications used to perform the vehicle inspection at\nthe stations; web services used to send and receive information from the VID; and portal applications used\nby stations, the State, and Parsons\u2019 staff to manage and operate the program must all be up and running.\nParsons\u2019 Policies, Standard Operation Procedures (SOPs), as well as supporting business continuity\npractices are designed to prepare for and manage possible emergency events. If an emergency affects the\nproject and our personnel, the Business Continuity plan will be "
+    },
+    {
+      "chunk_id": 4795,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 309,
+      "content": "zes in providing professional cybersecurity services. We provide IT services for United States\nmilitary contracts and the federal government, which require the highest level of cyber protection. As a\nresult, our multiple years of experience architecting comprehensive solutions allows us to recommend an\nAWS hosted environment that meets and exceeds the service objectives, standards, and levels for security\nand reliability requirements of the program. The proactive security approach and commitment to following\nestablished security framework recommendations demonstrates our obligation to ensuring that adequate\nsecurity controls are in place to protect Program data and prevent unauthorized access.\nData access is available through applications, and we restrict access to applications by means of a user ID\nand password. Each user is given permission to specific sections of the application based on their\nresponsibilities and job function. Parsons will work with the State to define roles and permissions during the\nstart-up phase and will determine who will be given the super-user role to allow them to assign/approve\nother users\u2019 permissions. We typically designate a primary and a backup sup"
+    }
+  ]
+}

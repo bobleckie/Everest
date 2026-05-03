@@ -1,0 +1,759 @@
+{
+  "theme_id": 16,
+  "theme_label": "Standard Terms & Conditions",
+  "category": "Compliance",
+  "rfp_requirements": [
+    {
+      "id": 7655,
+      "code": "A-001",
+      "title": "Comply with Contract Order of Precedence",
+      "description": "Bidder must accept that in any conflict among Contract documents, the State's terms and conditions prevail over the Contractor's Proposal, and the order of precedence is (1) Combined Standard Terms and Conditions, (2) Agency scope of work, (3) Contractor's Proposal.",
+      "section": "1.0.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7680,
+      "code": "A-026",
+      "title": "Prohibition on Influencing State Officers/Employees",
+      "description": "No vendor shall influence or attempt to influence any State officer or employee or special State officer or employee in his/her official capacity in any manner that might impair the objectivity or independence of judgment.",
+      "section": "2.10.D",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7681,
+      "code": "A-027",
+      "title": "Prohibition on Securing Unwarranted Privileges",
+      "description": "No vendor shall cause or attempt to cause any State officer or employee or special State officer or employee to use official position to secure unwarranted privileges or advantages for the vendor or any other person.",
+      "section": "2.10.E",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7691,
+      "code": "M-008",
+      "title": "General Public Gift/Contract Exception",
+      "description": "The prohibitions in paragraphs 2.10A through 2.10E shall not be construed to prohibit a State officer/employee from receiving gifts from or contracting with vendors under the same terms and conditions as are offered to members of the general public, subject to any State Ethics Commission guidelines ",
+      "section": "2.10.F",
+      "priority": "low",
+      "category": "mandatory"
+    },
+    {
+      "id": 7695,
+      "code": "R-003",
+      "title": "Accept New Jersey choice of law",
+      "description": "Contractor must accept that any contracts/orders resulting from this Proposal are governed and construed under the laws of the State of New Jersey.",
+      "section": "2.14",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7671,
+      "code": "A-017",
+      "title": "Comply with Americans with Disabilities Act",
+      "description": "Contractor must comply with all provisions of the Americans with Disabilities Act (ADA), P.L. 101-336, in accordance with 42 U.S.C. 12101, et seq.",
+      "section": "2.6",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7688,
+      "code": "M-005",
+      "title": "Pay to Play Compliance with Chapter 51 and EO 333",
+      "description": "Contractor must comply with Pay to Play Prohibitions pursuant to P.L.2005, c.51, as amended by the Elections Transparency Act, P.L.2023, c.30 (N.J.S.A. 19:44A-20.13 to 20.25, 'Chapter 51') and Executive Order 333 (2023), which insulate the negotiation and award of State contracts from political cont",
+      "section": "2.8",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7674,
+      "code": "A-020",
+      "title": "Refrain from Prohibited Political Contribution Activities",
+      "description": "Business Entity shall not make or solicit prohibited contributions, conceal or misrepresent contributions, use intermediaries, condition contributions, engage lobbyists for contributions, fund third-party contributions, or otherwise circumvent the Legislation; doing so is a breach of contract.",
+      "section": "2.8.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7919,
+      "code": "A-008",
+      "title": "Comply with debarment/suspension regulations and flow down",
+      "description": "Comply with 2 C.F.R. pt. 180, subpart C and 2 C.F.R. pt. 3000, subpart C, and include a requirement to comply with these regulations in any lower tier covered transaction.",
+      "section": "7.10(2)",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7921,
+      "code": "A-010",
+      "title": "Maintain debarment/suspension compliance throughout contract and include in lower tier transactions",
+      "description": "Comply with 2 C.F.R. pt. 180, subpart C and pt. 3000, subpart C throughout the offer validity and any resulting contract, and include a compliance provision in lower tier covered transactions.",
+      "section": "7.10(4)",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7926,
+      "code": "A-015",
+      "title": "Prohibition on services provided by covered entities",
+      "description": "Do not obtain telecommunications or video surveillance services provided by the covered entities or using such equipment.",
+      "section": "7.12(a)(1)(ii)",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7927,
+      "code": "A-016",
+      "title": "Prohibition on equipment/services from foreign-government-controlled entities",
+      "description": "Do not obtain telecommunications or video surveillance equipment or services produced or provided by an entity that the Secretary of Defense reasonably believes to be owned/controlled by or connected to the government of a covered foreign country.",
+      "section": "7.12(a)(1)(iii)",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7885,
+      "code": "R-020",
+      "title": "Comply with All Other Section 6002 Requirements",
+      "description": "Comply with all other applicable requirements of Section 6002 of the Solid Waste Disposal Act.",
+      "section": "7.3.iii",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7886,
+      "code": "R-021",
+      "title": "Include Equal Opportunity Clause in Federally Assisted Construction Contracts",
+      "description": "All contracts meeting the definition of federally assisted construction contract in 41 CFR Part 60-1.3 must include the equal opportunity clause provided under 41 CFR 60-1.4(b) in accordance with Executive Order 11246.",
+      "section": "7.4",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7897,
+      "code": "R-032",
+      "title": "Applicant Bound by Equal Opportunity Clause for Own Employment Practices",
+      "description": "The applicant agrees it will be bound by the equal opportunity clause with respect to its own employment practices when it participates in federally assisted construction work (excluding non-participating agencies/instrumentalities/subdivisions of State or local government).",
+      "section": "7.4 (Applicant Provisions)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7888,
+      "code": "R-023",
+      "title": "Post Nondiscrimination Notices",
+      "description": "Post in conspicuous places, available to employees and applicants, notices setting forth the provisions of the nondiscrimination clause.",
+      "section": "7.4(1)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7890,
+      "code": "R-025",
+      "title": "No Retaliation for Compensation Inquiries/Disclosures",
+      "description": "Do not discharge or discriminate against any employee or applicant for employment because they inquired about, discussed, or disclosed the compensation of the employee/applicant or another employee/applicant.",
+      "section": "7.4(3)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7892,
+      "code": "R-027",
+      "title": "Comply with Executive Order 11246",
+      "description": "Comply with all provisions of Executive Order 11246 of September 24, 1965, and of the rules, regulations, and relevant orders of the Secretary of Labor.",
+      "section": "7.4(5)",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7900,
+      "code": "R-035",
+      "title": "Comply with Davis-Bacon Act for Construction Contracts over $2,000",
+      "description": "When required by Federal program legislation, all prime construction contracts in excess of $2,000 shall comply with the Davis-Bacon Act (40 U.S.C. 3141-3144, 3146-3148) and requirements of 29 C.F.R. pt. 5.",
+      "section": "7.5",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7903,
+      "code": "R-038",
+      "title": "Comply with Copeland Anti-Kickback Act",
+      "description": "Where applicable, comply with the Copeland Anti-Kickback Act (40 U.S.C. 3145) as supplemented by Department of Labor regulations (29 CFR Part 3), including 18 U.S.C. \u00a7 874 and 29 C.F.R. pt. 3.",
+      "section": "7.6",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7906,
+      "code": "R-041",
+      "title": "Comply with Contract Work Hours and Safety Standards Act",
+      "description": "Where applicable, all contracts in excess of $100,000 involving employment of mechanics or laborers must comply with 40 U.S.C. 3702 and 3704, as supplemented by 29 CFR Part 5.",
+      "section": "7.7",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7912,
+      "code": "A-001",
+      "title": "Comply with Clean Air Act standards",
+      "description": "For contracts exceeding $150,000, comply with all applicable standards, orders or regulations issued pursuant to the Clean Air Act.",
+      "section": "7.9.1.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7915,
+      "code": "A-004",
+      "title": "Comply with Federal Water Pollution Control Act",
+      "description": "Comply with all applicable standards, orders or regulations issued pursuant to the Federal Water Pollution Control Act.",
+      "section": "7.9.2.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7941,
+      "code": "R-002",
+      "title": "Contractor controls defense; State must approve settlement",
+      "description": "Contractor shall have control of the defense and settlement of any claim subject to Section A.1, but the State must approve any settlement, with approval not unreasonably withheld.",
+      "section": "8.2.D.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7966,
+      "code": "R-027",
+      "title": "IT Services professional standards warranty",
+      "description": "Contractor warrants that all Services will be provided in a professional manner consistent with industry standards.",
+      "section": "8.4.3.a",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7971,
+      "code": "R-032",
+      "title": "One-year Hardware operational warranty",
+      "description": "Contractor warrants new machines are guaranteed fully operational for one year from Acceptance; Hardware Acceptance shall occur no later than 60 days after delivery as evidenced by a signed delivery receipt; contractor shall render prompt service without charge regardless of geographic location.",
+      "section": "8.4.4.c",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7973,
+      "code": "R-034",
+      "title": "Trained mechanics respond within 48 hours",
+      "description": "Contractor warrants that trained mechanics are regularly employed to make necessary repairs in the territory within a 48-hour period or within the time accepted as industry practice.",
+      "section": "8.4.4.e",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7983,
+      "code": "R-044",
+      "title": "State ownership of State Data",
+      "description": "The State will own all right, title and interest in its State Data related to the services provided by this contract.",
+      "section": "9.1.1",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7992,
+      "code": "R-053",
+      "title": "No retention or copying of State data by Contractor",
+      "description": "At no time shall any data or processes belonging to or intended for the use of the State or its officers, agents, or employees be copied, disclosed, or retained by the Contractor or any related party for subsequent use in any capacity not including the State.",
+      "section": "9.1.2.e",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 8006,
+      "code": "R-011",
+      "title": "No intentional erasure during suspension",
+      "description": "During any period of suspension, Contractor must not take any action to intentionally erase any State Data.",
+      "section": "9.1.5.b",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8010,
+      "code": "R-015",
+      "title": "Delete all State Data after retention period",
+      "description": "After the retention period, Contractor must, unless legally prohibited, delete all State Data in its systems or possession in accordance with the Secure Data Disposal provisions.",
+      "section": "9.1.5.c",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8007,
+      "code": "R-012",
+      "title": "Retain data 10 business days after term expiration",
+      "description": "Contractor must not intentionally erase State Data for 10 business days after the effective date of termination if termination is in accordance with expiration of defined contract term.",
+      "section": "9.1.5.c.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8008,
+      "code": "R-013",
+      "title": "Retain data 30 business days after termination for convenience",
+      "description": "Contractor must not intentionally erase State Data for 30 business days after the effective date of termination if termination is for convenience.",
+      "section": "9.1.5.c.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8009,
+      "code": "R-014",
+      "title": "Retain data 60 business days after termination for cause",
+      "description": "Contractor must not intentionally erase State Data for 60 business days after the effective date of termination if termination is for cause.",
+      "section": "9.1.5.c.3",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8011,
+      "code": "R-016",
+      "title": "Provide post-termination assistance",
+      "description": "The State shall be entitled to any post-termination assistance with respect to the services unless a unique data retrieval arrangement has been established as part of the contract.",
+      "section": "9.1.5.d",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8013,
+      "code": "R-018",
+      "title": "Provide certificates of destruction",
+      "description": "Contractor must provide certificates of destruction to the State.",
+      "section": "9.1.5.e",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8032,
+      "code": "R-037",
+      "title": "State notification and Contractor control of defense",
+      "description": "The State will promptly notify Contractor in writing of the claim or suit and give Contractor control of the defense and settlement of any claim subject to Section A.1; however, the State must approve any settlement (approval not unreasonably withheld), and the State may observe proceedings and conf",
+      "section": "9.2.4.1.D",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8134,
+      "code": "A-035",
+      "title": "Labor relations manager must meet/confer with Union delegate before suspension/termination",
+      "description": "When Employer determines suspension or termination is warranted, the labor relations manager must meet or confer with the Union delegate to attempt to resolve the proposed discipline.",
+      "section": "Article IV.8",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 8145,
+      "code": "A-046",
+      "title": "Seniority lost upon voluntary termination",
+      "description": "An Employee's seniority shall be lost when he/she terminates voluntarily, except as set forth in Section 2(a).",
+      "section": "Article VI.3",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8168,
+      "code": "A-003",
+      "title": "Apply bargaining unit seniority for benefit eligibility",
+      "description": "Bargaining unit seniority must be used in computing and determining eligibility for all benefits where length of service is a factor.",
+      "section": "Article VI.4(a)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8447,
+      "code": "A-040",
+      "title": "Provide up to 3 paid investigation days for Union reps",
+      "description": "Upon approval of Manager of Labor Relations (not unreasonably withheld), Union representatives shall be given up to 3 work days of paid time to investigate disciplinary charges that may result in suspension or termination.",
+      "section": "Article XXXIV.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8048,
+      "code": "A-003",
+      "title": "Post nondiscrimination notices in conspicuous places",
+      "description": "Contractor must post notices provided by the Public Agency Compliance Officer setting forth the nondiscrimination clause in conspicuous places available to employees and applicants.",
+      "section": "Exhibit A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8060,
+      "code": "B-003",
+      "title": "Post nondiscrimination notices (construction)",
+      "description": "Contractor must post notices from the Public Agency Compliance Officer setting forth the nondiscrimination clause in conspicuous places.",
+      "section": "Exhibit B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8072,
+      "code": "B-013",
+      "title": "Notify listed minority and women workers of vacancies",
+      "description": "Contractor must notify any minority and women workers who have been listed with it as awaiting available vacancies.",
+      "section": "Exhibit B (B)(2)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8079,
+      "code": "B-019",
+      "title": "Maintain waiting list of interested women and minority individuals",
+      "description": "Contractor must maintain a waiting list of interested women or minority individuals and consider them for employment whenever vacancies occur.",
+      "section": "Exhibit B (B)(6)(iii)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8098,
+      "code": "C-009",
+      "title": "EO 151 language is supplemental to Exhibit B good faith requirements",
+      "description": "The Executive Order 151 language is in addition to and does not replace good faith efforts requirements for construction contracts required by N.J.A.C. 17:27-3.6, 3.7 and 3.8 (Exhibit B). Contractor must comply with both.",
+      "section": "Exhibit C",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8092,
+      "code": "C-003",
+      "title": "Recruit through State Job Bank website",
+      "description": "Contractor must recruit prospective employees through the State Job bank website managed by the Department of Labor and Workforce Development, available at https://newjersey.usnlx.com/.",
+      "section": "Exhibit C.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8093,
+      "code": "C-004",
+      "title": "Keep records of recruitment efforts and minority/women hires",
+      "description": "Contractor must keep specific records of its efforts, including records of all individuals interviewed and hired, including the specific numbers of minorities and women.",
+      "section": "Exhibit C.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8094,
+      "code": "C-005",
+      "title": "Actively solicit and provide proof of employment solicitations",
+      "description": "Contractor must actively solicit and provide the Division of Purchase and Property with proof of solicitations for employment, including advertisements in general circulation media, professional service publications, and electronic media.",
+      "section": "Exhibit C.3",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8096,
+      "code": "C-007",
+      "title": "Comply with N.J.A.C. 17:27",
+      "description": "Contractor must comply with the requirements set forth at N.J.A.C. 17:27.",
+      "section": "Exhibit C.5",
+      "priority": "high",
+      "category": "mandatory"
+    }
+  ],
+  "parsons_evidence": [
+    {
+      "chunk_id": 2058,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 27,
+      "content": "rotections, and the full systems\nExhibit and Table I-6-1 on pages 19 and 20 show an overview of\nredundancies required by the PA I/M Program.\nour proposed PA I/M Program AWS Architecture. AWS has been\nfully assessed for Parsons by a third-party auditor and resulted in a certified attestation of compliance for SOC 1,2,3, PCI,\nand ISO 9001 / 27001 / 27017 / 27018. We understand that any agreement with PennDOT to proceed with this\nmigration will be completed in accordance with all ITP requirements of the RFP and present no risk of interruption to\nPennDOT. This effort is another innovative recommendation to PennDOT for driving continuous improvements that will\nbenefit the Commonwealth.\nParsons understands that all data belongs to the Commonwealth and will comply with terms identified for contract end,\nearly termination, or termination cause. We will purchase and supply all hardware and software products and support\nand maintenance services for all equipment supplied by PennDOT.\nWe use Iron Mountain as our escrow agent in all our current programs and will execute an escrow agreement naming\nPennDOT as the beneficiary of the account, which authorizes release of the deposit under the specif"
+    },
+    {
+      "chunk_id": 2062,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 29,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nTABLE I-6-1: AWS ARCHITECTURE LEGEND\n1 Inspection Test Units will access VIID system resources via secure web services.\nState personnel will access VIID system resources (portals, reporting, ad-hoc query, etc.) via secure protocols through the\n2\npublic internet.\n3 Parsons\u2019 operations team will manage the System via encrypted channels.\nRoute 53 provides Domain Name Service resolution. This highly available service provides internal and external name\n4\nresolution service.\nAWS Web Application Firewall is enabled on CloudFront distributions and ALB and protects our applications against\n5 common web attack patterns such as SQL injection and cross-site scripting. AWS Shield Firewall protects against distributed\ndenial of service (DDoS) attacks.\nCloudFront provides edge content caching services and SSL encryption termination. SSL Security policy will only permit the\n6\nuse of secure TLS cypher version for data encryption in transit.\n7 Load Balancer distributes traffic across application endpoints in two active availability zones.\nVPC provides network segmentation and data separation measures wi"
+    },
+    {
+      "chunk_id": 2106,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 37,
+      "content": "the PennDOT Vehicle Inspection System via the VIID. We conduct these activities in\naccordance with PennDOT procedures and regulations and perform I/M station site visits when necessary. All required\nreports regarding oversight activities to PennDOT will be submitted throughout the term of the contract.\nWe will supply necessary report forms used in conducting and documenting all oversight functions for use by PennDOT\nand Parsons. We acknowledge that PennDOT may adjust the scope and frequency of oversight activities depending on\nthe number of stations or a determination of their effectiveness. We understand that, at PennDOT\u2019s discretion, any\nreduced or increased cost will be offset by a corresponding increase or reduction in other oversight activities.\nTechnical Submittal 28"
+    },
+    {
+      "chunk_id": 2268,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 70,
+      "content": "nted copy will be left with the station. Auditors will\nelectronically transmit the audit to the audit manager and Compliance Officer via upload to the VIID, allowing faster\nreview of found violations. The audit manager will review all audits for accuracy and flag them per PennDOT\u2019s\nguidelines for further review. The Compliance Officer will review reports containing violations to verify report quality\nprior to transmitting them to PennDOT.\nWe will provide for additional visits of 10% of the total number of safety and enhanced safety inspection stations in the\n25 I/M counties if it is deemed necessary by PennDOT for oversight and compliance purposes. We will process\napplications for station appointments, changes to existing stations, cancellations, suspensions, and perform\ninvestigations as needed. We will collect, process, and analyze data related to the vehicle safety inspection program.\nParsons understands that the number of oversight activities may be adjusted depending on the number of safety\ninspection stations, or on a PennDOT determination of their effectiveness.\nJ.3 - Covert Oversight Activities\nParsons will develop a plan for PennDOT\u2019s approval to conduct covert activities "
+    },
+    {
+      "chunk_id": 2278,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 72,
+      "content": "ronic form ensures legibility and provides electronic storage, search, and reproduction capabilities as well as\nintegration into the VIID\u2019s hearing tracking system.\nGuidelines for Oversight Functions\nIf violations are discovered during a safety/enhanced safety audit or investigation, the auditor will immediately\ndocument them according to PennDOT\u2019s direction, using our electronic audit application. The auditor will review\nviolations with the station representative signing the electronic form and inform them that the report will be forwarded\nto PennDOT for review and possible action. The auditor will record on the audit form the violations that were discussed.\nWhen directed by PennDOT, the auditor will provide a copy of the completed audit report to the station representative.\nThe appropriate regional audit managers will review the safety/enhanced safety audit reports for completeness and\naccuracy. We will sort the audit reports according to PennDOT\u2019s instructions and forward them electronically to\nPennDOT for review and determination whether an administrative hearing will be conducted.\nThe Hearing Process\nWe developed the current hearing process and hearing types in collaboration w"
+    },
+    {
+      "chunk_id": 2304,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 77,
+      "content": "The redundancy provided by our\ndatabase architecture and our backup strategies ensures zero data loss. If requested, we will provide PennDOT with a\ncomplete backup of all data and application files.\nParsons will maintain operating hours compatible with and approved by PennDOT. We will maintain all vehicle data and\ninspection information from prior safety inspections, safety inspection sticker information, safety inspection station and\ninspector information, and specified safety inspection Program administrative files. Parsons will maintain this\ninformation online for the entirety of the contract. The information will also be retrievable until 180 days after\ntermination of the contract. With each succeeding safety inspection, the database will be updated with current\ninformation regarding the vehicle tested.\nTechnical Submittal 68"
+    },
+    {
+      "chunk_id": 2305,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 77,
+      "content": "ble until 180 days after\ntermination of the contract. With each succeeding safety inspection, the database will be updated with current\ninformation regarding the vehicle tested.\nTechnical Submittal 68"
+    },
+    {
+      "chunk_id": 2379,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 96,
+      "content": "outer. The Vermont program is one of the TEAM MEMBERS DIRECTLY INVOLVED IN\nPROGRAM AND ROLES\nfirst programs to use a tablet device for safety and emissions inspections.\nMike Butler, Executive Manager\nEMISSIONS AND SAFETY INSPECTION PROTOCOLS: Parsons\ndeveloped and implemented all emissions and safety inspection protocols\nDarryl McCarthy, System Development\nfor the new automated program, based on United States Environmental\nManager\nProtection Agency standards and on federal and State safety regulations.\nWe also implemented a specific-vehicle recall program whereby information Bonnie McPherson, Project Manager\ncollected during safety inspections identifies open recall items specific to a\nvehicle identification number and informs the motorist at the station level. Nash Budhwani, DBA Manager\nThis has resulted in an increase in recalls completed by motorists.\nJakub Kowalczyk, Network\nPUBLIC INFORMATION AND EDUCATION: Parsons developed and\nInfrastructure Manager\noperates a public website for the program. The website includes program\nMehrshad Azad, Infrastructure and\ninformation, Vermont\u2019s vehicle warranty program information, vehicle recall\nSupport\ndata, and useful tools such as a Vehicl"
+    },
+    {
+      "chunk_id": 2667,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 164,
+      "content": "(c) Iron Mountain will provide notice to the Beneficiary of all Deposit Material that is accepted and deposited into the escrow\naccount under this Agreement. Either Depositor or Beneficiary may obtain information regarding deposits or deposit\nupdates upon request or through the Iron Mountain Website.\n(d) Iron Mountain will follow the provisions of Exhibit C attached to this Agreement in administering the release of Deposit\nMaterial.\n(e) Iron Mountain will hold and protect Deposit Material in physical or electronic vaults that are either owned or under the\ncontrol of Iron Mountain, unless otherwise agreed to by the Parties.\n(f) Upon receipt of written instructions by both Depositor and Beneficiary, Iron Mountain will permit the replacement or\nremoval of previously submitted Deposit Material. The Party making such request shall be responsible for getting the\nother Party to approve the joint instructions. Any Deposit Material that is removed from the deposit account will be\neither returned to Depositor or destroyed in accordance with Depositor\u2019s written instructions.\n(g) Should transport of Deposit Material be necessary for Iron Mountain to perform Services requested by Depositor or\nB"
+    },
+    {
+      "chunk_id": 2668,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 164,
+      "content": "owing the termination of this Agreement, Iron Mountain will use a commercially\nrecognized overnight carrier such as Federal Express or United Parcel Service. Iron Mountain will not be responsible for\nany loss or destruction of, or damage to, such Deposit Material while in the custody of the common carrier.\n5. Deposit Material Verification\n(a) Beneficiary may submit a verification Work Request to Iron Mountain for one or more of the Services defined in Exhibit A\nattached to this Agreement and Depositor consents to Iron Mountain\u2019s performance of any level(s) of such Services. Upon\nrequest by Iron Mountain and in support of Beneficiary\u2019s request for verification Services, Depositor shall promptly\ncomplete and return an escrow deposit questionnaire and reasonably cooperate with Iron Mountain by providing\nreasonable access to its technical personnel whenever reasonably necessary.\n(b) The Parties consent to Iron Mountain\u2019s use of a subcontractor to perform verification Services. Such subcontractor shall\nbe bound by the same confidentiality obligations as Iron Mountain and shall not be a direct competitor to either\nDepositor or Beneficiary. Iron Mountain shall be responsible for the deliv"
+    },
+    {
+      "chunk_id": 2671,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 164,
+      "content": "ices purchased under this Agreement or shall\npresent to Iron Mountain an exemption certificate acceptable to the taxing authorities. Applicable taxes shall be billed as a\nseparate item on the invoice. Any Service Fees not collected by Iron Mountain when due shall bear interest until paid at a rate\nof one percent (1%) per month (12% per annum) or the maximum rate permitted by law, whichever is less. Notwithstanding\nthe non-performance of any obligations of Depositor to deliver Deposit Material under the License Agreement or this\nAgreement, Iron Mountain is entitled to be paid all Service Fees that accrue during the Term of this Agreement.\n7. Term and Termination\n(a) The term of this Agreement is for a period of one (1) year from the Effective Date (\u201cInitial Term\u201d) and will automatically\nrenew for additional one (1) year terms (\u201cRenewal Term\u201d) (collectively the \u201cTerm\u201d). This Agreement shall continue in full\nforce and effect until one of the following events occur: (i) Depositor and Beneficiary provide Iron Mountain with sixty\n(60)days\u2019 prior written joint notice of their intent to terminate this Agreement; (ii) Beneficiary provides Iron Mountain\nand Depositor with sixty (60) days\u2019 pr"
+    },
+    {
+      "chunk_id": 2673,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 165,
+      "content": "terminates under another provision of this Agreement; or (iv) any time after the Initial Term, Iron Mountain provides sixty\n(60)days\u2019 prior written notice to the Depositor and Beneficiary of Iron Mountain\u2019s intent to terminate this Agreement.\nThe Effective Date and the Deposit Account Number shall be supplied by Iron Mountain only. The Effective Date supplied\nby Iron Mountain and specified above shall be the date Iron Mountain sets up the escrow account.\n(b) Unless the express terms of this Agreement provide otherwise, upon termination of this Agreement, Iron Mountain shall\nreturn physical Deposit Material to the Depositor and erase electronically submitted Deposit Material. If reasonable\nattempts to return the physical Deposit Material to Depositor are unsuccessful, Iron Mountain shall destroy the Deposit\nMaterial.\n(c) In the event of the nonpayment of undisputed Service Fees owed to Iron Mountain, Iron Mountain shall provide all\nParties to this Agreement with written notice of Iron Mountain\u2019s intent to terminate this Agreement. Any Party to this\nAgreement shall have the right to make the payment to Iron Mountain to cure the default. If the past due payment is not\nreceived in full"
+    },
+    {
+      "chunk_id": 2674,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 165,
+      "content": "thirty (30) calendar days of the date of such written notice, then Iron Mountain\nshall have the right to terminate this Agreement at any time thereafter by sending written notice to all Parties. Iron\nMountain shall have no obligation to perform the Services under this Agreement (except those obligations that survive\ntermination of this Agreement, which includes the confidentiality obligations in Section 10) so long as any undisputed\nService Fees due Iron Mountain under this Agreement remain unpaid.\n8. Infringement Indemnification\nAnything in this Agreement to the contrary notwithstanding, Depositor at its own expense shall defend, indemnify and hold\nIron Mountain fully harmless against any claim or action asserted against Iron Mountain (specifically including costs and\nreasonable attorneys\u2019 fees associated with any such claim or action) to the extent such claim or action is based on an assertion\nthat Iron Mountain\u2019s administration of this Agreement infringes any patent, copyright, license or other proprietary right of any\nthird party. When Iron Mountain has notice of a claim or action, it shall promptly notify Depositor in writing. Depositor may\nelect to control the defense of such"
+    },
+    {
+      "chunk_id": 2675,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 165,
+      "content": "efense shall include any admission or implication of wrongdoing on the part of Iron Mountain without Iron Mountain\u2019s prior\nwritten consent, which consent shall not be unreasonably delayed or withheld. Iron Mountain shall have the right to employ\nseparate counsel and participate in the defense of any claim at its own expense.\n9. Warranties\nIRON MOUNTAIN WARRANTS ANY AND ALL SERVICES PROVIDED HEREUNDER SHALL BE PERFORMED IN A COMMERCIALLY\nREASONABLE MANNER CONSISTENT WITH INDUSTRY STANDARDS. EXCEPT AS SPECIFIED IN THIS SECTION, ALL CONDITIONS,\nREPRESENTATIONS, AND WARRANTIES INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OR CONDITIONS OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, SATISFACTORY QUALITY, OR ARISING FROM A COURSE OF\nDEALING, USAGE, OR TRADE PRACTICE, ARE HEREBY EXCLUDED TO THE EXTENT ALLOWED BY APPLICABLE LAW. AN\nAGGRIEVED PARTY MUST NOTIFY IRON MOUNTAIN PROMPTLY UPON LEARNING OF ANY CLAIMED BREACH OF ANY\nWARRANTY AND, TO THE EXTENT ALLOWED BY APPLICABLE LAW, SUCH PARTY\u2019S REMEDY FOR BREACH OF THIS WARRANTY\nSHALL BE SUBJECT TO THE LIMITATION OF LIABILITY AND CONSEQUENTIAL DAMAGES WAIVER IN THIS AGREEMENT. THIS\nDISCLAIMER AND EXCLUSION SHALL APPLY EVEN IF TH"
+    },
+    {
+      "chunk_id": 2677,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 165,
+      "content": "der or subpoena; provided, however, that Iron Mountain does not waive its rights to\npresent its position with respect to any such order or subpoena. Iron Mountain will cooperate with the Depositor or\nBeneficiary, as applicable, to support efforts to quash or limit any order or subpoena, at such Party\u2019s expense.\n11. Limitation of Liability\nEXCEPT FOR: (I) LIABILITY FOR DEATH OR BODILY INJURY; (II) PROVEN GROSS NEGLIGENCE OR WILLFUL MISCONDUCT; OR (III)\nTHE INFRINGEMENT INDEMNIFICATION OBLIGATIONS OF SECTION 8, ALL OTHER LIABILITY RELATED TO THIS AGREEMENT, IF\nANY, WHETHER ARISING IN CONTRACT, TORT (INCLUDING NEGLIGENCE) OR OTHERWISE, OF ANY PARTY TO THIS AGREEMENT\nSHALL BE LIMITED TO $100,000 (USD).\nAttachment E-4"
+    },
+    {
+      "chunk_id": 2687,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 167,
+      "content": "U.S. Departments of State, Commerce and Treasury; (ii) it is and shall remain\ncompliant with all laws and regulations applicable to its performance under this Agreement, including, but not limited to\nITAR, any export control and economic sanctions or government regulations of any country from or to which the Deposit\nMaterial may be delivered in accordance with the provisions of this Agreement; and (iii) it will not take any action that will\ncause Iron Mountain to be in violation of such laws and regulations, and will not require Iron Mountain to directly or\nindirectly take any action that might cause it to be in violation of such laws and regulations. Depositor will not provide\nIron Mountain with Deposit Material that is subject to export controls and controlled at a level other than EAR99/AT.\nWith respect to Deposit Material containing personal information and data, Depositor agrees to (i) procure all necessary\nconsents in relation to personal information and data; and (ii) otherwise comply with all applicable privacy and data\nprotection laws as they relate to the subject matter of this Agreement. Iron Mountain is responsible for and warrants, to\nthe extent of their individual act"
+    },
+    {
+      "chunk_id": 2688,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 167,
+      "content": "s, compliance with all applicable laws, rules and regulations to the extent\nthat it is directly regulated by the law, rule or regulation and to the extent that it knows or has been advised that, as a\nresult of this Agreement, its activities are subject to the law, rule or regulation.\n(q) No Third Party Rights. This Agreement is made solely for the benefit of the Parties to this Agreement and their respective\npermitted successors and assigns, and no other person or entity shall have or acquire any right by virtue of this\nAgreement unless otherwise agreed to by all of the Parties.\n(r) Entire Agreement. The Parties agree that this Agreement, which includes all attached Exhibits and all valid Work Requests\nand SOWs submitted by the Parties, is the complete agreement between the Parties concerning the subject matter of this\nAgreement and replaces any prior or contemporaneous oral or written communications between the Parties. There are\nno conditions, understandings, agreements, representations, or warranties, expressed or implied, which are not specified\nin this Agreement. Each of the Parties warrant that the execution, delivery, and performance of this Agreement has been\nduly authorize"
+    },
+    {
+      "chunk_id": 2689,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 167,
+      "content": "tutory or other binding approval to sign on behalf of its\norganization as named in this Agreement. This Agreement may be modified only by mutual written agreement of all the\nParties.\n(s) Counterparts. This Agreement may be executed electronically in accordance with applicable law or in any number of\ncounterparts, each of which shall be an original, but all of which together shall constitute one instrument.\n(t) Survival. Sections 7 (Term and Termination), 8 (Infringement Indemnification), 9 (Warranties), 10 (Confidential\nInformation), 11 (Limitation of Liability), 12 (Consequential Damages Waiver), and 13 (General) of this Agreement shall\nsurvive termination of this Agreement or any Exhibit attached to this Agreement.\n(BALANCE OF THIS PAGE LEFT INTENTIONALLY BLANK \u2013 SIGNATURE PAGE FOLLOWS)\nAttachment E-6"
+    },
+    {
+      "chunk_id": 2690,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 167,
+      "content": "eneral) of this Agreement shall\nsurvive termination of this Agreement or any Exhibit attached to this Agreement.\n(BALANCE OF THIS PAGE LEFT INTENTIONALLY BLANK \u2013 SIGNATURE PAGE FOLLOWS)\nAttachment E-6"
+    },
+    {
+      "chunk_id": 2698,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 170,
+      "content": "of the Level 1 - Inventory and Analysis\nDeposit Test, plus recreating the Depositor\u2019s software development environment, compiling source files and modules, linking libraries and recreating executable\nCompile Test code, providing a pass/fail determination, and creation of comprehensive compilation documentation with a final report sent to the Paying Party regarding\nthe Deposit Material. The requesting Party and Iron Mountain will agree on a custom SOW prior to the start of fulfillment. A completed escrow deposit\nquestionnaire is required for execution of this test.\nLevel 3 Iron Mountain will fulfill a Statement of Work (SOW) to perform one Binary Comparison Test - Binary Comparison, which includes the outputs of the Level 2\nBinary test, a comparison of the executable files built from the Deposit Compile Test to the actual executable files in use by the Beneficiary to ensure a full binary-\nComparison level match, with a final report sent to the Requesting Party regarding the Deposit Material. The Paying Party and Iron Mountain will agree on a custom\nTest SOW prior to the start of fulfillment. A completed escrow deposit questionnaire is required for execution of this test.\nLevel 4 Iro"
+    },
+    {
+      "chunk_id": 3581,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 5,
+      "content": "ehicle Emissions Inspection Stations (RFP\nSection 2.3.1.7.1) ....................................................................................................................................... 57\n2.3.1.7.2 Cessation of the Contract (RFP Section 2.3.1.7.2) .................................................................. 59\n2.3.1.7.3 the Inspection Program Centralized Station Maintenance Plan (RFP Section 2.3.1.7.3) .................................... 59\n2.3.1.7.4 Building/Pavement Assessment (RFP Section 2.3.1.7.4) ....................................................... 60\n2.3.1.7.5 Building Maintenance Work (RFP Section 2.3.7.5) ................................................................. 60\n2.3.1.7.6 Maintaining All the Inspection Program Facilities (RFP Section 2.3.1.7.6) ........................................................... 60\n2.3.1.7.7 Permits (RFP Section 2.3.1.7.7) ............................................................................................... 61\n2.3.1.7.8 Upon Contract Termination (RFP Section 2.3.1.7.8) ............................................................... 61\n2.3.1.7.9 Construction of Additional Lanes at Existing Facilities (RFP S"
+    },
+    {
+      "chunk_id": 3598,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 8,
+      "content": "..................................................... 273\n3.1 Contract Initiation Requirements (RFP Section 3.1) ............................................................................ 274\n3.1.A. Kickoff Meeting (RFP Section 3.1.A) ............................................................................................. 274\n3.1.B. Contractor Responsibilities (RFP Section 3.1.B) ......................................................................... 275\n3.1.C. Contractors as Subsidiary (RFP Section 3.1.C) ............................................................................ 276\n3.1.D. Parental Guarantee (RFP Section 3.1.D) ..................................................................................... 276\n3.2 End of Contract Transition (RFP Section 3.2) ....................................................................................... 277\n3.2.1 Prompt and Timely Transition (RFP Section 3.2.1) ....................................................................... 278\n3.2.2 Transfer of Knowledge and Materials (RFP Section 3.2.2) .......................................................... 279\n3.2.3 Contract Termination Transition Plan (RFP Section 3.2.3) .."
+    },
+    {
+      "chunk_id": 3771,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 65,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\n2.3.1.2.F Acquisition and Operation of Hardware, Software, and Network Support (RFP Section\n2.3.1.2.F)\nAs noted in Section 2.3.1.2.B, Parsons will acquire and operate all hardware, software, and network support\nfor the provided services. All software, hardware, and network support will remain current through the term\nof the contract.\n2.3.1.2.G Manufacturer/Provider Warranties (RFP Section 2.3.1.2.G)\nTo ensure defective items are replaced at no additional cost to the state, Parsons will provide a warranty for\nall items upon expiration of the manufacturer\u2019s warranty for the remainder of the contract. This warranty will\nbegin when the Administration accepts the products and services.\nStandard Manufacturer Warranty Term\nWarranted Item Warranty Term\n\u25aa Workstation PC 1 Year\n\u25aa Parsons OneOBD 1 Year\n\u25aa Idle test analyzer Parts 1 Year / Optical Bench 18 months\n\u25aa Fuel Cap Test System 1 Year\n\u25aa ALPR Camera 3 Years\n2.3.1.3 Required Project Policies, Guidelines, and Methodologies (RFP Section 2.3.1.3)\nParsons has reviewed the applicable links and standards provid"
+    },
+    {
+      "chunk_id": 3817,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 75,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\n2.3.1.7.7 Permits (RFP Section 2.3.1.7.7)\nWe work with local city, state, and municipal officials and with local zoning offices to secure applicable State\nand local permits required to maintain and upgrade the the Inspection Program facilities and equipment.\n2.3.1.7.8 Upon Contract Termination (RFP Section 2.3.1.7.8)\nAs the responsible operator and manager of the New Jersey program\u2019s network of 25 inspection facilities\nand three State inspection facilities, we understand and respect the need to maintain the facilities. We\u2019ll\nensure the the Inspection Program stations are regularly cleaned, maintained, and kept up in a manner consistent\nwith the standards the State has set forth in this RFP.\nWe will leave all the facilities in the same, if not better, condition than when we receive them at the start of\nthe contract. If the State disputes the condition of the facility as more than reasonable wear and tear,\nParsons acknowledges that we bear the responsibility to demonstrate the basis of its valuation of the\nproperty and the accuracy or its estimation "
+    },
+    {
+      "chunk_id": 3833,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 78,
+      "content": "ct plan.\n\uf0a7 Hardware - For hardware-based changes, whether it is a replacement, addition, or upgrade: The\ndetails will include the equipment type and quantity, manufacturer, model, serial number range\n(updated after procurement), sell sheets, particulars on the hardware\u2019s necessity, warranty, and\nmaintenance contract if present. All equipment will be the latest version and model and will be\nunused when installed.\n\uf0a7 Project Plan\n\uf0a7 QA Procedure\n\uf0a7 Rollout Procedure\n\uf0a7 Proposed Timelines\n64 Tab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan"
+    },
+    {
+      "chunk_id": 3889,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 91,
+      "content": "te\ncertification date will be determined. The\nState certification process will include the\nstudent demonstrating the ability to conduct five complete inspections, including an OBD test or an idle/gas\ncap test, and an explanation to the motorist about vehicle readiness, and Malfunction Indicator Lamp (MIL)-\nOn situations. In addition to the proper use of the test equipment, the student will demonstrate proficiency in\nall the Inspection Program procedures, including fee collection, vehicle identification and classification, data handling system\nuse, and test eligibility determination. The student will also demonstrate an understanding of positive public\nrelations and customer service skills. Inability to perform all hands-on procedures will result in a failure of\nthe training course. Only once fully certified by the State will the inspector be allowed to work in an\ninspection lane without supervision.\nWe\u2019ve discussed the qualification of our training instructors in the Key Personnel qualification portions in\nSections 3.10 of this proposal. The Lane Inspector training instructors will report to the Training Manager\nand will lead the instruction and supervise the apprenticeship. Additi"
+    },
+    {
+      "chunk_id": 4108,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 142,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\n2.3.1.19.6 End of Contract (RFP Section 2.3.1.19.6)\nNo later than one year before the contract conclusion, we will meet with the State to finalize the Contract\nTermination Transition Plan. We understand the Plan will be invoked with the State\u2019s approval, with\nsufficient time before the end of the contract to ensure a professional and seamless transition. Section 3.2\ncontains further details of the end-of-contract transition.\nCONCLUSION\nOur commitment to open communication includes regularly scheduled meetings and thorough and timely\ndocumentation of project deliverables and status. We\u2019ll maintain and provide required reporting for the project\nwork plan, status reports, and other program information. Using our experience developing and managing\nreporting systems, we\u2019ll provide State staff with efficiencies and effective methods for analyzing program\ninformation. Understanding the importance and value of streamlined invoicing and well-structured, compliant,\nand comprehensive reporting, we\u2019ll use our proven collaborative approach to achieve the the In"
+    },
+    {
+      "chunk_id": 4114,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 143,
+      "content": "employees do not sell any services. We will also restrict the MAC Assistants\u2014our enhancement\nto the CSR role\u2014and MAC Technicians from recommending specific vehicle repair locations. The VEIC printed\nat the station will contain recommended service centers based solely upon proximity to the the Inspection Program station or\nthe customer\u2019s preferred location. We\u2019ll ensure no staff member endorses a particular repair center.\nAny the Inspection Program materials developed or approved by the State for distribution through the the Inspection Program network will be\navailable to customers at the Inspection Program facilities. We believe this is a novel, cost-effective way to disseminate critical\ninformation about the program and other State service offerings and will be happy to support the State in\nany marketing or public information initiative. We\u2019ll gladly support the State in promoting State programs or\nactivities that do not interfere with the operation of the the Inspection Program.\n2.3.1.23 Continuity of Services (RFP Section 2.3.1.23)\nWe acknowledge that the uninterrupted continuation of services upon contract expiration or\ntermination is an important factor in the success of the S"
+    },
+    {
+      "chunk_id": 4115,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 143,
+      "content": "for its lifetime,\nrather than just the contract term. We invest in the program\u2019s future as we implement\nsolutions, resources, and modernization efforts to benefit the State and the motorists we\nserve. In doing so, we aim to maintain the ongoing nature of the program beyond our participation and retain\ncustomer and stakeholder trust. To ensure a professional and seamless transition, we\u2019ll work closely with\nthe State to invoke the Contract Termination Transition requirements detailed in Section 3.2 of this proposal\nand fulfill the State-approved Contract Termination Transition Plan.\nWe have demonstrated experience in ensuring the continuity of services when it comes to transitioning a\nprogram to another contractor. We understand the risks involved with transitions and look to mitigate them\nby working with both the State and an incoming contractor. We believe a cooperative approach is the best\nsolution for our clients, so we will always fully support transition activities.\nAt Parsons, we value the trust placed in us by the State and the motoring public to operate and manage a\nfunctioning vehicle inspection program. We are deeply committed to doing so through the end of our\ncontract. W"
+    },
+    {
+      "chunk_id": 4169,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 156,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nEach availability zone, engineered to be isolated from failures in other\navailability zones, provides fault tolerance and low-latency network\nOur team has evaluated each\nconnectivity to other availability zones in the same region. We\u2019ve\nfunctional requirement and\nevaluated the data center locations for multiple risks, including\nselected the appropriate\ndecades of flood and other environmental factors. We will take full\ncomponent to create an\nadvantage of the AWS North Virginia Region\u2019s redundancy and create\narchitecture that exceeds the\nan architecture spanning two availability zones. This will translate to\nState\u2019s service objectives\nmaximum resilience and responsiveness to keep the program\nand standards and is\navailable to end-users.\ncompliant with the State IT organization policies,\nWe\u2019ll use a combination of Infrastructure as a Service (IaaS), Platform standards, and guidelines\nas a Service (PaaS), and Software as a Service (SaaS) components to and applicable laws.\ncreate a resilient, secure environment with the ability to dynamically\nadapt to c"
+    },
+    {
+      "chunk_id": 4179,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 158,
+      "content": "cer.\nAWS Web Application Firewall is enabled on the CloudFront distributions and ALB and protects our applications against\ncommon web attack patterns such as SQL injection and cross-site scripting.\n5\nAWS Shield Firewall protects against distributed denial of service (DDoS) attacks. Most commonly, these types of threats\nuse flood attacks to compromise system security.\nCloudFront provides edge content caching services and SSL encryption termination. SSL Security policy will only permit\n6\nthe use of secure TLS cypher version for data encryption in transit.\nTab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan 144\n | Inspection workstations will use local area network connectivity to a local router with redundant internet connectivity\n1 | \n | (primary regional network provider, e.g., Level 3, and backup via 4g LTE wireless). Equipment in the field will access VID\n | system resources via secure web services secure.\n | \n | State personnel will access VID system resources (portals, reporting, ad-hoc queries, etc.) via secure protocols through\n2 | \n | the public internet. All communication will be encrypted using secure cyphers and no special network or service\n | provision"
+    },
+    {
+      "chunk_id": 4180,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 158,
+      "content": "rmally provisioned public internet services.\n | \n3 | \n | Route 53 provides Domain Name Service resolution. This highly available service provides internal and external name\n4 | \n | resolution service. Route 53 dynamically routes end-user traffic to CloudFront, Elastic Load Balancer.\n | \n | \n5 | \n | \n6 | CloudFront provides edge content caching services and SSL encryption termination. SSL Security policy will only permit\n | the use of secure TLS cypher version for data encryption in transit."
+    },
+    {
+      "chunk_id": 4181,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 158,
+      "content": "| \n6 | CloudFront provides edge content caching services and SSL encryption termination. SSL Security policy will only permit\n | the use of secure TLS cypher version for data encryption in transit."
+    },
+    {
+      "chunk_id": 4199,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 163,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\nA single sign-on mechanism provides access within the portal to the following set of applications:\n\uf0a7 Station and inspection mechanic \uf0a7 Triggers and audit\u2014data mining and auditing\nadministration\u2014manage enrollment and application\naccreditation; station lockouts; \uf0a7 Time extensions/waivers\u2014manage waiver\nstation/inspection mechanic licensing; and process\nwithdrawals, terminations, suspensions, and \uf0a7 User management\u2014assign/remove user roles\nrevokes \uf0a7 Reporting suite\n\uf0a7 Billing\u2014view billing reports and reconciliation \uf0a7 Service Level Tracking System\ndata\n\uf0a7 Broadcast message\u2014send messages to\nworkstations\nThe Parsons team will also access the web portal to manage the Inspection Program operations, including:\n\uf0a7 Training management \uf0a7 Billing management\n\uf0a7 Equipment service management \uf0a7 Facility maintenance tracking\nThe portal will also be used by remote OBD vendors enrolling in the program, certified repair technicians\nentering vehicle repair information in the VID, and motorists scheduling a MAC appointment or signing up\nand paying for a remote OBD test.\nThe Parsons web portal is designed to serve these various stakeholders using role-based securi"
+    },
+    {
+      "chunk_id": 4201,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 163,
+      "content": "ill use our mature change-management processes to perform system or application changes. We\nstart with a thorough analysis of the requirements and impacts of each change on other parts of the system.\nUser experience (UX) design, mockups, prototypes, and requirement/design specifications allow the State to\nsee how the system will work before development begins. This impact evaluation helps with our\ndetermination of requirements for configuring our nonproduction environments for system development,\ntesting, and QC before the final schedule and release to production. We capture errors before transitioning\nfrom one environment to another, reducing unexpected outcomes before the final product hits production.\nParsons will implement all system changes using a modern Agile development methodology (Exhibit D-\n2.3.1.25.1.A.1-1). We will invite State users to all Agile/Scrum ceremonies, including the crucial review\nmeetings at the end of each sprint to solicit important feedback which we use to confirm that we\u2019re on track\nin developing the system the State requires and allows our team to be responsive to changes. Increased\n149 Tab D \u2013 Technical Response to RFP Requirements and Proposed Work "
+    },
+    {
+      "chunk_id": 4221,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 168,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nconducted three major data transitions since 2011. We will load the incumbent\u2019s data into the Parsons VID\nand ensure that it can be used by the the Inspection Program stations, FIS, and kiosks for accessing previous test information\nand that it will be integrated into our web portal reporting system to allow for program-level reporting from\nday one of the new Contract. Please refer to Sections 2.3.1.1.4 and 3.2 for detailed descriptions of our Data\nManagement and Contract Termination Transition Plan.\n2.3.1.25.1.A.11. Meeting Performance Requirements and Metrics (RFP Section 2.3.1.25.1.A.11)\nParsons will meet all performance metrics required in the the Inspection Program. Please refer to Section 2.3.1.25.5\nfor a detailed response to the performance metrics.\n2.3.1.25.1.A.12. Preventing Loss or Corruption of Data (RFP Section 2.3.1.25.1.A.12)\nParsons has managed the database for several large-scale vehicle inspection programs over the past\n40 years, and we have not lost a single record that was stored in our VID. Data stored in our VID is instantly\nre"
+    },
+    {
+      "chunk_id": 4255,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 176,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\n\uf0a7 Find closest stations\n\uf0a7 Query if a vehicle has received a waiver\n\uf0a7 Lookup safety and emissions recall information by VIN\n\uf0a7 Complete all software QA testing to ensure system is operating to specifications/requirements provided\nby the State\n2.3.1.25.1.C. Compliance with DOIT (RFP Section 2.3.1.25.1.C.)\nParsons has reviewed the the State IT organization policies, standards, and guidelines located at\nhttp://doit.maryland.gov and our system does comply. We developed our system on a modernized cloud\nenvironment using industry-standard technologies, modernized Agile development methodology, and\nintegrated automated testing, builds, and deployments.\nWe will also comply with all applicable laws, regulations, policies, standards, and guidelines affecting IT. If\nany new or amended IT policies, standards, and guidelines affect our project execution, we understand that\nit is our responsibility to ensure we both understand and adhere to these as well. We review our policies,\nplans, and procedures annually and at any major change to the environment or introduct"
+    },
+    {
+      "chunk_id": 4352,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 201,
+      "content": "vailability zone deployment model, means that we\ncan sustain uninterrupted program operation, without disruption to the services or reduced performance\nwhen one of the datacenters becomes unavailable. In addition, the multi-datacenter active-active high\navailability model takes full advantage of the system\u2019s capacity by spreading the workload to maximize\nperformance.\nIn addition, we will use data backups using specialized backup and recovery technologies (snapshots,\nversioning, infrastructure as code) and data replication to the US-EAST-2 region to allow recovery of intact\nState records. All provided system capabilities will be completely functional within 72 hours of the\ntermination of the initial event creating the disaster.\nOur experience designing and implementing fully redundant, and fault\ntolerant systems allows us to architect a comprehensive solution that will\ngain the State\u2019s and public\u2019s trust and support at the launch as well as\nthroughout the life of the program.\n2.3.1.25.7.D. Restore Services (RFP Section 2.3.1.25.7.D.)\nTo protect against data corruption and to provide the ability to restore point-in-time, full, and incremental\ndatabase and application systems, data ba"
+    },
+    {
+      "chunk_id": 4384,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 208,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\n2.3.2.2.3.B. Emissions Inspection Equipment Requirements (RFP Section 2.3.2.2.3.B)\nWe develop our vehicle inspection software and systems to be\nhighly automated, to streamline the inspection process and reduce\nthe risk of operator error or intentional fraud. Test outcome\ndetermination is automated, and manual interaction by the\ninspectors is minimized. All hardware and software will include\nsafeguards to prevent and detect tampering or abuse. In addition to\nthese safeguards, all inspection equipment will be checked by Protecting You from Cyber Threats\nfacility management each day to prevent abuse. Our equipment\nAs a leader in cybersecurity, we\nsolutions will be based on written specifications to allow traceability\nhave designed our software solution\nand verification for all functions. to be robust but secure in parallel.\nBy not embedding code into the\nSystem security is also a Parsons concern. We employ industry-\nhardware and using our devices as\nstandard software protection, firewalls for network protection, and\npass-through, we protect the device"
+    },
+    {
+      "chunk_id": 4441,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 224,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\n2.3.2.4.7 Gas Cap Test Record Elements (RFP Section 2.3.2.4.7)\nAll Gas Cap tests will contain the following test record elements:\nGAS CAP TEST RECORD ELEMENTS\n1. Gas Cap software version and/or revision number 5. Standard\n2. Gas Cap test result 6. Gas cap adaptor recommended in the software\n3. Gas Cap test duration (if not standard) 7. Scanned gas cap adaptor actually used\n4. Measurement(s) used to make pass/fail determination 8. Identifier for vehicles exempt from gas cap testing\n2.3.2.4.8 Voided Transactions (RFP Section 2.3.2.4.8)\nThe voided transactions report will be generated monthly and will be available to the State Motor Vehicle agency through the Web\nReports. The report will include the issued, unissued, and voided transactions for the previous month. The\nreport will group this information by station. Parsons will work with the State Motor Vehicle agency on the detailed information that will\nbe displayed on the report.\nCONCLUSION\nConsistent data reporting and ready access to program information are key elements to successful operation.\nPa"
+    },
+    {
+      "chunk_id": 4479,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 232,
+      "content": "cause injury to inspection personnel, damage to inspection equipment, or impact the\nvalidity of the test. If no obvious reasons for rejection is found, the inspection will proceed. If the vehicle is\nrejected, the motorist will be advised to have the vehicle repaired and returned for inspection.\n2.3.2.6.2.C. Public the Inspection Program Station Restrictions (RFP Section 2.3.2.6.2.C)\nParsons will enter the vehicle inspection information into the vehicle inspection software and store it in the\ninspection record, as specified in the RFP. The data will be immediately transmitted to the VID and made\navailable to the State for query and reporting as needed.\n2.3.2.6.3 Emissions Test Procedures (RFP Section 2.3.2.6.3)\nOur team will comply with all initial procedures and requirements provided\nby the State Motor Vehicle agency and MDE and any changes requested during the contract term. We\nhave extensive experience with state requirements for OBD, idle, and gas\ncap testing procedures. We understand that failing any aspect of the idle\ntest is a failure.\nThe idle test will consist of:\n\uf0a7 Visual inspection of the catalytic converter (pass/fail)\n\uf0a7 Gas cap integrity test (pass/fail)\n\uf0a7 Pre-condition"
+    },
+    {
+      "chunk_id": 4480,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 232,
+      "content": "to fast pass/fast fail standards for each gas\n\uf0a7 Comparison of gas readings to overall standards for each gas\n\uf0a7 Second chance determination\n\uf0a7 Make pass or fail decision for each exhaust gas component\nWe have developed draft the Inspection Program OBD inspection initial and retest flow charts as foundation documents,\nindicating our interpretation of the test procedures that the State Motor Vehicle agency and MDE want to perform on OBD-testable\nvehicles in the the Inspection Program. The documents cover many of the nuances that the State Motor Vehicle agency and MDE will apply to OBD testing.\nTab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan 218"
+    },
+    {
+      "chunk_id": 4517,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 244,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nWith our Three-Touch Motorist Assistance Program, motorists with a\nfailing vehicle result will immediately be engaged by a MAC Assistant\u2014\nour enhancement to the CSR role\u2014while at the station. The MAC Assistant\nwill provide additional information regarding the motorist\u2019s specific VEIC\nresults, including reasons for the OBD system failure and guidance as well\nas repair and readiness issues. The MAC Assistant will encourage the\nmotorist to obtain repairs from a CERF and discuss how the MAC Technician\ncan assist the motorist or the repair technician. The motorist will always\nRecall Results\nhave the option to call the MAC Technician Hotline, which is printed on each\nVEIC report. Based on research Parsons\u2019\nTeam member Revecorp,\nOther messaging we provide, such as\nproviding recall information\nvehicle-specific recall information and\nwith inspection increases\nnotices such as \u201cVehicle repairs may be recall remedy rates by over\ncovered by the manufacturer\u2019s 20%.\nwarranty,\u201d will also lead motorists to repair polluting vehicles, which is\nultimately the goal of "
+    },
+    {
+      "chunk_id": 4570,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 257,
+      "content": "commits to working closely with MDOT the State Motor Vehicle agency and MDE to:\n\uf0a7 Use this collected data to analyze program effectiveness\n\uf0a7 Identify opportunities between the traditional the Inspection Program locations and on-road observation\n\uf0a7 Add another data resource for the determination of vehicles that have no known outcome\nUsing on-road remote sensing of vehicle exhaust has proven to be an\neffective and accepted methodology for program evaluation purposes,\naccording to 40 CFR\u00a7 51.353 requirements. Parsons has conducted\nUSEPA-approved on-road emissions inspections using remote-sensing\nequipment in many programs throughout North America. In Pennsylvania\u2019s large decentralized system, we\u2019ve\nprovided remote-sensing device (RSD) data that comply with 40 CFR \u00a751.353 since 1998. Based on our\nunderstanding of USEPA and the State\u2019s requirements for measuring vehicle emissions for program\nevaluation, we will make certain the State Motor Vehicle agency and MDE have the information needed to determine the Inspection Program\neffectiveness.\nINNOVATION SPOTLIGHT\n\u2022 HEAT partnership forged over many projects in North America.\n\u2022 Emissions Detecting and Reporting (EDAR) data collection instru"
+    },
+    {
+      "chunk_id": 4698,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 287,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\nIt is important to note that the relocation of some of the current self-service kiosks may be prudent and\nrecommended during the implementation period. Parsons stands ready to consider these movements to\nmaximize utilization of this highly convenient system. For example, the Waldorf MDOT the State Motor Vehicle agency branch kiosk and\nthe (regional location) West (Edgewood) the Inspection Program Station kiosk are two underutilized, self-service kiosks that could be\nrelocated to the Westminster the Inspection Program Station or another MDOT the State Motor Vehicle agency Branch.\nAssociated Cost per Individual Kiosk Installation and Deployment of Additional Kiosks (RFP\nSections 2.5.2.A and 2.5.2.B)\nParsons has included the total cost per individual kiosk installation, to include the kiosk hardware and\nsoftware and the cost of procuring, installing, and testing the unit in our Volume II Financial Proposal. the State Motor Vehicle agency\nwill provide the necessary sitework construction and make the final determination on the number and\nlocation of the additional kiosks. The installation process used will be identical to the replacement p"
+    },
+    {
+      "chunk_id": 4721,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 292,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nTransition Assistance\nAs the contract end date approaches, Parsons will develop an end-of-contract Transition-Out Plan for the\nState to review. Once the plan is mutually agreed upon, we will work with the State and approved third\nparties to ensure a smooth transition. This will include providing additional services and support as\nrequested to successfully complete the transition, maintaining the services required by the contract at the\nrequired proficiency level, and providing the State with updated system documentation and current\noperating procedures. We will provide transition assistance as requested by the State for a period up to 1\nyear prior to the contract end date, or the termination thereof.\nThe Transition-Out Plan will provide details on transition services and include the following, at a minimum:\n\uf0a7 Transition schedule establishing dates when various services under the contract end.\n\uf0a7 Termination of services for Parsons\u2019 subcontractors.\n\uf0a7 We will provide notices to subcontractors, as necessary, to stop work at the dates established in the"
+    },
+    {
+      "chunk_id": 4722,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 292,
+      "content": "process final payments and settle outstanding claims that may arise as a result of termination, no\nlater than 30 days after the termination date. To the extent possible, we will document termination\narrangements in our subcontract agreements prior to commencement of the work to alleviate lengthy\nsettlement discussions upon termination. Parsons will bring forward any settlement agreements with\nsubcontractors on outstanding liabilities and claims requiring State ratification in a timely manner to\nensure termination services are executed according to the transition plan.\n\uf0a7 A list of all State property in Parsons\u2019 possession related to the contract and we will describe a plan to\nprotect them until they are delivered to the State or approved third party. The plan will also indicate the\nschedule for transition of the State property from Parsons to the State or a third party designated and\napproved by the State. For electronic assets (e.g., documents, software, and data), we will continue to\nmaintain them on secure systems with routine backup and limit access to only the authorized staff who\nrequire access during the transition period.\n\uf0a7 Indicate any property that requires Parsons to tran"
+    },
+    {
+      "chunk_id": 4723,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 292,
+      "content": "according to the contract, and it\nwill describe the timeframe and manner of delivery.\n\uf0a7 Upon transfer of title and delivery of the property to the State, Parsons will provide a written certification\noutlining the items transferred and the date of transfer and include time stamps and locations.\n\uf0a7 Describe the reconciliation process for financials associated with the contract and specifically address\nthe transfer of all outstanding revenue to the State.\nAdditionally, given that the possible termination of this contract will be close to 2035, it is expected that\nthe State may reach attainment during this new contract term. Parsons will work closely with MDE and the State Motor Vehicle agency\nleadership to discuss how Parsons can assist with the EPA and CFR-required maintenance period which\nfollows the cessation of a full-service vehicle emissions inspection program.\n3.2.1 Prompt and Timely Transition (RFP Section 3.2.1)\nThe Contract Monitor, Alan Holloway, will be the main point of contact\nbetween the State and Parsons during the end-of-contract transition. We\nwill work toward a prompt, timely, and smooth transition under the\ndirection of the State\u2019s Contract Monitor, with the goal of"
+    },
+    {
+      "chunk_id": 4725,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 293,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\n3.2.2 Transfer of Knowledge and Materials (RFP Section 3.2.2)\nWe will work with the State, or a designated third party approved by the State, to ensure all necessary\nknowledge and materials for tasks completed are transferred into the appropriate custody of State\npersonnel or a third party, as directed by the Contract Monitor. Parsons fully intends to ensure a smooth\ntransition from our management of the the Inspection Program to the State or future contractors because we understand the\nimportance of program continuity. We pride ourselves in our ability to work with our competitors to ensure\ndata integrity, the security and protection of confidentiality and privacy, and the continuity of service.\n3.2.3 Contract Termination Transition Plan (RFP Section 3.2.3)\nParsons has included a draft Contract Termination Transition Plan as part of our technical response to this\nRFP. In it, we detail how Parsons will assist the State or approved third party in transitioning the the Inspection Program from\nour management to a future contractor. As with our every commitment, we will work to ensure a smooth\ntransition and assure the continuity of servi"
+    },
+    {
+      "chunk_id": 4726,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 293,
+      "content": "tractor to minimize system disruption and ensure continuity of effective and\nefficient services as the the Inspection Program is transferred to another manager.\n3.2.3.A. Transition Plan Revisions (RFP Section 3.2.3.A)\nParsons has prepared a draft Contract Termination Transition Plan and will deliver this to the Contract\nMonitor following contract award. This plan will be updated annually and furnished to MDOT the State Motor Vehicle agency\u2019s Contract\nMonitor biennially by September 1.\n3.2.3.B. Contract Termination Transition Plan (RFP Section 3.2.3.B)\nParsons\u2019 Contract Termination Transition Plan will thoroughly detail all aspects of Parsons\u2019 management of\nthe the Inspection Program and address any staffing issues and concerns that may arise with the closeout of the contract. It will\nexplain the communications and reporting process that we have engaged in with the Contract Monitor and\nDepartment, along with the security and system access review and closeout. We will provide a full inventory\nof any hardware, software, and licenses, including transfer of any point of contact for required software\nlicenses to the Department or an appointed designee. We will detail any outstanding and "
+    }
+  ]
+}

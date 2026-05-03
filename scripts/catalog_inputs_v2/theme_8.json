@@ -1,0 +1,594 @@
+{
+  "theme_id": 8,
+  "theme_label": "Service & Schedule",
+  "category": "Operational",
+  "rfp_requirements": [
+    {
+      "id": 7676,
+      "code": "A-022",
+      "title": "File Annual Political Contribution Disclosure with ELEC",
+      "description": "Contractor must file an annual disclosure statement on political contributions with the New Jersey Election Law Enforcement Commission (ELEC) if in a calendar year it receives one or more contracts valued at $50,000.00 or more.",
+      "section": "2.9",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2097,
+      "code": "R-018",
+      "title": "Allow State research during normal operations",
+      "description": "",
+      "section": "4.11",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 2137,
+      "code": "R-058",
+      "title": "Adhere to State holiday changes",
+      "description": "",
+      "section": "4.15.B",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 2138,
+      "code": "R-059",
+      "title": "Obtain SCM pre-approval for unscheduled closings",
+      "description": "",
+      "section": "4.15.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1117,
+      "code": "R-039",
+      "title": "Adhere to Contract Schedule",
+      "description": "Contractor must adhere to the Contract Schedule.",
+      "section": "4.3",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4263,
+      "code": "A-071",
+      "title": "Provide 24/7 automated response system for non-business hours",
+      "description": "Any automated system used for routine requests during non-business hours must be available 24 hours daily including weekends and holidays.",
+      "section": "4.33.1",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 4258,
+      "code": "A-066",
+      "title": "Conduct at least six PIF/PFF seminars in different regions",
+      "description": "Contractor must schedule and conduct no less than six PIF/PFF seminars/meetings in different geographic regions during the Implementation Phase.",
+      "section": "4.33.C.4",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4324,
+      "code": "A-042",
+      "title": "Provide comprehensive documentation to SCM per SLA schedule",
+      "description": "",
+      "section": "4.34.3",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1638,
+      "code": "A-070",
+      "title": "Any delayed payment plan must be part of PIF/PFF Support Plan",
+      "description": "Any delayed payment schedule beyond the time of installation/activation must be part of the Contractor's proposed PIF/PFF Support Plan.",
+      "section": "4.9.1.3.C",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8110,
+      "code": "A-011",
+      "title": "Cure membership failure within 10 calendar days",
+      "description": "An Employee who has failed to maintain membership shall be notified and shall have 10 calendar days following receipt of written demand from the Union to cure such failure by tendering the requested dues, or be subject to discharge.",
+      "section": "Article II.4",
+      "priority": "critical",
+      "category": "deadline"
+    },
+    {
+      "id": 8128,
+      "code": "A-029",
+      "title": "Adjust schedules for Union meetings and grievance hearings",
+      "description": "The work schedules of Union representatives shall be adjusted to permit attendance at regular Union meetings and grievance hearings provided Employer operations are not unduly impaired.",
+      "section": "Article IV.3",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8248,
+      "code": "A-068",
+      "title": "Limit Saturday forced overtime to 1 hour",
+      "description": "No Senior Lane Technicians, Lane Technicians, Full and Part-Time Associate Lane Technicians can be forced to work more than 1 hour beyond their scheduled shift on Saturdays.",
+      "section": "Article IX.14",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8233,
+      "code": "A-057",
+      "title": "Limit Lane Tech compelled overtime to 1 hour",
+      "description": "Senior Lane Technicians, Lane Technicians, Full and Part-Time Associate Lane Technicians cannot be compelled to work more than 1 hour of overtime after their scheduled shift.",
+      "section": "Article IX.8",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8236,
+      "code": "A-059",
+      "title": "Guarantee 1/2 hour pay for drafted shifts including Saturday",
+      "description": "Employees drafted to work after their scheduled shift, including on Saturday, must be guaranteed one-half hour of overtime pay regardless of time actually worked.",
+      "section": "Article IX.9",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8141,
+      "code": "A-042",
+      "title": "Grant Union stewards super-seniority for layoff/recall",
+      "description": "Union stewards shall have super-seniority at their assigned station for layoff and recall purposes, provided they are qualified and work the schedule; preference may not displace Employees at other stations.",
+      "section": "Article VI.1(c)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8170,
+      "code": "A-005",
+      "title": "Conduct layoffs by location using seniority",
+      "description": "All layoffs must be by location and the selection of employees laid off must be based on bargaining unit seniority, provided remaining employees are willing to work the remaining schedule.",
+      "section": "Article VI.5(a)",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 8174,
+      "code": "A-009",
+      "title": "Allow 7 days to meet on layoff matters",
+      "description": "The Employer must allow seven calendar days from receipt of notification for the Union and affected employees to meet to attempt to resolve layoff matters.",
+      "section": "Article VI.5(c)(iii)",
+      "priority": "high",
+      "category": "deadline"
+    },
+    {
+      "id": 8177,
+      "code": "A-011",
+      "title": "Allow bumping of junior employees within classification",
+      "description": "Employees scheduled to be laid off in specified classifications must be allowed to displace a junior employee in the same classification from their location/station by seniority; Equipment Repair Technicians are laid off by statewide seniority.",
+      "section": "Article VI.5(e)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8187,
+      "code": "A-020",
+      "title": "Part-Time full-time recall contingent on schedule acceptance",
+      "description": "A Part-Time Associate Lane Technician on layoff has recall rights to a full-time position only if willing to work the required full-time schedule.",
+      "section": "Article VI.6(b)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8188,
+      "code": "A-021",
+      "title": "Post promotional vacancy notice for 5 working days",
+      "description": "The Employer must post a notice of promotional vacancy on bulletin boards for at least five working days (excluding weekends and holidays) before filling.",
+      "section": "Article VI.7(a)",
+      "priority": "high",
+      "category": "deadline"
+    },
+    {
+      "id": 8212,
+      "code": "A-041",
+      "title": "Set Saturday hours for Lane Technicians",
+      "description": "For Saturday, hours of operation for Senior Lane Technicians, Lane Technicians, Full and Part-Time ALTs must not be less than 5 hours or more than 8 hours, subject to State of NJ restrictions.",
+      "section": "Article VIII.11",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8217,
+      "code": "A-046",
+      "title": "Senior Lane Tech makes lunch/break schedules",
+      "description": "All lunch and break schedules are to be made by Senior Lane Technicians for each lane they are responsible for, subject to station management approval (not unreasonably withheld).",
+      "section": "Article VIII.16",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8203,
+      "code": "A-033",
+      "title": "Post workweek schedules one month in advance",
+      "description": "Regular workweek schedules must be posted one month in advance.",
+      "section": "Article VIII.2",
+      "priority": "high",
+      "category": "deadline"
+    },
+    {
+      "id": 8204,
+      "code": "A-034",
+      "title": "Provide unpaid lunch and paid breaks to Technical/Material/ERT",
+      "description": "Technical Specialists, Material Handler classifications, and Equipment Repair Technicians must receive a one-hour unpaid lunch and four 15-minute paid breaks as schedule permits, without interfering with business or delaying repairs.",
+      "section": "Article VIII.3",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8413,
+      "code": "M-003",
+      "title": "Allow use of accrued vacation for emergency/personal reasons after sick exhausted",
+      "description": "If an Employee has exhausted sick time during a calendar year without using the maximum emergency/personal allowance, the Employee may use accrued and unused vacation time for this purpose until the maximum is reached.",
+      "section": "Article XXIX.10",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8415,
+      "code": "A-014",
+      "title": "Grant paid jury duty leave less stipend",
+      "description": "Employees required to serve jury duty during a scheduled workday shall be excused with pay, less the jury stipend, for any calendar day jury duty is performed.",
+      "section": "Article XXX.1(a)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8416,
+      "code": "A-015",
+      "title": "Grant paid emergency civilian duty leave",
+      "description": "Employees required to perform emergency civilian duty related to national defense or emergency shall be excused with pay up to a maximum of 5 days per calendar year.",
+      "section": "Article XXX.1(b)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8470,
+      "code": "A-059",
+      "title": "Accrue vacation at beginning of calendar year",
+      "description": "Vacation time accrues at beginning of calendar year in anticipation of continued employment; only one year of vacation credits may be carried forward into the following calendar year.",
+      "section": "Article XXXV.2",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8476,
+      "code": "A-064",
+      "title": "Grant additional vacation allowance in year of service change",
+      "description": "If vacation allowance changes based on years of service during any calendar year, the additional annual allowance will be given for that calendar year.",
+      "section": "Article XXXV.6",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8477,
+      "code": "A-065",
+      "title": "Use carried-over vacation in following year",
+      "description": "Vacation time carried over into next calendar year must be used in that calendar year.",
+      "section": "Article XXXV.7",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8294,
+      "code": "A-039",
+      "title": "Present Step 2 Grievance Within 10 Calendar Days",
+      "description": "If unsettled, the grievance may be presented in Step 2 within 10 calendar days after receipt of the Step 1 answer.",
+      "section": "XIII.1(b)",
+      "priority": "high",
+      "category": "deadline"
+    }
+  ],
+  "parsons_evidence": [
+    {
+      "chunk_id": 1934,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 3,
+      "content": ".............. 15\nI-6. TASKS ....................................................................................................................................................................... 15\nProgram Schedule ......................................................................................................................................................... 16\nTask A: Storage and Handling of All Pennsylvania I/M Program-Related Data ....................................................................... 16\nA.1 I/M Data Handling System ........................................................................................................................................... 17\nA.2 I/M Inspections Data and Documentation ................................................................................................................. 18\nA.3 I/M Data Access ........................................................................................................................................................... 21\nA.4 System Performance ..............................................................................................................................................."
+    },
+    {
+      "chunk_id": 1960,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 7,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nATTACHMENT C -- Work Plan/Program Schedule\nATTACHMENT D -- Monthly Status Report\nATTACHMENT E -- Escrow Agreements\nATTACHMENT F -- AWS PCI-DSS Compliance Attestation (Electronic Files Uploaded Under 1.1.6 and 1.1.7.)\nF1. AWS PC Responsibility Summary\nF2. PCI-DSS AWS Responsibility Summary\nATTACHMENT G - SOC 2 Type II Report & Spreadsheet. (Electronic Files Uploaded Under 1.1.6 and 1.1.7.)\nG1. SOC 2 Spreadsheet\nG2. SOC 2 Report\nATTACHMENT H - Accessibility Conformance Reports (ACR). (Electronic Files Uploaded Under 1.1.6 and 1.1.7.)\nH1. Revised Sec. 508 Edition\nH2. WCAG Edition\nATTACHMENT I. Security Testing Results Redacted. (Electronic Files Uploaded Under 1.1.6 and 1.1.7.)\nATTACHMENT J. Security Incident Response Plan. (Electronic Files Uploaded Under 1.1.6 and 1.1.7.)\nTechnical Submittal v"
+    },
+    {
+      "chunk_id": 2045,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 25,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nprogram knowledge ensures that we have the technical ability to meet the RFP requirements. We consistently meet\nPennDOT\u2019s expectations in program delivery, adapted our delivery based on State feedback, reviewed our processes for\ninefficiencies, and continually implemented PennDOT-driven and responsibly innovative enhancements. Our proposed\nwork plan leans into our shared core values of Safety and Sustainability and combines our extensive experience in\nvehicle inspection programs with our effective methodologies, processes, and procedures.\nIn the following pages, we describe our technical plan to accomplish the work critical to continuing the PA I/M Program.\nRecognizing PennDOT expects a contractor with broad industry experience, we also highlighted other experience that\ndemonstrates how Parsons is a reliable and adaptable contractor. We have and will continue to meet PennDOT\u2019s\nexpectations and provide solid operation of the PA I/M Program while creating the springboard for Program\nenhancement.\nProgram Schedule\nWe include a schedule and outline of milestones, tasks, and critical paths as"
+    },
+    {
+      "chunk_id": 2046,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 25,
+      "content": "s in Attachment C. The Gantt chart designates a start and completion date for each\ntask, with the duration (in days) to accomplish all stages of each program enhancement identified for each task. The\nGantt chart is our primary tool for tracking program progress and schedules, and we will reference it in weekly progress\nmeetings during the implementation phase of the contract. PennDOT retains final approval of the proposed draft\nschedule. Using a defined change management process, we will document any deviations from the established timeline\nand mitigate any delay issues as quickly as possible.\nTask A: Storage and Handling of All Pennsylvania I/M Program-Related Data\nTo maintain critical service continuity, we will migrate all systems to the Amazon Web Service (AWS) cloud environment.\nThe upgraded, cloud-based VIID will include enhanced reporting and data management features along with enhanced\nscalability, security, and recovery, allows for efficient implementation of PennDOT\u2019s Program and system changes to meet\nfuture requirements of the Program. Any risk associated with the AWS migration is eliminated by our existing fully\nfunctional VIID currently supporting the PA I/M Program. "
+    },
+    {
+      "chunk_id": 2088,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 34,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\n\u00a7 Ensure that all data will remain online for the life of the contract so there will be no need to provide retrieval\nprocesses for data that is no longer online.\nThe VIID will be housed, operated, and maintained by Parsons\nINTELLIGENT ARCHITECTURE\nwithin the AWS environment. Our system will consist of\ncommunications processors, CPUs, and peripheral equipment Our system architecture in the AWS cloud\nsufficient to process real-time transactions, batch updates, allows us to perform most system\nmaintenance and upgrades with no downtime,\nand other tasks required by the Commonwealth. We are\nwhich means no impact on end users,\nresponsible for ensuring our systems operate 24-hours a day,\nincluding I/M stations performing inspections.\n7 days a week each year. We understand the necessity of the\nPA I/M Program, and we will architect the system to meet the State\u2019s uptime requirements. We will provide a monthly\nreport that will include the following information:\n\u00a7 Operational minutes available and outage (or downtime) minutes for the previous month.\n\u00a7 We will identify downtime approved by PennDOT or"
+    },
+    {
+      "chunk_id": 2090,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 34,
+      "content": "infrastructure and systems. In\naddition, we have developed custom-built scripts specifically designed to provide proactive warning of system issues\nso that we can act on them before a problem occurs. We monitor servers, network traffic, databases, and\napplications using performance thresholds to send alerts when they are exceeded. To ensure that databases are\nrunning at optimal levels, our DBAs monitor the processing capacity and resource utilization statistics (CPU, memory and\ndisk input/output). We conduct application monitoring, and issues are logged and categorized in our issue tracking\nsoftware. We will track all scheduled and unscheduled downtime and separately identify each. We will provide a monthly\nreport of this information to PennDOT. We will report all system downtime incidents to PennDOT at the time of the\nincident.\nA.5 Equipment Testing and Approval\nWe have firsthand, in-depth knowledge of all types and generations of inspection equipment in the I/M Program and\nwe do not have financial interest in any equipment provider in the PA I/M Program, which ensures integrity in the\nacceptance testing process. We have successfully managed emissions equipment certification for P"
+    },
+    {
+      "chunk_id": 2098,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 36,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nA.8 Data Transfer Between Parsons and PennDOT\nOur system provides the capability to transfer data to and from PennDOT\u2019s systems and we will maintain electronic\ncommunications and resolve any VIID or database problems. We are prepared to transfer data through the existing\nElectronic File Transfer (EFT) process or a modernized method using web services. Parsons\u2019 hands-on experience and\nknowledge of PennDOT\u2019s systems, gives us insight into automating transfers to PennDOT using web services. Two\nexamples of this include the current solution to populate data directly into PennDOT\u2019s database for the successful\nimplementation of the Safety Inspection Mechanic Recertification as well as sending the Emission training results\ndirectly to PennDOT systems.\nWe will provide a means of updating the vehicle I/M information on PennDOT\u2019s Commonwealth Automated Registration\nand Titling System (CARATS) system with data collected from the VIID. We will conform to the schedule determined by\nPennDOT for these updates. If the CARATS system is changed as part of any PennDOT modernization process, we will\nmodify"
+    },
+    {
+      "chunk_id": 2114,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 39,
+      "content": "aff both before go-live and\nthroughout the contract, with additional topics added as needed.\nAfter the initial classroom instruction, a newly hired auditor will\nEXHIBIT I-6-4. ENHANCED TRAINING CYCLE\nride along with an experienced auditor for a minimum of 10\ndays of on-the-job training. All auditors will perform their first\naudits during this ride-along period under the guidance of an\nexperienced auditor. Audit Managers will review progress with\nboth the trainee and auditor trainer during this time to\ndetermine the trainee\u2019s readiness to perform their oversight\nactivities independently.\nTo aid in disseminating consistent information to all\noversight staff, we will develop, implement, and continually\nupdate a Knowledge Base (KB) as part of the updated\nauditing application. Oversight staff will use the KB to allow\nthem to ask questions and display answers to quickly receive\naccurate responses to common industry and regulatory\nquestions and will help determine topics for ongoing training\nsessions.\nAll audit staff will receive an annual refresher training course to ensure they stay current with any changes to the I/M\nProgram and to review the comprehensive instruction provided during t"
+    },
+    {
+      "chunk_id": 2128,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 42,
+      "content": "rance the identified issues will be properly\naddressed.\nB.5 Overt Oversight Activities\nWe successfully deliver a completely neutral, unbiased QA program that meets the requirements of 40 CFR \u00a7 51.363\n(a) (1) through (3) and 51.363 (b) through (d) and other applicable federal regulations as they apply to PA I/M Program.\nTo date, Parsons has conducted more than 372,000 overt audits in the PA I/M Program. We are not involved with any\nI/M equipment provider in Pennsylvania, supporting our impartial approach to all aspects of the oversight process.\nThis experience will allow our team to complete emission station and equipment audit operations more effectively\nthan any other team.\nThe overt audit provides a visible presence for PennDOT in I/M inspection stations and allows for education and\nenforcement of Program regulations. All overt audits are scheduled on the following criteria: date of last audit, record\naudit data analysis, consumer complaints, covert audit results, and/or PennDOT requests. Parsons will complete two\nunannounced overt audits during normal business hours per year for each I/M station, regardless of location in the\nCommonwealth. The audit will include an examination o"
+    },
+    {
+      "chunk_id": 2152,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 47,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nActivities\nAs directed by PennDOT, Parsons performs two covert audits per station per year, which has been accepted by the EPA\nto meet the requirements of 40 CFR \u00a7 51.363 (a) (4) (ii) through (a) (4) (vii). To assure our auditing methodology\ncontinues to meet the requirements of the EPA and PennDOT, Parsons proposes performing the equivalent of two\ncovert audits per station per year. Parsons will engage Michael Baker International for third-party validation of\ncovert audit volume to reinforce confidence in our deliverables.\nEvery I/M station will receive one covert audit per year and an equivalent number of covert audits will be performance\nbased. These will be initiated due to consumer complaints, inspection station complaints, overt auditor requests,\nPennDOT requests, and I/M inspection anomalies identified in the VIID. All covert audits are scheduled on the following\ncriteria: date of last audit, record audit data analysis, consumer complaints, overt audit results, and/or PennDOT\nrequests. All covert vehicles will be set to fail before use in covert auditing.\nBefore arriving at the s"
+    },
+    {
+      "chunk_id": 2177,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 52,
+      "content": "will continue to operate the PennDOT-approved referee program. Vehicle owners dissatisfied with an I/M\ntest performed by an I/M station can file a complaint by contacting the customer hotline number. A hotline\nrepresentative will gather the necessary information and forward the complaint to the appropriate regional office. A\nParsons team member will contact the customer to resolve the complaint. If a resolution cannot be reached, we will\nschedule a referee inspection at the original I/M station if the customer agrees to return to the location. If the customer\nrefuses, we will conduct the referee inspection at another I/M station.\nBefore the referee inspection, we will give the customer and the station an overview of the referee process. The referee\nwill conduct an I/M station audit to validate the equipment operation and the station\u2019s I/M inspection and record-\nkeeping procedures. The referee will use the I/M inspection equipment referee function to witness the inspection\nperformed by the station I/M inspector and independently verify the referee test result. If the test is performed properly,\nthe referee will inform the customer that the original inspection was accurate. A vehicle"
+    },
+    {
+      "chunk_id": 2188,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 54,
+      "content": "ennDOT requires and expects. Each call\nwill be handled professionally, fairly, and objectively while maintaining the integrity and security of the program\ninformation being disseminated and collected. Dasher will rely on its over 30 years of experience fulfilling millions of\nconsumer transactions and expertise in communicating complex information to handle the PA I/M Program help desk.\nThe station operator and customer service hotlines will both use the existing toll-free numbers and be staffed during\nPennDOT\u2019s normal business hours (Monday to Friday, 8:00 a.m. to 5:00 p.m. EST). Dasher answers 80% of their calls\nwithin 20 seconds, and 100% of calls in under a minute, far exceeding the SLA requirement of average wait time of no\nmore than four minutes.\nThe help desk services downtime will not exceed 0.5%, except during pre-scheduled maintenance or other PennDOT-\napproved downtime. Dasher\u2019s phone system maintains a 99.9% uptime. This uptime is achieved with automatic backup\nand failover systems, redundant circuits, multiple Internet connections and carriers, and 24/7/365 proactive support.\nWe will provide monthly reports documenting help desk activity, as approved by PennDOT. These r"
+    },
+    {
+      "chunk_id": 2189,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 54,
+      "content": "wait time in queue for the previous month.\nWe will identify downtime to PennDOT when an incident occurs and will document PennDOT-approved downtime\nseparately from pre-scheduled maintenance downtime. We understand that failure to meet the standards listed in this\ntask may result in liquidated damages.\nTechnical Submittal 45\n | TRAINING IS A CRITICAL COMPONENT OF OUR APPROACH TO CUSTOMER SERVICE |  | \n |  |  | \n | Dasher\u2019s call center representatives undergo customer service training, including several facilitated and |  | \n | corporate training sessions, such as interpersonal communication, time management, conflict resolution, |  | \n | diversity training, and call center delivery experience. Monthly sessions cover how to handle difficult callers and |  | \n | conduct simulation training. |  |"
+    },
+    {
+      "chunk_id": 2198,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 56,
+      "content": "nt for\nprosecution and court testimony on PennDOT\u2019s behalf. We look forward to working with PennDOT to adapt any currently\napproved procedures to meet revised requirements for more expedient results.\nWhen PennDOT determines a violation merits a hearing, we will schedule and conduct one of the following hearing\ntypes: a PennDOT-requested hearing, an expedited hearing, or an immediate hearing. After the hearing, we will submit\na written report to PennDOT regarding the evidence received.\nPennDOT-Requested Hearings\nWhen we receive notification from PennDOT that an administrative hearing must be conducted, our hearing examiners\nwill schedule the hearing within 14 days and hold it within 30 days of receipt of the notice.\nThe hearing examiner will prepare a cover letter that includes the date, time, and location of the hearing; the phone\nnumber of the regional office; the certified mail receipt number; and directions to the hearing location. The hearing\nexaminer sends the hearing letter, PennDOT hearing notification letter, and PennDOT hearing fact sheet via certified\nmail, with a return receipt requested, to the station and technician. If a station or technician email is available and\nwi"
+    },
+    {
+      "chunk_id": 2201,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 57,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nExpedited Hearings\nWhen a Parsons auditor discovers a violation that may merit an expedited hearing, the auditor will contact the audit\nmanager and report the findings. Our audit manager will contact PennDOT via telephone and request an expedited\nhearing. If PennDOT agrees, the audit report will be electronically transmitted to PennDOT, who will prepare the hearing\ndocuments and send them to the regional office. The hearing examiner will schedule the hearing following PennDOT\u2019s\ntime frames. Electronic document transfer speeds up the hearing process.\nImmediate Hearings\nWhen a Parsons auditor discovers a violation that may warrant an immediate suspension, the auditor will call the audit\nmanager and report the findings. The audit manager will contact PennDOT via email or telephone to provide details of\nthe violations and request an immediate hearing. If PennDOT agrees, the hearing can be held by telephone with the\nauditor and station representative. If an immediate suspension is necessary, PennDOT can verbally order the auditor to\nsuspend the station or technician. PennDOT will also send w"
+    },
+    {
+      "chunk_id": 2202,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 57,
+      "content": "end written documentation to the regional office for subsequent\ndelivery to the affected station or technician, and a hearing will be scheduled within three days of the suspension.\nHearing Procedures\nThe hearing examiner will hold the hearing as scheduled, obtain identification from all participants, and document it on\nthe electronic version of the MV-390 hearing abstract form. The hearing examiner will explain the hearing procedure\nand record all testimony, including documentation of all evidence received. All participants will be advised that\nPennDOT will make a decision based on all information presented. The hearing examiner will print the hearing abstract,\nattach a copy of the hearing letter, and forward the electronic packet to PennDOT for review and appropriate action.\nPenalties\nAt PennDOT\u2019s direction, Parsons will take appropriate action regarding the I/M station and/or inspection personnel.\nThese actions can include the delivery of warnings, fines, and/or suspensions for I/M stations, inspectors, and repair\ntechnicians. When PennDOT notifies Parsons of the hearing results, the hearing examiner will update the hearing\ntracking system and provide a copy of the decision to th"
+    },
+    {
+      "chunk_id": 2206,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 58,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nevidence concisely and reliably, supporting regulatory requirements. Our training will also teach staff to speak\nconfidently in a courtroom environment.\nAppeal of a Suspension\nTo appeal a suspension, a station or technician must obtain a supersedeas, which must be served directly to PennDOT.\nParsons\u2019 auditors will attend and support PennDOT with any supersedeas hearings. When PennDOT notifies us of an\nappealed suspension, we will return all confiscated items to the station or technician pending the outcome of the\nappeal, except for inspector licenses, which PennDOT will return.\nReports\nParsons will provide PennDOT with periodic reports relating to hearing and suspension activities that comply with EPA\nRule 40 CFR \u00a7 51.366. Every month, we will report the number of hearings scheduled, canceled, continued, or held for\nstations and technicians and hearings where a station or technician failed to appear. Our reports will also document\nthe numbers of suspensions served, appeals filed, and warning letters sent to stations and technicians, as well as any\nre-appointments after suspensions for s"
+    },
+    {
+      "chunk_id": 2212,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 59,
+      "content": "eness of sticker-based enforcement.\nTask G: On-Road Testing Using Remote Sensing Device\nParsons will meet all requirements of Task G: On-Road Testing Using Remote Sensing Device (RSD). Since 2012, we\nhave provided PennDOT with RSD data that complies with\nEDAR system includes:\n40 CFR \u00a751.371(a)(1)(3). We currently subcontract SDB License plate Recognition Camera\nSpeed & Acceleration Detector\nfirm, Hager Environmental Atmospheric Technologies (HEAT), Laser Remote Sensing of Vehicle Exhaust\nas our partner for Task G and will continue that proven\nrelationship in the new contract. Using HEAT\u2019s Emission\nDetecting and Reporting (EDAR) technology, we will continue\nto conduct a successful analysis of program effectiveness by\ndelivering a minimum of 20,000 valid RSD test results\nannually to meet the EPA requirement. We will secure\napproval from PennDOT to establish at least four unique\nroadside sites to collect superior data sets using HEAT\u2019s\nstable, accurate, and calibration-free equipment and\nsoftware. We will then analyze the collected data and\nprovide reports to PennDOT. The table, included later in this Scanning laser beams\nsection, provides details for data collection, storage,\nanalysi"
+    },
+    {
+      "chunk_id": 2221,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 61,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nmodel, engine size, vehicle type, GVWR, and fuel type, if available. Upon receipt of this matched data, we will verify all\nvalid records and provide a complete database to PennDOT for review and approval.\nWe will craft a complete RSD report including an introduction to RSD-record capture methodology, accuracy, record\ncounts, geographical distribution of passing/failing vehicles, observations, and conclusions. We will also include several\ngraphs and charts illustrating the results of the study. We will provide this report electronically to PennDOT in draft form\nfor comment. Once the comment period is complete, we will supply a final version to PennDOT.\nEXHIBIT I-6-8. ESTIMATED TIME FRAMES FOR EACH MAJOR SUBTASK REQUIRED UNDER TASK G\nProcedure Timeline/Schedule\nData collection at approved on-road sites 3 weeks (T)\nStorage of data Concurrent with data collection (T)\nAnalysis of data 4 weeks following data collection (T+28)\nReporting to PennDOT In conjunction with Annual Report\nT = representation of time as a value\nTask H: Evaluation and Use of Dedicated Portion of I/M Program Management Fe"
+    },
+    {
+      "chunk_id": 2224,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 61,
+      "content": "ye-safe lasers\ncapable of remotely detecting and measuring infrared absorption of environmentally critical gases such as CO, CO ,\n2\nNOx, HC, and particulate matter coming from moving-vehicle exhaust.\nHEAT will capture the following information on each vehicle test: the license plate, date, time, speed, acceleration,\nambient temperature, plume temperature, barometric pressure, humidity, wind speed, a pass or fail indication, a 3D\nimage of the exhaust plume, and a 2D image of the vehicle and plume as well as an actual image of the vehicle itself.\nParsons will store this information, or a PennDOT-defined subset, for review, analysis, and reporting.\nTechnical Submittal 52\nProcedure | Timeline/Schedule\nData collection at approved on-road sites | 3 weeks (T)\nAnalysis of data | 4 weeks following data collection (T+28)"
+    },
+    {
+      "chunk_id": 3557,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 14,
+      "content": "Jason Yaley \u2014 Chief Corporate Affairs Officer Source.\nTim LaChapelle \u2014 Chief Digital Officer Source.\nBoard of Directors\nIncludes Carey Smith (Chair), Suzanne \u201cZan\u201d Vautrinot (former USAF Major General, Commander 24th Air Force\n/ Air Forces Cyber), George Ball (former CFO), M. Christian Mitchell (former Deloitte National Managing Partner),\nMark Holdsworth, Bob Smith (former Blue Origin CEO), Dave Wajsgras (Everfox CEO), and Darren McDew,\namong others Source.\nWorkforce and Culture\n\u201cPeople First\u201d culture; revitalized leadership team via promotion and external hires; flexible work schedule;\nengineer \u201cwork-from-anywhere\u201d program; six enterprise business resource groups; dual technical career\npath Source.\nIn early 2025, Parsons removed diversity, equity, and inclusion programming to align with executive orders\nemphasizing merit-based hiring Source.\n12. Risks and Challenges\nConfidential State Department Contract Wind-down\nA \u201cconfidential contract\u201d tied to a State Department program office that was eliminated in a reorganization has\nbeen pulled out of guidance since June 2025; this drove FY2025 Federal Solutions revenue down 20% YoY and\ntotal revenue down 5.7% Source Source.\nFAA BNATCS Los"
+    },
+    {
+      "chunk_id": 3583,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 5,
+      "content": "it (RFP Section 2.3.1.8.I) ........................................................... 64\n2.3.1.8.J Updates to Emissions Test Equipment and Software (RFP Section 2.3.1.8.J) ....................... 64\n2.3.1.9 Station Operating Schedule (RFP Section 2.3.1.9) ......................................................................... 65\n2.3.1.10 Adverse Weather and Emergency Conditions (RFP Section 2.3.1.10) ........................................ 65\n2.3.1.10.A Winter Contingencies (RFP Section 2.3.1.10.A) .................................................................... 66\n2.3.1.10.B Summer Contingencies (RFP Section 2.3.1.10.B) ................................................................ 66\n2.3.1.10.C Operation During Adverse Weather (RFP Section 2.3.1.10.C) ............................................. 66\n2.3.1.10.D Commitment to Safe Environment (RFP Section 2.3.1.10.D) .............................................. 67\n2.3.1.10.E State Notification (RFP Section 2.3.1.10.E) ........................................................................... 68\n2.3.1.11 Traffic Management (RFP Section 2.3.1.11) ..........................................................................."
+    },
+    {
+      "chunk_id": 3587,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 6,
+      "content": "from the Hybrid Programs (RFP Section 2.3.1.16.4) ..................................... 88\n2.3.1.16.5 Collected Fees Shall be Deposited into an Account (RFP Section 2.3.1.16.5) ................... 89\n2.3.1.17 Accountability and Transfer of Fees (RFP Section 2.3.1.17) ....................................................... 89\n2.3.1.17.1 Collection of Fees and Accountability (RFP Section 2.3.1.17.1) .......................................... 90\n2.3.1.17.2 Late Fee Transfer (RFP Section 2.3.1.17.2) .......................................................................... 91\n2.3.1.17.3 Test Fee Distribution (RFP Section 2.3.1.17.3) ..................................................................... 91\n2.3.1.17.4 Monthly Invoice and Process (RFP Section 2.3.1.17.4) ........................................................ 92\n2.3.1.17.5 Revenue Summary Report/Schedule A Report (RFP Section 2.3.1.17.5) ........................... 92\n2.3.1.17.6 Kiosk and FIS System Revenue Summary Report (RFP Section 2.3.1.17.6) ...................... 92\n2.3.1.17.7 Master Revenue Summary Report (RFP Section 2.3.1.17.7) ............................................... 92\n2.3.1.18 Overall Management Plan (R"
+    },
+    {
+      "chunk_id": 3600,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 9,
+      "content": "3.3 Invoicing (RFP Section 3.3.) .................................................................................................................. 282\n3.3.1 General (RFP Section 3.3.1) .......................................................................................................... 282\n3.3.2 Invoice Submission Schedule (RFP Section 3.3.2)....................................................................... 283\n3.3.3 Deliverable Invoicing (RFP Section 3.3.3) ..................................................................................... 283\n3.3.4 State Withholding Payment (RFP Section 3.3.4) .......................................................................... 284\n3.3.5 Travel Reimbursement (RFP Section 3.3.5) .................................................................................. 284\n3.3.6 Accountability and Transfer of Fees (RFP Section 3.3.6) ............................................................. 284\n3.4 Liquidated Damages (RFP Section 3.4)................................................................................................ 286\n3.4.1 MBE Liquidated Damages (RFP Section 3.4.1) ....................................................."
+    },
+    {
+      "chunk_id": 3620,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 15,
+      "content": "Jessica Mettle\nthe State Department of Transportation\nVehicle Emissions Inspection Program Management and Operation, RFP Number the procurement\nJune 12, 2024\nPage 3\nParsons has endeavored to provide a quality, high-value technical solution to the requirements of this RFP. In the nearly\n15 years that have passed since the previous competitive bid process, significant structural changes have been\nimplemented in the program, including an extended model-year exemption; 50% increases in Living Wage and\nassociated supervisory compensation requirements, historic inflation, and supply chain pressures; modified liquidated\ndamages penalty clauses; and the sustained idle test requirement. From this, Parsons provides an effective and\nefficient overall technical and price offering and looks forward to discussing how cost savings could be implemented in\nthe future to continue to drive value into the program for the the State over the next 10 years.\nParsons accepts all State RFP and Contract terms and conditions. As stated in our Executive Summary, Parsons takes\nno exceptions to any of the contractual provisions outlined in the RFP.\nParsons fully comprehends the nature of the tasks involved in th"
+    },
+    {
+      "chunk_id": 3621,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 15,
+      "content": "ard of a contract, for the completion of all the work required, within the proposed schedule.\nParsons\u2019 eMaryland Marketplace (eMM) vendor number is 259737.\nParsons acknowledges receipt of Addenda Nos. 1-16 to RFP Number the procurement.\nWe welcome the opportunity to work with the State, share our experience and expertise, satisfy customers, and perform\nflawlessly. Should you require any clarification or further information regarding our proposal submission, please contact\nthe following:\nContact Phone Email\nRobert Suess, Senior Vice President 571.591.3516 Robert.Suess@parsons.com\nJim Valerio, Senior Program Director 240.687.6408 James.Valerio@parsons.com\nSincerely,\nJim Valerio Robert Suess\nProposed Program Manager Senior Vice President and Proposed Corporate Executive Sponsor\nSignature authority documents are provided on the following page.\nContact | Phone | Email"
+    },
+    {
+      "chunk_id": 3678,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 43,
+      "content": "waii: New program implementation of a modernized safety inspection system to over 700 station\nlocations across six islands\nParsons will deliver a more convenient, stable, and customer-focused\nprogram. The State will experience a noticeable difference in the oversight,\nmanagement, communication, and delivery from our dedicated team while\nthe quality of our solution ensures its success. We\u2019ve included\ncontingencies for the on-time delivery of all proposed services and a realistic implementation schedule to\nensure shared success through a smooth transition.\nWe will implement the technology refresh, including the successful transition of test equipment hardware\nand software, the VID, and associated systems for measuring the Inspection Program test data between the departure of the\nincumbent contractor and the mutually determined go-live date. Before that cut-over, Parsons and its\nsubcontractors will work with the incumbent and the State to perform key demolition and the Inspection Program facilities\nupgrades between the NTP in October 2025 and the stated preferred Go-Live of Spring 2025. We propose\ndoing this work over weekends and nights, following a formal schedule developed by our p"
+    },
+    {
+      "chunk_id": 3682,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 44,
+      "content": "tion, and approval\n\u2022 PMO procurement and fit-out for Parsons\u2019 staff, as proposed\n\u2022 Training by Parsons and certification by the State of all proposed Parsons staff at least 15 days before new program\nstartup necessary for operation of the the Inspection Program Stations\n\u2022 Successful completion of SAT Plan, as proposed, no later than one month before go-live date\n\u2022 Successful testing and prepared implementation of backup and contingency plan to prevent unscheduled delay of the Inspection Program\noperation due to unforeseen problems\n\u2022 All other associated RFP requirements consistent with the items offered above\nPHASE 2 WORK \u2013 LIST OF DELIVERABLES:\n\u2022 the Inspection Program Station modifications and enhancements as proposed, including:\n\u25aa Decommission all unnecessary equipment and materials\n\u25aa Demolition of all non-required waiting areas and booths\n\u25aa Installation of new waiting benches in each lane and test position\n\u25aa Installation of new equipment booth enclosures\n\u25aa Replacement of all required HVAC systems at all the Inspection Program Stations\n\u25aa Installation of new HVAC to new equipment booth enclosures\n\u25aa Repainting and refinishing of walls and floors at all the Inspection Program Stati"
+    },
+    {
+      "chunk_id": 3685,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 44,
+      "content": "\u2022 PMO procurement and fit-out for Parsons\u2019 staff, as proposed |  | \n |  | \u2022 Training by Parsons and certification by the State of all proposed Parsons staff at least 15 days before new program |  | \n |  | startup necessary for operation of the the Inspection Program Stations |  | \n |  | \u2022 Successful completion of SAT Plan, as proposed, no later than one month before go-live date |  | \n |  | \u2022 Successful testing and prepared implementation of backup and contingency plan to prevent unscheduled delay of the Inspection Program |  | \n |  | operation due to unforeseen problems |  | \n |  | \u2022 All other associated RFP requirements consistent with the items offered above |  | \n |  | PHASE 2 WORK \u2013 LIST OF DELIVERABLES: |  | \n |  | \u2022 the Inspection Program Station modifications and enhancements as proposed, including: |  | \n |  | \u25aa Decommission all unnecessary equipment and materials |  | \n |  | \u25aa Demolition of all non-required waiting areas and booths |  | \n |  | \u25aa Installation of new waiting benches in each lane and test position |  | \n |  | \u25aa Installation of new equipment booth enclosures |  | \n |  | \u25aa Replacement of all required HVAC systems at all the Inspection Program Stations |  | \n |"
+    },
+    {
+      "chunk_id": 3692,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 46,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\nOUR PRE-PREPARED TRANSITION PLAN\nALLOWS US TO HIT THE GROUND RUNNING AT NTP\n\uf0a7 Equipment Staging \uf0a7 the Inspection Program Kiosks - Fast Transition Plan\n\uf0a7 Site Surveys \uf0a7 the Inspection Program Station Weekend Switchover / go-live\n\uf0a7 Staff On-Boarding and Training \uf0a7 Available After Startup\n\uf0a7 Refresher Training \u2013 go-live weekend \uf0a7 Phase II Facilities Transition Activities\n\uf0a7 Transition War Room \uf0a7 Phase II Mobilization\n\uf0a7 Equipment Suppliers \uf0a7 the Inspection Program Station Modifications\n\uf0a7 Pre-Startup SAT \uf0a7 Existing Equipment & Hardware Reuse\n\uf0a7 Estimated Time to Completion Breakdown \uf0a7 Construction Manager and Subcontractor\nfor the Inspection Program Stations and Kiosk Conversion Management\n\uf0a7 Three-Day the Inspection Program Station Mobilization, \uf0a7 MAC Lane Conversion\nincluding the named team of 18 Parsons\nleads and support teams (nearly 100 people\nready to go for the week of and week\nfollowing go-live)\nWe look forward to discussing the details and proposed schedule of our Transition Plan with the MDOT the State Motor Vehicle agency\nand MDE immediately following contract award.\n2.3.1.1.4 Final the Inspection Program Station Transition Plan (RF"
+    },
+    {
+      "chunk_id": 3693,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 46,
+      "content": "ion while abiding by all\nguidelines and restrictions described in Section 2.3.1.1 and\n\uf0a7 a Microsoft Project Gantt chart (Appendix A) outlining all major Work Plan activities with dates and\ndurations.\nWe welcome the State\u2019s review of this Plan, which we will submit within 30 days after award. We\u2019ll schedule\na Plan-specific meeting immediately following receipt of NTP. With State approval, we\u2019ll execute and\nimplement the Plan as described in the following section responses.\n2.3.1.1.4.A Transition of Program (RFP Section 2.3.1.1.4.A)\nWe propose an acceptance process for test equipment and other the Inspection Program Station operation equipment at our\nlocal office/warehouse facility to fully simulate the the Inspection Program Station testing experience. This will be part of the\nSAT approval process with the the State and will be ported to the the Inspection Program Station lanes once we have\naccess and prior to the SAT completion requirement date specified in the RFP. As noted previously, we\nencourage State participation throughout the transition period to ensure a smooth deployment approved\nbefore the first new Program inspection.\n2.3.1.1.4.B Transition Access (RFP Section 2.3.1.1.4"
+    },
+    {
+      "chunk_id": 3694,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 46,
+      "content": "o facilities before\nthe go-live weekend. As part of our Transition Plan, we will request from the\nState and incumbent contractor exterior site surveys conducted in\ncooperation with our subcontractors. These joint visits will ensure the proposed work is completed on time\nand that all assessments and quotations remain accurate and comprehensive. We understand we\u2019ll have\nfull access to the Inspection Program Stations when incumbent operations have ceased and been decommissioned. Our\ntransition schedule includes removal of incumbent-owned testing equipment by the third month following\nthe new the Inspection Program\u2019s full operational go-live startup.\n32 Tab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan\n |  | OUR PRE-PREPARED TRANSITION PLAN |  |  | \n |  | ALLOWS US TO HIT THE GROUND RUNNING AT NTP |  |  | \n | \uf0a7 Equipment Staging\n\uf0a7 Site Surveys\n\uf0a7 Staff On-Boarding and Training\n\uf0a7 Refresher Training \u2013 go-live weekend\n\uf0a7 Transition War Room\n\uf0a7 Equipment Suppliers\n\uf0a7 Pre-Startup SAT\n\uf0a7 Estimated Time to Completion Breakdown\nfor the Inspection Program Stations and Kiosk Conversion\n\uf0a7 Three-Day the Inspection Program Station Mobilization,\nincluding the named team of 18 Parsons\n"
+    },
+    {
+      "chunk_id": 3709,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 50,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\n2.3.1.1.4.M MAC Lanes (RFP Section 2.3.1.1.4.M)\nAs described in our response to Section 2.3.1.23, converting one lane at each the Inspection Program Station to support\nenhanced MAC activities will allow for quick, seamless conversion of the lane to a full-service testing lane\nshould the demand arise during normal operating hours. We will not allow MAC equipment or operation to\ninterrupt safe, convenient, and efficient testing of vehicles presented for normal the Inspection Program tests.\nOur solution for staffing MAC Lanes provides the best resources in the industry under an efficient, scalable\ndelivery system. Scalability will allow the MAC Lanes to accommodate higher public demand as the need for\nmore effective vehicle emissions repairs increases. This approach will improve the the Inspection Program\u2019s effectiveness by\nmatching support resources with public demand for testing older vehicles as well as newer, increasingly\ncomplex vehicles with more complex emissions failures.\n2.3.1.1.4.N Work Agenda (RFP Section 2.3.1.1.4.N)\nThe first section of the Appendix includes a detailed Work Agenda (Gantt chart) that clearly delineates the\nPh"
+    },
+    {
+      "chunk_id": 3710,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 50,
+      "content": "e State will occur by Spring 2025, but the schedule can be adjusted day-for-day should award and\ncontract negotiations require such a shift. Our Gantt chart includes the major transition items of our\nproposal to ensure all required transition items are completed no later than 15 months following NTP. We\nwelcome the opportunity to discuss our plan in greater detail during contract negotiations to ensure the most\nadvantageous transition for the State while simultaneously reducing or, when possible, eliminating risk.\nThe SAT Agenda (Section 2.3.3.4.3) provides a detailed description of how we will develop and test our\nproposed test equipment, VID, FIS solution, self-service kiosk, and the Inspection Program Station systems.\n2.3.1.1.4.O Types and Quantities of Inspection Equipment (RFP Section 2.3.1.1.4.O)\nOur financial proposal includes details of equipment types, quantities, and replacement costs. Except in\nextenuating circumstances\u2014such as with four-gas analyzers and other obsolete equipment--we will install\nnew, unused equipment of the latest model and technology and will track each replaced or added item per\ninstallation location and required details. We will send the State copies"
+    },
+    {
+      "chunk_id": 3736,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 57,
+      "content": "ts customer service measures and feedback tools, analyzes customer input,\nand provides recommendations for improvement. Listening is one part of our customer service strategy, and\nacting is the other. Our customer service team reviews the results with the Program Manager at planned\nintervals. Using the collected data, we identify opportunities for improvement and trends at specific facilities.\nWhen appropriate, we deliver additional training and correct SOPs. We contact motorists who request a call,\ndirectly continuing their customer service experience. The Program Manager updates the State during\nscheduled team meetings, and the data is posted to the SharePoint site and in quarterly reports to the State.\n2.3.1.1.4.Q.14 Self-Service Kiosk Testing Fee (RFP Section 2.3.1.1.4.Q.14)\nWe acknowledge and accept the requirement that any self-service test administered under the the Inspection Program will\ncarry the $10 test fee, reduced from the standard $14 fee for full-service inspections.\n2.3.1.1.4.R Staffing Plan (RFP Section 2.3.1.1.4.R)\nOur Transition Plan contains detailed information concerning our proposed\nstaff. This plan covers our dedicated staff for each stage of work we will\np"
+    },
+    {
+      "chunk_id": 3753,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 61,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nBefore that cut-over, Parsons and its subcontractors will work with the incumbent and the State to perform\npriority demolition and the Inspection Program facilities upgrades in the weeks leading up to and shortly following the go-live\ndate. We propose doing this work at night and over weekends, following a formal schedule developed by our\nproposed MBE General Contractor and approved by the State. This implementation method will ensure the\nsmoothest transition and mitigate potential risk.\nIn the event of something completely unforeseen, with State approval and oversight, we\u2019ll work with\nincumbent contractor management and senior leadership to ensure a seamless, uninterrupted transition for\nthe motoring public. We\u2019ll achieve a smooth startup, regardless of incumbent support.\n2.3.1.1.4.W Anticipated Needs or Requirements During Transition Period (RFP Section 2.3.1.1.4.W)\nWe\u2019ve reviewed the RFP and developed our proposal respective to timeframe requirements. We do not\nanticipate any additional State needs beyond the necessary approvals during the SAT, "
+    },
+    {
+      "chunk_id": 3755,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 61,
+      "content": "thin 10 days of\nNTP. Also, we\u2019ve secured an exclusive partnership with Revecorp to provide SAT support, including assisting\nwith test scripts, reviewing results with the State, and offering guidance.\n2.3.1.1.5.A Demonstration of Operational Readiness (RFP Section 2.3.1.1.5.A)\nEnsuring the State has the utmost confidence in the the Inspection Program inspection system is an important aspect of\nprogram transition success. We\u2019ll build this confidence with the State by successfully demonstrating the\noperational readiness of the proposed the Inspection Program inspection system, including inspection positions, lanes, and\nstations, for State representatives. We\u2019ll include, at a minimum, the specified inspections and tests listed in\nRFP Section 2.3.1.1.5.C, as well as randomized and staggered system checks of other aspects of the\nsystem, as agreed upon with State input. If any discrepancies are discovered during the demonstration, we\u2019ll\ncorrect them within 48 hours and schedule an SAT retest.\nWe understand the State may request a demonstration of the SAT inspections and tests using a random\nselection of vehicles tested conventionally at maximum lane capacity and with on-site data access t"
+    },
+    {
+      "chunk_id": 3757,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 62,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\ntest records and printed inspection certificates to determine if the system performed all specified functions\nto its satisfaction.\n2.3.1.1.5.B Test Demonstration Schedule (RFP Section 2.3.1.1.5.B)\nWe will prepare for SAT demonstrations to be completed within 45 days of the operational start of the entire\ntesting network. This will ensure the technology and operational readiness necessary to demonstrate the\nsame to the the State Motor Vehicle agency and MDE.\n2.3.1.1.5.C Equipment Testing (RFP Section 2.3.1.1.5.C)\nOur SAT Agenda will weave together development and testing in line with our Agile development practices. As\nwe complete each development module, we\u2019ll perform both internal Acceptance Testing and SAT on the\nassociated functionalities to measure performance and identify possible issues before completing additional\ndevelopment. This approach will increase the efficiency and accuracy of subsequent development by\nensuring we\u2019re building on a verified, functional foundation. Also, intermediate modular SAT demonstrations\nwill provide assurance of the development progress. The Acceptance Testing and SAT for each development\nmodule wi"
+    },
+    {
+      "chunk_id": 3759,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 62,
+      "content": "ties and FIS stations. In addition to the complete testing of representative systems, we\nwill also perform spot-checks and regression testing to the satisfaction of the State on additional configured\nsystems before implementation to further reinforce the system readiness. Any unsatisfactory SAT result will\nbe addressed within 48 hours and scheduled for a retest.\nOur SAT Agenda will cover all required inspection equipment, the Overall Central Data System, system\nsecurity requirements, and data transfer requirements with the State. We will ensure that all inspection\nequipment and related devices work reliably as described in RFP Section 2.4.2, communicate with required\nsubject vehicles, collect required vehicle and inspection data accurately, and meet applicable quality control\n(QC) parameters. The SAT will demonstrate the VID\u2019s ability to collect, store, and report vehicle test data,\nrepair data, and QA/QC records; determine accurate pass/fail/reject test decisions; conduct monetary\ntransactions; and support simultaneous testing and other system requests over the entire the Inspection Program network.\nParsons\u2019 SAT Agenda will verify the system\u2019s ability to securely receive and manag"
+    },
+    {
+      "chunk_id": 3764,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 63,
+      "content": "y and associate required in RFP Section 2.3 from the State\nrecords with proper vehicle test\n\u25aa Transmit data real-time to Customer Connect \u25aa Produce/reproduce all VEICs and reports\nin required formats\n2.3.1.2 Contractor-Supplied Hardware, Software, and Materials (RFP Section 2.3.1.2)\n2.3.1.2.A State\u2019s Right to Purchase (RFP Section 2.3.1.2.A)\nParsons agrees that the State will have the right to purchase any software, hardware, or hosting service we\npropose from sources other than Parsons. Our proposal includes new Windows-based PCs, new inspection\nsoftware, new pass-through OBD II interface devices, emissions analyzers and gas cap testers capable of\ntesting all subject vehicles, new 2D barcode scanners, and all peripheral equipment for the the Inspection Program Stations,\nand FIS locations. Parsons will discuss with the State the impact of the implementation schedule before\nmaking the change.\nTab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan 49\n | \nExhibit D-2.3.1.1.5.C.: Equipment SAT | \nOBD and Kiosk | \n\u25aa Equipment durability | \u25aa Communicate with KWP, VPW, PWM, | \u25aa Capture and record to database all data\n | ISO, controller area network (CAN), and | elements inc"
+    },
+    {
+      "chunk_id": 3790,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 69,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\n\uf0a7 Administering triple-tandem (three vehicles, one ahead of the other, per lane) testing positions, in some\ncases, to temporarily increase lane capacity during peak vehicle arrival periods\n\uf0a7 Integrating supplemental testing technology, with State approval, using tablet-based hardware and\nwireless OBD scan tools throughout the facility and data entry in the queuing area\n\uf0a7 Maximizing the Inspection Program Station layout to allow for the harmonious operation of traditional testing, MAC Lane\noperation, in-lane self-service testing, exterior self-service testing, and queue/parking lot data entry by\nthe Inspection Program Station management\nThese features make sure that each test lane will be complete and fully functional but not less than the\nindividual components as specified in Appendix 7 of the RFP.\nWe understand the projected testing volumes provided in Appendix 7 of the RFP, and we will structure our\nteam to allow for fluctuations across each month and each week for the duration of the new Program\ncontract terms. We understand increases and decrea"
+    },
+    {
+      "chunk_id": 3791,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 69,
+      "content": "data changes and updates. We also understand that occasional variations in arrival patterns\nmay occur due to the incidence of holidays and other nonrecurring, external forces upon the program. Using\na notification system that automatically alerts the Operations and Station Manager when the wait time\nrequirement nears exceedance, we\u2019ll coordinate available resources to handle increased inspection\ndemand. Also, as certified lane inspectors, dedicated Parsons the Inspection Program staff can assist any station at any time\nwith vehicle inspections. Our constant communication and early deployment of resources ensures that wait\ntimes remain at a minimum even during peak operating times and capacity.\nWe believe that open communication between Program Key Personnel and appropriate the State Motor Vehicle agency and MDE staff\nensures issues are discussed in advance and addressed in a mutually agreeable manner. We prepare Key\nPersonnel to address issues or incidents affecting arrival patterns at any location in real-time, notify\nappropriate State personnel, and proceed with a remedial plan based upon the needs of the situation.\nFinally, within one business day, we send the State a summary of"
+    },
+    {
+      "chunk_id": 3799,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 71,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\ncustomer has registered their email address, a PDF version of the VEIC will be sent at the end of the\ninspection. If the motorist prefers a printed VEIC at the time of their inspection, it can be printed at the\ncustomer service office at any the Inspection Program station.\nWhile we acknowledge that the weekly test volume will remain relatively level, we are prepared to handle a\n\u00b110% variation in testing distribution during the contract period.\n2.3.1.6.D the Inspection Program Notices (RFP Section 2.3.1.6.D)\nWe understand customers are notified by email before their scheduled due date. Upon receipt of this email,\ncustomers are encouraged to visit any of the 28 currently operating testing locations (18 the Inspection Program stations and\n10 self-service kiosks). As required in RFP Section 2.3.1.25.3 Data Collection and Transfers, we\u2019ll ensure\nany the State-registered vehicle presented that is within six months prior to the initial testing due date is\ntested and that test is recorded as a scheduled test, and results are updated real-time. Compliant em"
+    },
+    {
+      "chunk_id": 3804,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 72,
+      "content": "recommended lighting levels for all entrances, exits, queueing and parking areas during non-\ndaylight hours. Parking areas and queuing areas will be illuminated during operating hours. There will be\nadequate lighting levels in all areas of inspection stations for security purposes, including when the stations\nare not open for business.\nThere will be permanent signs at each inspection station that identifies the station as an inspection facility.\nThe signs will state the hours of operation and will be illuminated during non-daylight hours to be easily\nreadable after dark. The signs and lettering will be large enough to be read from the nearest adjacent\nroadway. There will also be signage for directing traffic to the inspection lanes, entry and exit of inspection\nlanes, office/customer service area, and kiosk location (if present at station). All sign designs will be\napproved by the State prior to installation.\nThe offices and customer service areas at each station are of sufficient size to accommodate the required\nfunctions and personnel. Each station has a dedicated office for the full-time station manager, an employee\nrest and lunch area, an employee change and locker area, and re"
+    },
+    {
+      "chunk_id": 3807,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 73,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nAll centralized stations will have a network video recorder (NVR) to record all testing positions as described\nin Section 2.3.12. The NVRs will capture and retain images for a minimum of 90 days with daily backups for\nboth on-site and off-site storage. Each kiosk will be equipped with a camera for monitoring self-inspections.\nWe will provide the State Motor Vehicle agency with images and reports within 10 calendar days after notification for any Vehicle\nDamage Claim, Damage or Destruction to the station, or any other claims.\nThe kiosks will be designed to monitor and report on customer use and any potential difficulties using the\nkiosk. They will be designed to deter crime.\n2.3.1.7.2 Cessation of the Contract (RFP Section 2.3.1.7.2)\nOne month before the contract ends, we\u2019ll perform detailed inspections of each the Inspection Program facility with the State\nand prepare an inventory recording the agreed upon condition of each facility component.\nThree months before the contract ends, we\u2019ll work closely with the State to inventory all State assets and"
+    },
+    {
+      "chunk_id": 3818,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 75,
+      "content": "al Lanes at Existing Facilities (RFP Section 2.3.1.7.9)\nWe\u2019ll submit to the State a cost justification for constructing additional lanes if volumes at a site increase\nabove the existing lane capacity. Once the State approves the needs assessment, the State will provide\nminimum requirements for permitting, constructing, and equipping any new lanes to Parsons. We will then\nsubmit a proposal with detailed construction specifications, costs, and schedules for each additional lane\nneeded. If the State concurs with the assessment, we\u2019ll negotiate a Supplemental Agreement regarding cost\nof additional lane(s). Once approved, work will be executed via a mutually agreed upon change order or\nmodification to the the Inspection Program contract.\nBased on our experience, we do not anticipate a need to expand the current network of 18 the Inspection Program Station\nlocations. Should construction of a new facility be required, we\u2019ll work closely with the State to identify the\nbest location, procure the required land, and design and build the appropriate the Inspection Program Station facility using\nmutually agreed upon specifications. We acknowledge this work would be completed under administratio"
+    },
+    {
+      "chunk_id": 3827,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 77,
+      "content": "daptors, hoses, filters, calibrations gases, monitors, printers, barcode scanners, fuses, and\nbatteries. These items at a minimum will be included in the station inventory. Additionally, our proposed\napplication-controlled maintenance schedule ensures identification of potential hardware failures, which\nincreases lane efficiency and helps identify issues quickly and accurately.\nAny time an item is taken from inventory and placed into service, we\u2019ll request a replacement. Reorders for\nspare inventory take less than 72 hours to fulfill. We will work with the State to ensure the proposed\nitemized minimum quantity of spare inventory for each station meets the State\u2019s approval.\n2.3.1.8.F Technician-Installed Spare Part Inventory (RFP Section 2.3.1.8.F)\nWe recognize that some components and equipment associated with the inspection process may require a\ntechnician to install. Our inventory system is configured to be managed locally at the station, performing in\nan online and offline scenario equally but synchronizing in real-time to our central database when online.\nOur maintenance facility has access to the most current inventory numbers for every inspection station. We\nwill provide and "
+    },
+    {
+      "chunk_id": 3835,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 79,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nCONCLUSION\nWe recognize that the core of the the Inspection Program stations and kiosks is solid test equipment software and hardware\nsolutions such as tablets, plug-and-play equipment, and smart device technology. To this end, Parsons will\nprepare the appropriate contingencies to ensure smooth operation of the test equipment during all operational\nhours (24/7 for the Inspection Program kiosks). We prepare all staff\u2014from Lane Inspectors to the Program Manager\u2014to handle\nhardware and software issues in a timely manner necessary to restore test equipment capability and avoid\ncustomer service disruptions.\n2.3.1.9 Station Operating Schedule (RFP Section 2.3.1.9)\nTo best serve the State\u2019s motorists, we\u2019ll maintain a uniform operating schedule across all the Inspection Program stations. Based\non our long experience operating similar inspection facilities for the State of New Jersey, we know a dependable\nand predictable operating schedule will help State motorists know when\nthey can expect to receive their required inspections. We also provide the\nflexibil"
+    },
+    {
+      "chunk_id": 3836,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 79,
+      "content": "ntain the schedule as directed by the State and outlined in the RFP for every the Inspection Program station. Our\ncommitment to the highest level of customer service dictates that all customer vehicles on the Inspection Program station\nproperty at the time of closing will get inspected, and we will not turn away a single motorist. Each the Inspection Program\nstation will follow the operating hours stipulated by the State Motor Vehicle agency and the Contract.\nThe the Inspection Program stations will adhere to and observe the same holiday schedule and regular office closing schedule\nas the State Motor Vehicle agency. To best support motorist inspection needs, we\u2019ll maintain kiosk operations throughout the State so\nthat the external kiosks are available for customer use 24 hours per day, 7 days per week, including on\nState-observed holidays. The expanded self-service tablet solution maintained inside of inspection facilities\nwill be available for use during the facility operating hours.\n2.3.1.10 Adverse Weather and Emergency Conditions (RFP Section 2.3.1.10)\nFEATURES OF OUR APPROACH BENEFITS TO MARYLAND\nProven Safety Standards Our focus on safety is recognized by the NSC and we activ"
+    },
+    {
+      "chunk_id": 3850,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 82,
+      "content": "tment, and we will\nengage them through the life of the contract to help develop and implement best practices and to ensure\nsafety remains a top priority for lane operations and field support efforts.\n2.3.1.10.E State Notification (RFP Section 2.3.1.10.E)\nOur proposed team of program management staff will establish immediate, direct communications with\nappropriate State personnel during emergencies. These direct communications practices will include text\nmessaging, email, mobile and home phone numbers, and any other preferred means by the the State Motor Vehicle agency to ensure\ntimely communications in the days, hours, and minutes leading up to facility and Program opening. Given\nthat the Inspection Program hours of operation differ slightly from the State Motor Vehicle agency branch operating hours, all the State Motor Vehicle agency stakeholders must\nunderstand any impact on the Inspection Program opening or ongoing operation during these specific hours of operation.\nIn our New Jersey vehicle inspection program, we created\nExhibit D-2.3.1.10.E: ParText Messaging System\nParText (Exhibit D-2.3.1.10.E), an all-in-one bulk SMS\nservice. With the ability to send bulk alerts and\nmessage"
+    },
+    {
+      "chunk_id": 3863,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 85,
+      "content": "ack. If the customer is at the station, the Station Manager will speak to the motorist\ndirectly and make every effort to resolve the issue during the motorist\u2019s visit. If the motorist is no longer at\nthe station, follow up will occur via the motorist\u2019s specified preferred contact method, generally by phone or\nemail. We\u2019ll follow up directly with motorists within two business days following the filing of a complaint or\nreported issue to communicate progress on the matter, discuss the issue resolution, and/or to ensure the\nmatter was resolved to their satisfaction.\nAll comments, positive and negative, will be fully documented and captured electronically in our VID portal\nfor active and historical references. Our Program Manager will provide all feedback reporting, as well as\ncomplaints, to the State at regularly scheduled meetings.\nTab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan 71"
+    }
+  ]
+}

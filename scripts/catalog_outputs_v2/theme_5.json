@@ -1,0 +1,137 @@
+{
+  "title": "Facilities, Buildings & Grounds Stewardship for Inspection Station Networks",
+  "capability_statement": "Parsons brings the program-management depth of an $80-year, $5.4B-annual-revenue engineering and operations firm with 18,000+ employees and a vehicle inspection compliance division of more than 500 professionals available regionally to take operational responsibility for the buildings, grounds, and on-site equipment supporting an inspection-facility portfolio. Across our concurrent state and provincial inspection programs (PennDOT, Vermont DMV, Hawaii DOT, Texas DPS, Ontario MOECC, and the existing Northeast hybrid I/M program) we already coordinate station-level facility access, security sign-in/sign-out, on-site equipment deployment, software certification, ATP-driven equipment testing, building maintenance, and field-service dispatch across thousands of inspection lanes. Beyond inspection facilities, Parsons holds large active vehicles for hands-on facility design, construction, and maintenance work that directly map to the trade scope of this RFP: the U.S. Air Force Comprehensive Construction & Engineering MATOC ($15B ceiling, 5-year base + 5 option years for global facility design, construction management, maintenance, renovation, and restoration), the Pacific Deterrence Initiative MACC NAVFAC IDIQ ($15B ceiling for design and engineering of runways, hangars, waterfront facilities, and energy/fuel storage), the MDA Real Property Program ($104.2M for facility restoration/modernization), the AFCEC Environmental Services Contract for PFAS ($1.5B ceiling), the McMurdo Station (Antarctica) update and rebuild, and the $100M Nammo munitions-facility design/construction task order. Our regional office structure (currently three I/M regional offices plus centralized headquarters and full remote-work capability proven during COVID-19) provides the dispatch-and-coverage model needed to deliver routine janitorial, grounds-keeping, snow-removal, HVAC, electrical, plumbing, alarm, and structural maintenance on a multi-site portfolio where some sites are wholly contractor-occupied and others are shared. We bring a documented quality-assurance framework, financial-stability profile (publicly traded NYSE:PSN, more than 60 percent owned by the Parsons Employee Stock Ownership Trust, three years of audited financials available) sufficient to fund routine service and maintenance at our own expense and to carry monthly utility, alarm, and rental obligations, and an SCM-style procurement and approval workflow already used for capital decisions, escrow controls, third-party quotes, and proof-of-purchase documentation. Our facility assessment, capital planning, and OEM-aligned preventive-maintenance discipline applied today to inspection equipment translates directly to building-systems planning, the annual master inventory list, and the standardized PM/structural/property-repair Plan required within 180 days of contract effective date. For shared co-located areas we will operate to the SCM-approved scope at no additional charge, hold three independent quotes for remediation work, secure written approval before alterations, and conduct single-lane maintenance outside posted hours so motorist-facing operations are not interrupted.",
+  "named_past_performance": [
+    {
+      "name": "U.S. Air Force Comprehensive Construction & Engineering MATOC",
+      "scope": "Multiple-Award Task Order Contract, December 2025, $15B ceiling, 5-year base plus 5 option years, for global facility design, construction management, maintenance, renovation, and restoration. Establishes Parsons-direct (not subcontractor-only) capacity for the trade scope (HVAC, electrical, plumbing, structural, paving, roofing) called out in this RFP at portfolio scale.",
+      "outcome": "Active prime-contract relationship for facility maintenance, renovation, and restoration at global scale, demonstrating qualification as a facility-trades prime to a federal customer on a competitively awarded MATOC.",
+      "source_chunk_ids": [3538]
+    },
+    {
+      "name": "Pacific Deterrence Initiative MACC (NAVFAC)",
+      "scope": "Multiple Award Construction Contract, November 2025, $15B ceiling, 5-year base plus three 1-year options, for design and engineering of projects exceeding $100M scope including runways, hangars, waterfront facilities, and energy/fuel storage in Australia, the Philippines, and U.S. territories.",
+      "outcome": "Active vehicle for hands-on, large-scope facility design and construction work in remote and harsh-climate jurisdictions, evidencing Parsons' delivery of facility/grounds/utility-system projects under SLA-grade conditions.",
+      "source_chunk_ids": [3538]
+    },
+    {
+      "name": "MDA Real Property Program",
+      "scope": "2022 award, $104.2M, for facility restoration and modernization for the Missile Defense Agency, leveraging Parsons' 40-year MDA engineering and technical advisory relationship.",
+      "outcome": "Direct precedent for facility restoration/modernization on a federal real-property portfolio, the closest single-contract analogue in the dossier to the SCM-approved capital-repair, alteration, and structural-replacement workflow this RFP requires.",
+      "source_chunk_ids": [3528]
+    },
+    {
+      "name": "AFCEC Environmental Services Contract for PFAS",
+      "scope": "April 2025, $1.5B ceiling, environmental services prime contract for the Air Force Civil Engineer Center addressing PFAS remediation across multiple installations.",
+      "outcome": "Demonstrated capacity to lead a multi-installation environmental-remediation prime contract at $1.5B scale; relevant for the RFP's facility-environment, DEP-approved supplies, and remediation-quote requirements.",
+      "source_chunk_ids": [3538]
+    },
+    {
+      "name": "$100M Nammo Munitions Facility Task Order",
+      "scope": "December 2025, $100M task order for rocket-motor manufacturing facility design and construction in Perry, FL, supporting DoW Acquisition Transformation Strategy.",
+      "outcome": "Recent single-task-order facility design-and-construction win at $100M scale, illustrating active hands-on construction prime delivery at a scale that exceeds typical CIF capital-renovation events.",
+      "source_chunk_ids": [3539]
+    },
+    {
+      "name": "McMurdo Station (Antarctica) Update and Rebuild",
+      "scope": "Update and rebuild of the U.S. Antarctic research station, listed as part of Parsons' Water and Environmental portfolio.",
+      "outcome": "Demonstrated facility update/rebuild capability under extreme-climate logistics constraints, evidencing the project-management discipline relevant to grounds, snow-removal, and severe-weather response on a remote station portfolio.",
+      "source_chunk_ids": [3538]
+    },
+    {
+      "name": "PennDOT Vehicle Emissions I/M Program (1997 to present)",
+      "scope": "Program management of one of the largest decentralized I/M programs in the United States, including station and equipment management across approximately 8,200 inspection stations in 25 counties; on-site equipment deployment, calibration, ATP, software certification, audits, regional office network in Pittsburgh, Harrisburg, and Philadelphia providing dispatchable coverage for site visits.",
+      "outcome": "Continuous program operation since 1997 supporting nearly 7 million inspections projected by 2025; multi-site field operations that mirror the dispatch model needed for routine facility maintenance, grounds, and janitorial coverage; 99.99% VIID uptime since October 2012.",
+      "source_chunk_ids": [1927, 1968, 1987, 2027, 2036]
+    },
+    {
+      "name": "New Jersey Motor Vehicle Inspection System (1998 to 2024)",
+      "scope": "Project and operations management of the Enhanced I/M Program including VIID development, equipment ATP, software certification, motorist call center, and on-site station management at 12 centralized inspection stations.",
+      "outcome": "12 stations achieved OSHA Voluntary Protection Program (VPP) status under Parsons' operations, demonstrating sustained workplace safety, housekeeping, and facility-condition discipline at occupied operating sites; 99.99% uptime since October 2013.",
+      "source_chunk_ids": [1987, 1988, 1990, 2027]
+    },
+    {
+      "name": "Vermont Automated Vehicle Inspection Program (Vermont DMV, 2016 to present)",
+      "scope": "Program management including a 6-month, 1,200-facility implementation requiring on-site equipment deployment, station coordination, and access procedures across the entire facility portfolio.",
+      "outcome": "Successful 6-month implementation across 1,200 facilities with sticker printing-on-demand, evidencing the multi-site mobilization tempo that supports a contractor-of-record taking over facilities, buildings, and grounds responsibility; 99.99% uptime since January 2016.",
+      "source_chunk_ids": [1987, 2027]
+    },
+    {
+      "name": "Texas Automated Vehicle Inspection (Texas DPS, 2006 to present)",
+      "scope": "Program and software management including equipment software updates and field service across 6,700 private inspection stations in a decentralized program, with a service call ticketing and response tracking system.",
+      "outcome": "Equipment software updates pushed to 6,700 stations within four months of award, with a comprehensive service call ticketing and response tracking system integrated for ongoing field-service dispatch.",
+      "source_chunk_ids": [1988, 1991, 1992]
+    },
+    {
+      "name": "Ontario Integrated Vehicle Safety and Emissions Inspection Program / DriveON (Ontario MOECC, 1999 to 2028)",
+      "scope": "Program and operations management of the LDV emissions program including facility certification, inspector training, fee collection, and migration of program systems to AWS without service interruption to existing emissions stations.",
+      "outcome": "Successful transition of the Ontario Heavy-Duty Emissions program to AWS cloud with no service interruption or facility impact to the existing emissions stations; 100% uptime on DriveON since April 2022.",
+      "source_chunk_ids": [1993, 2027]
+    },
+    {
+      "name": "Hawaii Electronic Periodic Motor Vehicle Inspection Program (Hawaii DOT, 2013 to present)",
+      "scope": "Program and operations management, station billing, tablet-based software development, and statewide implementation including station outreach across the Hawaii station network.",
+      "outcome": "Met a four-month implementation timeline and rolled out sticker printing-on-demand across the program; 99.99% uptime since November 2013; demonstrated short-cycle multi-site mobilization across geographically distributed facilities.",
+      "source_chunk_ids": [1988, 2027]
+    }
+  ],
+  "quantified_outcomes": [
+    {
+      "metric": "Active facility design/construction/maintenance contract ceiling under direct Parsons prime",
+      "value": "$15B USAF Comprehensive Construction & Engineering MATOC + $15B Pacific Deterrence Initiative MACC + $1.5B AFCEC PFAS + $104.2M MDA Real Property + $100M Nammo task order",
+      "context": "Establishes the corporate-prime envelope under which Parsons delivers exactly the trade scope (HVAC, electrical, plumbing, structural, paving, environmental remediation) the RFP places on the Contractor for inspection-facility maintenance, renovation, and restoration.",
+      "source_chunk_ids": [3528, 3538, 3539]
+    },
+    {
+      "metric": "Inspection-facility footprint under active program management",
+      "value": "8,200 PennDOT stations + 6,700 Texas DPS stations + 1,200 Vermont facilities + 12 New Jersey MVC stations + Hawaii and Ontario station networks",
+      "context": "Demonstrates Parsons' scale of dispatchable coverage across multi-site inspection-facility portfolios, the analogue to the CIF/SIF facility-maintenance population in the RFP.",
+      "source_chunk_ids": [1968, 1987, 1988, 1991]
+    },
+    {
+      "metric": "Multi-site mobilization speed (Vermont)",
+      "value": "1,200 facilities mobilized in 6 months",
+      "context": "Speed of standing up coordinated on-site activity across an entire facility portfolio, a leading indicator of capacity to transition facilities, buildings, and grounds responsibility under tight start-up windows.",
+      "source_chunk_ids": [1987]
+    },
+    {
+      "metric": "Multi-site mobilization speed (Texas)",
+      "value": "6,700 inspection stations updated in four months with integrated service-call ticketing and response tracking",
+      "context": "Field-service dispatch tempo and ticketing infrastructure directly relevant to routine facility service, alarm response, and shared-area repair workflows.",
+      "source_chunk_ids": [1991, 1992]
+    },
+    {
+      "metric": "Workplace safety / facility-condition outcome (NJ MVC)",
+      "value": "12 stations achieved OSHA VPP status",
+      "context": "Independent third-party recognition of sustained housekeeping, hazard control, and facility-condition discipline at Parsons-operated inspection sites.",
+      "source_chunk_ids": [1988, 1990]
+    },
+    {
+      "metric": "Field-service infrastructure",
+      "value": "Three regional offices (Pittsburgh, Harrisburg, Philadelphia) with built-in redundancy and mutually substitutable management/QA/office staff coverage; entire project team proven remote-capable during COVID-19",
+      "context": "Demonstrates the dispatch-and-substitute coverage architecture that supports SLA delivery on janitorial, grounds, snow removal, and emergency-repair calls across a state-sized footprint.",
+      "source_chunk_ids": [2036, 2040]
+    },
+    {
+      "metric": "Trades-and-services dispatch depth advertised in past inspection-program transitions",
+      "value": "From electricians to construction managers to janitorial resources to field service technicians to software and database experts, mobilized for every station, kiosk, and FIS location prior to go-live",
+      "context": "Documented prior-proposal commitment showing janitorial, electrical, and construction-management trades treated as core transition resources within Parsons' inspection-program transition model.",
+      "source_chunk_ids": [3674, 3677]
+    },
+    {
+      "metric": "Corporate scale and stability",
+      "value": "More than $5.4 billion in annual revenues; 18,000+ employees; publicly traded NYSE:PSN, more than 60% owned by the Parsons Employee Stock Ownership Trust; three years of audited financials available; vehicle inspection compliance division of more than 500 regional professionals",
+      "context": "Financial depth to absorb at-Contractor-expense routine service and maintenance, monthly trailer rental, alarm-service fees, and utility-fee responsibilities flagged in Appendix 3.2G; scale of available labor pool for transition-period mobilization.",
+      "source_chunk_ids": [2017, 3618, 3674]
+    },
+    {
+      "metric": "Building-maintenance and inventory-control discipline already embedded",
+      "value": "On-site repair technicians and maintenance personnel for lane equipment, building maintenance, and networking; electronic Inventory Control System with automatic email notifications when parts move warehouse-to-station-to-service-pool; PMO with co-located large repair center and warehouse",
+      "context": "Operational mechanics for delivering routine service-and-maintenance, spare-parts adequacy, and master-inventory-list accuracy at the facility level.",
+      "source_chunk_ids": [3719, 3720]
+    }
+  ],
+  "differentiators": "(1) Active multi-billion-dollar federal facility design/construction/maintenance prime vehicles (USAF MATOC, NAVFAC PDI MACC, MDA Real Property Program, AFCEC PFAS) substantially close the v1 gap around hands-on building-trades and environmental-remediation capability and place Parsons in a small group of inspection-program operators that simultaneously hold prime facility-trade contracts. (2) Operating tenure across six concurrent state and provincial inspection programs gives Parsons direct, in-place experience with the access-controlled, sign-in/sign-out, security-protocol environment the RFP requires before any contractor personnel may enter a facility. (3) Demonstrated multi-site mobilization tempo (1,200 Vermont facilities in 6 months; 6,700 Texas stations in 4 months) shows we can stand up the maintenance, janitorial, grounds, and snow-removal coverage matrix on day one of contract performance. (4) Existing OEM-aligned preventive-maintenance discipline for inspection equipment, including ATP scripting, calibration, equipment testing and approval, electronic Inventory Control System with automatic-notification movement tracking, and bill-of-sale/proof-of-ownership controls, directly supports the parallel PM, spare-parts, and equipment-purchase documentation requirements for facility equipment. (5) Three-region operational redundancy (Pittsburgh, Harrisburg, Philadelphia) plus remote-work proven during COVID-19 evidences the dispatch model and continuity needed for snow events, alarm calls, and after-hours single-lane maintenance windows. (6) NJ MVC OSHA VPP recognition at 12 Parsons-operated inspection stations provides third-party validation of housekeeping, hazard-control, and facility-condition standards. (7) Established procurement, escrow (Iron Mountain), and quote-comparison workflows already used on capital decisions translate directly to the three-quote remediation rule, written-approval-before-alteration rule, and SCM-approval workflow for capital repairs and Plan updates. (8) Publicly traded firm with $5.4B+ revenue, 18,000+ employees, and Employee Stock Ownership Trust governance has the balance-sheet depth to carry routine maintenance, alarm fees, utilities, and trailer-rental obligations at Contractor expense without cost recovery. (9) Documented prior-transition commitment to mobilize electricians, construction managers, janitorial resources, and field-service technicians to every station, kiosk, and FIS location prior to go-live shows the trades-and-services taxonomy is already part of Parsons' transition operating model.",
+  "gap_notes": "While the corporate dossier substantially strengthens the trade-prime story (USAF MATOC, NAVFAC PDI, MDA Real Property, AFCEC PFAS, Nammo, McMurdo), the inspection-program evidence base for this theme still does not directly substantiate every line-item in the Facilities, Buildings & Grounds scope. Capture team must source and attach: (a) for janitorial scope (A-002 carpet steam extraction twice yearly, A-012 HEPA-filter vacuuming, R-101 daily carpet vacuuming) - named janitorial subcontractor or self-perform plan with crew sizing, equipment lists, and HEPA equipment specifications (the dossier confirms janitorial resources are part of Parsons' transition mobilization model but does not provide product-level HEPA spec sheets or daily-frequency scheduling matrices); (b) for grounds-keeping (A-028 monthly rough-lawn mowing of drainage ditches, catch basins, wood lots, transitions) - landscaping subcontractor or self-perform plan including equipment, frequencies, and drainage-area access procedures; (c) for snow removal - while McMurdo Station experience evidences extreme-climate facility operations, no inspection-program-level snow-removal SLA, equipment list, or response-time commitment is in evidence and a teaming partner or named subcontractor with response-time-SLA track record should be identified; (d) for HVAC maintenance per PEOSH (A-086) - the USAF MATOC and NAVFAC PDI MACC establish federal-standard facility maintenance prime capacity, but a PEOSH-specific compliance approach (Public Employees Occupational Safety and Health) at the inspection-station level is not in evidence and should be drafted with explicit PEOSH cross-reference; (e) for the standardized PM/structural-repair/property-repair Plan (A-072, due within 180 days of contract effective date) - no template Plan from a prior project is in evidence and one should be drafted from the USAF/NAVFAC/MDA precedents; (f) for the annual master inventory list (A-034) - no example deliverable is in evidence and the format/scope must be developed (the electronic Inventory Control System chunks describe parts-and-equipment tracking but not the facility-master-list deliverable); (g) for energy-efficient lighting/appliance replacement (A-053, EO 54 / N.J.S.A. 52:34-6.4) - no statute-specific compliance approach is in evidence and a state-jurisdiction reference will be needed; (h) for the Randolph Service Core trailer (M-030, ~$300/month) - the Parsons evidence does not address trailer leasing or hookup-cost handling and capture team must confirm whether the existing trailer will be assumed, replaced, or relocated; (i) for shared co-located area repairs at no additional charge (A-095, R-002) - while Parsons has the financial capacity to absorb such costs and the federal facility prime contracts evidence multi-tenant facility delivery, no past-performance example of repeated no-charge shared-area work is in evidence and a teaming case study should be sought; (j) for the historical Appendix 3.2G capital-expenditure baseline (R-004, M-048) - capture team must obtain Appendix 3.2G itself and incorporate the historical FY2009 to FY2024 spend ranges into pricing assumptions; (k) for facility regulations/security-protocol observance (R-047, R-056) - while Parsons' on-site operations show repeated state-facility access experience, the specific MVC sign-in/sign-out and security-protocol procedures must be captured and documented; (l) for site-specific lighting-level adequacy testing (A-091) - no methodology in evidence; (m) past performance evidence references multiple jurisdictions by name; in the Solution Catalog these descriptions stand as separate prior projects, but any narrative re-used in a new-state-specific proposal must keep these as separate prior projects rather than blending them into the current solicitation's voice; (n) the dossier highlights past New Jersey procurement disputes (2016 and 2021/2022 protests of the Enhanced MV Inspection Maintenance System award) - capture team should brief leadership on incumbency-versus-competitor positioning before re-using state-specific proposal language; (o) for installation-level work instructions (R-001 roller-assembly torque, R-004 hex-bolt locking) - documented as work-instruction-level evidence and should be supplemented with a project-level equipment-installation past-performance narrative.",
+  "source_chunk_ids": [1927, 1932, 1935, 1962, 1968, 1987, 1988, 1990, 1991, 1992, 1993, 2017, 2027, 2036, 2040, 2050, 2058, 2073, 2076, 2077, 3528, 3537, 3538, 3539, 3558, 3577, 3580, 3581, 3582, 3591, 3596, 3597, 3598, 3599, 3606, 3611, 3618, 3642, 3643, 3655, 3656, 3665, 3673, 3674, 3677, 3681, 3684, 3693, 3697, 3698, 3699, 3702, 3706, 3719, 3720]
+}

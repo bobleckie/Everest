@@ -1,0 +1,98 @@
+{
+  "theme_id": 2,
+  "theme_label": "Inspection & Test Operations",
+  "category": "Operational",
+  "title": "Centralized and Decentralized Vehicle Inspection & Test Operations",
+  "capability_statement": "Parsons operates and manages large-scale Inspection & Maintenance (I/M) and safety-inspection programs at corporate scale, with active operations in multiple U.S. and Canadian jurisdictions and a multi-decade incumbency in centralized motor-vehicle inspection programs [3537, 3538, 3559]. The corporate Critical Infrastructure segment delivers an integrated inspection-operations stack that spans test-lane execution, equipment certification and maintenance, station auditing (overt and covert), data capture and transmission to the contracting state, hearings and suspensions, on-road remote-sensing testing, motorist customer service, and inspector training and oversight [1961, 1962, 1934, 1935, 1938, 1940, 1947, 1948, 1949, 1950, 1953]. As an inspection program operator, Parsons has trained over 100,000 inspectors and managed more than $100M per year in fee collection without losses, with first-mover credentials including the first decentralized OBDII program and the first-to-market tablet testing solution [3537]. The same delivery organization carries the corporate financial and management depth required to run a state-scale program, with FY2024 revenue of $6.751B (24% total / 22% organic growth, all-time records), FY2025 revenue of $6.364B, and an 80-year operating history that backstops the inspection-operations practice [3548, 3618]. Test-operations execution is wrapped with a hardened data and information-management spine: a centralized vehicle-information-and-inspection database with documented 99.99% uptime, no security or performance incidents on record at the time of the most recent technical proposal, AWS PCI-DSS attestation, SOC 2 Type II, Section 508 / WCAG accessibility conformance, redacted security-test results, and a security incident response plan delivered as proposal attachments [1961, 1962, 1960]. The capability is reinforced by enterprise cyber and IT/OT depth (defensive cyber operations, threat hunting, AI/ML-enhanced analysis, cloud-native architectures and DevSecOps, and the IPKeys Power Partners platform serving hundreds of utilities) [3520], allowing inspection-operations cybersecurity to be staffed from a company-wide practice rather than from a single program team [1962].",
+  "named_past_performance": [
+    {
+      "name": "Multi-state and international vehicle Inspection & Maintenance program operations",
+      "scope": "Operates large-scale Inspection & Maintenance (I/M) programs in Ontario, Pennsylvania, New Jersey, California, Texas, and Hawaii; first decentralized OBDII program (Louisiana); first-to-market tablet testing solution.",
+      "outcome": "Trained 100,000+ inspectors across these programs; managed >$100M/year in fee collection with no losses reported.",
+      "source_chunk_ids": [3537]
+    },
+    {
+      "name": "Centralized motor-vehicle Inspection Facilities incumbency (mid-Atlantic state program)",
+      "scope": "Continuous operator of a centralized motor-vehicle inspection program since 1998; competed in subsequent re-procurements (2016, 2021/2022) for the state's Enhanced Motor Vehicle Inspection Maintenance System; remains the historical incumbent operator of the state's centralized inspection facilities.",
+      "outcome": "Sustained multi-decade incumbency as centralized inspection-facility operator through multiple competitive procurement cycles.",
+      "source_chunk_ids": [3538, 3558, 3559]
+    },
+    {
+      "name": "Statewide Emissions / Inspection & Maintenance Program Management (large mid-Atlantic state, RFP 3522R12)",
+      "scope": "End-to-end I/M and safety-inspection program management covering: secure I/M data handling and transmission to the contracting state; quality assurance and oversight (overt and covert); inspector and station-operator training; equipment testing, certification, delivery and installation; remote sensing on-road testing; hearings and suspensions; motorist compliance and call-center operations; and oversight of the safety inspection program across 25 I/M counties.",
+      "outcome": "Delivered ongoing program operations on the centralized data system with documented 99.99% uptime and no security or performance issues on record; proposed migration of all systems to AWS cloud with PCI-DSS attestation, SOC 2 Type II, accessibility (Section 508 / WCAG) conformance, and a security incident response plan.",
+      "source_chunk_ids": [1926, 1927, 1934, 1935, 1938, 1940, 1942, 1943, 1945, 1946, 1947, 1948, 1949, 1950, 1953, 1960, 1961, 1962]
+    },
+    {
+      "name": "Centralized Vehicle Emissions Inspection Program Management (mid-Atlantic state RFP)",
+      "scope": "Volume I Technical Proposal for a centralized vehicle emissions inspection program covering transition of inspection-program stations to a new contractor; centralized station and kiosk testing distribution and maintenance; emissions-test equipment and software updates and certification; QA/QC operational and performance audits; collected-fee accountability and transfer; hybrid programs and external kiosk operations; test procedures and waivers; and station-level organization down to the individual inspection-program station.",
+      "outcome": "Submitted a full technical response addressing centralized testing, kiosk, and FIS station operations; system updates; data management; and operating/supporting centralized testing programs experience as a Tab G qualification.",
+      "source_chunk_ids": [3572, 3574, 3575, 3576, 3577, 3578, 3579, 3580, 3581, 3582, 3583, 3586, 3587, 3590, 3591, 3593, 3595, 3600, 3601, 3607, 3608, 3611, 3616, 3617, 3618, 3620]
+    },
+    {
+      "name": "Centralized inspection-facility customer experience commitment",
+      "scope": "Premier Customer Service Plan and Comprehensive Customer Feedback Approach for a centralized vehicle emissions inspection program, including self-service lane operation and motorist-facing test result delivery; staffed by a locally based team in the contracting state.",
+      "outcome": "Articulated a Premier Customer Service Plan and Comprehensive Customer Feedback Approach as the program's customer-experience model; positioned 80-year corporate history and $5.4B+ in annual revenue as the management and financial backstop for a contract of this size and scope.",
+      "source_chunk_ids": [3617, 3618]
+    }
+  ],
+  "quantified_outcomes": [
+    {
+      "metric": "Inspectors trained across operated I/M programs",
+      "value": "100,000+",
+      "context": "Cumulative inspectors trained across Parsons-operated I/M programs in Ontario, Pennsylvania, New Jersey, California, Texas, Hawaii, and Louisiana.",
+      "source_chunk_ids": [3537]
+    },
+    {
+      "metric": "Annual inspection-program fee collection managed without losses",
+      "value": ">$100M per year",
+      "context": "Annual fee-collection volume managed across operated I/M programs with no losses reported.",
+      "source_chunk_ids": [3537]
+    },
+    {
+      "metric": "Centralized inspection-data system uptime",
+      "value": "99.99%",
+      "context": "Documented uptime of the centralized vehicle inspection-information database operated for a large mid-Atlantic state I/M program; system reported to have had no security or performance issue at time of proposal.",
+      "source_chunk_ids": [1961, 1962]
+    },
+    {
+      "metric": "Continuous incumbency as centralized motor-vehicle inspection-facility operator",
+      "value": "Since 1998",
+      "context": "Continuous operator of a state's centralized motor-vehicle inspection facilities since 1998 across multiple re-procurement cycles.",
+      "source_chunk_ids": [3538]
+    },
+    {
+      "metric": "Counties under safety-inspection oversight (single-state program)",
+      "value": "25",
+      "context": "Counties under Parsons' safety-inspection program oversight under Task J of the large mid-Atlantic state I/M / safety-inspection contract.",
+      "source_chunk_ids": [1949]
+    },
+    {
+      "metric": "Corporate revenue backing the inspection-operations practice",
+      "value": "$6.751B (FY2024) / $6.364B (FY2025)",
+      "context": "Parsons FY2024 revenue $6.751B with all-time records for revenue, net income, adjusted EBITDA, cash flow, and contract awards; FY2025 revenue $6.364B; corporate scale supports a state-program contract of this size.",
+      "source_chunk_ids": [3548, 3618]
+    },
+    {
+      "metric": "Corporate operating history",
+      "value": "80 years",
+      "context": "Parsons cites 80 years of operating history and more than $5.4B in annual revenue as the financial and management backstop for state-program contracts of comparable size and scope.",
+      "source_chunk_ids": [3618]
+    },
+    {
+      "metric": "Customer-relationship longevity (analogous transportation program operator)",
+      "value": "50 consecutive years at BWI Marshall Airport; nearly 50 years FAA TSSC; 40-year MDA relationship",
+      "context": "Multi-decade customer relationships in transportation and federal mission-critical operations support; demonstrates Parsons' track record holding long-tenure operating contracts.",
+      "source_chunk_ids": [3543]
+    },
+    {
+      "metric": "Independent ethics and program-management recognition",
+      "value": "Ethisphere World's Most Ethical 17 consecutive years (since 2010); ENR #1 Program Management Firm (2025); ENR Top 500 Design Firms #15 (2024)",
+      "context": "Independent third-party recognition supporting Parsons' position as a credible long-tenure program operator and program manager.",
+      "source_chunk_ids": [3551]
+    }
+  ],
+  "differentiators": "Multi-jurisdiction operating footprint in vehicle I/M (Ontario, Pennsylvania, New Jersey, California, Texas, Hawaii) plus historical first-of-kind credentials (first decentralized OBDII program in Louisiana; first-to-market tablet testing solution) provides a depth of operating-program reference points that few competitors can match [3537]. Multi-decade incumbency as centralized motor-vehicle inspection-facility operator (continuous since 1998 in one mid-Atlantic state) demonstrates sustained ability to win and re-win competitive procurements for centralized I/M programs [3538, 3559]. Documented 99.99% uptime on the centralized vehicle-information-and-inspection database and a clean security/performance record at the time of the most recent technical proposal show that inspection-operations data infrastructure is delivered to mission-critical levels [1961, 1962]. Inspection operations are wrapped with corporate-grade security artifacts not typically supplied by program-only operators - AWS PCI-DSS attestation, SOC 2 Type II, Section 508 / WCAG accessibility conformance reports, redacted security-test results, and a security incident response plan - delivered as proposal attachments [1960]. The same operating company carries enterprise cyber and IT/OT depth (DCO/CNE, threat hunting, AI/ML-enhanced analysis, DevSecOps, and the IPKeys Power Partners platform serving hundreds of utilities), so inspection-program cybersecurity can be staffed from a company-wide practice rather than from a single program team [1962, 3520]. Corporate scale ($6.751B FY2024 revenue with all-time records, $6.364B FY2025, 80-year operating history) provides the financial and management capacity to run a state-scale inspection contract and absorb transition risk [3548, 3618]. Independent recognition - Ethisphere World's Most Ethical Companies for 17 consecutive years (since 2010), ENR #1 Program Management Firm (2025), and ENR Top 500 Design Firms #15 (2024) - reinforces credibility with state-procurement audiences [3551].",
+  "gap_notes": "The supplied evidence is heavily oriented to centralized I/M program management and operations; explicit, named past-performance references for non-vehicle inspection-and-test domains (e.g., construction inspection, environmental inspection, manufacturing test) are not present in the chunks provided and would need to be sourced separately if required. Quantitative inspection-throughput metrics (vehicles tested per year, lanes operated, station counts, mean test-time, motorist wait-time, repair-waiver rates) are referenced as RFP topics in the proposal table of contents (e.g., 2.3.1.24.1 Repair Waiver Rate Reduction) [3591] but the underlying numeric values are not contained in the supplied chunks; these would need to be retrieved from the full proposal narratives before being cited. The Pennsylvania I/M proposal references AWS migration, ZenDesk, and AmazonConnect for the data and call-center platforms [1927, 1962] but the supplied chunks do not include the cyber test-result detail, throughput benchmarks, or the redacted security-test summaries themselves; only the table-of-contents pointer to those attachments is present [1960]. The dossier notes that Parsons protested 2016 and 2021/2022 awards in one centralized I/M re-procurement; this is incumbency-favorable context but is also a source of procurement risk that may need to be addressed in a competitive response [3538, 3558, 3559]. Federal Solutions margins (~6%) trail peers Leidos and CACI per the dossier, which is not directly an inspection-operations gap but is a company-level pricing-pressure signal worth noting in pricing strategy [3558]. The Volume I (mid-Atlantic state RFP) chunks supplied are largely table-of-contents and structural pages [3575-3611]; the substantive technical-narrative responses for each RFP section are not in the supplied chunks and would need to be pulled from the full document for line-item requirement coverage.",
+  "source_chunk_ids": [1926, 1927, 1931, 1932, 1934, 1935, 1938, 1940, 1942, 1943, 1945, 1946, 1947, 1948, 1949, 1950, 1953, 1960, 1961, 1962, 3516, 3520, 3528, 3531, 3532, 3537, 3538, 3543, 3544, 3547, 3548, 3549, 3550, 3551, 3558, 3559, 3566, 3572, 3574, 3575, 3576, 3577, 3578, 3579, 3580, 3581, 3582, 3583, 3586, 3587, 3590, 3591, 3593, 3595, 3600, 3601, 3607, 3608, 3611, 3616, 3617, 3618, 3620, 3623, 3624, 3625, 3626]
+}

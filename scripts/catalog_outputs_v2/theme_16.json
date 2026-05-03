@@ -1,0 +1,74 @@
+{
+  "theme_id": 16,
+  "theme_label": "Standard Terms & Conditions",
+  "category": "Compliance",
+  "title": "Compliance with Standard Terms, Conditions, and Statutory Flow-Down Obligations on State Vehicle Inspection Programs",
+  "capability_statement": "Across long-running state vehicle emissions and safety inspection programs, Parsons has operated under standard state procurement terms and conditions and the federal flow-down clauses they typically incorporate. The bulk of the requirements in this theme are direct contract acknowledgements that the bidder must accept as written (order of precedence, choice of law, ADA, debarment/suspension under 2 C.F.R. pt. 180/3000, prohibited foreign telecommunications equipment, Clean Air Act, Federal Water Pollution Control Act, Davis-Bacon, Copeland Anti-Kickback, Contract Work Hours and Safety Standards, EO 11246 nondiscrimination postings, Section 6002, Pay-to-Play, ethics restrictions, and state EEO/affirmative action exhibits) rather than capabilities to be demonstrated. Where the proposals do show concrete operational alignment with standard terms, it is in (a) State ownership of data and contractor handling at contract end, early termination, and termination for cause; (b) compliance with state IT organization policies, standards, and guidelines; (c) industry-standard professional warranties on services and one-year+ manufacturer warranties on hardware; (d) defense, settlement, and indemnification cooperation; and (e) end-of-contract transition planning. Parsons' written posture in these proposals is to accept the State's terms and conditions as drafted and to evidence compliance through operational artifacts (escrow agreements, transition plans, certified-compliant cloud infrastructure, documented warranty terms).",
+  "named_past_performance": [
+    {
+      "name": "PennDOT Emissions Program (RFP # 3522R12)",
+      "scope": "Vehicle emissions inspection program management for the Commonwealth of Pennsylvania, hosted on AWS infrastructure third-party-audited to SOC 1/2/3, PCI, and ISO 9001/27001/27017/27018, with Iron Mountain escrow naming PennDOT as beneficiary.",
+      "outcome": "Parsons confirmed in writing that all data belongs to the Commonwealth and committed to comply with terms identified for contract end, early termination, or termination for cause, supplying all hardware, software, and support and executing an escrow agreement under defined release conditions.",
+      "source_chunk_ids": [2058, 2062, 2106, 2268, 2278, 2304, 2305, 2667, 2671, 2673, 2674, 2675, 2687, 2688, 2689, 2690, 2698]
+    },
+    {
+      "name": "Maryland VEIP (RFP V-HQ-24019-S, MDOT MVA / MDE)",
+      "scope": "Vehicle Emissions Inspection Program management and operation for the Maryland Motor Vehicle Administration, including 25 inspection facilities and three State inspection facilities, with end-of-contract transition obligations close to 2035.",
+      "outcome": "Parsons accepted compliance with State IT (DoIT) policies, standards, and guidelines and with all applicable laws, regulations, policies, standards, and guidelines affecting IT; committed to leave facilities in the same or better condition; provided manufacturer warranties (e.g., 1-year workstation/OneOBD/idle analyzer parts/fuel cap, 18-month optical bench, 3-year ALPR camera) and a Parsons warranty for the remainder of the contract upon expiration of the manufacturer warranty; and submitted a draft Contract Termination Transition Plan for biennial September 1 updates.",
+      "source_chunk_ids": [3598, 3771, 3817, 4108, 4114, 4115, 4169, 4255, 4352, 4384, 4441, 4479, 4480, 4517, 4570, 4698, 4721, 4722, 4723, 4725, 4726]
+    },
+    {
+      "name": "Vermont Vehicle Inspection Program",
+      "scope": "Statewide automated emissions and safety inspection program implementation under federal EPA and federal/state safety regulations, using tablet-based inspection devices.",
+      "outcome": "Parsons developed and implemented all emissions and safety inspection protocols based on USEPA standards and federal/state safety regulations, including a vehicle-specific recall identification feature.",
+      "source_chunk_ids": [2379]
+    }
+  ],
+  "quantified_outcomes": [
+    {
+      "metric": "Cloud infrastructure third-party compliance attestations",
+      "value": "SOC 1, SOC 2, SOC 3, PCI, ISO 9001, ISO 27001, ISO 27017, ISO 27018",
+      "context": "AWS environment used to host the proposed PennDOT I/M Program; assessed by a third-party auditor for Parsons.",
+      "source_chunk_ids": [2058]
+    },
+    {
+      "metric": "Hardware warranty terms (Maryland VEIP proposal)",
+      "value": "Workstation PC 1 yr; Parsons OneOBD 1 yr; Idle test analyzer parts 1 yr / optical bench 18 mo; Fuel Cap Test System 1 yr; ALPR Camera 3 yr",
+      "context": "Standard manufacturer warranty terms committed in the Maryland VEIP technical proposal, with Parsons warranting items for the remainder of the contract upon expiration of the manufacturer warranty.",
+      "source_chunk_ids": [3771]
+    },
+    {
+      "metric": "Disaster recovery service restoration window",
+      "value": "All system capabilities fully functional within 72 hours of termination of the initial disaster event",
+      "context": "Maryland VEIP proposal commitment using multi-availability-zone active-active deployment plus replication to AWS US-EAST-2.",
+      "source_chunk_ids": [4352]
+    },
+    {
+      "metric": "Post-termination data retrievability (PennDOT safety inspection database)",
+      "value": "Online for the entirety of the contract and retrievable for 180 days after termination",
+      "context": "PennDOT emissions/safety inspection database commitment supporting data-handling clauses on contract end.",
+      "source_chunk_ids": [2304, 2305]
+    },
+    {
+      "metric": "Subcontractor final payment / claim settlement window",
+      "value": "No later than 30 days after the termination date",
+      "context": "Maryland VEIP Transition-Out Plan commitment, with up to 1 year of transition assistance prior to contract end or termination.",
+      "source_chunk_ids": [4721, 4722]
+    },
+    {
+      "metric": "Iron Mountain escrow liability cap",
+      "value": "$100,000 USD aggregate (excluding death/bodily injury, gross negligence/willful misconduct, and infringement indemnification)",
+      "context": "Iron Mountain escrow agreement attached to the PennDOT emissions submittal, naming the State as beneficiary.",
+      "source_chunk_ids": [2677]
+    },
+    {
+      "metric": "Transition Plan refresh cadence (Maryland VEIP)",
+      "value": "Annual updates; furnished to MDOT MVA Contract Monitor biennially by September 1",
+      "context": "Contract Termination Transition Plan delivery cadence committed in the Maryland VEIP proposal.",
+      "source_chunk_ids": [4726]
+    }
+  ],
+  "differentiators": "Parsons' differentiation under this theme is procedural rather than substantive: the proposals demonstrate a long pattern of accepting state standard terms as drafted and operationalizing them through (1) third-party-attested cloud infrastructure (SOC 1/2/3, PCI, ISO 9001/27001/27017/27018) that supports state-data-ownership, secure-disposal, and IT-policy-compliance clauses [chunk_ids: 2058, 2062, 4179, 4180, 4181]; (2) executed escrow with Iron Mountain naming the contracting State as beneficiary, with documented release, verification (Levels 1-4), survival, and termination provisions [chunk_ids: 2058, 2667, 2671, 2673, 2674, 2675, 2687, 2688, 2689, 2690, 2698]; (3) an explicit written acknowledgement that 'all data belongs to the Commonwealth' and that Parsons will comply with terms for contract end, early termination, or termination for cause [chunk_id: 2058]; (4) confirmed review of and compliance with state IT organization policies, standards, and guidelines, with annual policy review [chunk_id: 4255]; (5) defined manufacturer-warranty terms plus a contract-duration Parsons warranty after manufacturer warranties expire, addressing the IT-services professional-standard warranty and one-year hardware warranty clauses [chunk_id: 3771]; and (6) detailed transition-out planning with year-ahead lead time, biennial plan updates, 30-day subcontractor settlement, written certification of property transfer, and reconciliation of outstanding revenue to the State [chunk_ids: 4108, 4115, 4721, 4722, 4723, 4725, 4726].",
+  "gap_notes": "Honest framing: of the 50 requirements in this theme, the large majority are direct contract acknowledgements that the bidder must accept as written and that produce no proposal narrative beyond a 'Parsons accepts' style statement. Specifically, the available evidence chunks from the Emissions and Maryland VEIP proposals do NOT contain affirmative narrative for the following clauses, which are answered by acceptance/signature rather than by past-performance evidence: order of precedence (A-001), prohibition on influencing state officers/employees and securing unwarranted privileges (A-026, A-027, M-008), choice of law (R-003), ADA compliance (A-017), Pay-to-Play / Chapter 51 / EO 333 (M-005, A-020), debarment/suspension under 2 C.F.R. pts. 180/3000 (A-008, A-010), prohibited foreign telecommunications/video surveillance (A-015, A-016), Section 6002 of the Solid Waste Disposal Act (R-020), federally assisted construction EEO clause and applicant binding (R-021, R-032), nondiscrimination postings (R-023, A-003 Exhibit A, B-003), no-retaliation for compensation inquiries (R-025), EO 11246 (R-027), Davis-Bacon (R-035), Copeland Anti-Kickback (R-038), Contract Work Hours and Safety Standards Act (R-041), Clean Air Act standards over $150,000 (A-001 7.9.1.1), Federal Water Pollution Control Act (A-004), control-of-defense and state-approval-of-settlement (R-002, R-037), 10/30/60-business-day data retention windows tied to termination type (R-012, R-013, R-014), certificates of destruction (R-018), labor-relations/union-delegate procedures and seniority/benefit clauses (A-035, A-046, A-003 Article VI.4(a), A-040), and EO 151 / N.J.A.C. 17:27 / State Job Bank recruitment / waiting-list and recruitment-records exhibits (B-013, B-019, C-003, C-004, C-005, C-007, C-009). For these, the catalog should not claim past-performance language; the response posture is to accept the clause as drafted and rely on corporate compliance programs. The evidence base materially supports only the operational subset: state data ownership, post-termination data handling, professional-standards warranty, hardware warranty, IT-policy compliance, defense cooperation, and transition assistance.",
+  "source_chunk_ids": [2058, 2062, 2106, 2268, 2278, 2304, 2305, 2379, 2667, 2668, 2671, 2673, 2674, 2675, 2677, 2687, 2688, 2689, 2690, 2698, 3581, 3598, 3771, 3817, 3833, 3889, 4108, 4114, 4115, 4169, 4179, 4180, 4181, 4199, 4201, 4221, 4255, 4352, 4384, 4441, 4479, 4480, 4517, 4570, 4698, 4721, 4722, 4723, 4725, 4726]
+}

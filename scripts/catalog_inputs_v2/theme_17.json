@@ -1,0 +1,1164 @@
+{
+  "theme_id": 17,
+  "theme_label": "Collective Bargaining & Labor",
+  "category": "Operational",
+  "rfp_requirements": [
+    {
+      "id": 8100,
+      "code": "A-001",
+      "title": "Notify Employer of new classification assignment contention",
+      "description": "Within 30 days of notification of any newly created classification, the Union shall notify the Employer in writing if it contends the new classification should be assigned to a particular bargaining unit.",
+      "section": "Article I.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8104,
+      "code": "A-005",
+      "title": "Provide 90-day notice of sale/conveyance/assignment/transfer",
+      "description": "In the event the Employer sells, conveys, assigns, or transfers its operation, the Employer will give the Union 90 days notice prior to the culmination of such event.",
+      "section": "Article I.5",
+      "priority": "critical",
+      "category": "deadline"
+    },
+    {
+      "id": 8106,
+      "code": "A-007",
+      "title": "Advise new Employee of Union recognition at hire",
+      "description": "At the time a new Employee subject to this Agreement is hired, the Employer shall advise the Employee that the Employer recognizes and is in contractual relations with the Union.",
+      "section": "Article I.7",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8107,
+      "code": "A-008",
+      "title": "Afford Union officer opportunity to speak during orientation",
+      "description": "The Employer shall afford a Union officer an opportunity to speak to the new Employee during orientation.",
+      "section": "Article I.7",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8108,
+      "code": "A-009",
+      "title": "Maintain existing Union membership as condition of employment",
+      "description": "All Employees on the active payroll as of May 13, 1999, who are members of the Union, shall maintain their membership in the Union as a condition of continued employment.",
+      "section": "Article II.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8109,
+      "code": "A-010",
+      "title": "Become Union member within 30 days of employment",
+      "description": "All Employees on the active payroll shall become members of the Union no later than the 30th day following the beginning of such employment, and shall thereafter maintain membership as a condition of continued employment.",
+      "section": "Article II.2",
+      "priority": "critical",
+      "category": "deadline"
+    },
+    {
+      "id": 8158,
+      "code": "M-009",
+      "title": "No deduction obligation if insufficient wages",
+      "description": "The Employer shall not be obliged to make dues deductions of any kind from any Employee who, during any dues month, shall have failed to receive sufficient wages to equal the dues deduction.",
+      "section": "Article III.4",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 8118,
+      "code": "A-019",
+      "title": "Remit monthly dues with Employee list",
+      "description": "Each month, the Employer shall remit to the Union all dues deductions for the preceding month together with a list of all Employees from whom dues have been deducted.",
+      "section": "Article III.5",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8123,
+      "code": "A-024",
+      "title": "Provide advance notice of Union representative visits",
+      "description": "Union representatives shall provide advance notice to the Labor Relations Manager or designee of intent to visit an Employer location and arrange a mutually convenient time.",
+      "section": "Article IV.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8124,
+      "code": "A-025",
+      "title": "Advise Station Manager before entering work area",
+      "description": "Where the Union representative finds it necessary to enter a work area, he/she shall first advise the Station Manager or designee in person.",
+      "section": "Article IV.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8137,
+      "code": "A-038",
+      "title": "Local 518 President/VP designates investigation representative",
+      "description": "Subject to Article XXXV, paragraph 1, the Local 518 President/Vice-President or designee shall be solely responsible for designating the Local 518 representative to conduct a disciplinary or grievance investigation.",
+      "section": "Article IV.10",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8132,
+      "code": "A-033",
+      "title": "Copy Employer on Union-related e-mails",
+      "description": "A Union representative shall have access to receive Union-related e-mails at all stations, provided the Employer is copied on all such e-mails.",
+      "section": "Article IV.6",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8238,
+      "code": "A-061",
+      "title": "Limit swing person to two contiguous lanes",
+      "description": "The Employer agrees to limit use of a swing person to situations where there are two contiguous lanes with unobstructed views for the swing person between them.",
+      "section": "Article IX.11",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8242,
+      "code": "A-065",
+      "title": "Offer overtime by seniority regardless of classification when >4 inspectors/lane",
+      "description": "If management requires more than 4 inspectors per lane, overtime must be offered to all station personnel based on seniority regardless of classification, on rotational basis.",
+      "section": "Article IX.11",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8247,
+      "code": "A-067",
+      "title": "Allow Saturday early release based on station needs",
+      "description": "Employees may volunteer for early release from Saturday shift and manager may release based on station needs; pay is for time worked.",
+      "section": "Article IX.13",
+      "priority": "low",
+      "category": "mandatory"
+    },
+    {
+      "id": 8224,
+      "code": "A-052",
+      "title": "Offer overtime to Material Handlers/Tech Specialists by seniority rotation",
+      "description": "Material Handler classifications and Technical Specialists must be offered available overtime in seniority order on a rotational basis; if insufficient volunteers, least senior employee must accept on rotational basis unless finding a replacement.",
+      "section": "Article IX.5",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8227,
+      "code": "A-054",
+      "title": "Offer ERT overtime station-first then region by seniority",
+      "description": "Equipment Repair Technicians overtime must first be offered to the employee normally assigned to the station; then to other regional employees in seniority order on rotational basis; if insufficient volunteers, least senior station employee must accept unless finding replacement.",
+      "section": "Article IX.6",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8230,
+      "code": "A-055",
+      "title": "Offer Lane Tech overtime by combined seniority rotation",
+      "description": "Senior Lane Technicians and Lane Technicians must be offered available overtime including Saturdays in seniority order of combined classifications on rotational basis, first at station then surrounding stations; then Associate Lane Technicians and other Lane Tech unit employees.",
+      "section": "Article IX.7",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8231,
+      "code": "V-010",
+      "title": "Mandatory acceptance of Lane Tech overtime by least senior including part-time",
+      "description": "For Lane Technician overtime, if insufficient numbers accept offers, the least senior employee in those classifications (including part-time employees) shall be obligated to accept the overtime assignment on a rotational basis unless finding another employee to take his/her place.",
+      "section": "Article IX.7",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8140,
+      "code": "A-041",
+      "title": "Break seniority ties per order of preference",
+      "description": "If a seniority tie must be broken, it shall be broken in order: (1) disabled veteran status, (2) veteran status, (3) lottery conducted by Employer and witnessed by impartial Union representative.",
+      "section": "Article VI.1(b)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8142,
+      "code": "A-043",
+      "title": "Commence seniority after probation, retroactive to hire date",
+      "description": "An Employee's seniority shall commence after completion of probation and be retroactive to the date of most recent hire; returning Employees within 1 month of resignation in good standing retain original date.",
+      "section": "Article VI.2(a)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8143,
+      "code": "A-044",
+      "title": "Accrue seniority during authorized leave up to 1 year",
+      "description": "Seniority continues to accrue during continuous authorized leave of absence up to 1 year (including FMLA/NJFLA), provided the Employee returns immediately upon expiration and the position remains available; also accrues during layoff up to 1 year or length of employment, whichever is less.",
+      "section": "Article VI.2(b)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8167,
+      "code": "A-002",
+      "title": "Employee must notify Employer of current address",
+      "description": "Employees are responsible for notifying the Employer of their current address.",
+      "section": "Article VI.3",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8148,
+      "code": "A-049",
+      "title": "Return within 7 days of recall notice within 30-mile radius",
+      "description": "Seniority is lost if laid off 12 months or if the employee fails to return to work within 7 days of a return to work notice to a station within a 30 mile radius of the home station, whichever is earlier.",
+      "section": "Article VI.3(d)",
+      "priority": "critical",
+      "category": "deadline"
+    },
+    {
+      "id": 8169,
+      "code": "A-004",
+      "title": "Apply seniority by location for layoffs, recalls, vacations",
+      "description": "Bargaining unit seniority must be applied by location in layoffs and recalls and for scheduling of vacations.",
+      "section": "Article VI.4(b)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8171,
+      "code": "A-006",
+      "title": "Lay off least senior employee first",
+      "description": "The employee at the location with the least bargaining unit seniority must be laid off first.",
+      "section": "Article VI.5(b)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8175,
+      "code": "V-001",
+      "title": "Layoff procedural steps do not apply in emergencies/acts of God/State-directed situations",
+      "description": "The pre-layoff procedural requirements (30-day notice, written notification to Union, 7-day meeting period) do not apply in emergencies, acts of God, or under operational situations directed by the State of New Jersey.",
+      "section": "Article VI.5(c)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8172,
+      "code": "A-007",
+      "title": "Provide 30-day layoff notice or pay in lieu",
+      "description": "Prior to layoff (except in emergencies, acts of God, or State-directed situations), the Employer must give the Union and affected employees 30 days notice, or 30 days pay in lieu.",
+      "section": "Article VI.5(c)(i)",
+      "priority": "critical",
+      "category": "deadline"
+    },
+    {
+      "id": 8173,
+      "code": "A-008",
+      "title": "Provide written notice with employee details",
+      "description": "The Employer must notify the Union in writing of all employees affected, their dates of hire, job classification, and bargaining unit seniority.",
+      "section": "Article VI.5(c)(ii)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8176,
+      "code": "A-010",
+      "title": "Lay off probationary employees first",
+      "description": "Probationary employees must be laid off first without regard to their individual period of employment; non-probationary employees are laid off next based on seniority.",
+      "section": "Article VI.5(d)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8183,
+      "code": "A-016",
+      "title": "Set seniority date upon layoff/classification elimination",
+      "description": "For Technical Specialists, Material Handlers Group, or Equipment Repair Technicians, upon layoff or classification elimination, seniority date is the start date of obtaining the current classification.",
+      "section": "Article VI.5(i)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8184,
+      "code": "A-017",
+      "title": "Recall employees in reverse order of layoff by seniority",
+      "description": "When a vacancy occurs, laid-off employees must be recalled per bargaining unit seniority in the reverse order they were laid off from their station; if not fillable at the station, vacancy is offered statewide by seniority.",
+      "section": "Article VI.6(a)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8197,
+      "code": "A-028",
+      "title": "Remit lump-sum payments to employees",
+      "description": "The Employer must remit to each employee a check in the specified amounts (2014 and 2015: $1,000 Full-Time; $500 Part-Time), less applicable withholdings.",
+      "section": "Article VII.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8198,
+      "code": "A-029",
+      "title": "Make payments on first full pay period in January",
+      "description": "The Employer will make the payments on the first full pay period in January 2014 and January 2015; employees on approved medical leave receive payment upon return to active status.",
+      "section": "Article VII.3",
+      "priority": "high",
+      "category": "deadline"
+    },
+    {
+      "id": 8201,
+      "code": "A-031",
+      "title": "Set regular workweek for Lane Technicians",
+      "description": "Regular workweek for full-time Senior Lane Technicians, Lane Technicians, and full-time Associate Lane Technicians must be 8 hours/day, 5 days/week, Monday through Friday.",
+      "section": "Article VIII.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8211,
+      "code": "A-040",
+      "title": "Guarantee 40 hours of work Monday through Friday",
+      "description": "All employees, except part-time Associate Lane Technicians, must be guaranteed 40 hours of work Monday through Friday.",
+      "section": "Article VIII.10",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8213,
+      "code": "A-042",
+      "title": "Set Saturday hours for Technical/Material/ERT",
+      "description": "For Saturday, regular hours for Technical Specialists, Material Handler classifications, and Equipment Repair Technicians must be between 6:00 AM and 12:00 PM as determined by management and subject to State of NJ restrictions.",
+      "section": "Article VIII.12",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8215,
+      "code": "A-044",
+      "title": "Take precautions during excessive heat or cold",
+      "description": "During hours of excessive heat or cold, the Employer must take necessary precautions to protect employee health and safety, including extended breaks and consolidating operations. Anemometers shall remain in current locations.",
+      "section": "Article VIII.14",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8216,
+      "code": "A-045",
+      "title": "Start full-time lunch breaks after 11:00 a.m.",
+      "description": "Lunch breaks for full-time employees must start after 11:00 a.m.",
+      "section": "Article VIII.15",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8205,
+      "code": "A-035",
+      "title": "Provide unpaid lunch and paid breaks to Lane Technicians",
+      "description": "Senior Lane Technicians, Lane Technicians, and full-time Associate Lane Technicians must receive a one-hour unpaid lunch and four 15-minute paid breaks distributed two per half-day, plus any additional paid breaks at management discretion.",
+      "section": "Article VIII.4",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8206,
+      "code": "V-005",
+      "title": "Part-Time Associate Lane Technician workweek governed by Article XXV",
+      "description": "The regular workweek for all Part-Time Associate Lane Technicians is subject to the provisions set forth in Article XXV.",
+      "section": "Article VIII.5",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8207,
+      "code": "A-036",
+      "title": "Prohibit use of Part-Time to prevent full-time overtime",
+      "description": "Part-Time Associate Lane Technicians may not be used to prevent full-time employees from working overtime.",
+      "section": "Article VIII.6",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8406,
+      "code": "A-008",
+      "title": "Charge partial-day sick leave on hourly basis",
+      "description": "Utilization of sick leave for less than a full workday shall be on an hourly basis: one hour charged for each hour or portion taken off.",
+      "section": "Article XXIX.5",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8407,
+      "code": "M-001",
+      "title": "Allow FMLA vacation substitution for exhausted sick leave",
+      "description": "Employees on approved FMLA leave who have exhausted sick leave may elect, at their discretion, to use unused vacation days during the leave.",
+      "section": "Article XXIX.6",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8409,
+      "code": "A-010",
+      "title": "Apply sick leave provisions to all Monday\u2013Saturday shifts",
+      "description": "Sick leave provisions apply to all assigned shifts Monday through Saturday regardless of whether drafted or volunteered.",
+      "section": "Article XXIX.8",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8410,
+      "code": "A-011",
+      "title": "Charge sick leave for first day of absence",
+      "description": "Except for employees using intermittent FMLA leave, employees will be charged sick leave for the first day of any absence.",
+      "section": "Article XXIX.9",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8417,
+      "code": "A-016",
+      "title": "Cap special leave hours",
+      "description": "Special leave shall not be granted or credited for more than 8 hours in a day or 40 hours in a week.",
+      "section": "Article XXX.1(c)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8419,
+      "code": "A-018",
+      "title": "Grant bereavement leave up to 24 hours",
+      "description": "Bereavement leave shall be granted with pay to regular Employees due to death of an immediate family member, up to a maximum of 24 hours per bereavement.",
+      "section": "Article XXX.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8420,
+      "code": "A-019",
+      "title": "Negotiate transfer provision if Technical Specialists or Material Handlers split locations",
+      "description": "If Technical Specialists or Material Handlers are divided into two locations, the Employer and Union agree to negotiate a transfer provision.",
+      "section": "Article XXXI.1",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8435,
+      "code": "A-029",
+      "title": "Continue probation period at new location after transfer",
+      "description": "Employees serving probation may transfer if Article provisions are met; probation period will not change but Employee continues probation at new location.",
+      "section": "Article XXXI.10",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8421,
+      "code": "A-020",
+      "title": "Complete probationary period before transfer eligibility",
+      "description": "An Employee must have completed the probationary period per Article V to be eligible to transfer to an equivalent or lesser position at another station with a vacancy.",
+      "section": "Article XXXI.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8423,
+      "code": "A-022",
+      "title": "Complete transfer preference list",
+      "description": "Employees wishing to transfer may indicate desired position and list up to three locations by completing a transfer preference list maintained by Company Human Resources.",
+      "section": "Article XXXI.2(b)",
+      "priority": "medium",
+      "category": "form"
+    },
+    {
+      "id": 8424,
+      "code": "M-004",
+      "title": "Only new listed transfer preferences receive new date",
+      "description": "Employees may update their transfer preference list at any time, but only new listed preferences will be assigned a new date.",
+      "section": "Article XXXI.2(b)",
+      "priority": "low",
+      "category": "mandatory"
+    },
+    {
+      "id": 8427,
+      "code": "A-024",
+      "title": "Fill vacant positions when no preference stated",
+      "description": "If no qualified Employee stated preference, position filled by any volunteer responding to posting, then by new hire from outside.",
+      "section": "Article XXXI.4",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8428,
+      "code": "M-006",
+      "title": "Exclude non-bargaining unit promotions from transfer provisions",
+      "description": "The transfer provisions of Article XXXI shall not apply to promotions to fill vacant non-bargaining unit positions.",
+      "section": "Article XXXI.5",
+      "priority": "low",
+      "category": "mandatory"
+    },
+    {
+      "id": 8429,
+      "code": "A-025",
+      "title": "Pay 10% differential and travel pay for temporary transfer assignments",
+      "description": "Employee assigned to fill temporary vacancy from another location shall receive 10% pay differential and travel pay, provided station resources including Part-Time Employees are exhausted.",
+      "section": "Article XXXI.6",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8434,
+      "code": "A-028",
+      "title": "Freeze Vehicle Inspector transfer lists until recall list exhausted",
+      "description": "All Vehicle Inspector transfer lists are frozen until the recall list is exhausted.",
+      "section": "Article XXXI.9",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8440,
+      "code": "A-034",
+      "title": "Provide and replace required tools",
+      "description": "Employer shall provide and replace all tools required; Employee is responsible for safekeeping and reasonable care of those tools.",
+      "section": "Article XXXII.3",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8442,
+      "code": "A-036",
+      "title": "Account for swapped/transferred inventory parts",
+      "description": "ERTs may swap/transfer parts between one another; Employee is responsible to ensure inventory is properly accounted for with required paperwork completed.",
+      "section": "Article XXXII.5",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8448,
+      "code": "A-041",
+      "title": "Provide up to 220 days of paid Union leave",
+      "description": "Employer agrees to provide up to 220 days of paid leave to Union delegates/officers/representatives for Union activities such as conventions, contract negotiations, and meetings.",
+      "section": "Article XXXIV.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8451,
+      "code": "A-043",
+      "title": "Do not carry over unused Union paid leave",
+      "description": "Any unused Union release days cannot be carried over to the following year and cannot be combined with other paid leave.",
+      "section": "Article XXXIV.2",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8453,
+      "code": "A-044",
+      "title": "Allow advance of Union release days",
+      "description": "If Union release time is exhausted during the contract year, the Union may ask Employer to advance Union release days from the upcoming contract year, which shall not be unreasonably denied; advanced days deducted from following year.",
+      "section": "Article XXXIV.3",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8464,
+      "code": "A-053",
+      "title": "Provide 45-day notice for vacation seniority conflict resolution",
+      "description": "Vacation scheduling conflicts among Employees who have provided 45 days notice shall be resolved within the station on the basis of bargaining unit seniority.",
+      "section": "Article XXXV.1",
+      "priority": "medium",
+      "category": "deadline"
+    },
+    {
+      "id": 8468,
+      "code": "A-057",
+      "title": "Grant vacation on first-come, first-serve basis",
+      "description": "Employer may deny vacation requests based on business demands but not unreasonably; requests granted first-come, first-serve based on submission date.",
+      "section": "Article XXXV.1",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8460,
+      "code": "A-049",
+      "title": "Provide vacation accrual for under 1 year service",
+      "description": "Employees with less than one year of service earn one vacation day for each two-month period of service.",
+      "section": "Article XXXV.1(a)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8461,
+      "code": "A-050",
+      "title": "Provide 15 vacation days for 1\u20134 years service",
+      "description": "Employees with one through end of fourth year of service receive 15 vacation days.",
+      "section": "Article XXXV.1(b)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8462,
+      "code": "A-051",
+      "title": "Provide 20 vacation days for 5\u201311 years service",
+      "description": "Employees with 5 through end of 11th year of service receive 20 vacation days.",
+      "section": "Article XXXV.1(c)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8463,
+      "code": "A-052",
+      "title": "Provide 25 vacation days for 12+ years service",
+      "description": "Employees with 12 or more years of service receive 25 vacation days.",
+      "section": "Article XXXV.1(d)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8465,
+      "code": "A-054",
+      "title": "Provide 15 days notice for 6+ vacation days",
+      "description": "Employees requesting 6 or more vacation days must provide 15 days notice.",
+      "section": "Article XXXV.1(i)",
+      "priority": "medium",
+      "category": "deadline"
+    },
+    {
+      "id": 8466,
+      "code": "A-055",
+      "title": "Provide 10 days notice for 3\u20135 vacation days",
+      "description": "Employees requesting 3 to 5 vacation days must provide 10 days notice.",
+      "section": "Article XXXV.1(ii)",
+      "priority": "medium",
+      "category": "deadline"
+    },
+    {
+      "id": 8467,
+      "code": "A-056",
+      "title": "Provide 24-hour notice for 1\u20132 vacation days",
+      "description": "Employees requesting 1 to 2 vacation days must provide 24 hours notice.",
+      "section": "Article XXXV.1(iii)",
+      "priority": "medium",
+      "category": "deadline"
+    },
+    {
+      "id": 8475,
+      "code": "A-063",
+      "title": "Pay accrued vacation to estate upon death",
+      "description": "If an Employee dies having accrued vacation credits, the accrued vacation time shall be paid to his estate.",
+      "section": "Article XXXV.5",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8257,
+      "code": "A-009",
+      "title": "Minimum Two Inspectors Per Lane Before 10:30 a.m.",
+      "description": "Before 10:30 a.m. on Saturday, the Employer may not have fewer than two Employees inspecting vehicles in a single lane.",
+      "section": "IX.20(a)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8259,
+      "code": "A-011",
+      "title": "Pay to Next Half-Hour After Noon on Saturday",
+      "description": "Employees who finish inspecting vehicles after 12:00 p.m. shall be paid to the next one-half hour, except those who volunteer to leave early.",
+      "section": "IX.20(c)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8260,
+      "code": "A-012",
+      "title": "Turn Away Vehicles Without Ticket by Closing",
+      "description": "The Employer will turn away vehicles that have not pulled a ticket by closing time, unless directed otherwise by the State.",
+      "section": "IX.20(d)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8284,
+      "code": "A-032",
+      "title": "Publicly Disavow Prohibited Employee Action",
+      "description": "The Union shall publicly disavow such action by the Employees.",
+      "section": "XII.4(a)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8285,
+      "code": "A-033",
+      "title": "Advise Employer in Writing of Non-Sanction",
+      "description": "The Union shall advise the Employer in writing that the action was not called or sanctioned by the Union.",
+      "section": "XII.4(b)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8286,
+      "code": "A-034",
+      "title": "Notify Employees of Union Disapproval",
+      "description": "The Union shall notify Employees of its disapproval of the action and instruct them to cease and return to work immediately.",
+      "section": "XII.4(c)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8287,
+      "code": "A-035",
+      "title": "Post Disapproval Notices on Union Bulletin Boards",
+      "description": "The Union shall post notices on Union Bulletin Boards stating its disapproval and instructing Employees to return to work immediately.",
+      "section": "XII.4(d)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8288,
+      "code": "V-004",
+      "title": "Union Shall Take No Action Undermining Disavowal Statement",
+      "description": "After delivery of the disavowal statement to the Company, the Union will take no action which in any way undermines it.",
+      "section": "XII.4(e)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8298,
+      "code": "V-007",
+      "title": "Employer Failure to Answer Not Deemed Acquiescence",
+      "description": "Failure on the part of the Employer to answer a grievance at any step shall not be deemed acquiescence thereto, but shall entitle the Union to proceed to the next step.",
+      "section": "XIII.1(b)(i)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8299,
+      "code": "V-008",
+      "title": "Discharge/Suspension Grievance May Begin at Step 2",
+      "description": "Notwithstanding the standard procedure, a grievance concerning a discharge or suspension may be presented initially at Step 2, within the time limit specified in Step 1.",
+      "section": "XIII.1(b)(ii)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8300,
+      "code": "V-009",
+      "title": "Employer May Present Grievance Initially at Step 2",
+      "description": "Without waiving its statutory rights, a grievance on behalf of the Employer may be presented initially at Step 2 by written notice addressed to the Union at its offices.",
+      "section": "XIII.1(b)(iii)",
+      "priority": "medium",
+      "category": "mandatory"
+    }
+  ],
+  "parsons_evidence": [
+    {
+      "chunk_id": 1927,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 2,
+      "content": "5340 Jaycee Avenue, Suite E, Harrisburg, PA 17112\n+1 717.565.7500 /Direct: +1 416.676.179 / www.parsons.com\nDecember 5, 2023\nDawn Grabuloff\nPennsylvania Department of Transportation\nBureau of Office Services\n400 North St., Keystone Bldg. 5th Floor\nHarrisburg PA 17120\nSubject: Solicitation 3522R12, Emissions Program Management\nDear Ms. Grabuloff,\nParsons Transportation Group Inc. (Parsons) is pleased to provide this proposal to the Pennsylvania Department of\nTransportation (PennDOT), Bureau of Office Services, in response to Request for Proposal (RFP) Number 3522R12\nfor Emissions Program Management.\nOur commitment to PennDOT is to continue delivering an effective Pennsylvania Vehicle Emissions Inspection and\nMaintenance Program and to innovate responsibly to move the Program forward. Building on our past performance,\nwe will implement new, cloud-based VIID systems and improved auditing infrastructure that efficiently gets Program\ndata to PennDOT. Our upgrades to the e-SAFETY system will support the enhanced safety inspection Program\ncompliance. We will upgrade our call center solution with new technology using ZenDesk and AmazonConnect as\nthe backbone of the system.\nOur Program Mana"
+    },
+    {
+      "chunk_id": 1928,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 2,
+      "content": "auditor teams, support teams, and subcontractors are in place. In this challenging\nlabor market, we do not anticipate any staffing impacts as your selected vendor in the new contract. Upon Notice to\nProceed, with no transitional risk to current operations, we will begin the implementation tasks to fulfill all RFP\nrequirements.\nParsons continues its commitment to Small Diverse Businesses and Small Businesses for this procurement.\nAdditionally, we have added two Veteran Business Enterprises to our team, 1Alpha Consulting to bolster our\nmotorist compliance activities and Berry Solutions Group for our information and education development and to\nprovide enhanced auditor training.\nOfferor Responsibilities and Exceptions to the RFP Requirements\nAll information submitted pertains exclusively to Parsons Transportation Group Inc. as a subsidiary of Parsons\nCorporation. Our proposal satisfies all mandatory requirements listed in the RFP, and we take no exceptions to any\nof the contractual provisions outlined in the RFP.\nOn behalf of Parsons, I am authorized to bind the Corporation to all the provisions in this proposal and acknowledge\nreceipt of Addenda 1 through 5. This proposal is good for"
+    },
+    {
+      "chunk_id": 1963,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 8,
+      "content": "AWS Partner Solutions Provider, AWS DevOps Competency Partner, and AWS Advanced Tier Services\nPartner, and holds other designations. Our engineers and in-house security experts have more than 100 AWS\ncertifications, and Parsons has secured AWS\u2019s commitment to support our Pennsylvania solution during our\nimplementation and ongoing utilization of AWS/AWS products. Our experience moving the Ontario DriveON program to\nAWS allows us to implement our proposed update to the PA I/M Program VIID securely, without interruption in service\nor uptime. We will upgrade our call center solution with new technology using ZenDesk and AmazonConnect as the\nbackbone of the system.\nStation Compliance. Our operational goals align with PennDOT\u2019s focus on station and inspector compliance. We\nrecognize the Program\u2019s integrity and customer confidence are rooted in ensuring compliance. We will continually\nadapt to improve our audit and hearing processes through innovation and enhanced auditor training. Parsons has in-\nhouse professional oversight personnel with experience in the Pennsylvania Program. In this challenging labor market,\nour teams are fully staffed, trained, and dependable.\nExecutive Summary ES-1"
+    },
+    {
+      "chunk_id": 1964,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 8,
+      "content": "s in-\nhouse professional oversight personnel with experience in the Pennsylvania Program. In this challenging labor market,\nour teams are fully staffed, trained, and dependable.\nExecutive Summary ES-1"
+    },
+    {
+      "chunk_id": 1973,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 11,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nfield use. In 2020, we reacted and adapted to the COVID-19 pandemic, successfully delivering all Program requirements\ndespite the mandated closures. In 2021, we collaborated with you to implement important OBD system changes that\nimproved emissions testing and Program integrity. In 2023, we increased overt audit staff to meet your need for\nincreased safety station oversight. We have demonstrated our adaptability and expertise. Our understanding of the\nProgram will benefit you in the new contract through:\n\u00a7 Trusted relationships\u2014we\u2019ve established constructive relationships with both PennDOT staff and the inspection\nindustry who trust us to communicate and resolve I/M Program issues.\n\u00a7 Operational continuity\u2014our experienced team will manage the daily operational tasks of the I/M Program.\n\u00a7 Innovation\u2014we\u2019ve implemented an electronic audit application that leverages touchscreen laptops, electronic\nsignature capture, and VIID integration to eliminate paper overt audit reports submitted to PennDOT.\n\u00a7 Enhanced cybersecurity protection\u2014we scan systems supporting our VIID using the same technolo"
+    },
+    {
+      "chunk_id": 1979,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 12,
+      "content": "m uptime above 99.9%.\nstrong IT/Technology division, a cybersecurity practice, and\nprofessionally tested and proven project management staff. Our CEO\u2019s pledge to the Commonwealth of Pennsylvania is a\ntestament to our dedication to PennDOT and the PA I/M Program\u2019s success.\nParsons is honored to have the opportunity to continue to play a crucial role as your Program Manager\nresponsible for administering the Commonwealth\u2019s I/M Program. Mark Colangelo and his team are\ncommitted to extending our support for this important Program. They will have the full complement of our\nunrivaled resources, expertise, and experience to realize your vision to protect the environment and keep\nyour roads safe. Likewise, we have a robust cybersecurity practice and the capabilities necessary to ensure\nyour data and systems are secure. We look forward to collaborating with PennDOT and each of its\nstakeholders to build on our long-term, mutually successful relationship that is 26 years in the making.\nCarey Smith\nChairwoman, President, and CEO\nIn our I/M sector, PennDOT can count on the following leadership to guide the program:\n\u00a7 Mark Colangelo, Vice President and Pennsylvania Program Manager with 38 industr"
+    },
+    {
+      "chunk_id": 2006,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 17,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nParsons staff proposed in the organization chart are already in place, as are our primary subcontractors included on our\nteam. A challenging labor market will not impact Program continuity \u2013 Parsons\u2019 staff with Program knowledge will be\nready on day one, eliminating the need for program recruitment, education, and training, which mitigates transition\nrisk.\nI-2D: Background Checks\nParsons will conduct background checks for all employees and subcontractors with on-site or remote access to\nCommonwealth IT facilities. We\u2019ll provide written confirmation that the background checks have been completed via\nPennDOT\u2019s outlined procedure. We will not assign any employee who fails the background check. Current employees who\nfail a background check will have their access privileges revoked. We will conduct background checks at our expense\nbefore initial access and then annually. We understand that PennDOT may withhold access at its discretion.\nI-2E: Subcontractors\nOur subcontracting plan includes actively recruiting partners that share Parsons\u2019 core values and PennDOT\u2019s goals and\nwill add expertise,"
+    },
+    {
+      "chunk_id": 2007,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 17,
+      "content": "most qualified\nfor this Program through a vetting process that includes evaluating financial stability, obtaining positive performance\nreferences, and confirming capacity to handle our proposed scope. Many of these subcontractors have worked for\nParsons on the PA I/M Program or have direct experience with similar projects. Our subcontractor manager will monitor\nour subcontractors, verifying that subcontracted Program delivery services align with Program deliverables and\nobjectives.\nIn the following table, we present our proposed subcontractors for the new contract.\nEXHIBIT I-2-6. OUR TEAM OF SUBCONTRACTORS BRINGS DIVERSITY TO THE PA I/M PROGRAM.\nSubcontractor Dasher Services, Inc, de la Torre Klausmeier Hager Environment & Atmospheric\nTechnologies (HEAT)\nAddress 777 E. Park Drive 1401 Foxtail Cove 7308 Nubbin Ridge Drive\nHarrisburg, PA 17111 Austin, TX 78704 Knoxville, TN 37919\nCertifications SDB None SDB\n# years as a Parsons sub 11 18 8\n# employees on Project Covert Auditors: 3 managers, 31 1 4\nauditors; Call Center: 1 supervisor,\n2 representatives\nServices Provided Covert I/M Auditing, Help Desk Program Trigger Evaluation, Evaluation Testing\nService, Printing, and Publications Pr"
+    },
+    {
+      "chunk_id": 2008,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 17,
+      "content": "staff time 100% committed 100% committed 100% committed\nGeographical Location Covert Auditors: Hazleton, Altoona, Austin, TX Knoxville, TN\nCranberry, and Plymouth Meeting\nCall Center: Harrisburg, PA\nTechnical Submittal 8\nSubcontractor | Dasher Services, Inc, |  |  | de la Torre Klausmeier |  | Hager Environment & Atmospheric | \n |  |  |  |  |  | Technologies (HEAT) | \nAddress |  | 777 E. Park Drive |  | 1401 Foxtail Cove\nAustin, TX 78704 |  | 7308 Nubbin Ridge Drive | \n |  | Harrisburg, PA 17111 |  |  |  | Knoxville, TN 37919 | \nCertifications |  | SDB |  | None |  | SDB | \n# years as a Parsons sub |  | 11 |  | 18 |  | 8 | \n# employees on Project |  | Covert Auditors: 3 managers, 31 |  | 1 | 4 | 4 | \n |  | auditors; Call Center: 1 supervisor, |  |  |  |  | \n |  | 2 representatives |  |  |  |  | \nServices Provided |  | Covert I/M Auditing, Help Desk |  | Program Trigger Evaluation,\nProgram Consulting | Evaluation Testing |  | \n |  | Service, Printing, and Publications |  |  |  |  | \nTask Assignment |  | Tasks B, C, D, E, & L |  | Task B & I |  | Tasks G & H | \n% of dedicated staff time |  | 100% committed |  | 100% committed |  | 100% committed | \nGeographical Location |  | Covert A"
+    },
+    {
+      "chunk_id": 2010,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 18,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nSubcontractor Michael Baker International Revecorp, Inc. 1Alpha\nAddress 4431 N Front Street, 2nd Floor 5732 Lonetree Boulevard 20 Farm House Lane\nHarrisburg, PA 17110 Rocklin, CA 95765 Carlisle, PA 17013\nCertifications None None VBE\n# years as a Parsons sub 5 8 New Subcontractor\n# employees on Project 3 2 5\nServices Provided Data Analysis, Annual Reporting Data Analysis, Safety Recall, Trigger Motorist Compliance\nSupport, Equipment Certification Development, Program Evaluation\nSupport, Contractual Audit\nValidation\nTask Assignment Tasks B, I, J, & L Task B & J Task F\n% of dedicated staff time 100% committed 100% committed 100% committed\nGeographical Location Harrisburg, PA Rocklin, CA Pennsylvania\nSubcontractor Berry Solutions Group\nAddress 3900 Industrial Park Drive, Suite 8\nAltoona, PA 16602\nCertifications VBE\n# years as a Parsons sub New Subcontractor\n# employees on Project 6\nServices Provided I&E Material Development,\nAuditor Training\nTasks Assigned Tasks B, C, & J\n% of dedicated staff time 100% committed\nGeographical Location Altoona, PA\nI-3. TRAINING\nParsons recommends training cov"
+    },
+    {
+      "chunk_id": 2012,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 18,
+      "content": "e to answer questions in support of daily activities once the\ntraining has been completed.\nWe begin the training materials development process by conducting a needs analysis and establishing learning\nobjectives for each required curriculum. We design our comprehensive training to help PennDOT effectively manage\nassociated Program tasks using Parsons-developed systems and tools. Our start-to-finish training approach ensures a\nTechnical Submittal 9\nSubcontractor |  | Michael Baker International | Revecorp, Inc. |  | 1Alpha | \nAddress |  | 4431 N Front Street, 2nd Floor\nHarrisburg, PA 17110 | 5732 Lonetree Boulevard\nRocklin, CA 95765 |  | 20 Farm House Lane | \n |  |  |  |  | Carlisle, PA 17013 | \nCertifications |  | None | None |  | VBE | \n# years as a Parsons sub |  | 5 | 8 |  | New Subcontractor | \n# employees on Project |  | 3 | 2 |  | 5 | \nServices Provided |  | Data Analysis, Annual Reporting\nSupport, Equipment Certification\nSupport, Contractual Audit\nValidation | Data Analysis, Safety Recall, Trigger\nDevelopment, Program Evaluation | Motorist Compliance | Motorist Compliance | \nTask Assignment |  | Tasks B, I, J, & L | Task B & J |  | Task F | \n% of dedicated staff time |  | 100"
+    },
+    {
+      "chunk_id": 2013,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 18,
+      "content": "cation |  | Harrisburg, PA | Rocklin, CA |  | Pennsylvania | \nSubcontractor |  | Berry Solutions Group\nAddress |  | 3900 Industrial Park Drive, Suite 8\n |  | Altoona, PA 16602\nCertifications |  | VBE\n# years as a Parsons sub |  | New Subcontractor\n# employees on Project |  | 6\nServices Provided |  | I&E Material Development,\n |  | Auditor Training\nTasks Assigned |  | Tasks B, C, & J\n% of dedicated staff time |  | 100% committed\nGeographical Location |  | Altoona, PA"
+    },
+    {
+      "chunk_id": 2016,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 19,
+      "content": "nDOT requires Inspector\nCertification for all managers and field audit staff. We will administer all certification classes with our Pennsylvania-\nCertified Safety and Emissions Inspector instructors.\nUsing our PennDOT-certified Vehicle Safety and Emissions Inspection School, we will provide training to PennDOT\npersonnel and management staff involved in the safety, enhanced safety, and emissions inspection program throughout\nthe contract. For Inspector Certification we recommend no more\nVEHICLE SAFETY AND EMISSIONS INSPECTION\nthan 10 students per instructor for effective interactions.\nCERTIFICATION\nTraining may range from one to three days, depending on the\nstudent's experience.\nAs the only vendor designated as a PennDOT-\ncertified Vehicle Emission & Safety Inspection\nOur team includes three certified Vehicle Safety Inspection\nSchool, we can certify PennDOT personnel as\ninstructors and Vehicle Emissions Inspection instructors\u2014\nvehicle safety, enhanced safety, and emission\nJohn Ott, Karl Wagner, and Randall Udavcak\u2014with extensive\ninspectors.\nI/M Program and industry experience.\nI-4. FINANCIAL CAPABILITY\nWith 18,000+ employees, more than 5,000 current projects, and 250 offices worldwi"
+    },
+    {
+      "chunk_id": 2017,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 19,
+      "content": "capabilities, technical expertise, and available workforce to undertake almost any project and to supply the skills\nand resources required for its completion.\nOUR FINANCIAL STABILITY BENEFITS PENNDOT\nAs a global company with annual revenues Parsons is a publicly held corporation, more than 60% owned by\nexceeding $4.5 billion, Parsons\u2019 financial the Parsons Employee Stock Ownership Trust. As required, three\nstability is founded on the following years of audited financial statements, including balance sheet\nconservative business practices: and income statement or profit/loss statements, for Parsons\n\u2022 A robust risk management program Transportation Group Inc. have been emailed to Dawn Grabuloff\n\u2022 Accountability and incentives for management at dgrabuloff@pa.gov. Please keep this information confidential.\nstaff Our email to Dawn also includes a credit reference letter and\n\u2022 Careful subcontractor selection and our most recent Dun & Bradstreet comprehensive report.\nmanagement\n\u2022 Extensive training, tools, and audits\nI-5. REQUIREMENTS\nI-5A \u2013 C: Emissions Inspection and Maintenance (I/M) Program\nWe have been part of the PA I/M Program\u2019s success, as Exhibit I-2-2 (Page 5) illustrates, having"
+    },
+    {
+      "chunk_id": 2035,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 23,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nI-5H: Emergency Preparedness\nParsons worked first-hand with the Commonwealth through the uncertainty, challenges, and quickly changing scenarios\nof the COVID-19 pandemic, supporting contractual deliverables while prioritizing employee safety. Our ability to maintain\noperations comes in part from our established Emergency Response Plan (described below) and our experienced\nProgram Management Team.\nOperational Impact\nWE ADAPT TO CHANGING CONDITIONS TO KEEP\nYOUR PROGRAM MOVING FORWARD\nProgram operations can be impacted by pandemics and\nemergencies by limiting staff availability and mobility, hampering Parsons\u2019 response to the COVID-19 pandemic\nproject communications, eliminating office access, and reducing demonstrated our commitment and ability to\nor severing network connectivity. continue operations and support essential\ncontract deliverables for the Commonwealth.\nIf an emergency or pandemic occurs, Parsons will establish\ncontact with PennDOT and activate our Business Continuity Plan, which is part of our Program Management Plan. Project\nmanagement staff will communicate with PennDOT, pr"
+    },
+    {
+      "chunk_id": 2040,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 24,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nContinuity of Operations\nEven the most robust incident management plan requires knowledgeable staff for effective implementation and\nmanagement. Our team has knowledge and experience managing incidents without negative impact to the client and\ncustomers. We deliver training on our emergency preparedness plans to all staff, including key Program personnel.\nEXHIBIT: I-5-2. EMERGENCY PREPAREDNESS TRAINING FOR PROGRAM STAFF IS A CRITICAL ELEMENT TO OUR OPERATIONS.\nType of Training Recipients Frequency\nComplete Procedure Training All employees Upon hire\nFacility-specific Plans All employees for applicable facilities Upon transfer or role change\nRefresher Training All employees Annually or upon Plan update\nManagement Role Training Key Project Personnel Upon hire and annually\nTraining includes reviewing plans in detail with employees, conducting office closure drills, and reviewing interactive\nplans with diverse employee groups. Consistently reviewing, updating, and improving the plan provides PennDOT\nconfidence in our successful activation and continuity of operations delivery. We will test t"
+    },
+    {
+      "chunk_id": 2041,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 24,
+      "content": "nario simulations by our corporate safety and emergency response professionals.\nEssential business functions for the PA I/M Program include personnel and station oversight activities and assurance of\ndata connectivity between the stations, the VIID, and PennDOT. The Disaster Recovery Plan lists Parsons\u2019 personnel\nresponsible for data connectivity activities. PennDOT management will have contact methods for key personnel in the\nevent we must activate these plans. Mark Colangelo, Program Manager, will be responsible for communication with\nPennDOT and coordinating Program emergency procedures to ensure essential business functions continue. John\nOtt, Deputy Program Manager, will assist Mark in the execution of the emergency preparedness plan and will assume\nMark\u2019s duties if necessary. Parsons\u2019 regional managers, Thomas Bishop, Neal Lutz, and Bill Moyer are responsible for\nimplementing the emergency preparedness procedures and continuity of operations in their respective regions. They will\ncoordinate with emergency services, oversee area staff, and communicate with the Program and Deputy Program\nManagers. Key personnel will work together to ensure effective support and backup in an eme"
+    },
+    {
+      "chunk_id": 2042,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 24,
+      "content": "ement positions and staffing, ensuring any of the three can perform essential\nbusiness functions. Each key employee can perform the functions of their counterparts, filling in for impacted personnel.\nWe will maintain communication through any necessary combination of internet, email, texting, or cell phone contact. We\ndistribute comprehensive contact information to all key personnel to ensure communication continues and minimize risk\nto essential business functions. All project employees can work remotely as necessary. Program management will keep\nPennDOT apprised of the situation.\nA benefit of selecting Parsons as your Program Manager is the corporate resources we can activate in an emergency; we\nhave emissions program staff in multiple jurisdictions available to assist Pennsylvania. Additionally, Parsons has a\ncomprehensive and Federally recognized Cyber division with robust and proven Standard Operation Procedures and\ninternal policies to reduce cybersecurity threats, train staff to avoid threats, and provide the resources necessary to\naddress system issues.\nI-6. TASKS\nDeveloping an intricate and highly functional I/M Data Handling solution is a sophisticated and complex task. I"
+    },
+    {
+      "chunk_id": 2043,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 24,
+      "content": "ion efforts across many disciplines and functions including software development\nand systems integration; infrastructure sizing, and redundancy; integrations with a myriad number of testing equipment\nmanufacturers, communications protocols, and other diverse end-points; and significant and distributed end-user and\nsystems support training. In addition, and arguably more important to the success of the PA I/M Program, it involves\ndeveloping effective relationships with PennDOT staff and station operators.\nParsons has demonstrated the experience, adaptability, and reliability to develop and maintain a complex and highly\nfunctioning I/M technical solution. Our proven program execution, consistent regulation compliance, and unparalleled\nTechnical Submittal 15\n | Complete Procedure Training |  |  | All employees |  |  | Upon hire | \n |  |  | All employees for applicable facilities |  |  |  |  | \n | Refresher Training |  |  | All employees |  |  | Annually or upon Plan update | \n |  |  | Key Project Personnel |  |  |  |  |"
+    },
+    {
+      "chunk_id": 2044,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 24,
+      "content": "hire | \n |  |  | All employees for applicable facilities |  |  |  |  | \n | Refresher Training |  |  | All employees |  |  | Annually or upon Plan update | \n |  |  | Key Project Personnel |  |  |  |  |"
+    },
+    {
+      "chunk_id": 3513,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 1,
+      "content": "Parsons Corporation (NYSE: PSN) \u2014 Comprehensive Dossier\nPrepared for AI-agent ingestion in support of RFP responses. Tone: analytical and factual. All material claims are\nlinked to publicly available primary sources or major business/trade publications. Currency: April 2026; data\nthrough Parsons\u2019 FY2025 10-K filing (December 31, 2025) where applicable.\n1. Corporate Overview\nParsons Corporation is an 81-year-old, technology-focused engineering and solutions provider operating at the\nintersection of national security and global critical infrastructure, dual-listed in the Fortune 1000 and S&P\nMidCap 400.\nFounding, Structure, and Headquarters\nFounded: 1944 by Ralph M. Parsons in Pasadena, California, as the Ralph M. Parsons Company\nCompany Histories Source Source.\nHeadquarters: Chantilly, Virginia (Suite 100, 14291 Park Meadow Drive). GlobalData Parsons relocated its\nHQ from Pasadena, California to Centreville, Virginia in February 2019, Los Angeles Business Journal then\nmoved within Fairfax County to Chantilly between August and October 2023 Virginia Business Source\nSource.\nPublic/Private History: IPO\u2019d on the NYSE under ticker \u201cPSN\u201d on May 8, 2019, raising approximately $500\nmillion "
+    },
+    {
+      "chunk_id": 3514,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 1,
+      "content": "public markets after 35 years;\nWikipedia the company had become 100% employee-owned via an ESOP Jones Day finalized in 1985\nWikipedia (the ESOP was the sole stockholder pre-IPO) Source Source Source.\nIndex inclusion: Fortune 1000 (added 2020); S&P MidCap 400 (added 2024) Wikipedia Source.\nFinancials (FY2025, year ended December 31, 2025)\nRevenue: $6.364 billion (down 5.7% from MacroTrends $6.751 billion in 2024) sec Source Source.\nNet income attributable to Parsons (FY2025): $241.1 million Stocktitan Source.\nAdjusted EBITDA (FY2025): $609.3 million Stocktitan Source.\nBacklog (12/31/2025): $8.7 billion total; $6.4 billion funded; $4.1 billion expected to convert to revenue\nwithin 12 months Stocktitan Source.\nSegment revenue mix (FY2025): Federal Solutions 51%; Critical Infrastructure 49% Stocktitan Source.\nPrior-year benchmarks: FY2024 revenue $6.751 billion (24% total / 22% organic growth),\nWashington Technology net income $235 million, adjusted EBITDA $605 million (9.0% margin) sec\nWashington Technology Source Source.\nWorkforce and Footprint\nEmployees: Over 21,000 as of late 2025, Wikipedia Virginia Business with operations in 50 U.S. states and"
+    },
+    {
+      "chunk_id": 3515,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 1,
+      "content": "DA $605 million (9.0% margin) sec\nWashington Technology Source Source.\nWorkforce and Footprint\nEmployees: Over 21,000 as of late 2025, Wikipedia Virginia Business with operations in 50 U.S. states and"
+    },
+    {
+      "chunk_id": 3516,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 2,
+      "content": "more than 30 countries Source Source.\nMiddle East presence: Approximately 6,000 employees regionally, more than 65 years of presence; over\n900 projects completed in the UAE alone, with ~550 ongoing Parsons as of 2025 Source.\nMission/Positioning\nParsons positions itself as \u201ca leading disruptive technology provider in the national security and global\ninfrastructure markets, with capabilities across cyber and Fairfax County EDA electronic warfare, space and\nmissile defense, transportation, water and environment, urban development, and critical infrastructure\nprotection\u201d GlobeNewswire Parsons Source. The company emphasizes a \u201cPeople First\u201d culture, an employee\nvalue proposition, and a flexible/work-from-anywhere engineer program Fairfax County EDA Source.\n2. Business Segments and Divisions\nParsons reports two segments \u2014 Federal Solutions and Critical Infrastructure \u2014 that share underlying digital,\ncyber, AI/ML, and engineering capabilities.\nFederal Solutions (FY2025: ~51% of revenue)\nFederal Solutions delivers technology-driven mission solutions to U.S. defense, intelligence, and federal civilian\ncustomers across the all-domain battlespace Source. FY2025 segment revenue declined 20% Yo"
+    },
+    {
+      "chunk_id": 3525,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 4,
+      "content": "vices category Parsons Corporation WFXG Source Source.\nM&A team named \u201cDeal Team of the Year\u201d by the Association for Corporate Growth sec following the 2024\nBCC and BlackSignal transactions Source.\n4. High-Security / Classified Work\nParsons is one of the most cleared mid-cap government services contractors in the market, with multiple\nacquired companies posting cleared workforces of 80\u201390%.\nIntelligence Community (CIA, NSA, NRO, NGA, DIA)\nPolaris Alpha (acquired 2018) brought ~1,300 employees Baird with nearly 90% cleared, PR Newswire\nsupporting the U.S. Intelligence Community, multiple DoD agencies, DHS, and other federal agencies, with\ndeep capabilities in cyber, ML/AI, EW, SIGINT, space situational awareness, and multi-domain command and\ncontrol Source Source.\nOGSystems (acquired 2019) core customers were named as the National Geospatial-Intelligence Agency\n(NGA), the National Reconnaissance Office (NRO), and Special Operations Command (SOCOM)\nParsons Corporation Source Source.\nBraxton Science & Technology Group (acquired 2020) added 370+ employees, 80% cleared, focused on\nsatellite operations, ground-system automation, flight dynamics, and spacecraft simulation for DoD and the\n"
+    },
+    {
+      "chunk_id": 3526,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 4,
+      "content": "e across DoD and IC; ~150 employees with\n70% security clearances Source.\nXator (acquired 2022) had nearly 90% cleared workforce, with full-spectrum C4ISR solutions; expanded\nParsons\u2019 footprint at U.S. SOCOM, the IC, federal civilian agencies, and the Department of State Source."
+    },
+    {
+      "chunk_id": 3528,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 5,
+      "content": "Chesapeake Technology International (acquired 2025) added ~225 employees with 87% cleared\nGovCon Wire Source.\nAltamira (acquired January 2026) added 600+ employees with over 90% cleared, Parsons Corporation\nspecializing in SIGINT, missile warning, space data analytics, and AI/ML SpaceNews sec Source Source.\nDoD Classified Programs\nMDA SHIELD IDIQ (Dec 2025): $151 billion ceiling Scalable Homeland Innovative Enterprise Layered\nDefense IDIQ for rapid delivery of warfighter capabilities Yahoo Finance Source.\n40-year relationship with the Missile Defense Agency as engineering and technical advisory provider;\n\u201cresponsible for the ground infrastructure supporting every U.S. intercontinental ballistic missile program in\nhistory\u201d Washington Technology except Sentinel, per CEO Carey Smith Source.\nMDA TEAMS (2016): 5-year, $455 million potential ceiling for weapons and missiles engineering support\nFedSavvy Strategies Source.\nMDA Real Property Program (2022): $104.2 million for facility restoration/modernization Source.\n$47M classified contract extension (March 2026) Source.\nSpecial Operations Command (SOCOM)\nLong-standing customer through OGSystems and Xator legacy; SOCOM identified explicit"
+    },
+    {
+      "chunk_id": 3531,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 6,
+      "content": "show 70\u201390% clearance rates, totaling thousands of TS/SCI-cleared employees concentrated in Chantilly,\nCentreville, (regional location) Junction (MD), Aberdeen (MD), Columbia (MD), Colorado Springs (CO), and\nFredericksburg (VA) Source Source.\n5. Technology and R&D\nParsons has shifted from a traditional EPC firm to a \u201cdigitally enabled solutions provider\u201d anchored by\nproprietary software products and AI/ML technology developed both organically and through 20+ acquisitions\nsince 2017.\nKey Proprietary Platforms and Products\niNET\u00ae (Intelligent NETworks): cloud-based, COTS smart-mobility / Advanced Traffic Management System\nused by NJDOT, GDOT, and others; powers the first integrated statewide ATMS for NJDOT (go-live August\n2025); manages 5,000+ monthly traffic events Source Source.\nTraCSS (Traffic Coordination System for Space): civil SSA system delivered to NOAA\u2019s Office of Space\nCommerce Source.\nTEMPO (EW planning optimization), DeclutterML (radar-track classification), Project DECIDER (predictive\nanalytics) Source.\nJavelinXL rugged biometric handhelds, Ares Gateway mobile biometrics application, ABIS In A Box,\nDetectWise\u2122, ICS\u2122, Intelligent Intersections, Intellisight\u2122 Source Source"
+    },
+    {
+      "chunk_id": 3532,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 6,
+      "content": "(Jan 2025) in support of Project Linchpin,\nthe Army\u2019s AI/ML \u201cAIOps+\u201d program (PEO IEW&S) Source.\nStrategic agreement with BrainChip (Oct 2025) through Parsons subsidiary Blue Ridge Envisioneering to\nintegrate Akida neuromorphic processors into edge-AI platforms for defense/intelligence; Blue Ridge\nEnvisioneering was acquired as part of BlackSignal in 2024 Source.\nCloud/AI training: AWS DeepRacer enterprise upskilling program reached 470+ employees, generating\n1,500+ ML models Source.\nParsons X: internal digital accelerator organization within Connected Communities; integrates IPKeys\nsoftware Source.\nCTO and R&D Organization\nRico Lorenzo, Chief Technology Officer, leads enterprise R&D and innovation strategy, including internal\nR&D, commercial technology partnerships, contract R&D, and university partnerships Source.\nThe Defense & Intelligence sector has its own CTO (Ryan Gabriele) Source.\nStrategic Investment Areas (per FY2024 proxy)\n\u201cAI; cyber; biometrics; counter unmanned air systems; PFOS/PFAS; and assured position, navigation, and timing\n(PNT)\u201d Source."
+    },
+    {
+      "chunk_id": 3543,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 10,
+      "content": "Long-Standing Customer Relationships\nFAA: \u201cnearly 50 years\u201d/\u201cmore than five decades\u201d continuous TSSC support Source Source.\nMDA: 40-year relationship Source.\nNSA SHARKSEER: prime since 2011 Source.\nBWI Marshall Airport: 50 consecutive years Source.\nMiddle East: 65\u201370 years; first overseas project in 1949; first airport project in Saudi Arabia in 1958 Source\nSource.\nRiyadh Metro / RCRC: 10+ year relationship; PIF partnership since 2017 Source.\nInternational Work (Middle East and beyond)\nSaudi Arabia PIF mega-projects: THE LINE, Oxagon, multiple ROSHN developments, and now King Salman\nInternational Airport (KSIA) and the W Riyadh KAFD luxury hotel Source Source.\nUAE: Zayed International Airport, Sharjah International Airport Source.\nQatar: Hamad International Airport Source.\nKuwait International Airport Source.\nCanada: Eglinton Crosstown LRT (Toronto) Source.\n8. Acquisitions History (Last 10 Years)\nCEO Carey Smith has stated Parsons has \u201cacquired 14 technology-differentiated companies since 2017\u201d; Chuck\nHarrington\u2019s tenure included \u201cover 20 acquisitions\u201d total Source Source. Acquisition strategy: companies with\nrevenue growth and adjusted EBITDA margins \u226510% with critical IP that com"
+    },
+    {
+      "chunk_id": 3544,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 10,
+      "content": "apability Added\n(terms\nundisclosed;\nAI/ML, SIGINT, EW, space situational awareness, multi-\nPolaris Alpha 2018 portfolio of\ndomain C2; ~1,300 employees, ~90% cleared Source\nArlington Capital\nPartners)\nGeospatial intelligence, big data analytics, threat mitigation,\nJanuary\nOGSystems (undisclosed) VIPER Labs, PeARL sensors; customers NGA/NRO/SOCOM\n2019\nSource\nBraxton\n$300M ($258M Satellite operations, ground-system automation, flight\nScience & November\nnet of tax dynamics, spacecraft simulation; 370+ employees, 80%\nTechnology 2020\nassets) cleared; 50+ space-mission product offerings Source\nGroup\nEcho Ridge 2021 (undisclosed) Positioning, navigation, and timing (PNT) and SIGINT Source\nCyber, EW, information ops; TReX/Galileo products;\nBlackHorse\nJuly 2021 $203M autonomous detection/identification/signal-defeating\nAcquisition | Year | Value | Capability Added\nPolaris Alpha | 2018 | (terms\nundisclosed;\nportfolio of\nArlington Capital\nPartners) | AI/ML, SIGINT, EW, space situational awareness, multi-\ndomain C2; ~1,300 employees, ~90% cleared Source\nOGSystems | January\n2019 | (undisclosed) | Geospatial intelligence, big data analytics, threat mitigation,\nVIPER Labs, PeARL sensors; customers"
+    },
+    {
+      "chunk_id": 3545,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 10,
+      "content": "020 | $300M ($258M\nnet of tax\nassets) | Satellite operations, ground-system automation, flight\ndynamics, spacecraft simulation; 370+ employees, 80%\ncleared; 50+ space-mission product offerings Source\nEcho Ridge | 2021 | (undisclosed) | Positioning, navigation, and timing (PNT) and SIGINT Source\nBlackHorse | July 2021 | $203M | Cyber, EW, information ops; TReX/Galileo products;\nautonomous detection/identification/signal-defeating\n |  |  |"
+    },
+    {
+      "chunk_id": 3547,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 11,
+      "content": "Solutions systems Source\nCritical infrastructure protection, counter-UAS, biometrics,\nXator June $400M ($343M C4ISR, intelligence/cyber; ~900 employees (~90% cleared);\nCorporation 2022 net) SOCOM, IC, Federal Civilian, State Department customer\naccess Source\nIPKeys Power April Cloud-based cybersecurity, IT/OT software for utilities; grid\n$43M\nPartners 2023 modernization; clean-energy transition tech Source\nSealing up to $200M Defensive cyber operations, edge computing, AI/ML mission\nAugust\nTechnologies ($175M cash + solutions; Joint Cyber Hunt Kit producer; ~150 employees,\n2023\n(SealingTech) $25M earn-out) ~70% cleared Source Source\nI.S. Engineers 2023 (undisclosed) Texas infrastructure presence Source\nDigital signal processing, EW, AI-enhanced signal\nBlackSignal August\n$200M processing, counterspace RF, full-spectrum cyber; near-peer\nTechnologies 2024\nthreat focus Source\nFlorida transportation engineering; 385 employees; 100+\nBCC November $230M ($221M\nFDOT projects; #1 consultant in South Florida; SE U.S.\nEngineering 2024 net)\nfootprint Source\nChesapeake\nTechnology Electromagnetic spectrum dominance, all-domain solutions,\nJuly 2025 $89M\nInternational autonomous systems; ~225 emplo"
+    },
+    {
+      "chunk_id": 3548,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 11,
+      "content": "engineering Source\n2025\nConsulting\nTRS 2025 (undisclosed) Critical Infrastructure (named in Q3 2025 earnings) Source\nup to $375M SIGINT, missile warning, AI/ML analytics, space-based\nAltamira January\n($330M cash + mission support, cyber; 600+ employees, 90%+ cleared;\nTechnologies 2026\n$45M earn-out) ~$200M+ FY2026 revenue Source Source\n9. Performance Metrics and Accomplishments\nRevenue Trend (FY2020\u2013FY2025)\n2023: $5.443 billion (~23% organic growth)\n2024: $6.751 billion (24% total / 22% organic growth, all-time records for revenue, net income, adjusted\nEBITDA, cash flow, and contract awards)\n2025: $6.364 billion (5.7% decline, primarily Federal Solutions due to confidential contract wind-down)\nSource Source Source.\nRecognitions and Awards\n |  |  | \nSolutions |  |  | systems Source\nXator\nCorporation | June\n2022 | $400M ($343M\nnet) | Critical infrastructure protection, counter-UAS, biometrics,\nC4ISR, intelligence/cyber; ~900 employees (~90% cleared);\nSOCOM, IC, Federal Civilian, State Department customer\naccess Source\nIPKeys Power\nPartners | April\n2023 | $43M | Cloud-based cybersecurity, IT/OT software for utilities; grid\nmodernization; clean-energy transition tech Source\nSealing\nTec"
+    },
+    {
+      "chunk_id": 3549,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 11,
+      "content": "st\n2023 | up to $200M\n($175M cash +\n$25M earn-out) | Defensive cyber operations, edge computing, AI/ML mission\nsolutions; Joint Cyber Hunt Kit producer; ~150 employees,\n~70% cleared Source Source\nI.S. Engineers | 2023 | (undisclosed) | Texas infrastructure presence Source\nBlackSignal\nTechnologies | August\n2024 | $200M | Digital signal processing, EW, AI-enhanced signal\nprocessing, counterspace RF, full-spectrum cyber; near-peer\nthreat focus Source\nBCC\nEngineering | November\n2024 | $230M ($221M\nnet) | Florida transportation engineering; 385 employees; 100+\nFDOT projects; #1 consultant in South Florida; SE U.S.\nfootprint Source\nChesapeake\nTechnology\nInternational\n(CTI) | July 2025 | $89M | Electromagnetic spectrum dominance, all-domain solutions,\nautonomous systems; ~225 employees, 87% cleared Source\nApplied\nSciences\nConsulting | October\n2025 | (undisclosed) | Florida engineering Source\nTRS | 2025 | (undisclosed) | Critical Infrastructure (named in Q3 2025 earnings) Source\nAltamira\nTechnologies | January\n2026 | up to $375M\n($330M cash +\n$45M earn-out) | SIGINT, missile warning, AI/ML analytics, space-based\nmission support, cyber; 600+ employees, 90%+ cleared;\n~$200M+ FY2026 revenue S"
+    },
+    {
+      "chunk_id": 3550,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 11,
+      "content": "nuary\n2026 | up to $375M\n($330M cash +\n$45M earn-out) | SIGINT, missile warning, AI/ML analytics, space-based\nmission support, cyber; 600+ employees, 90%+ cleared;\n~$200M+ FY2026 revenue Source Source"
+    },
+    {
+      "chunk_id": 3560,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 15,
+      "content": "13. Key Facts and Figures to Highlight in Proposals\nStat Source\nFounded 1944 (81-year history) Source\n21,000+ employees worldwide; 50 U.S. states; 30+ countries Source Source\nFY2025 revenue $6.364B; FY2024 $6.75B Source\nBacklog $8.7B (12/31/2025) Source\n14 technology acquisitions since 2017 Source\n15 contract wins \u2265 $100M in 2025 Source\n17 consecutive years on Ethisphere World\u2019s Most Ethical Companies Source\n#1 Program Management firm by ENR (2025) Source\n600+ FAA sites supported under TSSC Source\n450+ airports in 40 countries planned/designed/managed Source\n10,000+ miles of roadways; 4,500+ bridges; 50+ ATMS deployments Source\n3,500+ mobile biometrics solutions delivered Source\n70-year continuous Middle East presence; 6,000+ regional employees Source\n50 consecutive years supporting BWI Marshall Source\n40-year MDA relationship; ground infrastructure for every U.S. ICBM program except\nSource\nSentinel\nPosition on $151B MDA SHIELD IDIQ; $15B PDI MACC; $15B USAF Construction MATOC; (sources cited\n$3.5B DTRA CTRIC IV; $1.8B FAA TSSC 5 above in \u00a77)\nSources / Reference List\nParsons Corporate / SEC Filings\nParsons FY2025 10-K (SEC EDGAR) \u2014\nhttps://www.sec.gov/Archives/edgar/data/0000275880"
+    },
+    {
+      "chunk_id": 3561,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 15,
+      "content": "dgar/data/275880/000095017025022754/psn-\n20241231.htm\nParsons FY2021 10-K \u2014\nhttps://www.sec.gov/Archives/edgar/data/0000275880/000156459022006026/psn-10k_20211231.htm\nParsons FY2025 Proxy (DEF 14A) \u2014\nhttps://www.sec.gov/Archives/edgar/data/0000275880/000095017025033061/psn-20250303.htm\nStat | Source\nFounded 1944 (81-year history) | Source\n21,000+ employees worldwide; 50 U.S. states; 30+ countries | Source Source\nFY2025 revenue $6.364B; FY2024 $6.75B | Source\nBacklog $8.7B (12/31/2025) | Source\n14 technology acquisitions since 2017 | Source\n15 contract wins \u2265 $100M in 2025 | Source\n17 consecutive years on Ethisphere World\u2019s Most Ethical Companies | Source\n#1 Program Management firm by ENR (2025) | Source\n600+ FAA sites supported under TSSC | Source\n450+ airports in 40 countries planned/designed/managed | Source\n10,000+ miles of roadways; 4,500+ bridges; 50+ ATMS deployments | Source\n3,500+ mobile biometrics solutions delivered | Source\n70-year continuous Middle East presence; 6,000+ regional employees | Source\n50 consecutive years supporting BWI Marshall | Source\n40-year MDA relationship; ground infrastructure for every U.S. ICBM program except\nSentinel | Source\nPosition on $151B MD"
+    },
+    {
+      "chunk_id": 3577,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 4,
+      "content": "........................................................................ 50\n2.3.1.2.C Material Costs Passed Through (RFP Section 2.3.1.2.C) ........................................................ 50\n2.3.1.2.D Test Conditions and Application (RFP Section 2.3.1.2.D) ....................................................... 50\n2.3.1.2.E Test Conditions and Application (RFP Section 2.3.1.2.E) ........................................................ 50\n2.3.1.2.F Acquisition and Operation of Hardware, Software, and Network Support (RFP\nSection 2.3.1.2.F) ....................................................................................................................................... 51\n2.3.1.2.G Manufacturer/Provider Warranties (RFP Section 2.3.1.2.G) .................................................. 51\n2.3.1.3 Required Project Policies, Guidelines, and Methodologies (RFP Section 2.3.1.3) ....................... 51\n2.3.1.4 Product Requirements (RFP Section 2.3.1.4) ................................................................................. 52\n2.3.1.5 Maintenance and Support (RFP Section 2.3.1.5) ........................................................................... 52\n2.3"
+    },
+    {
+      "chunk_id": 3578,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 4,
+      "content": "nd Program Enhancement Labor Support (RFP\nSection 2.3.1.5.A) ....................................................................................................................................... 52\n2.3.1.5.B Cooperate with The State Regarding Program Modifications (RFP Section 2.3.1.5.B) ......... 53\n2.3.1.5.C Emissions Test Equipment and Software Updates (RFP Section 2.3.1.5.C) .......................... 53\nTable of Contents i"
+    },
+    {
+      "chunk_id": 3602,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 9,
+      "content": "........................................................ 296\n3.6 Insurance Requirements (RFP Section 3.6) ......................................................................................... 296\n3.7 Security Requirements (RFP Section 3.7) ............................................................................................ 296\n3.7.1 Employee Identification (RFP Section 3.7.1) ................................................................................ 297\n3.7.2 Criminal Background Check (RFP Section 3.7.2) ......................................................................... 297\n3.7.3 On-Site Security Requirement(s) (RFP Section 3.7.3) .................................................................. 298\n3.7.4 Information Technology (RFP Section 3.7.4) ................................................................................ 298\n3.7.5 Data Protection and Controls (RFP Section 3.7.5) ....................................................................... 299\n3.7.6 Security Logs and Reports Access (RFP Section 3.7.6) ............................................................... 306\n3.7.7 Security Plan (RFP Section 3.7.7) ................................."
+    },
+    {
+      "chunk_id": 3608,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 10,
+      "content": ".................................................................... 363\nF.5. Organization Chart to the Individual the Inspection Program Station Level (RFP Section F.5) ....................................... 365\nF.6. Differing Personnel Work Hours (RFP Section F.6) ............................................................................. 366\nF.7. Maintain Staffing Levels (RFP Section F.7) ......................................................................................... 366\nF.8. Estimated Number of Employees (RFP Section F.8) ........................................................................... 367\nF.9 Job Descriptions and Requirements (RFP Section F.9) ....................................................................... 369\nTAB F \u2013 OFFEROR QUALIFICATIONS AND CAPABILITIES ...................................................................................... 377\nG.1 Number of Years Providing Similar Goods and Services (RFP Section G.1) ...................................... 379\nG.2 Number of Clients/Customers and Geographic Locations (RFP Section G.2) ................................... 379\nG.3 Headquarters or Regional Management Personnel (RFP Section G.3) ..."
+    },
+    {
+      "chunk_id": 3618,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 14,
+      "content": "quality to create a healthier the State. Not only are we committed to helping you\nachieve the deliverables and objectives of the the Inspection Program, but we also have a personal stake in the Program\u2019s success. We\u2019ve\nenjoyed a longstanding, productive partnership with the the State\u2019s Department of Transportation in the\ndelivery, execution, and management of many successfully implemented projects. We are committed to building a\nrelationship\u2014forged in trust, fostering real-time collaboration, and promoting open communication as your trusted\npartner.\nCombining our 80-year history, our more than $5.4 billion in annual revenue, and, most importantly, our continued and\ngrowing corporate commitment to successful engineering and IT projects throughout the State and North America\nshould provide additional assurance to the the State that we have the management structure and financial\nstrength to not only implement a contract of this size and scope but also to exceed the State\u2019s expectations."
+    },
+    {
+      "chunk_id": 3620,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 15,
+      "content": "Jessica Mettle\nthe State Department of Transportation\nVehicle Emissions Inspection Program Management and Operation, RFP Number the procurement\nJune 12, 2024\nPage 3\nParsons has endeavored to provide a quality, high-value technical solution to the requirements of this RFP. In the nearly\n15 years that have passed since the previous competitive bid process, significant structural changes have been\nimplemented in the program, including an extended model-year exemption; 50% increases in Living Wage and\nassociated supervisory compensation requirements, historic inflation, and supply chain pressures; modified liquidated\ndamages penalty clauses; and the sustained idle test requirement. From this, Parsons provides an effective and\nefficient overall technical and price offering and looks forward to discussing how cost savings could be implemented in\nthe future to continue to drive value into the program for the the State over the next 10 years.\nParsons accepts all State RFP and Contract terms and conditions. As stated in our Executive Summary, Parsons takes\nno exceptions to any of the contractual provisions outlined in the RFP.\nParsons fully comprehends the nature of the tasks involved in th"
+    },
+    {
+      "chunk_id": 3645,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 35,
+      "content": "VEHICLE EMISSIONS INSPECTION PROGRAM MANAGEMENT AND OPERATIONS\nSTATE OF MARYLAND DOT the State Motor Vehicle agency \u2502 RFP NUMBER the procurement\nProgram Manager, Jim Valerio has a 12-year history with the the Inspection Program. His\nongoing commitment to the success of the the Inspection Program will be invaluable in delivering a\nsmooth transition and putting customers first. Jim is proud to call the State his home\nand excited to be part of its future.\nTo establish the strongest team of resources for the new the Inspection Program, Parsons hired Jason Freeman, a 30-year\nI/M industry veteran with more than 25 years of direct experience with the the State program. Jason\u2019s\nskills and outlook for transforming the new the Inspection Program\u2014coupled with his innate ability to ensure solid\nperformance\u2014make him an excellent choice to help Jim manage day-to-day operations across the\nmultifaceted customer service offerings. Navin Dass is another local, dedicated resource with extensive\noperations and labor management experience. As our Testing Station Transition Manager and Overall\nImplementation Manager, Navin will provide Jim with key support throughout the program transition\nand during pr"
+    },
+    {
+      "chunk_id": 3668,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 41,
+      "content": "at the same the Inspection Program station within a 30-minute window). Thus, the system\nselects the plate with the closest match and uploads the associated wait time for that\nvehicle to the test record for compliance.\n\u2022 Installation of additional camera hardware facing different directions to provide more\nopportunities to capture front and rear plates at different angles and the Inspection Program property\nlocations to increase hit rates and mitigate vehicles moving too quickly or not driving\ndown the center of the driveway.\n2.3.1.C the Inspection Program Meets all Applicable Local Requirements (RFP Section 2.3.1.C)\nParsons will ensure that all the Inspection Program station inspection services, facilities, systems, and equipment meet all local\nrequirements, state laws, rules, and regulations, and federal requirements. We\u2019ll continually ensure\ncompliance by using our stringent checks and balances system. We\u2019ll develop the Inspection Program-specific standard\noperating procedures (SOPs) that ensure we inform employees of expectations and conduct periodic\ncompliance reviews.\nCONCLUSION\nUsing our expertise and years of experience in the lanes and as program managers, we\u2019ll enhance the"
+    },
+    {
+      "chunk_id": 3671,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 42,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\n2.3.1.1 Transition of the Inspection Program Stations to New Program and Contractor (RFP Section 2.3.1.1)\nFEATURES OF OUR APPROACH BENEFITS TO MARYLAND\nReadily available resources Access to a dedicated Vehicle Inspection and Compliance division of more than 500 vehicle\nindustry professionals in the region to provide significant resources during the transition and\nstartup phases of the new program. In addition, we can draw from 18,000 Parsons employees.\nA PM with local, unmatched knowledge Jim Valerio was the full-time general manager of the the Inspection Program for more than 12 years. He is\ndedicated to the implementation of this project and understands the State\u2019s objectives for a\nreinvented the Inspection Program.\nFinancially powerful and stable company With more than $5.4 billion in annual revenues focused in North America, we have the strength and\ncommitment to our clients as a top priority and will not cut corners. We do more than emissions\ntesting and will not jeopardize our the State brand.\nWell-organized division of labor While a large company by industry standards, Parsons is divided into organized groups of dedicated\nperso"
+    },
+    {
+      "chunk_id": 3673,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 42,
+      "content": "proven tool for data migration to ensure accuracy when transitioning database management systems.\n\u2022 Bulk Text Messaging for use with our staff and program stakeholders to improve urgent and emergency\ncommunications and deliver better operational results.\nParsons will deliver a well-managed, cost-effective, and successful program\ntransition for the the Inspection Program. We have the experience, the depth of\nresources, and the executive-level commitment to ensure the smooth,\nseamless startup of operations that will meet or improve upon the date\nprovided by the MDOT the State Motor Vehicle agency. For the State Motor Vehicle agency and MDE\u2014and for the citizens and motorists of the State\u2014we propose\na low-risk transition that will:\n\uf0a7 Provide consistency across the the Inspection Program Station, FIS, and the Inspection Program Kiosk network on day one\n\uf0a7 Ensure controls are in place for the State to manage and oversee the deployment and rollout\n\uf0a7 Reduce the burden placed upon State resources to manage and oversee the transition\n\uf0a7 Deliver a solution that has been executed successfully by a proven team that has worked together on\nprogram transitions for more than 35 years\nWe\u2019ll dedicate t"
+    },
+    {
+      "chunk_id": 3674,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 42,
+      "content": "ors and vendors with the knowledge and experience to manage the process smoothly and without\ndelays. From electricians to construction managers to janitorial resources to field service technicians to\n28 Tab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan\nFEATURES OF OUR APPROACH | BENEFITS TO MARYLAND\nReadily available resources | Access to a dedicated Vehicle Inspection and Compliance division of more than 500 vehicle\n | industry professionals in the region to provide significant resources during the transition and\n | startup phases of the new program. In addition, we can draw from 18,000 Parsons employees.\nFinancially powerful and stable company | With more than $5.4 billion in annual revenues focused in North America, we have the strength and\n | commitment to our clients as a top priority and will not cut corners. We do more than emissions\n | testing and will not jeopardize our the State brand.\nSmooth, successful transition | Our experience will ensure transparent transition of the the State program. We\u2019ll prevent motorist\n | inconvenience and proactively mitigate risk. Our record demonstrates we don\u2019t cut corners, and we\n | do what we say.\nA refined user exper"
+    },
+    {
+      "chunk_id": 3697,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 47,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\n2.3.1.1.4.C Legacy Equipment Operation (RFP Section 2.3.1.1.4.C)\nWhile we understand that the State allows the use of legacy equipment, we will not operate, train staff to\noperate, or provide QA or maintenance for any lane legacy equipment. Given that the the Inspection Program kiosks are not\nState property and must be replaced, we\u2019ll provide and install 10 new kiosks at existing kiosk locations for\nthe new the Inspection Program.\n2.3.1.1.4.D Training and Certification of Inspectors and Technicians (RFP Section 2.3.1.1.4.D)\nHaving effectively implemented many similar programs for more than 40 years, we understand that our\nformal, consistent training program for employees and State personnel is key to a smooth, successful the Inspection Program\ntransition and implementation. We\u2019ll conduct training for lane inspectors, technicians, MAC Assistants, and\nState staff in accordance with the requirements outlined in Section 2.3.1.13 and for FIS inspectors as\nrequired in RFP Section 2.3.3.3. This Parsons training and State certification of proposed Parsons "
+    },
+    {
+      "chunk_id": 3698,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 47,
+      "content": "ay of full program management and operation. We\u2019ll conduct evening\nand weekend training for employees who will be hired from the existing program to eliminate disruption\nduring normal operating hours. This training will be augmented by refresher sessions at each testing station\nconducted over the weekend transition period before startup of the the Inspection Program Stations. By using our corporate\ntraining staff and our provided Training Plan as a guide, we\u2019ll ensure all employees associated with the the Inspection Program\nare fully trained, certified, and equipped before the transition period. We look forward to discussing our\nproposed Training Plan during the implementation period to ensure pre-go-live activities and ongoing\noperational training are administered to meet the State\u2019s approval.\n2.3.1.1.4.E Usage of Equipment (RFP Section 2.3.1.1.4.E)\nBy using existing equipment as described in Section 2.3.1.1.4.P, spare inventories, and other equipment, we\nreduce the overall implementation cost to the State. We provide all additional supplies, equipment, and\nmaterials to ensure the smooth transition and operation of the the Inspection Program on the go-live date.\n2.3.1.1.4.F Carbon"
+    },
+    {
+      "chunk_id": 3701,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 48,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\n2.3.1.1.4.H Testing Positions, Lane Design, and Safety (RFP Section 2.3.1.1.4.H)\nWe have extensive experience with testing lane operations; specifically, operations where we manage and\noversee real estate and assets on the client\u2019s behalf, such as we\u2019ve done for the New Jersey Vehicle\nInspection Program since 1998. We\u2019ve examined various modifications and enhancements to help improve\nthroughput and rolled-throughput yield to improve customer convenience and efficiency, decreasing overall\ncosts to the State. We\u2019ve also implemented continuous innovation and improvement features, bringing\nadditional benefits to our clients and program stakeholders. This is evidenced by our continuous lane\nprocedure and layout modifications resulting from stakeholder feedback, identified safety risks, and\ncoordinated reviews.\nThrough this experience, we\u2019ve established best practices to ensure\nthe safety and well-being of customers, employees, and other station\noccupants. Without needing to propose risky solutions, we deliver a\ntraditional testing lane with multiple testing positions and inspector\nstaffing to ensure high-throughput and no customer wait tim"
+    },
+    {
+      "chunk_id": 3707,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 49,
+      "content": "in each of the 18 stations to be used for MAC services. We\nwill also update all necessary associated HVAC and utilities in the remaining enclosure to full functionality\nand all State and local codes. This one large customer wait booth will serve employees and customers\nseeking a large, enclosed waiting area.\n2.3.1.1.4.L Retrofitted Existing Inspector Booths (RFP Section 2.3.1.1.4.L)\nOur technical response details the retrofit of waiting booths and the installation of inspector enclosures with\nproper electrical upgrades to support testing equipment, newly installed HVAC equipment, and all applicable\nADA accommodations.\nTab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan 35\nStation Location | Lane 1 | Lane 2 | Lane 3 | Lane 4 | Lane 5 | Lane 6 | OBD-Only | Combined | Total Test\n |  |  |  |  |  |  | Units | Units | Units\nDerwood** | C \u0406 O | O \u0406 O | C \u0406 O | O \u0406 O | C \u0406 O | O \u0406 O | 9 | 3 | 12\nClinton | C | O \u0406 O | C | O \u0406 O | x | x | 4 | 2 | 6\n |  |  |  |  |  | x |  |  | \n(regional location)** | C | O \u0406 O | C | O \u0406 O | x | x | 4 | 2 | 6\n |  |  |  | x | x | x |  |  | \nWaldorf | C | O \u0406 O | C | x | x | x | 2 | 2 | 4\n |  |  |  | x | x | x |  |  | \nTotal Test Units |  |  |"
+    },
+    {
+      "chunk_id": 3718,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 52,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\n2.3.1.1.4.Q.4 Customer Waiting Area Removal (RFP Section 2.3.1.1.4.Q.4)\nSince the layout of all 18 the Inspection Program\nStations is the same, we will\nmaintain that consistency by\nremoving all but the wait booth\nclosest to the customer service\narea between Lanes 1 and 2.\nWe\u2019ll test the integrity of the\nexisting safety bollards in all\nthe Inspection Program Station lanes, replacing\nany deemed not structurally\nsound. Safety bollards and\nstructural columns from the\nremoved wait booths will be\nretained to serve as barriers.\nAdditional bollards will be\nExhibit D-2.3.1.1.4.Q.4 \u2013 Still shot from 3D simulation of proposed layout for\ninstalled for motorist and\nconsistency across the Inspection Program locations. A copy of this simulation may be furnished\nemployee safety and to prevent\nupon request.\nvehicles from changing\ninspection lanes within the the Inspection Program Station.\n2.3.1.1.4.Q.5 ADA-Compliant Waiting Bench Installation (RFP Section 2.3.1.1.4.Q.5)\nUpon completion of the wait booth removals and retrofits and installation of all necessary test equipment\nenclosures throughout the the Inspection Program Station testing network, we w"
+    },
+    {
+      "chunk_id": 3723,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 53,
+      "content": "aramount concern and focus as\nwe deliver a smooth and seamless transition of these facilities.\n2.3.1.1.4.Q.10 State Inventory, Equipment, and Materials Return or Disposal (RFP Section 2.3.1.1.4.Q.10)\nPer State direction, we will return or properly dispose of all State inventory\nand meet personal property requirements, including eCycling. We will meet\nthe State\u2019s requirements of COMAR 04.03, Personal Property Disposal; the\nthe State Department of General Services Inventory Standards and\nSupport Services Division\u2019s inventory control procedures; and the State\u2019s Statewide Electronics Recycling\nProgram (Annotated Code of the State, Environment Article, Title 9, Subtitle 17, Part IV). We\u2019ll also cover or\nrelocate ports and mounts to meet local laws and regulations, ensuring customer and employee safety.\n2.3.1.1.4.Q.11 Test Record Conversion for Migration to the New Network (RFP Section 2.3.1.1.4.Q.11)\nWe have performed four major vehicle inspection system transitions: the New Jersey hybrid (2013), the\nPennsylvania decentralized (2012), and the Vermont and Ontario modernized (2011) programs\u2019 VIDs. Each\nwas completed successfully and\non time, with no interruption in\nEXHIBIT D-2.3.1.1.4.Q.1"
+    },
+    {
+      "chunk_id": 3731,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 56,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\n2.3.1.1.4.Q.13 Capturing Customer Satisfaction Data (RFP Section 2.3.1.1.4.Q.13)\nTesting Lanes\nBy using large tablets with customer input opportunities to gather feedback\non customer experience, we can offer the motorist feedback screen at\nseveral points during the station visit, including at the wait bench and the\nend of the visit. We can mount the feedback screen in the lanes for\nmotorist use before returning to their vehicle. Alternatively, we can offer the motorist a feedback screen\nwhen discussing their VEIC results. A \u201cSubmit\u201d button on the screen would clear the feedback results,\nassuring the motorist that the inspector would not see their feedback selection. Such a screen can be\nintegrated into the self-service and management tablets used for other\nfunctions in the Inspection Program Stations. We will test several configurations to identify the\nbest approach to increase motorist usage. Ultimately, we will implement a\nconsistent approach.\nFeedback screens can be tied to specific lanes or testing positions to direct\ncontinuous improvement opportunities at specified employees and lane\nprocesses. If we get feedback at the end of t"
+    },
+    {
+      "chunk_id": 3732,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 56,
+      "content": "ate. We recognize customers don\u2019t\nwant to spend time completing lengthy surveys or be prevented from getting\ntheir test and being on their way, but we can achieve quick feedback\nthrough a simple task. The opening screen will show three emojis: a blue\nhappy face, a green contented face, and a red unhappy face, with a simple\nquestion, \u201cHow was your experience today?\u201d\nThe touch screen allows motorists to rate their lane experience and helps us capture the essence of their\nthe Inspection Program interaction as they leave the facility. As part of our Comprehensive Customer Feedback Approach, we\ncollect and analyze this information and conduct deeper dives and follow-ups with the customer (if they\ndesire) for any \u201cnot so good\u201d response. By tying this input to specific lanes, we can determine the steps we\nwill take to enhance employee training and recognition.\nPrinted cards beside the tablet provide an online address where motorists can complete a survey. At the link,\nwe pose optional questions about wait time, staff interaction, ease of payment, and related issues. Motorists\ncan submit the survey when they choose and leave contact information (again optional) at the end if they\nwould lik"
+    },
+    {
+      "chunk_id": 3735,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 57,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nCustomer satisfaction questionnaires and surveys are part of our culture. We want a direct line to our\ncustomers. We use the provided feedback to measure customer perception of our service and identify gaps\nin quality. Parsons performs on-site surveys at the end of equipment service calls in the Vermont and Ontario\nprograms. The anonymous responses go directly to the Equipment Manager for analysis, which we use to\nmake positive changes. While feedback in both programs is very good, we\u2019re never satisfied. We don\u2019t take\nthe positive feedback for granted. We understand that customer needs constantly change, and we must ask\nquestions to stay current.\nWe\u2019re advocates for use of all self-service solutions under the new program, as they have\nproven to be liked by the motorists, cost motorists less in fees, and provide greater customer\nservice. Our employees will embrace these solutions \u2014 just as retail has embraced self-\nservice checkout \u2014 as a means to increase satisfaction while still adding value as a support\nto motorists seeking assistance.\nReporting "
+    },
+    {
+      "chunk_id": 3737,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 57,
+      "content": "isory staff.\nOur Core Implementation team of Program Manager Jim Valerio, Operations Manager Jason Freeman, and\nOBD Hardware and Software Specialist Gus Nassar have working together for over a decade. Jim, Jason, and\nGus are full-time Parsons employees who are fully vested in the success of the the State Program, just as\nthe entire Parsons corporation and its employees are. Our highly structured employee recruitment, hiring,\nand retention process involves fair compensation, competitive benefits, and ongoing performance\nevaluation and management.\nOur management team and deep bench of more than 500 employees dedicated to Parsons\u2019 vehicle\ninspection division stand ready to deploy and assist with the transition and startup of the new the Inspection Program. More\nimportantly, our management teams provide support and oversight to ensure employee needs are a valued\npart of our continuous improvement. We empower our managers to create an environment that encourages\ngrowth and personal development. Our the State team values retention over replacement, as evidenced by\nstrong retention rates for vehicle inspection programs in California, Hawaii, Louisiana, New Jersey, Ontario,\nPennsylvania, T"
+    },
+    {
+      "chunk_id": 3738,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 57,
+      "content": "programs in Massachusetts.\nTab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan 43\n |  | We\u2019re advocates for use of all self-service solutions under the new program, as they have | \n |  | proven to be liked by the motorists, cost motorists less in fees, and provide greater customer | \n |  | service. Our employees will embrace these solutions \u2014 just as retail has embraced self- | \n |  | service checkout \u2014 as a means to increase satisfaction while still adding value as a support | \n |  | to motorists seeking assistance. |"
+    },
+    {
+      "chunk_id": 3740,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 58,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\nAlthough retention is our priority, we know there will be times there are openings. To be sure we have the\nbest candidates, our Human Resources team\u2014led by Jason Freeman and our dedicated recruiter\u2014will\ncontinuously recruit potential employees for all the Inspection Program station-based positions through an active balance of\nonline and in-person recruitment tools. Jason and his team will review online applicant pools and contact\ncandidates regularly via email and phone to evaluate interview and hiring readiness. The the State Program\nwill assume an \u201cAlways Hiring\u201d approach to developing and building our candidate pool. Our WBE partner\u2014\nKennedy Staffing Services\u2014will dedicate staff to our program for recruitment and use modern tools for\nonline applicants. By offering competitive wages and benefits, we will maintain a large database of potential\nhires who will be contacted as soon as vacancies occur. While we embrace our industry-leading employee\nretention rates, we recognize the transient nature of our frontline positions. We will prepare for and minimize\nstaffing vacancies accordingly. Our approach, coupled with a less-than-two-week "
+    },
+    {
+      "chunk_id": 3741,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 58,
+      "content": "porary staffing shortage. Our recruitment and onboarding\nsoftware application helps to establish a large database of candidates, screen them quickly, and facilitate\nspeedy hiring when staff is needed. Parsons will use AI hiring tools and local experts like our staffing\nprovider, Kennedy Staffing Services, to ensure quality candidates are hired and retained.\nKEEPING IT LOCAL\nParsons has experience overseeing local hiring programs that foster workforce\ngrowth and development.\nWe\u2019re proud to have worked with Los Angeles World\nAirports (LAWA) to develop the highly successful\nHireLAX Program, which provides community\noutreach messaging and support of local hire\ntraining programs. HireLAX\u2019s mission is to maximize\nthe economic impact of LAX\u2019s multi-billion- dollar\nmodernization program by increasing the supply of\nqualified local workers who reflect the diversity of\nLos Angeles. By meeting labor demand in this way,\nHireLAX creates a win-win situation for LAX and the\nlocal communities. The program recently received kudos from Transportation Secretary Pete Buttigieg.\n\u201cOne of the most remarkable and memorable meetings I\u2019ve had as Secretary...what I saw this morning,\njoining the graduates of H"
+    },
+    {
+      "chunk_id": 3742,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 58,
+      "content": "tionwide.\u201d\n\u2013 United States Secretary of Transportation Pete Buttigieg during July 7, 2022, visit to LAX.\nWe propose the following target headcounts\u2014in cooperation with Kennedy Staffing Services\u2014to be\nestablished with a targeted hiring of qualified incumbent personnel coupled with new hires.\nExhibit D-2.3.1.1.4.R: Staffing Chart - Steady State Program Operation\nStation Location # of staffed test Number of full- Number of part- MAC Assistant Managers* Total Assigned\nunits time inspectors time inspectors (formerly \u201cCSR\u201d) Staff per Station\n1 \u2013 Grasonville 3 1 0 0 3 4\n2 \u2013 (regional location) 3 1 0 1 3 5\n44 Tab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan\n | \nKEEPING IT LOCAL\nParsons has experience overseeing local hiring programs that foster workforce\ngrowth and development. | \n | \n | \n | We\u2019re proud to have worked with Los Angeles World\n | Airports (LAWA) to develop the highly successful\n | HireLAX Program, which provides community\n | outreach messaging and support of local hire\n | training programs. HireLAX\u2019s mission is to maximize\n | the economic impact of LAX\u2019s multi-billion- dollar\n | modernization program by increasing the supply of\n | qualified local workers "
+    },
+    {
+      "chunk_id": 3743,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 58,
+      "content": "es. By meeting labor demand in this way,\n | HireLAX creates a win-win situation for LAX and the\n | local communities. The program recently received kudos from Transportation Secretary Pete Buttigieg.\n | \u201cOne of the most remarkable and memorable meetings I\u2019ve had as Secretary...what I saw this morning,\n | joining the graduates of HireLAX, hearing about their experiences, was truly moving and something we\n | need to be looking at nationwide.\u201d\n | \u2013 United States Secretary of Transportation Pete Buttigieg during July 7, 2022, visit to LAX.\n | \nStation Location | # of staffed test | Number of full- | Number of part- | MAC Assistant | Managers* | Total Assigned\n | units | time inspectors | time inspectors | (formerly \u201cCSR\u201d) |  | Staff per Station\n1 \u2013 Grasonville | 3 | 1 | 0 | 0 | 3 | 4"
+    },
+    {
+      "chunk_id": 3745,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 59,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nStation Location # of staffed test Number of full- Number of part- MAC Assistant Managers* Total Assigned\nunits time inspectors time inspectors (formerly \u201cCSR\u201d) Staff per Station\n3 \u2013 (regional location)*** 6 3 2 2 4 11\n4 \u2013 Westminster 4 1 1 0 3 5\n5 \u2013 Erdman Avenue*** 12 8 6 2 4 20\n6 \u2013 Edgewood 6 4 0 1 3 8\n7 \u2013 Owings Mills*** 7 4 2 1 3 10\n8 \u2013 Bel Air 5 3 1 1 3 8\n9 \u2013 Columbia 7 5 1 1 3 10\n11 \u2013 White Oak 12 8 6 2 4 20\n12 \u2013 Derwood*** 12 8 6 2 4 20\n13 \u2013 Glenarden 9 6 4 2 4 16\n14 \u2013 Clinton 6 4 1 1 3 9\n15 \u2013 (regional location) 6 4 2 1 3 10\n16 \u2013 (regional location)*** 6 4 1 1 3 9\n17 \u2013 Prince (regional location) 3 1 0 0 3 4\n18 \u2013 Waldorf 4 3 1 0 3 7\n19 \u2013 Elkton 3 1 0 0 3 4\nHQ Office Staff** N/A 4 3 N/A 7 14\nTotal 114 73 37 18 66 194\n*Managers include Station Manager, Assistant Station Manager, and Lane Managers/Second Assistant Managers\n**Administrative staff are represented under the \u201cInspector\u201d columns for HQ\n***Stations with high percentages of vehicles with wait times greater than 15 minutes per RFP Appendix 7\n2.3.1.1.4.S Security (RFP Section 2.3.1.1.4"
+    },
+    {
+      "chunk_id": 3746,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 59,
+      "content": "s, and State assets. We vet third-party services based on reputation and past proof of\nperformance, reliability, integrity, and professionalism. We\u2019ll seek a qualified local small business to provide\nthese services based on the criteria noted.\nSafety is our key corporate value. From the first day on the job\u2014throughout their daily lives, in the office or on\nthe job site\u2014employees are instilled with Parsons\u2019 OWN ZERO corporate safety philosophy. Whether\ncompleting safety training, developing processes to ensure safety, or attending daily safety talks, our\nphilosophy extends from the design and daily review of facilities to the knowledge and understanding of\nensuring a safe environment for the team and the customers we serve. With OWN ZERO, we empower every\nemployee with the mindset to create an injury- and incident-free environment at home and work.\n2.3.1.1.4.T Training (RFP Section 2.3.1.1.4.T)\nWe understand that a formal, consistent training program for our employees and State personnel is\nfundamental to a smooth transition. Having successfully implemented many similar programs over the past\n40 years, we\u2019re confident our approach will result in a successful implementation for the S"
+    },
+    {
+      "chunk_id": 3747,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 59,
+      "content": "aining for all lane inspectors, technicians, the Inspection Program MAC Assistants, and State staff following the\nrequirements outlined in Section 2.3.1.13 and for FIS inspectors as required in RFP Section 2.3.3.3. By\nusing our corporate training staff and the State-approved Training Plan, we\u2019ll ensure that all employees\nassociated with the the Inspection Program are fully trained, certified, and equipped in advance of the transition period.\nTab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan 45\nStation Location | # of staffed test | Number of full- | Number of part- | MAC Assistant | Managers* | Total Assigned\n | units | time inspectors | time inspectors | (formerly \u201cCSR\u201d) |  | Staff per Station\n3 \u2013 (regional location)*** | 6 | 3 | 2 | 2 | 4 | 11\n5 \u2013 Erdman Avenue*** | 12 | 8 | 6 | 2 | 4 | 20\n7 \u2013 Owings Mills*** | 7 | 4 | 2 | 1 | 3 | 10\n9 \u2013 Columbia | 7 | 5 | 1 | 1 | 3 | 10\n12 \u2013 Derwood*** | 12 | 8 | 6 | 2 | 4 | 20\n14 \u2013 Clinton | 6 | 4 | 1 | 1 | 3 | 9\n16 \u2013 (regional location)*** | 6 | 4 | 1 | 1 | 3 | 9\n18 \u2013 Waldorf | 4 | 3 | 1 | 0 | 3 | 7\nHQ Office Staff** | N/A | 4 | 3 | N/A | 7 | 14"
+    },
+    {
+      "chunk_id": 3778,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 66,
+      "content": "ng needs.\nthroughout Program\n2.3.1.5 Maintenance and Support (RFP Section 2.3.1.5)\nA successful transition and the ongoing success of the the Inspection Program rely on our commitment to our partnership with\nthe State. the State can maintain confidence in us from today forward. We know the value of a\nknowledgeable team and are committed to maintaining the depth of resources needed to support this\nprogram. Our ongoing innovation and continuous improvement management philosophy, coupled with a\ncorporate culture of customer service and partnership with clients and stakeholders, provides the State with\nconfidence in our commitment to ongoing Program support.\nINNOVATION SPOTLIGHT\n\u2022 Software-based program enhancements, leveraging new requirements and best practices developed across our\nnumerous North American programs.\n2.3.1.5. Program Maintenance and Program Enhancement Labor Support (RFP Section 2.3.1.5.A)\nProgram maintenance and support are the heart of the Maintenance and Operations phase of the program.\nWe will continually review all processes and procedures for safety and efficiency improvements and for new\ntechnology that will streamline lane communications, which may include lane"
+    }
+  ]
+}

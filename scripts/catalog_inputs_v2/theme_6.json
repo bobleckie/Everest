@@ -1,0 +1,978 @@
+{
+  "theme_id": 6,
+  "theme_label": "Personnel, Staffing & Training",
+  "category": "Operational",
+  "rfp_requirements": [
+    {
+      "id": 7659,
+      "code": "A-005",
+      "title": "Provide Subcontractor Business Registration",
+      "description": "Each named subcontractor shall provide a copy of its business registration to the Contractor, who shall provide it to the State.",
+      "section": "2.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7662,
+      "code": "A-008",
+      "title": "Collect and Remit Use Tax",
+      "description": "Contractor, any subcontractor, and each of their affiliates shall, during the term of the contract, collect and remit to the Director of the Division of Taxation the Use Tax due on all sales of tangible personal property delivered into the State.",
+      "section": "2.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 9314,
+      "code": "R-038",
+      "title": "Describe secure coding training for developers",
+      "description": "As applicable, describe the training provided to developers with respect to secure coding practices and system development life cycle.",
+      "section": "24.9",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 1322,
+      "code": "R-047",
+      "title": "Provide deployment plan for key personnel during mobilization",
+      "description": "The Mobilization Plan shall include the Bidder's plan for deployment and use of management, supervisory, or other key personnel during the mobilization period, identifying any personnel assigned only during mobilization.",
+      "section": "3.18.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1323,
+      "code": "R-048",
+      "title": "Provide staff recruitment plan including backup staffing",
+      "description": "The Mobilization Plan shall include the Bidder's plan for recruitment of staff required on the Contract start date, including a plan to secure backup staff in the event personnel need assistance or replacement.",
+      "section": "3.18.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7723,
+      "code": "R-031",
+      "title": "Use only domestic materials on public works contracts",
+      "description": "If the contract is for construction, alteration, or repair of any public work, the contractor and all subcontractors shall use only domestic materials unless otherwise noted in the specifications.",
+      "section": "3.9",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 9369,
+      "code": "A-018",
+      "title": "Describe past five-year information security breaches",
+      "description": "Describe in detail any breaches of information security the organization experienced over the past five years, including how affected customers were notified, the timeframe of notifications, and steps taken to prevent recurrence.",
+      "section": "30.3",
+      "priority": "high",
+      "category": "informational"
+    },
+    {
+      "id": 2034,
+      "code": "R-065",
+      "title": "Make all personnel/backup staff available",
+      "description": "The Contractor shall make all personnel and backup staff available to the State at all various labor categories specified within this Bid Solicitation.",
+      "section": "4.10.1",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 1146,
+      "code": "R-068",
+      "title": "Provide Employee Training and Certification",
+      "description": "Contractor must provide Employee Training and Certification.",
+      "section": "4.10.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2060,
+      "code": "R-091",
+      "title": "Training topic: air pollution problems and causes/effects",
+      "description": "Training must impart knowledge of air pollution problems and its causes and effects.",
+      "section": "4.10.3.C.1",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 2066,
+      "code": "R-097",
+      "title": "Training topic: quality control procedures and purpose",
+      "description": "Training must impart knowledge of quality control procedures and purpose.",
+      "section": "4.10.3.C.7",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 2067,
+      "code": "R-098",
+      "title": "Training topic: public relations",
+      "description": "Training must impart knowledge of public relations.",
+      "section": "4.10.3.C.8",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 2070,
+      "code": "R-101",
+      "title": "Obtain SCM written approval of training materials",
+      "description": "The Contractor must secure SCM written approval for all training materials intended for use by the Contractor prior to activation of its initial training.",
+      "section": "4.10.3.E",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2075,
+      "code": "R-106",
+      "title": "Offer employment first to covered CBA employees",
+      "description": "Consistent with P.L. 2025, c.359, any employee of the current vendor covered by a collective bargaining agreement shall be the first to be offered employment to meet staffing needs of the Contract.",
+      "section": "4.10.4.A.a",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 1150,
+      "code": "R-072",
+      "title": "Maintain Staffing Roster",
+      "description": "Contractor must maintain a staffing roster.",
+      "section": "4.10.6",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 2008,
+      "code": "R-039",
+      "title": "Include Min/Max staffing plan",
+      "description": "The CIF Staffing/Training Plan shall include an adequate Min/Max staffing plan for all trained and licensed personnel during all typical periods throughout the workday, week, and month.",
+      "section": "4.10.D.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2026,
+      "code": "R-057",
+      "title": "Inspectors must wear SCM-approved uniforms",
+      "description": "All inspectors must wear uniforms provided by the Contractor and approved by the SCM.",
+      "section": "4.10.J",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 9125,
+      "code": "A-030",
+      "title": "Describe security awareness training program",
+      "description": "Bidder must describe the security awareness and training program provided to personnel and contractors, indicate whether training is mandatory, how it is documented and tracked, and how often it is conducted.",
+      "section": "4.2",
+      "priority": "high",
+      "category": "informational"
+    },
+    {
+      "id": 3293,
+      "code": "A-026",
+      "title": "List intended user roles and privileges",
+      "description": "",
+      "section": "4.23.2.2.D.7.c",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3346,
+      "code": "A-078",
+      "title": "Escalate unaddressed alerts to State staff per SLA",
+      "description": "",
+      "section": "4.23.2.5.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3415,
+      "code": "A-019",
+      "title": "Address staffing, skills, cross training",
+      "description": "",
+      "section": "4.23.2.9.D.7",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3441,
+      "code": "A-043",
+      "title": "Indicate participant training requirements",
+      "description": "",
+      "section": "4.24.1.14",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3474,
+      "code": "A-076",
+      "title": "Detail recovery priorities, procedures, timelines",
+      "description": "",
+      "section": "4.24.3.B.8",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4070,
+      "code": "R-116",
+      "title": "Provide and complete all authorized end-user training",
+      "description": "Contractor must have provided and successfully completed all authorized end-user training requirements on the use of the system (text cut off at window end but represents a Final System Acceptance criterion).",
+      "section": "4.28.3.6.K",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4269,
+      "code": "V-001",
+      "title": "Complete authorized end-user training on Management Console and audit functions",
+      "description": "Contractor must provide and successfully complete all authorized end-user training requirements on the use of the Management Console and audit functions (carried over from Section 4.28 completion criteria at top of page 82).",
+      "section": "4.28.K",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 9126,
+      "code": "V-004",
+      "title": "Optional additional information - Security Awareness and Training",
+      "description": "Bidder may optionally provide any additional information relative to the Security Awareness and Training (AW) control area.",
+      "section": "4.3",
+      "priority": "low",
+      "category": "informational"
+    },
+    {
+      "id": 1572,
+      "code": "A-004",
+      "title": "Hold QA Program review meetings every 90 Calendar Days",
+      "description": "During the Operations Phase, the QA Manager and appropriate staff must hold meetings with the SCM every 90 Calendar Days to review QA Program status.",
+      "section": "4.5.E",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1590,
+      "code": "A-022",
+      "title": "Require written SCM approval for ITS system access",
+      "description": "System access for Contractor staff and support personnel must be requested in writing based on an identified business need and require written SCM approval prior to granting access.",
+      "section": "4.7.E",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1621,
+      "code": "A-053",
+      "title": "Provide start-up assistance and secure training for new PIF/PFF inspectors",
+      "description": "Provide start-up assistance to new PIFs/PFFs entering the program and assist in securing training for new inspectors from authorized training providers.",
+      "section": "4.9.1.2.B",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 4538,
+      "code": "R-023",
+      "title": "Submit Resumes for Substitute Personnel",
+      "description": "Resumes must be submitted for individual(s) proposed as substitutes, who must have qualifications and experience equal to or better than those originally proposed or currently assigned.",
+      "section": "5.5",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7771,
+      "code": "R-036",
+      "title": "Resume work upon date specified in stop order",
+      "description": "",
+      "section": "5.6",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 4931,
+      "code": "A-011",
+      "title": "Implement personnel security processes",
+      "description": "Contractor must implement processes ensuring all personnel with access to State information have appropriate background, skills, and training.",
+      "section": "6.3",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7851,
+      "code": "R-045",
+      "title": "Provide monthly and cumulative SBE/MBE/WBE subcontractor payment breakdown",
+      "description": "Contractor must provide on a monthly and cumulative basis a breakdown of all monies paid to small business, minority, or woman-owned subcontractors, sent to the Office of Diversity and Inclusion.",
+      "section": "6.3.D",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7852,
+      "code": "R-046",
+      "title": "Sole responsibility for subcontractor payments",
+      "description": "The Contractor has sole responsibility for all payments due any Subcontractor.",
+      "section": "6.3.E",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4938,
+      "code": "A-018",
+      "title": "Provide periodic security awareness and training",
+      "description": "Contractor must provide periodic and ongoing information security awareness and training to personnel.",
+      "section": "6.4",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4939,
+      "code": "A-019",
+      "title": "Provide security training upon hire and annually",
+      "description": "Personnel must be provided with security awareness training upon hire and at least annually thereafter.",
+      "section": "6.4.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4940,
+      "code": "A-020",
+      "title": "Maintain security awareness training records",
+      "description": "Security awareness training records must be maintained as part of the personnel record.",
+      "section": "6.4.B",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 4966,
+      "code": "A-046",
+      "title": "Recreate lost State Data due to Contractor fault",
+      "description": "In the event of loss of State Data due to intentional act, omission, or negligence of Contractor/subcontractor/agent, Contractor is responsible for recreating lost data per schedule set by State Contract Manager.",
+      "section": "6.5.J",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 4979,
+      "code": "A-059",
+      "title": "Train users on remote access security",
+      "description": "Contractor must train users regarding information security risks and best practices related to remote access use.",
+      "section": "6.7.C",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 7899,
+      "code": "R-034",
+      "title": "Applicant Must Refrain from Contracting with Debarred Contractors",
+      "description": "The applicant agrees it will refrain from entering into any contract or contract modification subject to Executive Order 11246 with a Contractor debarred from, or who has not demonstrated eligibility for, Government contracts and federally assisted construction contracts, and will carry out sanction",
+      "section": "7.4 (Applicant Provisions)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7904,
+      "code": "R-039",
+      "title": "Insert Copeland Clauses in Subcontracts",
+      "description": "The Contractor or subcontractor shall insert in any subcontracts the Copeland clause and such other clauses as FEMA may require, plus a clause requiring subcontractors to include these clauses in lower tier subcontracts; the prime Contractor is responsible for subcontractor compliance.",
+      "section": "7.6.b",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7907,
+      "code": "R-042",
+      "title": "Pay Overtime for Hours Over 40 per Workweek",
+      "description": "No Contractor or subcontractor shall require or permit any laborer or mechanic to work in excess of forty hours in a workweek unless the laborer or mechanic receives compensation at a rate not less than one and one-half times the basic rate of pay for all hours in excess of forty.",
+      "section": "7.7(1)",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7910,
+      "code": "R-045",
+      "title": "Insert CWHSSA Clauses in Subcontracts",
+      "description": "The Contractor or subcontractor shall insert the clauses set forth in paragraphs (b)(1) through (4) in any subcontracts, and include a clause requiring subcontractors to include these clauses in lower tier subcontracts; the prime Contractor is responsible for compliance.",
+      "section": "7.7(4)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8022,
+      "code": "R-027",
+      "title": "Enforce non-disclosure and separation of duties",
+      "description": "Contractor must enforce separation of job duties, require commercially reasonable non-disclosure agreements, and limit staff knowledge of State Data to what is absolutely needed.",
+      "section": "9.1.12",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8014,
+      "code": "R-019",
+      "title": "Conduct criminal background checks on staff",
+      "description": "Contractor must conduct criminal background checks and not utilize any staff, including subcontractors, who has been convicted of any crime of dishonesty (including criminal fraud), any felony, or any misdemeanor with up to 1 year incarceration as authorized penalty.",
+      "section": "9.1.6",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 8151,
+      "code": "M-002",
+      "title": "Excluded classifications from recognition",
+      "description": "Specifically excluded from recognition are office clerical employees, confidential employees, supervisors and guards, as defined by the Act.",
+      "section": "Article I.3",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 8153,
+      "code": "M-004",
+      "title": "Definition of Union membership for Article purposes",
+      "description": "For purposes of Article II, an Employee shall be considered a member of the Union if he/she tenders his/her periodic dues uniformly required as a condition of membership.",
+      "section": "Article II.3",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 8117,
+      "code": "A-018",
+      "title": "Resume dues deductions upon return from absence",
+      "description": "Upon return of an Employee to work from termination/transfer/layoff/leave absences, the Employer will immediately resume deductions; absences of 6 months or more require a new authorization.",
+      "section": "Article III.3",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8138,
+      "code": "A-039",
+      "title": "Probationary period of 90 days after 2 weeks training",
+      "description": "Newly hired Employees shall be considered probationary for 90 days following the completion of 2 weeks of training; such Employees may be discharged at will and periods of unpaid leave do not count toward probation.",
+      "section": "Article V.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8214,
+      "code": "A-043",
+      "title": "Make work schedules 30 days in advance",
+      "description": "All work schedules (except lunch and daily breaks) must be made 30 days in advance; schedules may be adjusted for training with two weeks notice.",
+      "section": "Article VIII.13",
+      "priority": "high",
+      "category": "deadline"
+    },
+    {
+      "id": 8436,
+      "code": "A-030",
+      "title": "Pay annual uniform maintenance allowance",
+      "description": "By the second pay period each year, Employer shall pay $500 uniform maintenance allowance to each Equipment Repair Technician and Technical Specialist, and $300 to each Material Handler Associate, Material Handler, Material Handler Senior, and Material Handler Specialist.",
+      "section": "Article XXXII.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8437,
+      "code": "A-031",
+      "title": "Provide uniforms to Material Handlers/ERT/Technical Specialists",
+      "description": "Employer shall provide each Employee 5 new uniforms (5 trousers, 5 shirts) and 1 baseball hat upon hiring and annually thereafter.",
+      "section": "Article XXXII.2",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8443,
+      "code": "A-037",
+      "title": "Launder Lane Technician uniforms weekly",
+      "description": "Employer will pick up, launder, and drop off five sets of uniforms (5 trousers, 5 shirts) per Employee weekly.",
+      "section": "Article XXXIII.1",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8444,
+      "code": "A-038",
+      "title": "Provide Lane Technician uniforms and annual items",
+      "description": "Employer shall provide each new Lane Technician 11 new uniforms (11 trousers, 11 shirts); every Employee issued one new summer hat, one new winter hat, and one new pair of gloves annually.",
+      "section": "Article XXXIII.2",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8446,
+      "code": "M-009",
+      "title": "Refer uniform/laundry questions to Labor Management Committee",
+      "description": "The components of the uniform supplied by the Employer and any questions concerning the laundry service may be addressed to the Labor Management Committee established in Article XXXIX.",
+      "section": "Article XXXIII.3",
+      "priority": "low",
+      "category": "mandatory"
+    },
+    {
+      "id": 8053,
+      "code": "A-008",
+      "title": "Inform recruitment agencies of nondiscrimination policy",
+      "description": "Contractor must inform in writing its recruitment agencies (employment agencies, placement bureaus, colleges, universities, labor unions) that it does not discriminate and will discontinue use of any agency engaging in discriminatory practices.",
+      "section": "Exhibit A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8055,
+      "code": "A-010",
+      "title": "Review transfer/upgrading/downgrading/layoff procedures for nondiscrimination",
+      "description": "Contractor must review all procedures relating to transfer, upgrading, downgrading and layoff to ensure all such actions are taken without regard to protected classes.",
+      "section": "Exhibit A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8058,
+      "code": "B-001",
+      "title": "Non-discrimination during performance of construction contract",
+      "description": "Contractor/subcontractor shall not discriminate against any employee or applicant for employment based on protected classes during performance of construction contracts.",
+      "section": "Exhibit B",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 8064,
+      "code": "B-007",
+      "title": "Comply with Treasurer regulations and ADA (construction)",
+      "description": "Contractor must comply with any regulations promulgated by the Treasurer pursuant to N.J.S.A. 10:5-31 et seq. and the Americans with Disabilities Act.",
+      "section": "Exhibit B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8070,
+      "code": "B-011",
+      "title": "Take immediate action if union not referring minority/women workers",
+      "description": "Contractor must take immediate action to provide direct EEO opportunities if it determines the union is not referring minority and women workers consistent with EEO goals.",
+      "section": "Exhibit B (A)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8073,
+      "code": "B-014",
+      "title": "Request union referrals of minority/women workers prior to commencement",
+      "description": "Prior to commencement of work, contractor must request that the local construction trade union refer minority and women workers to fill job openings, if a referral agreement exists.",
+      "section": "Exhibit B (B)(3)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8074,
+      "code": "B-015",
+      "title": "Leave standing referral requests with union and approved sources",
+      "description": "Contractor must leave standing requests for additional referrals of minority and women workers with the local construction trade union, State Training and Employment Service, and other approved referral sources in the area.",
+      "section": "Exhibit B (B)(4)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8076,
+      "code": "B-017",
+      "title": "Interview referred minority or women workers",
+      "description": "Contractor or subcontractor must interview the referred minority or women worker.",
+      "section": "Exhibit B (B)(6)(i)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8077,
+      "code": "B-018",
+      "title": "Determine qualifications and hire/schedule qualified minority/women workers",
+      "description": "Contractor must in good faith determine qualifications of referred individuals and hire/schedule those who meet qualification standards consistent with EEO principles, including trainees if necessary.",
+      "section": "Exhibit B (B)(6)(ii)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8083,
+      "code": "B-022",
+      "title": "Employ minority/women workers residing within union geographic jurisdiction",
+      "description": "When implementing procedures in (B), contractor must, where applicable, employ minority and women workers residing within the geographical jurisdiction of the union.",
+      "section": "Exhibit B (C)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8084,
+      "code": "B-022a",
+      "title": "Comply with union hiring hall / apprenticeship policies and exception for discriminatory practices",
+      "description": "Contractor may comply with union hiring hall or apprenticeship policies in applicable CBAs, sending journeymen and trainees for referral/admission per such arrangement. However, where such practices result in the exclusion of minorities and women, contractor must consider persons referred pursuant t",
+      "section": "Exhibit B (C)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8258,
+      "code": "A-010",
+      "title": "Senior or Lane Technician Required in Two-Inspector Lane",
+      "description": "If the Employer staffs a lane with two inspectors after breaks, one must be a Senior Lane Technician or a Lane Technician.",
+      "section": "IX.20(b)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8549,
+      "code": "A-029",
+      "title": "Eligibility for training grant for terminated MVC employees declining contractor offer",
+      "description": "A person whose MVC employment is terminated due to a contract under subsection a., who does not accept an offer of employment with a contractor under paragraph (7), and who undergoes counseling pursuant to section 7 of P.L.1992, c.43, shall be eligible for a training grant under section 6 of P.L.199",
+      "section": "Section 1 (C.39:8-44 f.(1))",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 8565,
+      "code": "A-045",
+      "title": "Workforce Development Program may provide training grant",
+      "description": "Notwithstanding any provision of P.L.1992, c.43 to the contrary, the Workforce Development Program in the Department of Labor and Workforce Development may provide a training grant to each qualifying applicant under paragraph (1) for employment and training services pursuant to section 6 of P.L.1992",
+      "section": "Section 1 (C.39:8-44 f.(2))",
+      "priority": "low",
+      "category": "informational"
+    },
+    {
+      "id": 7628,
+      "code": "A-010",
+      "title": "List all countries where services performed outside U.S.",
+      "description": "Where services will be performed outside the United States, Vendor must list every country where services will be performed by the Contractor and all Subcontractors.",
+      "section": "Source Disclosure Form - Part 2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7625,
+      "code": "A-008",
+      "title": "Document good faith effort if subcontracting set-aside goals not met",
+      "description": "If the Bid Solicitation has subcontracting set-aside goals and the Vendor has not achieved the goals, Vendor must attach information documenting its good faith effort to achieve the goals.",
+      "section": "Subcontractor Utilization Form",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8291,
+      "code": "A-036",
+      "title": "File Step 1 Grievance Within 15 Calendar Days",
+      "description": "Within 15 calendar days of when facts giving rise to a grievance are known or should have been known, the Employee shall take it up through the Union representative with the immediate supervisor.",
+      "section": "XIII.1(a)",
+      "priority": "critical",
+      "category": "deadline"
+    },
+    {
+      "id": 8292,
+      "code": "A-037",
+      "title": "Complete Standard Contractual Grievance Form",
+      "description": "If no resolution is reached, a standard contractual grievance form shall be completed by the aggrieved Employee and submitted to the immediate supervisor.",
+      "section": "XIII.1(a)",
+      "priority": "high",
+      "category": "form"
+    }
+  ],
+  "parsons_evidence": [
+    {
+      "chunk_id": 1927,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 2,
+      "content": "5340 Jaycee Avenue, Suite E, Harrisburg, PA 17112\n+1 717.565.7500 /Direct: +1 416.676.179 / www.parsons.com\nDecember 5, 2023\nDawn Grabuloff\nPennsylvania Department of Transportation\nBureau of Office Services\n400 North St., Keystone Bldg. 5th Floor\nHarrisburg PA 17120\nSubject: Solicitation 3522R12, Emissions Program Management\nDear Ms. Grabuloff,\nParsons Transportation Group Inc. (Parsons) is pleased to provide this proposal to the Pennsylvania Department of\nTransportation (PennDOT), Bureau of Office Services, in response to Request for Proposal (RFP) Number 3522R12\nfor Emissions Program Management.\nOur commitment to PennDOT is to continue delivering an effective Pennsylvania Vehicle Emissions Inspection and\nMaintenance Program and to innovate responsibly to move the Program forward. Building on our past performance,\nwe will implement new, cloud-based VIID systems and improved auditing infrastructure that efficiently gets Program\ndata to PennDOT. Our upgrades to the e-SAFETY system will support the enhanced safety inspection Program\ncompliance. We will upgrade our call center solution with new technology using ZenDesk and AmazonConnect as\nthe backbone of the system.\nOur Program Mana"
+    },
+    {
+      "chunk_id": 1928,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 2,
+      "content": "auditor teams, support teams, and subcontractors are in place. In this challenging\nlabor market, we do not anticipate any staffing impacts as your selected vendor in the new contract. Upon Notice to\nProceed, with no transitional risk to current operations, we will begin the implementation tasks to fulfill all RFP\nrequirements.\nParsons continues its commitment to Small Diverse Businesses and Small Businesses for this procurement.\nAdditionally, we have added two Veteran Business Enterprises to our team, 1Alpha Consulting to bolster our\nmotorist compliance activities and Berry Solutions Group for our information and education development and to\nprovide enhanced auditor training.\nOfferor Responsibilities and Exceptions to the RFP Requirements\nAll information submitted pertains exclusively to Parsons Transportation Group Inc. as a subsidiary of Parsons\nCorporation. Our proposal satisfies all mandatory requirements listed in the RFP, and we take no exceptions to any\nof the contractual provisions outlined in the RFP.\nOn behalf of Parsons, I am authorized to bind the Corporation to all the provisions in this proposal and acknowledge\nreceipt of Addenda 1 through 5. This proposal is good for"
+    },
+    {
+      "chunk_id": 1931,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 3,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nnization with Certainty\nTECHNICAL PROPOSAL \u2013 TABLE OF CONTENTS\nEXECUTIVE SUMMARY ................................................................................................................................................. ES-1\nI-1. STATEMENT OF THE PROJECT .................................................................................................................................... 1\nI-2. QUALIFICATIONS ......................................................................................................................................................... 2\nI-2A: Company Overview ........................................................................................................................................................ 2\nI-2B: Prior Experience ............................................................................................................................................................. 4\nI-2C: Personnel ........................................................................................................................................................."
+    },
+    {
+      "chunk_id": 1932,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 3,
+      "content": ".................... 6\nProject Organization ......................................................................................................................................................... 7\nI-2D: Background Checks ...................................................................................................................................................... 8\nI-2E: Subcontractors .............................................................................................................................................................. 8\nI-3. TRAINING .................................................................................................................................................................... 9\nI-4. FINANCIAL CAPABILITY ............................................................................................................................................. 10\nI-5. REQUIREMENTS ....................................................................................................................................................... 10\nI-5A \u2013 C: Emissions Inspection and Maintenance (I/M) Program ......................................................."
+    },
+    {
+      "chunk_id": 1935,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 3,
+      "content": "............................ 21\nA.5 Equipment Testing and Approval ................................................................................................................................. 25\nA.6 Maintenance of Database Access for Emission Inspection Stations ........................................................................ 26\nA.7 System Access by Authorized Personnel ..................................................................................................................... 26\nA.8 Data Transfer Between Parsons and PennDOT .......................................................................................................... 27\nA.9 Connection Frequencies and Transaction Throughout Capacity ............................................................................... 27\nA.10 Development and System Changes .......................................................................................................................... 27\nTask B: Quality Assurance and Oversight Activities for the I/M Program ................................................................................ 28\nB.1 Oversight Activities ................................................."
+    },
+    {
+      "chunk_id": 1936,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 3,
+      "content": "................. 28\nB.2 Quality Assurance ......................................................................................................................................................... 29\nB.3 Staff Qualifications and Training ................................................................................................................................. 29\nTable of Contents i"
+    },
+    {
+      "chunk_id": 1937,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 3,
+      "content": "...... 29\nB.3 Staff Qualifications and Training ................................................................................................................................. 29\nTable of Contents i"
+    },
+    {
+      "chunk_id": 1938,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 4,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nTraining Procedures ...................................................................................................................................................... 29\nPerformance Monitoring Procedures ........................................................................................................................... 30\nProgram Materials and Data Security .......................................................................................................................... 31\nB.4 Station Operators and Personnel Oversight ............................................................................................................... 32\nPreparatory Work ........................................................................................................................................................... 32\nReporting Violations ...................................................................................................................................................... 32\nProgram Evaluation Functions ................................................................."
+    },
+    {
+      "chunk_id": 1946,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 5,
+      "content": "....... 49\nReports ................................................................................................................................................................................. 49\nTask F: Motorist Compliance ....................................................................................................................................................... 49\nTraining and Public Interaction ..................................................................................................................................... 49\nCollection Procedures ................................................................................................................................................... 49\nAdditional Data Collection Procedures ........................................................................................................................ 50\nReporting ............................................................................................................................................................................. 50\nTask G: On-Road Testing Using Remote Sensing Device .........................................................................."
+    },
+    {
+      "chunk_id": 1949,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 5,
+      "content": "................................................. 55\nTask J: Provide Oversight for the Safety Inspection Program in the 25 I/M Counties ............................................................ 56\nJ.1 Quality Assurance/Staff Qualifications and Training .................................................................................................. 56\nPerformance Monitoring Procedures ........................................................................................................................... 58\nJ.2 Quality Assurance and Audit Responsibilities ............................................................................................................. 59\nProgram Materials and Data Security .......................................................................................................................... 59\nOvert Activities ............................................................................................................................................................... 60\nSafety Audits .................................................................................................................................................................. "
+    },
+    {
+      "chunk_id": 1955,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 6,
+      "content": "................... 68\nSystem Access ............................................................................................................................................................... 69\ne-SAFETY Software Ownership and Training ................................................................................................................ 69\nL.2 Data Analysis ................................................................................................................................................................. 69\nTask M: Work Orders ................................................................................................................................................................... 70\nI-7. NON-COMMONWEALTH HOSTED IT REQUIREMENTS ............................................................................................... 70\nI-7A. Regulatory Compliance Verification (CSR Requirement #8) ................................................................................... 70\nI-7B. CONUS Access to Commonwealth Systems, Data and Services ............................................................................. 70\nI-7C. System and Organization Control"
+    },
+    {
+      "chunk_id": 1963,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 8,
+      "content": "AWS Partner Solutions Provider, AWS DevOps Competency Partner, and AWS Advanced Tier Services\nPartner, and holds other designations. Our engineers and in-house security experts have more than 100 AWS\ncertifications, and Parsons has secured AWS\u2019s commitment to support our Pennsylvania solution during our\nimplementation and ongoing utilization of AWS/AWS products. Our experience moving the Ontario DriveON program to\nAWS allows us to implement our proposed update to the PA I/M Program VIID securely, without interruption in service\nor uptime. We will upgrade our call center solution with new technology using ZenDesk and AmazonConnect as the\nbackbone of the system.\nStation Compliance. Our operational goals align with PennDOT\u2019s focus on station and inspector compliance. We\nrecognize the Program\u2019s integrity and customer confidence are rooted in ensuring compliance. We will continually\nadapt to improve our audit and hearing processes through innovation and enhanced auditor training. Parsons has in-\nhouse professional oversight personnel with experience in the Pennsylvania Program. In this challenging labor market,\nour teams are fully staffed, trained, and dependable.\nExecutive Summary ES-1"
+    },
+    {
+      "chunk_id": 1964,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 8,
+      "content": "s in-\nhouse professional oversight personnel with experience in the Pennsylvania Program. In this challenging labor market,\nour teams are fully staffed, trained, and dependable.\nExecutive Summary ES-1"
+    },
+    {
+      "chunk_id": 1966,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 9,
+      "content": "t. This will reinforce confidence in Parsons\u2019 deliverables.\nA Team with Depth that Will Deliver for Pennsylvania. Success starts with experienced leadership, and Parsons brings a\ntrusted Program team. Mark Colangelo, Vice President and Pennsylvania Program Manager, has extensive knowledge of\nCommonwealth requirements, policies, and procedures, strengthened by his many years of industry experience. Backed by\nhis in-place team and handpicked DBE/SBE/VBE companies, we stand ready to support your initiatives and deliver your\nProgram. Mike Butler, Vice President and Smart Vehicles Solutions Business Leader, and Bonnie McPherson, Vice President,\nVehicle Inspection Programs, will support Mark in making sure he has the full complement of Corporate resources and staff\nrequired to meet your goals.\nParsons brings a mindful and respectful approach to innovation that aligns with PennDOT\u2019s priorities. PennDOT has and\ncan continue to rely on us to deliver innovation based on its goals. We have carefully reviewed the RFP offered by\nPennDOT and offer a responsible, respectful, and thorough response with solid, performance-based delivery on all the\noutlined tasks.\nThe Parsons Pennsylvania team\u2019s lon"
+    },
+    {
+      "chunk_id": 1970,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 10,
+      "content": "d safety inspection data\n\u00a7 Providing the necessary software/hardware to operate and maintain the I/M Program\n\u00a7 Providing a disaster recovery plan\n\u00a7 Providing data back-up and off-site back-up storage\n\u00a7 Providing system journal files (transaction journals), logging all system transactions\n\u00a7 Overseeing (overt, covert, and remote visual observation) I/M and Safety stations within the assigned geographic\nregion including inspectors and certified repair technicians\n\u00a7 Conducting public information and education (I&E) activities relating to the I/M Program\n\u00a7 Providing a process for investigation and fact-finding relating to I/M Program violations\n\u00a7 Providing referee service to facilitate the resolution of consumer complaints\n\u00a7 Helping I/M stations and consumers with the issuance of exemptions and waivers\n\u00a7 Providing Help Desk facilities to address equipment manufacturer, I/M station, and consumer questions and\nconcerns regarding I/M Program requirements and to address system support issues for e-SAFETY users\n\u00a7 Performing motorist compliance data collection and analysis\n\u00a7 Collecting, organizing, storing, and reporting on data related to on-road testing (remote sensing)\n\u00a7 Performing evaluat"
+    },
+    {
+      "chunk_id": 1971,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 10,
+      "content": "nspection stations and personnel, primarily in I/M-affected counties throughout Pennsylvania\n\u00a7 Providing a process for investigation and fact-finding regarding safety inspection regulation violations\n\u00a7 Providing necessary periodic and ad hoc reports and project control utilities to monitor Program performance\n\u00a7 Enhancing the current e-SAFETY system, which electronically collects safety inspection data, as directed by\nPennDOT\nWe\u2019ve consistently worked with PennDOT to realize your vision through the successful implementation of policy,\nrequirement, and regulatory changes. In 2012, we seamlessly transitioned more than 8,000 stations to our VIID to\nensure Program continuity. In 2016, we helped revise the OBD inspection equipment specification, replacing dial-up field\nequipment with modern, web-based OBD equipment and then performing acceptance testing to certify the equipment for\nTechnical Submittal 1"
+    },
+    {
+      "chunk_id": 1973,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 11,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nfield use. In 2020, we reacted and adapted to the COVID-19 pandemic, successfully delivering all Program requirements\ndespite the mandated closures. In 2021, we collaborated with you to implement important OBD system changes that\nimproved emissions testing and Program integrity. In 2023, we increased overt audit staff to meet your need for\nincreased safety station oversight. We have demonstrated our adaptability and expertise. Our understanding of the\nProgram will benefit you in the new contract through:\n\u00a7 Trusted relationships\u2014we\u2019ve established constructive relationships with both PennDOT staff and the inspection\nindustry who trust us to communicate and resolve I/M Program issues.\n\u00a7 Operational continuity\u2014our experienced team will manage the daily operational tasks of the I/M Program.\n\u00a7 Innovation\u2014we\u2019ve implemented an electronic audit application that leverages touchscreen laptops, electronic\nsignature capture, and VIID integration to eliminate paper overt audit reports submitted to PennDOT.\n\u00a7 Enhanced cybersecurity protection\u2014we scan systems supporting our VIID using the same technolo"
+    },
+    {
+      "chunk_id": 1974,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 11,
+      "content": "actice uses to provide security auditing for high level, sensitive US government programs.\n\u00a7 Covert audit integrity\u2014our undercover vehicle dealership, approved by the Department of State and PennDOT,\nallows us to acquire vehicles without exposure to the inspection industry and the public.\n\u00a7 Institutional knowledge\u2014our knowledge of your EPA-required reporting needs provides an accurate and detailed\nevaluation of the I/M Program.\n\u00a7 Internal training resources\u2014as the only PennDOT-certified Vehicle Emission Inspection School (VEMIS E200), we\ntrain PennDOT Program staff in-house, preventing oversight staff from training with I/M personnel they may\neventually audit.\n\u00a7 Minimal risk during the transition\u2014our current VIID is already in place and functioning and we have the necessary\nexperience to ensure a smooth transition to a cloud-based solution when approved.\n\u00a7 Proven I&E experience\u2014we\u2019ve managed successful I&E efforts in Pennsylvania, communicating with the inspection\nindustry and the motoring public in alignment with your goals. As part of our commitment to SDB inclusion, we\u2019re\nteaming with two Harrisburg-based firms to help fulfill the I&E Program.\n\u00a7 Experienced Court of Common Pleas"
+    },
+    {
+      "chunk_id": 1977,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 12,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nOur US-based company exceeds $4 billion in revenue annually. We prioritize\nour commitment to our clients, refuse to cut corners, and have the financial\nstrength to implement a contract of this size and scope and to meet the\nCommonwealth\u2019s expectations. Equally as important, we align with PennDOT\nin conducting business responsibly and ethically. For the 14th consecutive\nyear, Ethisphere named Parsons one of the World\u2019s Most Ethical Companies\u00ae\nin 2023, recognizing our commitment to leading with integrity and prioritizing\nethical business practices.\nWe have I/M experience no other vendor can offer\u2014more than two\ndecades of supporting this Program. Our foundational knowledge, deep-\nseated resources, and personnel you know ensure the secure operation of\nthe PA I/M Program while creating the springboard for Program\nenhancement. Our\nEXHIBIT I-2-1. OUR CORE VALUES ARE ALIGNED responsiveness to\nPARSONS\u2019 RECORD SPEAKS FOR ITSELF\nWITH WHAT YOU\u2019RE LOOKING FOR IN A PROGRAM\nthe dynamic\nMANAGER, WHERE INTEGRITY AND QUALITY ARE\n\u2022 On-time delivery \u2013 We have unmatched\nESSENTIAL. environment of\nexperience "
+    },
+    {
+      "chunk_id": 1978,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 12,
+      "content": "rdless of\nProgram changes supports PennDOT\u2019s compliance with state\nthe number of inspection stations or the\nand federal requirements. Our commitment to regulatory\nnetwork\u2019s geographical distribution.\ncompliance promotes Program integrity and aligns with \u2022 In-place team \u2013 Our team is already in place,\nPennDOT\u2019s goals while simultaneously protecting public health allowing us to focus time and resources on future\nand safety. Certainty plays a crucial role in PennDOT\u2019s decision enhancements versus transitioning systems.\nto choose a vendor for the I/M Program, and Parsons is the \u2022 Strong references \u2013 Our current and past clients\nbest vendor for successful ongoing Program operations and give us positive feedback and references.\n\u2022 In-place corporate resources \u2013 Our financial,\nintegrity.\nstaffing, and infrastructure resources are in place\nOur corporate structure provides all levels of management and ready to continue seamlessly from the\nwith complete access to any resources required to ensure current program.\nProgram success. We have two business units, Critical \u2022 Proven PA success \u2013 We have conducted more\nthan 80 million transactions to date and routinely\nInfrastructure and Federal Soluti"
+    },
+    {
+      "chunk_id": 3524,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 4,
+      "content": "Intelligence Community classified (Feb 2022): $104 million single-award, 5-year for vulnerability\nresearch, reverse engineering, software development GlobeNewswire Source.\nIntelligence Community IDIQ (July 2020): $178 million, 5-year for security/protection of classified\nfacilities, assets, and personnel worldwide FedSavvy Strategies Source.\nNSA SHARKSEER 2.0 task order: under DISA SETI, total potential value $28 million (1 base + 4 option\nyears) Source. Parsons has been the original contractor on the SHARKSEER program since 2011\nFedSavvy Strategies Source.\nCyber-Related Acquisitions (see \u00a78 for full list)\nPolaris Alpha (2018, AI/SIGINT/cyber), OGSystems (2019, GEOINT), Braxton (2020, space/satellite ground),\nBlackHorse (2021, EW/cyber), Echo Ridge (2021, PNT/SIGINT), Xator (2022, cUAS/biometrics/IC cyber), IPKeys\nPower Partners (2023, OT cyber), Sealing Technologies (2023, defensive cyber), BlackSignal (2024,\nEW/RF/cyber), Chesapeake Technology International (2025, EW/all-domain), Altamira (2026, SIGINT/space)\nSource.\nCyber Recognition\n16 consecutive years (through 2025), GlobeNewswire 17 consecutive (through 2026) The Globe and Mail\nnamed to Ethisphere\u2019s World\u2019s Most Ethical Comp"
+    },
+    {
+      "chunk_id": 3532,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 6,
+      "content": "(Jan 2025) in support of Project Linchpin,\nthe Army\u2019s AI/ML \u201cAIOps+\u201d program (PEO IEW&S) Source.\nStrategic agreement with BrainChip (Oct 2025) through Parsons subsidiary Blue Ridge Envisioneering to\nintegrate Akida neuromorphic processors into edge-AI platforms for defense/intelligence; Blue Ridge\nEnvisioneering was acquired as part of BlackSignal in 2024 Source.\nCloud/AI training: AWS DeepRacer enterprise upskilling program reached 470+ employees, generating\n1,500+ ML models Source.\nParsons X: internal digital accelerator organization within Connected Communities; integrates IPKeys\nsoftware Source.\nCTO and R&D Organization\nRico Lorenzo, Chief Technology Officer, leads enterprise R&D and innovation strategy, including internal\nR&D, commercial technology partnerships, contract R&D, and university partnerships Source.\nThe Defense & Intelligence sector has its own CTO (Ryan Gabriele) Source.\nStrategic Investment Areas (per FY2024 proxy)\n\u201cAI; cyber; biometrics; counter unmanned air systems; PFOS/PFAS; and assured position, navigation, and timing\n(PNT)\u201d Source."
+    },
+    {
+      "chunk_id": 3585,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 6,
+      "content": "2.3.1.12 Vehicle Damage Claims (RFP Section 2.3.1.12) ........................................................................... 70\n2.3.1.13 Training for Centralized Lane Operations and Supporting Activities (RFP\nSection 2.3.1.13) ............................................................................................................................................ 72\n2.3.1.13.1 Training Plan (RFP Section 2.3.1.13.1) .................................................................................. 72\n2.3.1.13.2 Training Plan (RFP Section 2.3.1.13.2) .................................................................................. 73\n2.3.1.13.3 Training Program (RFP Section 2.3.1.13.3) ........................................................................... 73\n2.3.1.13.4 Lane Inspector Training and Certification (RFP Section 2.3.1.13.4).................................... 75\n2.3.1.13.5 Technician Training and Certification (RFP Section 2.3.1.13.5) .......................................... 77\n2.3.1.13.6 Training of State Staff (RFP Section 2.3.1.13.6) ................................................................... 79\n2.3.1.13.7 Training and Certification of CSRs and St"
+    },
+    {
+      "chunk_id": 3586,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 6,
+      "content": "(RFP Section 2.3.1.13.8) ................................................ 81\n2.3.1.13.9 Training for Personnel at MACs (RFP Section 2.3.1.13.9) .................................................... 82\n2.3.1.14 Personnel for Additional Vehicle Inspections (RFP Section 2.3.1.14) ......................................... 83\n2.3.1.15 QA/QC, Operational and Performance Audits (RFP Section 2.3.1.15) ........................................ 83\n2.3.1.15.1 QA/QC Audits (RFP Section 2.3.1.15.1) ................................................................................. 84\n2.3.1.15.2 State Operational and Performance Audits (RFP Section 2.3.1.15.2) ................................. 86\n2.3.1.16 Motorist Payment Methods Permitted (RFP Section 2.3.1.16) ................................................... 86\n2.3.1.16.1 Fee Collection (RFP Section 2.3.1.16.1) ................................................................................ 87\n2.3.1.16.2 Full Fee Collection (RFP Section 2.3.1.16.2) ......................................................................... 87\n2.3.1.16.3 Accepting Cash Payments (RFP Section 2.3.1.16.3) ............................................................ 8"
+    },
+    {
+      "chunk_id": 3588,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 6,
+      "content": "................................................................... 93\n2.3.1.18.1 Management Plan (RFP Section 2.3.1.18.1) ......................................................................... 94\nPersonnel Resumes (RFP Section 2.3.1.18.1.F) ........................................................................................ 106\n2.3.1.18.2 Kickoff Meeting (RFP Section 2.3.1.18.2) ........................................................................... 123\n2.3.1.18.3 Updating of Management Plan (RFP Section 2.3.1.18.3) ................................................... 124\n2.3.1.18.4 Updating of All Plans, Procedures, and Policies (RFP Section 2.3.1.18.4) ........................ 124\n2.3.1.18.5 Adherence to Plan (RFP Section 2.3.1.18.5) ....................................................................... 124\n2.3.1.19 Project Management (RFP Section 2.3.1.19) ............................................................................. 125\n2.3.1.19.1 PMO (RFP Section 2.3.1.19.1) .............................................................................................. 126\nTable of Contents iii"
+    },
+    {
+      "chunk_id": 3590,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 7,
+      "content": "2.3.1.19.2 Weekly Transition Meetings (RFP Section 2.3.1.19.2) ........................................................ 126\n2.3.1.19.3 Weekly and Monthly Status Reports (RFP Section 2.3.1.19.3) .......................................... 126\n2.3.1.19.4 Technical Meetings (RFP Section 2.3.1.19.4) ..................................................................... 127\n2.3.1.19.5 Invoicing (RFP Section 2.3.1.19.5) ....................................................................................... 127\n2.3.1.19.6 End of Contract (RFP Section 2.3.1.19.6) ............................................................................ 128\n2.3.1.20 Inspection Personnel Attire (RFP Section 2.3.1.20) ................................................................... 128\n2.3.1.21 Damage or Destruction (RFP Section 2.3.1.21) ......................................................................... 128\n2.3.1.22 Use of Program for Commercial Promotion (Section 2.3.1.22) ................................................. 128\n2.3.1.23 Continuity of Services (RFP Section 2.3.1.23) ............................................................................ 129\n2.3.1.24 MAC (RFP Section 2.3.1.24).."
+    },
+    {
+      "chunk_id": 3595,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 8,
+      "content": "2.3.2.6 Test Procedures (RFP Section 2.3.2.6) ...................................................................................... 217\n2.3.2.7 Waivers (RFP Section 2.3.2.7) .................................................................................................... 223\n2.3.2.8 VEIC (RFP Section 2.3.2.8) ......................................................................................................... 228\n2.3.2.9 External Kiosk Operations (RFP Section 2.3.2.9) ...................................................................... 234\n2.3.2.10 MAC Operations (RFP Section 2.3.2.10) ................................................................................. 239\n2.3.2.11 On-Road Testing (RFP Section 2.3.2.11) ................................................................................. 243\n2.3.2.12 Emissions-Related Recalls (RFP Section 2.3.2.12) ................................................................ 246\n2.3.3 Scope of Work \u2013 FIS Program (RFP Section 2.3.3) .......................................................................... 249\n2.3.3.1 Program Description and State Agency Roles (RFP Section 2.3.3.1) ...................................... 250\n2"
+    },
+    {
+      "chunk_id": 3596,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 8,
+      "content": "............................................................ 252\n2.3.3.3 FIS Inspector Training (RFP Section 2.3.3.3) ............................................................................. 257\n2.3.3.4 FIS Transition (RFP Section 2.3.3.4) .......................................................................................... 258\n2.3.3.5 FIS Equipment Maintenance and Repair (RFP Section 2.3.3.5) .............................................. 262\n2.3.3.6 FIS Payment Structure (RFP Section 2.3.3.6) ........................................................................... 264\n2.3.3.7 FIS Data Management (RFP Section 2.3.3.7) ........................................................................... 267\n2.3.4 Scope of Work \u2013 Hybrid Stations Programs (RFP Section 2.3.4) .................................................... 269\n2.4 Deliverables (RFP Section 2.4) ................................................................................................................. 269\n2.4.1 Deliverable Submission (RFP Section 2.4.1) .................................................................................... 269\n2.4.2 Deliverable Acceptance (RFP Section 2.4.2) ................"
+    },
+    {
+      "chunk_id": 3602,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 9,
+      "content": "........................................................ 296\n3.6 Insurance Requirements (RFP Section 3.6) ......................................................................................... 296\n3.7 Security Requirements (RFP Section 3.7) ............................................................................................ 296\n3.7.1 Employee Identification (RFP Section 3.7.1) ................................................................................ 297\n3.7.2 Criminal Background Check (RFP Section 3.7.2) ......................................................................... 297\n3.7.3 On-Site Security Requirement(s) (RFP Section 3.7.3) .................................................................. 298\n3.7.4 Information Technology (RFP Section 3.7.4) ................................................................................ 298\n3.7.5 Data Protection and Controls (RFP Section 3.7.5) ....................................................................... 299\n3.7.6 Security Logs and Reports Access (RFP Section 3.7.6) ............................................................... 306\n3.7.7 Security Plan (RFP Section 3.7.7) ................................."
+    },
+    {
+      "chunk_id": 3605,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 10,
+      "content": "3.9 SOC 2 Type 2 Audit Report (RFP Section 3.9) ...................................................................................... 313\n3.9.1 SOC 2 Type 2 (RFP Section 3.9.1) ................................................................................................. 313\n3.9.2 Annual Audit (RFP Section 3.9.2) .................................................................................................. 313\n3.10 Experience and Personnel (RFP Section 3.10) .................................................................................. 316\n3.10.1 Preferred Offeror Experience (RFP Section 3.10.1) ................................................................... 316\n3.10.2 Key Personnel Experience (RFP Section 3.10.2) ....................................................................... 323\n3.10.3 Number of Personnel Proposed (RFP Section 3.10.3) .............................................................. 323\n3.10.4 Key Personnel Identified (RFP Section 3.10.4) .......................................................................... 325\n3.10.5 Contractor Personnel Maintain Certifications (RFP Section 3.10.5)......................................... 326\n3.10.6 Wor"
+    },
+    {
+      "chunk_id": 3606,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 10,
+      "content": "......................................................... 326\n3.11 Substitution of Personnel (RFP Section 3.11) ................................................................................... 327\n3.11.1 Continuous Performance of Key Personnel (RFP Section 3.11.1) ............................................ 327\n3.11.2 Definitions of Extraordinary Personal Event and Incapacitating (RFP Section 3.11.2) ........... 327\n3.11.3 Contractor Personnel General Substitution Provisions (RFP Section 3.11.3) .......................... 327\n3.11.4 Replacement Circumstances (RFP Section 3.11.4) ................................................................... 328\n3.11.5 Substitution Prior to and within 30 Days after Contract Execution (RFP Section 3.11.5) ....... 329\n3.12 MBE Reports (RFP Section 3.12) ........................................................................................................ 329\n3.12.A. Attachment D-5 (RFP Section 3.12.A) ........................................................................................ 332\n3.12.B. Attachment D-6 (RFP Section 3.12.B) ....................................................................................... 332\n3.12.C. Mainte"
+    },
+    {
+      "chunk_id": 3607,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 10,
+      "content": "..................................................... 332\n3.12.D. Access to Records (RFP Section 3.12.D) ................................................................................... 332\n3.12.E. Final Report Affidavit (RFP Section 3.12.E) ............................................................................... 332\n3.13 VSBE Reports (RFP Section 3.13) ...................................................................................................... 332\nTAB E \u2013 EXPERIENCE AND QUALIFICATIONS OF PROPOSED STAFF .................................................................. 334\nF.1 Staff Experience and Qualifications (RFP Section F.1) ........................................................................ 334\nF.2 Letters of Intended Commitment (RFP Section F.2) ............................................................................ 348\nF.3 Organization Chart (RFP Section F.3) .................................................................................................... 362\nF.4 Table of all Personnel by Position, Location, and Designation of Roles/Responsibilities (RFP\nSection F.4) ..........................................................................."
+    },
+    {
+      "chunk_id": 3608,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 10,
+      "content": ".................................................................... 363\nF.5. Organization Chart to the Individual the Inspection Program Station Level (RFP Section F.5) ....................................... 365\nF.6. Differing Personnel Work Hours (RFP Section F.6) ............................................................................. 366\nF.7. Maintain Staffing Levels (RFP Section F.7) ......................................................................................... 366\nF.8. Estimated Number of Employees (RFP Section F.8) ........................................................................... 367\nF.9 Job Descriptions and Requirements (RFP Section F.9) ....................................................................... 369\nTAB F \u2013 OFFEROR QUALIFICATIONS AND CAPABILITIES ...................................................................................... 377\nG.1 Number of Years Providing Similar Goods and Services (RFP Section G.1) ...................................... 379\nG.2 Number of Clients/Customers and Geographic Locations (RFP Section G.2) ................................... 379\nG.3 Headquarters or Regional Management Personnel (RFP Section G.3) ..."
+    },
+    {
+      "chunk_id": 3643,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 34,
+      "content": "rio, has 25 years of vehicle inspection and maintenance industry\nexperience, including 12 years managing the the Inspection Program. He is intimately familiar with State\nrequirements, policies, and procedures. Robert Suess, Corporate Executive Sponsor, will support Jim on\nParsons\u2019 vehicle inspection team, making sure he has adequate resources and staff throughout\nimplementation. We have more than 750 the State-based staff and over 500 tenured vehicle inspection\nand compliance professionals nationwide available to ensure a smooth transition and stable operations.\nTab C / Executive Summary 21"
+    },
+    {
+      "chunk_id": 3644,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 34,
+      "content": "han 750 the State-based staff and over 500 tenured vehicle inspection\nand compliance professionals nationwide available to ensure a smooth transition and stable operations.\nTab C / Executive Summary 21"
+    },
+    {
+      "chunk_id": 3646,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 35,
+      "content": "Manager\nDeputy Program Manager\nYou can rely on Susan to apply\nYou can rely on Jason to deliver her expertise in accounts payable\noperational services with the same systems, procedures, policies, and\nintegrity and accuracy you\u2019ve always known and generally accepted accounting principles to\nto source internal and external personnel who will improve efficiency and accuracy\nadd value to the the Inspection Program. He\u2019s been through every within the the Inspection Program.\nevolution of the the Inspection Program since 1995.\nHoward Ubinas / Training Manager Darryl McCarthy / Information\nSystems Manager\nYou can rely on Howard to deliver\nexceptional training and share his You can rely on Darryl to apply his\n20 years of hands-on experience and problem-solving capability and vast\nknowledge with the Inspection Program managers, inspectors, IT experience, including new and existing\ntechnicians, and operational staff. technology across multiple inspection programs.\nRobert Suess / Executive Program Sponsor \u2013 You can rely on Robert, as a senior\nexecutive at Parsons, to provide the resources necessary to successfully deliver this\nprogram as required by the State.\nWe share your commitment to inclus"
+    },
+    {
+      "chunk_id": 3650,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 37,
+      "content": "TAB D\nTECHNICAL RESPONSE TO RFP REQUIREMENTS\nAND PROPOSED WORK PLAN\nOur solution will empower motorists to choose when, where, and how they get their test. Whether using our\nself-serve kiosk or a traditional face-to-face inspection\u2014we\u2019ll deliver an exceptional customer experience\nwithout compromising customer service.\nThe State vehicle Emissions Inspection Program (the Inspection Program) helps to reduce air pollution and\nprotect public health by ensuring vehicles meet state emissions standards. The program\nrequires certain vehicles to undergo regular emissions testing and repairs, if necessary, to\nreduce harmful pollutants, and the testing helps improve the State air quality and prevent\nrespiratory illnesses, especially for vulnerable populations such as children, seniors, and\nresidents with pre-existing health conditions. These issues are as important to us as the\nthe State Department of Transportation Motor Vehicle Administration (the State Motor Vehicle agency) and the\nthe State Department of the Environment (MDE) because more than 750 of our staff\nmembers are Marylanders. Our technical proposal details our approach and methodology,\nfunctional and technical solutions, company a"
+    },
+    {
+      "chunk_id": 3653,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 38,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\n2.3 Responsibilities and Tasks (RFP Section 2.3)\nWHY PARSONS\n\u25aa An approach that ensures premier customer \u25aa An approach that reduces the emissions waiver rate\nservice in a convenient, stable, customer-focused and increases repair effectiveness\nprogram \u25aa A self-service tablet solution that will greatly enhance\n\u25aa Operation and management capabilities that have the motorist experience and overall convenience\nbeen tried, tested, and proven in emissions \u25aa A proven record of resolving customer claims\ninspection programs across North America expeditiously, fairly, and without State involvement\n\u25aa Proven management and operation of inspection \u25aa A proven, reliable fee-collection system and process\nfacilities\n\u25aa Proven service and inventory software solution\n\u25aa Proven safety standards recognized by the (ParDS2) to maintain, track, and forecast inventory\nNational Safety Council (NSC)\n\u25aa A proven vehicle inspection database (VID) design that\n\u25aa Extensive staff and motorist training programs has resulted in 99.99% uptime\ndeveloped and successfully executed over\n20 years \u25aa The depth of resources, experience, and preparedness\nto execute a seamless, low-ri"
+    },
+    {
+      "chunk_id": 3654,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 38,
+      "content": ", and stations, kiosks, and fleet inspection stations (FISs)\nappropriate tools and team to make program\nmodifications to streamline the inspection \u25aa Solid stakeholder outreach and communications that\nwill result in an issue-free transition for the new the Inspection Program\nprocess, improve motorist convenience, and\nensure compliance with State and federal\nregulations\n2.3.1 General Requirements (RFP Section 2.3.1)\nHaving designed, implemented, and managed vehicle inspection programs over the past three decades, our\noperation and program management capabilities have been tried, tested, and proven in emissions\nins pection programs across North America. The following details how we\u2019ll implement and manage the new\npro gram.\nFEATURES OF OUR APPROACH BENEFITS TO MARYLAND\nProven management and operation of vehicle Best practices garnered from more than three decades in the vehicle inspection industry will bring\ninspection programs the most applicable resources, knowledge, and team members to the State.\nInnovative, modernized solutions Looking toward modernization and efficiency, State motorists will receive a more sustainable\nand streamlined the Inspection Program, including paperless Veh"
+    },
+    {
+      "chunk_id": 3655,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 38,
+      "content": "rogram.\nAttention to the customer/client Program management team and staff dedicated to the success of the programs we manage,\nensuring that the State and motorists have the highest level of service.\nTrusted Partners: Leveraging our experience managing and operating prominent vehicle emissions\ninspection programs, we\u2019ll deliver a successful transition, instilling confidence in day-to-day operations and\nhelping the agencies navigate the future of emissions testing and repair programs. Our proposal\ndemonstrates how we\u2019ll serve the the State and maintain a positive public perception of the the Inspection Program\nand the the State Motor Vehicle agency.\nSafety: Our corporate emphasis and foundation on Safety with Parsons\u2019 OWN ZERO\u00ae philosophy ensures\ncustomer wellbeing at stations and kiosks. OWN ZERO\u00ae is our mindset and commitment to creating an\nenvironment absent of incident and injury in everything we do.\nThe Right Team: The depth of our resources includes skilled assets\u2014from engineers and data analysts to\ntrainers and experienced emissions inspection professionals. Our dedicated vehicle inspection compliance\nmanagement team has worked together for over 30 years and successfully impl"
+    },
+    {
+      "chunk_id": 3656,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 38,
+      "content": "rity experts, and facility experts\nwho minimize transition risk at all levels.\n24 Tab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan\nFEATURES OF OUR APPROACH | BENEFITS TO MARYLAND\nProven management and operation of vehicle | Best practices garnered from more than three decades in the vehicle inspection industry will bring\ninspection programs | the most applicable resources, knowledge, and team members to the State.\nAttention to the customer/client | Program management team and staff dedicated to the success of the programs we manage,\n | ensuring that the State and motorists have the highest level of service."
+    },
+    {
+      "chunk_id": 3657,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 38,
+      "content": "nd.\nAttention to the customer/client | Program management team and staff dedicated to the success of the programs we manage,\n | ensuring that the State and motorists have the highest level of service."
+    },
+    {
+      "chunk_id": 3658,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 39,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nWe have the right experience, the depth of resources, and the\nappropriate tools for a smooth, risk-free transition and to ensure\nongoing operations and an innovative future for the State\u2019s the Inspection Program. Since\n1995, we have trained more than 95,500 inspection mechanics on\nequipment usage and customer service. In 2023, we implemented a training system for the Ontario\nDriveOn program to educate an additional 60,000+ inspection mechanics. Our award-winning corporate\nsafety culture offers the State the most effective program management team.\nThe the State has a vision for the the Inspection Program. We have the foresight and experience to implement\ninnovative initiatives to modernize vehicle inspection programs with kiosks, a tablet (mobile) amplified\nsolution, and unique customer-focused training programs. We\u2019re leading the way as an innovator and\nprogram manager, and we\u2019ll bring that vision to fruition.\nINNOVATION SPOTLIGHT\n\u2022 First-to-market heavy-duty (HD) onboard diagnostics (OBD) testing for vehicles greater than 14,000 gross vehicle weig"
+    },
+    {
+      "chunk_id": 3663,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 40,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\n2.3.1.B Contractor\u2019s Responsibilities (RFP Section 2.3.1.B)\nWe understand and will comply with the responsibilities described in RFP\nSection 2.3.1.B. As detailed in the sections referenced, we\u2019ll take full\nresponsibility for:\n\uf0a7 Transitioning the existing the Inspection Program stations, providing and installing new kiosks at existing kiosk locations,\nand potentially adding kiosks to meet the program needs. See Sections 2.3.1.1.3 and 2.3.1.6 for more\ndetails.\n\uf0a7 Reconfiguring and retrofitting the existing inspection lanes. See Section 2.3.1.1.4.L for more details.\n\uf0a7 Staffing each the Inspection Program station with sufficient qualified personnel to operate the program. See\nSections 2.3.1.1.4.R and 2.3.1.17.1.D for more details.\n\uf0a7 Inspecting vehicles covered under the the Inspection Program. See Section 2.3.2.6 for more details.\n\uf0a7 Transitioning the FIS program. See Section 2.3.3.4 for more details.\n\uf0a7 Implementing vehicle repair effectiveness/motorist assistance center (MAC) activities. See\nSections 2.3.2.10 and 2.3.1.24 for more details.\n\uf0a7 Providing real-time data updates and reports to the State via a RESTful JSON web service. See\nSecti"
+    },
+    {
+      "chunk_id": 3671,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 42,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\n2.3.1.1 Transition of the Inspection Program Stations to New Program and Contractor (RFP Section 2.3.1.1)\nFEATURES OF OUR APPROACH BENEFITS TO MARYLAND\nReadily available resources Access to a dedicated Vehicle Inspection and Compliance division of more than 500 vehicle\nindustry professionals in the region to provide significant resources during the transition and\nstartup phases of the new program. In addition, we can draw from 18,000 Parsons employees.\nA PM with local, unmatched knowledge Jim Valerio was the full-time general manager of the the Inspection Program for more than 12 years. He is\ndedicated to the implementation of this project and understands the State\u2019s objectives for a\nreinvented the Inspection Program.\nFinancially powerful and stable company With more than $5.4 billion in annual revenues focused in North America, we have the strength and\ncommitment to our clients as a top priority and will not cut corners. We do more than emissions\ntesting and will not jeopardize our the State brand.\nWell-organized division of labor While a large company by industry standards, Parsons is divided into organized groups of dedicated\nperso"
+    },
+    {
+      "chunk_id": 3672,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 42,
+      "content": "he best customer service to the the State and its stakeholders.\nSmooth, successful transition Our experience will ensure transparent transition of the the State program. We\u2019ll prevent motorist\ninconvenience and proactively mitigate risk. Our record demonstrates we don\u2019t cut corners, and we\ndo what we say.\nSolid stakeholder outreach and communications We\u2019re skilled at developing stakeholder outreach materials that convey relevant messages and\nmitigate concerns during the transition period. This experience delivers a successful and issue-free\ntransition for the new the Inspection Program.\nA refined user experience (UX) focus We develop materials and training with a keen focus on end-user needs. We have staff on hand and\nready to work with the State. Our team includes vehicle inspection program, UX, and creative\ndevelopment experts.\nLeveraging Agile development with Zephyr test System testing can begin earlier in the development process and result in electronic, easily\ncase tracking accessible test documentation to greatly assist the State with oversight and ensure the the Inspection Program\nnetwork is transitioned successfully and on time.\nINNOVATION SPOTLIGHT\n\u2022 Zephyr Tracking Softw"
+    },
+    {
+      "chunk_id": 3673,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 42,
+      "content": "proven tool for data migration to ensure accuracy when transitioning database management systems.\n\u2022 Bulk Text Messaging for use with our staff and program stakeholders to improve urgent and emergency\ncommunications and deliver better operational results.\nParsons will deliver a well-managed, cost-effective, and successful program\ntransition for the the Inspection Program. We have the experience, the depth of\nresources, and the executive-level commitment to ensure the smooth,\nseamless startup of operations that will meet or improve upon the date\nprovided by the MDOT the State Motor Vehicle agency. For the State Motor Vehicle agency and MDE\u2014and for the citizens and motorists of the State\u2014we propose\na low-risk transition that will:\n\uf0a7 Provide consistency across the the Inspection Program Station, FIS, and the Inspection Program Kiosk network on day one\n\uf0a7 Ensure controls are in place for the State to manage and oversee the deployment and rollout\n\uf0a7 Reduce the burden placed upon State resources to manage and oversee the transition\n\uf0a7 Deliver a solution that has been executed successfully by a proven team that has worked together on\nprogram transitions for more than 35 years\nWe\u2019ll dedicate t"
+    },
+    {
+      "chunk_id": 3674,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 42,
+      "content": "ors and vendors with the knowledge and experience to manage the process smoothly and without\ndelays. From electricians to construction managers to janitorial resources to field service technicians to\n28 Tab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan\nFEATURES OF OUR APPROACH | BENEFITS TO MARYLAND\nReadily available resources | Access to a dedicated Vehicle Inspection and Compliance division of more than 500 vehicle\n | industry professionals in the region to provide significant resources during the transition and\n | startup phases of the new program. In addition, we can draw from 18,000 Parsons employees.\nFinancially powerful and stable company | With more than $5.4 billion in annual revenues focused in North America, we have the strength and\n | commitment to our clients as a top priority and will not cut corners. We do more than emissions\n | testing and will not jeopardize our the State brand.\nSmooth, successful transition | Our experience will ensure transparent transition of the the State program. We\u2019ll prevent motorist\n | inconvenience and proactively mitigate risk. Our record demonstrates we don\u2019t cut corners, and we\n | do what we say.\nA refined user exper"
+    },
+    {
+      "chunk_id": 3675,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 42,
+      "content": "ve staff on hand and\n | ready to work with the State. Our team includes vehicle inspection program, UX, and creative\n | development experts.\n |  |  |  | \n |  |  |  | \n | INNOVATION SPOTLIGHT |  |  | \n |  |  |  | \n |  | \u2022 Zephyr Tracking Software, an industry-leading tool for managing System Acceptance Testing (SAT) details and feedback. |  | \n |  | \u2022 DBConvert, a proven tool for data migration to ensure accuracy when transitioning database management systems. |  | \n |  | \u2022 Bulk Text Messaging for use with our staff and program stakeholders to improve urgent and emergency |  | \n |  | communications and deliver better operational results. |  |"
+    },
+    {
+      "chunk_id": 3676,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 42,
+      "content": "ement systems. |  | \n |  | \u2022 Bulk Text Messaging for use with our staff and program stakeholders to improve urgent and emergency |  | \n |  | communications and deliver better operational results. |  |"
+    },
+    {
+      "chunk_id": 3681,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 44,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\nPHASED APPROACH\nPHASE 1 WORK \u2013 LIST OF DELIVERABLES:\n\u2022 Acceptance of NTP\n\u2022 Technology (hardware) refresh of 81 testing lanes to include 70 OBD only and 44 combined OBD/Idle/Gas Cap testing\npositions (total 114) at all 18 the Inspection Program Stations, including PC, OBD scan tool, idle test gas analyzer, and gas cap tester, as\nproposed\n\u2022 Software development, implementation, and approval of testing solution, as proposed\n\u2022 Technology (hardware and software) replacement of 10 the Inspection Program kiosks, as proposed\n\u2022 Implementation of new in-lane, in-building, self-service terminals (tablet-based solution)\n\u2022 Implementation of tablet-based testing solution for Fleet Inspection Stations\" needs to be added under Phase 1 Work\n\u2022 Conversion of one lane in each facility to also function as a MAC lane\n\u2022 Hardware refresh for all the Inspection Program Station PCs, printers, and other peripherals in the customer service office areas\n\u2022 Installation and approval of new wait-time tracking ALPR solution at entrance of queue\n\u2022 VID development, implementation, and approval, including infrastructure\n\u2022 Conversion of previous six years of test records"
+    },
+    {
+      "chunk_id": 3682,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 44,
+      "content": "tion, and approval\n\u2022 PMO procurement and fit-out for Parsons\u2019 staff, as proposed\n\u2022 Training by Parsons and certification by the State of all proposed Parsons staff at least 15 days before new program\nstartup necessary for operation of the the Inspection Program Stations\n\u2022 Successful completion of SAT Plan, as proposed, no later than one month before go-live date\n\u2022 Successful testing and prepared implementation of backup and contingency plan to prevent unscheduled delay of the Inspection Program\noperation due to unforeseen problems\n\u2022 All other associated RFP requirements consistent with the items offered above\nPHASE 2 WORK \u2013 LIST OF DELIVERABLES:\n\u2022 the Inspection Program Station modifications and enhancements as proposed, including:\n\u25aa Decommission all unnecessary equipment and materials\n\u25aa Demolition of all non-required waiting areas and booths\n\u25aa Installation of new waiting benches in each lane and test position\n\u25aa Installation of new equipment booth enclosures\n\u25aa Replacement of all required HVAC systems at all the Inspection Program Stations\n\u25aa Installation of new HVAC to new equipment booth enclosures\n\u25aa Repainting and refinishing of walls and floors at all the Inspection Program Stati"
+    }
+  ]
+}

@@ -1,0 +1,462 @@
+{
+  "theme_id": 12,
+  "theme_label": "Business Continuity & Disaster Recovery",
+  "category": "Technical",
+  "rfp_requirements": [
+    {
+      "id": 1215,
+      "code": "R-002",
+      "title": "Acknowledge Order of Precedence of Contractual Terms",
+      "description": "Bidder must recognize that in the event of a conflict among the Contract documents, the stated order of precedence from highest to lowest ranking applies.",
+      "section": "1.4",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 7683,
+      "code": "A-029",
+      "title": "Acknowledge State Tax Set-Off",
+      "description": "Contractor acknowledges that pursuant to N.J.S.A. 54:49-19, whenever the Contractor (or a partner/shareholder) is entitled to payment while indebted for any State tax, the Director of the Division of Taxation shall seek to set off that amount.",
+      "section": "2.12",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 1469,
+      "code": "R-006",
+      "title": "Designate Project Manager and backup",
+      "description": "Identify and provide a designated Project Manager (PM) and no less than one (1) backup personnel authorized to act as PM to support and communicate with the SCM as requested or required.",
+      "section": "4.2.2",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 3460,
+      "code": "A-062",
+      "title": "Include acronyms/terms appendix in BC/DR plan",
+      "description": "",
+      "section": "4.24.2.B.11",
+      "priority": "low",
+      "category": "mandatory"
+    },
+    {
+      "id": 3451,
+      "code": "A-053",
+      "title": "Address participant roles in BC/DR plan",
+      "description": "",
+      "section": "4.24.2.B.2",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3452,
+      "code": "A-054",
+      "title": "Address stakeholder roles in BC/DR plan",
+      "description": "",
+      "section": "4.24.2.B.3",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3477,
+      "code": "A-079",
+      "title": "Include acronyms/terms appendix in backup plan",
+      "description": "",
+      "section": "4.24.3.B.11",
+      "priority": "low",
+      "category": "mandatory"
+    },
+    {
+      "id": 3470,
+      "code": "A-072",
+      "title": "Address Backup/Recovery document/artifact management",
+      "description": "",
+      "section": "4.24.3.B.4",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3481,
+      "code": "A-083",
+      "title": "Retain offsite backups for no less than one year",
+      "description": "",
+      "section": "4.24.3.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4982,
+      "code": "A-062",
+      "title": "Require authorization to use mobile devices",
+      "description": "Establish requirements for authorization to use mobile devices for organizational business purposes.",
+      "section": "6.8.A",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 7944,
+      "code": "R-005",
+      "title": "Notice to Division of Law before defending in State's name",
+      "description": "Neither Contractor nor its attorney shall defend a claim in the name of the State or any Authorized Purchaser, or act as its legal representative, without providing notice to the Director of the Division of Law and the Director of the Division of Purchase and Property.",
+      "section": "8.2.G",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 8033,
+      "code": "R-038",
+      "title": "Notify Division of Law before defending in State's name",
+      "description": "Neither Contractor nor any attorney engaged by Contractor may defend the claim in the name of the State or purport to act as legal representative without providing notice to the Director of the Division of Law and Director of Division of Purchase and Property.",
+      "section": "9.2.4.1.G",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8122,
+      "code": "A-023",
+      "title": "Grant Union representative reasonable access",
+      "description": "A representative of the Union shall have reasonable access to the Employer for the purpose of conferring with the Employer, shop stewards, and Employees and for administering this Agreement.",
+      "section": "Article IV.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8127,
+      "code": "A-028",
+      "title": "Provide Bulletin Board at each location",
+      "description": "The Employer shall provide a Bulletin Board at each location, placed conspicuously and readily accessible, to be used for posting proper Union notices.",
+      "section": "Article IV.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8412,
+      "code": "A-012",
+      "title": "Limit emergency/personal sick leave use",
+      "description": "Full-time employees may use no more than 40 hours per year and part-time employees no more than 20 hours per year of sick leave for emergency or personal reasons.",
+      "section": "Article XXIX.10",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8404,
+      "code": "A-006",
+      "title": "Limit partial-day sick leave to specified purposes",
+      "description": "Sick leave for less than a full work day may only be used for onset of illness while working, tending to an ill immediate family member, or medical appointments that could not be arranged during non-work time.",
+      "section": "Article XXIX.5",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8562,
+      "code": "A-042",
+      "title": "State officer/employee bids subject to Attorney General conflict-of-interest guidelines",
+      "description": "Any State officer, employee, or group of State officers/employees entering into a contract as a private contractor under this section must do so subject to guidelines for conflict of interest established by the Attorney General.",
+      "section": "Section 1 (C.39:8-44 b.(3))",
+      "priority": "high",
+      "category": "mandatory"
+    }
+  ],
+  "parsons_evidence": [
+    {
+      "chunk_id": 1933,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 3,
+      "content": "................... 10\nI-5D: Program Changes ....................................................................................................................................................... 11\nI-5E: Transition .................................................................................................................................................................... 11\nI-5F: Disaster Recovery ....................................................................................................................................................... 12\nI-5G: Back-Up and Back-Up Storage .................................................................................................................................. 13\nI-5H: Emergency Preparedness .......................................................................................................................................... 14\nOperational Impact ........................................................................................................................................................ 14\nContinuity of Operations ................................................................................................."
+    },
+    {
+      "chunk_id": 1958,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 6,
+      "content": "............... 78\nI-8B. Invoice Submissions ................................................................................................................................................... 78\nI-9. OBJECTIONS AND ADDITIONS TO TERMS & CONDITIONS ........................................................................................ 78\nRESPONSE WRAP UP ...................................................................................................................................................... 78\nATTACHMENT A -- Project Experience\nATTACHMENT B -- Disaster Recovery Plan\nTechnical Submittal iv"
+    },
+    {
+      "chunk_id": 1959,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 6,
+      "content": ".................................................................................................... 78\nATTACHMENT A -- Project Experience\nATTACHMENT B -- Disaster Recovery Plan\nTechnical Submittal iv"
+    },
+    {
+      "chunk_id": 1969,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 10,
+      "content": "l ensure the continued success of your Program through our strong foundational Program\nknowledge and performance history of compliance and adaptability with no transition risk. We understand the need\nfor complete separation and no conflict of interest between PennDOT\u2019s Emissions Program Manager and emissions\nequipment providers. We are the only contractor that can guarantee no financial or business relationship with any\ncurrently certified emissions testing equipment manufacturer in Pennsylvania.\nThe selected Program Manager will administer all aspects of the I/M Program under PennDOT\u2019s direction, including the\nrequired services defined in the RFP and outlined in work statement Part I-6. The contractor\u2019s responsibilities include:\n\u00a7 Maintaining the nature and scope of Pennsylvania\u2019s current I/M Program\n\u00a7 Maintaining required geographic coverage and program areas\n\u00a7 Providing a seamless transition that prevents interruption in Program services or data collection by maintaining\ninterfaces with hardware and software and ensuring emission testing equipment transmits data to the Vehicle\nInformation Inspection Database (VIID) identically\n\u00a7 Providing for the storage and handling of all I/M "
+    },
+    {
+      "chunk_id": 1970,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 10,
+      "content": "d safety inspection data\n\u00a7 Providing the necessary software/hardware to operate and maintain the I/M Program\n\u00a7 Providing a disaster recovery plan\n\u00a7 Providing data back-up and off-site back-up storage\n\u00a7 Providing system journal files (transaction journals), logging all system transactions\n\u00a7 Overseeing (overt, covert, and remote visual observation) I/M and Safety stations within the assigned geographic\nregion including inspectors and certified repair technicians\n\u00a7 Conducting public information and education (I&E) activities relating to the I/M Program\n\u00a7 Providing a process for investigation and fact-finding relating to I/M Program violations\n\u00a7 Providing referee service to facilitate the resolution of consumer complaints\n\u00a7 Helping I/M stations and consumers with the issuance of exemptions and waivers\n\u00a7 Providing Help Desk facilities to address equipment manufacturer, I/M station, and consumer questions and\nconcerns regarding I/M Program requirements and to address system support issues for e-SAFETY users\n\u00a7 Performing motorist compliance data collection and analysis\n\u00a7 Collecting, organizing, storing, and reporting on data related to on-road testing (remote sensing)\n\u00a7 Performing evaluat"
+    },
+    {
+      "chunk_id": 2025,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 21,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nallows PennDOT to focus on improving the existing formats and content instead of recreating a baseline with a new\nvendor. In addition, our Service Level Tracking Application automates the identification of contract requirements and\ndetermines if the metric has been met, offering the Commonwealth a convenient and reliable method of measuring\nour deliverable compliance.\nParsons commits to the go-live date of October 1, 2025, with uninterrupted operations of the I/M Program. We have\nestablished systems, experience, and reliable operations, removing the transition risks of moving to a new contract\nperiod. Parsons\u2019 consistent open communications with PennDOT facilitates resolution of any issues in the PA I/M\nProgram.\nI-5F: Disaster Recovery\nDisaster prevention and recovery is a mainstay of Parsons\u2019 IT systems and operations methods and we have consistently\nmaintained a reliable network and mitigated risks through our disaster recovery approach. Our primary goal in disaster\nrecovery (DR) is to manage the event to reduce its impact and ensure continuous delivery of the PA I/M Program. We\nactiv"
+    },
+    {
+      "chunk_id": 2026,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 21,
+      "content": "ure the recovery of system operations during a disaster which disrupts the online\nVIID capabilities or interrupts operational delivery of the Program. By designing a fault-tolerant system that offers\nautomatic and immediate recovery for most disaster scenarios, Parsons enables the VIID to continue its operation\nuninterrupted. We\u2019ll host our updated system environment in the Amazon Web Service (AWS) US-EAST-1 region to take\nadvantage of the isolated data center locations, called availability zones, which exceed the 99% service level requirement\nfor availability and uptime of all systems applications. Our disaster recovery strategy also includes redundancy distributed\nacross two availability zones to ensure maximized protection with the capacity to take over complete production volume\nin each availability zone and provide a responsive end-user experience even in disaster scenarios. Each availability zone\nis engineered to be isolated from failures in other availability zones and provides fault tolerance and low-latency network\nconnectivity to other availability zones in the same region. We\u2019ve evaluated the data center locations for multiple risks,\nincluding flood and other environment"
+    },
+    {
+      "chunk_id": 2027,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 21,
+      "content": "available to end-users.\nOur proven applications run in all our programs, and we provide unmatched uptime results. \u201cExhibit I-5-1\u201d shows the\nuptime percentages for our VIID solutions in our programs.\nEXHIBIT: I-5-1. OUR PROGRAM UPTIME PERCENTAGES DEMONSTRATE OUR RELIABILITY.\nPROGRAM SYSTEM AVAILABILITY\nNew Jersey Motor Vehicle Inspection System 99.99% uptime since October 2013\nHawaii Motor Vehicle Inspection Program 99.99% uptime since November 2013\nPennsylvania Vehicle Emissions I/M Program 99.99% uptime since October 2012\nVermont Automated Vehicle Inspection Program 99.99% uptime since January 2016\nDriveON Ontario 100% uptime since April 2022\nOur experience in maintaining VIID uptime, along with our knowledge of the day-to-day needs of the PA I/M Program,\nensures that on the first day of the contract, PennDOT will have no disaster recovery concerns. Our extensive and\ndedicated US based IT staff stand ready to respond to any interruption and are prepared to exercise all protocols to\nreduce impact to the Program should we initiate disaster recovery. In addition to our unmatched Program experience,\nwe draw from our successful experience building and operating fault-tolerant systems a"
+    },
+    {
+      "chunk_id": 2028,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 21,
+      "content": "r recovery\nplans. We have completed successful tests of the Disaster Recovery Plans (DRPs) for the PA I/M Program at least\nonce a year and after any major system release, upgrade, or recovery effort.\nOur current proven and approved VIID Disaster Recovery Plan focuses on all activities required to recover critical IT\nservices. We will continue to test, review, and update it as needed to meet recovery objectives. We will test the DRP\nprocedure in conjunction with PennDOT no later than 30 days from the go-live date; having Parsons staff who are\nexperienced in the system architecture and on-the-ground activities of the Program mitigates transition risk to PennDOT.\nThe objective of the DRP test is to verify the team\u2019s preparedness, ensure the automatic failover functionality, and\nTechnical Submittal 12\nPROGRAM | SYSTEM AVAILABILITY\nNew Jersey Motor Vehicle Inspection System | 99.99% uptime since October 2013\n | \nPennsylvania Vehicle Emissions I/M Program | 99.99% uptime since October 2012\n | \nDriveON Ontario | 100% uptime since April 2022\n |"
+    },
+    {
+      "chunk_id": 2030,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 22,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nconfirm that the backup systems meet the requirements. Our annual disaster recovery test will cover different disaster\nscenarios, including component failures and complete system recovery. Upon completion of the test, Parsons will create\nand submit a detailed report to PennDOT. Parsons will review the Disaster Recovery Plan annually, update it as\nnecessary, and submit an updated version to PennDOT by January 15th each year. We will provide and support the DRP,\nalong with required systems, and will be responsible for data conversion. The intrinsic safeguards in Parsons\u2019 solution,\nour Pennsylvania Program experience, and detailed DRPs implement automatic failover to ensure minimum impact on\nthe I/M testing facilities during disaster scenarios. Our goal is to make the disaster recovery environment operational\nwithin minutes of detecting a failure on the primary environment to ensure continuous systems operation, exceeding\nPennDOT\u2019s requirement to implement the plan and become operational within 24 hours.\nOur DRP is discussed in detail in Attachment B of this technical submittal and include"
+    },
+    {
+      "chunk_id": 2031,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 22,
+      "content": "ff assignment of responsibilities in the event of a disaster\n\u00a7 A prioritized list of applications crucial to system recovery\n\u00a7 Operation procedures used to ensure a timely and orderly system recovery\nThe role of our Disaster Recovery Coordinator, Mark Colangelo, is outlined in the DRP. Parsons\u2019 Disaster Recovery Plan\nfor the PA I/M Program is included in Attachment B of our technical submittal, and as we modernize the system\nenvironment, we will update the DRP.\nI-5G: Back-Up and Back-Up Storage\nParsons has established procedures for backup of all data and application files. Our experience in other programs with\nretrieval and recovery of data and application files is reflected in the careful development of the back-up plan for the PA\nI/M Program. PennDOT has approved our procedures, minimizing concern and transition risk to the Commonwealth upon\ntransition to the new contract. The backup plan includes:\n\u00a7 Daily real-time full and incremental application files and data backups\n\u00a7 Instant backup and recovery of data from snapshots\n\u00a7 Configuration management system and application code stored in version control system, included in daily backup\nTo protect against data corruption, and to p"
+    },
+    {
+      "chunk_id": 2032,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 22,
+      "content": "n, and to provide the ability to restore point-in-time, Parsons performs full and\nincremental VIID data backups daily in real-time using specialized archiving software and snapshots. This affords the\nflexibility to instantly create a copy, restore full or partial data, and restore data from snapshots, which is non-disruptive\nand much faster than traditional backup sources. The database management tools include the capability of logging and\njournalizing each backup. Parsons\u2019 use of snapshot technology minimizes impact on the database environment when the\nbackup process is invoked.\nIn addition, cross-availability zone and cross-region data replication and specific data backup retention levels protect\nagainst data corruption, data loss, and major disasters. We will use AWS Aurora database and S3 object storage to store\ncritical PA I/M Program data, allowing data to be replicated across multiple availability zones. In addition, we will use AWS\nbackup service to automate data backups and replication to an alternate region, ensuring multiple copies of the Program\ndata exist in geographically dispersed areas at any given time and exceeding redundancy requirements.\nWe also simplify backup "
+    },
+    {
+      "chunk_id": 2035,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 23,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nI-5H: Emergency Preparedness\nParsons worked first-hand with the Commonwealth through the uncertainty, challenges, and quickly changing scenarios\nof the COVID-19 pandemic, supporting contractual deliverables while prioritizing employee safety. Our ability to maintain\noperations comes in part from our established Emergency Response Plan (described below) and our experienced\nProgram Management Team.\nOperational Impact\nWE ADAPT TO CHANGING CONDITIONS TO KEEP\nYOUR PROGRAM MOVING FORWARD\nProgram operations can be impacted by pandemics and\nemergencies by limiting staff availability and mobility, hampering Parsons\u2019 response to the COVID-19 pandemic\nproject communications, eliminating office access, and reducing demonstrated our commitment and ability to\nor severing network connectivity. continue operations and support essential\ncontract deliverables for the Commonwealth.\nIf an emergency or pandemic occurs, Parsons will establish\ncontact with PennDOT and activate our Business Continuity Plan, which is part of our Program Management Plan. Project\nmanagement staff will communicate with PennDOT, pr"
+    },
+    {
+      "chunk_id": 2037,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 23,
+      "content": "y, quarantine, or pandemic control measures, all essential business activities\nwill be redirected to remaining operational regional offices and to project staff working remotely. For example, Parsons\nwill forward telephone numbers to unaffected regional offices to ensure station and consumer issues are addressed. All\nregional Program information is stored remotely, preventing loss and allowing access by other regional and remote\nproject staff during unplanned office closures.\nIf an emergency impacts a VIID hosting location or VIID functionality, the Disaster Recovery Plan (referenced in I-5G\nabove and Attachment B) will be implemented to minimize or avoid disruption of critical business functions.\nIf an emergency impacts the stations\u2019 ability to connect to the VIID, our systems will be able to continue testing for 30\ndays or 100 inspections, as per the offline test limits set by the VIID and determined by PennDOT. Allowing offline testing\nminimizes negative impacts to both the inspection industry and the public. Once connectivity is restored, any offline\ntesting will automatically upload to the VIID.\nCustomer service and station operator hotlines are also covered in our emergency p"
+    },
+    {
+      "chunk_id": 2038,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 23,
+      "content": "partner, Dasher Services, Inc., maintains a robust disaster recovery plan for all\ncritical systems and components necessary to fully operate its contact center services. Dasher has two data security\ncertifications that require a proven disaster recovery plan - Service Organization Control (SOC) 2SM Type 2 and HITRUST\nCommon Security Framework (CSF) Certification. All help desk team members are outfitted with computers from which\nthey can access phone, call team applications, and Program resources from any location. All team members undergo\nsecurity training and can function fully in either a remote or office environment and are backed by additional agents that\ncan handle calls. Dasher\u2019s call management system, as described in detail in response to Task D, is Voice over Internet\nProtocol (VoIP) and Internet-based. To ensure business continuity in the event of an emergency, Dasher has redundant\ninternet providers and a diesel-run generator, empowering Dasher to continue service without interruption.\nTechnical Submittal 14\n | WE ADAPT TO CHANGING CONDITIONS TO KEEP |  | \n | YOUR PROGRAM MOVING FORWARD |  | \n | Parsons\u2019 response to the COVID-19 pandemic |  | \n | demonstrated our commit"
+    },
+    {
+      "chunk_id": 2040,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 24,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nContinuity of Operations\nEven the most robust incident management plan requires knowledgeable staff for effective implementation and\nmanagement. Our team has knowledge and experience managing incidents without negative impact to the client and\ncustomers. We deliver training on our emergency preparedness plans to all staff, including key Program personnel.\nEXHIBIT: I-5-2. EMERGENCY PREPAREDNESS TRAINING FOR PROGRAM STAFF IS A CRITICAL ELEMENT TO OUR OPERATIONS.\nType of Training Recipients Frequency\nComplete Procedure Training All employees Upon hire\nFacility-specific Plans All employees for applicable facilities Upon transfer or role change\nRefresher Training All employees Annually or upon Plan update\nManagement Role Training Key Project Personnel Upon hire and annually\nTraining includes reviewing plans in detail with employees, conducting office closure drills, and reviewing interactive\nplans with diverse employee groups. Consistently reviewing, updating, and improving the plan provides PennDOT\nconfidence in our successful activation and continuity of operations delivery. We will test t"
+    },
+    {
+      "chunk_id": 2041,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 24,
+      "content": "nario simulations by our corporate safety and emergency response professionals.\nEssential business functions for the PA I/M Program include personnel and station oversight activities and assurance of\ndata connectivity between the stations, the VIID, and PennDOT. The Disaster Recovery Plan lists Parsons\u2019 personnel\nresponsible for data connectivity activities. PennDOT management will have contact methods for key personnel in the\nevent we must activate these plans. Mark Colangelo, Program Manager, will be responsible for communication with\nPennDOT and coordinating Program emergency procedures to ensure essential business functions continue. John\nOtt, Deputy Program Manager, will assist Mark in the execution of the emergency preparedness plan and will assume\nMark\u2019s duties if necessary. Parsons\u2019 regional managers, Thomas Bishop, Neal Lutz, and Bill Moyer are responsible for\nimplementing the emergency preparedness procedures and continuity of operations in their respective regions. They will\ncoordinate with emergency services, oversee area staff, and communicate with the Program and Deputy Program\nManagers. Key personnel will work together to ensure effective support and backup in an eme"
+    },
+    {
+      "chunk_id": 2048,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 25,
+      "content": "lity and data synchronization process among the databases. Updates made to the\nprimary database instance are instantly copied to all Aurora replicas/databases. The data stored in the VIID database is\nreplicated across availability zones and as an additional layer of protection, the database backups are replicated to an\nalternate region.\nThe use of cloud-native load balancing capabilities automatically reroutes traffic away from unhealthy endpoints. Auto-\nscaling capabilities automatically deploy replacement systems as necessary, thereby minimizing service disruptions and\nthe need for emergency operations intervention. All services in production are replicated across each availability zone.\nEach availability zone has the capacity to take over complete production volume in case the primary site becomes\nunresponsive and runs 24x7, supporting continuous data replication. These measures fulfill the Commonwealth\u2019s and\nTechnical Submittal 16\n | MAXIMIZING SYSTEM |  | \n | RELIABILITY AND RESILIENCY |  | \n | Our strategy also uses a combination of multi- |  | \n | availability zone AWS deployments and data |  | \n | replication to a geographically distant region |  | \n | to ensure system upti"
+    },
+    {
+      "chunk_id": 2050,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 26,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\ncitizens\u2019 expectation of government services and information being reliable and available on an ongoing basis to ensure\nbusiness continuity. If a workstation cannot communicate with the VIID, the equipment can continue operating offline,\nminimizing impact to the public. Throughout the entirety of the contract, we will communicate with PennDOT\u2019s Vehicle\nInspection System in real-time, which will provide the Commonwealth with full, immediate, and secure access to all data\nmaintained in the system. The VIID will provide a full suite of predefined management reports and ad hoc reporting\ncapabilities. We will leverage our experience building and operating hardware, software, network infrastructure, and\napplication development to acquire, implement, test, and deliver a highly available and secure system for the testing\nfacilities to connect to the VIID.\nIn addition, we provide uninterrupted dialup service for the\nFACILITATING PENNDOT\u2019S STATION\nProgram for tailpipe analyzer communications. We have the\nMANAGEMENT\nnecessary experience to maintain, support, and troubleshoot\nParsons is the only ve"
+    },
+    {
+      "chunk_id": 2073,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 31,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nParsons will be fully responsible for providing and maintaining the infrastructure, communications interface, application\ndevelopment, and ongoing service support. We will provide ongoing maintenance and support for the duration of the\ncontract. Our system will function with all existing test equipment. We are highly flexible, as demonstrated by our recently\nsuccessful move from batch updates to real-time web services. We look forward to working with PennDOT on its future\nupgrade strategy for new application feature development and expanding database requirements.\nEXHIBIT I-6-2. FEATURES AND BENEFITS OF PARSONS\u2019 SYSTEM ARCHITECTURE\nFeature Benefit\nHigh Availability Design \u25aa Protects overall system from downtime due to component failure\n\u25aa Minimizes systems downtime during maintenance windows\nDispersed Data Centers with Automatic Failover \u25aa Minimizes downtime during disaster recovery\n\u25aa Protects from loss of data during disaster events\nScalable Architecture \u25aa Supports future enhancements\n\u25aa Provides for future system processing capacity expansion\nMulti-layered Cybersecurity Protections \u25aa Pr"
+    },
+    {
+      "chunk_id": 3592,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 7,
+      "content": "ection 2.3.1.24.11) .................................................... 138\n2.3.1.24.12 Consolidate Repair Data (RFP Section 2.3.1.24.12) ........................................................ 138\n2.3.1.25 Data Management (RFP Section 2.3.1.25) ................................................................................. 138\n2.3.1.25.1 Data Management Plan (RFP Section 2.3.1.25.1) .............................................................. 140\n2.3.1.25.2 Data Communications (RFP Section 2.3.1.25.2) ................................................................ 166\n2.3.1.25.3 Data Collection and Transfers (RFP Section 2.3.1.25.3) .................................................... 167\n2.3.1.25.4 Reporting and Querying (RFP Section 2.3.1.25.4) .............................................................. 169\n2.3.1.25.5 Performance Requirements (RFP Section 2.3.1.25.5) ....................................................... 180\n2.3.1.25.6 Security Requirements (RFP Section 2.3.1.25.6) ............................................................... 184\n2.3.1.25.7. System Backup and Disaster Recovery (RFP Section 2.3.1.25.7.) ................................... 186\n2.3.1.2"
+    },
+    {
+      "chunk_id": 3601,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 9,
+      "content": "Liquidated Damages other than MBE (RFP Section 3.4.2) .......................................................... 287\n3.4.3 Initial System Transition of the Inspection Program Centralized, Kiosk, and FIS Stations (RFP\nSection 3.4.3) ........................................................................................................................................... 289\n3.4.4 the Inspection Program Operations (RFP Section 3.4.4) ............................................................................................. 290\n3.4.5 Data Management and Communication Systems (RFP Section 3.4.5) ...................................... 290\n3.5 Disaster Recovery and Data (RFP Section 3.5) .................................................................................... 291\n3.5.1 Redundancy, Data Backup and Disaster Recovery (RFP Section 3.5.1) .................................... 291\n3.5.2 Data Export/Import (RFP Section 3.5.2) ....................................................................................... 294\n3.5.3 Data Ownership and Access (RFP Section 3.5.3) ......................................................................... 294\n3.5.4 Acknowledgment of Provisions (R"
+    },
+    {
+      "chunk_id": 3682,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 44,
+      "content": "tion, and approval\n\u2022 PMO procurement and fit-out for Parsons\u2019 staff, as proposed\n\u2022 Training by Parsons and certification by the State of all proposed Parsons staff at least 15 days before new program\nstartup necessary for operation of the the Inspection Program Stations\n\u2022 Successful completion of SAT Plan, as proposed, no later than one month before go-live date\n\u2022 Successful testing and prepared implementation of backup and contingency plan to prevent unscheduled delay of the Inspection Program\noperation due to unforeseen problems\n\u2022 All other associated RFP requirements consistent with the items offered above\nPHASE 2 WORK \u2013 LIST OF DELIVERABLES:\n\u2022 the Inspection Program Station modifications and enhancements as proposed, including:\n\u25aa Decommission all unnecessary equipment and materials\n\u25aa Demolition of all non-required waiting areas and booths\n\u25aa Installation of new waiting benches in each lane and test position\n\u25aa Installation of new equipment booth enclosures\n\u25aa Replacement of all required HVAC systems at all the Inspection Program Stations\n\u25aa Installation of new HVAC to new equipment booth enclosures\n\u25aa Repainting and refinishing of walls and floors at all the Inspection Program Stati"
+    },
+    {
+      "chunk_id": 3685,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 44,
+      "content": "\u2022 PMO procurement and fit-out for Parsons\u2019 staff, as proposed |  | \n |  | \u2022 Training by Parsons and certification by the State of all proposed Parsons staff at least 15 days before new program |  | \n |  | startup necessary for operation of the the Inspection Program Stations |  | \n |  | \u2022 Successful completion of SAT Plan, as proposed, no later than one month before go-live date |  | \n |  | \u2022 Successful testing and prepared implementation of backup and contingency plan to prevent unscheduled delay of the Inspection Program |  | \n |  | operation due to unforeseen problems |  | \n |  | \u2022 All other associated RFP requirements consistent with the items offered above |  | \n |  | PHASE 2 WORK \u2013 LIST OF DELIVERABLES: |  | \n |  | \u2022 the Inspection Program Station modifications and enhancements as proposed, including: |  | \n |  | \u25aa Decommission all unnecessary equipment and materials |  | \n |  | \u25aa Demolition of all non-required waiting areas and booths |  | \n |  | \u25aa Installation of new waiting benches in each lane and test position |  | \n |  | \u25aa Installation of new equipment booth enclosures |  | \n |  | \u25aa Replacement of all required HVAC systems at all the Inspection Program Stations |  | \n |"
+    },
+    {
+      "chunk_id": 3715,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 51,
+      "content": "Hardware, Software, Communications, Data Lines, and Documentation (RFP Section\n2.3.1.1.4.Q.2)\nWe\u2019ve secured Cain Contracting, a local the State-based MBE construction firm, and Alliance InfoSystems, a\nlocal IT services provider, to assist with fully integrating new Power over Ethernet switches and data lines for\nthe Inspection Program Stations. Where possible, we will retain and reuse CAT5 lines. With the technology refresh, new PCs and\ndata network communications hardware will be installed at testing locations in customer service areas.\nPrimary and backup ISPs will be identified and installed (using cellular for backup) at all the Inspection Program Stations. the Inspection Program\nkiosks will communicate using cellular or hardwired technology, where feasible and appropriate.\n2.3.1.1.4.Q.3 Video Monitoring Systems (RFP Section 2.3.1.1.4.Q.3)\nOur new video monitoring system comprises live-footage video cameras\nlinked to a digital recording device and adequate surveillance cameras to\ncapture all inspection and transaction activities at the station. This new\nsystem will store images for at least 90 days and transmit video nightly to a\nsecure off-site location. The new camera system w"
+    },
+    {
+      "chunk_id": 3767,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 64,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\n2.3.1.2.B Acquisition and Operation of Hardware, Software, and Network Support (RFP Section\n2.3.1.2.B)\nParsons will acquire and operate all hardware, software, and network support for the provided services and\nensure all software is current throughout the contract term. We\u2019ll make sure that all Windows versions are\ncurrent and inspection software meets any changing regulatory needs of the State. We will work with\nequipment manufacturers to keep all equipment firmware up to date. Our solution includes high-speed\ninternet access with a redundant backup system for all the Inspection Program Stations. With the FISs\u2019 IT personnel, we will\nmaintain network security and ensure it meets the needs of the overall the Inspection Program.\n2.3.1.2.C Material Costs Passed Through (RFP Section 2.3.1.2.C)\nParsons will pass through all material costs with no markup throughout the contract term and provide\nupgrades and regulatory updates at no additional cost. Hardware and software costs procured will not\nexceed 49% of the total Contract value.\n2.3.1.2.D Test Conditions and Application (RFP Section 2.3.1.2.D)\nWe thoroughly understand the additional con"
+    },
+    {
+      "chunk_id": 3807,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 73,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nAll centralized stations will have a network video recorder (NVR) to record all testing positions as described\nin Section 2.3.12. The NVRs will capture and retain images for a minimum of 90 days with daily backups for\nboth on-site and off-site storage. Each kiosk will be equipped with a camera for monitoring self-inspections.\nWe will provide the State Motor Vehicle agency with images and reports within 10 calendar days after notification for any Vehicle\nDamage Claim, Damage or Destruction to the station, or any other claims.\nThe kiosks will be designed to monitor and report on customer use and any potential difficulties using the\nkiosk. They will be designed to deter crime.\n2.3.1.7.2 Cessation of the Contract (RFP Section 2.3.1.7.2)\nOne month before the contract ends, we\u2019ll perform detailed inspections of each the Inspection Program facility with the State\nand prepare an inventory recording the agreed upon condition of each facility component.\nThree months before the contract ends, we\u2019ll work closely with the State to inventory all State assets and"
+    },
+    {
+      "chunk_id": 3855,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 83,
+      "content": "r motorists who have exited or are exiting their vehicle, motorist access to waiting\nlocations, and employee movements to make certain that motorists and employees are safe while inside the\nstations.\nDuring program operations, our management staff will monitor traffic flows\nand direct traffic as necessary to keep the roads clear and the lanes\noperational in addition to safe. We\u2019ll employ the use of temporary, modular\nsignage, traffic cones, and other tools to help manage traffic flows into and\nout of any the Inspection Program station during peak testing volume. When necessary, we\u2019ll deploy the Inspection Program MAC Assistants\u2014our\nenhancement to the Customer Service Representative (CSR) role\u2014or Station management staff into the\ntesting lanes, vehicle queuing areas, parking lot, neighboring streets, and other surrounding areas to\npersonally address related traffic jams and backups. They\u2019ll promptly restore a smooth flow of entering and\nexiting vehicles at the the Inspection Program station and to the self-service kiosk.\nTab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan 69\n |  |  |  | \n |  |  |  | \n | CONCLUSION |  |  | \n |  |  |  | \n |  | Parsons\u2019 corporate focu"
+    },
+    {
+      "chunk_id": 3858,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 84,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\nWith State approval, we\u2019ll implement supplemental testing in the motorist\nqueuing areas using employee-operated tablets. The employees will safely\nenter data on the tablets and prepare vehicles for traditional throughput\nlane testing while the vehicle is queued. The employee could also use the\ntablets for retests, waiver issuance, and pre-registered vehicle testing in parking areas. For further detail on\nthe implementation of tablets in-queue, please see Section 2.3.\nWe take great pride in implementing traffic safety when considering the potential need to reroute traffic,\nclose lanes, remove broken-down vehicles, or queue traffic from one lane to another. We\u2019ll train the lane\noperators in traffic safety procedures to deal with unusual or emergency situations, such as a stalled or\nbroken-down vehicle in the lane or rerouting traffic to prevent backups.\nWe\u2019ll work closely with the State during any unanticipated heavy traffic to ensure a consistently high level of\ncustomer service. We\u2019ll review our Traffic Management Plan annually to continually streamline traffic flow,\nincluding in self-service kiosk queuing areas.\nCONCLUSION\nWe\u2019ll impl"
+    },
+    {
+      "chunk_id": 4153,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 152,
+      "content": "confidentiality, and privacy requirements. We\u2019ve evaluated the suitability of on-premise, private,\nand public cloud hosting options, and we have selected Amazon public cloud to host the environment,\nproviding a modern solution to store the the Inspection Program data. As assessed by our engineers and in-house\nsecurity experts with more than 100 AWS certifications, the AWS cloud exceeds the RFP requirements of a\nminimum of primary and disaster recovery data centers at least 50 miles apart, which will ensure we meet or\nexceed the availability and uptime of all systems applications service levels; adhere to the the State IT organization\npolicies, standards, and guidelines; and achieve your overall program requirements and objectives of a\nsecure, resilient, and reliable system that offers endless continuous improvement opportunities.\nOur experts have validated that the AWS hosting and services hold a current SOC 2 Type 2 report. The AWS\nSOC 2 Type 2 audit report validates our hosting solution\u2019s security, availability, processing, integrity,\nconfidentiality, and privacy. We\u2019ve vetted the AWS SOC 2 Type 2 reports to confirm compliance with\nthe State IT organization policies, standards, a"
+    },
+    {
+      "chunk_id": 4165,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 155,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\ncompliance, monitoring, enforcement, and alerting across all environments. A third-party auditor has fully\nassessed AWS for Parsons, resulting in a certified attestation of compliance for PCI-DSS Level 1, ISO\n27001/27017/27018, FISMA Moderate, FedRAMP, HIPAA, and SOC \u00bd/3 audit reports.\n\uf0a7 Resilient. Active-active high availability and disaster recovery spanning two availability zones,\nredundancy at every layer of the architecture, automatic scaling of services, and data replication to an\nisolated region minimize inconvenience to inspection stations and State staff if a system fails or\ncommunication service is interrupted.\n\uf0a7 Managed. Classic issues of system aging and trying to keep hardware upgraded are no longer a problem\nsince all servers and systems are patched and updated as part of our AWS agreement.\n\uf0a7 Thorough. Using Amazon Simple Storage Service (S3) for transaction logging and archiving and Amazon\nGlacier for long-term storage, every transaction processed by the system from any point in the past is\nreadily available for immediate review.\n\uf0a7 Transferrable. Our dedication to following DevSecOps principles allows us to use our auto"
+    },
+    {
+      "chunk_id": 4170,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 156,
+      "content": "Redundancy Spanning Two Availability Zones: Each availability zone will be designed with\nthe capability to meet the capacity demands of the entire program. If one availability zone suffers a failure,\nthe two remaining have capacity to sustain operations. Using the active-active multi-availability zone\ndeployment model means we can sustain program operation without service interruption or reduced\nperformance, even if either data center becomes unavailable. The two data center active-active high\navailability model also allows us to take full advantage of the system\u2019s capacity by spreading the workload to\nmaximize performance. If one availability zone goes offline, our system will automatically continue to use the\nother availability zone until the fault at the original availability zone is resolved and it is brought back online.\nIn addition, as another layer of protection, the program data will be replicated to another region. Section 3.5\ncontains additional Disaster Recovery details.\nServerless and Managed Services with Automated Failover and Redundancy Across All Availability\nZones: To maximize reliability and resiliency, we\u2019ll use serverless and managed services where possible.\nSer"
+    },
+    {
+      "chunk_id": 4171,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 156,
+      "content": "nd managed services are cloud computing models where the cloud vendor looks after the server\nsystems and dynamically adjusts resource allocation. These services have automated failover built-in, with\nredundancy across availability zones and an availability rating of at least 99.99% (Route 53, Aurora,\nLambda, ECS, Amazon S3, virtual private cloud [VPC], Application Load Balancer [ALB]), which exceeds the\nState\u2019s 99.7% system availability service level. To take full advantage of the high availability, these\ncomponents must be properly configured to create a complete, resilient system. Our AWS-certified cloud\narchitects and engineers have the knowledge and experience required to properly configure and fine-tune\nthese service parameters to maximize system uptime and provide transparent, real-time system failover.\nMicroservices Auto-Recovery and Autoscaling: We\u2019ll use the highly available Amazon Route 53 service to\nprovide internal and external Domain Name Service resolution. Amazon Route 53 dynamically routes end-\nuser traffic to CloudFront or Elastic Load Balancer and provides failover to the disaster recovery\nenvironment. The use of cloud-native load-balancing capabilities automatica"
+    },
+    {
+      "chunk_id": 4178,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 158,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nExhibit D-2.3.1.25.1.A-1: the Inspection Program AWS Architecture Overview\nExhibit D-2.3.1.25.1.A-2: Our the Inspection Program system provides a fully redundant/fault-tolerant design with no single point of failure.\nInspection workstations will use local area network connectivity to a local router with redundant internet connectivity\n1 (primary regional network provider, e.g., Level 3, and backup via 4g LTE wireless). Equipment in the field will access VID\nsystem resources via secure web services secure.\nState personnel will access VID system resources (portals, reporting, ad-hoc queries, etc.) via secure protocols through\n2 the public internet. All communication will be encrypted using secure cyphers and no special network or service\nprovisioning at the stations is required, beyond normally provisioned public internet services.\n3 Parsons\u2019 operations team will manage the System via encrypted channels.\nRoute 53 provides Domain Name Service resolution. This highly available service provides internal and external name\n4 resolution service. Route 53 d"
+    },
+    {
+      "chunk_id": 4179,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 158,
+      "content": "cer.\nAWS Web Application Firewall is enabled on the CloudFront distributions and ALB and protects our applications against\ncommon web attack patterns such as SQL injection and cross-site scripting.\n5\nAWS Shield Firewall protects against distributed denial of service (DDoS) attacks. Most commonly, these types of threats\nuse flood attacks to compromise system security.\nCloudFront provides edge content caching services and SSL encryption termination. SSL Security policy will only permit\n6\nthe use of secure TLS cypher version for data encryption in transit.\nTab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan 144\n | Inspection workstations will use local area network connectivity to a local router with redundant internet connectivity\n1 | \n | (primary regional network provider, e.g., Level 3, and backup via 4g LTE wireless). Equipment in the field will access VID\n | system resources via secure web services secure.\n | \n | State personnel will access VID system resources (portals, reporting, ad-hoc queries, etc.) via secure protocols through\n2 | \n | the public internet. All communication will be encrypted using secure cyphers and no special network or service\n | provision"
+    },
+    {
+      "chunk_id": 4183,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 159,
+      "content": "high-performance scalability with up to six copies of data\n11 replicated across multiple availability zones is used to store static content for the front-end web pages, data archiving,\nlogging data.\n12 Serverless platform used to run code with built-in scaling and high availability in multiple availability zones.\nResilient QuickSight provides a Business Intelligence reporting service that can leverage ML technologies with high\navailability spanning multiple availability zones.\n13\nHigh performance AWS reporting database with automated recovery and scaling capabilities, to ensure reporting\nperformance scalability.\nHigh Availability: Parsons\u2019 systems operate within regional data centers for disaster recovery/business\ncontinuity and offer the necessary redundancy to ensure a minimum of 98% VID uptime, with an achievable\ngoal of 100% uptime for the life of the contract.\nThe fault-tolerant VID architecture described above provides the components necessary for extremely high\nuptime. However, the key aspect underlying a system\u2019s true uptime is the quality and reliability of the\napplications developed by the vendor to run the the Inspection Program. Applications used to perform OBD inspecti"
+    },
+    {
+      "chunk_id": 4184,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 159,
+      "content": "ons used by\nstations, the State, and Parsons staff to manage and operate the program must all be up and running. Our\nproven applications run in all our programs, and we have unmatched uptime results.\nSpecialized Backup and Recovery Technology, Automated Deployment, and Infrastructure as Code: As\npart of the business continuity plan, we\u2019ll develop a backup media rotation and retention strategy that we\u2019ll\nprovide for State approval. Our backup strategy is based on instant backup and recovery of program data\nfrom snapshots, as well as data archiving. We\u2019ll use snapshots and versioning to conduct daily incremental\nand weekly full backups of the entire system, including the database. Encrypting all backups allows for\ninstant complete or partial data retrieval when necessary and prevents unauthorized access to program\ndata. We also simplify backup and recovery by using infrastructure as code, configuration management\ntools, and automated deployment pipeline tools. The official production image of the application\nmicroservice container is stored in an Elastic Container Registry, source code in Code Commit, and compiled\napplication packages in the artifact repository. We version these arti"
+    },
+    {
+      "chunk_id": 4185,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 159,
+      "content": "estore a current or previous version of the container system or application package using automated\ndeployment tools. The preconfigured application deployment pipeline tracks application versions and\nautomatically initiates redeployment of the selected version. This configuration management solution makes\nit quick and easy to restore previous application versions.\nUsing the Amazon S3 version control feature for data recovery allows us to restore previous versions of any\nobject stored in the Amazon S3 bucket and recover deleted objects. In addition, the contents will be\nreplicated to our master account for additional data protection. This technology replaces traditional tape\nbackup technology and enables us to restore data instantly. We\u2019ll securely archive Amazon S3 data on a\nschedule to lower-tier cold storage, such as Glacier.\n145 Tab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan\n7 | \n | VPC provides network segmentation and data separation measures with dedicated subnets, security groups and Network\n8 | \n | Access Control Lists (NACL), preventing access from non-authorized sources. As an additional layer of security, we use\n | identity-based network security t"
+    },
+    {
+      "chunk_id": 4188,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 160,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nThis approach dramatically reduces the time it takes to restore a system, compared to retrieving tape media\nfrom off-site storage before the restore process can begin. Also, an automated deployment pipeline with\ninfrastructure as code allows us to deploy a fully functional replica of the production environment in less\nthan 24 hours. Data backups will meet the information systems service standard by being encrypted in\ncompliance with the State standards.\nDisaster Recovery Testing: We take business continuity very seriously and have established a solid\nreputation for system uptime in our other vehicle inspection programs. As the uptime results in the table\nbelow confirm, we\u2019ve gained valuable experience implementing high availability and automated failover\ncapabilities for multiple projects with high-uptime requirements, which will ensure we meet your service level\nfor availability and uptime of all system applications. Section 3.5 Disaster Recovery and Data details our\ndisaster recovery process.\nReliability: Our VID is architected in the AWS cloud s"
+    },
+    {
+      "chunk_id": 4189,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 160,
+      "content": "d regional level. The VID uptime is a function of infrastructure uptime (AWS servers and systems)\nand application uptime (Parsons-developed applications). The combination of our system design and our\napplications has proven reliable in all the programs we have designed, developed, and manage VIDs. A\ncomprehensive high-availability strategy requires dependable data backup with effective restore and\nrecovery procedures for use in case of a complete data loss from primary and backup sites. Section 3.5\nDisaster Recovery and Data details our backup strategy.\nA comprehensive system-monitoring strategy is critically important to the overall success of the the Inspection Program. We will implement our end-to-end and performance monitoring strategy to ensure every component of\nthe system operates efficiently. Exhibit D-2.3.1.25.1.A-3 shows the principles we base our monitoring\nstrategy on.\nExhibit D-2.3.1.25.1.A-3: Parsons\u2019 System Monitoring Strategy allows our team to proactively manage system issues\nbefore they effect users\nOur expert engineers have gained experience designing and implementing systems and performance\nmonitoring solutions for other vehicle inspection compliance programs (N"
+    },
+    {
+      "chunk_id": 4209,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 165,
+      "content": "ocess will launch more container instances to handle the increased load. Using container-based\napplications also allows for faster, easier, and more consistent deployments due to a small footprint in\ncontrast to traditional server instances. Instead of virtualizing the hardware stack, as with the virtual\nmachine approach, containers virtualize at the OS level, with multiple containers running atop the OS kernel\ndirectly. This means containers are far more lightweight: they share the OS kernel, start much faster, and\nuse a fraction of memory compared to booting an entire OS.\nThe database will be hosted on AWS Aurora, MySQL edition, which is a relational database built for the cloud\nthat combines the performance and availability of high-end commercial databases with the simplicity and\ncost-effectiveness of open-source databases. The Aurora implementation of MySQL is up to five times faster\nthan standard MySQL databases. It provides the security, availability, and reliability of commercial-grade\ndatabases at a fraction of the cost. Aurora is fully managed by the Amazon Relational Database Service,\nwhich automates time-consuming administration tasks like hardware provisioning, database"
+    },
+    {
+      "chunk_id": 4210,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 165,
+      "content": "ckups. Aurora features a distributed, fault-tolerant, self-healing storage system that auto-\nscales up to 128TiB per database instance. Aurora delivers high performance and availability with up to 15\nlow-latency read replicas, point-in-time recovery, continuous backup to Amazon S3, and replication across\navailability zones. This provides a highly available database architecture, which is simply not achievable in a\ntraditional on-premises or colocation hosting environment.\nA few examples of major system changes Parsons have made in other programs include:\n\uf0a7 Change from collection of fees FROM inspection stations to payment of fees TO inspection stations in\nthe Ontario Drive Clean program. This change had a hard deadline of April 1 and was successfully\ncompleted in 4 months with not one station missing a payment. Every payout has been correct from day\none.\n\uf0a7 Successfully moved from dialup testing to internet-based communications in the Pennsylvania Drive\nClean program. This change required the integration of backend changes along with communication\nsoftware for four different equipment manufacturers, as well as the ATP of their software by the Parsons\nATP team.\n\uf0a7 Vermont inspection m"
+    },
+    {
+      "chunk_id": 4213,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 166,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\n\uf0a7 Successfully relocated primary hosting datacenter to an alternate location without interruption to\nVermont, Pennsylvania, and New Jersey vehicle inspection programs operations. We received one-year\nnotice to vacate primary colocation facility due to permanent closure.\n\uf0a7 Successfully implemented Pennsylvania Drive Clean program modernization, which included:\n\uf0a7 Program migration from legacy on-premises database to Amazon Cloud Services (AWS)\n\uf0a7 DevSecOps \u2013 integrating security best practices into CI/CD pipeline\n\uf0a7 Moving from monolithic architecture to microservices\n\uf0a7 Implementing native AWS services\n\uf0a7 Bi-directional data synchronization (on-premises and cloud)\nBy following our change-management process, and because the systems were designed for flexibility, we\nsuccessfully completed each of these major changes on time. In addition, we have made numerous smaller\nchanges throughout the life of all our programs as part of our commitment to continuous improvement for\nour customers.\n2.3.1.25.1.A.2. Connecting Stations and Equipment to VID (RFP Section 2."
+    },
+    {
+      "chunk_id": 4214,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 166,
+      "content": "ns and inspection equipment will be connected to the central data system or VID through\ninternet with backup connections if the primary link to the internet is down for any reason. The VID will use a\nhighly available, secure web service to allow for the retrieval and transmittal of data from the the Inspection Program stations\nover the internet. Secure authentication/authorization controls are in place to ensure only trusted sources\n(i.e., the Inspection Program stations, FIS station, and kiosks) have access to these web services to access the Parsons VID.\nParsons uses this design for the programs we manage in New Jersey, Ontario, Vermont, Pennsylvania,\nLouisiana, and Hawaii to send/receive data from stations and the Parsons VIDs.\n2.3.1.25.1.A.3. Connecting the State Motor Vehicle agency to VID (RFP Section 2.3.1.25.1.A.3)\nParsons has extensive experience in both batch and real-time retrieval and submittal of vehicle data from\nregistration databases, and we have integrated data in each of the following programs: New Jersey,\nPennsylvania, Ontario, and Hawaii.\n\uf0a7 In our New Jersey program, the system performs a vehicle lookup for every test using a web service to\nthe registration syst"
+    },
+    {
+      "chunk_id": 4221,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 168,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nconducted three major data transitions since 2011. We will load the incumbent\u2019s data into the Parsons VID\nand ensure that it can be used by the the Inspection Program stations, FIS, and kiosks for accessing previous test information\nand that it will be integrated into our web portal reporting system to allow for program-level reporting from\nday one of the new Contract. Please refer to Sections 2.3.1.1.4 and 3.2 for detailed descriptions of our Data\nManagement and Contract Termination Transition Plan.\n2.3.1.25.1.A.11. Meeting Performance Requirements and Metrics (RFP Section 2.3.1.25.1.A.11)\nParsons will meet all performance metrics required in the the Inspection Program. Please refer to Section 2.3.1.25.5\nfor a detailed response to the performance metrics.\n2.3.1.25.1.A.12. Preventing Loss or Corruption of Data (RFP Section 2.3.1.25.1.A.12)\nParsons has managed the database for several large-scale vehicle inspection programs over the past\n40 years, and we have not lost a single record that was stored in our VID. Data stored in our VID is instantly\nre"
+    },
+    {
+      "chunk_id": 4222,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 168,
+      "content": "nd real-time replication, we ensure that data is durable and always available. In addition, our\nbackup and disaster recovery strategies ensure that large-scale disasters will not cause any data loss.\nWe also prevent loss or corruption of the data by providing a data management solution with virtual and\nphysical segregation, separating the State\u2019s data from other data and following the principle of least\nprivilege when assigning data access. This prevents unauthorized access and intentional or unintentional\ndeletion. We have experience implementing data separation strategies for our other vehicle inspection\nprograms. The effectiveness of our data separation controls is confirmed by our yearly SOC 2 Type 2 audit\nresults.\nTo ensure data is not corrupted, we fully test the system and check every piece of data to confirm that we\nhave met all agreed-upon requirements for the Program. Since Parsons systems control the source of the\ndata (the Inspection Program stations, kiosks, FIS software, and the web portal), we can ensure that all data is valid before it\ngets stored in the VID. We also develop a process to send alert notifications to our IT support team if any\ndata does not pass valid"
+    },
+    {
+      "chunk_id": 4223,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 168,
+      "content": "load the data.\n2.3.1.25.1.A.13. Minimizing Service Disruption (RFP Section 2.3.1.25.1.A.13)\nAs described above, the Parsons system has no single point of failure with active-active system deployment\nacross two availability zones that more than adequately will sustain the Program operations. The built-in\nredundancy at the hardware, software, and data layers, as well as autoscaling, ensures that disruptions to\nthe system are almost nil. Our uptime in our most recent programs is a testament to the fact that our\nsystems are designed for 100% uptime. In addition, maintenance and software deployments can be\nconducted while keeping the system operational. We accomplish this by conducting\nmaintenance/deployments on one node of the system first, and then replicating it to the other nodes once it\nhas proved reliable. System backups also do not affect the ability of our system to continue to operate. We\ndesign the system to allow for backups to occur without adversely affecting the system, so all FIS stations,\nkiosks, and the Inspection Program stations can continue to operate during backups.\n2.3.1.25.1.A.14. Data Backup and Recovery (RFP Section 2.3.1.25.1.A.14)\nAs detailed earlier, the Pars"
+    },
+    {
+      "chunk_id": 4224,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 168,
+      "content": "ability and disaster recovery spanning across two datacenters known as availability zones as well\nas offsite data replication to a geographically separate region in the United States. Our environment\narchitecture is designed for 99.99% system uptime to allow the State program to continue to operate and\nprovide normal service to the State and stations conducting inspections. For a more detailed description of\nour disaster recovery solution, please refer to Sections 2.3.1.25.7 and 3.5.\nTab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan 154"
+    },
+    {
+      "chunk_id": 4225,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 168,
+      "content": "g inspections. For a more detailed description of\nour disaster recovery solution, please refer to Sections 2.3.1.25.7 and 3.5.\nTab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan 154"
+    },
+    {
+      "chunk_id": 4235,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 171,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\nTeam Testing Role\n\u25aa Accessibility (AODA)\n\u25aa Multilingual\n\u25aa Cross-browser\n\u25aa Cross-platform\n\u25aa Conduct external interface and web service testing\nInternal Operations Team Testers \u25aa Conduct functional, system, and integration testing from a user perspective\nDeployment Team \u25aa Conducts testing before and after releases are deployed to production, including\n\u25aa Sanity testing\n\u25aa Installation testing\n\u25aa Rollback testing\nIT Security Infrastructure Team \u25aa Conducts testing before releases are deployed to production, including\n\u25aa Security and penetration testing\n\u25aa Disaster recovery and destructive testing\nPilot/Beta \u25aa Conduct pilot testing of new software releases at a Parsons beta lane doing controlled public testing.\nOur QA team has developed and implemented a robust QAT plan and test strategy for vehicle inspection\nprograms in Ontario, California, Pennsylvania, New Jersey, and Vermont and will seamlessly create one for\nthe the Inspection Program. We will develop a test plan specific to the State\u2019s needs, outlining our test strategies,\nresources, tools, and processes that will be employed to maintain that project deliverables meet\nrequirements. After"
+    }
+  ]
+}

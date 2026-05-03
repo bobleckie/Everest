@@ -1,0 +1,417 @@
+{
+  "theme_id": 18,
+  "theme_label": "Legal & Regulatory Citations",
+  "category": "Compliance",
+  "rfp_requirements": [
+    {
+      "id": 1979,
+      "code": "R-010",
+      "title": "Provide special replacement sticker area within CIF",
+      "description": "The Contractor shall provide a special area within the CIF locations for issuing replacement stickers, including new car dealer stickers for vehicles designated under N.J.S.A. 39:8-2.",
+      "section": "4.9.4.2.F",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8524,
+      "code": "A-004",
+      "title": "Award contracts in accordance with P.L.1954, c.48",
+      "description": "Any contract awarded under this section must be awarded in accordance with the provisions of P.L.1954, c.48 (C.52:34-6 et seq.) and its rules and regulations.",
+      "section": "Section 1 (C.39:8-44 b.(1))",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 8526,
+      "code": "A-006",
+      "title": "Standardize qualification questionnaire in invitation to bid",
+      "description": "Any required questionnaire must be standardized and set forth in each invitation to bid.",
+      "section": "Section 1 (C.39:8-44 b.(2))",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8527,
+      "code": "A-007",
+      "title": "Prohibition on State officers/employees involved in award from bidding",
+      "description": "A State officer or employee with duties or responsibilities in connection with the evaluation or awarding of a contract under this section must not, individually or through any person/entity acting on their behalf, bid on or enter into a contract as a private contractor.",
+      "section": "Section 1 (C.39:8-44 b.(3))",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 8537,
+      "code": "A-017",
+      "title": "Conduct periodic surveys concerning hours and methods of operation",
+      "description": "Periodic surveys concerning hours and methods of operation must be conducted.",
+      "section": "Section 1 (C.39:8-44 c.(6))",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8539,
+      "code": "A-019",
+      "title": "Include EPA Administrator and NJ Congressional member contact info in written document",
+      "description": "The written document provided to motorists must include the name and address of the Administrator of the United States Environmental Protection Agency and of each member of Congress elected from this State.",
+      "section": "Section 1 (C.39:8-44 c.(6))",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8541,
+      "code": "A-021",
+      "title": "Offer full-time employment to qualified terminated MVC full-time employees",
+      "description": "All qualified full-time employees whose employment with the New Jersey Motor Vehicle Commission is terminated as a result of P.L.1995, c.112 must be offered full-time employment by the contractor(s).",
+      "section": "Section 1 (C.39:8-44 c.(7))",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 8566,
+      "code": "A-046",
+      "title": "Chief Administrator may issue directives/guidelines or enter oversight contracts",
+      "description": "The chief administrator may issue directives or guidelines or enter into contracts or agreements for the oversight and regulation of any person who has entered into a contract with the State pursuant to subsection a.",
+      "section": "Section 1 (C.39:8-44 d.)",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 8563,
+      "code": "A-043",
+      "title": "State Treasurer may consent to early filing notwithstanding N.J.S.59:13-5",
+      "description": "Any provision of N.J.S.59:13-5 to the contrary notwithstanding, the State Treasurer may consent to the filing of a dispute request prior to the expiration of 90 days from the date that the notice of claim is received.",
+      "section": "Section 1 (C.39:8-44 e.)",
+      "priority": "low",
+      "category": "informational"
+    },
+    {
+      "id": 8564,
+      "code": "A-044",
+      "title": "Court authority to order ADR (dispute resolution, mediation, arbitration)",
+      "description": "The court may take such action as it deems necessary to facilitate expeditious resolution, including ordering the parties to undertake dispute resolution, mediation, or arbitration as provided in N.J.S.59:13-7.",
+      "section": "Section 1 (C.39:8-44 e.)",
+      "priority": "low",
+      "category": "informational"
+    },
+    {
+      "id": 8551,
+      "code": "A-031",
+      "title": "Employment offers must include compensation and economic benefits comparable to existing CBA",
+      "description": "Offers of employment to both existing and new qualified employees must include compensation and economic benefits, including health benefits and paid time off (which may be specified by the commission in its solicitation), that are the same as or comparable to the benefits contained in any collectiv",
+      "section": "Section 1 (C.39:8-44 g.)",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 8552,
+      "code": "A-032",
+      "title": "CBA compensation and economic benefits binding on successors and assigns",
+      "description": "In the event of a sale, transfer of assets including contracts, or a merger with another company, the compensation and economic benefits delineated in subsection g. that exist in a collective bargaining agreement in effect at the time shall be binding on the successors and assigns, including all pur",
+      "section": "Section 1 (C.39:8-44 g.)",
+      "priority": "high",
+      "category": "mandatory"
+    }
+  ],
+  "parsons_evidence": [
+    {
+      "chunk_id": 1970,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 10,
+      "content": "d safety inspection data\n\u00a7 Providing the necessary software/hardware to operate and maintain the I/M Program\n\u00a7 Providing a disaster recovery plan\n\u00a7 Providing data back-up and off-site back-up storage\n\u00a7 Providing system journal files (transaction journals), logging all system transactions\n\u00a7 Overseeing (overt, covert, and remote visual observation) I/M and Safety stations within the assigned geographic\nregion including inspectors and certified repair technicians\n\u00a7 Conducting public information and education (I&E) activities relating to the I/M Program\n\u00a7 Providing a process for investigation and fact-finding relating to I/M Program violations\n\u00a7 Providing referee service to facilitate the resolution of consumer complaints\n\u00a7 Helping I/M stations and consumers with the issuance of exemptions and waivers\n\u00a7 Providing Help Desk facilities to address equipment manufacturer, I/M station, and consumer questions and\nconcerns regarding I/M Program requirements and to address system support issues for e-SAFETY users\n\u00a7 Performing motorist compliance data collection and analysis\n\u00a7 Collecting, organizing, storing, and reporting on data related to on-road testing (remote sensing)\n\u00a7 Performing evaluat"
+    },
+    {
+      "chunk_id": 1971,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 10,
+      "content": "nspection stations and personnel, primarily in I/M-affected counties throughout Pennsylvania\n\u00a7 Providing a process for investigation and fact-finding regarding safety inspection regulation violations\n\u00a7 Providing necessary periodic and ad hoc reports and project control utilities to monitor Program performance\n\u00a7 Enhancing the current e-SAFETY system, which electronically collects safety inspection data, as directed by\nPennDOT\nWe\u2019ve consistently worked with PennDOT to realize your vision through the successful implementation of policy,\nrequirement, and regulatory changes. In 2012, we seamlessly transitioned more than 8,000 stations to our VIID to\nensure Program continuity. In 2016, we helped revise the OBD inspection equipment specification, replacing dial-up field\nequipment with modern, web-based OBD equipment and then performing acceptance testing to certify the equipment for\nTechnical Submittal 1"
+    },
+    {
+      "chunk_id": 2020,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 20,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\ninterruption in services or operations. Our experience and understanding of the implemented Program changes gives us\na unique understanding of I-5A-E\u2019s requirements.\nThis decentralized Program\u2019s size and complexity poses considerable transition risk to PennDOT and a new contractor.\nOur fully operational and proven VIID mitigates all transition risks and poses no threat to the continuation of a fully\nfunctioning I/M Program, allowing us to focus on implementing improvements and advancements. Through our\nmodernization of the Ontario DriveON program to Amazon Web Services (AWS) in 2022, we have the knowledge and\nexperience to implement our proposed PA I/M Program VIID systems update safely and ensure the continuity of all\nservices we provide. On the new AWS system, we will leverage our established data handling, program operations, and\noversight, allowing us to focus on the future of the I/M Program. We commit to performing all RFP-requested\nrequirements.\nOur adaptability, reliability, and adherence to compliance are unmatched\u2014and we understand the I/M Program\nrequirements and structure be"
+    },
+    {
+      "chunk_id": 2021,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 20,
+      "content": "ailed in I-5A, 5B, and 5C, and\nwe commit to continuing our support of PennDOT\u2019s requirements and regulations. Our operations and systems will\nensure and support all the requirements of these sections. In addition, we respond to all listed specific responsibilities\nand services required in the appropriate Work Plan task responses. We have demonstrated our reliability by\nadministering a fully effective Program, managing tasks, including data storage and handling, overt and covert oversight\nactivities, remote records audits, remote visual audits, I/M hearings and suspensions, waiver delivery and verification,\nreferee services, motorist compliance data collection, I/M equipment certification, on-road testing, safety inspection\noversight activities, and safety hearings and suspensions. Our response to Section I-2 highlights our performance,\nexperience, and adaptability, listing key successful Program enhancements and deliverables during our partnership with\nPennDOT.\nI-5D: Program Changes\nWe recognize that PennDOT reserves the right to renegotiate the contract terms in the event of needed changes\nprompted by legislative (federal or state) requirements, compliance with legally binding cou"
+    },
+    {
+      "chunk_id": 2043,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 24,
+      "content": "ion efforts across many disciplines and functions including software development\nand systems integration; infrastructure sizing, and redundancy; integrations with a myriad number of testing equipment\nmanufacturers, communications protocols, and other diverse end-points; and significant and distributed end-user and\nsystems support training. In addition, and arguably more important to the success of the PA I/M Program, it involves\ndeveloping effective relationships with PennDOT staff and station operators.\nParsons has demonstrated the experience, adaptability, and reliability to develop and maintain a complex and highly\nfunctioning I/M technical solution. Our proven program execution, consistent regulation compliance, and unparalleled\nTechnical Submittal 15\n | Complete Procedure Training |  |  | All employees |  |  | Upon hire | \n |  |  | All employees for applicable facilities |  |  |  |  | \n | Refresher Training |  |  | All employees |  |  | Annually or upon Plan update | \n |  |  | Key Project Personnel |  |  |  |  |"
+    },
+    {
+      "chunk_id": 2052,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 26,
+      "content": "ore information. This will include the connectivity of all I/M stations and all sites to\nthe data handling system. Our experience modernizing the Ontario DriveON program to AWS allows us to implement\nour proposed update to the PA I/M Program VIID systems safely and ensure the continuity of all services we provide\nunder the new contract.\nWe have a fully functioning VIID and infrastructure (VIID Solution) that provides applications necessary to run all\nservices requested in the RFP. Our VIID Solution collects data, in conjunction with OBD equipment specifications, from\ninspection station analyzers, and analyzes the data to identify I/M stations and subject vehicles that are not in\ncompliance with Commonwealth laws and regulations. Primary services include real-time electronic transmission of I/M\ntest results, immediate update of VIN information, and immediate access to critical management and enforcement\ndata. Updates to VIN information will cross-check VINs manually entered by the inspector and provide vehicle data in\nreal-time to the inspector performing the test. Cross-check failures will require the inspector to properly re-enter the\ninformation.\nParsons is the only systems provi"
+    },
+    {
+      "chunk_id": 2083,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 33,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nParsons\u2019 ability to implement and operate the most secure environment is a result of our cybersecurity resources,\nexperience, and proactive approach to information security and data protection. We consider several areas when\nplanning for security, including network, application, database, systems, and physical security. Our cybersecurity\npractice provides security auditing for US government programs, and we use the same technology to run scans of our\nsystems. We use feedback from these scans to update the security of the Program\u2019s network, database, and system.\nOur Vehicle Inspection and Compliance business line undergoes a yearly Service Organization Control (SOC) 2 Type 2\naudit since 2018 for security, availability, and confidentiality trust service criteria. This demonstrates our commitment to\na comprehensive approach for security, availability, and confidentiality from an organizational, procedural, and technical\nperspective. Following our continuous improvement policy, in 2022, Parsons extended our SOC 2 compliance credentials\nto include the processing integrity trust principal and"
+    },
+    {
+      "chunk_id": 2084,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 33,
+      "content": "new or revised laws, regulations, policies, standards, and guidelines, we hold quarterly meetings to review\nsecurity concerns and annual meetings to perform risk analysis, as per our SOC 2 controls.\nOur dedicated cybersecurity team has a proven record of\nCYBERSECURITY EXPERIENCE YOU CAN TRUST\nexecuting robust security measures that have been\nimpenetrable to data leaks or breaches in our current vehicle We have never experienced a data breach in\ninspection programs. We gained our Development/Security/ any of our I/M programs.\nOperations (DevSecOps) experience by implementing the\nOntario DriveON program in the AWS cloud DevSecOps is the practice of integrating security testing at every stage of the\nsoftware development process. Our objective in implementing DevSecOps practices is to make the security processes,\ntesting, and validation automated, repeatable, and easily scalable. We define the code scan security gates and\nvulnerability scan thresholds in compliance with the State standards and industry best practices.\nWe will use Security Hub to centralize automated security enforcement and auditing across our environments. Security\nHub allows for continuous and automated security asse"
+    },
+    {
+      "chunk_id": 2091,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 34,
+      "content": "se to Task I-6. Our PennDOT-approved testing procedures ensure that all applicable\nspecifications, calibrations, quality control requirements, and other requirements contained in EPA rules and PA I/M\nregulations are met by all equipment and that software meets all I/M Program requirements. We developed\ncomprehensive ATP scripts for every equipment implementation and update in the PA I/M Program. We will work in\ncooperation with the I/M equipment manufacturers and PennDOT in the development of application specifications and\noperations applications for all I/M test systems.\nAll of Parsons\u2019 developed applications provide common user interfaces, communications routines, data processing, and\nquality assurance. Building on our experience, we will continue to work in consultation with PennDOT to test and approve\napplications as needed in PennDOT\u2019s modernization efforts.\nTechnical Submittal 25\n | INTELLIGENT ARCHITECTURE |  | \n |  |  | \n | Our system architecture in the AWS cloud |  | \n | allows us to perform most system |  | \n | maintenance and upgrades with no downtime, |  | \n | which means no impact on end users, |  | \n | including I/M stations performing inspections. |  |"
+    },
+    {
+      "chunk_id": 2105,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 37,
+      "content": "and provide real-time access to station history and activity.\nThe updated system will enable faster review of audit results to expedite transfer to PennDOT for quicker review and\nappropriate actions. We will coordinate with PennDOT to ensure oversight results and reports integrate seamlessly\nthrough the VIID and into PennDOT\u2019s Vehicle Inspection System. Our existing knowledge of and experience with\nPennDOT\u2019s oversight and administrative requirements will facilitate this effort.\nOur coordinated inspection data and QA systems allow us to proactively monitor the I/M data to immediately identify\nanomalies and supply our audit applications with crucial emissions data, enabling auditing staff to increase the integrity\nof the I/M Program oversight process.\nB.1 Oversight Activities\nParsons offers PennDOT extensive experience from conducting more than 372,000 site visits for PA I/M station\noversight. This includes the appointment of new I/M stations and assisting with the processing of changes of\ninformation or ownership of existing I/M stations, issuing suspensions, investigating complaints or violations of\nPennDOT regulations relating to stations/inspectors; and cancelling stations no lon"
+    },
+    {
+      "chunk_id": 2106,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 37,
+      "content": "the PennDOT Vehicle Inspection System via the VIID. We conduct these activities in\naccordance with PennDOT procedures and regulations and perform I/M station site visits when necessary. All required\nreports regarding oversight activities to PennDOT will be submitted throughout the term of the contract.\nWe will supply necessary report forms used in conducting and documenting all oversight functions for use by PennDOT\nand Parsons. We acknowledge that PennDOT may adjust the scope and frequency of oversight activities depending on\nthe number of stations or a determination of their effectiveness. We understand that, at PennDOT\u2019s discretion, any\nreduced or increased cost will be offset by a corresponding increase or reduction in other oversight activities.\nTechnical Submittal 28"
+    },
+    {
+      "chunk_id": 2110,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 38,
+      "content": "ur employees\u2019 actions are consistent with our values in performing their daily\nactivities. As part of Parsons\u2019 commitment to employee safety, all our employees take part in ongoing safety training to\nreduce the risk of workplace accidents and injuries. Parsons maintains a driving instructor on staff who has taken the\nnationally recognized Smith System\u00ae Driver Improvement Institute Instructor Certification. The instructor provides driver\nsafety training for all company drivers. Parsons I/M oversight staff receive classroom instruction as outlined in Exhibit I-\n6-3. All present oversight and management staff have completed the training below and will require no ramp-up\ntime to begin oversight activities.\nEXHIBIT I-6-3. CLASSROOM INSTRUCTION\nManagement\nClass Description Overt Staff Covert Staff\nStaff\nBasics of air pollution P P P\nI/M Inspector certification P P P\nI/M Program rules and regulations P P P\nI/M test equipment training P P P\nBasics of engine repair relating to I/M P P P\nPennDOT\u2019s Vehicle Inspection System P P\nI/M audit equipment training and overt auditing procedures P P\nPennDOT administrative procedures P P P\nQuality assurance practices and complaint investigation techniqu"
+    },
+    {
+      "chunk_id": 2111,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 38,
+      "content": "includes three certified Vehicle |  | \n | Emissions Inspector Instructors (John Ott, Karl |  | \n | Wagner, and Randall Udavcak). Karl Wagner |  | \n | and Randall Udavcak are also ASE-certified |  | \n | fleet technicians. |  | \nClass Description |  |  |  | Management |  | Overt Staff |  |  | Covert Staff |  | \n |  |  |  | Staff |  |  |  |  |  |  | \n | Basics of air pollution |  |  | P |  |  | P |  |  | P | \n |  |  | P |  |  | P |  |  |  |  | \n | I/M Program rules and regulations |  |  | P |  |  | P |  |  | P | \n |  |  | P |  |  | P |  |  |  |  | \n | Basics of engine repair relating to I/M |  |  | P |  |  | P |  |  | P | \n |  |  | P |  |  | P |  |  |  |  | \n | I/M audit equipment training and overt auditing procedures |  |  | P |  |  | P |  |  |  | \n |  |  | P |  |  | P |  |  |  |  | \n | Quality assurance practices and complaint investigation techniques |  |  | P |  |  | P |  |  | P |"
+    },
+    {
+      "chunk_id": 2113,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 39,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nManagement\nClass Description Overt Staff Covert Staff\nStaff\nReport writing and evidence gathering/documentation necessary for building a legal case P P P\nUse of the Audit Applications P P P\nSticker reconciliation process P P\nComplaint resolution techniques P P\nComputer, program data, and materials security training P P P\nCovert auditing procedures and covert auditing techniques P P\nCustomer service training and annual refresher training P P P\nWe will bolster our existing staff experience with additional training sessions focusing on topics such as investigation\npractices, report writing techniques, and conflict resolution. This training will be a combination of in-person sessions\nwith live instructors, recorded webinars, and applicable online\ncourses such as those offered by Penn State\u2019s Justice and ENHANCING AUDITOR EDUCATION\nSafety Institute. This additional training will provide the\nWe will leverage Penn State\u2019s Justice and\noversight results PennDOT is looking for to ensure station\nSafety Institute curriculum for additional\ncompliance to the I/M Program regulations. We will perform\na"
+    },
+    {
+      "chunk_id": 2123,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 41,
+      "content": "e oversight staff with the necessary equipment, including audit vehicles, mobile\ndevices, printers, cellular phones, five-gas audit apparatus, uniforms, identification cards, mobile workstations, and\nother items as required to provide oversight for the I/M Program. We have worked with PennDOT to implement changes\nto the QA program and will coordinate with PennDOT to ensure constant improvement.\nReporting Violations\nAuditors will use the updated I/M audit application to document violations and evidence. The updated application will\nbolster audit staff experience and training to collect all evidence sufficient for building a legal case by providing direct\nreference to PennDOT regulations. This access will assist in documenting actionable offenses and improving court case\ndefenses. The auditor will review the audit findings with the appropriate station personnel. The station authority and\nauditor will electronically sign the report and, if directed by PennDOT, a printed copy will be left with the station.\nStations will also be able to access audit reports via the Station Management Portal or PennDOT\u2019s Vehicle Inspection\nSystem.\nAuditors will electronically transmit the audit to the au"
+    },
+    {
+      "chunk_id": 2128,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 42,
+      "content": "rance the identified issues will be properly\naddressed.\nB.5 Overt Oversight Activities\nWe successfully deliver a completely neutral, unbiased QA program that meets the requirements of 40 CFR \u00a7 51.363\n(a) (1) through (3) and 51.363 (b) through (d) and other applicable federal regulations as they apply to PA I/M Program.\nTo date, Parsons has conducted more than 372,000 overt audits in the PA I/M Program. We are not involved with any\nI/M equipment provider in Pennsylvania, supporting our impartial approach to all aspects of the oversight process.\nThis experience will allow our team to complete emission station and equipment audit operations more effectively\nthan any other team.\nThe overt audit provides a visible presence for PennDOT in I/M inspection stations and allows for education and\nenforcement of Program regulations. All overt audits are scheduled on the following criteria: date of last audit, record\naudit data analysis, consumer complaints, covert audit results, and/or PennDOT requests. Parsons will complete two\nunannounced overt audits during normal business hours per year for each I/M station, regardless of location in the\nCommonwealth. The audit will include an examination o"
+    },
+    {
+      "chunk_id": 2129,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 42,
+      "content": "o PennDOT\u2019s regulations. We will verify that I/M inspections at each station are\nperformed by certified I/M inspectors, that certified repair technicians deliver waivers, and that I/M inspections are\nrecorded as required by PennDOT regulations in the PennDOT Vehicle Inspection System. Parsons\u2019 team will minimize\ndisruption to station operations during these visits.\nIn Exhibit 1-6-5 our estimated time on a per-station basis for overt oversight activities is based on our extensive\nexperience conducting audits.\nEXHIBIT I-6-5. ESTIMATED TIME ON A PER-STATION BASIS FOR OVERT OVERSIGHT ACTIVITIES\nOversight Activities Time Per Activity\nOvert audits 3.00 hours for TSI/OBD stations\n2.25 hours for OBD or Visual-only stations\nReceiving, processing applications and certification of new I/M stations 2.00 hours per occurrence\nProcessing name, address or ownership of I/M stations (MV 427 change) 2.00 hours per occurrence\nCancellation of I/M stations 2.50 hours per occurrence\nOvert investigations 2.50 hours per occurrence\nWe will account for and dispose of all unused I/M stickers from the I/M stations\u2019 stocks at the end of each I/M sticker\nusage period. This is described in more detail in the Audi"
+    },
+    {
+      "chunk_id": 2133,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 43,
+      "content": "approval prior to PennDOT. A station audit history function will supply information\non past audits, violations, and any recorded complaints or investigations involving the station and/or the station\npersonnel. The auditors will review record audit results, including the number of waivers and exemptions issued, and\nother information that can indicate possible improper inspection procedures.\nParsons\u2019 audits include an examination of records and forms, verification of I/M sticker usage, and conformity of I/M\nstations to PennDOT\u2019s regulations. Auditors verify that I/M inspections at each station are performed by certified I/M\ninspectors, waivers are delivered by certified repair technicians, and I/M inspections are recorded as required by\nPennDOT regulations. We operate a fleet of auditing vehicles equipped with gas analyzer calibration verification\nsystems for emissions equipment validation. Our auditors will document all audit findings on the appropriate audit\napplication form and submitted to PennDOT, per PennDOT\u2019s direction.\nAuditors will conduct audits by inspecting the following during each station audit, in accordance with 40 CFR\n\u00a7 51.363(a) (1) through (3) and 51.363 (b) throug"
+    },
+    {
+      "chunk_id": 2134,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 43,
+      "content": "tation has the proper bond or proof\nof insurance.\n\u00a7 Verify the validity of each inspector\u2019s driving credentials and I/M inspection license and the presence of required\ninspection tools and equipment.\n\u00a7 Ensure that required record keeping practices are being followed.\n\u00a7 Review the number of exemptions issued by the station, compare it to the station\u2019s peer group, and investigate\ninconsistencies.\n\u00a7 Determine the number of waivers issued by the station since the last audit using VIID data and verify\ndocumentation for each waiver, including Vehicle Inspection Reports, repair work orders, repair data forms, and\nthat certified repair technicians delivered the waivers.\n\u00a7 Evaluate the inspector\u2019s ability to operate equipment, perform I/M inspections in compliance with regulations, and\nknowledge of the I/M Program and its rules and regulations.\nAdditionally, to ensure the station follows proper procedure in I/M inspection sticker tracking, the auditor will verify that\nstickers are kept in a lockable, secure location. They will query the sticker reconciliation application to confirm the\nnumber of stickers ordered, received, issued, voided, missing/stolen, and unused. Auditors will document a"
+    },
+    {
+      "chunk_id": 2137,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 44,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\n\u00a7 Record observations on the physical state of all test equipment.\n\u00a7 Verify all applicable external attachments according to inspection equipment type, including barcode scanner, OBD\ninterface cable, tachometer pick-up, filters, approved/non-expired calibration gas, calibration gas plumbing, and\ngas cap tester of proper construction and type.\n\u00a7 Perform gas cap tester calibration, verify the station possesses all available gas cap adaptors for vehicles being\ninspected, and ensure that the analyzer printer functions properly.\n\u00a7 Perform OBD module self-check on OBD inspection equipment.\nThe PA I/M Program requires a station to perform a calibration test on all types of emissions analyzers every 72 hours\nto ensure accurate and repeatable operation. As part of our overt audit process, the auditor will ask a station I/M\ninspector to perform a 72-hour calibration to ensure the equipment is operating properly. After a successful 72-hour\ncalibration, and if the equipment is a TSI emissions analyzer, Parsons\u2019 auditor will:\n\u00a7 Perform a leak test and five-gas audit.\n\u00a7 Validate that analyzer on-boar"
+    },
+    {
+      "chunk_id": 3654,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 38,
+      "content": ", and stations, kiosks, and fleet inspection stations (FISs)\nappropriate tools and team to make program\nmodifications to streamline the inspection \u25aa Solid stakeholder outreach and communications that\nwill result in an issue-free transition for the new the Inspection Program\nprocess, improve motorist convenience, and\nensure compliance with State and federal\nregulations\n2.3.1 General Requirements (RFP Section 2.3.1)\nHaving designed, implemented, and managed vehicle inspection programs over the past three decades, our\noperation and program management capabilities have been tried, tested, and proven in emissions\nins pection programs across North America. The following details how we\u2019ll implement and manage the new\npro gram.\nFEATURES OF OUR APPROACH BENEFITS TO MARYLAND\nProven management and operation of vehicle Best practices garnered from more than three decades in the vehicle inspection industry will bring\ninspection programs the most applicable resources, knowledge, and team members to the State.\nInnovative, modernized solutions Looking toward modernization and efficiency, State motorists will receive a more sustainable\nand streamlined the Inspection Program, including paperless Veh"
+    },
+    {
+      "chunk_id": 3668,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 41,
+      "content": "at the same the Inspection Program station within a 30-minute window). Thus, the system\nselects the plate with the closest match and uploads the associated wait time for that\nvehicle to the test record for compliance.\n\u2022 Installation of additional camera hardware facing different directions to provide more\nopportunities to capture front and rear plates at different angles and the Inspection Program property\nlocations to increase hit rates and mitigate vehicles moving too quickly or not driving\ndown the center of the driveway.\n2.3.1.C the Inspection Program Meets all Applicable Local Requirements (RFP Section 2.3.1.C)\nParsons will ensure that all the Inspection Program station inspection services, facilities, systems, and equipment meet all local\nrequirements, state laws, rules, and regulations, and federal requirements. We\u2019ll continually ensure\ncompliance by using our stringent checks and balances system. We\u2019ll develop the Inspection Program-specific standard\noperating procedures (SOPs) that ensure we inform employees of expectations and conduct periodic\ncompliance reviews.\nCONCLUSION\nUsing our expertise and years of experience in the lanes and as program managers, we\u2019ll enhance the"
+    },
+    {
+      "chunk_id": 3723,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 53,
+      "content": "aramount concern and focus as\nwe deliver a smooth and seamless transition of these facilities.\n2.3.1.1.4.Q.10 State Inventory, Equipment, and Materials Return or Disposal (RFP Section 2.3.1.1.4.Q.10)\nPer State direction, we will return or properly dispose of all State inventory\nand meet personal property requirements, including eCycling. We will meet\nthe State\u2019s requirements of COMAR 04.03, Personal Property Disposal; the\nthe State Department of General Services Inventory Standards and\nSupport Services Division\u2019s inventory control procedures; and the State\u2019s Statewide Electronics Recycling\nProgram (Annotated Code of the State, Environment Article, Title 9, Subtitle 17, Part IV). We\u2019ll also cover or\nrelocate ports and mounts to meet local laws and regulations, ensuring customer and employee safety.\n2.3.1.1.4.Q.11 Test Record Conversion for Migration to the New Network (RFP Section 2.3.1.1.4.Q.11)\nWe have performed four major vehicle inspection system transitions: the New Jersey hybrid (2013), the\nPennsylvania decentralized (2012), and the Vermont and Ontario modernized (2011) programs\u2019 VIDs. Each\nwas completed successfully and\non time, with no interruption in\nEXHIBIT D-2.3.1.1.4.Q.1"
+    },
+    {
+      "chunk_id": 3772,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 65,
+      "content": "e with these documents. We understand that it is our responsibility to ensure adherence to these\nstandards, which may be updated periodically, and are committed to remaining abreast of new or revised\nlaws, regulations, policies, standards, and guidelines affecting IT project execution.\nOur Agile methodology aligns with the State software development life cycle framework to ensure our\niterative delivery process provides users with quality values per requirement, on time and within budget. Our\nproject managers have a Project Management Institute (PMI) Project Management Professional certification\nor a Parsons Project Manager Certification. They\u2019ll implement PMI Project Management Body of Knowledge\n(PMBOK\u00ae) Guide\u2013recommended project management methodologies and apply industry best practices. We\nwill also follow Major IT Development Projects Standards and templates and work with the State IT organization (the State IT organization), Enterprise PMO, and the Independent Verification & Validation contractor.\nWe prioritize securing our systems and data by implementing industry standards for Cloud, Data, and Mobile\nDevice Security. We conduct cybersecurity reviews on all new products, as we"
+    },
+    {
+      "chunk_id": 3776,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 66,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\nin relation to security, availability, and confidentiality. To ensure we adhere to and remain aware of new or\nrevised laws, regulations, policies, standards, and guidelines, we hold quarterly meetings to review security\nconcerns and annual meetings to perform risk analysis, as per our SOC 2 controls. Parsons\u2019 Senior IT\nDirector and proposed Information Systems Manager Darryl McCarthy and IT practice and operations\nmanagers attend these annual meetings. They are joined for the quarterly meetings by Parsons\u2019 network,\nsecurity, and solution architect engineers. We also review our policies at any major change to our system,\nintroduction of new technology, and post-incident and lessons-learned processes to continuously improve\nour working procedures.\n2.3.1.4 Product Requirements (RFP Section 2.3.1.4)\nWe\u2019ll operationally support all proposed software we offer for the duration of the contract. We\u2019ll also carry\nthe full authorization to implement any proposed services or software designed or built by another entity via\nour established contracts, teaming agreements, and applicable terms and conditions.\nWe acknowledge and confirm in our respons"
+    },
+    {
+      "chunk_id": 3781,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 67,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nsolutions. When approved and requested by the State, we will add and install new equipment, such as\nadditional kiosks or software solutions.\nWe\u2019ll maintain the implemented equipment and software through regular preventive maintenance. We have\nQA plans and procedures in place to ensure the the Inspection Program continually operates to its highest potential. We commit\nto providing support throughout the contract, as well as through any contract extensions.\nIf additional software licenses are necessary, we will work with the State to get approval before\nimplementing any equipment, hardware, or software changes. We acknowledge that the State has the\nauthority to request changes or enhancements, and we\u2019ll have the ability to request payment for State-\napproved changes or enhancements. We understand the State will not be obligated to pay for\nenhancements not specifically approved or requested.\n2.3.1.5.B Cooperate with The State Regarding Program Modifications (RFP Section 2.3.1.5.B)\nWe\u2019ll continually review Program operations, including software, system"
+    },
+    {
+      "chunk_id": 3782,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 67,
+      "content": "ate and federal policies, regulations, and statutes. In addition to continuous improvement\nchanges related to innovative technology and efficiency reviews, we\u2019ll share the compliance reviews with the\nState through Program Management meetings and get State approval on all recommendations and\nenhancements before implementation.\n2.3.1.5.C Emissions Test Equipment and Software Updates (RFP Section 2.3.1.5.C)\nIn the over four decades we\u2019ve worked in the vehicle inspection industry, we\u2019ve seen drastic changes in\nvehicle technology. Throughout that time, Parsons has continually provided the ability to test emissions on\nnew vehicles developed by updating the emissions test equipment and the software running the technology.\nWe specifically design our programs not only to meet today\u2019s standards\nbut also to support future technology by developing software-dependent\nemissions testing equipment rather than needing hardware updates.\nThrough active participation in SAE International (SAE), Institute of\nElectrical and Electronics Engineers (IEEE), and International Organization of Standardization (ISO), we work\nclosely with the automotive world to monitor industry trends. No other vendor can speak"
+    },
+    {
+      "chunk_id": 3787,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 68,
+      "content": "he antivirus and anti-malware software will be centrally managed and configured to automatically\ndownload updated virus and malware signatures to protect against the newest threats. The software will\nprovide automated monitoring, real-time threat detection, and alerts on detection. Remediation actions will\nrun when an issue is detected. Parsons takes remediation actions against every detected issue.\nCONCLUSION\nWe have the right experience, the depth of resources, and the appropriate tools and team to make all Program\nmodifications to streamline the inspection process, improve motorist convenience, and ensure compliance with\nState and federal regulations. We also have many long-standing partnerships with state clients in the vehicle\ninspection industry and look forward to creating such a mutual arrangement with the the State. Count\non Parsons as a long-term partner in the management of the State\u2019s the Inspection Program.\n2.3.1.6 Centralized Station Testing\nDistribution (RFP Section 2.3.1.6)\n2.3.1.6.A State-Owned Facilities and\nKiosks (RFP Section 2.3.1.6.A)\nWe have carefully examined the network of\nState-owned the Inspection Program Stations and self-service\nkiosks provided in Appen"
+    },
+    {
+      "chunk_id": 3788,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 68,
+      "content": "gn and test equipment\nconfiguration (Exhibit D-2.3.1.6.A) includes:\n\uf0a7 Using a stand-alone testing position for\nfull-service inspections (one vehicle in\nthe lane)\n\uf0a7 Employing tandem (two vehicles, one\nExhibit D-2.3.1.6.A: the Inspection Program Station lane design showing stand-alone\nahead of the other, per lane), stand-\nand tandem vehicle testing. NOTE: lane length is greatly\nalone testing positions\ncompressed for diagram purposes\u2014vehicles would never be that\nclose for safety reasons.\n54 Tab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan\n |  |  |  | \n |  |  |  | \n | CONCLUSION |  |  | \n |  |  |  | \n |  | We have the right experience, the depth of resources, and the appropriate tools and team to make all Program |  | \n |  | modifications to streamline the inspection process, improve motorist convenience, and ensure compliance with |  | \n |  | State and federal regulations. We also have many long-standing partnerships with state clients in the vehicle |  | \n |  | inspection industry and look forward to creating such a mutual arrangement with the the State. Count |  | \n |  | on Parsons as a long-term partner in the management of the State\u2019s the Inspection Program. |"
+    },
+    {
+      "chunk_id": 3847,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 81,
+      "content": "injury or illness.\nThis early intervention benefits the employee by providing the right care, at\nthe right time, in the proper setting.\nWe\u2019ll work with the the State Motor Vehicle agency when adverse weather conditions and/or\nemergency conditions may cause operations of the inspection facilities to\nviolate OSHA regulations and will immediately notify the the State Motor Vehicle agency of any\noccurrence that would adversely affect a station\u2019s ability to serve the\npublic. In such instances, we will coordinate with the the State Motor Vehicle agency for approval to\ntemporarily close those facilities where there is concern that OSHA violations could occur due to the weather\nconditions. During such brief closures, we\u2019ll work to quickly mitigate risk factors, all the while retaining our\ncommitment to maintaining an optimal and safe operational environment in each inspection station.\nParsons has the experience necessary to handle the continuance of operations during a pandemic. For\nour New Jersey program, where we operate and manage 25 facilities, we stayed in constant communication\nwith our client and the governor\u2019s health department regarding the impact of the pandemic on the\ninspection"
+    },
+    {
+      "chunk_id": 3867,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 86,
+      "content": "ponent of lane operations and support is customer service training. We\u2019ll\ntrain all our employees in reactive and proactive customer service before we put them on the front line.\nINNOVATION SPOTLIGHT\n\u2022 Our renowned Training Department, using industry best practices and e-learning innovations.\n\u2022 Various online and web-based training tools and offerings designed to make learning fun and effective.\n\u2022 Our proposed Three-Touch Motorist Assistance Program, developed specifically to improve repair effectiveness in the State and integrate the MACs into the program\u2019s operation.\n2.3.1.13.1 Training Plan (RFP Section 2.3.1.13.1)\nAs Certified Project Managers, Parsons\u2019 leadership understands how important planning is to the successful\ndelivery of any task, and training is no different. We\u2019ll submit our detailed Training Plan after award, which\nwill outline activities required to develop and implement a comprehensive and effective the Inspection Program training\nprogram for all vehicle inspectors and technical staff.\nPursuant to USEPA regulations 40 CFR \u00a751.367, our training curriculum\nwill cover all aspects of the inspector licensing requirements, from theory\nof air pollution and its link to v"
+    },
+    {
+      "chunk_id": 3874,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 88,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\nState is amenable, we can help conduct these classes or can manage the administration and oversight of\nthe third-party vendors.\nTraining Manager, Howard Ubinas, will lead the initial training development activities. With over 20 years of\nexperience in our New Jersey and nearly 40 years training automotive technicians, Howard will draw upon\nindustry best practices, the USEPA regulations, and the established the Inspection Program protocols to establish modernized\ntraining material, certification exams, and activities to suit the needs of the upgraded the Inspection Program and adjust to the\nchanging needs of today\u2019s adult worker.\nOur adult learning team understands successful training approaches. Often, a combination of delivery\napproaches provides the highest degree of user success. Training approaches for the Inspection Program staff will include:\n\uf0a7 Self-paced, online learning. We\u2019ll create online training modules, broken down by topic, which\ndemonstrate each system task and provide explanations for each step. Today\u2019s technology use in the\nreal world has many adults using computer-based tools to learn; they Google what they don\u2019t kno"
+    },
+    {
+      "chunk_id": 3876,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 88,
+      "content": "ing to the\nmotorists with courtesy and confidence, efficiently and accurately collecting test fees, properly using the\ntesting equipment, and precisely and confidently performing vehicle inspections.\nChallenging and passing a certification exam will test and document a student\u2019s readiness to proceed. We\u2019ll\ncreate an exam bank of questions and answers to ensure each student has developed a thorough\nunderstanding of the material offered. We\u2019ll develop the exam questions using industry best practices,\nallowing the students to be tested on their knowledge of the Inspection Program rules and regulations and inspection\nprocedures.\nOur learning development team will prepare a question bank with an additional 50% increase over the\nrequired number of questions. This will ensure each student receives a randomized variation of questions,\neach with only one correct response. We\u2019ll also randomize the possible answer choices, ensuring that the\nexams have no distinctive letter or answer pattern. The multiple-choice questions will test the student on\ntheir understanding of the the Inspection Program with clear and simple statements. We\u2019ll avoid complex language and will not\noffer ambiguous \u201call of"
+    },
+    {
+      "chunk_id": 3955,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 106,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\n2.3.1.17.4 Monthly Invoice and Process (RFP Section 2.3.1.17.4)\nThe monthly invoice to the State Motor Vehicle agency will comply with the State Comptroller of the Treasury regulations, as specified\nunder COMAR. All associated reports and approval forms will be submitted with the invoice. Further details\nregarding invoicing are outlined in Section 3.3.\nParsons will establish a monthly invoice reconciliation process with MDOT the State Motor Vehicle agency to ensure that all internal\nprocesses and needs are met. Parsons will supply the following documentation with each invoice:\n\uf0a7 An agreed-upon Schedule A format that outlines all paid and unpaid inspections by type, including the\n18 the Inspection Program stations, 10 the Inspection Program kiosks, in-lane self-service kiosks, and FIS stations, if applicable.\n\uf0a7 All credit card statements demonstrating the total money collected.\n\uf0a7 Bank depository statements showing all cash and checks collected, including provisional deposits by the\nSmart Safe.\n\uf0a7 All Authorize.Net credit card processing reports.\n2.3.1.17.5 Revenue Summary Report/Schedule A Report (RFP Section 2.3.1.17.5)\nUsing the data "
+    },
+    {
+      "chunk_id": 4032,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 123,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\nJASON FREEMAN\nOPERATIONS MANAGER\nJason has 30 years of experience in the vehicle emissions testing industry. He\nhas managed annual budgets of more than $3 million; performed system\nWHY JASON\nacceptance testing for seven program startups; and managed the\nrecruitment, hiring, performance management, and priorities for large teams\n\u2022 Involved in the evolution of MD\nof staff across multiple regions and programs.\nthe Inspection Program since 1995 and a\nrecognized expert in the State\nHas been through every evolution of the MD the Inspection Program since 1995, managing\n\u2022 30 years in the vehicle\nmultiple teams across multiple departments. Jason created operational\nemissions testing industry\nimprovement plans, conducted training for operations staff to implement\n\u2022 Performed system acceptance\nprogram changes, and provided operational oversight of rules and\ntesting for seven program start-\nups regulations. He\u2019s excited to once again be part of the the Inspection Program. Jason has a\n\u2022 Provided operational support thorough understanding of the technology and test processes required, as\nfor Envirotest-the State for 13 well as unique insight into i"
+    },
+    {
+      "chunk_id": 4033,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 123,
+      "content": "ng\nmotorcycles and volunteering with Akita Rescue groups.\nWork Experience\nMEETING RFP REQUIREMENTS\nDeputy Program Manager. New Jersey Department of Transportation, New\n\u2022 30 years of vehicle emissions\nJersey Motor Vehicle Commission Vehicle Inspection System, Hamilton, New\ntesting industry experience\nJersey (2022\u2013Present). Jason is responsible for management and operation\n\u2022 Exceeds 8 years of professional\nwork experience of a large-scale hybrid (centralized and decentralized) vehicle inspection\n\u2022 Exceeds 5 years of employee program, including managing all program functions, staff, and facilities. He\nsupervision and oversight/ recently led a large-scale recruiting effort (post-COVID) to increase the\ncoordination of the general\nregional staff to more than 300 people.\noperation of a unit, applying\nrules/regulations and exercising\nTechnical Support Manager. Envirotest-the State, (regional location), the State.\nresponsibility for development of\npolicies and procedures (2007\u20132021). Jason provided extensive operational support, coupled with his\n\u2022 Exceeds 3 years of I/M industry statistical, software, and hardware support for MDOT the State Motor Vehicle agency, MDE, and all\nexperience Envi"
+    },
+    {
+      "chunk_id": 4065,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 132,
+      "content": "tages. For more information on our service and maintenance\nof the self-service the Inspection Program kiosks, please see Section 2.3.1.8 of this response.\n2.3.1.18.1.J. MDE Audit Technician (RFP Section 2.3.1.18.1.J.)\nParsons commits to making available a certified technician to accompany the MDE Audit Technicians to\nscheduled and unscheduled equipment audits throughout the network. Parsons will cross-train members of\nour staff to perform this function so that vacancies, vacation, or sick time do not negatively impact the\nongoing operations.\n2.3.1.18.1.K. CSRs (RFP Section 2.3.1.18.1.K.)\nParsons is committed to excellent customer service delivery. We recognize\nthe need to provide the highest level of customer service to motorists. To\nbest serve the the Inspection Program and the MACs, Parsons will enhance the\ncurrent Public the Inspection Program Station CSRs by implementing a new position to replace\nCSRs called MAC Assistants. Our MAC Assistants will play a critical role in motorist acceptance and\nunderstanding of the Inspection Program requirements and regulation. When vehicle inspections result in a test failure or\naborted test, a MAC Assistant will receive an alert via the Pars"
+    },
+    {
+      "chunk_id": 4068,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 133,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\n\uf0a7 A listing of the State\u2019s CERFs\n\uf0a7 A DTC Reference Guide\n\uf0a7 A brief explanation of the the Inspection Program MAC Program, to include the website and MAC Technician Hotline\ninformation\nParsons\u2019 MAC Assistant and the Inspection Program Station Management will be trained and instructed to encourage motorists\nseeking information about their vehicle\u2019s failing test to obtain repairs from a CERF to improve the success of\nthe first repairs made to the vehicle. This will have the added benefit of bolstering the in-state economy and\nthe industry.\nWe have developed best practices for customer service over the course of our experience managing\ninspection facilities and programs; these processes and procedures will increase customer service and\nsatisfaction in the the Inspection Program.\nAdditionally, Parsons MAC Assistants will have the skills and training necessary to:\n\uf0a7 Help customers by answering questions regarding the Inspection Program requirements and testing procedures\n\uf0a7 Oversee compliance with testing procedures and facility maintenance\n\uf0a7 Authorize waiver certificates, issue due-date extensions, issue the Inspection Program exemptions, a"
+    },
+    {
+      "chunk_id": 4117,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 144,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\n2.3.1.24 MAC (RFP Section 2.3.1.24)\nFEATURES OF OUR APPROACH BENEFITS TO MARYLAND\nEnhanced customer service Motorists and repair shops will have access to a multi-dimensional set of customer service options, including MAC\nAssistants at the Inspection Program Stations, repair assistance documentation, public assistance via a Help Desk option, a\nTechnician Support Hotline, and MAC Technicians.\nStreamlined, efficient, and The State will have access to the effectiveness of repairs throughout the the Inspection Program network using proven vehicle repair\nreliable processes tracking methods implemented in Massachusetts, Ontario, and Pennsylvania.\nOBD Readiness Tools Motorists will experience smoother the Inspection Program Station operations and more convenient retest options on their return to the\nthe Inspection Program Station when MAC assistants use an innovative aftermarket device, which will be available for use by motorists\nexperiencing OBD readiness issues.\nParsons has the experience and capability to deliver this important new MAC feature to the "
+    },
+    {
+      "chunk_id": 4255,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 176,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\n\uf0a7 Find closest stations\n\uf0a7 Query if a vehicle has received a waiver\n\uf0a7 Lookup safety and emissions recall information by VIN\n\uf0a7 Complete all software QA testing to ensure system is operating to specifications/requirements provided\nby the State\n2.3.1.25.1.C. Compliance with DOIT (RFP Section 2.3.1.25.1.C.)\nParsons has reviewed the the State IT organization policies, standards, and guidelines located at\nhttp://doit.maryland.gov and our system does comply. We developed our system on a modernized cloud\nenvironment using industry-standard technologies, modernized Agile development methodology, and\nintegrated automated testing, builds, and deployments.\nWe will also comply with all applicable laws, regulations, policies, standards, and guidelines affecting IT. If\nany new or amended IT policies, standards, and guidelines affect our project execution, we understand that\nit is our responsibility to ensure we both understand and adhere to these as well. We review our policies,\nplans, and procedures annually and at any major change to the environment or introduct"
+    },
+    {
+      "chunk_id": 4376,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 206,
+      "content": "acquisition device for the quality and capabilities it\nbrings to the emissions industry. The device supports the on-board J1939\nHD or other existing LD protocols. Using built-in J2534 support, we can\nadapt the software to perform a test much like passenger vehicles except using the command set and\nprotocols that HD vehicles require. Vehicles not equipped with the standard SAE J1962 connector will be\nconnected using an extension cable/adapter.\nFurthermore, we are technologically ready to meet the demand for vehicles that support World-Wide\nHarmonized OBD (WWH-OBD). HD OBD protocols revolve around a CAN with the requirements to support\nhigher voltages. With our hardware designer, we are light-, medium-, and heavy-duty vehicle capable.\nProgram rollout can be implemented initially or phased in without adding risk to the the Inspection Program. Because we plan\nto use J2534, our work is done in software rather than modifying the firmware of the hardware.\nImplementation will not affect any other portion of the program already implemented.\nParsons is familiar with the listed documents and understands they are for reference and background\ninformation only, unless specified elsewhere in the "
+    },
+    {
+      "chunk_id": 4377,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 206,
+      "content": "and laws to facilitate\nthe State\u2019s program administration. The importance of inspecting all subject vehicles uniformly and correctly,\nregardless of testing location, underpins the the Inspection Program effectiveness. Our experience with other multifaceted\nprograms and our proposed equipment and inspection solutions will fully support State the Inspection Program goals.\nTab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan 192\n |  | \n |  | \n | INNOVATION SPOTLIGHT | \n |  | \n | \u2022 First to market HD OBD testing for vehicles greater than 14,000 pounds GVWR. | \n |  |  |  | \n |  |  |  | \n | CONCLUSION |  |  | \n |  |  |  | \n |  | We respect that the State\u2019s the Inspection Program operation must meet all applicable rules, regulations, and laws to facilitate |  | \n |  | the State\u2019s program administration. The importance of inspecting all subject vehicles uniformly and correctly, |  | \n |  | regardless of testing location, underpins the the Inspection Program effectiveness. Our experience with other multifaceted |  | \n |  | programs and our proposed equipment and inspection solutions will fully support State the Inspection Program goals. |  |"
+    },
+    {
+      "chunk_id": 4393,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 210,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\n\uf0a7 The tablet-based solution will consist of a Microsoft Windows tablet with integrated camera and barcode\nscanner, printer, and wireless OBD scan tool.\n\uf0a7 To provide the most up-to-date, technological hardware for the State, Parsons proposes a solution\nconsisting of the Parsons designed and branded OneOBD J2534 device.\nThe OneOBD J2534 Pass-Thru device is designed to stand up to the rigors of high-volume emissions testing\nin a shop environment as performed in the the Inspection Program facilities. J2534 is a hardened SAE-defined vehicle\ncommunication standard that has withstood the test of time and has been implemented in several\ngovernment regulations. J2534 Devices employ pass through vehicle communication technology. This\ncapability has been used for decades for programming. Parsons uses this time-tested, SAE designed,\ncommunication paradigm ensuring the best tool is used for the job at hand. SAE J2534 was designed to\nfacilitate communication from a PC to a vehicle using underlying standards defined by the OEMs themselves.\nSince 2004, SAE J2534 h"
+    },
+    {
+      "chunk_id": 4409,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 214,
+      "content": "proven record and experience in providing VEIPs robust and accurate OBD II inspection equipment\nensures an effective the Inspection Program transition and provides the foundation for future enhancements. Additionally,\nParsons has the benefit of Gus Nassar, a 15-year veteran of OBD II technologies, to serve as our OBD II\ntechnology specialist during the transition and operations of the new the Inspection Program. Parsons has strived to bring the\nbest customer experience to State motorists. We support motorists with vehicles that have trouble setting\nmonitors from the beginning to the end of each testing experience.\n2.3.2.4 Data Collection (RFP Section 2.3.2.4)\nFEATURES OF OUR APPROACH BENEFITS TO MARYLAND\nAccurate, thorough, consistent inspection data Dependable and accurate test data collection and reporting provides the State better tools to\ncollection measure the effectiveness of the program.\nReal-time access to vital program information Automated inspection data collection is entered into the VID system during every test, providing\nthe State with immediate access.\nContinuous data validation Parsons\u2019 designed system performs continuous data validation during data collection and\nd"
+    },
+    {
+      "chunk_id": 4410,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 214,
+      "content": "nd availability of information are key elements of Parsons\u2019 data collection methodology. We\ndesign our systems so that every inspection is compliant with regulations and consistent with each vehicle.\nOur data collection system for the lane inspectors is easy to use, with tasks presented in a logical order to\nensure inspection mechanics can quickly yet thoroughly inspect the vehicle. We understand and respect\nmotorists\u2019 time and want to ensure we do not take up more than is necessary.\nINNOVATION SPOTLIGHT\n\u2022 VINterpreter tool to improve efficiency with OBD scans and increase data field completeness.\n\u2022 An OBD scan tool integrity loopback check to ensure all protocols are working properly and provide validation for any\nvehicle communication failures.\n2.3.2.4.1 Mechanism for Assuring Accurate and Easy Entry (RFP Section 2.3.2.4.1)\nThe proposed system will provide a mechanism for assuring accurate and easy entry of vehicle identification\n(ID), inspector, and inspection data, including the following elements:\nTab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan 200\n |  |  |  | \n |  |  |  | \n | CONCLUSION |  |  | \n |  |  |  | \n |  | Parsons\u2019 proven record and experience in"
+    },
+    {
+      "chunk_id": 4601,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 264,
+      "content": "ernize We base our implementation of new systems on previous experience in other programs, ensuring that the the Inspection Program\nProgram will receive functional and secure updates to both the hardware and database.\nProven process for collection and For over 20 years of collecting fees for vehicle inspection programs, Parsons has never lost a penny owed to any\ntransfer of fees program, giving the State assurances that Parsons will appropriately handle all Program funds.\nParsons is prepared to assist the MDE in its oversight of the FIS Program and will ensure open\ncommunications with the MDOT the State Motor Vehicle agency in our support of this important program. With clear regulations\ngoverning the program\u2019s fee structure and operation, Parsons will ensure the the Inspection Program remains a stable and\nsmooth operation under the new contract.\n2.3.3.1.A. Inspection Equipment (RFP Section 2.3.3.1.A)\nOnce each FIS member has signed a contract with Parsons, we will provide a Microsoft Windows based\ntablet with integrated camera and barcode scanner and wireless OneOBD tool to each of the 35 existing FIS\nlocations. Parsons will streamline their equipment solution, with a reuse of equ"
+    },
+    {
+      "chunk_id": 4621,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 269,
+      "content": "eipts for their purchases\n2.3.3.2.3 FIS Pre-Paid Test Authorizations (RFP Section 2.3.3.2.3)\nParsons will manage all aspects of the pre-paid test authorization process with each FIS location. Parsons\nwill implement a process that is automated by the VID to collect funds from the FIS locations via ACH, credit\ncard, or check. Upon receipt and confirmation of payment, the VID will distribute pre-paid test authorizations\nto the test equipment software for use by FIS locations accordingly. The VID will have automated lockout and\nreordering features which will monitor and administer this pre-payment process.\nAs official inspections are completed and successfully uploaded to the the Inspection Program VID, associated test fees will be\nreconciled and provided to the State following all requirements and regulations. We have described the\npayment and reconciliation process later in this section and in Section 2.3.16 of our response.\nOur test equipment software for the FIS locations will feature:\n\uf0a7 Tools for monitoring tests performed and remaining pre-paid test authorizations\n\uf0a7 Settings for the alert and subsequent reordering of test authorizations\n\uf0a7 Monitoring of FIS locations to set approp"
+    },
+    {
+      "chunk_id": 4741,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 296,
+      "content": "documents prior to submission to the State. Parsons will e-mail the original of each invoice and\nsigned authorization to invoice to MVAAPInvoices@mdot.maryland.gov. Upon request, hard copies will be\nprovided via overnight delivery.\nParsons will ensure all invoices submitted satisfy the requirements of a proper invoice (as defined at\nCOMAR 21.06.09.01 and .02). All invoices submitted to the State will include Parsons\u2019 name and local office\naddress, remittance address, Federal Employer Identification Number (FEIN), invoice period being billed,\ninvoice date, invoice number, State-assigned contract number, State-assigned blanket purchase order\nnumber(s), description of goods or services being provided, the amount due, and any additional\ndocumentation required by the regulation or the contract.\nEach invoice submitted to the State will have the fixed price and time and material items clearly identified so\nthe State can unmistakably differentiate each. Parsons understands that the State Motor Vehicle agency reserves the right to reduce or\nwithhold contract payment if we do not provide all the required deliverables within the time frame specified\nin the contract. We acknowledge that all ac"
+    },
+    {
+      "chunk_id": 4753,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 299,
+      "content": "gratis tests, as well as waived fees. We will categorize and\ntotal each specific type on the report. Parsons will provide a report for each transaction type subtotaled and\nseparated by the Inspection Program facility. To cross reference each the Inspection Program location, Parsons will provide a summary report that\nincludes all information that corresponds to the totals of each location.\n3.3.6.G. Invoice Format (RFP Section 3.3.6.G)\nParsons will ensure all invoices submitted satisfy the requirements of a proper invoice (as defined at\nCOMAR 21.06.09.01 and .02). We provide a sample invoice in Section 2.3.1.14. All invoices submitted to\nthe State will include Parsons\u2019 name and local office address, remittance address, FEIN, invoice period being\nbilled, invoice date, invoice number, State-assigned contract number, State-assigned blanket purchase order\nnumber(s), description of goods or services being billed, the amount due, and any additional documentation\nrequired by the regulation. Each invoice submitted to the State will have the fixed price and time and\nmaterial items clearly identified so the State can unmistakably differentiate each. Parsons understands we\nare not exempt from s"
+    },
+    {
+      "chunk_id": 4772,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 304,
+      "content": "sess\nand withhold payment for monthly services until liquidated damages have been settled.\nWe also acknowledge that the State retains the sole discretion to waive such liquidated damages if the State\ndetermines that we have taken prompt corrective action, and we appreciate the State\u2019s willingness to\nconsider such should such an event occur. We will always strive to meet every contract requirement as well\nas every federal regulation and will take immediate action to remedy any infraction in either case.\n3.4.5 Data Management and Communication Systems (RFP Section 3.4.5)\nWe\u2019ve kept our databases up and operational for nearly 100% on every one of our programs. Each one of\nthese databases was online and fully functional prior to the program start date, as shown in Exhibit D-3.4.5.\nExhibit D-3.4.5: 99.9% Uptime and Fully Functional Since Program Start Date\nThe Parsons the Inspection Program VID will be fully operational at the time of contract transition. Authorized State\nusers will have access to the the Inspection Program database once it goes live, including all vehicle test and transaction data\nas required by the contract. If the State determines that we have failed to provide a Dat"
+    }
+  ]
+}

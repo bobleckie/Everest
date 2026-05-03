@@ -1,0 +1,2994 @@
+{
+  "theme_id": 2,
+  "theme_label": "Inspection & Test Operations",
+  "category": "Operational",
+  "rfp_requirements": [
+    {
+      "id": 1194,
+      "code": "A-014",
+      "title": "Conduct HDDV diesel component inspections",
+      "description": "All heavy-duty diesel vehicles (HDDV) over 17,999 lbs. must receive a visible smoke test, opacity test, and after-treatment indicator light checks, which may be conducted by any PIF or Private Fleet Facility (PFF).",
+      "section": "1.2.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1212,
+      "code": "A-032",
+      "title": "Support SIFs with workstations and equipment maintenance",
+      "description": "The Contractor must supply all workstations and maintain the equipment for the four (4) State-operated Specialty Inspection Facilities (SIFs).",
+      "section": "1.2.2.1",
+      "priority": "high",
+      "category": "informational"
+    },
+    {
+      "id": 1191,
+      "code": "A-011",
+      "title": "Perform emission test components for LDGV, LDGT, HDGV, LDDV",
+      "description": "Emission tests for gasoline and diesel vehicles (LDGV, LDGT, HDGV, LDDV) must include a visible smoke test, an OBD test, an emission control apparatus compliance examination (visual catalytic converter check), a visual fuel cap test, and a visual fuel leak test.",
+      "section": "1.2.4.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1192,
+      "code": "A-012",
+      "title": "Perform emission test components for MDDV",
+      "description": "Emission tests for Medium Duty Diesel Vehicles (MDDV) must include a visible smoke test; an opacity test with certified smoke meter (if not OBD-eligible); after-treatment and MIL light checks if applicable; an OBD test if applicable; a visual fuel leak test; and an emission control apparatus examina",
+      "section": "1.2.4.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1193,
+      "code": "A-013",
+      "title": "Perform emission test components for HDDV",
+      "description": "Emission tests for Heavy Duty Diesel Vehicles (HDDV) must include a visible smoke test; an opacity test with certified smoke meter (if not OBD-eligible); after-treatment and MIL light checks if applicable; an OBD test if applicable; a visual fuel leak test; and an emission control apparatus examinat",
+      "section": "1.2.4.D",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 9263,
+      "code": "A-046",
+      "title": "Describe Change Control Process",
+      "description": "Describe the change control process as it relates to patches, hot-fixes, upgrades, and configuration changes within the organization, including review of proposed changes and timelines used for testing, implementation, and emergency change control.",
+      "section": "19.2",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 1235,
+      "code": "R-022",
+      "title": "Review N.J.A.C. 7:27-14 Control and Prohibition of Air Pollution from Diesel-Powered Motor Vehicles",
+      "description": "Bidder must review N.J.A.C. 7:27-14 to prepare an accurate and comprehensive Quote.",
+      "section": "2.6",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 9279,
+      "code": "A-062",
+      "title": "Employ Independent Third-Party Vulnerability Testing",
+      "description": "Employ qualified third-parties to conduct independent vulnerability scanning, penetration testing, and red-team exercises.",
+      "section": "22.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 9287,
+      "code": "R-011",
+      "title": "Describe vulnerability scanning and penetration testing process",
+      "description": "Describe the network vulnerability scanning and penetration testing process, who conducts them, whether scans/tests are external and internal, and how often they are conducted.",
+      "section": "22.2",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 9289,
+      "code": "R-013",
+      "title": "Provide most recent third-party application code review or penetration testing reports",
+      "description": "As applicable, provide details on the most recent Application Code Review or Penetration Testing Reports carried out by independent third parties.",
+      "section": "22.4",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 9345,
+      "code": "R-069",
+      "title": "Develop, implement, test, and maintain contingency plans",
+      "description": "The organization develops, implements, tests, and maintains contingency plans to ensure continuity of operations for all information systems that deliver or support essential or critical business functions on behalf of the organization.",
+      "section": "29.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 9351,
+      "code": "R-075",
+      "title": "Describe data and system backup/recovery processes including RPO/RTO",
+      "description": "Describe data and system backup/recovery processes employed and how the security categorization of information is maintained in backup media; how often backups are tested to verify media reliability and information integrity; and the recovery point and recovery time objectives.",
+      "section": "29.3",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 9352,
+      "code": "R-076",
+      "title": "Describe alternate site failover processes",
+      "description": "As applicable, if an alternate site has been established, describe the processes and timelines for failing over, whether the site is Hot/Warm/Cold, how often fail-over processes are tested, and how results are documented and reviewed.",
+      "section": "29.4",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 7701,
+      "code": "R-009",
+      "title": "Comply with applicable building and safety codes",
+      "description": "Contractor must comply with the New Jersey Uniform Construction Code, latest National Electrical Code 70, B.O.C.A. Basic Building Code, OSHA, and all applicable codes.",
+      "section": "3.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1166,
+      "code": "R-088",
+      "title": "Provide Bid Security",
+      "description": "Bidder must provide Bid Security as required.",
+      "section": "3.10",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7724,
+      "code": "R-032",
+      "title": "Submit Diane B. Allen Equal Pay Act report",
+      "description": "A contractor performing qualifying services or public work shall provide the Commissioner of Labor and Workforce Development a report regarding compensation and hours worked by employees categorized by gender, race, ethnicity, and job category.",
+      "section": "3.10",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1268,
+      "code": "R-055",
+      "title": "Remove Bidder additional terms that conflict with SSTC",
+      "description": "Bidder must identify and remove proposed terms and conditions that conflict with the SSTC prior to Quote submission; conflicts render a Quote non-responsive.",
+      "section": "3.11",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7725,
+      "code": "R-033",
+      "title": "Properly classify employees (ABC Test)",
+      "description": "Employer must properly classify workers as employees unless it can demonstrate all three factors of the ABC Test (freedom from control, service outside usual course of business or outside employer's places of business, and independently established trade).",
+      "section": "3.11",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 1168,
+      "code": "R-090",
+      "title": "Comply with Quote Content Requirements",
+      "description": "Quote must comply with Quote Content requirements in Section 3.12.",
+      "section": "3.12",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1270,
+      "code": "R-057",
+      "title": "Organize Quote attachments in specified order",
+      "description": "Quote should be submitted with attachments organized as: Forms, Technical Quote, State-Supplied Price Sheet.",
+      "section": "3.12",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 1169,
+      "code": "R-091",
+      "title": "Submit Forms, Registrations and Certifications with Quote",
+      "description": "Bidder must submit all required forms, registrations, and certifications with the quote.",
+      "section": "3.13",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 1273,
+      "code": "R-060",
+      "title": "Forms may be completed via NJSTART Terms and Categories Tab or attached to Vendor Profile",
+      "description": "As an alternative to uploading certain forms with the Quote, a Bidder may complete several certifications electronically in NJSTART on the 'Terms and Categories' Tab within the Vendor Profile, or attach completed forms to the Vendor Profile. Refer to QRGs 'Vendor Forms' and 'Attaching Files'.",
+      "section": "3.13",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 1288,
+      "code": "R-010",
+      "title": "Conform to UK Fair Employment (Northern Ireland) Act of 1989 and permit independent monitoring",
+      "description": "Bidder's MacBride certification must include conformance with the United Kingdom's Fair Employment (Northern Ireland) Act of 1989 and permit independent monitoring of compliance with the MacBride principles as set forth in N.J.S.A. 52:18A-89.5.",
+      "section": "3.13.5",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1293,
+      "code": "R-015",
+      "title": "Do not designate Price Sheet, Catalog, or entire Quote as confidential",
+      "description": "The Bidder must not designate its State-Supplied Price Sheet, Price List/Catalog, and/or the entire Quote as proprietary and/or confidential, or claim copyright protection for its entire Quote.",
+      "section": "3.13.7",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1298,
+      "code": "R-021",
+      "title": "Automatic certification of self-performance if no Subcontractors listed",
+      "description": "For a Quote that does NOT include the use of any Subcontractors, the Bidder is automatically certifying that, if selected for award, the Bidder will be performing all work required by the Contract.",
+      "section": "3.13.8",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1301,
+      "code": "R-024",
+      "title": "No subcontractor work without Director's written approval",
+      "description": "No substituted or additional Subcontractors are authorized to begin work until the Contractor has received written approval from the Director.",
+      "section": "3.13.8",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 1302,
+      "code": "R-025",
+      "title": "Contract is Small Business Subcontracting Set-Aside",
+      "description": "This is a Contract with set-aside subcontracting for New Jersey Small Business Enterprises. Bidders intending to subcontract must submit a Subcontractor Utilization Plan and take good faith efforts to solicit and hire eligible NJ Small Business Enterprises.",
+      "section": "3.13.8.1",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 1309,
+      "code": "R-032",
+      "title": "Cooperate with State compliance studies/surveys",
+      "description": "Each Bidder awarded a Contract with the set-aside subcontracting requirement shall fully cooperate in any studies or surveys conducted by the State to determine compliance with N.J.A.C. 17:13-1.1 et seq. and this Bid Solicitation.",
+      "section": "3.13.8.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1099,
+      "code": "R-021",
+      "title": "Submit Technical Quote",
+      "description": "Bidder must submit a Technical Quote as part of its response.",
+      "section": "3.14",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 1315,
+      "code": "R-040",
+      "title": "Describe approach and plans for Scope of Work in Technical Quote",
+      "description": "The Bidder shall describe its approach and plans for accomplishing the work outlined in the Scope of Work and set forth its understanding of the requirements and approach to successfully complete the Contract.",
+      "section": "3.14",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 1100,
+      "code": "R-022",
+      "title": "Provide Management Overview",
+      "description": "Bidder must provide a Management Overview as part of the Quote.",
+      "section": "3.15",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1316,
+      "code": "R-041",
+      "title": "Provide Management Overview narrative",
+      "description": "The Bidder shall set forth its overall technical approach and plans to meet the requirements of the Bid Solicitation in a narrative format, demonstrating understanding of objectives, nature of work, and level of effort required.",
+      "section": "3.15",
+      "priority": "high",
+      "category": "scored"
+    },
+    {
+      "id": 1101,
+      "code": "R-023",
+      "title": "Provide Contract Management Plan",
+      "description": "Bidder must provide Contract Management information as part of the Quote.",
+      "section": "3.16",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1318,
+      "code": "R-043",
+      "title": "Describe Contract Management plan",
+      "description": "The Bidder should describe its specific plans to manage, control and supervise the Contract to ensure satisfactory Contract completion, including approach to communicate with the State Contract Manager (status meetings, status reports, etc.).",
+      "section": "3.16",
+      "priority": "high",
+      "category": "scored"
+    },
+    {
+      "id": 1102,
+      "code": "R-024",
+      "title": "Provide Contract Schedule",
+      "description": "Bidder must provide a Contract Schedule as part of the Quote.",
+      "section": "3.17",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1319,
+      "code": "R-044",
+      "title": "Include draft Contract schedule",
+      "description": "The Bidder shall include a draft Contract schedule that incorporates key dates, identifies the completion date for each task/subtask, associated deliverables, and the scheduling/control methodology and rationale.",
+      "section": "3.17",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7705,
+      "code": "R-013",
+      "title": "Register under Public Works Contractor Registration Act",
+      "description": "All Contractors, subcontractors, and lower-tier subcontractors engaging in any contract for public work must be first registered with the New Jersey Department of Labor and Workforce Development pursuant to N.J.S.A. 34:11-56.51.",
+      "section": "3.3",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 9117,
+      "code": "A-023",
+      "title": "Submit Acceptable Use Policy (AUP)",
+      "description": "Bidder must indicate whether all personnel are required to sign an Acceptable Use Policy; if yes, submit a copy of the AUP; if no, explain.",
+      "section": "3.3",
+      "priority": "high",
+      "category": "form"
+    },
+    {
+      "id": 1259,
+      "code": "R-046",
+      "title": "Submit Quote withdrawal requests in writing with required identifiers",
+      "description": "Post-opening Quote withdrawal requests must include the Bid Solicitation Number, Bid Solicitation Title, and the Quote submission date, and be sent to Procurement.Bureau@treas.nj.gov.",
+      "section": "3.6",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 1260,
+      "code": "R-047",
+      "title": "Demonstrate good faith to withdraw Quote after opening",
+      "description": "After Quote opening but before Contract award, withdrawal requests must demonstrate good faith via factors including: mistake so significant that enforcement would be unconscionable; mistake relates to a material feature/term of the Contract; and mistake occurred notwithstanding Bidder's exercise of",
+      "section": "3.6",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 7719,
+      "code": "R-027",
+      "title": "Label containers of hazardous substances (Worker & Community Right to Know)",
+      "description": "All goods offered for purchase to the State must be labeled by the Contractor in compliance with N.J.S.A. 34:5A-1 et seq. requiring labeling of containers of hazardous substances.",
+      "section": "3.6",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7721,
+      "code": "R-029",
+      "title": "No shift of services performance outside U.S.",
+      "description": "A shift to performance of services outside the United States during the contract term shall be deemed a breach of contract and subject the contract to termination for cause, unless previously approved by the Director and the Treasurer.",
+      "section": "3.7",
+      "priority": "critical",
+      "category": "informational"
+    },
+    {
+      "id": 9368,
+      "code": "A-017",
+      "title": "Describe incident response plan testing",
+      "description": "Describe how the incident response plan is tested and how often tests are conducted.",
+      "section": "30.2",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 1147,
+      "code": "R-069",
+      "title": "Provide Inspector Training/Retraining and Testing/Retesting",
+      "description": "Contractor must provide inspector training/retraining and testing/retesting.",
+      "section": "4.10.3",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2045,
+      "code": "R-076",
+      "title": "Train inspectors; ensure MVC licensing and testing",
+      "description": "Inspectors must be trained by the Contractor, licensed and tested by MVC pursuant to statute N.J.S.A. 39:8-52 and other applicable regulations, including fingerprinting and criminal history checks pursuant to N.J.S.A. 39:2A-32.",
+      "section": "4.10.3.A",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 2055,
+      "code": "R-086",
+      "title": "Trainee must pass written test with 80% minimum",
+      "description": "A trainee must pass a written test, which requires a minimum of 80% correct responses, covering all aspects of the training.",
+      "section": "4.10.3.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2056,
+      "code": "R-087",
+      "title": "Trainee must successfully complete hands-on evaluation",
+      "description": "The trainee must successfully complete a hands-on evaluation, demonstrating without assistance the ability to conduct a proper inspection and properly utilize correct equipment.",
+      "section": "4.10.3.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2059,
+      "code": "R-090",
+      "title": "Demonstrate training methodology per 40 CFR 51.367",
+      "description": "Pursuant to USEPA regulations at 40 CFR 51.367, the Contractor must demonstrate its proven methodology to successfully impart knowledge of the listed topics (air pollution problems, program purpose, regulations, test procedures, emission control devices, equipment operation/calibration, QC procedure",
+      "section": "4.10.3.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2061,
+      "code": "R-092",
+      "title": "Training topic: purpose, function, goal of inspection program",
+      "description": "Training must impart knowledge of the purpose, function, and goal of the inspection program.",
+      "section": "4.10.3.C.2",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 2062,
+      "code": "R-093",
+      "title": "Training topic: inspection regulations and procedures",
+      "description": "Training must impart knowledge of inspection regulations and procedures.",
+      "section": "4.10.3.C.3",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 2063,
+      "code": "R-094",
+      "title": "Training topic: technical details and rationale of test procedures",
+      "description": "Training must impart knowledge of technical details of the test procedures and the rationale for their design.",
+      "section": "4.10.3.C.4",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 2065,
+      "code": "R-096",
+      "title": "Training topic: test equipment operation, calibration, maintenance",
+      "description": "Training must impart knowledge of test equipment operation, calibration, and maintenance.",
+      "section": "4.10.3.C.6",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 2068,
+      "code": "R-099",
+      "title": "Training topic: safety and health issues related to inspection process",
+      "description": "Training must impart knowledge of safety and health issues related to the inspection process.",
+      "section": "4.10.3.C.9",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 2069,
+      "code": "R-100",
+      "title": "Include NJ-specific training and customer service",
+      "description": "The Contractor's inspector training program must also include New Jersey specific inspection system training, including gasoline and diesel emission inspection regulations and procedures, customer service training, and any supplemental requirements identified by MVC and/or DEP.",
+      "section": "4.10.3.D",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2081,
+      "code": "R-002",
+      "title": "Maintain inspection employees as Contractor employees",
+      "description": "",
+      "section": "4.10.4.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2085,
+      "code": "R-006",
+      "title": "Manage day-to-day CIF operations and conduct inspections",
+      "description": "",
+      "section": "4.10.5.A",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 2090,
+      "code": "R-011",
+      "title": "Oversee and maintain inspection queue",
+      "description": "",
+      "section": "4.10.5.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2006,
+      "code": "R-037",
+      "title": "Provide sufficient trained licensed staff",
+      "description": "The Contractor shall identify and provide a sufficient number of trained and licensed supervisors, managers, and lane inspectors to conduct inspections, perform management functions, and meet Wait Time standards.",
+      "section": "4.10.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2010,
+      "code": "R-041",
+      "title": "Include inspection lane staff configurations",
+      "description": "The Plan shall include a description of the inspection lane staff configuration(s) at each facility.",
+      "section": "4.10.D.3",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 2011,
+      "code": "R-042",
+      "title": "Include duties and responsibilities per position",
+      "description": "The Plan shall include an outline of the duties and responsibilities anticipated for each position in the inspection lane.",
+      "section": "4.10.D.4",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 2020,
+      "code": "R-051",
+      "title": "Do not employ work-release/correctional persons in inspection lane",
+      "description": "Persons currently participating in, or on a work-release program from any correctional institution shall not be employed in any inspection lane position by the Contractor or its subcontractor(s).",
+      "section": "4.10.H",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2107,
+      "code": "R-028",
+      "title": "Operate facilities efficiently to minimize wait times",
+      "description": "",
+      "section": "4.12.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2116,
+      "code": "R-037",
+      "title": "SLA: Hourly average Wait Time not to exceed 30 minutes in two contiguous hours",
+      "description": "",
+      "section": "4.12.D.1",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 2118,
+      "code": "R-039",
+      "title": "SLA: Monthly average Wait Time not to exceed 15 minutes",
+      "description": "",
+      "section": "4.12.D.2",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 2121,
+      "code": "R-042",
+      "title": "Appendix 3.2B - Facilities with physical Wait Time gates",
+      "description": "",
+      "section": "4.12.E",
+      "priority": "medium",
+      "category": "reference"
+    },
+    {
+      "id": 2130,
+      "code": "R-051",
+      "title": "Contractor liable for vehicle, property, and personal damage",
+      "description": "",
+      "section": "4.14.A",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 2134,
+      "code": "R-055",
+      "title": "Inspection facilities open at least 55 hours/week",
+      "description": "",
+      "section": "4.15.A",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 2136,
+      "code": "R-057",
+      "title": "Inspect all vehicles present up to closing time",
+      "description": "",
+      "section": "4.15.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2144,
+      "code": "R-065",
+      "title": "Plans must maximize lane availability and up-time",
+      "description": "",
+      "section": "4.16.1.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2147,
+      "code": "R-068",
+      "title": "Permission to install additional inspection equipment",
+      "description": "",
+      "section": "4.16.1.B",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 2150,
+      "code": "R-071",
+      "title": "Existing equipment remains State property",
+      "description": "",
+      "section": "4.16.1.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2152,
+      "code": "R-073",
+      "title": "Replaced/removed inspection property released to Contractor",
+      "description": "",
+      "section": "4.16.1.C",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 2154,
+      "code": "R-075",
+      "title": "Sustain/improve customer interactions during inspections",
+      "description": "",
+      "section": "4.16.1.D",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 2339,
+      "code": "A-021",
+      "title": "Maintain Paved Areas with Weekly Sweeping",
+      "description": "Maintain all paved areas and perform a weekly sweeping of all paved areas of the entire site.",
+      "section": "4.16.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2172,
+      "code": "R-093",
+      "title": "Maintain queuing, driveways, grounds, drains, signage",
+      "description": "",
+      "section": "4.16.2.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2360,
+      "code": "A-042",
+      "title": "Maintain Drinking Water Reports Onsite",
+      "description": "Maintain any drinking water quality reports from the water purveyor onsite; if site supplies own water, arrange required testing and maintenance per State and Federal regulations.",
+      "section": "4.16.2.E",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2367,
+      "code": "A-049",
+      "title": "Monthly Emergency Exit/Lights Inspection",
+      "description": "Emergency exit signs and evacuation lights must be inspected monthly.",
+      "section": "4.16.2.E",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2551,
+      "code": "R-016",
+      "title": "Cooperate fully with audits and ensure employees/subcontractors do so",
+      "description": "",
+      "section": "4.17",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 2556,
+      "code": "R-021",
+      "title": "Performance audits conducted at least twice per year per lane per 40 CFR \u00a7 51.363(a)(3)(iv)",
+      "description": "",
+      "section": "4.17.3.A",
+      "priority": "high",
+      "category": "informational"
+    },
+    {
+      "id": 2579,
+      "code": "R-044",
+      "title": "Replace all CIF and SIF light and heavy-duty brake testers",
+      "description": "",
+      "section": "4.18.10",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2573,
+      "code": "R-038",
+      "title": "Indicator Light Check for gasoline and diesel vehicles",
+      "description": "",
+      "section": "4.18.3",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2574,
+      "code": "R-039",
+      "title": "Perform visual inspection of fuel cap and filler area",
+      "description": "",
+      "section": "4.18.4",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2576,
+      "code": "R-041",
+      "title": "Conduct visual fuel leak test per multiple N.J.A.C. citations",
+      "description": "",
+      "section": "4.18.7",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2577,
+      "code": "R-042",
+      "title": "Fail vehicle for obvious emission-related defects in miscellaneous check",
+      "description": "",
+      "section": "4.18.8",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2578,
+      "code": "R-043",
+      "title": "Diesel smoke opacity testing equipment must be State-approved",
+      "description": "",
+      "section": "4.18.9",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2592,
+      "code": "R-057",
+      "title": "Maintain and repair all diesel smoke opacity meters",
+      "description": "",
+      "section": "4.19.2.D",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3423,
+      "code": "A-027",
+      "title": "Provision, test, install, configure and migrate data for each environment",
+      "description": "",
+      "section": "4.23.2.10",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 3272,
+      "code": "A-005",
+      "title": "Include planned use of development and testing tools",
+      "description": "",
+      "section": "4.23.2.2.A.3",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3273,
+      "code": "A-006",
+      "title": "Include plan for reviewing and testing hardware capacity",
+      "description": "",
+      "section": "4.23.2.2.A.4",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3308,
+      "code": "A-041",
+      "title": "Keep Design Specification current during entire Contract term",
+      "description": "",
+      "section": "4.23.2.3",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3319,
+      "code": "A-052",
+      "title": "Hardware infrastructure sufficient for 10 additional years of inspection data",
+      "description": "",
+      "section": "4.23.2.4.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3492,
+      "code": "A-093",
+      "title": "Reporting tools must have flexible parameters",
+      "description": "",
+      "section": "4.25.B",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3955,
+      "code": "R-001",
+      "title": "Provide VIR Reprint web page conforming to NJ naming standards",
+      "description": "Contractor must replace the legacy VIR Reprint web page (http://pweb.nj-cleanair.com/VIRPrint/pages/vir/virSearch.jsf) with a new web page that conforms to current naming standards and uses the nj.gov domain, as depicted in Figure 3.",
+      "section": "4.27",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3692,
+      "code": "R-073",
+      "title": "Comply with N.J.S.A. 39:3B-21 for School Bus Inspections",
+      "description": "The State is responsible for performing all inspections on School Buses registered in New Jersey pursuant to N.J.S.A. 39:3B-21. The State reserves the right, in close coordination with the Contractor and within 72 hours' notice, to conduct school bus inspections at CIF locations pursuant to N.J.S.A.",
+      "section": "4.27.2.2",
+      "priority": "high",
+      "category": "statutory"
+    },
+    {
+      "id": 3694,
+      "code": "R-075",
+      "title": "Provide School Bus Inspection Search Webpage",
+      "description": "Provide a webpage allowing the public to search and print out school bus inspection results using Company Name, Street Name, County, Zip Code, and Keywords.",
+      "section": "4.27.2.2.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3697,
+      "code": "R-078",
+      "title": "Provide Detailed Inspection Results Link and List Failure Items",
+      "description": "Each listing must have a link for detailed viewing of the previous inspection results; for vehicles with failing inspection results, the site must also list failure items by category.",
+      "section": "4.27.2.2.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3698,
+      "code": "R-079",
+      "title": "Provide Public Facing PIF/ERF Dynamic Web Map",
+      "description": "Contractor must provide a public facing dynamic web map displaying PIF and ERF locations with differentiation between repair-only facilities and those also providing inspection services.",
+      "section": "4.27.2.3.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3705,
+      "code": "R-086",
+      "title": "Provide ERT Certification, Information, Training, and Testing Webpage",
+      "description": "Contractor must provide a public facing web page for certification/recertification information, FAQs, rules and regulations, training modules, and testing to support the ERT program.",
+      "section": "4.27.2.4.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3706,
+      "code": "R-087",
+      "title": "Develop ERT Training Modules Approved by SCM",
+      "description": "Contractor must develop training modules in consultation with DEP and approved by the SCM covering federal clean air standards, NJ air quality, ERT/ERF regulations, emissions testing, OBD repair, tampering, aftermarket catalytic convertors, emissions warranties, and technician resources.",
+      "section": "4.27.2.4.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3707,
+      "code": "R-088",
+      "title": "Authenticate Testing Section with User ID and Password",
+      "description": "The testing section of the web page must be authenticated using a user ID and password.",
+      "section": "4.27.2.4.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3711,
+      "code": "R-092",
+      "title": "Include ASE Test Preparation Web Page",
+      "description": "An ASE test preparation web page must be included providing resources for prospective technicians to assist in the ASE examination process and material covered in required testing.",
+      "section": "4.27.2.4.D",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3712,
+      "code": "R-093",
+      "title": "Develop Motorist VIR Reprint Webpage",
+      "description": "Contractor must develop a webpage to support online viewing or printing of VIRs by the public.",
+      "section": "4.27.2.5",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3990,
+      "code": "R-036",
+      "title": "Consolidate tests into test scripts",
+      "description": "Following development of the comprehensive test matrix, each test must be consolidated into test scripts.",
+      "section": "4.28.1.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3994,
+      "code": "R-040",
+      "title": "Document intent and desired outcome of each test script",
+      "description": "Intent and desired outcome for each test script shall be documented by the Contractor and included with each test script.",
+      "section": "4.28.1.B",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 4008,
+      "code": "R-054",
+      "title": "Document and report all issues and testing progress",
+      "description": "All issues encountered and progress in testing shall be documented and reported to the SCM by the Contractor.",
+      "section": "4.28.2.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4012,
+      "code": "R-058",
+      "title": "Assist State during its acceptance testing",
+      "description": "Contractor shall assist the State during the State's testing and in correcting problems and issues identified during State's acceptance testing.",
+      "section": "4.28.2.D",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4028,
+      "code": "R-074",
+      "title": "Verify all public portals review results",
+      "description": "Acceptance testing must verify successful review results of all public portals.",
+      "section": "4.28.3.2.I",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 4029,
+      "code": "R-075",
+      "title": "Verify State portals and functionality",
+      "description": "Acceptance testing must verify successful review results of State portals and functionality.",
+      "section": "4.28.3.2.J",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 4031,
+      "code": "R-077",
+      "title": "Verify robust system, data, and application security",
+      "description": "Acceptance testing must verify robust system, data, and application security.",
+      "section": "4.28.3.2.L",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4036,
+      "code": "R-082",
+      "title": "Prepare, load, test, correct, and retest until successful",
+      "description": "Contractor must prepare and load test data, perform stress testing, correct problems, and re-test as necessary until test results produce consistently successful outcomes.",
+      "section": "4.28.3.3.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4042,
+      "code": "R-088",
+      "title": "Use State-provided stress test parameters",
+      "description": "Contractor stress testing parameters shall simulate peak periods and will be provided by the State to the Contractor prior to testing.",
+      "section": "4.28.3.3.B",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 4045,
+      "code": "R-091",
+      "title": "Perform stress/load testing simulating production",
+      "description": "Perform successful stress/load testing in the test environment and through the test network to simulate production during testing.",
+      "section": "4.28.3.3.C.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4046,
+      "code": "R-092",
+      "title": "Replace/reload data for repetitive testing",
+      "description": "Replace or reload data to run repetitive test until successful results are consistently achieved.",
+      "section": "4.28.3.3.C.3",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 4048,
+      "code": "R-094",
+      "title": "Design and conduct a successful stress test",
+      "description": "Design and conduct a successful stress test.",
+      "section": "4.28.3.3.C.5",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4049,
+      "code": "R-095",
+      "title": "Perform unit testing",
+      "description": "Unit testing to successfully test and debug individual code modules.",
+      "section": "4.28.3.3.C.6",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 4053,
+      "code": "R-099",
+      "title": "State acceptance testing purpose and environment",
+      "description": "State acceptance testing is to assess system readiness for implementation using State's own methodologies in an environment similar to production in configuration, functionality, and performance, verifying compliance with all requirements, plans, and specifications.",
+      "section": "4.28.3.4",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 4063,
+      "code": "R-109",
+      "title": "System must pass beta testing",
+      "description": "The Contractor's system must pass beta testing, as evidenced by written SCM approval.",
+      "section": "4.28.3.6.D",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 3969,
+      "code": "R-015",
+      "title": "Use ITS to track problems, fixes and regression testing",
+      "description": "Contractor shall use an ITS, provided by the Contractor and approved by the SCM, to track problems, fixes, and regression testing results until resolved.",
+      "section": "4.28.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3973,
+      "code": "R-019",
+      "title": "Assist State during State's acceptance testing",
+      "description": "Contractor shall provide assistance to the State during the State's acceptance testing.",
+      "section": "4.28.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3983,
+      "code": "R-029",
+      "title": "Provide multiple sets of valid data for test scripts",
+      "description": "Several sets of valid data may be made available as necessary for each script in the event a specific script cannot be completed successfully on the first attempt; several sets for both Contractor's and State's acceptance testing may be made available.",
+      "section": "4.28.D",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 4222,
+      "code": "A-030",
+      "title": "Maintain all CIF equipment",
+      "description": "Contractor must check operations and provide preventive maintenance, repair or replacement of all equipment at the CIFs.",
+      "section": "4.31.1.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4223,
+      "code": "A-031",
+      "title": "Maintain all SIF equipment including inspection equipment",
+      "description": "Contractor must check operations and provide preventive maintenance, repair or replacement of all equipment at the SIFs including inspection equipment.",
+      "section": "4.31.1.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4224,
+      "code": "A-032",
+      "title": "Maintain equipment used by State inspection teams",
+      "description": "Contractor must maintain, repair or replace all equipment used by State inspection teams (bus, mobile, diesel roadside) including diesel opacity smoke meters.",
+      "section": "4.31.1.D",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4225,
+      "code": "A-033",
+      "title": "Supply routine consumables",
+      "description": "Contractor must supply all routine Consumables such as printer toner or ink.",
+      "section": "4.31.1.E",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 4228,
+      "code": "A-036",
+      "title": "Ensure PIF/PFF Support Hotline availability statewide",
+      "description": "The Contractor's PIF/PFF Support Hotline must be available to inspection facilities throughout the State during principal operating hours.",
+      "section": "4.31.1.G",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 4229,
+      "code": "A-037",
+      "title": "Dispatch repair technician within one Business Day 95% of the time",
+      "description": "Contractor shall dispatch a repair technician to site to determine the problem and recommend/perform a service repair solution 95% of the time within one Business Day of receipt of the call.",
+      "section": "4.31.1.H.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4243,
+      "code": "A-051",
+      "title": "Provide training materials to SCM one month in advance",
+      "description": "Training materials must be provided for SCM review and written approval no less than one month in advance of scheduled training.",
+      "section": "4.31.3.F",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4287,
+      "code": "A-005",
+      "title": "Ensure CCRs are knowledgeable in NJ I/M program",
+      "description": "",
+      "section": "4.33.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4603,
+      "code": "A-015",
+      "title": "PIF and PFF Support Hotline Availability and Response Standards",
+      "description": "The PIF and PFF Support Hotline must be available to inspection facilities during principal operating hours, and 98% of calls must be received and placed in a call queue, answered within 10 minutes from the queue, or receive a return call within 2 PFF/PIF Hotline Business Hours.",
+      "section": "4.33.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1569,
+      "code": "A-001",
+      "title": "Update and refine QA Plan to meet EPA requirements",
+      "description": "Update and refine the QA Plan as required by the SCM to meet EPA requirements in 40 CFR \u00a7 51.359 and 51.363.",
+      "section": "4.5",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1559,
+      "code": "R-099",
+      "title": "QA Plan: Inspection tests meet/exceed current standards",
+      "description": "Design process in QA Plan to ensure all inspection tests meet or exceed current standards (e.g., throughput and wait times).",
+      "section": "4.5.B.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1587,
+      "code": "A-019",
+      "title": "ITS must log issues from non-Help Desk staff",
+      "description": "The ITS must be capable of logging and tracking any reported issues entered by other staff outside the Help Desk during system testing or daily operation.",
+      "section": "4.7.D",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 1604,
+      "code": "A-036",
+      "title": "Require Diesel PIFs/PFFs to purchase NG Equipment",
+      "description": "All Diesel PIFs/PFFs currently using opacity meters for diesel vehicle inspections with no automated data collection shall be required to purchase the necessary NG Equipment from the Contractor.",
+      "section": "4.9",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1140,
+      "code": "R-062",
+      "title": "Provide Private Inspection Facility Support",
+      "description": "Contractor must provide support to Private Inspection Facilities.",
+      "section": "4.9.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1618,
+      "code": "A-050",
+      "title": "Charge inspection transaction fee to PIFs/PFFs",
+      "description": "The Contractor shall charge an inspection transaction fee to the PIFs/PFFs for each inspection transaction.",
+      "section": "4.9.1.1",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 1645,
+      "code": "A-077",
+      "title": "Use MVC licensing data to determine station/inspector authorization",
+      "description": "Utilize licensing information data (additions, modifications, deletions) from Inspection Services Enhanced I/M Unit of MVC to determine station and inspector authorization to perform inspections.",
+      "section": "4.9.1.4",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1668,
+      "code": "R-021",
+      "title": "Hotline must allow inspection facilities to submit service requests",
+      "description": "The PIF/PFF Support Hotline must allow inspection facilities to submit service requests as needed and must be capable of reporting and monitoring performance problems.",
+      "section": "4.9.1.5.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1141,
+      "code": "R-063",
+      "title": "Provide Centralized Inspection Facility Operations and Management",
+      "description": "Contractor must perform operations and management of Centralized Inspection Facilities (CIFs).",
+      "section": "4.9.2",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 1788,
+      "code": "A-010",
+      "title": "Plan must identify all inspection program requirements and methods",
+      "description": "Plan must accurately identify all current and Contractor-initiated inspection program requirements and functions and detail Contractor's methods, processes, and procedures.",
+      "section": "4.9.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1142,
+      "code": "R-064",
+      "title": "Operate Specialty Inspection Facilities (SIFs)",
+      "description": "Contractor must operate Specialty Inspection Facilities (SIFs).",
+      "section": "4.9.3",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1820,
+      "code": "A-042",
+      "title": "Provide SIFs with lane equipment identical to CIFs",
+      "description": "Provide SIF sites with all necessary lane equipment identical to CIF equipment.",
+      "section": "4.9.3",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1829,
+      "code": "A-051",
+      "title": "Include retrofitting and disposition of legacy equipment",
+      "description": "Plan must include retrofitting CIFs and SIFs and disposition of legacy workstations and other test equipment no longer in use.",
+      "section": "4.9.4",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 1841,
+      "code": "A-063",
+      "title": "Remove CIF inspection equipment no longer needed",
+      "description": "Upon receipt of SCM written approval, remove equipment in CIF inspection areas no longer needed under the new program (including calibration gas plumbing/tank storage cages and legacy emissions equipment).",
+      "section": "4.9.4.1",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 1847,
+      "code": "A-069",
+      "title": "Replace inspection equipment upon SCM approval",
+      "description": "Upon SCM written approval, Contractor shall replace inspection equipment as needed or required.",
+      "section": "4.9.4.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1865,
+      "code": "A-087",
+      "title": "Alternate UVIS solution must be specified in draft Transition Plan with Quote",
+      "description": "Any alternate UVIS solution proposed by the Contractor must be fully specified in the draft Transition, Retrofit, Operations, and Management plan submitted with the Quote, approved by the SCM, and included as part of the inspection record.",
+      "section": "4.9.4.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1972,
+      "code": "R-003",
+      "title": "Provide live public video feed of queuing areas",
+      "description": "The Contractor must provide a live feed, real-time internet site for public access to view all inspection station queuing area camera images.",
+      "section": "4.9.4.2.D",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1980,
+      "code": "R-011",
+      "title": "Ensure sticker area accessible without queue entry",
+      "description": "The Contractor must ensure the sticker issuance area is accessible to the motorist without requiring entry to the vehicle inspection queue.",
+      "section": "4.9.4.2.G",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1983,
+      "code": "R-014",
+      "title": "Ensure safe MDDV Smoke Opacity Testing environment",
+      "description": "The Contractor shall ensure all MDDV Smoke Opacity Testing is performed in a safe manner and that the overall environment of the CIFs remains safe for customers and personnel at all times.",
+      "section": "4.9.4.2.H",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 1990,
+      "code": "R-021",
+      "title": "Initially activate new equipment in only one lane at Bakers Basin",
+      "description": "The Contractor must initially activate its new inspection equipment in only one (1) lane at Bakers Basin and ensure customer vehicles are tested in this designated lane.",
+      "section": "4.9.4.3.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1991,
+      "code": "R-022",
+      "title": "Complete retrofit per approved plans",
+      "description": "The retrofit, including related construction, of the inspection lane must be completed in accordance with plans, drawings, and specifications developed by the Contractor and approved by the SCM.",
+      "section": "4.9.4.3.A.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1992,
+      "code": "R-023",
+      "title": "Install equipment conforming to current ATP",
+      "description": "Inspection, IT, and other equipment and items required by the Contractor will be properly installed in the inspection lane and conform to then current ATP.",
+      "section": "4.9.4.3.A.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1994,
+      "code": "R-025",
+      "title": "Monitor facility and lane processes for regular vehicle flow",
+      "description": "The facility and lane processes must be monitored to ensure that each lane and the entire facility can accommodate a regular flow of customer vehicles and demonstrate to the State's satisfaction the inspection lane and equipment meet the specified requirements.",
+      "section": "4.9.4.3.B",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 1995,
+      "code": "R-026",
+      "title": "Complete retrofit of each lane and facility equipment per SCM-approved plans (full-facility beta)",
+      "description": "During full-facility beta testing, the retrofit, including any related construction, of each inspection lane and other facility equipment must be completed in accordance with the plans, drawings, and specifications approved by the SCM.",
+      "section": "4.9.4.3.B.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1996,
+      "code": "R-027",
+      "title": "Operational Wait Time system for entire facility",
+      "description": "The Wait Time system must be operational for the entire facility during beta testing.",
+      "section": "4.9.4.3.B.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1997,
+      "code": "R-028",
+      "title": "Inspection/IT equipment properly installed and conform to ATP (full-facility beta)",
+      "description": "During full-facility beta testing, inspection, IT, and other equipment and items required under any Contract resulting from this Solicitation must be properly installed in the inspection lane and conform to the then current ATP.",
+      "section": "4.9.4.3.B.3",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1998,
+      "code": "R-029",
+      "title": "Each inspection lane must meet performance standards",
+      "description": "Each inspection lane, when operating as part of the whole system, must be capable of operating in conformity with the performance standards and criteria set forth in any resulting contract.",
+      "section": "4.9.4.3.B.4",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1999,
+      "code": "R-030",
+      "title": "Facility beta test runs until State accepts results",
+      "description": "The facility beta test shall run until the State accepts the corresponding results before new equipment is rolled out to all CIFs.",
+      "section": "4.9.4.3.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4516,
+      "code": "R-001",
+      "title": "Maintain Legacy EMVIM Program During Transition Period",
+      "description": "During the transition period, the Contractor must maintain the Legacy New Jersey Enhanced Motor Vehicle Inspection Maintenance program described in 1.2.2.1.",
+      "section": "5.2",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 4998,
+      "code": "A-078",
+      "title": "Conduct independent testing of suppliers",
+      "description": "Conduct independent testing and security assessments of supplier technologies and supplier organizations.",
+      "section": "6.10.D",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 7853,
+      "code": "R-047",
+      "title": "Cash discount calculation rules",
+      "description": "If contractor offers cash discounts for expedited payment, discount periods start the next business day after the Using Agency has accepted goods/services, received a properly signed invoice, and when required a properly executed performance security; check date is the State's response date.",
+      "section": "6.3.F",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 5023,
+      "code": "A-103",
+      "title": "Acknowledge replacement of SSTC Section 4.1 Indemnification",
+      "description": "Section 4.1 of the State Standard Terms and Conditions is deleted in its entirety and replaced with the modified indemnification provisions set forth in Section 7.1. Contractor must operate under the revised indemnification clause.",
+      "section": "7.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5047,
+      "code": "V-002",
+      "title": "IP indemnification is exclusive remedy; warranties disclaimed",
+      "description": "The IP indemnification section states the entire obligation of Contractor and the exclusive remedy of the State regarding infringement of IP Rights. Contractor disclaims all warranties, conditions and other terms of non-infringement or title with respect to any product.",
+      "section": "7.1",
+      "priority": "low",
+      "category": "informational"
+    },
+    {
+      "id": 7877,
+      "code": "R-012",
+      "title": "Provide Domestic Preference in Subawards",
+      "description": "If subawards are to be made, to the greatest extent practicable and consistent with law, include a preference for purchase, acquisition, or use of goods, products, or materials produced in the United States (including iron, aluminum, steel, cement, and other manufactured products).",
+      "section": "7.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7947,
+      "code": "R-008",
+      "title": "Exclusive remedy / disclaimer of non-infringement warranties",
+      "description": "Section 8.2 states the entire obligation of Contractor and its suppliers and the exclusive remedy of the State regarding any infringement or alleged infringement of Intellectual Property Rights. The indemnity and remedy are given in lieu of, and Contractor disclaims, all warranties, conditions and o",
+      "section": "8.2.I",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 7969,
+      "code": "R-030",
+      "title": "Hardware standard-new-equipment warranty",
+      "description": "Contractor warrants that equipment offered is standard new equipment, the manufacturer's latest model in production, with parts regularly used and in production, and that no attachment or part has been substituted contrary to manufacturer's recommendations and standard practice.",
+      "section": "8.4.4.a",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8023,
+      "code": "R-028",
+      "title": "Allow State to import/export data without interference",
+      "description": "The State must have the ability to import or export data in piecemeal or entirety at its discretion without interference, including to/from other contractors.",
+      "section": "9.1.13",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8150,
+      "code": "M-001",
+      "title": "Recognize SEIU Local 518 as exclusive bargaining representative",
+      "description": "Parsons Motor Vehicle Inspection and Maintenance Corp. recognizes SEIU Local 518 as the sole and exclusive collective bargaining representative of employees in the specified bargaining units and statewide classifications with respect to wages, hours, and other terms and conditions of employment.",
+      "section": "Article I.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8102,
+      "code": "A-003",
+      "title": "Apply Agreement to new/relocated inspection locations in NJ",
+      "description": "The Agreement shall apply and continue in full force and effect at vehicle inspection locations to which the Employer may move within NJ or to the provision of services at private inspection stations.",
+      "section": "Article I.4",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8103,
+      "code": "A-004",
+      "title": "Apply contract to new or additional inspection stations",
+      "description": "The contract shall apply to any new or additional vehicle inspection stations of the Employer under its principal direction and control within NJ.",
+      "section": "Article I.4",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8133,
+      "code": "A-034",
+      "title": "Notify shop steward and delegate prior to drug/alcohol testing",
+      "description": "Prior to the drug and alcohol testing of any employee, the Employer shall notify the shop steward and delegate.",
+      "section": "Article IV.7",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 8237,
+      "code": "A-060",
+      "title": "Maintain overtime records and provide on request",
+      "description": "The Employer must maintain records of all overtime, rotational order, call status, and total overtime worked/refused by each employee; these must be made available upon request to Union officers, representatives, and affected employees.",
+      "section": "Article IX.10",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8208,
+      "code": "A-037",
+      "title": "Offer vehicle inspection overtime to full-time Lane Techs first",
+      "description": "The Employer must offer Senior Lane Technicians, Lane Technicians and full-time Associate Lane Technicians overtime work related to inspection of vehicles before any other employees, including part-time ALTs; for all other bargaining units, overtime goes to full-time employees with most seniority.",
+      "section": "Article VIII.7",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8209,
+      "code": "A-038",
+      "title": "Schedule minimum 3 employees in single-lane stations",
+      "description": "In stations with only one inspection lane, the Employer must schedule at least three employees including at least one Senior Lane Technician and one Lane Technician.",
+      "section": "Article VIII.8",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8408,
+      "code": "A-009",
+      "title": "Pay out unused sick leave upon retirement or separation",
+      "description": "Upon retirement or separation, accrued but unused sick leave shall be paid to the Employee at the highest rate of pay received during the last year of employment.",
+      "section": "Article XXIX.7",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8454,
+      "code": "A-045",
+      "title": "Provide full union release time for safety inspection designees",
+      "description": "Except first and last two business days of each month, Employer shall provide full union release time to up to five Union delegates/officers/representatives designated for safety inspections; a sixth may be designated for the 2nd and 3rd weeks of each month.",
+      "section": "Article XXXIV.4",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8456,
+      "code": "A-046",
+      "title": "Comply with safety inspection reporting requirements",
+      "description": "Employees assigned to safety inspections shall comply with reporting requirements reasonably imposed by the Employer and discuss findings at end of work day; findings shall not be the basis for discipline.",
+      "section": "Article XXXIV.4",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8457,
+      "code": "A-047",
+      "title": "Reimburse safety inspection mileage and tolls up to $20,000/year",
+      "description": "Employer will reimburse Employees for automobile mileage and toll expenses for safety inspections; total reimbursements shall not exceed $20,000 per contract year; unused amounts do not carry over.",
+      "section": "Article XXXIV.4",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8474,
+      "code": "A-062",
+      "title": "Pay unused vacation upon separation or retirement",
+      "description": "Upon separation or retirement, Employee is entitled to payment for unused vacation time prorated based on months worked, plus any vacation carried over from preceding year.",
+      "section": "Article XXXV.4",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8480,
+      "code": "A-067",
+      "title": "Pay higher classification rate for assignments over 3 consecutive days",
+      "description": "Any Lane Technician or Associate Lane Technician assigned to work in a higher classification for more than 3 consecutive days shall be paid at the higher classification rate for the entire duration of the assignment.",
+      "section": "Article XXXVI",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6878,
+      "code": "A-043",
+      "title": "Set aaChgICD to indicate oldStickerDate vs Prev IED",
+      "description": "Set Temp.aaChgICD to 'E' when using Prev IED or 'Y' when using oldStickerDate.",
+      "section": "Begin Test Cycle Data - aaChgICD",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6928,
+      "code": "R-006",
+      "title": "aaCycleBeg used in both BeginTest and EndTest rules with different semantics",
+      "description": "Temp.aaCycleBeg is used in both BeginTest and EndTest rulesets and has a different use/value in the EndTest rules than in the BeginTest rules.",
+      "section": "Begin Test Cycle Data - aaCycleBeg dual use",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6882,
+      "code": "A-047",
+      "title": "Set aaCycleEnd to today +2 months EOM",
+      "description": "Temp.aaCycleEnd must be set to today + 2 months, last day of the month.",
+      "section": "Begin Test Cycle Data - aaCycleEnd",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6883,
+      "code": "A-048",
+      "title": "Set aaCycleFutEnd to today + cycle length + 2 months EOM",
+      "description": "Temp.aaCycleFutEnd must be set to today + cycle length + 2 months, last day of the month.",
+      "section": "Begin Test Cycle Data - aaCycleFutEnd",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6884,
+      "code": "A-049",
+      "title": "Set aaCycleInvalid to today + 61 months EOM",
+      "description": "Temp.aaCycleInvalid must be set to today + 61 months, last day of the month, as the last date for a valid dealer sticker.",
+      "section": "Begin Test Cycle Data - aaCycleInvalid",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6885,
+      "code": "A-050",
+      "title": "Restrict aaOffset range to -11 to +11",
+      "description": "The aaOffset value, representing the difference between the current month and sticker date month, must be within -11 to +11.",
+      "section": "Begin Test Cycle Data - aaOffset",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6929,
+      "code": "R-007",
+      "title": "aaOffset used in both BeginTest and EndTest rulesets with different semantics",
+      "description": "Temp.aaOffset is set and used in both the BeginTest and the EndTest rulesets, with a different use/value in the EndTest rules.",
+      "section": "Begin Test Cycle Data - aaOffset dual use",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6869,
+      "code": "A-034",
+      "title": "Set cycleStartDate as last day of the month beginning the cycle",
+      "description": "cycleStartDate marks the beginning of a vehicle's current cycle, defined as the last day of the month that begins the cycle.",
+      "section": "Begin Test Cycle Data - cycleStartDate",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6875,
+      "code": "A-040",
+      "title": "Treat sticker dates more than 5 years future as error",
+      "description": "A vehicle with a sticker date more than five years in the future is in error and follows the same recalculation rule.",
+      "section": "Begin Test Cycle Data - cycleStartDate",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6926,
+      "code": "R-004",
+      "title": "Worked example: 10/2010 sticker presented in 2009 yields cycleStartDate 10/31/2008",
+      "description": "For an off-cycle future vehicle example, a vehicle with a 10/2010 sticker presented in 2009 nominally passed in 2008, so the cycleStartDate is set to 10/31/2008.",
+      "section": "Begin Test Cycle Data - cycleStartDate Example",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6877,
+      "code": "A-042",
+      "title": "Set inspExpirationDateCycle values per vehicle type",
+      "description": "Set inspExpirationDateCycle (cycle length in months) to 6 for buses, 12 for commercial vehicles and omnibus2s, and 24 for everything else.",
+      "section": "Begin Test Cycle Data - inspExpirationDateCycle",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6898,
+      "code": "A-063",
+      "title": "Change inspProgramType to DC and force one-year sticker for heavy duty diesel trucks",
+      "description": "For heavy duty diesel trucks, change the inspProgramType to DC and set vehicleCategory to 'comm' to force a one-year sticker.",
+      "section": "Begin Test Cycle Notes - CheckForDC",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6900,
+      "code": "A-065",
+      "title": "Validate inspProgramType against facility type and pifClass",
+      "description": "Check whether inspProgramType is valid at the current facility based on facility type and pifClass; invalid combinations must terminate the rules.",
+      "section": "Begin Test Cycle Notes - CheckPgmTypeAndFacility",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 6901,
+      "code": "A-066",
+      "title": "Validate vehicle configuration against inspProgramType for non-bus",
+      "description": "For non-bus vehicles, check whether the vehicle configuration is valid for the inspProgramType; invalid combinations must terminate the rules.",
+      "section": "Begin Test Cycle Notes - CheckPgmTypeAndVehicle_Std",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 6886,
+      "code": "A-051",
+      "title": "Add TempHold entity to Inspection",
+      "description": "Add a TempHold entity to the Inspection to hold temporary attributes during processing.",
+      "section": "Begin Test Cycle Notes - CycleInitialize",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6889,
+      "code": "A-054",
+      "title": "Terminate ruleset when required attributes are null/invalid",
+      "description": "Certain attributes must have valid non-null values; if they do not, the CycleValidation_v5 rulesheet must terminate the ruleset.",
+      "section": "Begin Test Cycle Notes - CycleValidation_v5",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 6903,
+      "code": "A-068",
+      "title": "Set dates required to calculate cycle/expiration and aaChgICD",
+      "description": "Set certain dates required to calculate cycle and expiration dates, and set temp value aaChgICD to control whether old sticker date or old inspExpirationDate is used.",
+      "section": "Begin Test Cycle Notes - SetCurrMonth",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6902,
+      "code": "A-067",
+      "title": "Set cycle length based on vehicleCategory and inspProgramType",
+      "description": "Set the cycle length (6, 12, or 24 months) based on vehicleCategory and inspProgramType.",
+      "section": "Begin Test Cycle Notes - SetCycleLength",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6930,
+      "code": "R-008",
+      "title": "Include DC/norm combination for completeness even though it does not occur",
+      "description": "The combination of inspProgramType DC with vehicleCategory 'norm' does not occur but must be included for completeness in the SetCycleLength rulesheet.",
+      "section": "Begin Test Cycle Notes - SetCycleLength DC/norm",
+      "priority": "low",
+      "category": "mandatory"
+    },
+    {
+      "id": 6931,
+      "code": "R-009",
+      "title": "SetCycleStartDate_2 handles non-bus out-of-range dates (>22 months old or >2 months future)",
+      "description": "SetCycleStartDate_2 runs for non-bus vehicles when the dates are out of range \u2014 for example, more than 22 months old or more than 2 months in the future \u2014 and sets the cycleStartDate month/year based on the offset value from SetCycleStartDate_1.",
+      "section": "Begin Test Cycle Notes - SetCycleStartDate_2 range",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6932,
+      "code": "R-010",
+      "title": "SetCycleStartDate_3 handles bus out-of-range dates (>4 months old or >2 months future)",
+      "description": "SetCycleStartDate_3 runs for bus vehicles when the dates are out of range \u2014 for example, more than 4 months old or more than 2 months in the future \u2014 and sets the cycleStartDate based on the offset value from SetCycleStartDate_1.",
+      "section": "Begin Test Cycle Notes - SetCycleStartDate_3 range",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6934,
+      "code": "R-012",
+      "title": "Inspection cycle type code values: 'I' initial and 'R' retest",
+      "description": "SetInspCycleTypeCode must set the cycle type as 'I' (initial) or 'R' (retest) based on previous inspection data.",
+      "section": "Begin Test Cycle Notes - SetInspCycleTypeCode values",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6933,
+      "code": "R-011",
+      "title": "Inspection mode code values: 'C' cycle test and 'O' off-cycle",
+      "description": "SetInspModeCode must set the inspection mode as 'C' (cycle test) or 'O' (off-cycle) based on previous inspection data.",
+      "section": "Begin Test Cycle Notes - SetInspModeCode values",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6894,
+      "code": "A-059",
+      "title": "Default mvcRegCode for bus inspections based on inspProgramType",
+      "description": "For bus inspections, set a default mvcRegCode if none was entered, based on inspProgramType (CB or SB).",
+      "section": "Begin Test Cycle Notes - SetNullMvcRegCode_Bus",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6893,
+      "code": "A-058",
+      "title": "Default mvcRegCode for IM inspections based on indicators",
+      "description": "For IM inspections, set a default mvcRegCode if none was entered, based on the commercial, transport, and omni2 indicators.",
+      "section": "Begin Test Cycle Notes - SetNullMvcRegCode_IM",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6895,
+      "code": "A-060",
+      "title": "Set vehicleCategory for bus inspections",
+      "description": "For bus inspections, set the vehicleCategory based on inspProgramType (CB or SB).",
+      "section": "Begin Test Cycle Notes - SetVehicleCategory_Bus_v5",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6899,
+      "code": "A-064",
+      "title": "Set vehicleCategory for IM; terminate on invalid combinations",
+      "description": "For IM inspections, set the vehicleCategory based on mvcRegCode and the three indicators; invalid combinations must cause the rules to terminate.",
+      "section": "Begin Test Cycle Notes - SetVehicleCategory_IM_v5c",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 6896,
+      "code": "A-061",
+      "title": "Set vehicleCategory to 'norm' for motorcycles",
+      "description": "For motorcycles, the vehicleCategory must be set to 'norm'.",
+      "section": "Begin Test Cycle Notes - SetVehicleCategory_MC_v5",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6945,
+      "code": "R-023",
+      "title": "Select primary EM tests for IM inspections based on vehicle attributes",
+      "description": "When inspProgramType is 'IM', based on vehicleSize, fuelType, vehicleYear, and omni2Indicator set CurrInsp.primaryEmTestCode, primaryEmTestRequired, primaryEmResult = N when Required = F, and safetyTestType. Invalid combinations must allow re-entry or termination.",
+      "section": "Begin Test Selection - PrimaryTestSelection_IM",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 6904,
+      "code": "A-069",
+      "title": "Initialize values for BeginTestSelection ruleset",
+      "description": "Initialize all values required for the BeginTestSelection ruleset at the start of execution.",
+      "section": "Begin Test Selection - TestSelectionInit1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6905,
+      "code": "A-070",
+      "title": "Add a TempHold entity",
+      "description": "Add a TempHold entity at the start of the BeginTestSelection ruleset.",
+      "section": "Begin Test Selection - TestSelectionInit1",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6943,
+      "code": "R-021",
+      "title": "Validate required attributes and terminate on invalid values",
+      "description": "Check the following for valid values and terminate on any invalid value: CurrInsp.inspProgramType, CurrVehicle.vehicleSize, CurrVehicle.fuelType, CurrVehicle.vehicleYear (not null), CurrVehicle.omni2Indicator, CurrFacility.facilityProgramCode, CurrFacility.pifClassCode, CurrWkstn.gasbenchTestAllowed",
+      "section": "Begin Test Selection - TestSelectionValidate",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 6819,
+      "code": "A-052",
+      "title": "Change inspTypeCode and inspProgramType to 'DC' for HD Diesel",
+      "description": "CheckForDC must run only if inspProgramType='IM' and for HD Diesel vehicles change inspTypeCode and inspProgramType to 'DC'.",
+      "section": "BeginTestCycle - CheckForDC",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6821,
+      "code": "A-054",
+      "title": "Validate Program Type and Facility Combination",
+      "description": "CheckPgmTypeAndFacility must compare inspProgramType, facilityType, and pifClassCode for validity; invalid combination allows re-entry or termination.",
+      "section": "BeginTestCycle - CheckPgmTypeAndFacility",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6822,
+      "code": "A-055",
+      "title": "Validate Program Type and Vehicle Configuration for Non-Bus",
+      "description": "CheckPgmTypeAndVehicle_Std must run for non-bus and compare inspProgramType, vehicleSize, fuelType, and omni2Indicator for validity; some invalid combinations cause termination, others allow re-entry or termination.",
+      "section": "BeginTestCycle - CheckPgmTypeAndVehicle_Std",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6810,
+      "code": "A-043",
+      "title": "Terminate for Invalid Codes in CycleValidation_v5",
+      "description": "CycleValidation_v5 must terminate for invalid pifClassCode, invalid inspTypeCode, invalid facilityType, invalid fuelCode, and invalid vehicleGVWR<=0.",
+      "section": "BeginTestCycle - CycleValidation_v5",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6824,
+      "code": "A-057",
+      "title": "Set Reference Dates and aaChgICD",
+      "description": "SetCurrMonth must set reference dates (aaCurrMonth, aaCycleBeg, aaCycleEnd, aaCycleFutEnd) and set aaChgICD to 'E' or 'Y' based on PrevInsp.chgICDCode. Note: inspDate is used instead of today to ease testing.",
+      "section": "BeginTestCycle - SetCurrMonth",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6923,
+      "code": "R-001",
+      "title": "Compute aaCycleFutEnd using inspDate + 2 + inspExpirationDateCycle months EOM",
+      "description": "Temp.aaCycleFutEnd must be calculated as CurrInsp.inspDate.addMonths(2 + CurrInsp.inspExpirationDateCycle).eom.",
+      "section": "BeginTestCycle - SetCurrMonth date calculations",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6924,
+      "code": "R-002",
+      "title": "Compute aaCycleInvalid using inspDate + 61 months EOM",
+      "description": "Temp.aaCycleInvalid must be calculated as CurrInsp.inspDate.addMonths(61).endOfMonth.",
+      "section": "BeginTestCycle - SetCurrMonth date calculations",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6823,
+      "code": "A-056",
+      "title": "Set inspExpirationDateCycle Length",
+      "description": "SetCycleLength must set inspExpirationDateCycle length based on vehicleCategory and inspProgramType.",
+      "section": "BeginTestCycle - SetCycleLength",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6845,
+      "code": "A-010",
+      "title": "Evaluate Prev IED and oldStickerDate against five date ranges",
+      "description": "Compare the Prev IED and oldStickerDate against the five defined date ranges (invalid past, current cycle, next cycle, dealer cycle, invalid future) using aaCycleBeg, aaCycleEnd, aaCycleFutEnd, and aaCycleInvalid.",
+      "section": "BeginTestCycle - SetCycleStartDate_1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6852,
+      "code": "A-017",
+      "title": "Set cycleStartDate from one of three computed dates",
+      "description": "The cycleStartDate must be set to one of aaDateCurr, aaDatePrev, or aaDateNext based on aaOffset.",
+      "section": "BeginTestCycle - SetCycleStartDate_2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6811,
+      "code": "A-044",
+      "title": "Set fuelType Based on fuelCode",
+      "description": "SetFuelType rule sheet must set fuelType based on fuelCode.",
+      "section": "BeginTestCycle - SetFuelType",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6859,
+      "code": "A-024",
+      "title": "Set inspExtentCode based on inspCycleTypeCode",
+      "description": "Set inspExtentCode from the value of inspCycleTypeCode.",
+      "section": "BeginTestCycle - SetInspExtentCode",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6860,
+      "code": "A-025",
+      "title": "Run only when inspCycleTypeCode is retest",
+      "description": "SetInspExtentCodeBusExpire must run only if inspCycleTypeCode is 'retest'.",
+      "section": "BeginTestCycle - SetInspExtentCodeBusExpire",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6861,
+      "code": "A-026",
+      "title": "Run only for bus inspProgramType",
+      "description": "SetInspExtentCodeBusExpire must run only when the inspProgramType is for a bus.",
+      "section": "BeginTestCycle - SetInspExtentCodeBusExpire",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6815,
+      "code": "A-048",
+      "title": "Set Default mvcRegCode for Bus",
+      "description": "SetNullMvcRegCode_Bus must run only for bus with mvcRegCode=0 and set default mvcRegCode based on inspProgramType.",
+      "section": "BeginTestCycle - SetNullMvcRegCode_Bus",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6814,
+      "code": "A-047",
+      "title": "Set Default mvcRegCode for Non-Bus (IM)",
+      "description": "SetNullMvcRegCode_IM must run only for non-bus with mvcRegCode=0 and set default mvcRegCode based on commercialIndicator, transportIndicator, and omni2Indicator.",
+      "section": "BeginTestCycle - SetNullMvcRegCode_IM",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6813,
+      "code": "A-046",
+      "title": "Set inspProgramType Based on inspTypeCode",
+      "description": "SetProgramType rule sheet must set CurrInsp.inspProgramType based on CurrInsp.inspTypeCode.",
+      "section": "BeginTestCycle - SetProgramType",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6816,
+      "code": "A-049",
+      "title": "Set Bus Vehicle Category",
+      "description": "SetVehicleCategory_Bus_v5 must run only for bus inspProgramType, compare mvcRegCode and inspProgramType for validity, and set CurrVehicle.vehicleCategory to 'cbus' or 'sbus'; invalid combinations allow re-entry or termination.",
+      "section": "BeginTestCycle - SetVehicleCategory_Bus_v5",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6820,
+      "code": "A-053",
+      "title": "Set IM Vehicle Category",
+      "description": "SetVehicleCategory_IM_v5c must run only for IM inspProgramType, compare mvcRegCode, omni2Indicator, transportIndicator, and commercialIndicator for validity, and set CurrVehicle.vehicleCategory to 'comm', 'norm', 'trans', or 'omni'; invalid combinations allow re-entry or termination.",
+      "section": "BeginTestCycle - SetVehicleCategory_IM_v5c",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6817,
+      "code": "A-050",
+      "title": "Set Motorcycle Vehicle Category",
+      "description": "SetVehicleCategory_MC_v5 must run only for motorcycle inspProgramType and set CurrVehicle.vehicleCategory to 'norm'.",
+      "section": "BeginTestCycle - SetVehicleCategory_MC_v5",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6812,
+      "code": "A-045",
+      "title": "Set vehicleSize Based on vehicleGVWR",
+      "description": "SetVehicleSize rule sheet must set vehicleSize based on vehicleGVWR.",
+      "section": "BeginTestCycle - SetVehicleSize",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 5730,
+      "code": "A-068",
+      "title": "Conduct Remote Observation Audits",
+      "description": "Remote Observation Audits are unannounced audits performed by stationing auditor(s) at a discreet distance from a Central Lane to observe the inspection process.",
+      "section": "CIF Audits",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 7098,
+      "code": "A-054",
+      "title": "Define aaCycleBeg",
+      "description": "aaCycleBeg marks the earliest date a vehicle can be inspected relative to its cycleStartDate; previous inspections earlier than this date are ignored; it is cycleStartDate - 2 months, first day of the month.",
+      "section": "Data Dictionary - aaCycleBeg",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 5393,
+      "code": "R-017",
+      "title": "Do not lift vehicles without appropriate lifting points",
+      "description": "Vehicles with a full plastic covering that completely obscures the front suspension undercarriage, or with other obstructing objects (e.g., steering dampeners), must not be lifted.",
+      "section": "Do Not Lift Vehicles",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 5395,
+      "code": "R-019",
+      "title": "Notify station manager for no-lift decision on vehicles over 50,000 miles",
+      "description": "Whenever an inspector decides not to lift a vehicle which has over 50,000 miles, the inspector must immediately notify the station manager.",
+      "section": "Do Not Lift Vehicles",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5396,
+      "code": "R-020",
+      "title": "Turn off air suspension before lifting",
+      "description": "If a vehicle is suspected to have air suspension (identified by absence of coil springs and presence of bellow-type bags and air hoses), the air suspension should be turned off before lifting.",
+      "section": "Do Not Lift Vehicles - Air Suspension",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6761,
+      "code": "R-083",
+      "title": "Display Facility Contact Information (South Brunswick Example)",
+      "description": "The inspection report template must display facility contact info including address (2236 Route 130, Dayton, NJ 08810), phone (888-656-6867), Facility ID (CIF000123 example), and Workstation ID (CL009200 example).",
+      "section": "Facility Info - South Brunswick",
+      "priority": "low",
+      "category": "mandatory"
+    },
+    {
+      "id": 6807,
+      "code": "A-040",
+      "title": "Support Two Inspection Cycles (Current Date and Sticker Date)",
+      "description": "Two cycles must affect the inspection process: one relative to the current date/month allowing on-cycle inspection up to two months prior to sticker expiration, and one relative to the vehicle's sticker date for 6/12/24 month activity with the two-month early window.",
+      "section": "General Notes - 11",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6833,
+      "code": "A-066",
+      "title": "Allow On-Cycle Inspection Up to Two Months Prior to Sticker Expiration",
+      "description": "A vehicle must be allowed to be inspected 'on-cycle' up to two months prior to its sticker expiration date (e.g., in March vehicles with a May sticker can be inspected on-cycle, but a June vehicle would be off-cycle).",
+      "section": "General Notes - 11",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6805,
+      "code": "A-038",
+      "title": "Set testExtentCode to 'T' on Warning or Violation",
+      "description": "When a Warning or Violation is set, the testExtentCode must also be set to 'T'.",
+      "section": "General Notes - 9",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5522,
+      "code": "R-028",
+      "title": "Keep lift free of corrosive agents and solvents",
+      "description": "Failure to keep lift free of corrosive agents and solvents will lead to reduced service life that could cause property damage or personal injury.",
+      "section": "Important",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6685,
+      "code": "R-007",
+      "title": "Perform Test in Conformance with Federal Clean Air Act Section 207(b)",
+      "description": "The emissions inspection test must be performed in conformance with section 207(b) of the Federal Clean Air Act.",
+      "section": "Inspection Conformance",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 5386,
+      "code": "R-010",
+      "title": "Ensure vehicle centered so plate contacts each control arm",
+      "description": "The inspector must ensure that the vehicle is centered on the lift plate so the plate contacts each side of the vehicle's control arms respectively.",
+      "section": "Lifting Points - Control Arms",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5385,
+      "code": "R-009",
+      "title": "Verify vehicle centered on lift to contact both frame rails",
+      "description": "The inspector must verify that the vehicle is centered on the lift sufficiently that the lift plate will contact the right and left side frame rails.",
+      "section": "Lifting Points - Frame Rails",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5387,
+      "code": "R-011",
+      "title": "License plate centering procedure may not apply to solid axle vehicles",
+      "description": "On solid axle/4WD vehicle types, the license plate centering procedure might not be the best lineup; inspectors must look for good lifting points on both sides rather than relying on the standard centering method.",
+      "section": "Lifting Points - Solid Axle",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 5377,
+      "code": "R-001",
+      "title": "Push lift handle down forcefully and fully when lowering",
+      "description": "To lower the lift, the handle must be pushed down forcefully and fully to allow maximum air to escape out of the lift assembly, ensuring a quicker descent rate.",
+      "section": "Lowering the Lift",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 5516,
+      "code": "R-022",
+      "title": "Weekly inspection of jack and components",
+      "description": "Inspect the jack and its components weekly for damage or excessive wear, and replace parts as required.",
+      "section": "Maintenance",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5404,
+      "code": "R-028",
+      "title": "Manager to email Manager of Training for no-lift list additions",
+      "description": "When a manager determines a vehicle cannot be lifted or requires special handling, the manager must email the Manager of Training requesting the vehicle be added to the list.",
+      "section": "No Lift Notification",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5506,
+      "code": "R-012",
+      "title": "Cycle jack before lifting vehicle",
+      "description": "Before lifting a vehicle, operate the jack through a couple of cycles to become familiar with the controls.",
+      "section": "Operation",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 5670,
+      "code": "A-008",
+      "title": "Cease testing immediately upon QC/QA audit failure",
+      "description": "The contractor shall immediately cease vehicle testing at any lane or station where equipment or system fails a quality control or quality assurance audit.",
+      "section": "QC/QA Audit Failure",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7137,
+      "code": "A-008",
+      "title": "Reset previous inspection attributes to null",
+      "description": "The system shall execute the three reset steps (ResetPrevICD_Null, ResetPrevEmCD_Null, ResetPrevSafetyCD_Null) to reset previous inspection attributes back to null.",
+      "section": "ResetPrevICD_Null / ResetPrevEmCD_Null / ResetPrevSafetyCD_Null",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5505,
+      "code": "R-011",
+      "title": "Install spacer at base of post for non-Challenger lifts if jack touches ground",
+      "description": "After the jack is installed on the hoist rails, lower the hoist to its lowest position. If the jack touches the ground, a spacer is required at the base of each post to keep the runway from lowering. Spacers can be ordered in different sizes (common sizes used are 1 inch tall and \u00bd inch tall).",
+      "section": "Runway Spacer",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 5398,
+      "code": "R-022",
+      "title": "Engine OFF, transmission in NEUTRAL, parking brake OFF before lifting",
+      "description": "Ensure the engine is OFF, the transmission is in NEUTRAL, and the parking brake is OFF before lifting the vehicle.",
+      "section": "Safe Lifting Procedures",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 5380,
+      "code": "R-004",
+      "title": "Raise lift to release safety locks when lift will not lower",
+      "description": "If the air extinguishes but the lift plate does not lower, the inspector must raise the lift back up slightly to allow the safety locks to release automatically.",
+      "section": "Safety Locks",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5381,
+      "code": "R-005",
+      "title": "Retry lifting higher than first attempt if lift will not lower",
+      "description": "If the lift still does not lower after the first release attempt, retry lifting the vehicle higher than the first attempt and then lowering.",
+      "section": "Safety Locks",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8521,
+      "code": "A-001",
+      "title": "State Treasurer to choose one of three program responsibility options",
+      "description": "The State Treasurer must select one of three specified options (full State responsibility, contract with private contractor, or partial State responsibility with contractor) for the design, construction, renovation, equipment, establishment, maintenance, and operation of official inspection faciliti",
+      "section": "Section 1 (C.39:8-44 a.)",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 8528,
+      "code": "A-008",
+      "title": "Contractor prohibition on motor vehicle sales, maintenance, repair, or parts business",
+      "description": "A contractor operating an official inspection facility, and any of its officers or employees, must not be engaged in the business of selling, maintaining, or repairing motor vehicles or selling motor vehicle replacement or repair parts.",
+      "section": "Section 1 (C.39:8-44 b.(4))",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 8531,
+      "code": "A-011",
+      "title": "Site new or relocated inspection facilities near population centers",
+      "description": "New or relocated inspection facilities must be sited close to population centers, but in locations that remain convenient for suburban and rural residents.",
+      "section": "Section 1 (C.39:8-44 c.(1))",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8532,
+      "code": "A-012",
+      "title": "Operate inspection facility at least 55 hours per week with extended and weekend hours",
+      "description": "An inspection facility must be open for inspections, exclusive of holidays, at least 55 hours each week, including hours before 9:00 a.m. or after 5:00 p.m. on weekdays and hours on the weekend, subject to survey-based adjustments.",
+      "section": "Section 1 (C.39:8-44 c.(2))",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8533,
+      "code": "A-013",
+      "title": "Maintain climate-controlled waiting area",
+      "description": "An inspection facility must maintain a climate-controlled waiting area for persons whose motor vehicles are being inspected.",
+      "section": "Section 1 (C.39:8-44 c.(3))",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8534,
+      "code": "A-014",
+      "title": "Reserve at least one lane for reinspections",
+      "description": "At least one lane at each inspection facility must be reserved to the extent practicable for reinspections, though the lane may be opened to initial inspections when no reinspections are being performed.",
+      "section": "Section 1 (C.39:8-44 c.(4))",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8535,
+      "code": "A-015",
+      "title": "Justify increases in inspection lanes by cost-effectiveness",
+      "description": "The number of inspection lanes in the contract to be constructed may be increased to meet the Chief Administrator's standards only if the contractor can show the increase is more cost-effective than extending operating hours.",
+      "section": "Section 1 (C.39:8-44 c.(5))",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8536,
+      "code": "A-016",
+      "title": "Establish toll-free number and computerized sign network for wait times",
+      "description": "A toll-free telephone number and a network of computerized signs must be established, and public service announcements must be aired to advise motorists of the length of lines at inspection facilities.",
+      "section": "Section 1 (C.39:8-44 c.(6))",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8538,
+      "code": "A-018",
+      "title": "Provide required written EPA-disclosure document to each motorist",
+      "description": "Each motor vehicle operator who arrives at a facility for an inspection must be provided with a written document containing the exact statement regarding the federal imposition of the emission test.",
+      "section": "Section 1 (C.39:8-44 c.(6))",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8542,
+      "code": "A-022",
+      "title": "Offer employment proportional to inspection lanes operated when multiple contracts awarded",
+      "description": "If more than one contract for operation of official inspection facilities is awarded, each contractor must offer full-time employment to a percentage of terminated employees equal to the percentage of total inspection lanes that will be operated by that contractor.",
+      "section": "Section 1 (C.39:8-44 c.(7))",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8530,
+      "code": "A-010",
+      "title": "Provide consumer-friendly motor vehicle inspection services",
+      "description": "A contract for operation of an official inspection facility must provide for motor vehicle inspection services that are consumer-friendly to the maximum extent feasible.",
+      "section": "Section 1 (C.39:8-44 c.)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8543,
+      "code": "A-023",
+      "title": "Chief Administrator to adopt regulations governing contractor inspections",
+      "description": "The chief administrator must adopt regulations pursuant to the Administrative Procedure Act to establish the conduct of inspections by any person who has entered into a contract with the State.",
+      "section": "Section 1 (C.39:8-44 d.)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8546,
+      "code": "A-026",
+      "title": "Data at inspection facilities is State property accessible to MVC",
+      "description": "Data generated at any official inspection facility is the property of the State and must be fully accessible to the New Jersey Motor Vehicle Commission at any time.",
+      "section": "Section 1 (C.39:8-44 d.)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8550,
+      "code": "A-030",
+      "title": "Offer employment first to existing qualified CBA-covered employees on contract renewal/new award",
+      "description": "For any contract renewal or award of a new contract involving operation of an official inspection facility in New Jersey, existing qualified employees covered by a collective bargaining agreement must be the first to be offered employment to meet the staffing requirements (as determined by the emplo",
+      "section": "Section 1 (C.39:8-44 g.)",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 8496,
+      "code": "R-015",
+      "title": "Review Bid Solicitation and submit questions before deadline",
+      "description": "Bidders must review the Bid Solicitation in its entirety and submit any questions, including exceptions to the SSTC, prior to the deadline.",
+      "section": "Section 2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8554,
+      "code": "A-034",
+      "title": "Commission may alter solicitation terms via addenda without reissuance",
+      "description": "For any solicitation issued on or before the effective date of this act, or within six months thereafter, involving operation of an official inspection facility, if the commission or its designee determines alteration of terms/conditions/requirements is necessary to conform to this act, such alterat",
+      "section": "Section 2 (New section)",
+      "priority": "high",
+      "category": "informational"
+    },
+    {
+      "id": 5390,
+      "code": "R-014",
+      "title": "Ensure low-hanging exhaust is not lifted first",
+      "description": "The inspector must ensure that the exhaust is not hanging too low and that the lift plate will not contact and lift the car first from the low hanging exhaust system.",
+      "section": "Special Lifting Situations",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5391,
+      "code": "R-015",
+      "title": "Use enclosed rubber lifting blocks when clearance is needed",
+      "description": "In cases where low-hanging components (such as exhaust) interfere, the inspector must slide the enclosed rubber lifting blocks between the lift plate and the appropriate lifting point to allow adequate clearance.",
+      "section": "Special Lifting Situations",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6679,
+      "code": "R-001",
+      "title": "Present Official Inspection Record for Reinspection",
+      "description": "The vehicle inspection report must be presented if the vehicle is to be reinspected, as it constitutes an official record.",
+      "section": "Vehicle Inspection Report",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6681,
+      "code": "R-003",
+      "title": "Correct Advisory Conditions Within 60 Days",
+      "description": "The vehicle owner must correct advisory condition(s) within 60 days from the date of inspection, or the vehicle may be cited for failure to make repairs pursuant to NJSA 39:8-9.",
+      "section": "Vehicle Inspection Report - Advisory",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6745,
+      "code": "R-067",
+      "title": "Mark Advisory Conditions with Code 'A' in VID (INSP_CONDITIONS Table)",
+      "description": "Advisory conditions shown on the inspection report must correspond to codes having 'A' in the VID INSP_CONDITIONS table.",
+      "section": "Vehicle Inspection Report - Advisory Codes",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6747,
+      "code": "R-069",
+      "title": "Label Duplicate Vehicle Inspection Reports",
+      "description": "When the inspection report is reprinted as a duplicate, it must be clearly labeled 'Vehicle Inspection Report <(Duplicate)>'.",
+      "section": "Vehicle Inspection Report - Duplicate",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6741,
+      "code": "R-063",
+      "title": "Display Primary and Secondary Emissions Test Results",
+      "description": "The inspection report must display the Primary Emission Test Performed (e.g., OBD, Snap Opacity, IDLE) and Secondary Emissions Test(s) Performed including Gas Cap, Tampering, Visible Smoke, Liquid Leak, Indicator Light, and Misc. Emissions results.",
+      "section": "Vehicle Inspection Report - Emissions Tests",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6759,
+      "code": "R-081",
+      "title": "Display Gas Cap Result as N/A for OBD Primary Test",
+      "description": "When the primary emission test is OBD, Snap Opacity, or IDLE, the Gas Cap secondary test result must display as 'N/A' on the report.",
+      "section": "Vehicle Inspection Report - Gas Cap N/A",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6742,
+      "code": "R-064",
+      "title": "Display Idle Mode Gas Readings (HC, CO%, CO2%, O2)",
+      "description": "For vehicles tested in IDLE mode, the report must display gas readings and standard results for HC, CO%, CO2%, and O2.",
+      "section": "Vehicle Inspection Report - Idle Test",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6744,
+      "code": "R-066",
+      "title": "Display Inspector Name and ID on Report",
+      "description": "The inspection report must show the Inspector's name and Inspector ID (e.g., ERIC K. GOEBEL INL000703).",
+      "section": "Vehicle Inspection Report - Inspector",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6760,
+      "code": "R-082",
+      "title": "Provide Explanation Section for Misc. Emissions Findings",
+      "description": "The report must include an EXPLANATION section for Misc. Emissions items marked 'See Explanation'.",
+      "section": "Vehicle Inspection Report - Misc Emissions Explanation",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 6743,
+      "code": "R-065",
+      "title": "Display Snap Opacity Reading, Standard, and Result",
+      "description": "For vehicles with Primary Emission Test of Snap Opacity, the report must display the FINAL opacity reading (average value), Standard, and Result.",
+      "section": "Vehicle Inspection Report - Opacity",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6748,
+      "code": "R-070",
+      "title": "Display PASS-Advisory Final Result When Advisory Conditions Present",
+      "description": "When advisory safety conditions are identified, the inspection report must display 'FINAL RESULT: PASS-Advisory' along with the overall safety, emissions, and credentials results.",
+      "section": "Vehicle Inspection Report - Pass Advisory",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6740,
+      "code": "R-062",
+      "title": "Display Final Result and Overall Safety/Emissions/Credentials Results",
+      "description": "The inspection report must display the FINAL RESULT along with Overall Safety Results, Overall Emissions Result, and Credentials results.",
+      "section": "Vehicle Inspection Report - Results",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 6766,
+      "code": "R-088",
+      "title": "Example Data Placeholders (VIN ABPL265FW11429301, Plate GFFD592)",
+      "description": "Sample barcode values use VIN 'ABPL265FW11429301', Registration Plate 'GFFD592\u03b2\u03b2\u03b2', and Inspection Expiration Date '20161130' \u2014 contractors must support these example formats including \u03b2 character padding.",
+      "section": "Vehicle Inspection Report - Sample VIN and Plate",
+      "priority": "low",
+      "category": "mandatory"
+    }
+  ],
+  "parsons_evidence": [
+    {
+      "chunk_id": 1926,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 1,
+      "content": "TECHNICAL PROPOSAL ELECTRONIC\nEMISSIONS PROGRAM\nMANAGEMENT\nRFP NUMBER 3522R12 / 2023\nPennsylvania Department of Transportation\nTECHNICAL PROPOSAL | ELECTRONIC"
+    },
+    {
+      "chunk_id": 1927,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 2,
+      "content": "5340 Jaycee Avenue, Suite E, Harrisburg, PA 17112\n+1 717.565.7500 /Direct: +1 416.676.179 / www.parsons.com\nDecember 5, 2023\nDawn Grabuloff\nPennsylvania Department of Transportation\nBureau of Office Services\n400 North St., Keystone Bldg. 5th Floor\nHarrisburg PA 17120\nSubject: Solicitation 3522R12, Emissions Program Management\nDear Ms. Grabuloff,\nParsons Transportation Group Inc. (Parsons) is pleased to provide this proposal to the Pennsylvania Department of\nTransportation (PennDOT), Bureau of Office Services, in response to Request for Proposal (RFP) Number 3522R12\nfor Emissions Program Management.\nOur commitment to PennDOT is to continue delivering an effective Pennsylvania Vehicle Emissions Inspection and\nMaintenance Program and to innovate responsibly to move the Program forward. Building on our past performance,\nwe will implement new, cloud-based VIID systems and improved auditing infrastructure that efficiently gets Program\ndata to PennDOT. Our upgrades to the e-SAFETY system will support the enhanced safety inspection Program\ncompliance. We will upgrade our call center solution with new technology using ZenDesk and AmazonConnect as\nthe backbone of the system.\nOur Program Mana"
+    },
+    {
+      "chunk_id": 1931,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 3,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nnization with Certainty\nTECHNICAL PROPOSAL \u2013 TABLE OF CONTENTS\nEXECUTIVE SUMMARY ................................................................................................................................................. ES-1\nI-1. STATEMENT OF THE PROJECT .................................................................................................................................... 1\nI-2. QUALIFICATIONS ......................................................................................................................................................... 2\nI-2A: Company Overview ........................................................................................................................................................ 2\nI-2B: Prior Experience ............................................................................................................................................................. 4\nI-2C: Personnel ........................................................................................................................................................."
+    },
+    {
+      "chunk_id": 1932,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 3,
+      "content": ".................... 6\nProject Organization ......................................................................................................................................................... 7\nI-2D: Background Checks ...................................................................................................................................................... 8\nI-2E: Subcontractors .............................................................................................................................................................. 8\nI-3. TRAINING .................................................................................................................................................................... 9\nI-4. FINANCIAL CAPABILITY ............................................................................................................................................. 10\nI-5. REQUIREMENTS ....................................................................................................................................................... 10\nI-5A \u2013 C: Emissions Inspection and Maintenance (I/M) Program ......................................................."
+    },
+    {
+      "chunk_id": 1934,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 3,
+      "content": ".............. 15\nI-6. TASKS ....................................................................................................................................................................... 15\nProgram Schedule ......................................................................................................................................................... 16\nTask A: Storage and Handling of All Pennsylvania I/M Program-Related Data ....................................................................... 16\nA.1 I/M Data Handling System ........................................................................................................................................... 17\nA.2 I/M Inspections Data and Documentation ................................................................................................................. 18\nA.3 I/M Data Access ........................................................................................................................................................... 21\nA.4 System Performance ..............................................................................................................................................."
+    },
+    {
+      "chunk_id": 1935,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 3,
+      "content": "............................ 21\nA.5 Equipment Testing and Approval ................................................................................................................................. 25\nA.6 Maintenance of Database Access for Emission Inspection Stations ........................................................................ 26\nA.7 System Access by Authorized Personnel ..................................................................................................................... 26\nA.8 Data Transfer Between Parsons and PennDOT .......................................................................................................... 27\nA.9 Connection Frequencies and Transaction Throughout Capacity ............................................................................... 27\nA.10 Development and System Changes .......................................................................................................................... 27\nTask B: Quality Assurance and Oversight Activities for the I/M Program ................................................................................ 28\nB.1 Oversight Activities ................................................."
+    },
+    {
+      "chunk_id": 1938,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 4,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nTraining Procedures ...................................................................................................................................................... 29\nPerformance Monitoring Procedures ........................................................................................................................... 30\nProgram Materials and Data Security .......................................................................................................................... 31\nB.4 Station Operators and Personnel Oversight ............................................................................................................... 32\nPreparatory Work ........................................................................................................................................................... 32\nReporting Violations ...................................................................................................................................................... 32\nProgram Evaluation Functions ................................................................."
+    },
+    {
+      "chunk_id": 1940,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 4,
+      "content": "................................. 35\nB.7 Remote Visual Observation of Inspectors ................................................................................................................... 37\nB.8 Covert Oversight Activities ........................................................................................................................................... 37\nOverview ......................................................................................................................................................................... 37\nActivities ......................................................................................................................................................................... 38\nVehicles .......................................................................................................................................................................... 38\nTask C: Establish and Conduct an Inspection Station Information & Education Program ..................................................... 39\nC.1 Development and Dissemination of Materials ........................................................................................"
+    },
+    {
+      "chunk_id": 1942,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 4,
+      "content": "......................... 42\nElectronic Waiver Delivery ............................................................................................................................................ 42\nWaiver Auditing Process ............................................................................................................................................... 42\nD.2 Referee Program .......................................................................................................................................................... 43\nD.3 Help Desk Services ...................................................................................................................................................... 43\nCommonwealth and Equipment Manufacturer-related Help Desk/Conference Calls ............................................. 43\nHelp Desk ....................................................................................................................................................................... 44\nCustomer Service and Station Operator Hotlines ....................................................................................................... 45\nTask E: Hold I/"
+    },
+    {
+      "chunk_id": 1943,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 4,
+      "content": ".......................... 45\nTask E: Hold I/M Hearings and Suspensions ............................................................................................................................ 46\nHearing Locations and Examiners ................................................................................................................................ 46\nHearing Tracking System .............................................................................................................................................. 46\nElectronic Hearing Abstract .......................................................................................................................................... 46\nGuidelines for Oversight Functions .............................................................................................................................. 47\nThe Hearing Process ........................................................................................................................................................... 47\nPennDOT-Requested Hearings ............................................................................................................................."
+    },
+    {
+      "chunk_id": 1945,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 5,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nImmediate Hearings ...................................................................................................................................................... 48\nHearing Procedures ....................................................................................................................................................... 48\nPenalties ........................................................................................................................................................................ 48\nService of Suspensions ................................................................................................................................................. 48\nAttendance at Hearings ................................................................................................................................................ 48\nAppeal of a Suspension ................................................................................................................................................ 49\nReports ...................................................."
+    },
+    {
+      "chunk_id": 1946,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 5,
+      "content": "....... 49\nReports ................................................................................................................................................................................. 49\nTask F: Motorist Compliance ....................................................................................................................................................... 49\nTraining and Public Interaction ..................................................................................................................................... 49\nCollection Procedures ................................................................................................................................................... 49\nAdditional Data Collection Procedures ........................................................................................................................ 50\nReporting ............................................................................................................................................................................. 50\nTask G: On-Road Testing Using Remote Sensing Device .........................................................................."
+    },
+    {
+      "chunk_id": 1947,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 5,
+      "content": "................. 50\nTechnology Overview ........................................................................................................................................................... 50\nSite Selection and Equipment Installation ........................................................................................................................ 51\nData Collection .................................................................................................................................................................... 51\nData Storage and Analysis .................................................................................................................................................. 51\nReporting Procedures ......................................................................................................................................................... 51\nTask H: Evaluation and Use of Dedicated Portion of I/M Program Management Fee ............................................................ 52\nTask I: Manage the Delivery, Installation, and Certification of Emission Inspection Equipment ........................................... 53\nCommunication"
+    },
+    {
+      "chunk_id": 1948,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 5,
+      "content": "................................... 53\nCommunications with EMs and I/M Stations .................................................................................................................... 53\nEquipment/Software Certification ..................................................................................................................................... 54\nATPs ................................................................................................................................................................................ 54\nCoordination with EMs .................................................................................................................................................. 54\nAcceptance Testing Management ................................................................................................................................ 54\nCommunications Protocol ............................................................................................................................................. 55\nOngoing Monitoring ..........................................................................................................................."
+    },
+    {
+      "chunk_id": 1949,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 5,
+      "content": "................................................. 55\nTask J: Provide Oversight for the Safety Inspection Program in the 25 I/M Counties ............................................................ 56\nJ.1 Quality Assurance/Staff Qualifications and Training .................................................................................................. 56\nPerformance Monitoring Procedures ........................................................................................................................... 58\nJ.2 Quality Assurance and Audit Responsibilities ............................................................................................................. 59\nProgram Materials and Data Security .......................................................................................................................... 59\nOvert Activities ............................................................................................................................................................... 60\nSafety Audits .................................................................................................................................................................. "
+    },
+    {
+      "chunk_id": 1950,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 5,
+      "content": ".................... 60\nJ.3 Covert Oversight Activities ............................................................................................................................................ 61\nTask K: Hold Safety Inspection Hearings and Issue Suspensions ........................................................................................... 62\nHearing Locations and Examiners ................................................................................................................................ 63\nHearing Tracking System .............................................................................................................................................. 63\nElectronic Hearing Abstract .......................................................................................................................................... 63\nGuidelines for Oversight Functions .............................................................................................................................. 63\nThe Hearing Process .........................................................................................................................................................."
+    },
+    {
+      "chunk_id": 1953,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 6,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nImmediate Suspensions ............................................................................................................................................... 64\nHearing Procedures ....................................................................................................................................................... 64\nPenalties ........................................................................................................................................................................ 64\nService of Suspensions ................................................................................................................................................. 65\nAttendance at Hearings ................................................................................................................................................ 65\nAppeal of a Suspension ................................................................................................................................................ 65\nReports ........................................................"
+    },
+    {
+      "chunk_id": 1960,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 7,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nATTACHMENT C -- Work Plan/Program Schedule\nATTACHMENT D -- Monthly Status Report\nATTACHMENT E -- Escrow Agreements\nATTACHMENT F -- AWS PCI-DSS Compliance Attestation (Electronic Files Uploaded Under 1.1.6 and 1.1.7.)\nF1. AWS PC Responsibility Summary\nF2. PCI-DSS AWS Responsibility Summary\nATTACHMENT G - SOC 2 Type II Report & Spreadsheet. (Electronic Files Uploaded Under 1.1.6 and 1.1.7.)\nG1. SOC 2 Spreadsheet\nG2. SOC 2 Report\nATTACHMENT H - Accessibility Conformance Reports (ACR). (Electronic Files Uploaded Under 1.1.6 and 1.1.7.)\nH1. Revised Sec. 508 Edition\nH2. WCAG Edition\nATTACHMENT I. Security Testing Results Redacted. (Electronic Files Uploaded Under 1.1.6 and 1.1.7.)\nATTACHMENT J. Security Incident Response Plan. (Electronic Files Uploaded Under 1.1.6 and 1.1.7.)\nTechnical Submittal v"
+    },
+    {
+      "chunk_id": 1961,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 8,
+      "content": "EXECUTIVE SUMMARY\nWORKING WITH PENNDOT TO MOVE THE I/M\nPROGRAM FORWARD THROUGH ADAPTABILITY\nAND INNOVATION\nParsons is uniquely positioned to deliver each requirement PennDOT has outlined for the new contract, enhancing what\nworks and innovating for the future. We\u2019re fully committed to:\nApplying innovation and advanced technology tailored to Pennsylvania\u2019s Program\nEnsuring station compliance\nEmploying advanced Cybersecurity protocols to protect against security threats\nEliminating PennDOT\u2019s transition risk\nParsons appreciates PennDOT\u2019s business. Throughout our response, we demonstrate our depth of experience, our\nreliability, our compliance, and our adaptability. We have unmatched knowledge of PennDOT\u2019s emissions and safety\nprograms, and we know what you require from your vendor. Most importantly, we won\u2019t rest on our laurels; in this new\ncontract, we will demonstrate to PennDOT that we are the best vendor to bring the Program into the future.\nHighlights of Parsons\u2019 Technical Proposal\nSecure Data and Information Management Systems. Our systems are reliable, and we are proud of the 99.99% uptime\nof our Pennsylvania VIID. Program downtime is simply unacceptable to us, and our experien"
+    },
+    {
+      "chunk_id": 1962,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 8,
+      "content": "nfrastructure that affords PennDOT the confidence to move forward. Protecting\ndata and information from loss, intrusion, and sophisticated cyber-attacks is critical to our data and management\nsystems. Our dedicated Pennsylvania team includes cybersecurity professionals, reinforced by a company-wide\nCybersecurity Practice that serves federal and state governments. Across our entire company, we integrate data and\ninformation security from the ground up through system design, system development, and day-to-day operations and\nmaintenance. The Pennsylvania VIID has never had a security or performance issue, and we will keep it that way.\nMindful Innovation. To maintain critical service continuity, and with PennDOT\u2019s approval, we will migrate all systems to\nthe Amazon Web Service (AWS) cloud environment. The system upgrade will provide efficient change management\nimplementation to adapt to future Program enhancements. The cloud-based VIID will include expanded reporting and\ndata management features along with robust scalability, security, and recovery. The upgraded system will allow\nPennDOT faster access to overt and covert audit data for the I/M and safety and enhanced safety programs. P"
+    },
+    {
+      "chunk_id": 3516,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 2,
+      "content": "more than 30 countries Source Source.\nMiddle East presence: Approximately 6,000 employees regionally, more than 65 years of presence; over\n900 projects completed in the UAE alone, with ~550 ongoing Parsons as of 2025 Source.\nMission/Positioning\nParsons positions itself as \u201ca leading disruptive technology provider in the national security and global\ninfrastructure markets, with capabilities across cyber and Fairfax County EDA electronic warfare, space and\nmissile defense, transportation, water and environment, urban development, and critical infrastructure\nprotection\u201d GlobeNewswire Parsons Source. The company emphasizes a \u201cPeople First\u201d culture, an employee\nvalue proposition, and a flexible/work-from-anywhere engineer program Fairfax County EDA Source.\n2. Business Segments and Divisions\nParsons reports two segments \u2014 Federal Solutions and Critical Infrastructure \u2014 that share underlying digital,\ncyber, AI/ML, and engineering capabilities.\nFederal Solutions (FY2025: ~51% of revenue)\nFederal Solutions delivers technology-driven mission solutions to U.S. defense, intelligence, and federal civilian\ncustomers across the all-domain battlespace Source. FY2025 segment revenue declined 20% Yo"
+    },
+    {
+      "chunk_id": 3520,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 3,
+      "content": "Offerings\nOffensive Cyber Operations (OCO): automated vulnerability research, zero-day exploit development,\nParsons Corporation reverse engineering of binary code/firmware, multi-source collection platforms Source\nSource.\nDefensive Cyber Operations (DCO) and Computer Network Exploitation (CNE): threat hunting, incident\nresponse, mission planning, AI/ML-enhanced analysis, cloud-native architectures and DevSecOps\nParsons Corporation Source.\nCritical-infrastructure cyber resiliency: IT/OT convergence, grid modernization, and cyber resilience for\nutilities \u2014 delivered via the IPKeys Power Partners platform serving \u201chundreds of electric, water, and gas\nutilities\u201d Parsons Corporation in North America Source.\nKey Cyber Products and Platforms\nJoint Cyber Hunt Kit (JCHK) \u2014 deployable defensive-cyber kit produced by Sealing Technologies; received\nan Intent to Award notification from USCYBERCOM in February 2026 for a sole-source, three-year contract\nwith a ceiling value of up to $500 million Source Source.\nTEMPO (Tactical Electronic Warfare Machine Learning Planning Optimization) \u2014 AI/evolutionary-\nalgorithm tool Parsons PR Newswire supporting Army PM Electronic Warfare\u2019s EWPMT Parsons Corpor"
+    },
+    {
+      "chunk_id": 3528,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 5,
+      "content": "Chesapeake Technology International (acquired 2025) added ~225 employees with 87% cleared\nGovCon Wire Source.\nAltamira (acquired January 2026) added 600+ employees with over 90% cleared, Parsons Corporation\nspecializing in SIGINT, missile warning, space data analytics, and AI/ML SpaceNews sec Source Source.\nDoD Classified Programs\nMDA SHIELD IDIQ (Dec 2025): $151 billion ceiling Scalable Homeland Innovative Enterprise Layered\nDefense IDIQ for rapid delivery of warfighter capabilities Yahoo Finance Source.\n40-year relationship with the Missile Defense Agency as engineering and technical advisory provider;\n\u201cresponsible for the ground infrastructure supporting every U.S. intercontinental ballistic missile program in\nhistory\u201d Washington Technology except Sentinel, per CEO Carey Smith Source.\nMDA TEAMS (2016): 5-year, $455 million potential ceiling for weapons and missiles engineering support\nFedSavvy Strategies Source.\nMDA Real Property Program (2022): $104.2 million for facility restoration/modernization Source.\n$47M classified contract extension (March 2026) Source.\nSpecial Operations Command (SOCOM)\nLong-standing customer through OGSystems and Xator legacy; SOCOM identified explicit"
+    },
+    {
+      "chunk_id": 3531,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 6,
+      "content": "show 70\u201390% clearance rates, totaling thousands of TS/SCI-cleared employees concentrated in Chantilly,\nCentreville, (regional location) Junction (MD), Aberdeen (MD), Columbia (MD), Colorado Springs (CO), and\nFredericksburg (VA) Source Source.\n5. Technology and R&D\nParsons has shifted from a traditional EPC firm to a \u201cdigitally enabled solutions provider\u201d anchored by\nproprietary software products and AI/ML technology developed both organically and through 20+ acquisitions\nsince 2017.\nKey Proprietary Platforms and Products\niNET\u00ae (Intelligent NETworks): cloud-based, COTS smart-mobility / Advanced Traffic Management System\nused by NJDOT, GDOT, and others; powers the first integrated statewide ATMS for NJDOT (go-live August\n2025); manages 5,000+ monthly traffic events Source Source.\nTraCSS (Traffic Coordination System for Space): civil SSA system delivered to NOAA\u2019s Office of Space\nCommerce Source.\nTEMPO (EW planning optimization), DeclutterML (radar-track classification), Project DECIDER (predictive\nanalytics) Source.\nJavelinXL rugged biometric handhelds, Ares Gateway mobile biometrics application, ABIS In A Box,\nDetectWise\u2122, ICS\u2122, Intelligent Intersections, Intellisight\u2122 Source Source"
+    },
+    {
+      "chunk_id": 3532,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 6,
+      "content": "(Jan 2025) in support of Project Linchpin,\nthe Army\u2019s AI/ML \u201cAIOps+\u201d program (PEO IEW&S) Source.\nStrategic agreement with BrainChip (Oct 2025) through Parsons subsidiary Blue Ridge Envisioneering to\nintegrate Akida neuromorphic processors into edge-AI platforms for defense/intelligence; Blue Ridge\nEnvisioneering was acquired as part of BlackSignal in 2024 Source.\nCloud/AI training: AWS DeepRacer enterprise upskilling program reached 470+ employees, generating\n1,500+ ML models Source.\nParsons X: internal digital accelerator organization within Connected Communities; integrates IPKeys\nsoftware Source.\nCTO and R&D Organization\nRico Lorenzo, Chief Technology Officer, leads enterprise R&D and innovation strategy, including internal\nR&D, commercial technology partnerships, contract R&D, and university partnerships Source.\nThe Defense & Intelligence sector has its own CTO (Ryan Gabriele) Source.\nStrategic Investment Areas (per FY2024 proxy)\n\u201cAI; cyber; biometrics; counter unmanned air systems; PFOS/PFAS; and assured position, navigation, and timing\n(PNT)\u201d Source."
+    },
+    {
+      "chunk_id": 3537,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 8,
+      "content": "Hudson River Tunnel \u2014 among Parsons\u2019 three largest North America transportation wins of 2023\u201324\nSource.\nFoothill Gold Line Phase 2B2 Claremont extension (Feb 2026): $60M design contract from Foothill Gold\nLine Construction Authority Source.\nEglinton Crosstown LRT (Toronto): part of a $8.4B program Source.\nVIA Metropolitan Transit (San Antonio) Rapid Silver Line final design contract (Dec 2025) Source.\nNJ TRANSIT Positive Train Control: prime contractor and design-builder for turnkey FRA-mandated\nsystem Source.\nRoads and Bridges\nI-70 Rocheport-to-Columbia design-build (Missouri, Dec 2025): $441M lead designer role Source.\nGoethals Bridge Replacement \u2014 Parsons was lead designer Source.\nGDOT Advanced Traffic Management System upgrade \u2014 recent 2026 award using iNET Source.\nI-64 Hampton Roads Express Lanes lead designer (March 2026) Source.\nVehicle Inspection / Smart Vehicle Solutions\nOperates large-scale Inspection & Maintenance (I/M) programs in Ontario, Pennsylvania, New Jersey,\nCalifornia, Texas, and Hawaii; first decentralized OBDII program (Louisiana); first-to-market tablet testing\nsolution; trained 100,000+ inspectors; managed >$100M/yr in fee collection without losses Source. N"
+    },
+    {
+      "chunk_id": 3538,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 8,
+      "content": "t 1998; Parsons\nhas remained the incumbent operator; in 2021 Parsons protested the New Jersey Bid Solicitation\n#20DPP00471 (Enhanced MV Inspection Maintenance System) award to Opus Inspection Source.\nWater and Environmental\nAFCEC Environmental Services Contract for PFAS (April 2025): $1.5 billion ceiling Source.\n2025 Engineering Excellence Honor Award for the Deer Creek Sanitary Tunnel project Source.\nMcMurdo Station (Antarctica) update/rebuild Source.\nDefense Infrastructure\nPacific Deterrence Initiative MACC (Nov 2025): $15 billion ceiling NAVFAC contract; 5-year base + three\n1-year options; design and engineering for projects exceeding $100M scope including runways, hangars,\nwaterfront facilities, and energy/fuel storage in Australia, the Philippines, and U.S. territories Source.\nU.S. Air Force Comprehensive Construction & Engineering MATOC (Dec 2025): $15 billion ceiling, 5-\nyear base + 5 option years for global facility design, construction management, maintenance, renovation,\nand restoration Source.\nAir Base Air Defense (ABAD) program: original $953M IDIQ (2021); cumulative 2025 task-order value\nreached ~$192 million including an $88M task order at Ramstein Air Base (Dec 2025)"
+    },
+    {
+      "chunk_id": 3543,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 10,
+      "content": "Long-Standing Customer Relationships\nFAA: \u201cnearly 50 years\u201d/\u201cmore than five decades\u201d continuous TSSC support Source Source.\nMDA: 40-year relationship Source.\nNSA SHARKSEER: prime since 2011 Source.\nBWI Marshall Airport: 50 consecutive years Source.\nMiddle East: 65\u201370 years; first overseas project in 1949; first airport project in Saudi Arabia in 1958 Source\nSource.\nRiyadh Metro / RCRC: 10+ year relationship; PIF partnership since 2017 Source.\nInternational Work (Middle East and beyond)\nSaudi Arabia PIF mega-projects: THE LINE, Oxagon, multiple ROSHN developments, and now King Salman\nInternational Airport (KSIA) and the W Riyadh KAFD luxury hotel Source Source.\nUAE: Zayed International Airport, Sharjah International Airport Source.\nQatar: Hamad International Airport Source.\nKuwait International Airport Source.\nCanada: Eglinton Crosstown LRT (Toronto) Source.\n8. Acquisitions History (Last 10 Years)\nCEO Carey Smith has stated Parsons has \u201cacquired 14 technology-differentiated companies since 2017\u201d; Chuck\nHarrington\u2019s tenure included \u201cover 20 acquisitions\u201d total Source Source. Acquisition strategy: companies with\nrevenue growth and adjusted EBITDA margins \u226510% with critical IP that com"
+    },
+    {
+      "chunk_id": 3544,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 10,
+      "content": "apability Added\n(terms\nundisclosed;\nAI/ML, SIGINT, EW, space situational awareness, multi-\nPolaris Alpha 2018 portfolio of\ndomain C2; ~1,300 employees, ~90% cleared Source\nArlington Capital\nPartners)\nGeospatial intelligence, big data analytics, threat mitigation,\nJanuary\nOGSystems (undisclosed) VIPER Labs, PeARL sensors; customers NGA/NRO/SOCOM\n2019\nSource\nBraxton\n$300M ($258M Satellite operations, ground-system automation, flight\nScience & November\nnet of tax dynamics, spacecraft simulation; 370+ employees, 80%\nTechnology 2020\nassets) cleared; 50+ space-mission product offerings Source\nGroup\nEcho Ridge 2021 (undisclosed) Positioning, navigation, and timing (PNT) and SIGINT Source\nCyber, EW, information ops; TReX/Galileo products;\nBlackHorse\nJuly 2021 $203M autonomous detection/identification/signal-defeating\nAcquisition | Year | Value | Capability Added\nPolaris Alpha | 2018 | (terms\nundisclosed;\nportfolio of\nArlington Capital\nPartners) | AI/ML, SIGINT, EW, space situational awareness, multi-\ndomain C2; ~1,300 employees, ~90% cleared Source\nOGSystems | January\n2019 | (undisclosed) | Geospatial intelligence, big data analytics, threat mitigation,\nVIPER Labs, PeARL sensors; customers"
+    },
+    {
+      "chunk_id": 3547,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 11,
+      "content": "Solutions systems Source\nCritical infrastructure protection, counter-UAS, biometrics,\nXator June $400M ($343M C4ISR, intelligence/cyber; ~900 employees (~90% cleared);\nCorporation 2022 net) SOCOM, IC, Federal Civilian, State Department customer\naccess Source\nIPKeys Power April Cloud-based cybersecurity, IT/OT software for utilities; grid\n$43M\nPartners 2023 modernization; clean-energy transition tech Source\nSealing up to $200M Defensive cyber operations, edge computing, AI/ML mission\nAugust\nTechnologies ($175M cash + solutions; Joint Cyber Hunt Kit producer; ~150 employees,\n2023\n(SealingTech) $25M earn-out) ~70% cleared Source Source\nI.S. Engineers 2023 (undisclosed) Texas infrastructure presence Source\nDigital signal processing, EW, AI-enhanced signal\nBlackSignal August\n$200M processing, counterspace RF, full-spectrum cyber; near-peer\nTechnologies 2024\nthreat focus Source\nFlorida transportation engineering; 385 employees; 100+\nBCC November $230M ($221M\nFDOT projects; #1 consultant in South Florida; SE U.S.\nEngineering 2024 net)\nfootprint Source\nChesapeake\nTechnology Electromagnetic spectrum dominance, all-domain solutions,\nJuly 2025 $89M\nInternational autonomous systems; ~225 emplo"
+    },
+    {
+      "chunk_id": 3548,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 11,
+      "content": "engineering Source\n2025\nConsulting\nTRS 2025 (undisclosed) Critical Infrastructure (named in Q3 2025 earnings) Source\nup to $375M SIGINT, missile warning, AI/ML analytics, space-based\nAltamira January\n($330M cash + mission support, cyber; 600+ employees, 90%+ cleared;\nTechnologies 2026\n$45M earn-out) ~$200M+ FY2026 revenue Source Source\n9. Performance Metrics and Accomplishments\nRevenue Trend (FY2020\u2013FY2025)\n2023: $5.443 billion (~23% organic growth)\n2024: $6.751 billion (24% total / 22% organic growth, all-time records for revenue, net income, adjusted\nEBITDA, cash flow, and contract awards)\n2025: $6.364 billion (5.7% decline, primarily Federal Solutions due to confidential contract wind-down)\nSource Source Source.\nRecognitions and Awards\n |  |  | \nSolutions |  |  | systems Source\nXator\nCorporation | June\n2022 | $400M ($343M\nnet) | Critical infrastructure protection, counter-UAS, biometrics,\nC4ISR, intelligence/cyber; ~900 employees (~90% cleared);\nSOCOM, IC, Federal Civilian, State Department customer\naccess Source\nIPKeys Power\nPartners | April\n2023 | $43M | Cloud-based cybersecurity, IT/OT software for utilities; grid\nmodernization; clean-energy transition tech Source\nSealing\nTec"
+    },
+    {
+      "chunk_id": 3549,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 11,
+      "content": "st\n2023 | up to $200M\n($175M cash +\n$25M earn-out) | Defensive cyber operations, edge computing, AI/ML mission\nsolutions; Joint Cyber Hunt Kit producer; ~150 employees,\n~70% cleared Source Source\nI.S. Engineers | 2023 | (undisclosed) | Texas infrastructure presence Source\nBlackSignal\nTechnologies | August\n2024 | $200M | Digital signal processing, EW, AI-enhanced signal\nprocessing, counterspace RF, full-spectrum cyber; near-peer\nthreat focus Source\nBCC\nEngineering | November\n2024 | $230M ($221M\nnet) | Florida transportation engineering; 385 employees; 100+\nFDOT projects; #1 consultant in South Florida; SE U.S.\nfootprint Source\nChesapeake\nTechnology\nInternational\n(CTI) | July 2025 | $89M | Electromagnetic spectrum dominance, all-domain solutions,\nautonomous systems; ~225 employees, 87% cleared Source\nApplied\nSciences\nConsulting | October\n2025 | (undisclosed) | Florida engineering Source\nTRS | 2025 | (undisclosed) | Critical Infrastructure (named in Q3 2025 earnings) Source\nAltamira\nTechnologies | January\n2026 | up to $375M\n($330M cash +\n$45M earn-out) | SIGINT, missile warning, AI/ML analytics, space-based\nmission support, cyber; 600+ employees, 90%+ cleared;\n~$200M+ FY2026 revenue S"
+    },
+    {
+      "chunk_id": 3550,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 11,
+      "content": "nuary\n2026 | up to $375M\n($330M cash +\n$45M earn-out) | SIGINT, missile warning, AI/ML analytics, space-based\nmission support, cyber; 600+ employees, 90%+ cleared;\n~$200M+ FY2026 revenue Source Source"
+    },
+    {
+      "chunk_id": 3551,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 12,
+      "content": "Ethisphere World\u2019s Most Ethical Companies: 17 consecutive years (since 2010) \u2014 one of only four 2026\nEngineering Services honorees Source.\nENR #1 Program Management Firm (2025); ENR Top 500 Design Firms (#15, 2024) Source Source.\nWashington Technology Top 100: #37 (2024) Source.\n2025 Engineering Excellence Honor Award (Deer Creek Sanitary Tunnel) Source.\n2025 SpaceNews Icon Award for Civil Space Achievement (TraCSS) Source.\n2025 NJ Alliance for Action Excellence in Engineering Award (NJDOT statewide ATMS) Source.\nEnvision Platinum Award (Sound Transit Federal Way Link Extension) Source.\nACEC NY Engineering Excellence Diamond Award (MTA Grand Central Madison) Source.\n2025 DOL HIRE Vets Gold Medallion Source.\n2025 Military Times Best for Vets: #2 in Virginia, #2 in Defense & Aerospace, #16 overall Source.\n2026 GI Jobs Military Friendly Employer Gold/Top 10 \u2014 #9 nationally in $5B+ category Source.\nVET Indexes 5 Star Employer (2025) Source.\nBig Project Middle East Awards \u2014 three consecutive years, including KAFD Residential Uplift Project of the\nYear and Mentor of the Year Source.\nM&A Deal Team of the Year (2024) \u2014 Association for Corporate Growth, recognizing BCC and BlackSignal\ntrans"
+    },
+    {
+      "chunk_id": 3558,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 14,
+      "content": "(with IBM) lost the $12.5 billion Brand New Air Traffic Control System prime integrator contract to\nPeraton. The stock fell ~15\u201323% after the announcement; Raymond James downgraded from Strong Buy to\nMarket Perform; KeyBanc lowered its price target to $76; BofA cut its target from $95 to $90 (maintaining Buy)\nSource Source Source. Parsons retained the $1.8B TSSC 5 anchor work and may participate in BNATCS as a\npartner.\nCompetitive Dynamics\nFederal Solutions margins (~6%) trail peers Leidos and CACI Source.\nActive near-peer competitors include Leidos, SAIC, Booz Allen, CACI, Peraton, ManTech, and Bechtel (on\nSaudi infrastructure) Source.\nOther Notable Items\nMulti-year New Jersey procurement disputes around the Enhanced Motor Vehicle Inspection Maintenance\nSystem (Parsons protested 2016 and 2021/2022 awards); Parsons remains the historical incumbent operator\nof NJ\u2019s Centralized Inspection Facilities Source Source.\nA $250M classified contract \u201clawsuit\u201d reference appeared in Virginia Business; specifics not material here\nSource."
+    },
+    {
+      "chunk_id": 3559,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 14,
+      "content": "istorical incumbent operator\nof NJ\u2019s Centralized Inspection Facilities Source Source.\nA $250M classified contract \u201clawsuit\u201d reference appeared in Virginia Business; specifics not material here\nSource."
+    },
+    {
+      "chunk_id": 3566,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 17,
+      "content": "contract/\nExecutiveBiz / Potomac Officers Club / Executive Mosaic \u2014 multiple articles cited inline\nMilitary Embedded Systems \u2014 multiple articles cited inline\nGovernment Sources\nNew Jersey Department of the Treasury (MV Inspection bid decision) \u2014\nhttps://www.nj.gov/treasury/purchase/pdf/decisions/2022/IMOBidSolicitation20DPP00471ParsonsInfrastructure.pdf\nNew Jersey MVC \u2014 https://www.nj.gov/mvc/business/inspequipment.htm\nNOAA Office of Space Commerce \u2014 https://www.noaa.gov/office-of-space-commerce/news-release/noaa-\nselects-system-integrator-for-traffic-coordination-system-for-space and\nhttps://space.commerce.gov/traffic-coordination-system-for-space-tracss/\nU.S. Space Systems Command (SSC) press release \u2014\nhttps://www.ssc.spaceforce.mil/Portals/3/Documents/PRESS%20RELEASES/\u2026\nSound Transit \u2014 https://www.soundtransit.org/southkinglink/partners\nNew Jersey Hudson Tunnel Project \u2014 https://www.hudsontunnelproject.com/\nIBM Newsroom (Parsons-IBM ATC partnership) \u2014 https://newsroom.ibm.com/2025-06-24-parsons-\ncorporation-is-ready-now-to-build-americas-brand-new,-state-of-the-art-air-traffic-control-system\nOther Reference Sources\nWikipedia (Parsons Corporation) \u2014 https://en.wikipedia.org/wiki/"
+    },
+    {
+      "chunk_id": 3572,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 1,
+      "content": "VOLUME 1 / TECHNICAL PROPOSAL ELECTRONIC\nEMPOWERING\nMOTORISTS THROUGH\nPROVEN INNOVATIONS\nVehicle Emissions Inspection Program\nManagement And Operation\nRFP Number the procurement\nMDOT Motor Vehicle Administration\nVOLUME 1 / TECHNICAL PROPOSAL | ELECTRONIC"
+    },
+    {
+      "chunk_id": 3574,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 3,
+      "content": "Title Page\nVOLUME 1 / TECHNICAL PROPOSAL COPY\nVEHICLE EMISSIONS\nINSPECTION PROGRAM\nMANAGEMENT AND OPERATION\nRFP NUMBER the procurement / MDOT Motor Vehicle Administration\nSubmitted by:\nParsons\n10 East (regional location) Street, Suite 801\n(regional location), MD 21202\nVOLUME 1 / TECHNICAL PROPOSAL | COPY"
+    },
+    {
+      "chunk_id": 3575,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 4,
+      "content": "TAB A\nTABLE OF CONTENTS\nTAB A \u2013 TABLE OF CONTENTS......................................................................................................................................... i\nTAB B - OFFEROR INFORMATION SHET AND TRANSMITTAL LETTER ..................................................................... 1\nTAB C \u2013 EXECUTIVE SUMMARY ................................................................................................................................... 21\nTAB D \u2013 TECHNICAL RESPONSE TO RFP REQUIREMENTS AND PROPOSED WORK PLAN ............................... 23\n2.3 Responsibilities and Tasks (RFP Section 2.3) ............................................................................................ 24\n2.3.1 General Requirements (RFP Section 2.3.1) ........................................................................................ 24\n2.3.1.A Managing and Operating the the Inspection Program per the Requirements, Specifications, Terms, and\nConditions (RFP Section 2.3.1.A) ............................................................................................................... 25\n2.3.1.B Contractor\u2019s Responsibilities (RFP Section 2.3.1.B) .................."
+    },
+    {
+      "chunk_id": 3576,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 4,
+      "content": "ble Local Requirements (RFP Section 2.3.1.C) ...................................... 27\n2.3.1.1 Transition of the Inspection Program Stations to New Program and Contractor (RFP Section 2.3.1.1) ..................... 28\n2.3.1.1.1 Transition (RFP Section 2.3.1.1) ............................................................................................... 29\n2.3.1.1.2 Clearly Identify the Costs to be Paid by the State (RFP Section 2.3.1.1.2) ............................ 30\n2.3.1.1.3 Smooth Transition Without Shutdown (RFP Section 2.3.1.1.3) .............................................. 31\n2.3.1.1.4 Final the Inspection Program Station Transition Plan (RFP Section 2.3.1.1.4) ..................................................... 32\n2.3.1.1.5 SAT Agenda (RFP Section 2.3.1.1.5) ........................................................................................ 47\n2.3.1.2 Contractor-Supplied Hardware, Software, and Materials (RFP Section 2.3.1.2) .......................... 49\n2.3.1.2.A State\u2019s Right to Purchase (RFP Section 2.3.1.2.A) .................................................................. 49\n2.3.1.2.B Acquisition and Operation of Hardware, Software, and Network Support "
+    },
+    {
+      "chunk_id": 3577,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 4,
+      "content": "........................................................................ 50\n2.3.1.2.C Material Costs Passed Through (RFP Section 2.3.1.2.C) ........................................................ 50\n2.3.1.2.D Test Conditions and Application (RFP Section 2.3.1.2.D) ....................................................... 50\n2.3.1.2.E Test Conditions and Application (RFP Section 2.3.1.2.E) ........................................................ 50\n2.3.1.2.F Acquisition and Operation of Hardware, Software, and Network Support (RFP\nSection 2.3.1.2.F) ....................................................................................................................................... 51\n2.3.1.2.G Manufacturer/Provider Warranties (RFP Section 2.3.1.2.G) .................................................. 51\n2.3.1.3 Required Project Policies, Guidelines, and Methodologies (RFP Section 2.3.1.3) ....................... 51\n2.3.1.4 Product Requirements (RFP Section 2.3.1.4) ................................................................................. 52\n2.3.1.5 Maintenance and Support (RFP Section 2.3.1.5) ........................................................................... 52\n2.3"
+    },
+    {
+      "chunk_id": 3578,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 4,
+      "content": "nd Program Enhancement Labor Support (RFP\nSection 2.3.1.5.A) ....................................................................................................................................... 52\n2.3.1.5.B Cooperate with The State Regarding Program Modifications (RFP Section 2.3.1.5.B) ......... 53\n2.3.1.5.C Emissions Test Equipment and Software Updates (RFP Section 2.3.1.5.C) .......................... 53\nTable of Contents i"
+    },
+    {
+      "chunk_id": 3579,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 4,
+      "content": "e Regarding Program Modifications (RFP Section 2.3.1.5.B) ......... 53\n2.3.1.5.C Emissions Test Equipment and Software Updates (RFP Section 2.3.1.5.C) .......................... 53\nTable of Contents i"
+    },
+    {
+      "chunk_id": 3580,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 5,
+      "content": "2.3.1.5.D State Notification (RFP Section 2.3.1.5.D) ............................................................................... 54\n2.3.1.5.E Virus Scans (RFP Section 2.3.1.5.E) ......................................................................................... 54\n2.3.1.6 Centralized Station Testing Distribution (RFP Section 2.3.1.6) ..................................................... 54\n2.3.1.6.A State-Owned Facilities and Kiosks (RFP Section 2.3.1.6.A) .................................................... 54\n2.3.1.6.B the Inspection Program Station and Kiosk Distribution (RFP Section 2.3.1.6.B) ................................................. 55\n2.3.1.6.C Even Testing Distribution (RFP Section 2.3.1.6.C) ................................................................... 56\n2.3.1.6.D the Inspection Program Notices (RFP Section 2.3.1.6.D) ....................................................................................... 57\n2.3.1.7 Centralized Inspection Station Standards, Maintenance, and Construction (RFP\nSection 2.3.1.7) .............................................................................................................................................. "
+    },
+    {
+      "chunk_id": 3581,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 5,
+      "content": "ehicle Emissions Inspection Stations (RFP\nSection 2.3.1.7.1) ....................................................................................................................................... 57\n2.3.1.7.2 Cessation of the Contract (RFP Section 2.3.1.7.2) .................................................................. 59\n2.3.1.7.3 the Inspection Program Centralized Station Maintenance Plan (RFP Section 2.3.1.7.3) .................................... 59\n2.3.1.7.4 Building/Pavement Assessment (RFP Section 2.3.1.7.4) ....................................................... 60\n2.3.1.7.5 Building Maintenance Work (RFP Section 2.3.7.5) ................................................................. 60\n2.3.1.7.6 Maintaining All the Inspection Program Facilities (RFP Section 2.3.1.7.6) ........................................................... 60\n2.3.1.7.7 Permits (RFP Section 2.3.1.7.7) ............................................................................................... 61\n2.3.1.7.8 Upon Contract Termination (RFP Section 2.3.1.7.8) ............................................................... 61\n2.3.1.7.9 Construction of Additional Lanes at Existing Facilities (RFP S"
+    },
+    {
+      "chunk_id": 3582,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 5,
+      "content": "nance, Replacement, or Addition (RFP\nSection 2.3.1.8) .............................................................................................................................................. 61\n2.3.1.8.A Maintenance of Testing Equipment and Kiosks (RFP Section 2.3.1.8.A) .............................. 61\n2.3.1.8.B Kiosk Addition, Replacement, and Upgrades (RFP Section 2.3.1.8.B) .................................. 62\n2.3.1.8.C Reporting Defective or Faulty Equipment to the State (RFP Section 2.3.1.8.C) .................... 62\n2.3.1.8.D Test Equipment Upgrades or Additions (RFP Section 2.3.1.8.D) ............................................ 62\n2.3.1.8.E Spare Part Inventory (RFP Section 2.3.1.8.E) .......................................................................... 63\n2.3.1.8.F Technician-Installed Spare Part Inventory (RFP Section 2.3.1.8.F) ........................................ 63\n2.3.1.8.G State Property (RFP Section 2.3.1.8.G) .................................................................................... 63\n2.3.1.8.H Deficient Inventory Item Management (RFP Section 2.3.1.8.H)............................................. 63\n2.3.1.8.I Equipment and Inventory Au"
+    },
+    {
+      "chunk_id": 3583,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 5,
+      "content": "it (RFP Section 2.3.1.8.I) ........................................................... 64\n2.3.1.8.J Updates to Emissions Test Equipment and Software (RFP Section 2.3.1.8.J) ....................... 64\n2.3.1.9 Station Operating Schedule (RFP Section 2.3.1.9) ......................................................................... 65\n2.3.1.10 Adverse Weather and Emergency Conditions (RFP Section 2.3.1.10) ........................................ 65\n2.3.1.10.A Winter Contingencies (RFP Section 2.3.1.10.A) .................................................................... 66\n2.3.1.10.B Summer Contingencies (RFP Section 2.3.1.10.B) ................................................................ 66\n2.3.1.10.C Operation During Adverse Weather (RFP Section 2.3.1.10.C) ............................................. 66\n2.3.1.10.D Commitment to Safe Environment (RFP Section 2.3.1.10.D) .............................................. 67\n2.3.1.10.E State Notification (RFP Section 2.3.1.10.E) ........................................................................... 68\n2.3.1.11 Traffic Management (RFP Section 2.3.1.11) ..........................................................................."
+    },
+    {
+      "chunk_id": 3586,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 6,
+      "content": "(RFP Section 2.3.1.13.8) ................................................ 81\n2.3.1.13.9 Training for Personnel at MACs (RFP Section 2.3.1.13.9) .................................................... 82\n2.3.1.14 Personnel for Additional Vehicle Inspections (RFP Section 2.3.1.14) ......................................... 83\n2.3.1.15 QA/QC, Operational and Performance Audits (RFP Section 2.3.1.15) ........................................ 83\n2.3.1.15.1 QA/QC Audits (RFP Section 2.3.1.15.1) ................................................................................. 84\n2.3.1.15.2 State Operational and Performance Audits (RFP Section 2.3.1.15.2) ................................. 86\n2.3.1.16 Motorist Payment Methods Permitted (RFP Section 2.3.1.16) ................................................... 86\n2.3.1.16.1 Fee Collection (RFP Section 2.3.1.16.1) ................................................................................ 87\n2.3.1.16.2 Full Fee Collection (RFP Section 2.3.1.16.2) ......................................................................... 87\n2.3.1.16.3 Accepting Cash Payments (RFP Section 2.3.1.16.3) ............................................................ 8"
+    },
+    {
+      "chunk_id": 3587,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 6,
+      "content": "from the Hybrid Programs (RFP Section 2.3.1.16.4) ..................................... 88\n2.3.1.16.5 Collected Fees Shall be Deposited into an Account (RFP Section 2.3.1.16.5) ................... 89\n2.3.1.17 Accountability and Transfer of Fees (RFP Section 2.3.1.17) ....................................................... 89\n2.3.1.17.1 Collection of Fees and Accountability (RFP Section 2.3.1.17.1) .......................................... 90\n2.3.1.17.2 Late Fee Transfer (RFP Section 2.3.1.17.2) .......................................................................... 91\n2.3.1.17.3 Test Fee Distribution (RFP Section 2.3.1.17.3) ..................................................................... 91\n2.3.1.17.4 Monthly Invoice and Process (RFP Section 2.3.1.17.4) ........................................................ 92\n2.3.1.17.5 Revenue Summary Report/Schedule A Report (RFP Section 2.3.1.17.5) ........................... 92\n2.3.1.17.6 Kiosk and FIS System Revenue Summary Report (RFP Section 2.3.1.17.6) ...................... 92\n2.3.1.17.7 Master Revenue Summary Report (RFP Section 2.3.1.17.7) ............................................... 92\n2.3.1.18 Overall Management Plan (R"
+    },
+    {
+      "chunk_id": 3590,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 7,
+      "content": "2.3.1.19.2 Weekly Transition Meetings (RFP Section 2.3.1.19.2) ........................................................ 126\n2.3.1.19.3 Weekly and Monthly Status Reports (RFP Section 2.3.1.19.3) .......................................... 126\n2.3.1.19.4 Technical Meetings (RFP Section 2.3.1.19.4) ..................................................................... 127\n2.3.1.19.5 Invoicing (RFP Section 2.3.1.19.5) ....................................................................................... 127\n2.3.1.19.6 End of Contract (RFP Section 2.3.1.19.6) ............................................................................ 128\n2.3.1.20 Inspection Personnel Attire (RFP Section 2.3.1.20) ................................................................... 128\n2.3.1.21 Damage or Destruction (RFP Section 2.3.1.21) ......................................................................... 128\n2.3.1.22 Use of Program for Commercial Promotion (Section 2.3.1.22) ................................................. 128\n2.3.1.23 Continuity of Services (RFP Section 2.3.1.23) ............................................................................ 129\n2.3.1.24 MAC (RFP Section 2.3.1.24).."
+    },
+    {
+      "chunk_id": 3591,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 7,
+      "content": ".......................................................................... 130\n2.3.1.24.1 Repair Waiver Rate Reduction (RFP Section 2.3.1.24.1) ................................................... 132\n2.3.1.24.2 Repair Data Collection Plan (RFP Section 2.3.1.24.2) ........................................................ 135\n2.3.1.24.3 Vehicle Test Results Availability (RFP Section 2.3.1.24.3) ................................................. 135\n2.3.1.24.4 Electronic Access to Vehicle Repair Industry (RFP Section 2.3.1.24.4)............................. 135\n2.3.1.24.5 Collection of All Available Vehicle Repair Data (RFP Section 2.3.1.24.5) .......................... 136\n2.3.1.24.6 Repair Data Maintenance on Database (RFP Section 2.3.1.24.6) .................................... 136\n2.3.1.24.7 Quarterly Summary Reports on Collected Repair Data (RFP Section 2.3.1.24.7) ............ 137\n2.3.1.24.8 Online Maintenance of All Repair Data On-Line (RFP Section 2.3.1.24.8) ........................ 137\n2.3.1.24.9 Update Database Information (RFP Section 2.3.1.24.9) .................................................... 137\n2.3.1.24.10 Minimize Data Entry (RFP Section 2.3.1.24.10) ..............."
+    },
+    {
+      "chunk_id": 3593,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 7,
+      "content": "................................................................. 188\n2.3.1.25.9. System Updates (RFP Section 2.3.1.25.9.) ........................................................................ 189\n2.3.2 Scope of Work \u2013 Inspection Procedures, Equipment, and Operational Requirements (RFP\nSection 2.3.2) ............................................................................................................................................... 191\n2.3.2.1 General (RFP Section 2.3.2.1) .................................................................................................... 191\n2.3.2.2 Test Descriptions and Specifications (RFP Section 2.3.2.2) .................................................... 193\n2.3.2.3 OBD Test (RFP Section 2.3.2.3) ................................................................................................. 195\n2.3.2.4 Data Collection (RFP Section 2.3.2.4) ....................................................................................... 200\n2.3.2.5 Quality Assurance (RFP Section 2.3.2.5) ................................................................................... 210\niv Table of Contents"
+    },
+    {
+      "chunk_id": 3595,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 8,
+      "content": "2.3.2.6 Test Procedures (RFP Section 2.3.2.6) ...................................................................................... 217\n2.3.2.7 Waivers (RFP Section 2.3.2.7) .................................................................................................... 223\n2.3.2.8 VEIC (RFP Section 2.3.2.8) ......................................................................................................... 228\n2.3.2.9 External Kiosk Operations (RFP Section 2.3.2.9) ...................................................................... 234\n2.3.2.10 MAC Operations (RFP Section 2.3.2.10) ................................................................................. 239\n2.3.2.11 On-Road Testing (RFP Section 2.3.2.11) ................................................................................. 243\n2.3.2.12 Emissions-Related Recalls (RFP Section 2.3.2.12) ................................................................ 246\n2.3.3 Scope of Work \u2013 FIS Program (RFP Section 2.3.3) .......................................................................... 249\n2.3.3.1 Program Description and State Agency Roles (RFP Section 2.3.3.1) ...................................... 250\n2"
+    },
+    {
+      "chunk_id": 3600,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 9,
+      "content": "3.3 Invoicing (RFP Section 3.3.) .................................................................................................................. 282\n3.3.1 General (RFP Section 3.3.1) .......................................................................................................... 282\n3.3.2 Invoice Submission Schedule (RFP Section 3.3.2)....................................................................... 283\n3.3.3 Deliverable Invoicing (RFP Section 3.3.3) ..................................................................................... 283\n3.3.4 State Withholding Payment (RFP Section 3.3.4) .......................................................................... 284\n3.3.5 Travel Reimbursement (RFP Section 3.3.5) .................................................................................. 284\n3.3.6 Accountability and Transfer of Fees (RFP Section 3.3.6) ............................................................. 284\n3.4 Liquidated Damages (RFP Section 3.4)................................................................................................ 286\n3.4.1 MBE Liquidated Damages (RFP Section 3.4.1) ....................................................."
+    },
+    {
+      "chunk_id": 3601,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 9,
+      "content": "Liquidated Damages other than MBE (RFP Section 3.4.2) .......................................................... 287\n3.4.3 Initial System Transition of the Inspection Program Centralized, Kiosk, and FIS Stations (RFP\nSection 3.4.3) ........................................................................................................................................... 289\n3.4.4 the Inspection Program Operations (RFP Section 3.4.4) ............................................................................................. 290\n3.4.5 Data Management and Communication Systems (RFP Section 3.4.5) ...................................... 290\n3.5 Disaster Recovery and Data (RFP Section 3.5) .................................................................................... 291\n3.5.1 Redundancy, Data Backup and Disaster Recovery (RFP Section 3.5.1) .................................... 291\n3.5.2 Data Export/Import (RFP Section 3.5.2) ....................................................................................... 294\n3.5.3 Data Ownership and Access (RFP Section 3.5.3) ......................................................................... 294\n3.5.4 Acknowledgment of Provisions (R"
+    },
+    {
+      "chunk_id": 3607,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 10,
+      "content": "..................................................... 332\n3.12.D. Access to Records (RFP Section 3.12.D) ................................................................................... 332\n3.12.E. Final Report Affidavit (RFP Section 3.12.E) ............................................................................... 332\n3.13 VSBE Reports (RFP Section 3.13) ...................................................................................................... 332\nTAB E \u2013 EXPERIENCE AND QUALIFICATIONS OF PROPOSED STAFF .................................................................. 334\nF.1 Staff Experience and Qualifications (RFP Section F.1) ........................................................................ 334\nF.2 Letters of Intended Commitment (RFP Section F.2) ............................................................................ 348\nF.3 Organization Chart (RFP Section F.3) .................................................................................................... 362\nF.4 Table of all Personnel by Position, Location, and Designation of Roles/Responsibilities (RFP\nSection F.4) ..........................................................................."
+    },
+    {
+      "chunk_id": 3608,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 10,
+      "content": ".................................................................... 363\nF.5. Organization Chart to the Individual the Inspection Program Station Level (RFP Section F.5) ....................................... 365\nF.6. Differing Personnel Work Hours (RFP Section F.6) ............................................................................. 366\nF.7. Maintain Staffing Levels (RFP Section F.7) ......................................................................................... 366\nF.8. Estimated Number of Employees (RFP Section F.8) ........................................................................... 367\nF.9 Job Descriptions and Requirements (RFP Section F.9) ....................................................................... 369\nTAB F \u2013 OFFEROR QUALIFICATIONS AND CAPABILITIES ...................................................................................... 377\nG.1 Number of Years Providing Similar Goods and Services (RFP Section G.1) ...................................... 379\nG.2 Number of Clients/Customers and Geographic Locations (RFP Section G.2) ................................... 379\nG.3 Headquarters or Regional Management Personnel (RFP Section G.3) ..."
+    },
+    {
+      "chunk_id": 3611,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 11,
+      "content": "G.7 Operating or Supporting Centralized Testing Programs Experience (RFP Section G.7) .................... 408\nG.8 Data Management Experience (RFP Section 5.3.2.H.8) ..................................................................... 408\nG.9 Centralized/FIS Experience (RFP Section G.9) .................................................................................... 409\nG.10 Experience Centralized in Emissions Testing Equipment Installation, Testing Operations,\nQuality Assurance, and Repairs (RFP Section G.10) .................................................................................. 409\nG.11 Centralized Experience \u2013 Facilities Management, Maintenance and Security Experience\n(RFP Section G.11) ....................................................................................................................................... 409\nG.12 Repair Effectiveness/MAC Experience (RFP Section G.12) .............................................................. 409\nG.13 General (RFP Section G.13) ................................................................................................................ 410\nG.14 Experience and Abilities with Emerging Technologies and Techniq"
+    },
+    {
+      "chunk_id": 3616,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 14,
+      "content": "10 East (regional location) Street, Suite 801 | (regional location), MD 21202\nDirect: +1 240.687.6408 | Fax: +1 410.949.2058 | www.parsons.com\nJune 12, 2024\nJessica Mettle\nthe State Department of Transportation\nMotor Vehicle Administration\n6601 Ritchie Highway, N.E., Room 223\nProcurement and Contracts\n(regional location), MD 21062\nSubject: Vehicle Emissions Inspection Program Management and Operation, RFP Number the procurement\nDear Ms. Mettle,\nIt\u2019s a sunny Saturday morning in Beltsville, the State. The air is crisp and clean after an early morning shower. It\u2019s 8\na.m., the kids are having breakfast, and the soccer gear is by the door, ready to be loaded into your car\u2014you\u2019re one step\ncloser to spending the day with your family at the soccer field.\nOf course, like most weekends, you have some routine errands to run, but today will be a day of mostly family fun, rest,\nand relaxation. You smile to yourself\u2026but that smile disappears as an alert on your cell phone reminds you that you\nmust get your car tested today at a nearby the Inspection Program station.\nAt 9 a.m., with your kids and gear in the car and a slight feeling of dread at the back of your mind, you arrive at the the Inspect"
+    },
+    {
+      "chunk_id": 3617,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 14,
+      "content": "eyor belt of cars. The self-service lane is the shortest and seems to be moving\nquickly, so you hop in line. Before you know it, you\u2019re viewing your inspection results\u2014your car passed! Moments later,\nyou and your family are on your way to the soccer field.\nThis story will be told by many under the new the Inspection Program. Parsons offers the the State Empowering Motorists\nThrough Proven Innovations\u2014our commitment to transitioning with certainty and the stable operation of the\ncentralized lanes using our proven and effective integrated solution. Our convenient, streamlined program will take\ncustomer service to new heights, ensuring that stories like the one above become the standard the Inspection Program experience.\nRecognizing that life gets busy, we understand the concerns customers have regarding wait times and inconvenience.\nWe\u2019re committed to transforming the the Inspection Program process into positive customer experiences. With our Premier Customer\nService Plan and our Comprehensive Customer Feedback Approach, we\u2019ll ensure that the State and its customers are\nsatisfied.\nWe live here, we work here, we are Marylanders; what happens here is personal. We share your commitment "
+    },
+    {
+      "chunk_id": 3618,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 14,
+      "content": "quality to create a healthier the State. Not only are we committed to helping you\nachieve the deliverables and objectives of the the Inspection Program, but we also have a personal stake in the Program\u2019s success. We\u2019ve\nenjoyed a longstanding, productive partnership with the the State\u2019s Department of Transportation in the\ndelivery, execution, and management of many successfully implemented projects. We are committed to building a\nrelationship\u2014forged in trust, fostering real-time collaboration, and promoting open communication as your trusted\npartner.\nCombining our 80-year history, our more than $5.4 billion in annual revenue, and, most importantly, our continued and\ngrowing corporate commitment to successful engineering and IT projects throughout the State and North America\nshould provide additional assurance to the the State that we have the management structure and financial\nstrength to not only implement a contract of this size and scope but also to exceed the State\u2019s expectations."
+    },
+    {
+      "chunk_id": 3620,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 15,
+      "content": "Jessica Mettle\nthe State Department of Transportation\nVehicle Emissions Inspection Program Management and Operation, RFP Number the procurement\nJune 12, 2024\nPage 3\nParsons has endeavored to provide a quality, high-value technical solution to the requirements of this RFP. In the nearly\n15 years that have passed since the previous competitive bid process, significant structural changes have been\nimplemented in the program, including an extended model-year exemption; 50% increases in Living Wage and\nassociated supervisory compensation requirements, historic inflation, and supply chain pressures; modified liquidated\ndamages penalty clauses; and the sustained idle test requirement. From this, Parsons provides an effective and\nefficient overall technical and price offering and looks forward to discussing how cost savings could be implemented in\nthe future to continue to drive value into the program for the the State over the next 10 years.\nParsons accepts all State RFP and Contract terms and conditions. As stated in our Executive Summary, Parsons takes\nno exceptions to any of the contractual provisions outlined in the RFP.\nParsons fully comprehends the nature of the tasks involved in th"
+    },
+    {
+      "chunk_id": 3623,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 16,
+      "content": "VEHICLE EMISSIONS INSPECTION PROGRAM MANAGEMENT AND OPERATIONS\nSTATE OF MARYLAND DOT the State Motor Vehicle agency \u2502 RFP NUMBER the procurement\n4"
+    },
+    {
+      "chunk_id": 3624,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 17,
+      "content": "VEHICLE EMISSIONS INSPECTION PROGRAM MANAGEMENT AND OPERATIONS\nSTATE OF MARYLAND DOT the State Motor Vehicle agency \u2502 RFP NUMBER the procurement\n5"
+    },
+    {
+      "chunk_id": 3625,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 18,
+      "content": "VEHICLE EMISSIONS INSPECTION PROGRAM MANAGEMENT AND OPERATIONS\nSTATE OF MARYLAND DOT the State Motor Vehicle agency \u2502 RFP NUMBER the procurement\n6"
+    },
+    {
+      "chunk_id": 3626,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 19,
+      "content": "VEHICLE EMISSIONS INSPECTION PROGRAM MANAGEMENT AND OPERATIONS\nSTATE OF MARYLAND DOT the State Motor Vehicle agency \u2502 RFP NUMBER the procurement\n7"
+    }
+  ]
+}

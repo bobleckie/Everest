@@ -1,0 +1,1524 @@
+{
+  "theme_id": 7,
+  "theme_label": "Pricing & Financial",
+  "category": "Commercial",
+  "rfp_requirements": [
+    {
+      "id": 7677,
+      "code": "A-023",
+      "title": "Prohibition on Payments to State Officers/Employees",
+      "description": "No vendor shall pay, offer to pay, or agree to pay, directly or indirectly, any fee, commission, compensation, gift, gratuity, or other thing of value to any State officer or employee, special State officer or employee, or their immediate family, or associated entities.",
+      "section": "2.10.A",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 9308,
+      "code": "R-032",
+      "title": "Describe secure code development processes",
+      "description": "As applicable, describe processes used to ensure code is being developed securely, including types of code reviews and analysis (static and dynamic) and how threat modeling is incorporated into design.",
+      "section": "24.3",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 1321,
+      "code": "R-046",
+      "title": "Provide detailed two-week mobilization timetable",
+      "description": "The Mobilization Plan shall include a detailed timetable for the mobilization period of two (2) weeks, demonstrating how the Bidder will have personnel and equipment operational from the date of notification of award.",
+      "section": "3.18.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1325,
+      "code": "R-050",
+      "title": "Provide draft plans to accomplish all work required by Contract",
+      "description": "The Bidder shall provide its draft plans to accomplish all work required by this Contract, demonstrating understanding of the Scope of Work for successful implementation, operations, maintenance, and support.",
+      "section": "3.19",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 1145,
+      "code": "R-067",
+      "title": "Account for Labor Costs",
+      "description": "Contractor must account for labor costs per Section 4.10.1.",
+      "section": "4.10.1",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 2022,
+      "code": "R-053",
+      "title": "Bear all costs for fingerprinting process",
+      "description": "The Contractor shall be responsible for any costs associated with and/or incurred by the fingerprinting process.",
+      "section": "4.10.I",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3340,
+      "code": "A-072",
+      "title": "Include alert notification and escalation policies",
+      "description": "",
+      "section": "4.23.2.5.B.10",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3511,
+      "code": "A-111",
+      "title": "Secure application infrastructure & hosting facilities",
+      "description": "",
+      "section": "4.26.1.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3518,
+      "code": "A-116",
+      "title": "Establish Link 1 to OIT HUB Primary Data Center",
+      "description": "",
+      "section": "4.26.2.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3520,
+      "code": "A-117",
+      "title": "Establish Link 2 to Hamilton Data Center",
+      "description": "",
+      "section": "4.26.2.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4251,
+      "code": "A-059",
+      "title": "Maintain audit-quality records of PI expenditures",
+      "description": "Contractor must demonstrate PI funds are used exclusively for public information purposes and maintain audit quality records available to State for SCM review and auditing.",
+      "section": "4.33.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4292,
+      "code": "A-010",
+      "title": "Address payment of final invoices, retainage, release of insurance and Performance Bond in Plan",
+      "description": "",
+      "section": "4.34",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1817,
+      "code": "A-039",
+      "title": "Do not operate the SIFs",
+      "description": "Contractor shall not operate the SIFs; all SIF operations remain with the State.",
+      "section": "4.9.3",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4371,
+      "code": "A-089",
+      "title": "Contractor has sole responsibility for complete effort",
+      "description": "",
+      "section": "5",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 9127,
+      "code": "A-031",
+      "title": "Establish risk identification, assessment, and treatment requirements",
+      "description": "Bidder must establish requirements for the identification, assessment, and treatment of information security risks to operations, information, and/or information systems.",
+      "section": "5.1",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 4786,
+      "code": "P-7",
+      "title": "Receive Payments Electronically via NJSTART EFT",
+      "description": "Receive payment(s) electronically and complete the EFT information within the NJSTART Vendor Profile to receive automatic deposit payments from the State.",
+      "section": "5.10",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7783,
+      "code": "R-048",
+      "title": "Obtain prior written consent of Director before assigning responsibilities",
+      "description": "",
+      "section": "5.10",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7792,
+      "code": "R-057",
+      "title": "Make deliveries at times/quantities per contract",
+      "description": "",
+      "section": "5.12.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7793,
+      "code": "R-058",
+      "title": "Deliver material in first class condition per good commercial practice",
+      "description": "",
+      "section": "5.12.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7794,
+      "code": "R-059",
+      "title": "Deliver items strictly in accordance with contract",
+      "description": "",
+      "section": "5.12.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7795,
+      "code": "R-060",
+      "title": "Default delivery 30 calendar days ARO F.O.B. Destination",
+      "description": "",
+      "section": "5.12.D",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7800,
+      "code": "R-065",
+      "title": "C.O.D. terms not accepted",
+      "description": "",
+      "section": "5.12.F",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 7801,
+      "code": "R-066",
+      "title": "NJ law governs; file in NJ Superior Court",
+      "description": "",
+      "section": "5.13",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 7802,
+      "code": "R-067",
+      "title": "Contract amendments must be written and agreed",
+      "description": "",
+      "section": "5.14",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 7803,
+      "code": "R-068",
+      "title": "Maintain records for 5 years from final payment",
+      "description": "",
+      "section": "5.15.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7805,
+      "code": "R-070",
+      "title": "Cooperate with State record/audit requests and provide records free of charge",
+      "description": "",
+      "section": "5.15.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7806,
+      "code": "R-071",
+      "title": "Assign antitrust claims to State of New Jersey",
+      "description": "",
+      "section": "5.16",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7811,
+      "code": "R-005",
+      "title": "Notify defendants of assignment in antitrust suits",
+      "description": "Contractor must notify defendants in any antitrust suit of the assignment to the State at the earliest practicable opportunity, and send a copy of the notice to the NJ Attorney General.",
+      "section": "5.16",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7813,
+      "code": "R-007",
+      "title": "Obtain prior written consent for news releases",
+      "description": "Contractor must not issue any news releases about services under the Contract without prior written consent of the Director.",
+      "section": "5.17",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7816,
+      "code": "R-010",
+      "title": "Disseminate organ donation information to employees",
+      "description": "The State encourages the contractor to disseminate organ donation information and to notify its employees of organ donation options through materials or an awareness program, prepared in collaboration with designated organ procurement organizations.",
+      "section": "5.19",
+      "priority": "low",
+      "category": "informational"
+    },
+    {
+      "id": 4377,
+      "code": "A-095",
+      "title": "Continue performance during Initial Transition Period up to 365 days",
+      "description": "",
+      "section": "5.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7764,
+      "code": "R-029",
+      "title": "Force Majeure relief and extension of performance time",
+      "description": "",
+      "section": "5.2",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 9132,
+      "code": "A-036",
+      "title": "Describe risk management processes and frequency",
+      "description": "Bidder must describe risk management processes for identification, assessment, and treatment of risks impacting confidentiality, integrity, and availability of the product/system/application/service, and how often these processes are performed.",
+      "section": "5.2",
+      "priority": "high",
+      "category": "informational"
+    },
+    {
+      "id": 4520,
+      "code": "R-005",
+      "title": "Continue Performance During Initial Transition Period Beyond Expiration",
+      "description": "If no new contract is awarded prior to expiration, the Contractor shall continue performance under the same terms, conditions, and pricing during the Initial Transition Period beyond the expiration date (including extensions) if the Director determines it is in the best interest of the State.",
+      "section": "5.2.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4519,
+      "code": "R-004",
+      "title": "Continue Performance Up to 365 Days During NCA Transition",
+      "description": "Upon written notice, Contractor shall continue performance under the same terms, conditions, and pricing for up to 365 Calendar Days beyond contract expiration or until the new contract is operational, whichever is first.",
+      "section": "5.2.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7817,
+      "code": "R-011",
+      "title": "Obtain and maintain required licenses, permits, and authorizations",
+      "description": "Contractor must obtain and maintain in full force and effect all required licenses, permits, and authorizations necessary to perform the Contract.",
+      "section": "5.20",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7825,
+      "code": "R-019",
+      "title": "State confidentiality obligations subject to OPRA and common law right to know",
+      "description": "The State's confidentiality obligations under the Contract are subject to the New Jersey Open Public Records Act (OPRA), N.J.S.A. 47:1A-1 et seq., the New Jersey common law right to know, and any other lawful document request or subpoena.",
+      "section": "5.23.A",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 7826,
+      "code": "R-020",
+      "title": "Limit disclosure to information required for performance",
+      "description": "The parties must disclose to each other only information required for the performance of their obligations under the Contract.",
+      "section": "5.23.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7828,
+      "code": "R-022",
+      "title": "Scope of State's Confidential Information",
+      "description": "The State's Confidential Information consists of all information or data contained in documents supplied by the State, any information or data gathered by the Contractor in fulfillment of the Contract, and any analysis thereof (whether in fulfillment of the Contract or not).",
+      "section": "5.23.C",
+      "priority": "high",
+      "category": "informational"
+    },
+    {
+      "id": 7829,
+      "code": "R-023",
+      "title": "Exclusions from Confidential Information",
+      "description": "Confidential Information does not include information that (a) enters the public domain through no act or omission of the other party (with continued protection for personally identifying information); (b) was in the other party's lawful possession prior to disclosure and not obtained from the discl",
+      "section": "5.23.D",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 7830,
+      "code": "R-024",
+      "title": "Hold Confidential Information with due care",
+      "description": "The State and Contractor must hold each other's Confidential Information in confidence using at least the same degree of care used to protect its own Confidential Information.",
+      "section": "5.23.E",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7831,
+      "code": "R-025",
+      "title": "State to notify Contractor of legal requests for Contractor Confidential Information",
+      "description": "If the State receives a court order, subpoena, or other legal request for Contractor Confidential Information, the State agrees, if permitted by law, to provide Contractor with as much written notice as is reasonably practicable along with the State's intended response so the Contractor may take act",
+      "section": "5.23.F",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7832,
+      "code": "R-026",
+      "title": "Notify State of legal requests for its Confidential Information",
+      "description": "If Contractor receives a court order, subpoena, or other legal request for State Confidential Information, Contractor must, if permitted, give the State as much written notice as reasonably practicable and its intended response.",
+      "section": "5.23.G",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7833,
+      "code": "R-027",
+      "title": "Permitted release of Confidential Information by court order or subpoena",
+      "description": "Either party may release the other party's Confidential Information if directed by a court or arbitrator of competent jurisdiction, or pursuant to a lawfully issued subpoena/other lawful document request, subject to the notice procedures in 5.23(F) and (G) regarding whether the other party exercised",
+      "section": "5.23.H",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 7834,
+      "code": "R-028",
+      "title": "Debarment/suspension exclusion notice",
+      "description": "Contractor is advised it may be excluded from contract award consideration due to debarment, suspension, or disqualification under Executive Order 34 (1976), applied universally across state contracting.",
+      "section": "5.24",
+      "priority": "high",
+      "category": "informational"
+    },
+    {
+      "id": 7836,
+      "code": "R-030",
+      "title": "Resolve State wage/benefit/tax violations before contracting",
+      "description": "Per N.J.S.A. 34:1A-1.16 et seq., any person found in violation of State wage, benefit, or tax laws with a final order issued is prohibited from contracting with any public body until liabilities are resolved to the Commissioner's satisfaction.",
+      "section": "5.25",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 9133,
+      "code": "A-037",
+      "title": "Describe risk evaluation, prioritization, and verification",
+      "description": "Bidder must describe how risks and risk mitigation efforts are evaluated and prioritized, including details on documenting and verifying results of these risk mitigation processes.",
+      "section": "5.3",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 7770,
+      "code": "R-035",
+      "title": "Changes must be in writing and signed by Contractor and Director",
+      "description": "",
+      "section": "5.4",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 9134,
+      "code": "V-005",
+      "title": "Optional additional information - Risk Management",
+      "description": "Bidder may optionally provide any additional information relative to the Risk Management (RM) control area.",
+      "section": "5.4",
+      "priority": "low",
+      "category": "informational"
+    },
+    {
+      "id": 4521,
+      "code": "R-006",
+      "title": "Acknowledge State Ownership of State Data",
+      "description": "Contractor shall not obtain any right, title, or interest in any State Data or information derived from or based on State Data.",
+      "section": "5.4.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7768,
+      "code": "R-033",
+      "title": "Submit additional information and negotiate adjusted price if disagreeing",
+      "description": "",
+      "section": "5.4.A",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 7769,
+      "code": "R-034",
+      "title": "Submit itemization of work effort already completed",
+      "description": "",
+      "section": "5.4.B",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 4525,
+      "code": "R-010",
+      "title": "Grant State Non-Exclusive License to Contractor Intellectual Property",
+      "description": "Contractor shall grant the State a non-exclusive, royalty-free license to use Contractor Intellectual Property delivered to the State for the duration of the Contract, including all extensions.",
+      "section": "5.4.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4526,
+      "code": "R-011",
+      "title": "Ensure Standard License Terms Comply with Order of Precedence",
+      "description": "If Contractor provides its standard license agreement terms with its Quote, such terms and conditions must comply with Bid Solicitation Section 1.4 \u2013 Order of Precedence of Contractual Terms.",
+      "section": "5.4.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4527,
+      "code": "R-012",
+      "title": "Secure Third Party Intellectual Property License on State's Behalf",
+      "description": "Contractor shall secure on the State's behalf, in the name of the State and subject to State approval, a license to Third Party Intellectual Property sufficient to fulfill requirements at no additional cost beyond the Quote price.",
+      "section": "5.4.D",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7772,
+      "code": "R-037",
+      "title": "Comply with complaints procedure in N.J.A.C. 17:12-4.2 et seq.",
+      "description": "",
+      "section": "5.7.B.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7773,
+      "code": "R-038",
+      "title": "Make progress to ameliorate complaint issues to avoid termination",
+      "description": "",
+      "section": "5.7.B.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7774,
+      "code": "R-039",
+      "title": "Contractor compensated for work performed up to date of termination",
+      "description": "",
+      "section": "5.7.D",
+      "priority": "low",
+      "category": "informational"
+    },
+    {
+      "id": 4542,
+      "code": "R-027",
+      "title": "Secure Written SCM Approvals Prior to Related Work",
+      "description": "The Contractor must secure all written approvals from the SCM prior to the start of any related work.",
+      "section": "5.8",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7775,
+      "code": "R-040",
+      "title": "Obtain prior written consent of Director before subcontracting",
+      "description": "",
+      "section": "5.8",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 4923,
+      "code": "A-003",
+      "title": "Keep detailed sales records for Using Agencies",
+      "description": "Contractor must maintain records of all sales to Using Agencies in sufficient detail to determine the Procurement Efficiency Program Fee owed.",
+      "section": "5.E",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7866,
+      "code": "R-001",
+      "title": "Annual Recalculation of Performance Bond Based on Outstanding Balance",
+      "description": "For performance bonds based on a percentage of total estimated Contract price, on each anniversary of the effective date of the Contract, the required performance bond amount is recalculated by applying the established RFQ performance bond percentage to the outstanding balance of the estimated Contr",
+      "section": "6 (Performance Bond)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7837,
+      "code": "R-031",
+      "title": "Hold prices firm through Contract period",
+      "description": "Unless otherwise agreed in writing, all quoted prices must be firm through issuance of the contract or purchase order and not subject to increase during the contract period.",
+      "section": "6.1",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 4995,
+      "code": "A-075",
+      "title": "Use tailored acquisition strategies for suppliers",
+      "description": "Use tailored acquisition strategies, contracting tools, and procurement methods for purchases from suppliers.",
+      "section": "6.10.A",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 7841,
+      "code": "R-035",
+      "title": "Exclude State sales/use and Federal excise taxes from price quotations",
+      "description": "The State is exempt from State sales/use and Federal excise taxes, so price quotations must not include such taxes.",
+      "section": "6.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7845,
+      "code": "R-039",
+      "title": "Submit invoices with supporting documentation",
+      "description": "Contractor must submit invoices to the using agency with supporting documentation evidencing that work or goods have been satisfactorily completed or delivered.",
+      "section": "6.3.B",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7848,
+      "code": "R-042",
+      "title": "Reference task/subtask or price line numbers on invoices",
+      "description": "When applicable, invoices should reference the appropriate task or subtask or price line number from the contractor's proposal.",
+      "section": "6.3.B",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 4953,
+      "code": "A-033",
+      "title": "Use State Data only for enumerated Contract purposes",
+      "description": "All State Data shall be used expressly and solely for the purposes enumerated in the Contract and shall not be distributed, repurposed, or shared across other applications, environments, or business units.",
+      "section": "6.5.F",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 5017,
+      "code": "A-097",
+      "title": "Cooperate with State to prevent Breach disclosure when legally compelled",
+      "description": "If legally required to provide notification or disclosure regarding a Breach, Contractor must consult with the State and reasonably cooperate with the State to prevent any notification or disclosure concerning any Personal Data or Breach of Security.",
+      "section": "6.5.G(c)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4980,
+      "code": "A-060",
+      "title": "Collaborate on GSN remote access requirements",
+      "description": "If approved to use State-provided remote access to the Garden State Network, Contractor must collaborate with the State per defined usage restrictions, configuration requirements, and implementation guidance.",
+      "section": "6.7",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5006,
+      "code": "A-086",
+      "title": "Indemnify State in third-party suits",
+      "description": "Contractor must indemnify, defend, and save harmless the State and its officers, agents, servants, and employees from any third-party claims, demands, suits, actions, recoveries, judgments, and costs/expenses.",
+      "section": "7.1 / 4.1(A)(1)",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 5010,
+      "code": "A-090",
+      "title": "Provide IP remedy options for infringement claims",
+      "description": "In the event of a third-party IP claim, Contractor may at its option: (1) procure the legal right to continue use; (2) replace/modify with non-infringing equivalent; or (3) refund purchase price less reasonable allowance for use.",
+      "section": "7.1 / 4.1(A)(2)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5051,
+      "code": "V-006",
+      "title": "State responsibility subject to NJ Tort Claims Act and Contractual Liability Act",
+      "description": "Subject to the New Jersey Tort Claims Act (N.J.S.A. 59:1-1 et seq.), the New Jersey Contractual Liability Act (N.J.S.A. 59:13-1 et seq.), and appropriation/availability of funds, the State will be responsible for costs/damages arising out of its own actions/inactions under Section 4.1(A)(1)(i), (ii)",
+      "section": "7.1(B)",
+      "priority": "low",
+      "category": "informational"
+    },
+    {
+      "id": 5030,
+      "code": "A-007",
+      "title": "Contractor liability cap acknowledgment",
+      "description": "Contractor's liability for actual, direct damages is limited in the aggregate to 200% of the fees paid by the State during the previous twelve months for the products or services giving rise to damages, but in no event less than $1,000,000. This cap does not apply to indemnification obligations or c",
+      "section": "7.2.3 / 4.3",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 7883,
+      "code": "R-018",
+      "title": "Make Maximum Use of EPA-Designated Recovered Materials",
+      "description": "In performance of the contract, make maximum use of products containing recovered materials that are EPA-designated items unless the product cannot be acquired competitively within the performance schedule, meeting performance requirements, or at a reasonable price.",
+      "section": "7.3.i",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7901,
+      "code": "R-036",
+      "title": "Pay Prevailing Wages",
+      "description": "Pay wages to laborers and mechanics at a rate not less than the prevailing wages specified in a wage determination made by the Secretary of Labor.",
+      "section": "7.5",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 5036,
+      "code": "A-013",
+      "title": "Submit best technical and price Quote initially",
+      "description": "Bidder is advised to submit its best technical and price Quote in response to the Bid Solicitation because the State may make a Contract award based on the content of the initial submission without further negotiation.",
+      "section": "8.11",
+      "priority": "high",
+      "category": "informational"
+    },
+    {
+      "id": 5037,
+      "code": "A-014",
+      "title": "Submit most competitive Quote; BAFO may not be requested",
+      "description": "Bidder is advised to submit its most competitive technical and price Quote. The State reserves the right to award without requesting a BAFO; BAFOs not resulting in more advantageous pricing will not be considered.",
+      "section": "8.12",
+      "priority": "high",
+      "category": "informational"
+    },
+    {
+      "id": 5063,
+      "code": "V-018",
+      "title": "Recommendation for Award process",
+      "description": "After evaluation is complete, the Procurement Bureau will recommend to the Director the responsible Bidder(s) whose Quote, conforming to the Bid Solicitation, is most advantageous to the State, price and other factors considered. The Director may accept, reject, or modify the recommendation.",
+      "section": "8.15",
+      "priority": "low",
+      "category": "informational"
+    },
+    {
+      "id": 7928,
+      "code": "A-017",
+      "title": "Indemnify the State against third-party claims (IT contracts)",
+      "description": "Assume all risk and responsibility and indemnify, defend, and save harmless the State of New Jersey and its officers, officials, agents, servants and employees from and against any and all third-party claims, demands, suits, actions, recoveries, judgments and costs and expenses arising from loss of ",
+      "section": "8.2.4.1.A.1",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7929,
+      "code": "A-018",
+      "title": "Remedies for third-party IP infringement claims",
+      "description": "In the event of a patent/copyright claim involving third-party IP rights, at Contractor's option: procure the legal right for the State to continue use; replace/modify the product with a non-infringing functional equivalent; or refund the purchase price less a reasonable allowance for use.",
+      "section": "8.2.4.1.A.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7942,
+      "code": "R-003",
+      "title": "State responsibility limited by NJ Tort Claims Act and Contractual Liability Act",
+      "description": "Subject to the New Jersey Tort Claims Act (N.J.S.A. 59:1-1 et seq.), the New Jersey Contractual Liability Act (N.J.S.A. 59:13-1 et seq.), and appropriation and availability of funds, the State will be responsible for any cost or damage arising out of actions/inactions of the State, its employees or ",
+      "section": "8.2.E",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7968,
+      "code": "R-029",
+      "title": "Remedy for breach of IT Services warranty",
+      "description": "On breach, contractor shall re-perform the deficient Services; if unable to substantially correct, the State may end the Services and recover the fees paid for the deficient Services.",
+      "section": "8.4.3.b",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7970,
+      "code": "R-031",
+      "title": "UL-listed electrical equipment",
+      "description": "Contractor warrants that all equipment supplied to the State operated by electrical current is UL listed where applicable.",
+      "section": "8.4.4.b",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7975,
+      "code": "R-036",
+      "title": "Hardware warranty remedy: repair, replace, or refund",
+      "description": "On breach of the Hardware warranty, the contractor shall promptly repair, replace or refund the purchase price of product rejected for failure to conform with the contractor's product specifications.",
+      "section": "8.4.4.g",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7979,
+      "code": "R-040",
+      "title": "Audit dispute resolution \u2013 appoint Representative",
+      "description": "If a dispute arises over audit-related alleged underpaid fees, each party will appoint a Vice President, Assistant Director, or equivalent Representative to resolve the dispute; no formal judicial proceedings may begin (except equitable relief or to avoid non-compliance with NJ Contractual Liability",
+      "section": "8.5.3",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7981,
+      "code": "R-042",
+      "title": "State not liable for audit costs",
+      "description": "Notwithstanding anything to the contrary, the State will not reimburse the contractor for any costs related to an audit.",
+      "section": "8.5.4",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8028,
+      "code": "R-033",
+      "title": "Indemnify State for third-party claims",
+      "description": "Contractor must assume all risk and responsibility and indemnify, defend, and save harmless the State of New Jersey and its officers, officials, agents, servants and employees from all third-party claims, demands, suits, actions, recoveries, judgments and costs.",
+      "section": "9.2.4.1.A.1",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 8030,
+      "code": "R-035",
+      "title": "Remedy third-party IP infringement claims",
+      "description": "In the event of a third-party Intellectual Property Rights claim, Contractor at its option must procure the legal right to continue use, replace/modify to a non-infringing equivalent, or refund the purchase price less reasonable use allowance.",
+      "section": "9.2.4.1.A.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8037,
+      "code": "R-042",
+      "title": "Limitation of liability cap - 200% of fees / $1M minimum",
+      "description": "Contractor's liability to the State for actual, direct damages for all third-party claims is limited in the aggregate to 200% of fees paid by the State during the previous twelve months for the products/services giving rise to the damages, but in no event less than $1,000,000. This cap does not appl",
+      "section": "9.4.4.3.A",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 8040,
+      "code": "R-045",
+      "title": "Per-record cost cap based on Ponemon Institute study",
+      "description": "Contractor's cost-bearing obligations for Breach of Security from encryption failure are not to exceed the average per record, per person cost calculated for data breaches in the United States in the most recent Cost of Data Breach Study: Global Analysis published by the Ponemon Institute for the pu",
+      "section": "9.4.4.3.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8039,
+      "code": "R-044",
+      "title": "Complete corrective actions after Breach",
+      "description": "Contractor shall complete all corrective actions as reasonably determined by Contractor based on root cause of the Breach of Security (part of costs borne where breach results from Contractor's encryption obligation breach).",
+      "section": "9.4.4.3.B.5",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8112,
+      "code": "A-013",
+      "title": "Obtain voluntary written dues authorization (Exhibit A)",
+      "description": "Upon receipt of a voluntary written authorization from an Employee in the form annexed as Exhibit A, the Employer shall deduct regular monthly dues and a non-refundable initiation fee.",
+      "section": "Article III.1",
+      "priority": "high",
+      "category": "form"
+    },
+    {
+      "id": 8218,
+      "code": "A-047",
+      "title": "Pay 1.5x for overtime beyond regular workweek",
+      "description": "Employees must be paid 1.5 times regular rate for authorized time worked in excess of the regular full-time workweek for their classification.",
+      "section": "Article IX.1",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 8239,
+      "code": "A-062",
+      "title": "Temporarily promote senior ALT when no Lane Tech available",
+      "description": "If no Senior Lane Technician or Lane Technician is available to work in each lane, the Employer may temporarily promote the most senior Associate Lane Technician for the shift at the current Lane Technician rate, regardless of discipline record.",
+      "section": "Article IX.11",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8244,
+      "code": "A-066",
+      "title": "Honor overtime requests in lower classifications",
+      "description": "If more volunteers than needed in a classification, an employee may request overtime in a lower classification; request honored only after all employees in lower class have been offered and declined; employee paid overtime based on regular rate but performs lower-class duties.",
+      "section": "Article IX.12",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8219,
+      "code": "A-048",
+      "title": "Pay minimum 2 hours for emergency overtime call-in",
+      "description": "Any employee called in for emergency overtime outside normal hours must be paid 1.5x for a minimum of 2 hours whether or not 2 hours are worked; pay period commences upon arrival.",
+      "section": "Article IX.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8221,
+      "code": "A-049",
+      "title": "Pay holiday overtime rates",
+      "description": "Employees called in for overtime on a recognized holiday must be paid 1.5x regular rate for hours worked plus holiday pay (8 hours straight-time for FT, 5 hours straight-time for PT).",
+      "section": "Article IX.3",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8222,
+      "code": "A-050",
+      "title": "Pay 1.5x for Saturday overtime",
+      "description": "Employees called in for overtime on Saturdays must be paid 1.5 times regular rate for all hours worked on Saturday.",
+      "section": "Article IX.4(a)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8223,
+      "code": "A-051",
+      "title": "Pay 2x and minimum 4 hours for Sunday overtime",
+      "description": "Employees called in for overtime on Sundays must be paid 2 times regular rate for hours worked and be guaranteed a minimum of 4 hours pay.",
+      "section": "Article IX.4(b)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8144,
+      "code": "A-045",
+      "title": "Part-Time Employees accrue seniority at half rate",
+      "description": "Part-Time Employees shall accrue seniority at one-half (1/2) the rate of Full-Time Employees.",
+      "section": "Article VI.2(c)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8182,
+      "code": "A-015",
+      "title": "Preserve pay rate upon involuntary displacement",
+      "description": "Any employee involuntarily displaced into a lower paying classification must keep their current rate of pay.",
+      "section": "Article VI.5(h)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8190,
+      "code": "A-023",
+      "title": "Provide salary adjustment upon promotion",
+      "description": "An employee who is promoted must receive a salary adjustment to the pay grade of the position; employees already at or above the new grade receive the new title rate plus the differential between previous and new titles.",
+      "section": "Article VI.7(b)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8196,
+      "code": "A-027",
+      "title": "Apply wage rates per Appendix A",
+      "description": "The applicable wage rates for all employees during the contract term are set forth in Appendix A.",
+      "section": "Article VII.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8210,
+      "code": "A-039",
+      "title": "Pay overtime rate during State of Emergency in affected county",
+      "description": "During a declared State of Emergency or Executive Order closing State offices in a particular County, employees at affected stations remaining in operation must be paid at 1.5 times their regular rate.",
+      "section": "Article VIII.9",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8400,
+      "code": "A-002",
+      "title": "Avoid patterns of absenteeism",
+      "description": "Employees demonstrating a pattern of absenteeism (e.g., calling out on Monday or Friday twice in a 30-day period, leaving early two times in a work week, leaving early three times in 30 days, or taking the same day off three times in 30 days) may be subject to discipline.",
+      "section": "Article XXIX.3",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8431,
+      "code": "A-026",
+      "title": "Maintain separate transfer request lists for specified classifications",
+      "description": "Transfer requests by Part-Time Equipment Repair Technicians, Technical Specialists, and Material Handlers unit Employees shall be maintained on a separate list from Full-Time Employees, subject to the same procedural rules.",
+      "section": "Article XXXI.7",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 7641,
+      "code": "A-020",
+      "title": "Defend and cooperate in defense of non-disclosure actions",
+      "description": "Company agrees that it shall defend and cooperate in the defense of an action against the State of New Jersey arising from or related to the non-disclosure, due to the Company's request, of documents submitted to the State.",
+      "section": "Confidentiality and Commitment to Defend",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7643,
+      "code": "V-011",
+      "title": "Continuing cooperation in defense or risk immediate disclosure",
+      "description": "If Company ceases to cooperate in the defense of an action arising from non-disclosure, the State may immediately disclose any documents withheld without further notice, and will disclose such documents if ordered by a court of competent jurisdiction.",
+      "section": "Confidentiality and Commitment to Defend",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7590,
+      "code": "A-036",
+      "title": "Provide detailed description of Iran investment activities if applicable",
+      "description": "If unable to certify because Vendor/Bidder or one or more parents, subsidiaries, or affiliates is listed on the Chapter 25 List, Bidder must provide a detailed, accurate and precise description of the activities, including entity engaged, relationship to Vendor/Bidder, description of activities, dur",
+      "section": "Disclosure of Investment Activities in Iran Form",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 9064,
+      "code": "R-011",
+      "title": "Implement security and privacy controls commensurate with State data sensitivity",
+      "description": "All vendors, business partners, and other third-parties are required to implement security and privacy controls that are commensurate with the criticality and sensitivity of the State of New Jersey information systems and information they develop, implement, provide, manage, host, or access.",
+      "section": "Instructions",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7603,
+      "code": "R-002",
+      "title": "Indicate if Vendor is a Sole Proprietor",
+      "description": "Vendor must indicate whether it is a Sole Proprietor (a natural person who owns an unincorporated business by himself or herself; a single-member LLC is NOT a Sole Proprietor); if so, no other disclosure is necessary.",
+      "section": "Ownership Disclosure Form Q2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7586,
+      "code": "A-032",
+      "title": "Disclose tiered 10% or greater owners until all natural persons identified",
+      "description": "For each corporation, partnership, or LLC identified at the first tier, Bidder must continue disclosing 10%-or-greater owners until the names and addresses of every non-corporate stockholder, individual partner, and/or member with a 10% or greater interest have been identified.",
+      "section": "Ownership Disclosure Form Q5",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 5741,
+      "code": "A-079",
+      "title": "Record answer: current signs, licenses and rate charts posted in full public view",
+      "description": "Auditor shall record yes/no/NA for: Are the current signs, licenses and rate charts posted in full public view? (PIF-specific fourth question)",
+      "section": "PIF Audit Recording",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8489,
+      "code": "R-008",
+      "title": "Complete all required price lines",
+      "description": "Bidders must complete all required price lines on the State-Supplied Price Sheet per the Bid Solicitation instructions or the Quote may be deemed non-responsive.",
+      "section": "Section 3",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 9074,
+      "code": "R-021",
+      "title": "Identify data types accessed under the engagement",
+      "description": "Select the data types that will be generated, accessed, processed, stored, and/or transmitted as part of the engagement (Public Data, PII, CJI, FTI, ePHI, SSA-Provided, Cardholder/Sensitive Authentication Data, or Other Sensitive Information).",
+      "section": "Section II",
+      "priority": "high",
+      "category": "form"
+    },
+    {
+      "id": 9063,
+      "code": "R-010",
+      "title": "Submit Supporting Documentation per Section V",
+      "description": "Vendor must submit the supporting documentation enumerated in Section V \u2013 Supporting Documentation to be Submitted (referenced in the Table of Contents at page 30).",
+      "section": "Section V",
+      "priority": "high",
+      "category": "mandatory"
+    }
+  ],
+  "parsons_evidence": [
+    {
+      "chunk_id": 1941,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 4,
+      "content": "..................................... 39\nC.2 Use of Established Communications Outlets ............................................................................................................. 40\nC.3 Oversight by and Coordination with PennDOT ............................................................................................................ 40\nIndustry Meetings .......................................................................................................................................................... 41\nPrint and Electronic Newsletter .................................................................................................................................... 41\nToll-Free Hotline ............................................................................................................................................................. 41\nTask D: Deliver Waivers and Operate Referee Program ........................................................................................................... 42\nD.1 Waivers ..............................................................................................................................................."
+    },
+    {
+      "chunk_id": 1947,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 5,
+      "content": "................. 50\nTechnology Overview ........................................................................................................................................................... 50\nSite Selection and Equipment Installation ........................................................................................................................ 51\nData Collection .................................................................................................................................................................... 51\nData Storage and Analysis .................................................................................................................................................. 51\nReporting Procedures ......................................................................................................................................................... 51\nTask H: Evaluation and Use of Dedicated Portion of I/M Program Management Fee ............................................................ 52\nTask I: Manage the Delivery, Installation, and Certification of Emission Inspection Equipment ........................................... 53\nCommunication"
+    },
+    {
+      "chunk_id": 1957,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 6,
+      "content": "......................... 76\nWeekly Progress Report ................................................................................................................................................ 76\nMonthly and Annual Reports ........................................................................................................................................ 77\nMonthly Reports ............................................................................................................................................................ 77\nSemi-Annual Recommendations Report ...................................................................................................................... 77\nAnnual Reports .............................................................................................................................................................. 77\nAnnual EPA Report ........................................................................................................................................................ 78\nReporting Changes ..................................................................................................................................."
+    },
+    {
+      "chunk_id": 1958,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 6,
+      "content": "............... 78\nI-8B. Invoice Submissions ................................................................................................................................................... 78\nI-9. OBJECTIONS AND ADDITIONS TO TERMS & CONDITIONS ........................................................................................ 78\nRESPONSE WRAP UP ...................................................................................................................................................... 78\nATTACHMENT A -- Project Experience\nATTACHMENT B -- Disaster Recovery Plan\nTechnical Submittal iv"
+    },
+    {
+      "chunk_id": 1961,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 8,
+      "content": "EXECUTIVE SUMMARY\nWORKING WITH PENNDOT TO MOVE THE I/M\nPROGRAM FORWARD THROUGH ADAPTABILITY\nAND INNOVATION\nParsons is uniquely positioned to deliver each requirement PennDOT has outlined for the new contract, enhancing what\nworks and innovating for the future. We\u2019re fully committed to:\nApplying innovation and advanced technology tailored to Pennsylvania\u2019s Program\nEnsuring station compliance\nEmploying advanced Cybersecurity protocols to protect against security threats\nEliminating PennDOT\u2019s transition risk\nParsons appreciates PennDOT\u2019s business. Throughout our response, we demonstrate our depth of experience, our\nreliability, our compliance, and our adaptability. We have unmatched knowledge of PennDOT\u2019s emissions and safety\nprograms, and we know what you require from your vendor. Most importantly, we won\u2019t rest on our laurels; in this new\ncontract, we will demonstrate to PennDOT that we are the best vendor to bring the Program into the future.\nHighlights of Parsons\u2019 Technical Proposal\nSecure Data and Information Management Systems. Our systems are reliable, and we are proud of the 99.99% uptime\nof our Pennsylvania VIID. Program downtime is simply unacceptable to us, and our experien"
+    },
+    {
+      "chunk_id": 1962,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 8,
+      "content": "nfrastructure that affords PennDOT the confidence to move forward. Protecting\ndata and information from loss, intrusion, and sophisticated cyber-attacks is critical to our data and management\nsystems. Our dedicated Pennsylvania team includes cybersecurity professionals, reinforced by a company-wide\nCybersecurity Practice that serves federal and state governments. Across our entire company, we integrate data and\ninformation security from the ground up through system design, system development, and day-to-day operations and\nmaintenance. The Pennsylvania VIID has never had a security or performance issue, and we will keep it that way.\nMindful Innovation. To maintain critical service continuity, and with PennDOT\u2019s approval, we will migrate all systems to\nthe Amazon Web Service (AWS) cloud environment. The system upgrade will provide efficient change management\nimplementation to adapt to future Program enhancements. The cloud-based VIID will include expanded reporting and\ndata management features along with robust scalability, security, and recovery. The upgraded system will allow\nPennDOT faster access to overt and covert audit data for the I/M and safety and enhanced safety programs. P"
+    },
+    {
+      "chunk_id": 1966,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 9,
+      "content": "t. This will reinforce confidence in Parsons\u2019 deliverables.\nA Team with Depth that Will Deliver for Pennsylvania. Success starts with experienced leadership, and Parsons brings a\ntrusted Program team. Mark Colangelo, Vice President and Pennsylvania Program Manager, has extensive knowledge of\nCommonwealth requirements, policies, and procedures, strengthened by his many years of industry experience. Backed by\nhis in-place team and handpicked DBE/SBE/VBE companies, we stand ready to support your initiatives and deliver your\nProgram. Mike Butler, Vice President and Smart Vehicles Solutions Business Leader, and Bonnie McPherson, Vice President,\nVehicle Inspection Programs, will support Mark in making sure he has the full complement of Corporate resources and staff\nrequired to meet your goals.\nParsons brings a mindful and respectful approach to innovation that aligns with PennDOT\u2019s priorities. PennDOT has and\ncan continue to rely on us to deliver innovation based on its goals. We have carefully reviewed the RFP offered by\nPennDOT and offer a responsible, respectful, and thorough response with solid, performance-based delivery on all the\noutlined tasks.\nThe Parsons Pennsylvania team\u2019s lon"
+    },
+    {
+      "chunk_id": 1968,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 10,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nnization with Certainty\nI-1. STATEMENT OF THE PROJECT\nPennsylvania operates one of the largest, longest-running decentralized Vehicle Emissions Inspection and Maintenance\n(I/M) Programs in the United States. The Commonwealth\u2019s I/M Program, divided into four regions, has grown to around\n8,200 stations throughout 25 counties since 1997. PennDOT estimates nearly 7 million vehicles will be subject to\ninspection by 2025. The Program design provides consumer convenience, supports private inspection stations, and\nimproves air quality. Stations in the Program are responsible for maintaining inspection equipment appropriate for the\nrequired inspection types in the given region.\nPennDOT is seeking a reliable, experienced Offeror to provide Emissions Program Management and continue the\nsuccessful operations of the I/M Program, overseeing safety inspection stations and related systems to keep consumer\nand inspection station costs as low as possible while maintaining vehicle and consumer safety. The Program must\ncomply with federal and state requirements while providing adaptability for future Progr"
+    },
+    {
+      "chunk_id": 1969,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 10,
+      "content": "l ensure the continued success of your Program through our strong foundational Program\nknowledge and performance history of compliance and adaptability with no transition risk. We understand the need\nfor complete separation and no conflict of interest between PennDOT\u2019s Emissions Program Manager and emissions\nequipment providers. We are the only contractor that can guarantee no financial or business relationship with any\ncurrently certified emissions testing equipment manufacturer in Pennsylvania.\nThe selected Program Manager will administer all aspects of the I/M Program under PennDOT\u2019s direction, including the\nrequired services defined in the RFP and outlined in work statement Part I-6. The contractor\u2019s responsibilities include:\n\u00a7 Maintaining the nature and scope of Pennsylvania\u2019s current I/M Program\n\u00a7 Maintaining required geographic coverage and program areas\n\u00a7 Providing a seamless transition that prevents interruption in Program services or data collection by maintaining\ninterfaces with hardware and software and ensuring emission testing equipment transmits data to the Vehicle\nInformation Inspection Database (VIID) identically\n\u00a7 Providing for the storage and handling of all I/M "
+    },
+    {
+      "chunk_id": 1970,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 10,
+      "content": "d safety inspection data\n\u00a7 Providing the necessary software/hardware to operate and maintain the I/M Program\n\u00a7 Providing a disaster recovery plan\n\u00a7 Providing data back-up and off-site back-up storage\n\u00a7 Providing system journal files (transaction journals), logging all system transactions\n\u00a7 Overseeing (overt, covert, and remote visual observation) I/M and Safety stations within the assigned geographic\nregion including inspectors and certified repair technicians\n\u00a7 Conducting public information and education (I&E) activities relating to the I/M Program\n\u00a7 Providing a process for investigation and fact-finding relating to I/M Program violations\n\u00a7 Providing referee service to facilitate the resolution of consumer complaints\n\u00a7 Helping I/M stations and consumers with the issuance of exemptions and waivers\n\u00a7 Providing Help Desk facilities to address equipment manufacturer, I/M station, and consumer questions and\nconcerns regarding I/M Program requirements and to address system support issues for e-SAFETY users\n\u00a7 Performing motorist compliance data collection and analysis\n\u00a7 Collecting, organizing, storing, and reporting on data related to on-road testing (remote sensing)\n\u00a7 Performing evaluat"
+    },
+    {
+      "chunk_id": 1973,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 11,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nfield use. In 2020, we reacted and adapted to the COVID-19 pandemic, successfully delivering all Program requirements\ndespite the mandated closures. In 2021, we collaborated with you to implement important OBD system changes that\nimproved emissions testing and Program integrity. In 2023, we increased overt audit staff to meet your need for\nincreased safety station oversight. We have demonstrated our adaptability and expertise. Our understanding of the\nProgram will benefit you in the new contract through:\n\u00a7 Trusted relationships\u2014we\u2019ve established constructive relationships with both PennDOT staff and the inspection\nindustry who trust us to communicate and resolve I/M Program issues.\n\u00a7 Operational continuity\u2014our experienced team will manage the daily operational tasks of the I/M Program.\n\u00a7 Innovation\u2014we\u2019ve implemented an electronic audit application that leverages touchscreen laptops, electronic\nsignature capture, and VIID integration to eliminate paper overt audit reports submitted to PennDOT.\n\u00a7 Enhanced cybersecurity protection\u2014we scan systems supporting our VIID using the same technolo"
+    },
+    {
+      "chunk_id": 1974,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 11,
+      "content": "actice uses to provide security auditing for high level, sensitive US government programs.\n\u00a7 Covert audit integrity\u2014our undercover vehicle dealership, approved by the Department of State and PennDOT,\nallows us to acquire vehicles without exposure to the inspection industry and the public.\n\u00a7 Institutional knowledge\u2014our knowledge of your EPA-required reporting needs provides an accurate and detailed\nevaluation of the I/M Program.\n\u00a7 Internal training resources\u2014as the only PennDOT-certified Vehicle Emission Inspection School (VEMIS E200), we\ntrain PennDOT Program staff in-house, preventing oversight staff from training with I/M personnel they may\neventually audit.\n\u00a7 Minimal risk during the transition\u2014our current VIID is already in place and functioning and we have the necessary\nexperience to ensure a smooth transition to a cloud-based solution when approved.\n\u00a7 Proven I&E experience\u2014we\u2019ve managed successful I&E efforts in Pennsylvania, communicating with the inspection\nindustry and the motoring public in alignment with your goals. As part of our commitment to SDB inclusion, we\u2019re\nteaming with two Harrisburg-based firms to help fulfill the I&E Program.\n\u00a7 Experienced Court of Common Pleas"
+    },
+    {
+      "chunk_id": 1978,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 12,
+      "content": "rdless of\nProgram changes supports PennDOT\u2019s compliance with state\nthe number of inspection stations or the\nand federal requirements. Our commitment to regulatory\nnetwork\u2019s geographical distribution.\ncompliance promotes Program integrity and aligns with \u2022 In-place team \u2013 Our team is already in place,\nPennDOT\u2019s goals while simultaneously protecting public health allowing us to focus time and resources on future\nand safety. Certainty plays a crucial role in PennDOT\u2019s decision enhancements versus transitioning systems.\nto choose a vendor for the I/M Program, and Parsons is the \u2022 Strong references \u2013 Our current and past clients\nbest vendor for successful ongoing Program operations and give us positive feedback and references.\n\u2022 In-place corporate resources \u2013 Our financial,\nintegrity.\nstaffing, and infrastructure resources are in place\nOur corporate structure provides all levels of management and ready to continue seamlessly from the\nwith complete access to any resources required to ensure current program.\nProgram success. We have two business units, Critical \u2022 Proven PA success \u2013 We have conducted more\nthan 80 million transactions to date and routinely\nInfrastructure and Federal Soluti"
+    },
+    {
+      "chunk_id": 1979,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 12,
+      "content": "m uptime above 99.9%.\nstrong IT/Technology division, a cybersecurity practice, and\nprofessionally tested and proven project management staff. Our CEO\u2019s pledge to the Commonwealth of Pennsylvania is a\ntestament to our dedication to PennDOT and the PA I/M Program\u2019s success.\nParsons is honored to have the opportunity to continue to play a crucial role as your Program Manager\nresponsible for administering the Commonwealth\u2019s I/M Program. Mark Colangelo and his team are\ncommitted to extending our support for this important Program. They will have the full complement of our\nunrivaled resources, expertise, and experience to realize your vision to protect the environment and keep\nyour roads safe. Likewise, we have a robust cybersecurity practice and the capabilities necessary to ensure\nyour data and systems are secure. We look forward to collaborating with PennDOT and each of its\nstakeholders to build on our long-term, mutually successful relationship that is 26 years in the making.\nCarey Smith\nChairwoman, President, and CEO\nIn our I/M sector, PennDOT can count on the following leadership to guide the program:\n\u00a7 Mark Colangelo, Vice President and Pennsylvania Program Manager with 38 industr"
+    },
+    {
+      "chunk_id": 1980,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 12,
+      "content": "\u00a7 Mike Butler, Vice President and Smart Vehicle Solutions Business Leader with 45 industry years' experience, will\nprovide executive support to ensure Mark has access to necessary corporate resources\n\u00a7 Bonnie McPherson, Vice President and Executive Support with 30 industry years' experience, will support Mark and\nthe Parsons PA team with corporate resource access\n\u00a7 John Ott, Pennsylvania Deputy Program Manager with 35 industry years' experience\nTechnical Submittal 3\n | PARSONS\u2019 RECORD SPEAKS FOR ITSELF |  | \n |  |  | \n | \u2022 On-time delivery \u2013 We have unmatched |  | \n | experience and expertise in delivering and |  | \n | operating I/M Programs on time, regardless of |  | \n | the number of inspection stations or the |  | \n | network\u2019s geographical distribution. |  | \n | \u2022 In-place team \u2013 Our team is already in place, |  | \n | allowing us to focus time and resources on future |  | \n | enhancements versus transitioning systems. |  | \n | \u2022 Strong references \u2013 Our current and past clients |  | \n | give us positive feedback and references. |  | \n | \u2022 In-place corporate resources \u2013 Our financial, |  | \n | staffing, and infrastructure resources are in place |  | \n | and ready to continue sea"
+    },
+    {
+      "chunk_id": 1982,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 13,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\n\u00a7 Darryl McCarthy, senior director/information technology with 33 IT years' experience, including IT system\nresponsibility of all Parsons vehicle inspection programs\nPennDOT prioritizes security and so does our responsive solution. Our dedicated security staff assigned to your\nProgram continuously work with systems and network administrators to improve the VIID environment\u2019s cybersecurity\nand mitigate threats. Since Parsons has a full cybersecurity practice, the vehicle inspection security staff has an arsenal\nof tools at their disposal and a wealth of expertise gleaned from many diverse implementations corporate-wide. Our\nsecurity service includes products and methods for antivirus and malware controls, firewall control process and intrusion\ndetection, safeguarding the database, hardening the hardware\u2019s operating systems, and securing communication\ntransmissions. We conduct monthly internal and quarterly external vulnerability tests and review the results to enhance\nour mitigation plans. Our security strategy also includes security assessments during and after critical system changes,\n"
+    },
+    {
+      "chunk_id": 1984,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 13,
+      "content": "we deliver. Parsons experience in programs across North America can be leveraged to\nbenefit Pennsylvania. Our success is in providing complete program management services, including custom software,\ndata management and reporting, overt and covert field auditing, real-time data auditing with emissions test interruptions,\ncall center services, fee collection and management, inspector and repair technician training, and industry outreach.\nEXHIBIT I-2-2. HIGHLIGHTS OF SOME MAJOR MILESTONES OF OUR MORE THAN 20 YEARS ON PENNSYLVANIA\u2019S I/M PROGRAM.\nTechnical Submittal 4"
+    },
+    {
+      "chunk_id": 1986,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 14,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nWe consider the PA I/M Program a hallmark of our success, helping us become an industry leader in decentralized\nvehicle I/M Programs. We\u2019ve worked cooperatively with PennDOT to successfully implement every Program change since\nthe beginning of the I/M Program. We understand the risk associated with Program transitions and mitigate that risk\nthrough our exceptional commitment to the Commonwealth.\nOur current program experience and success, as outlined above, combined with the programs referenced below, attest to\nour ability to deliver a quality I/M Program for the Commonwealth. We encourage you to contact our clients\u2014your\ncolleagues\u2014for their feedback on our performance. We\u2019re confident they\u2019ll speak to our ethical and respectful approach\nto managing program goals and our success in continually creating a business operating environment based on trust and\nrespect. Our personal commitment: we\u2019ll deliver the PA I/M Program on time, drive smart innovation, and provide\nexceptional customer and operational service.\nEXHIBIT I-2-3. PARSONS\u2019 INDUSTRY-LEADING VEHICLE EMISSIONS I/M PROGRAM EXPERIEN"
+    },
+    {
+      "chunk_id": 1987,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 14,
+      "content": "ed Contract Program\nProgram Contact\nName Agency Relevant to PA Experience Term Highlights\nPennsylvania PennDOT All services rendered under All proposed 1997\u20132025 Kara Templeton, See Timeline (Exhibit\nI/M Program Tasks A-M Parsons\u2019 PA Deputy Secretary PennDOT, I-2-2) on Page 5\nteam members Driver and Vehicle Services\nworked on this 1101 South Front Street\nproject Harrisburg, PA 17104\n717.705.1000 (Please\ncontact by telephone)\nKtempleton@pa.gov\nAutomated Vermont Project management, VIID 12 Parsons\u2019 PA 2016\u20132025 Wanda Minoli, Successful 6-month,\nVehicle Department of development, data security, team members DMV Commissioner 1,200-facility\nInspection Motor Vehicles equipment deployment worked on this Vermont DMV implementation and\nProgram (DMV) management, station project 120 State Street, implemented sticker\nmanagement/fee collection, 3rd Floor, Montpelier, VT printing-on-demand\ntraining industry and system 05633-5001\nadministrators, industry 802.828.2020\noutreach, and an industry Wanda.Minoli@vermont.gov\ntechnical support call center.\nNew Jersey New Jersey Project and operations 11 Parsons\u2019 PA 1998\u20132024 Fred Womack, Director of 12 stations received\nMotor Motor Vehicle management, VII"
+    },
+    {
+      "chunk_id": 1988,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 14,
+      "content": "urity, worked on this New Jersey MVC Enhanced\nInspection (MVC) software certification, project I/M Program, 225 East\nSystem equipment ATP, motorist call State Street, 4th Floor, East\ncenter, and PI&E. Wing, Trenton, NJ 08666\n609.633.9460\nFred.womack@mvc.nj.gov\nHawaii Hawaii Program and operations 5 Parsons\u2019 PA 2013\u20132024 Toby Wakumoto, Highway Successfully met the\nElectronic Department of management, VIID team members Safety Manager of the short four-month\nPeriodic Transportation development, station billing, worked on this Motor Vehicle Safety Office implementation\nMotor tablet-based software project Hawaii DOT98-339 timeline and\nVehicle development, Ponohana Place implemented sticker\nInspection implementation experience, Aiea, HI 96701 printing-on-demand\nProgram and station outreach. 808.692.7656\ntoby.wakumoto.@hawaii.gov\nTexas Texas Program management, 7 Parsons\u2019 PA 2006\u20132024 Lisa Cargill, Manager, RSD Provided equipment\nAutomated Department of software development and team members 5806 Guadalupe Street, software updates to\nVehicle Public Safety maintenance, safety worked on this Building I 6,700 private\nInspection inspection program project Austin, TX 78752 inspection stations i"
+    },
+    {
+      "chunk_id": 3513,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 1,
+      "content": "Parsons Corporation (NYSE: PSN) \u2014 Comprehensive Dossier\nPrepared for AI-agent ingestion in support of RFP responses. Tone: analytical and factual. All material claims are\nlinked to publicly available primary sources or major business/trade publications. Currency: April 2026; data\nthrough Parsons\u2019 FY2025 10-K filing (December 31, 2025) where applicable.\n1. Corporate Overview\nParsons Corporation is an 81-year-old, technology-focused engineering and solutions provider operating at the\nintersection of national security and global critical infrastructure, dual-listed in the Fortune 1000 and S&P\nMidCap 400.\nFounding, Structure, and Headquarters\nFounded: 1944 by Ralph M. Parsons in Pasadena, California, as the Ralph M. Parsons Company\nCompany Histories Source Source.\nHeadquarters: Chantilly, Virginia (Suite 100, 14291 Park Meadow Drive). GlobalData Parsons relocated its\nHQ from Pasadena, California to Centreville, Virginia in February 2019, Los Angeles Business Journal then\nmoved within Fairfax County to Chantilly between August and October 2023 Virginia Business Source\nSource.\nPublic/Private History: IPO\u2019d on the NYSE under ticker \u201cPSN\u201d on May 8, 2019, raising approximately $500\nmillion "
+    },
+    {
+      "chunk_id": 3517,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 2,
+      "content": "largely due to the wind-down of a confidential State Department contract and timing delays Source.\nPrimary business units: Defense & Intelligence (D&I) \u2014 led by President Mike Kushin \u2014 and Engineered\nSystems \u2014 led by President Jon Moretta (later succeeded by Martin Boson) Source Source Source.\nMarkets covered: cyber and intelligence; space and missile defense; electronic warfare; critical infrastructure\nprotection; engineered systems for federal customers (DOE, DHS, FAA) Parsons Source.\nCritical Infrastructure (FY2025: ~49% of revenue)\nThe segment provides \u201cintegrated design and engineering services for complex physical and digital\ninfrastructure\u201d sec globally, with a leading position in next-generation aviation, rail and transit,\nbridges/roads/highways, environmental remediation, water/wastewater, urban development, and\nprogram/construction management Source. Q3 2025 revenue grew 18% YoY (12.7% organic), with adjusted\nEBITDA up 83% and margin expanding 360 bps to 10.3% Parsons Source Source.\nPrimary business units: Infrastructure North America (President Mark Fialkowski) and Connected\nCommunities, which houses the \u201cParsons X\u201d digital accelerator Source Source.\nCustomers include: t"
+    },
+    {
+      "chunk_id": 3518,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 2,
+      "content": "ersey,\nAmtrak, CSX, Metrolinx (Ontario), the Riyadh Royal Commission, Dubai Roads and Transportation Authority, and\nthe Abu Dhabi Municipality Source.\n3. Cybersecurity Capabilities (Priority Section)\nParsons positions itself as a full-spectrum cyber operations provider \u2014 offensive, defensive, and resiliency \u2014\nbuilt through organic R&D and a series of accretive acquisitions integrated into the Defense & Intelligence\nbusiness unit."
+    },
+    {
+      "chunk_id": 3519,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 2,
+      "content": "l-spectrum cyber operations provider \u2014 offensive, defensive, and resiliency \u2014\nbuilt through organic R&D and a series of accretive acquisitions integrated into the Defense & Intelligence\nbusiness unit."
+    },
+    {
+      "chunk_id": 3521,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 3,
+      "content": "ck ML classifier for counter-UAS (drone vs. biological) Parsons Corporation Source.\nTReX, Galileo \u2014 automated spectrum-sensing/EW systems GovCon Wire brought in via the BlackHorse\nacquisition Source.\nJavelinXL rugged Android multi-modal biometric handhelds and Ares Gateway mobile biometrics\napplication Parsons Source.\nMajor Cyber Contracts (Selected Recent)\nUSCYBERCOM JCHK production (2026): up to $500M sole-source, three-year contract via Sealing\nTechnologies Source.\nDTRA Cooperative Threat Reduction Integration Contract (CTRIC) IV (Dec 2025): $3.5 billion ceiling\nIDIQ MATOC, 5-year base + 5-year option, for chemical/biological/radiological/nuclear (WMD) threat\nreduction Nasdaq Stock Titan Source. Parsons is the incumbent on CTRIC III Investing.com Source.\nDTRA AEMSS cyber operations task order (June 2025): $137 million ceiling, 1-year base + 4 one-year +\n6-month options Source.\nGSA CEOIS task order (May 2021): $618 million for advancing the Intelligence Community\u2019s global cyber\nand intelligence technologies for C5ISR \u2014 supporting agencies including the State Department and ODNI\nVirginia Business Source Source.\nUSCYBERCOM J9 PEO Cyber/JCWA (CYBERCOM C4CD): $109 million classified,"
+    },
+    {
+      "chunk_id": 3522,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 3,
+      "content": "ty News and a separate $91 million PEO Cyber prime contract Potomac Officers Club\nSource Source.\nIntelligence Community classified contract (Sept 2023): $160 million single-award, 1-year + 6 one-year\noptions for hardware/software solutions enabling intelligence applications Eagle-Tribune Source."
+    },
+    {
+      "chunk_id": 3524,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 4,
+      "content": "Intelligence Community classified (Feb 2022): $104 million single-award, 5-year for vulnerability\nresearch, reverse engineering, software development GlobeNewswire Source.\nIntelligence Community IDIQ (July 2020): $178 million, 5-year for security/protection of classified\nfacilities, assets, and personnel worldwide FedSavvy Strategies Source.\nNSA SHARKSEER 2.0 task order: under DISA SETI, total potential value $28 million (1 base + 4 option\nyears) Source. Parsons has been the original contractor on the SHARKSEER program since 2011\nFedSavvy Strategies Source.\nCyber-Related Acquisitions (see \u00a78 for full list)\nPolaris Alpha (2018, AI/SIGINT/cyber), OGSystems (2019, GEOINT), Braxton (2020, space/satellite ground),\nBlackHorse (2021, EW/cyber), Echo Ridge (2021, PNT/SIGINT), Xator (2022, cUAS/biometrics/IC cyber), IPKeys\nPower Partners (2023, OT cyber), Sealing Technologies (2023, defensive cyber), BlackSignal (2024,\nEW/RF/cyber), Chesapeake Technology International (2025, EW/all-domain), Altamira (2026, SIGINT/space)\nSource.\nCyber Recognition\n16 consecutive years (through 2025), GlobeNewswire 17 consecutive (through 2026) The Globe and Mail\nnamed to Ethisphere\u2019s World\u2019s Most Ethical Comp"
+    },
+    {
+      "chunk_id": 3525,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 4,
+      "content": "vices category Parsons Corporation WFXG Source Source.\nM&A team named \u201cDeal Team of the Year\u201d by the Association for Corporate Growth sec following the 2024\nBCC and BlackSignal transactions Source.\n4. High-Security / Classified Work\nParsons is one of the most cleared mid-cap government services contractors in the market, with multiple\nacquired companies posting cleared workforces of 80\u201390%.\nIntelligence Community (CIA, NSA, NRO, NGA, DIA)\nPolaris Alpha (acquired 2018) brought ~1,300 employees Baird with nearly 90% cleared, PR Newswire\nsupporting the U.S. Intelligence Community, multiple DoD agencies, DHS, and other federal agencies, with\ndeep capabilities in cyber, ML/AI, EW, SIGINT, space situational awareness, and multi-domain command and\ncontrol Source Source.\nOGSystems (acquired 2019) core customers were named as the National Geospatial-Intelligence Agency\n(NGA), the National Reconnaissance Office (NRO), and Special Operations Command (SOCOM)\nParsons Corporation Source Source.\nBraxton Science & Technology Group (acquired 2020) added 370+ employees, 80% cleared, focused on\nsatellite operations, ground-system automation, flight dynamics, and spacecraft simulation for DoD and the\n"
+    },
+    {
+      "chunk_id": 3528,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 5,
+      "content": "Chesapeake Technology International (acquired 2025) added ~225 employees with 87% cleared\nGovCon Wire Source.\nAltamira (acquired January 2026) added 600+ employees with over 90% cleared, Parsons Corporation\nspecializing in SIGINT, missile warning, space data analytics, and AI/ML SpaceNews sec Source Source.\nDoD Classified Programs\nMDA SHIELD IDIQ (Dec 2025): $151 billion ceiling Scalable Homeland Innovative Enterprise Layered\nDefense IDIQ for rapid delivery of warfighter capabilities Yahoo Finance Source.\n40-year relationship with the Missile Defense Agency as engineering and technical advisory provider;\n\u201cresponsible for the ground infrastructure supporting every U.S. intercontinental ballistic missile program in\nhistory\u201d Washington Technology except Sentinel, per CEO Carey Smith Source.\nMDA TEAMS (2016): 5-year, $455 million potential ceiling for weapons and missiles engineering support\nFedSavvy Strategies Source.\nMDA Real Property Program (2022): $104.2 million for facility restoration/modernization Source.\n$47M classified contract extension (March 2026) Source.\nSpecial Operations Command (SOCOM)\nLong-standing customer through OGSystems and Xator legacy; SOCOM identified explicit"
+    },
+    {
+      "chunk_id": 3529,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 5,
+      "content": "acquisition (2025) \u201cstrengthens Parsons\u2019 defense customer posture with the Special Operations forces\nand enhances Parsons\u2019 position in the Indo-Pacific Command (INDOPACOM) area of operations\u201d Source.\nParsons participated at Special Operations Forces Week 2025 Source.\nSpace Force / Space Domain\nResilient MWT MEO Epoch 1 ground operations (April 2023): $55 million task order from U.S. Space\nForce Space Systems Command to develop hardware/software for the Space Operations Center supporting\nthe constellation of missile-warning satellites in medium Earth orbit Source Source.\nDARPA Blackjack: $10.8 million prototype ground operations center contract; later expanded with a $30\nmillion Blackjack space mission award (Dec 2025) Source Source.\nNOAA TraCSS systems integrator (March 2024): $15.5M base / $26.9M total for the cloud-based Traffic\nCoordination System for Space \u2014 civil space situational awareness software backbone (TraCSS-OASIS /\nTraCSS-SKYLINE). Won the 2025 SpaceNews Icon Award for Civil Space Achievement Source Source\nSource.\nElectronic Warfare and SIGINT\nBlackHorse Solutions, BlackSignal Technologies, Chesapeake Technology International, and Altamira\ntogether give Parsons full-s"
+    },
+    {
+      "chunk_id": 3530,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 5,
+      "content": "cessing, and SIGINT capabilities Source Source Source.\nCleared Workforce \u2014 Aggregate Indicators\nWhile Parsons does not publish a single corporate cleared-workforce number, acquired-company disclosures"
+    },
+    {
+      "chunk_id": 3531,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 6,
+      "content": "show 70\u201390% clearance rates, totaling thousands of TS/SCI-cleared employees concentrated in Chantilly,\nCentreville, (regional location) Junction (MD), Aberdeen (MD), Columbia (MD), Colorado Springs (CO), and\nFredericksburg (VA) Source Source.\n5. Technology and R&D\nParsons has shifted from a traditional EPC firm to a \u201cdigitally enabled solutions provider\u201d anchored by\nproprietary software products and AI/ML technology developed both organically and through 20+ acquisitions\nsince 2017.\nKey Proprietary Platforms and Products\niNET\u00ae (Intelligent NETworks): cloud-based, COTS smart-mobility / Advanced Traffic Management System\nused by NJDOT, GDOT, and others; powers the first integrated statewide ATMS for NJDOT (go-live August\n2025); manages 5,000+ monthly traffic events Source Source.\nTraCSS (Traffic Coordination System for Space): civil SSA system delivered to NOAA\u2019s Office of Space\nCommerce Source.\nTEMPO (EW planning optimization), DeclutterML (radar-track classification), Project DECIDER (predictive\nanalytics) Source.\nJavelinXL rugged biometric handhelds, Ares Gateway mobile biometrics application, ABIS In A Box,\nDetectWise\u2122, ICS\u2122, Intelligent Intersections, Intellisight\u2122 Source Source"
+    },
+    {
+      "chunk_id": 3532,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 6,
+      "content": "(Jan 2025) in support of Project Linchpin,\nthe Army\u2019s AI/ML \u201cAIOps+\u201d program (PEO IEW&S) Source.\nStrategic agreement with BrainChip (Oct 2025) through Parsons subsidiary Blue Ridge Envisioneering to\nintegrate Akida neuromorphic processors into edge-AI platforms for defense/intelligence; Blue Ridge\nEnvisioneering was acquired as part of BlackSignal in 2024 Source.\nCloud/AI training: AWS DeepRacer enterprise upskilling program reached 470+ employees, generating\n1,500+ ML models Source.\nParsons X: internal digital accelerator organization within Connected Communities; integrates IPKeys\nsoftware Source.\nCTO and R&D Organization\nRico Lorenzo, Chief Technology Officer, leads enterprise R&D and innovation strategy, including internal\nR&D, commercial technology partnerships, contract R&D, and university partnerships Source.\nThe Defense & Intelligence sector has its own CTO (Ryan Gabriele) Source.\nStrategic Investment Areas (per FY2024 proxy)\n\u201cAI; cyber; biometrics; counter unmanned air systems; PFOS/PFAS; and assured position, navigation, and timing\n(PNT)\u201d Source."
+    },
+    {
+      "chunk_id": 3533,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 6,
+      "content": "n CTO (Ryan Gabriele) Source.\nStrategic Investment Areas (per FY2024 proxy)\n\u201cAI; cyber; biometrics; counter unmanned air systems; PFOS/PFAS; and assured position, navigation, and timing\n(PNT)\u201d Source."
+    },
+    {
+      "chunk_id": 3537,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 8,
+      "content": "Hudson River Tunnel \u2014 among Parsons\u2019 three largest North America transportation wins of 2023\u201324\nSource.\nFoothill Gold Line Phase 2B2 Claremont extension (Feb 2026): $60M design contract from Foothill Gold\nLine Construction Authority Source.\nEglinton Crosstown LRT (Toronto): part of a $8.4B program Source.\nVIA Metropolitan Transit (San Antonio) Rapid Silver Line final design contract (Dec 2025) Source.\nNJ TRANSIT Positive Train Control: prime contractor and design-builder for turnkey FRA-mandated\nsystem Source.\nRoads and Bridges\nI-70 Rocheport-to-Columbia design-build (Missouri, Dec 2025): $441M lead designer role Source.\nGoethals Bridge Replacement \u2014 Parsons was lead designer Source.\nGDOT Advanced Traffic Management System upgrade \u2014 recent 2026 award using iNET Source.\nI-64 Hampton Roads Express Lanes lead designer (March 2026) Source.\nVehicle Inspection / Smart Vehicle Solutions\nOperates large-scale Inspection & Maintenance (I/M) programs in Ontario, Pennsylvania, New Jersey,\nCalifornia, Texas, and Hawaii; first decentralized OBDII program (Louisiana); first-to-market tablet testing\nsolution; trained 100,000+ inspectors; managed >$100M/yr in fee collection without losses Source. N"
+    },
+    {
+      "chunk_id": 3538,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 8,
+      "content": "t 1998; Parsons\nhas remained the incumbent operator; in 2021 Parsons protested the New Jersey Bid Solicitation\n#20DPP00471 (Enhanced MV Inspection Maintenance System) award to Opus Inspection Source.\nWater and Environmental\nAFCEC Environmental Services Contract for PFAS (April 2025): $1.5 billion ceiling Source.\n2025 Engineering Excellence Honor Award for the Deer Creek Sanitary Tunnel project Source.\nMcMurdo Station (Antarctica) update/rebuild Source.\nDefense Infrastructure\nPacific Deterrence Initiative MACC (Nov 2025): $15 billion ceiling NAVFAC contract; 5-year base + three\n1-year options; design and engineering for projects exceeding $100M scope including runways, hangars,\nwaterfront facilities, and energy/fuel storage in Australia, the Philippines, and U.S. territories Source.\nU.S. Air Force Comprehensive Construction & Engineering MATOC (Dec 2025): $15 billion ceiling, 5-\nyear base + 5 option years for global facility design, construction management, maintenance, renovation,\nand restoration Source.\nAir Base Air Defense (ABAD) program: original $953M IDIQ (2021); cumulative 2025 task-order value\nreached ~$192 million including an $88M task order at Ramstein Air Base (Dec 2025)"
+    },
+    {
+      "chunk_id": 3539,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 8,
+      "content": "Dec 2025) Source.\n$100M Nammo munitions facility task order (Dec 2025): rocket-motor manufacturing facility\ndesign/construction in Perry, FL, supporting DoW Acquisition Transformation Strategy Source."
+    },
+    {
+      "chunk_id": 3543,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 10,
+      "content": "Long-Standing Customer Relationships\nFAA: \u201cnearly 50 years\u201d/\u201cmore than five decades\u201d continuous TSSC support Source Source.\nMDA: 40-year relationship Source.\nNSA SHARKSEER: prime since 2011 Source.\nBWI Marshall Airport: 50 consecutive years Source.\nMiddle East: 65\u201370 years; first overseas project in 1949; first airport project in Saudi Arabia in 1958 Source\nSource.\nRiyadh Metro / RCRC: 10+ year relationship; PIF partnership since 2017 Source.\nInternational Work (Middle East and beyond)\nSaudi Arabia PIF mega-projects: THE LINE, Oxagon, multiple ROSHN developments, and now King Salman\nInternational Airport (KSIA) and the W Riyadh KAFD luxury hotel Source Source.\nUAE: Zayed International Airport, Sharjah International Airport Source.\nQatar: Hamad International Airport Source.\nKuwait International Airport Source.\nCanada: Eglinton Crosstown LRT (Toronto) Source.\n8. Acquisitions History (Last 10 Years)\nCEO Carey Smith has stated Parsons has \u201cacquired 14 technology-differentiated companies since 2017\u201d; Chuck\nHarrington\u2019s tenure included \u201cover 20 acquisitions\u201d total Source Source. Acquisition strategy: companies with\nrevenue growth and adjusted EBITDA margins \u226510% with critical IP that com"
+    },
+    {
+      "chunk_id": 3551,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 12,
+      "content": "Ethisphere World\u2019s Most Ethical Companies: 17 consecutive years (since 2010) \u2014 one of only four 2026\nEngineering Services honorees Source.\nENR #1 Program Management Firm (2025); ENR Top 500 Design Firms (#15, 2024) Source Source.\nWashington Technology Top 100: #37 (2024) Source.\n2025 Engineering Excellence Honor Award (Deer Creek Sanitary Tunnel) Source.\n2025 SpaceNews Icon Award for Civil Space Achievement (TraCSS) Source.\n2025 NJ Alliance for Action Excellence in Engineering Award (NJDOT statewide ATMS) Source.\nEnvision Platinum Award (Sound Transit Federal Way Link Extension) Source.\nACEC NY Engineering Excellence Diamond Award (MTA Grand Central Madison) Source.\n2025 DOL HIRE Vets Gold Medallion Source.\n2025 Military Times Best for Vets: #2 in Virginia, #2 in Defense & Aerospace, #16 overall Source.\n2026 GI Jobs Military Friendly Employer Gold/Top 10 \u2014 #9 nationally in $5B+ category Source.\nVET Indexes 5 Star Employer (2025) Source.\nBig Project Middle East Awards \u2014 three consecutive years, including KAFD Residential Uplift Project of the\nYear and Mentor of the Year Source.\nM&A Deal Team of the Year (2024) \u2014 Association for Corporate Growth, recognizing BCC and BlackSignal\ntrans"
+    },
+    {
+      "chunk_id": 3554,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 13,
+      "content": "\u201cSpeed of relevance\u201d; \u201cagile, innovative, and disruptive approach\u201d Source.\nDeep cleared-workforce concentration (multiple acquired companies at 80\u201390%+).\n17 years of Ethisphere ethics recognition \u2014 strong differentiator vs. some peers facing FCA / FCPA scrutiny.\nNumber-one ENR Program Management ranking (2025).\nTrack record on legacy critical-infrastructure projects (LAX, JFK, BWI, Newark, Riyadh Metro, Mackinac\nBridge legacy via 1957 SBGB acquisition history) Source.\nComparative financial profile: Parsons\u2019 6.15% operating margin and 3.69% net margin trail Leidos (12.0% /\n8.1%) and CACI (9.3% / 5.7%), though the Critical Infrastructure segment hit 10.3% adjusted EBITDA margins\nin Q3 2025 Source.\n11. Leadership and Culture\nCEO Carey Smith\nTitle: Chair, President, and CEO since April 2021; Chairman role added later. Joined Parsons in 2016 as\nPresident of Federal Solutions; promoted to COO in 2018 and President & COO in 2019; succeeded Charles\n\u201cChuck\u201d Harrington (39 years with the company, 13 as CEO) effective July 1, 2021 Source.\nBackground: Former President of Honeywell\u2019s Defense and Space business unit; prior roles at Lockheed\nMartin including President & CEO of Canadian operations"
+    },
+    {
+      "chunk_id": 3555,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 13,
+      "content": "simulation engineer at IBM Source Source.\nEducation: B.S. Electrical Engineering from Ohio Northern University; M.S. Electrical Engineering from\nSyracuse University; honorary doctorate (2018) Source.\nBoards: Edison International, Professional Services Council (Vice Chair / Chair), Intelligence and National\nSecurity Alliance, USGIF Source.\nRecognitions: Seven-time Wash100 winner; 4\u00d724 member; PMP and Green Belt certified; certified NACD\ncyber governance professional and NACD Fellow Source Source.\nOther Key Executives (most recent disclosures)\nMatt Ofilos \u2014 Chief Financial Officer; joined Parsons in 2021; previously CFO of AWS Worldwide Public\nSector and Strategic Industries; Raytheon Space and Command & Control CFO Source.\nMike Kushin \u2014 President of Defense & Intelligence (D&I) Source Source.\nJon Moretta \u2014 President of Engineered Systems (named September 2021); succeeded by Martin Boson by\n2026 Source Source.\nMark Fialkowski \u2014 President, Infrastructure North America Source.\nJames Johnson \u2014 Senior Vice President, Parsons Space Solutions Sector Source.\nPaul Decker \u2014 Chief Growth Officer (formerly EVP/GM Cyber & Intelligence) Source Source.\nRico Lorenzo \u2014 Chief Technology Officer Sourc"
+    },
+    {
+      "chunk_id": 3557,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 14,
+      "content": "Jason Yaley \u2014 Chief Corporate Affairs Officer Source.\nTim LaChapelle \u2014 Chief Digital Officer Source.\nBoard of Directors\nIncludes Carey Smith (Chair), Suzanne \u201cZan\u201d Vautrinot (former USAF Major General, Commander 24th Air Force\n/ Air Forces Cyber), George Ball (former CFO), M. Christian Mitchell (former Deloitte National Managing Partner),\nMark Holdsworth, Bob Smith (former Blue Origin CEO), Dave Wajsgras (Everfox CEO), and Darren McDew,\namong others Source.\nWorkforce and Culture\n\u201cPeople First\u201d culture; revitalized leadership team via promotion and external hires; flexible work schedule;\nengineer \u201cwork-from-anywhere\u201d program; six enterprise business resource groups; dual technical career\npath Source.\nIn early 2025, Parsons removed diversity, equity, and inclusion programming to align with executive orders\nemphasizing merit-based hiring Source.\n12. Risks and Challenges\nConfidential State Department Contract Wind-down\nA \u201cconfidential contract\u201d tied to a State Department program office that was eliminated in a reorganization has\nbeen pulled out of guidance since June 2025; this drove FY2025 Federal Solutions revenue down 20% YoY and\ntotal revenue down 5.7% Source Source.\nFAA BNATCS Los"
+    },
+    {
+      "chunk_id": 3558,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 14,
+      "content": "(with IBM) lost the $12.5 billion Brand New Air Traffic Control System prime integrator contract to\nPeraton. The stock fell ~15\u201323% after the announcement; Raymond James downgraded from Strong Buy to\nMarket Perform; KeyBanc lowered its price target to $76; BofA cut its target from $95 to $90 (maintaining Buy)\nSource Source Source. Parsons retained the $1.8B TSSC 5 anchor work and may participate in BNATCS as a\npartner.\nCompetitive Dynamics\nFederal Solutions margins (~6%) trail peers Leidos and CACI Source.\nActive near-peer competitors include Leidos, SAIC, Booz Allen, CACI, Peraton, ManTech, and Bechtel (on\nSaudi infrastructure) Source.\nOther Notable Items\nMulti-year New Jersey procurement disputes around the Enhanced Motor Vehicle Inspection Maintenance\nSystem (Parsons protested 2016 and 2021/2022 awards); Parsons remains the historical incumbent operator\nof NJ\u2019s Centralized Inspection Facilities Source Source.\nA $250M classified contract \u201clawsuit\u201d reference appeared in Virginia Business; specifics not material here\nSource."
+    },
+    {
+      "chunk_id": 3560,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 15,
+      "content": "13. Key Facts and Figures to Highlight in Proposals\nStat Source\nFounded 1944 (81-year history) Source\n21,000+ employees worldwide; 50 U.S. states; 30+ countries Source Source\nFY2025 revenue $6.364B; FY2024 $6.75B Source\nBacklog $8.7B (12/31/2025) Source\n14 technology acquisitions since 2017 Source\n15 contract wins \u2265 $100M in 2025 Source\n17 consecutive years on Ethisphere World\u2019s Most Ethical Companies Source\n#1 Program Management firm by ENR (2025) Source\n600+ FAA sites supported under TSSC Source\n450+ airports in 40 countries planned/designed/managed Source\n10,000+ miles of roadways; 4,500+ bridges; 50+ ATMS deployments Source\n3,500+ mobile biometrics solutions delivered Source\n70-year continuous Middle East presence; 6,000+ regional employees Source\n50 consecutive years supporting BWI Marshall Source\n40-year MDA relationship; ground infrastructure for every U.S. ICBM program except\nSource\nSentinel\nPosition on $151B MDA SHIELD IDIQ; $15B PDI MACC; $15B USAF Construction MATOC; (sources cited\n$3.5B DTRA CTRIC IV; $1.8B FAA TSSC 5 above in \u00a77)\nSources / Reference List\nParsons Corporate / SEC Filings\nParsons FY2025 10-K (SEC EDGAR) \u2014\nhttps://www.sec.gov/Archives/edgar/data/0000275880"
+    },
+    {
+      "chunk_id": 3567,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 17,
+      "content": "y (IPO advisory note) \u2014 https://www.jonesday.com/en/practices/experience/2019/05/parsons-\ncorporation-completes-500-million-ipo-on-n\nUSGIF (Carey Smith bio) \u2014 https://usgif.org/biography/carey-smith/\nSyracuse University ECS (Carey Smith profile) \u2014 https://ecs.syracuse.edu/about/news/transformative-\nleadership-carey-smith-g91\nFairfax County EDA \u2014 https://fairfaxcountyeda.org/innovation-at-work-executive-profile-qa-with-parsons-\nchair-president-and-ceo-carey-smith/\nBaird (Polaris Alpha M&A) \u2014 https://www.rwbaird.com/transactions/investment-banking/dealcard/5205/\nMintz (Altamira M&A) \u2014 https://www.mintz.com/insights-center/news-press/mintz-advises-altamira-\nacquisition-parsons\nHNTB (NJDOT ATMS) \u2014 https://www.hntb.com/press_release/hntb-supports-new-jersey-department-of-\ntransportation-in-deployment-of-statewide-advanced-traffic-management-system/\nITS America technical paper (NJDOT iNET) \u2014 https://itsa.org/wp-\ncontent/uploads/2025/06/NJDOT_LocalGovernment.pdf\nAWS Machine Learning Blog (Parsons DeepRacer) \u2014 https://aws.amazon.com/blogs/machine-\nlearning/leveraging-artificial-intelligence-and-machine-learning-at-parsons-with-aws-deepracer/\nBrainChip Investor Portal \u2014 https://investor.bra"
+    },
+    {
+      "chunk_id": 3568,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 17,
+      "content": "ce-and-machine-learning-at-parsons-with-aws-deepracer/\nBrainChip Investor Portal \u2014 https://investor.brainchip.com/brainchip-and-parsons-sign-strategic-\nagreement-to-accelerate-edge-ai-defense-systems/"
+    },
+    {
+      "chunk_id": 3569,
+      "document": "Parsons Corporation (NYSE_ PSN)_ Comprehensive Capabilities and Contracts Dossier for RFP Response.pdf",
+      "page": 18,
+      "content": "Sealing Technologies / CTI press pages \u2014 https://www.sealingtech.com/press/\u2026 and\nhttps://www.ctic.us/blog/parsons-acquires-chesapeake-technology-international/\nAltamira corporate page \u2014 https://www.altamiracorp.com/parsons-acquires-altamira-technologies-\ncorporation/\nNote for the AI agent ingesting this dossier: Where a specific number, date, contract value, or executive name is\ncited, the inline Source link points to the underlying primary source. For RFP responses requiring the highest\nlevel of verification, prioritize Parsons\u2019 SEC filings (10-K, 10-Q, DEF 14A), Parsons official press releases on\nparsons.com / investors.parsons.com / GlobeNewswire, and reporting in Washington Technology, GovCon Wire,\nBreaking Defense, SpaceNews, and Engineering News-Record. Avoid generative-AI summary sites (e.g.,\nGrokipedia, dcf-model.com, ainvest.com) as primary citations; they are referenced here only when corroborating\nother primary sources.\nSealing Technologies / CTI press pages \u2014 https://www.sealingtech.com/press/\u2026 and\nhttps://www.ctic.us/blog/parsons-acquires-chesapeake-technology-international/\nAltamira corporate page \u2014 https://www.altamiracorp.com/parsons-acquires-altamira-technologies-\n"
+    },
+    {
+      "chunk_id": 3576,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 4,
+      "content": "ble Local Requirements (RFP Section 2.3.1.C) ...................................... 27\n2.3.1.1 Transition of the Inspection Program Stations to New Program and Contractor (RFP Section 2.3.1.1) ..................... 28\n2.3.1.1.1 Transition (RFP Section 2.3.1.1) ............................................................................................... 29\n2.3.1.1.2 Clearly Identify the Costs to be Paid by the State (RFP Section 2.3.1.1.2) ............................ 30\n2.3.1.1.3 Smooth Transition Without Shutdown (RFP Section 2.3.1.1.3) .............................................. 31\n2.3.1.1.4 Final the Inspection Program Station Transition Plan (RFP Section 2.3.1.1.4) ..................................................... 32\n2.3.1.1.5 SAT Agenda (RFP Section 2.3.1.1.5) ........................................................................................ 47\n2.3.1.2 Contractor-Supplied Hardware, Software, and Materials (RFP Section 2.3.1.2) .......................... 49\n2.3.1.2.A State\u2019s Right to Purchase (RFP Section 2.3.1.2.A) .................................................................. 49\n2.3.1.2.B Acquisition and Operation of Hardware, Software, and Network Support "
+    },
+    {
+      "chunk_id": 3577,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 4,
+      "content": "........................................................................ 50\n2.3.1.2.C Material Costs Passed Through (RFP Section 2.3.1.2.C) ........................................................ 50\n2.3.1.2.D Test Conditions and Application (RFP Section 2.3.1.2.D) ....................................................... 50\n2.3.1.2.E Test Conditions and Application (RFP Section 2.3.1.2.E) ........................................................ 50\n2.3.1.2.F Acquisition and Operation of Hardware, Software, and Network Support (RFP\nSection 2.3.1.2.F) ....................................................................................................................................... 51\n2.3.1.2.G Manufacturer/Provider Warranties (RFP Section 2.3.1.2.G) .................................................. 51\n2.3.1.3 Required Project Policies, Guidelines, and Methodologies (RFP Section 2.3.1.3) ....................... 51\n2.3.1.4 Product Requirements (RFP Section 2.3.1.4) ................................................................................. 52\n2.3.1.5 Maintenance and Support (RFP Section 2.3.1.5) ........................................................................... 52\n2.3"
+    },
+    {
+      "chunk_id": 3578,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 4,
+      "content": "nd Program Enhancement Labor Support (RFP\nSection 2.3.1.5.A) ....................................................................................................................................... 52\n2.3.1.5.B Cooperate with The State Regarding Program Modifications (RFP Section 2.3.1.5.B) ......... 53\n2.3.1.5.C Emissions Test Equipment and Software Updates (RFP Section 2.3.1.5.C) .......................... 53\nTable of Contents i"
+    },
+    {
+      "chunk_id": 3586,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 6,
+      "content": "(RFP Section 2.3.1.13.8) ................................................ 81\n2.3.1.13.9 Training for Personnel at MACs (RFP Section 2.3.1.13.9) .................................................... 82\n2.3.1.14 Personnel for Additional Vehicle Inspections (RFP Section 2.3.1.14) ......................................... 83\n2.3.1.15 QA/QC, Operational and Performance Audits (RFP Section 2.3.1.15) ........................................ 83\n2.3.1.15.1 QA/QC Audits (RFP Section 2.3.1.15.1) ................................................................................. 84\n2.3.1.15.2 State Operational and Performance Audits (RFP Section 2.3.1.15.2) ................................. 86\n2.3.1.16 Motorist Payment Methods Permitted (RFP Section 2.3.1.16) ................................................... 86\n2.3.1.16.1 Fee Collection (RFP Section 2.3.1.16.1) ................................................................................ 87\n2.3.1.16.2 Full Fee Collection (RFP Section 2.3.1.16.2) ......................................................................... 87\n2.3.1.16.3 Accepting Cash Payments (RFP Section 2.3.1.16.3) ............................................................ 8"
+    },
+    {
+      "chunk_id": 3587,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 6,
+      "content": "from the Hybrid Programs (RFP Section 2.3.1.16.4) ..................................... 88\n2.3.1.16.5 Collected Fees Shall be Deposited into an Account (RFP Section 2.3.1.16.5) ................... 89\n2.3.1.17 Accountability and Transfer of Fees (RFP Section 2.3.1.17) ....................................................... 89\n2.3.1.17.1 Collection of Fees and Accountability (RFP Section 2.3.1.17.1) .......................................... 90\n2.3.1.17.2 Late Fee Transfer (RFP Section 2.3.1.17.2) .......................................................................... 91\n2.3.1.17.3 Test Fee Distribution (RFP Section 2.3.1.17.3) ..................................................................... 91\n2.3.1.17.4 Monthly Invoice and Process (RFP Section 2.3.1.17.4) ........................................................ 92\n2.3.1.17.5 Revenue Summary Report/Schedule A Report (RFP Section 2.3.1.17.5) ........................... 92\n2.3.1.17.6 Kiosk and FIS System Revenue Summary Report (RFP Section 2.3.1.17.6) ...................... 92\n2.3.1.17.7 Master Revenue Summary Report (RFP Section 2.3.1.17.7) ............................................... 92\n2.3.1.18 Overall Management Plan (R"
+    },
+    {
+      "chunk_id": 3590,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 7,
+      "content": "2.3.1.19.2 Weekly Transition Meetings (RFP Section 2.3.1.19.2) ........................................................ 126\n2.3.1.19.3 Weekly and Monthly Status Reports (RFP Section 2.3.1.19.3) .......................................... 126\n2.3.1.19.4 Technical Meetings (RFP Section 2.3.1.19.4) ..................................................................... 127\n2.3.1.19.5 Invoicing (RFP Section 2.3.1.19.5) ....................................................................................... 127\n2.3.1.19.6 End of Contract (RFP Section 2.3.1.19.6) ............................................................................ 128\n2.3.1.20 Inspection Personnel Attire (RFP Section 2.3.1.20) ................................................................... 128\n2.3.1.21 Damage or Destruction (RFP Section 2.3.1.21) ......................................................................... 128\n2.3.1.22 Use of Program for Commercial Promotion (Section 2.3.1.22) ................................................. 128\n2.3.1.23 Continuity of Services (RFP Section 2.3.1.23) ............................................................................ 129\n2.3.1.24 MAC (RFP Section 2.3.1.24).."
+    },
+    {
+      "chunk_id": 3591,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 7,
+      "content": ".......................................................................... 130\n2.3.1.24.1 Repair Waiver Rate Reduction (RFP Section 2.3.1.24.1) ................................................... 132\n2.3.1.24.2 Repair Data Collection Plan (RFP Section 2.3.1.24.2) ........................................................ 135\n2.3.1.24.3 Vehicle Test Results Availability (RFP Section 2.3.1.24.3) ................................................. 135\n2.3.1.24.4 Electronic Access to Vehicle Repair Industry (RFP Section 2.3.1.24.4)............................. 135\n2.3.1.24.5 Collection of All Available Vehicle Repair Data (RFP Section 2.3.1.24.5) .......................... 136\n2.3.1.24.6 Repair Data Maintenance on Database (RFP Section 2.3.1.24.6) .................................... 136\n2.3.1.24.7 Quarterly Summary Reports on Collected Repair Data (RFP Section 2.3.1.24.7) ............ 137\n2.3.1.24.8 Online Maintenance of All Repair Data On-Line (RFP Section 2.3.1.24.8) ........................ 137\n2.3.1.24.9 Update Database Information (RFP Section 2.3.1.24.9) .................................................... 137\n2.3.1.24.10 Minimize Data Entry (RFP Section 2.3.1.24.10) ..............."
+    },
+    {
+      "chunk_id": 3597,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 8,
+      "content": "............................................................. 270\n2.4.3 Minimum Deliverable Quality (RFP Section 2.4.3) ........................................................................... 270\n2.4.4 Deliverable Descriptions/Acceptance Criteria (RFP Section 2.4.4) ................................................ 271\n2.5 Future Work (RFP Section 2.5).................................................................................................................. 271\n2.5.1 Facility Evaluation (RFP Section 2.5.1) ............................................................................................. 271\n2.5.2. External Kiosk Expansion (RFP Section 2.5.2) ................................................................................ 272\nAssociated Cost per Individual Kiosk Installation and Deployment of Additional Kiosks (RFP\nSections 2.5.2.A and 2.5.2.B) .................................................................................................................. 273\n2.6 Service Level Agreement (SLA) (RFP Section 2.6) ............................................................................... 273\n3.0 Contractor Requirements: General (RFP Section 3.0) ............"
+    },
+    {
+      "chunk_id": 3600,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 9,
+      "content": "3.3 Invoicing (RFP Section 3.3.) .................................................................................................................. 282\n3.3.1 General (RFP Section 3.3.1) .......................................................................................................... 282\n3.3.2 Invoice Submission Schedule (RFP Section 3.3.2)....................................................................... 283\n3.3.3 Deliverable Invoicing (RFP Section 3.3.3) ..................................................................................... 283\n3.3.4 State Withholding Payment (RFP Section 3.3.4) .......................................................................... 284\n3.3.5 Travel Reimbursement (RFP Section 3.3.5) .................................................................................. 284\n3.3.6 Accountability and Transfer of Fees (RFP Section 3.3.6) ............................................................. 284\n3.4 Liquidated Damages (RFP Section 3.4)................................................................................................ 286\n3.4.1 MBE Liquidated Damages (RFP Section 3.4.1) ....................................................."
+    },
+    {
+      "chunk_id": 3603,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 9,
+      "content": "........................................................ 307\n3.7.8 PCI Compliance (RFP Section 3.7.8) ............................................................................................. 307\n3.7.9 Security Incident Response (RFP Section 3.7.9) .......................................................................... 308\n3.7.10 Data Breach Responsibilities (RFP Section 3.7.10) ................................................................... 309\n3.7.11 Security Requirement Compliance Review (RFP Section 3.7.11) ............................................. 310\n3.7.12 Continuation of Requirements (RFP Section 3.7.12) ................................................................. 310\n3.8 Problem Escalation Procedure (RFP Section 3.8) ................................................................................ 310\n3.8.1 Problem Escalation Procedures (RFP Section 3.8.1) ................................................................... 311\n3.8.2 Contact Information (RFP Section 3.8.2) ...................................................................................... 312\n3.8.3 Problem Escalation Procedure (PEP) Details (RFP Section 3.8.3) ........................."
+    },
+    {
+      "chunk_id": 3616,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 14,
+      "content": "10 East (regional location) Street, Suite 801 | (regional location), MD 21202\nDirect: +1 240.687.6408 | Fax: +1 410.949.2058 | www.parsons.com\nJune 12, 2024\nJessica Mettle\nthe State Department of Transportation\nMotor Vehicle Administration\n6601 Ritchie Highway, N.E., Room 223\nProcurement and Contracts\n(regional location), MD 21062\nSubject: Vehicle Emissions Inspection Program Management and Operation, RFP Number the procurement\nDear Ms. Mettle,\nIt\u2019s a sunny Saturday morning in Beltsville, the State. The air is crisp and clean after an early morning shower. It\u2019s 8\na.m., the kids are having breakfast, and the soccer gear is by the door, ready to be loaded into your car\u2014you\u2019re one step\ncloser to spending the day with your family at the soccer field.\nOf course, like most weekends, you have some routine errands to run, but today will be a day of mostly family fun, rest,\nand relaxation. You smile to yourself\u2026but that smile disappears as an alert on your cell phone reminds you that you\nmust get your car tested today at a nearby the Inspection Program station.\nAt 9 a.m., with your kids and gear in the car and a slight feeling of dread at the back of your mind, you arrive at the the Inspect"
+    },
+    {
+      "chunk_id": 3617,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 14,
+      "content": "eyor belt of cars. The self-service lane is the shortest and seems to be moving\nquickly, so you hop in line. Before you know it, you\u2019re viewing your inspection results\u2014your car passed! Moments later,\nyou and your family are on your way to the soccer field.\nThis story will be told by many under the new the Inspection Program. Parsons offers the the State Empowering Motorists\nThrough Proven Innovations\u2014our commitment to transitioning with certainty and the stable operation of the\ncentralized lanes using our proven and effective integrated solution. Our convenient, streamlined program will take\ncustomer service to new heights, ensuring that stories like the one above become the standard the Inspection Program experience.\nRecognizing that life gets busy, we understand the concerns customers have regarding wait times and inconvenience.\nWe\u2019re committed to transforming the the Inspection Program process into positive customer experiences. With our Premier Customer\nService Plan and our Comprehensive Customer Feedback Approach, we\u2019ll ensure that the State and its customers are\nsatisfied.\nWe live here, we work here, we are Marylanders; what happens here is personal. We share your commitment "
+    },
+    {
+      "chunk_id": 3618,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 14,
+      "content": "quality to create a healthier the State. Not only are we committed to helping you\nachieve the deliverables and objectives of the the Inspection Program, but we also have a personal stake in the Program\u2019s success. We\u2019ve\nenjoyed a longstanding, productive partnership with the the State\u2019s Department of Transportation in the\ndelivery, execution, and management of many successfully implemented projects. We are committed to building a\nrelationship\u2014forged in trust, fostering real-time collaboration, and promoting open communication as your trusted\npartner.\nCombining our 80-year history, our more than $5.4 billion in annual revenue, and, most importantly, our continued and\ngrowing corporate commitment to successful engineering and IT projects throughout the State and North America\nshould provide additional assurance to the the State that we have the management structure and financial\nstrength to not only implement a contract of this size and scope but also to exceed the State\u2019s expectations."
+    },
+    {
+      "chunk_id": 3620,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 15,
+      "content": "Jessica Mettle\nthe State Department of Transportation\nVehicle Emissions Inspection Program Management and Operation, RFP Number the procurement\nJune 12, 2024\nPage 3\nParsons has endeavored to provide a quality, high-value technical solution to the requirements of this RFP. In the nearly\n15 years that have passed since the previous competitive bid process, significant structural changes have been\nimplemented in the program, including an extended model-year exemption; 50% increases in Living Wage and\nassociated supervisory compensation requirements, historic inflation, and supply chain pressures; modified liquidated\ndamages penalty clauses; and the sustained idle test requirement. From this, Parsons provides an effective and\nefficient overall technical and price offering and looks forward to discussing how cost savings could be implemented in\nthe future to continue to drive value into the program for the the State over the next 10 years.\nParsons accepts all State RFP and Contract terms and conditions. As stated in our Executive Summary, Parsons takes\nno exceptions to any of the contractual provisions outlined in the RFP.\nParsons fully comprehends the nature of the tasks involved in th"
+    },
+    {
+      "chunk_id": 3621,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 15,
+      "content": "ard of a contract, for the completion of all the work required, within the proposed schedule.\nParsons\u2019 eMaryland Marketplace (eMM) vendor number is 259737.\nParsons acknowledges receipt of Addenda Nos. 1-16 to RFP Number the procurement.\nWe welcome the opportunity to work with the State, share our experience and expertise, satisfy customers, and perform\nflawlessly. Should you require any clarification or further information regarding our proposal submission, please contact\nthe following:\nContact Phone Email\nRobert Suess, Senior Vice President 571.591.3516 Robert.Suess@parsons.com\nJim Valerio, Senior Program Director 240.687.6408 James.Valerio@parsons.com\nSincerely,\nJim Valerio Robert Suess\nProposed Program Manager Senior Vice President and Proposed Corporate Executive Sponsor\nSignature authority documents are provided on the following page.\nContact | Phone | Email"
+    },
+    {
+      "chunk_id": 3622,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 15,
+      "content": "m Valerio Robert Suess\nProposed Program Manager Senior Vice President and Proposed Corporate Executive Sponsor\nSignature authority documents are provided on the following page.\nContact | Phone | Email"
+    },
+    {
+      "chunk_id": 3642,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 34,
+      "content": "sylvania, Hawaii, and Texas. This experience will result in an improved Program in the State that's\ndelivered on-time, within budget, and without disruptions. Parsons has 25 years of direct experience\noperating and managing the New Jersey Motor Vehicle Inspection Program, the world\u2019s first and largest\n(25 centralized and more than 900 decentralized facilities) hybrid I/M program. We\u2019ll leverage this\nexperience and lessons-learned to ensure smooth transition for the the Inspection Program.\nCustomer service is at the center of our solution. Our solution is comprehensive, reliable, and\nconvenient. We're expanding self-service options at all centralized locations during normal\noperating hours so service representatives are available when needed. We're improving the\nreliability of kiosks by updating the technology, providing better software screens, and adding a diagram\nto help motorists locate their OBD port. And, we're focused on keeping customers moving. By providing\npre-registration and pre-payment options, we'll significantly reduce wait times. Our testing offering does\nnot include convenience fees, a strategy which should reduce or eliminate confusion and complaints.\nA team that c"
+    },
+    {
+      "chunk_id": 3643,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 34,
+      "content": "rio, has 25 years of vehicle inspection and maintenance industry\nexperience, including 12 years managing the the Inspection Program. He is intimately familiar with State\nrequirements, policies, and procedures. Robert Suess, Corporate Executive Sponsor, will support Jim on\nParsons\u2019 vehicle inspection team, making sure he has adequate resources and staff throughout\nimplementation. We have more than 750 the State-based staff and over 500 tenured vehicle inspection\nand compliance professionals nationwide available to ensure a smooth transition and stable operations.\nTab C / Executive Summary 21"
+    },
+    {
+      "chunk_id": 3651,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 37,
+      "content": "g Parsons. As a leader in the emissions\ninspection market, we know that meeting key program considerations is paramount, and\nwe\u2019re committed to doing just that.\nEnsuring a smooth, seamless transition. Our over 40-year history of reliably implementing and\nmanaging North American vehicle inspection programs and access to our deep bench of\nresources will be critical to meeting these goals while ensuring a successful, seamless transition.\nProviding safe, customer-focused facilities. Our streamlined self-serve process, together with\nmulti-position lanes and faster testing, provides a safe, contactless experience that keeps\ncustomers moving and respects their time.\nEnsuring customer satisfaction as a front-line service provider. Our approach to superior\ncustomer service is to demonstrate to our customers that we listen, act, and resolve.\nMeeting the program\u2019s environmental goals. We\u2019ll continue to achieve the emissions reductions\ncrucial to meeting national health-based air quality standards for ozone and integral to the State\u2019s\nmission to reduce air pollution.\nApplying tailored innovation and advanced technology. We\u2019re at the forefront of applying\nprudent technology innovations to creat"
+    },
+    {
+      "chunk_id": 3652,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 37,
+      "content": "grated solutions that lead to a\ncleaner, more sustainable environment and increase customer convenience and program\nefficiency.\nTab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan 23"
+    },
+    {
+      "chunk_id": 3653,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 38,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\n2.3 Responsibilities and Tasks (RFP Section 2.3)\nWHY PARSONS\n\u25aa An approach that ensures premier customer \u25aa An approach that reduces the emissions waiver rate\nservice in a convenient, stable, customer-focused and increases repair effectiveness\nprogram \u25aa A self-service tablet solution that will greatly enhance\n\u25aa Operation and management capabilities that have the motorist experience and overall convenience\nbeen tried, tested, and proven in emissions \u25aa A proven record of resolving customer claims\ninspection programs across North America expeditiously, fairly, and without State involvement\n\u25aa Proven management and operation of inspection \u25aa A proven, reliable fee-collection system and process\nfacilities\n\u25aa Proven service and inventory software solution\n\u25aa Proven safety standards recognized by the (ParDS2) to maintain, track, and forecast inventory\nNational Safety Council (NSC)\n\u25aa A proven vehicle inspection database (VID) design that\n\u25aa Extensive staff and motorist training programs has resulted in 99.99% uptime\ndeveloped and successfully executed over\n20 years \u25aa The depth of resources, experience, and preparedness\nto execute a seamless, low-ri"
+    },
+    {
+      "chunk_id": 3655,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 38,
+      "content": "rogram.\nAttention to the customer/client Program management team and staff dedicated to the success of the programs we manage,\nensuring that the State and motorists have the highest level of service.\nTrusted Partners: Leveraging our experience managing and operating prominent vehicle emissions\ninspection programs, we\u2019ll deliver a successful transition, instilling confidence in day-to-day operations and\nhelping the agencies navigate the future of emissions testing and repair programs. Our proposal\ndemonstrates how we\u2019ll serve the the State and maintain a positive public perception of the the Inspection Program\nand the the State Motor Vehicle agency.\nSafety: Our corporate emphasis and foundation on Safety with Parsons\u2019 OWN ZERO\u00ae philosophy ensures\ncustomer wellbeing at stations and kiosks. OWN ZERO\u00ae is our mindset and commitment to creating an\nenvironment absent of incident and injury in everything we do.\nThe Right Team: The depth of our resources includes skilled assets\u2014from engineers and data analysts to\ntrainers and experienced emissions inspection professionals. Our dedicated vehicle inspection compliance\nmanagement team has worked together for over 30 years and successfully impl"
+    },
+    {
+      "chunk_id": 3658,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 39,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nWe have the right experience, the depth of resources, and the\nappropriate tools for a smooth, risk-free transition and to ensure\nongoing operations and an innovative future for the State\u2019s the Inspection Program. Since\n1995, we have trained more than 95,500 inspection mechanics on\nequipment usage and customer service. In 2023, we implemented a training system for the Ontario\nDriveOn program to educate an additional 60,000+ inspection mechanics. Our award-winning corporate\nsafety culture offers the State the most effective program management team.\nThe the State has a vision for the the Inspection Program. We have the foresight and experience to implement\ninnovative initiatives to modernize vehicle inspection programs with kiosks, a tablet (mobile) amplified\nsolution, and unique customer-focused training programs. We\u2019re leading the way as an innovator and\nprogram manager, and we\u2019ll bring that vision to fruition.\nINNOVATION SPOTLIGHT\n\u2022 First-to-market heavy-duty (HD) onboard diagnostics (OBD) testing for vehicles greater than 14,000 gross vehicle weig"
+    },
+    {
+      "chunk_id": 3659,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 39,
+      "content": "es there are no surprises!\n\u2022 Automated License Plate Reader (ALPR) technology to improve vehicle capture rates.\n\u2022 Our OWN ZERO safety program provides a safety culture framework for all stakeholders.\n\u2022 Integrated tablets for use by Parsons\u2019 management and motorists\u2026MORE convenience!\n\u2022 Motorist pre-registration of payment and email address to reduce on-site testing time.\n2.3.1.A Managing and Operating the the Inspection Program per the Requirements,\nSpecifications, Terms, and Conditions (RFP Section 2.3.1.A)\nTo meet all the expectations and requirements of managing and\noperating the the Inspection Program stations and kiosks, we will establish a\nProgram Management Office (PMO) in (regional location), the State,\nimmediately upon contract award. From this office, within 15 miles from\nthe State Motor Vehicle agency headquarters (HQ), we\u2019ll transition the existing the Inspection Program to the new,\nmodernized program. We\u2019ll operate the program following the\nKKnnoowwlleeddggee aanndd EExxppeerriieennccee\nrequirements in the Request for Proposals (RFP), tracking our adherence\nPPaarrssoonnss h haass m moroer eth tahna n\nto all the requirements under the guidance of the State Motor Vehicle "
+    },
+    {
+      "chunk_id": 3660,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 39,
+      "content": "t any testing interruption.\nlarge-scale hybrid inspection\nlarge-scale inspection\nLed by Program Manager Jim Valerio, our team will manage and operate programs. The New Jersey\nprograms. The New Jersey\nMotor Vehicle Inspection\nthe stations and kiosks and implement and manage the new program,\nMotor Vehicle Inspection\nSystem has 25\npartnering with the State to serve the State\u2019s motoring public. Jim will be\nSystem has 25 centralized\ncentralizedcentralized\nthe State\u2019s primary contact for all program-related communication. With\nand 975 decentralized\nstations and 975\nsupport from our highly qualified technical team and backed by a\nldoeccaetniotrnasli.z edcentralized\nleadership committed to making quick decisions and supporting the local\nteam, Jim will focus on the operation of the the Inspection Program. We\u2019re the right team to\nensure the successful transition of the the Inspection Program and its future.\nTab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan 25\n |  |  |  | \n |  |  |  | \n | INNOVATION SPOTLIGHT |  |  | \n |  |  |  | \n |  | \u2022 First-to-market heavy-duty (HD) onboard diagnostics (OBD) testing for vehicles greater than 14,000 gross vehicle weight |  | \n |  | rati"
+    },
+    {
+      "chunk_id": 3661,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 39,
+      "content": "| \n |  | \u2022 Automated License Plate Reader (ALPR) technology to improve vehicle capture rates. |  | \n |  | \u2022 Our OWN ZERO safety program provides a safety culture framework for all stakeholders. |  | \n |  | \u2022 Integrated tablets for use by Parsons\u2019 management and motorists\u2026MORE convenience! |  | \n |  | \u2022 Motorist pre-registration of payment and email address to reduce on-site testing time. |  |"
+    },
+    {
+      "chunk_id": 3662,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 39,
+      "content": "| \n |  | \u2022 Integrated tablets for use by Parsons\u2019 management and motorists\u2026MORE convenience! |  | \n |  | \u2022 Motorist pre-registration of payment and email address to reduce on-site testing time. |  |"
+    },
+    {
+      "chunk_id": 3663,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 40,
+      "content": "EMPOWERING MOTORISTS THROUGH PROVEN INNOVATIONS\n2.3.1.B Contractor\u2019s Responsibilities (RFP Section 2.3.1.B)\nWe understand and will comply with the responsibilities described in RFP\nSection 2.3.1.B. As detailed in the sections referenced, we\u2019ll take full\nresponsibility for:\n\uf0a7 Transitioning the existing the Inspection Program stations, providing and installing new kiosks at existing kiosk locations,\nand potentially adding kiosks to meet the program needs. See Sections 2.3.1.1.3 and 2.3.1.6 for more\ndetails.\n\uf0a7 Reconfiguring and retrofitting the existing inspection lanes. See Section 2.3.1.1.4.L for more details.\n\uf0a7 Staffing each the Inspection Program station with sufficient qualified personnel to operate the program. See\nSections 2.3.1.1.4.R and 2.3.1.17.1.D for more details.\n\uf0a7 Inspecting vehicles covered under the the Inspection Program. See Section 2.3.2.6 for more details.\n\uf0a7 Transitioning the FIS program. See Section 2.3.3.4 for more details.\n\uf0a7 Implementing vehicle repair effectiveness/motorist assistance center (MAC) activities. See\nSections 2.3.2.10 and 2.3.1.24 for more details.\n\uf0a7 Providing real-time data updates and reports to the State via a RESTful JSON web service. See\nSecti"
+    },
+    {
+      "chunk_id": 3664,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 40,
+      "content": "n data from the State via a RESTful JSON web service. See\nSection 2.3.2.4.2-A for more details.\n\uf0a7 Employing the necessary quality assurance (QA) procedures to ensure the program is properly operated,\nproducing accurate test results, and transmitting valid and accurate data. See Section 2.3.2.5 for more\ndetails.\n\uf0a7 Taking the necessary and immediate action to correct any problems affecting compliance with these\nrequirements. See Section 2.3.2.5-B for more details.\n\uf0a7 Maintaining wait time criteria.\n\uf0a7 Ensuring the maximum 15-minute wait time is not exceeded at any station in the network and that no\nvehicles are prevented, because of excessive wait time or other reasons, from driving onto the station\nproperty to get into line. Wait time per vehicle will be calculated using an automated wait time system\nat stations to ensure accurate wait time information and statistics are available.\n\uf0a7 Correcting problems affecting compliance with these requirements, including immediately opening all\ninspection positions not out-of-service for QA reasons, within five minutes of the station manager\ndeciding to initiate corrective action.\n\uf0a7 Maintaining wait time within the established limit and taking imm"
+    },
+    {
+      "chunk_id": 3667,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 41,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nWait Time Measurements & Calculations \u2013 Working Toward Improved Accuracy\nAttacking core deficiencies in the source material can improve optical character recognition\n(OCR) technology. Therefore, our goal is to increase the quality of the source material we are\nworking with and to update and apply an advanced OCR engine.\nParsons has selected an experienced technology manufacturer, Adaptive Recognition, for its\noverall solution. To increase ALPR capture rates at the Inspection Program stations, this updated, modernized\nsolution incorporates the following key features:\n\u2022 A tuned OCR engine capable of uploading specific font designs from the the State Motor Vehicle agency license\nplate set, using color schemes, spacing, and font size as tuning parameters coupled\nwith proper image scaling, noise reduction technology, and layout analysis boosts our\nALPR capture rates in comparison to existing implemented solutions.\n\u2022 A plate character\u2013matching algorithm that allows for matching a subset of license plate\ncharacters to the lane inspector\u2019s data entry withi"
+    }
+  ]
+}

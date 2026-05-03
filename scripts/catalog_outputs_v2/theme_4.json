@@ -1,0 +1,89 @@
+{
+  "title": "Reporting, Data and Analytics for Vehicle Inspection Program Management",
+  "capability_statement": "Parsons delivers an end-to-end reporting, data, and analytics capability for large, geographically dispersed vehicle inspection programs, anchored by its Vehicle Inspection Information Database (VIID), Service Level Tracking Application (SLTA), and a paperless electronic audit application that integrates touchscreen laptops, electronic signature capture, and direct VIID integration to eliminate paper overt audit reports (chunk_ids 1973, 1965). The cloud-based VIID, hosted in AWS with PCI-DSS and SOC 2 Type II attestations, provides expanded reporting and data management features along with scalability, security, and recovery, and gives the agency faster access to overt and covert audit data for inspection and safety programs (chunk_ids 1962, 1960). The capability spans data collection and storage, transaction journaling that logs all system transactions, automated journal/log capture for add/change/delete actions, archival of log activities for audit, periodic and ad hoc reporting and project control, weekly progress and monthly/annual EPA reports, semi-annual recommendations reports, and a report library with a job scheduler and exports to PDF, Excel, RTF, HTML, and plain text (chunk_ids 1970, 1957, 1956). Parsons reports real-time updates to the agency via a RESTful JSON web service and supports reporting, querying, performance, and security requirements through the Overall Central Data System (chunk_ids 3663, 3592). At the corporate level, Parsons positions itself as a digitally enabled solutions provider with proprietary AI/ML and analytics platforms (DeclutterML, Project DECIDER predictive analytics, iNET smart-mobility ATMS managing 5,000+ monthly traffic events, TraCSS for civil space situational awareness) and an ~81-year engineering pedigree, with the Altamira (January 2026) and Chesapeake Technology International (July 2025) acquisitions adding SIGINT, space data analytics, and AI/ML analytics depth (chunk_ids 3531, 3528, 3547, 3548, 3513).",
+  "named_past_performance": [
+    {
+      "name": "PennDOT Vehicle Emissions and Safety Inspection Program (Pennsylvania)",
+      "scope": "Operate and maintain the Vehicle Inspection Information Database (VIID) and e-SAFETY system for the Inspection/Maintenance and safety inspection programs across I/M-affected counties; provide system journal files logging all transactions, disaster recovery, off-site backup, periodic and ad hoc reporting and project control utilities, motorist compliance data collection and analysis, on-road remote-sensing data collection/storage/reporting, oversight (overt, covert, remote visual) of stations and personnel, and the Service Level Tracking Application (SLTA) hosted in AWS for SLA tracking and contract compliance reporting.",
+      "outcome": "VIID has had no security or performance issue; in 2012 Parsons seamlessly transitioned more than 8,000 stations to the VIID; introduced an electronic audit application leveraging touchscreen laptops, electronic signature capture, and VIID integration that eliminated paper overt audit reports submitted to PennDOT; conducts monthly internal and quarterly external vulnerability tests with results reviewed to enhance mitigation plans.",
+      "source_chunk_ids": [1962, 1965, 1970, 1971, 1973, 1974, 1982, 1983]
+    },
+    {
+      "name": "State Vehicle Emissions Inspection Program Management and Operation (Volume I Technical Proposal)",
+      "scope": "Provide real-time data updates and reports to the state via a RESTful JSON web service; deliver the Overall Central Data System covering data management, data communications, data collection and transfers, reporting and querying, performance and security requirements, system backup and disaster recovery, and SOC 2 Type 2 audit reporting; manage migration of six years of legacy test records and integrate legacy emissions test data so it remains searchable from new workstations; capture customer service satisfaction data for reporting and continuous improvement.",
+      "outcome": "Phased deliverables include hardware refresh of 81 testing lanes (114 total testing positions across 18 inspection stations), conversion of six years of historical test records, and validated migration with reports comparing migrated to expected record counts and confidence checks on every record; SAT verifies the VIID's ability to collect, store, and report vehicle test data, repair data, and QA/QC records and supports automatic status reporting on test script completion, pass/fail rates, and corrections.",
+      "source_chunk_ids": [3592, 3602, 3605, 3663, 3681, 3682, 3683, 3726, 3727, 3735, 3736, 3758, 3759, 3760, 3762]
+    },
+    {
+      "name": "State of Vermont and Province of Ontario motor vehicle inspection programs",
+      "scope": "Provide ongoing motor vehicle inspection program services with on-site customer feedback collection and equipment-service surveys; analyze anonymous responses through the Equipment Manager and feed results back into program improvement.",
+      "outcome": "Recognized by Vermont DMV Commissioner Wanda Minoli as a consistent, high-quality provider that delivers innovative and timely solutions; on-site surveys feed continuous improvement without disrupting program operations.",
+      "source_chunk_ids": [1983, 3733, 3735]
+    }
+  ],
+  "quantified_outcomes": [
+    {
+      "metric": "Stations transitioned to VIID",
+      "value": "8,000+",
+      "context": "In 2012 Parsons seamlessly transitioned more than 8,000 stations to its VIID to ensure program continuity for PennDOT.",
+      "source_chunk_ids": [1971]
+    },
+    {
+      "metric": "VIID security/performance incidents",
+      "value": "0",
+      "context": "The Pennsylvania VIID has never had a security or performance issue across the contract life.",
+      "source_chunk_ids": [1962]
+    },
+    {
+      "metric": "Vulnerability testing cadence",
+      "value": "monthly internal, quarterly external",
+      "context": "Parsons conducts monthly internal and quarterly external vulnerability tests on the VIID environment and reviews results to enhance mitigation plans.",
+      "source_chunk_ids": [1982]
+    },
+    {
+      "metric": "Vehicle communication rate (OBD/Kiosk SAT acceptance threshold)",
+      "value": "99.5%+",
+      "context": "Equipment SAT exhibit specifies a 99.5%+ vehicle communication rate as a pass criterion for OBD and kiosk equipment, captured to the database with all data elements including Mode $01, $09, and $01A.",
+      "source_chunk_ids": [3762]
+    },
+    {
+      "metric": "Years of vehicle inspection program experience",
+      "value": "25+ years",
+      "context": "Parsons has more than a 25-year history of successful implementations of large, complex, geographically dispersed vehicle emissions and safety inspection programs.",
+      "source_chunk_ids": [1983]
+    },
+    {
+      "metric": "Years of corporate engineering experience",
+      "value": "81 years",
+      "context": "Parsons Corporation is an 81-year-old, technology-focused engineering and solutions provider operating at the intersection of national security and global critical infrastructure.",
+      "source_chunk_ids": [3513]
+    },
+    {
+      "metric": "iNET monthly traffic events managed",
+      "value": "5,000+",
+      "context": "Parsons' proprietary iNET cloud-based COTS Advanced Traffic Management System (used by NJDOT, GDOT, and others) manages 5,000+ monthly traffic events and powers the first integrated statewide ATMS for NJDOT (go-live August 2025).",
+      "source_chunk_ids": [3531]
+    },
+    {
+      "metric": "Legacy test record conversion window",
+      "value": "6 years",
+      "context": "Phase 1 deliverables include conversion of the previous six years of test records for migration to the new data network, with migration reports detailing every record that did not migrate and producing confidence checks on migrated information.",
+      "source_chunk_ids": [3681, 3727]
+    },
+    {
+      "metric": "Video footage retention",
+      "value": "90 days minimum",
+      "context": "The new video monitoring system stores images for at least 90 days and transmits video nightly to a secure off-site location.",
+      "source_chunk_ids": [3715]
+    },
+    {
+      "metric": "Unsatisfactory SAT result remediation window",
+      "value": "48 hours",
+      "context": "Any unsatisfactory SAT result is addressed within 48 hours and scheduled for a retest, with status reports on test script completion, pass/fail rates, and corrections delivered automatically.",
+      "source_chunk_ids": [3759, 3762]
+    }
+  ],
+  "differentiators": "Differentiators include: (1) a production-proven Vehicle Inspection Information Database (VIID) with zero security or performance incidents and a successful 8,000+ station transition, currently slated for migration to AWS with expanded reporting and data management features (chunk_ids 1962, 1971); (2) a Service Level Tracking Application (SLTA) hosted in AWS that summarizes RFP-stated service-level agreements and identifies task delivery to give the agency a transparent compliance view (chunk_id 1965); (3) a paperless electronic audit application combining touchscreen laptops, electronic-signature capture, and VIID integration that eliminated paper overt audit reports for PennDOT (chunk_id 1973); (4) institutional knowledge of EPA-required reporting needs informing accurate I/M Program evaluation, supported by AWS PCI-DSS attestation and SOC 2 Type II reporting (chunk_ids 1974, 1960); (5) a dedicated cybersecurity practice that performs monthly internal and quarterly external vulnerability tests and provides assessments during/after critical changes (chunk_ids 1982, 1983); (6) corporate-level analytics depth from Parsons' digitally enabled solutions provider model with proprietary AI/ML platforms (DeclutterML, Project DECIDER predictive analytics), the iNET ATMS managing 5,000+ monthly traffic events, and the TraCSS civil SSA system for NOAA, plus the Altamira (Jan 2026) and Chesapeake Technology International (July 2025) acquisitions adding SIGINT, space data analytics, and AI/ML analytics capacity (chunk_ids 3531, 3528, 3547, 3548); and (7) third-party validation of audit numbers through teaming with Michael Baker International to support I/M Program evaluation and oversight (chunk_id 1965).",
+  "gap_notes": "Several requirements in this theme are agency-specific compliance reporting items for which the evidence chunks do not contain a direct, prior-program analog. These include: NJSTART bid amendment monitoring (R-011, sec 2.3); reporting solicitations of fees/gifts to the New Jersey Office of the Attorney General and State Ethics Commission (A-024, sec 2.10.B) and the related private-business prohibition (A-025, sec 2.10.C); reporting contributions during the contract term (A-021, sec 2.8.B); 1% Procurement Efficiency Program Fee remittance to Periscope (P-11, sec 5.11.B); Source Disclosure Form change reporting (A-012); Treasurer notice of intent and option report to the Legislature (A-003); Article XXIX/XXXI/XXXII workforce reporting items (A-001, A-021, A-035); conformance to the New Jersey VIIS-Reporting System Specification Document Version 0.2 dated June 19, 2009 (R-068); OPRA confidentiality treatment of Third-Party Information Security Questionnaire submissions (R-017); the monthly CIF maintenance and repairs report electronic format and content standards (V-007, A-052, A-065, A-069, A-070); the monthly written complaint report to the SCM (R-048); and Clean Air Act / Federal Water Pollution Control Act violation reports (A-002 sec 7.9.1.2, A-005 sec 7.9.2.2). The evidence base also does not include explicit price/throughput data for the report library, the job scheduler, or detailed log retention durations beyond contract-term-plus-two-years (R-022). Several detailed annexes referenced in chunk 1960 (AWS PCI-DSS Compliance Attestation, SOC 2 Type II Report, Accessibility Conformance Reports, Security Testing Results, Security Incident Response Plan) are listed but their specific contents are not embedded in these chunks. Where Parsons' prior-program detail is partial (e.g., privileged-account MFA controls, ICS/SCADA/OT controls, web-application firewall specifics, defense-in-depth network architectures, and SIEM/log-review tooling), the response should be supplemented with the named annexes and the corporate cybersecurity practice description rather than asserting equivalence from these chunks alone.",
+  "source_chunk_ids": [1938, 1939, 1945, 1946, 1947, 1948, 1949, 1953, 1955, 1956, 1957, 1960, 1962, 1965, 1970, 1971, 1973, 1974, 1982, 1983, 3513, 3516, 3528, 3531, 3544, 3547, 3548, 3549, 3550, 3569, 3570, 3582, 3587, 3590, 3591, 3592, 3602, 3605, 3606, 3607, 3663, 3681, 3682, 3683, 3684, 3685, 3686, 3698, 3710, 3711, 3714, 3715, 3726, 3727, 3733, 3735, 3736, 3758, 3759, 3760, 3762]
+}

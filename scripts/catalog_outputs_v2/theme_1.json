@@ -1,0 +1,191 @@
+{
+  "title": "Solution Architecture & Software for the Next-Generation Vehicle Inspection System",
+  "capability_statement": "Parsons (NYSE: PSN) is a publicly traded, ~$6B-revenue 'digitally enabled solutions provider' that has shifted from a traditional EPC firm into a software-and-AI house anchored by proprietary platforms (iNET smart-mobility ATMS, TraCSS for civil space, JCHK defensive cyber kit, ABIS In A Box biometrics, DetectWise, Intelligent Intersections), a CTO-led enterprise R&D organization, and a portfolio of 20+ technology acquisitions executed since 2017 (Polaris Alpha, OGSystems, Braxton, Echo Ridge, BlackHorse, Xator, IPKeys, Sealing Technologies, BlackSignal, Chesapeake Technology International, Altamira, etc.) [chunks 3531, 3532, 3544, 3547, 3548, 3552]. The corporate market position is built on a 'One Parsons' convergence of physical-infrastructure domain knowledge with cyber and software capability - the same company that engineers rail, transit, airports, utilities and traffic-management systems also defends them in operation, and runs critical national programs such as NSA SHARKSEER (prime since 2011), USCYBERCOM JCHK production (up to $500M sole-source), MDA SHIELD (a $151B IDIQ ceiling), DTRA CTRIC IV ($3.5B IDIQ), NOAA TraCSS (civil space situational awareness), and the U.S. Space Force Resilient MWT MEO Epoch 1 ground operations contract [chunks 3520, 3521, 3528, 3529, 3543, 3552]. Within that enterprise, the Vehicle Inspection / Smart Vehicle Solutions practice operates large-scale Inspection & Maintenance programs across multiple jurisdictions, fielded the first decentralized OBDII program and the first-to-market tablet testing solution, has trained 100,000+ inspectors, and has managed >$100M/year in fee collection without losses [chunk 3537]. Sister-program system availability already runs at 99.99-100% on the same architecture proposed [chunk 2028].\n\nFor this Inspection Program, Parsons proposes a complete, end-to-end software platform built around a centralized Vehicle Information Database (the next-generation equivalent of the existing VIID), workstation software at every testing facility, secure web-services integration with the State Motor Vehicle agency, an AWS-hosted multi-AZ cloud architecture that has carried sister programs at 99.99-100% uptime, and a federally recognized cybersecurity practice that scans inspection systems with the same technology used for high-sensitivity U.S. government programs [chunks 1973, 1974, 2028, 2042]. The capability covers six clusters of obligations under Solution Architecture & Software:\n\n(1) Corporate scale, R&D engine and clearance posture behind the delivery team. The proposing entity is an 18,000+ person company with 79 years of experience supporting complex programs and 25+ years of large-scale, geographically dispersed vehicle emissions and safety inspection program delivery [chunks 1975, 1983]. Enterprise R&D is led by a Chief Technology Officer who runs internal R&D, commercial-tech partnerships, contract R&D and university partnerships, with a separate sector CTO inside Defense & Intelligence; AWS DeepRacer enterprise upskilling has reached 470+ employees and generated 1,500+ ML models, and the 'Parsons X' digital accelerator inside Connected Communities integrates IPKeys software [chunk 3532]. The cleared workforce is concentrated in regional clearance hubs at 70-90% TS/SCI rates [chunk 3531]. The acquisition stack adds named cyber, AI/ML, SIGINT, EW, biometrics, OT-cyber and space-mission product lines into the same delivery organization that runs the I/M business [chunks 3524, 3528, 3529, 3544, 3547, 3548].\n\n(2) Centralized Inspection Database and core program data model. The Vehicle Information Inspection Database is the single repository for all program data and is the connecting platform for hardware and software so that emission testing equipment transmits data to it identically across testing equipment manufacturers and protocols [chunk 1969]. The current VIID has been operating at 99.99% uptime since October 2012 in one sister program and 99.99% since October 2013 in another, and a peer cloud-hosted DriveON program has logged 100% uptime since April 2022 [chunk 2028]. The proposed environment uses AWS Aurora and S3 object storage with cross-availability-zone and cross-region data replication, configured to provide the ability to instantly create copies, restore full or partial data and restore from snapshots non-disruptively, with daily real-time full and incremental backups using specialized archiving software, configuration-management and application code stored under version control and included in the daily backup, AWS Backup automating data backup and replication to an alternate region so that multiple copies of program data exist in geographically dispersed areas [chunks 2031, 2032]. Source code is stored under version control and included in the daily backup window [chunk 2031]. Parsons has performed four major vehicle inspection system transitions (a hybrid program 2013, a decentralized program 2012, and two modernized program VIDs in 2011), each completed successfully and on time with no interruption, and treats data integrity and portability as the most important aspects of migration with a planning/migration/validation phased data-migration strategy executed by the same database administrators and developers that designed the target VID [chunks 3723, 3724, 3725, 3726, 3727].\n\n(3) Workstation software stack and inspection-floor experience. Parsons supplies the workstation application that drives every inspection at testing facilities and supports legacy dial-up tailpipe analyzers concurrently with modern OBD/Internet-based equipment in a single database, so that emissions testing equipment transmits data to the central database identically across equipment platforms and manufacturers - which is positioned in the proposal as a documented program-risk reducer for jurisdictions transitioning legacy fleets [chunk 1969]. When a workstation cannot communicate with the central database, the equipment continues operating offline, minimizing public impact, and reconciles when connectivity returns [chunk 2050]. The proposed Phase 1 buildout includes a hardware refresh of 81 testing lanes (70 OBD-only and 44 combined OBD/Idle/Gas Cap positions; 114 total) at 18 inspection stations including PC, OBD scan tool, idle-test gas analyzer and gas-cap tester, technology replacement of 10 program kiosks, new in-lane self-service tablet terminals, conversion of one lane in each facility to also function as a Mobile Auto Center lane, hardware refresh for all station PCs/printers/peripherals in customer service offices, installation and approval of a new wait-time tracking ALPR solution at queue entrances, and conversion of the previous six years of test records for migration to the new data network [chunks 3681, 3684]. A separate self-service tablet solution delivers a customer-facing motorist experience, and pre-registration/pre-payment options are designed to reduce wait times [chunks 3642, 3653]. Concurrently with go-live, primary and backup ISPs are identified and installed (cellular for backup) at all stations; kiosks communicate via cellular or hardwired; and where feasible CAT5 cabling is reused while new Power-over-Ethernet switches and data lines are installed [chunk 3715]. A new digital video monitoring system stores images for at least 90 days and transmits video nightly to a secure off-site location [chunk 3715].\n\n(4) Cloud, cybersecurity and resilience architecture. The Parsons cybersecurity practice is described as 'comprehensive and Federally recognized' with robust and proven Standard Operating Procedures and internal policies to reduce cybersecurity threats, train staff to avoid threats, and provide the resources necessary to address system issues [chunk 2042]. Inspection Database systems are scanned using the same technology the practice uses to provide security auditing for high-level, sensitive U.S. government programs [chunks 1973, 1974]. At the corporate level, Parsons runs offensive and defensive cyber operations and computer-network exploitation businesses, AI/ML-enhanced incident response, cloud-native architectures and DevSecOps, and is the named producer of the USCYBERCOM Joint Cyber Hunt Kit (sole-source production through 2026, ceiling up to $500M) and the long-running prime on NSA SHARKSEER 2.0; classified IC contract awards ($160M, $104M, $178M IDIQ) underline the cleared cyber base [chunks 3520, 3521, 3522, 3523, 3524, 3543]. The Disaster Recovery Plan focuses on all activities required to recover critical IT services; it is tested at least annually and after any major system release/upgrade/recovery, with automatic-failover verification; the new-program DRP is tested with the State within 30 days of go-live, and the role of a named Disaster Recovery Coordinator is documented [chunks 2028, 2031]. Continuity is also reinforced at the human level: three management positions are cross-trained so any of the three can perform essential business functions for an impacted counterpart; all project employees can work remotely; corporate emissions program staff in multiple jurisdictions can be activated in an emergency [chunk 2042].\n\n(5) Integrated rules-and-analytics layer plus testing/SAT discipline. The platform applies inspection rules in real time and feeds an analytics layer of audit triggers - including overt, covert and remote visual observation of stations, inspectors and certified repair technicians; on-road testing/remote-sensing data collection, organization, storage and reporting; and motorist compliance data collection and analysis [chunk 1970]. An electronic audit application leveraging touchscreen laptops, electronic-signature capture and VIID integration eliminates paper overt audit reports [chunk 1973]. Real-time data auditing supports test-interruption when warranted [chunk 1984]. SAT and ATP discipline draws on 40+ years in the industry: Parsons has performed ATP and SAT agendas across vehicle inspection systems, databases and user interfaces it designed and architected, equipment and systems within its managed programs, and inspection systems built by other providers, and proposes a detailed SAT Agenda with extensive test scripts using Zephyr Tracking Software (an industry-leading SAT management tool) and DBConvert (a proven cross-database migration tool) to begin system testing earlier in the development process and produce electronic, easily-accessible test documentation for State oversight [chunks 3672, 3673, 3675, 3754]. Bulk Text Messaging supports urgent and emergency communications with staff and stakeholders [chunks 3672, 3673].\n\n(6) Transition, deployment and program-management track record. Parsons has successfully transitioned new programs from incumbent contractors and stood up new programs in multiple jurisdictions: a hybrid program with 25 centralized stations and 900+ decentralized locations including new equipment, VID and facility construction; a decentralized program with multi-county expansion, new equipment, new VID and multi-level database software changes without issue; a first-of-its-kind vehicle inspection program in 11 weeks across 2,400+ station locations; and a new modernized safety inspection system across 700+ station locations on six islands [chunks 3677, 3678]. The transition method uses pre-tested, State-approved plug-and-play equipment, weekend/overnight cut-over windows, a dedicated Program Manager as single point of contact for the State Motor Vehicle agency, and a >35-year track record of the same proposed team executing program transitions together [chunks 3672, 3673, 3689]. A deep bench of 500+ employees dedicated to the vehicle-inspection division stands ready to deploy and assist with transition and startup [chunk 3737]. Recruitment uses an 'Always Hiring' approach, AI hiring tools and a local staffing partner [chunks 3740, 3741]. Mass workstation-update velocity is documented at 6,700 private inspection stations updated within four months in a peer program [chunks 1987, 1988, 1991].",
+  "named_past_performance": [
+    {
+      "name": "Pennsylvania I/M Program (state DOT)",
+      "scope": "End-to-end Program Manager since 1997 covering all services in Tasks A-M: VIID central database, custom workstation software, real-time data auditing with test interruption, fee collection, training, audit, call center; supports legacy TSI dial-up and OBD/VIS Internet-based analyzers concurrently in one database; pandemic-era continuity in 2020; OBD system change implemented with the client in 2021; increased overt audit staff in 2023.",
+      "outcome": "Continuous prime contractor 1997-2025; 99.99% system availability since October 2012; only contractor with no financial or business relationship with any currently certified emissions testing equipment manufacturer in that jurisdiction.",
+      "source_chunk_ids": [1969, 1970, 1973, 1974, 1975, 1987, 2028]
+    },
+    {
+      "name": "Vermont Automated Vehicle Inspection Program (state DMV)",
+      "scope": "Project management, VIID development, data security, equipment deployment management, station management/fee collection, training, industry outreach, technical support call center; printing-on-demand sticker workflow.",
+      "outcome": "Six-month implementation across 1,200 facilities; in production 2016-2025; Commissioner-level testimonial cited.",
+      "source_chunk_ids": [1983, 1987]
+    },
+    {
+      "name": "New Jersey Motor Vehicle Inspection System (state MVC)",
+      "scope": "Project and operations management of the world's first and largest hybrid I/M program (25 centralized and 900+ decentralized facilities), VIID development, data security, software certification, equipment Acceptance Test Procedure execution, motorist call center and PI&E.",
+      "outcome": "Continuous operation 1998-2024; 12 stations achieved OSHA VPP status; 99.99% uptime since October 2013.",
+      "source_chunk_ids": [1987, 1988, 1990, 2028, 3642, 3677]
+    },
+    {
+      "name": "Hawaii Electronic Periodic Motor Vehicle Inspection Program (state DOT)",
+      "scope": "Program and operations management, VIID development, station billing, tablet-based workstation software development, statewide implementation across six islands and station outreach.",
+      "outcome": "Met a four-month implementation timeline; sticker printing-on-demand stood up; new modernized safety system delivered to 700+ station locations; 2013-2024 term.",
+      "source_chunk_ids": [1987, 1988, 3678]
+    },
+    {
+      "name": "Texas Automated Vehicle Inspection (state Department of Public Safety)",
+      "scope": "Program management, software development and maintenance for a decentralized safety inspection program, hearings application, reporting and call-center support; service-call ticketing and response tracking.",
+      "outcome": "Equipment software updates pushed to 6,700 private inspection stations within four months; 2006-2024 term.",
+      "source_chunk_ids": [1987, 1988, 1990, 1991]
+    },
+    {
+      "name": "Ontario Integrated Vehicle Safety and Emissions Inspection Program (provincial Ministry of the Environment)",
+      "scope": "Program and operations management of the LDV emissions program, VIID development, information-systems development, management and reporting, call center, inspector training, facility certification, overt and covert auditing, QA/QC, fee collection, equipment software certification; first-of-its-kind vehicle inspection program implemented in 11 weeks across 2,400+ station locations; AWS-hosted DriveON platform.",
+      "outcome": "Heavy-Duty Emissions program transitioned to AWS cloud with no service interruption to existing emissions stations; 100% uptime since April 2022; 1999-2028 term.",
+      "source_chunk_ids": [1993, 2028, 3677]
+    },
+    {
+      "name": "Parsons Vehicle Inspection / Smart Vehicle Solutions practice (corporate-level)",
+      "scope": "Operates large-scale I/M programs across Ontario, Pennsylvania, New Jersey, California, Texas, Hawaii; first decentralized OBDII program in Louisiana; first-to-market tablet testing solution.",
+      "outcome": "Trained 100,000+ inspectors and managed >$100M/yr in fee collection without losses.",
+      "source_chunk_ids": [3537]
+    },
+    {
+      "name": "USCYBERCOM Joint Cyber Hunt Kit (JCHK) production",
+      "scope": "Sole-source production of a deployable defensive-cyber kit produced by Parsons subsidiary Sealing Technologies; underpins the cybersecurity practice that scans the proposed Inspection Database with the same technology used for high-sensitivity U.S. government programs.",
+      "outcome": "Intent-to-Award notification from USCYBERCOM in February 2026 for a sole-source three-year contract with a ceiling of up to $500M.",
+      "source_chunk_ids": [3520, 3521]
+    },
+    {
+      "name": "NSA SHARKSEER 2.0 (DISA SETI task order)",
+      "scope": "Long-running federal cyber prime program providing the experiential basis for the cybersecurity tooling brought to the Inspection Database.",
+      "outcome": "Total potential value $28M (1 base + 4 option years); Parsons has been the original contractor on SHARKSEER since 2011.",
+      "source_chunk_ids": [3524, 3543]
+    },
+    {
+      "name": "iNET (Intelligent NETworks) statewide ATMS deployments",
+      "scope": "Cloud-based COTS smart-mobility / Advanced Traffic Management System used by NJDOT, GDOT and others; first integrated statewide ATMS for NJDOT with August 2025 go-live; demonstrates Parsons' ability to operate a high-volume, public-facing transportation software platform at state scale.",
+      "outcome": "Manages 5,000+ monthly traffic events; recent 2026 GDOT ATMS upgrade award using iNET.",
+      "source_chunk_ids": [3531, 3537]
+    }
+  ],
+  "quantified_outcomes": [
+    {
+      "metric": "System uptime",
+      "value": "99.99%",
+      "context": "Pennsylvania I/M Program, since October 2012, on the same VIID architecture family proposed.",
+      "source_chunk_ids": [2028]
+    },
+    {
+      "metric": "System uptime",
+      "value": "99.99%",
+      "context": "New Jersey Motor Vehicle Inspection System, since October 2013.",
+      "source_chunk_ids": [2028]
+    },
+    {
+      "metric": "System uptime",
+      "value": "100%",
+      "context": "DriveON Ontario, since April 2022 on AWS.",
+      "source_chunk_ids": [2028]
+    },
+    {
+      "metric": "Disaster recovery testing cadence",
+      "value": "DRP tested at least annually and after every major release/upgrade/recovery; new-program DRP tested with the State within 30 days of go-live",
+      "context": "VIID Disaster Recovery Plan operating cadence with named Disaster Recovery Coordinator role.",
+      "source_chunk_ids": [2028, 2031]
+    },
+    {
+      "metric": "Backup cadence",
+      "value": "Daily real-time full and incremental backups using specialized archiving software and snapshots; cross-AZ and cross-region replication via AWS Backup; version-controlled application code in the daily backup window",
+      "context": "AWS Aurora + S3 backup architecture committed for the program data tier.",
+      "source_chunk_ids": [2031, 2032]
+    },
+    {
+      "metric": "Workstation rollout velocity",
+      "value": "Software updates pushed to 6,700 private inspection stations in 4 months",
+      "context": "Texas Automated Vehicle Inspection program; documented large-fleet workstation update velocity.",
+      "source_chunk_ids": [1987, 1988, 1991]
+    },
+    {
+      "metric": "Implementation timeline",
+      "value": "1,200 facilities cut over in 6 months",
+      "context": "Vermont Automated Vehicle Inspection Program implementation.",
+      "source_chunk_ids": [1987]
+    },
+    {
+      "metric": "Implementation timeline",
+      "value": "First-of-its-kind vehicle inspection program implemented in 11 weeks across 2,400+ station locations",
+      "context": "Ontario program, demonstrating accelerated multi-thousand-station rollout capability.",
+      "source_chunk_ids": [3677]
+    },
+    {
+      "metric": "Implementation timeline",
+      "value": "New modernized safety inspection system rolled out to 700+ station locations across six islands",
+      "context": "Hawaii Electronic Periodic Motor Vehicle Inspection Program, with a four-month implementation.",
+      "source_chunk_ids": [1988, 3678]
+    },
+    {
+      "metric": "Phase 1 build scope (proposed)",
+      "value": "81 testing lanes (70 OBD-only and 44 combined OBD/Idle/Gas Cap; 114 total) refreshed at 18 stations; 10 kiosks technology-replaced; in-lane self-service tablet terminals deployed; one lane per facility converted to also serve as a MAC lane; ALPR wait-time tracking installed; previous 6 years of test records migrated",
+      "context": "Phase 1 deliverables list for the proposed Inspection Program.",
+      "source_chunk_ids": [3681, 3684]
+    },
+    {
+      "metric": "Video surveillance retention",
+      "value": "Inspection station video stored for at least 90 days; transmitted nightly to a secure off-site location",
+      "context": "New digital video monitoring system installed at testing facilities.",
+      "source_chunk_ids": [3715]
+    },
+    {
+      "metric": "Vehicle-inspection division bench",
+      "value": "500+ employees dedicated to the vehicle-inspection division",
+      "context": "Depth of resources standing ready to deploy for transition and startup.",
+      "source_chunk_ids": [3737]
+    },
+    {
+      "metric": "Industry tenure",
+      "value": "79 years of corporate experience; 25+ years of large-scale, geographically dispersed vehicle emissions and safety inspection program delivery; 40+ years in the vehicle inspection industry; entered the vehicle inspection industry in 1984",
+      "context": "Corporate and practice tenure backing the bid team.",
+      "source_chunk_ids": [1975, 1983, 3754]
+    },
+    {
+      "metric": "Practice training and fee-collection track record",
+      "value": "100,000+ inspectors trained; >$100M/year in fee collection managed without losses",
+      "context": "Vehicle Inspection / Smart Vehicle Solutions practice level.",
+      "source_chunk_ids": [3537]
+    },
+    {
+      "metric": "Cleared workforce concentration",
+      "value": "70-90% TS/SCI clearance rates at named Parsons regional clearance hubs",
+      "context": "Cleared cyber engineering base supporting the cybersecurity practice that scans the Inspection Database.",
+      "source_chunk_ids": [3531]
+    },
+    {
+      "metric": "Corporate revenue",
+      "value": "FY2023 $5.443B (~23% organic growth); FY2024 $6.751B (24% total / 22% organic, all-time records); FY2025 $6.364B",
+      "context": "Financial scale of the proposing corporation.",
+      "source_chunk_ids": [3548]
+    },
+    {
+      "metric": "AWS DeepRacer enterprise upskilling",
+      "value": "470+ employees enrolled; 1,500+ ML models generated",
+      "context": "Cloud/AI training program inside corporate R&D.",
+      "source_chunk_ids": [3532]
+    },
+    {
+      "metric": "Acquisition-driven capability stack",
+      "value": "20+ technology acquisitions since 2017 (CEO statement: 14 since 2017 under current CEO; 20+ over prior CEO tenure) including cyber, AI/ML, SIGINT, EW, OT-cyber, biometrics and space-mission product lines",
+      "context": "Source of named platforms and IP feeding into the I/M architecture (e.g., IPKeys OT-cyber, JCHK defensive cyber, AI/ML platforms).",
+      "source_chunk_ids": [3524, 3528, 3543, 3544, 3547, 3548, 3552]
+    },
+    {
+      "metric": "Federal cyber contract anchors",
+      "value": "USCYBERCOM JCHK production up to $500M (sole-source 3-year, 2026); DTRA CTRIC IV $3.5B IDIQ ceiling (Dec 2025); GSA CEOIS task order $618M (May 2021); IC classified $160M single-award (Sept 2023); IC classified $104M single-award (Feb 2022); IC IDIQ $178M (July 2020); MDA SHIELD $151B IDIQ ceiling (Dec 2025)",
+      "context": "Cyber and mission-critical program ceiling values backing the corporate cybersecurity practice that secures the Inspection Database.",
+      "source_chunk_ids": [3521, 3522, 3523, 3524, 3528]
+    },
+    {
+      "metric": "iNET Advanced Traffic Management System scale",
+      "value": "5,000+ monthly traffic events managed; first integrated statewide ATMS for NJDOT (Aug 2025 go-live); recent 2026 GDOT ATMS upgrade award",
+      "context": "Demonstrates parallel ability to run a high-volume, public-facing transportation software platform at state scale on a Parsons-owned product.",
+      "source_chunk_ids": [3531, 3537]
+    }
+  ],
+  "differentiators": "Parsons is the only proposed vendor whose corporate position is explicitly built on convergence of physical-infrastructure domain knowledge with cyber and software capability ('One Parsons') - the same company that engineers rail, transit, airports, utilities and traffic-management systems is the company defending them, and runs the federal cyber programs (USCYBERCOM JCHK production, NSA SHARKSEER prime since 2011, DTRA CTRIC IV, classified IC contracts) whose tooling is reused to scan the Inspection Database with the same technology used for high-sensitivity U.S. government programs [chunks 1973, 1974, 3520, 3521, 3522, 3523, 3524, 3543, 3552]. The acquisition-driven capability stack - 20+ technology acquisitions since 2017 spanning cyber, AI/ML, SIGINT, OT-cyber and space-mission lines - feeds named proprietary platforms (iNET ATMS, TraCSS, JCHK, ABIS In A Box, DetectWise, Intelligent Intersections, IPKeys utility cyber) into the same delivery organization that operates the I/M business [chunks 3531, 3532, 3537, 3544, 3547, 3548, 3552]. The Vehicle Inspection / Smart Vehicle Solutions practice has trained 100,000+ inspectors, managed >$100M/year in fee collection without losses, fielded the first decentralized OBDII program and the first-to-market tablet testing solution, and operates I/M programs in six jurisdictions concurrently [chunk 3537]. Architecturally, the proposed solution runs on AWS Aurora and S3 with cross-availability-zone and cross-region replication, daily real-time full and incremental backups via specialized archiving software and snapshots, version-controlled code in the daily backup, and AWS Backup automation to alternate regions [chunks 2031, 2032]; sister-program system availability is already 99.99-100% on this architecture [chunk 2028]. A federally recognized cybersecurity practice with documented Standard Operating Procedures and the cleared workforce base (70-90% TS/SCI at regional hubs) protects program data, with Disaster Recovery Plans tested at least annually and within 30 days of go-live [chunks 2028, 2031, 2042, 3531]. Continuity is reinforced by three cross-trained management positions and corporate emissions program staff in multiple jurisdictions activatable in an emergency, an 'Always Hiring' recruitment approach, and a deep bench of 500+ employees dedicated to vehicle inspection [chunks 2042, 3737, 3740, 3741]. Transition risk is reduced by 25+ years of large I/M program experience, four prior major vehicle-inspection system migrations completed on time without interruption, pre-tested State-approved plug-and-play equipment, weekend/overnight cut-overs, Zephyr SAT tracking, DBConvert data migration, and a >35-year track record of the same proposed team executing program transitions together [chunks 1983, 3672, 3673, 3677, 3678, 3689, 3723, 3724, 3727].",
+  "gap_notes": "The v2 evidence corpus for this theme is heavy on (a) corporate-level scale, R&D and federal cyber posture from the dossier; (b) jurisdiction-level past performance, transition methodology and SAT discipline from the Volume I Technical Proposal; and (c) cybersecurity, DR, backup and high-level architecture from the Emissions Technical Submittal. Several high-priority Solution Architecture & Software RFP obligations are NOT directly substantiated in the supplied chunks and need targeted proposal text or commitment language sourced elsewhere:\n- A-008 (sec 1.2.5): explicit 'we will deliver a Next Generation VID to replace the Legacy VID' commitment statement aligned to State labels is implied by Parsons' VIID experience [chunks 1969, 3724] but not directly in evidence.\n- A-038 (sec 18.1) cloud-design per agreed service/security/capacity levels: AWS architecture is supported [chunks 2031, 2032] but the explicit per-mutually-agreed-level commitment statement is not in evidence.\n- A-040 (sec 11.2) and A-045 (sec 12.3) - additional Security Engineering & Architecture description and protective technologies for configuration verification (firewalls, IDS/IPS, FIM, anti-malware): the dossier covers offensive/defensive cyber capability at corporate level [chunks 3520, 3521] and the practice-level scanning posture is in [chunks 1973, 1974], but the specific control-by-control description (FIM, anti-malware, IDS/IPS configuration) is not in the supplied chunks.\n- R-022 (sec 24.1) and R-031 (sec 24.2) - SDLC security requirements and SDLC description (developer access to production data, version control tools, dev->prod promotion): version control and daily backup of code are supported [chunk 2031] and 'secure, virtual software development environment' plus dual technical career paths are in [chunks 3552, 3553], but a complete SDLC description is not.\n- R-050 (sec 27.1) - third-party risk management program: not directly substantiated.\n- A-022 (sec 3.2) - screening and background checks for personnel/contractors with access to sensitive information: cleared-workforce concentration is in [chunk 3531] but the specific screening/background-check policy description is not.\n- R-027 / A-028 (sec 3.20), R-028 (sec 3.21), R-029 / A-030 (sec 3.22), R-030 / A-031 (sec 3.23), R-031 / A-040 (sec 3.24), R-032 / A-047 (sec 3.25) - organizational experience write-up, location info, organization charts, named-key-personnel resumes, list of contracts of similar size and scope, and financial capability: corporate-level financials [chunk 3548], practice-level past-performance summary [chunks 1987, 1988, 1990, 1991, 1993, 3537] and the named bench of 500+ vehicle-inspection employees [chunk 3737] are present, but the specific Bidder-Responsibility deliverables (signed resumes, location addresses, named org chart per RFP appendices) are scoped to other catalog themes.\n- Specific NGVID architecture commitments not in this v2 chunk set: NGSystem maintenance/repair/replacement obligation; Oracle RDBMS alignment to the State Motor Vehicle agency's version (Aurora MySQL is the AWS-native target in [chunks 2031, 2032]) - this conflict, if present in the underlying RFP, must be resolved (dual-engine, Oracle target, or formal deviation); multiple standalone DEV/UAT/PROD environments; XML formatting for all NGWorkstation->NGVID transactions; the five external-facing web interfaces; WS-Security for SOAP messages; the five-environment promotion model; explicit 27-month online retention floor and 180-day post-expiration retrieval window; daily inspection-data transmission via Electronic File Transfer with web-services switch-over; lockouts/recall/TSB push to comply with EPA 40 CFR 51.369; three-VIN-checks logic; covert audit retention; rules-engine semantics (Begin/EndTest cycles, ruleset termination on invalid attributes, reset rulesheet behavior on terminated rulesets, inspection termination on invalid mvcRegCode).\n- Specific NGWorkstation hardware and authentication commitments not in this v2 chunk set: HTTPS with State-authorized login credentials at the workstation; barcode/PIN authentication; workstation lockouts; integrated smoke meters; certified diesel opacity testers; drive-on/stop brake testers; VIN decoder in all workstations; blind emissions test; MIT and BIT data collection; final OBD test design subject to State approval.\n- Specific ATP/SAT commitments not in this v2 chunk set: independent ATPs for new NGWorkstations; written SCM approval before testing; beta testing of the entire NGSystem; end-to-end ATP scope; EPA/SAE J1667/State OBD compliance demonstration; 20,000/50,000 transactions per 8-hour day stress/load test profile; quantitative performance per Requirements Specification; custom-source-code deposit in a State-side git repository; communication-rate SLAs of 99.9%/99.0%/95% by category; 30-minute notification on loss of major functionality. The proposal has SAT/ATP capability at a high level [chunks 3672, 3673, 3675, 3754] but not these specific deliverables.\n- Compliance-and-personnel obligations grouped under this theme by the data pipeline (A-003 no auto-renewal, M-007 fair/open process, R-080 bidder responsibility, A-022 background checks, R-027/A-028 organizational experience, R-028 location info, R-029/A-030 org chart, R-030/A-031 resumes, R-031/A-040 contracts of similar size and scope, R-032/A-047 financial capability, A-040 security engineering, A-045 protective tech for configuration verification, A-038 cloud design per agreed service/security levels, R-022/R-031 SDLC, R-050 third-party risk) are scoped by other catalog themes; for this theme the gap is that the v2 evidence carries only adjacent material (cybersecurity practice in [chunks 1973, 1974, 1983, 2042, 3520, 3521, 3522, 3523, 3524, 3543] and corporate financial/scale in [chunks 3531, 3532, 3537, 3544, 3548, 3552]) and a fully sourced response will need pull-throughs from the corporate, security and program-management themes.\n- Pricing-tied obligations are not addressable from this theme's evidence and belong to the pricing theme.",
+  "source_chunk_ids": [1948, 1955, 1969, 1970, 1973, 1974, 1975, 1983, 1984, 1987, 1988, 1990, 1991, 1993, 2028, 2031, 2032, 2042, 2043, 2050, 3520, 3521, 3522, 3523, 3524, 3528, 3529, 3531, 3532, 3535, 3537, 3543, 3544, 3547, 3548, 3552, 3553, 3576, 3577, 3578, 3579, 3582, 3583, 3595, 3642, 3653, 3672, 3673, 3675, 3677, 3678, 3681, 3684, 3689, 3714, 3715, 3723, 3724, 3725, 3726, 3727, 3736, 3737, 3740, 3741, 3751, 3754]
+}
