@@ -1128,6 +1128,87 @@ def get_requirement_neighbors(
     }
 
 
+@router.get("/requirements/needs-attention")
+def list_drafts_needing_attention(
+    proposal_id: Optional[int] = Query(None),
+    procurement_scope: str = Query("current_2026"),
+    limit: int = Query(50, ge=1, le=500),
+    offset: int = Query(0, ge=0),
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Drafts that warrant human review first.
+
+    Flags any of:
+      - disposition is Comply-with-exception, Take-exception, or
+        Needs-Clarification (Parsons doesn't fully comply or the LLM
+        wasn't sure)
+      - no evidence chunks were cited (LLM had to draft without
+        Parsons grounding)
+      - response_status is rejected (a previous review kicked it back)
+
+    Each row carries the SAME shape as the in-section list so the UI
+    can render it inline.
+    """
+    from sqlalchemy import text
+    clauses = [
+        "(r.rollup_role IS NULL OR r.rollup_role = 'parent')",
+        "r.superseded_by_requirement_id IS NULL",
+        "(r.requirement_kind = 'obligation' OR r.requirement_kind IS NULL)",
+        "(r.response_effort = 'writeup' OR r.response_effort IS NULL)",
+    ]
+    params: Dict[str, Any] = {"limit": limit, "offset": offset}
+    if procurement_scope and procurement_scope != "all":
+        clauses.append("r.document_id IN (SELECT id FROM ingested_documents WHERE procurement_scope = :pscope)")
+        params["pscope"] = procurement_scope
+    if proposal_id is not None:
+        clauses.append("(r.proposal_id = :pid OR r.proposal_id IS NULL)")
+        params["pid"] = proposal_id
+
+    needs = "(" + " OR ".join([
+        "r.compliance_disposition IN ('Comply-with-exception','Take-exception','Needs-Clarification')",
+        "r.parsons_response_cited_evidence IS NULL",
+        "r.parsons_response_status = 'rejected'",
+    ]) + ")"
+    clauses.append("r.parsons_response_status IS NOT NULL")  # only consider drafted rows
+    clauses.append(needs)
+
+    where = "WHERE " + " AND ".join(clauses)
+    total = db.execute(text(f"""
+        SELECT COUNT(*) FROM rfp_requirements r
+        {where}
+    """), params).scalar()
+
+    rows = db.execute(text(f"""
+        SELECT r.id, r.title, r.section_id, r.priority, r.category,
+               r.compliance_disposition AS disposition,
+               r.parsons_response_status AS status,
+               (CASE WHEN r.parsons_response_cited_evidence IS NULL THEN 1 ELSE 0 END) AS no_evidence,
+               (CASE WHEN r.parsons_response IS NULL OR r.parsons_response = '' THEN 1 ELSE 0 END) AS empty_response,
+               substr(r.parsons_response, 1, 200) AS response_preview
+        FROM rfp_requirements r
+        {where}
+        ORDER BY r.id
+        LIMIT :limit OFFSET :offset
+    """), params).fetchall()
+
+    return {
+        "total": int(total or 0),
+        "offset": offset, "limit": limit,
+        "requirements": [
+            {
+                "requirement_id": r.id, "title": r.title, "section_id": r.section_id,
+                "priority": r.priority, "category": r.category,
+                "compliance_disposition": r.disposition,
+                "parsons_response_status": r.status,
+                "no_evidence": bool(r.no_evidence),
+                "empty_response": bool(r.empty_response),
+                "response_preview": r.response_preview,
+            } for r in rows
+        ],
+    }
+
+
 @router.get("/requirements/in-section")
 def list_requirements_in_section(
     proposal_id: Optional[int] = Query(None),
