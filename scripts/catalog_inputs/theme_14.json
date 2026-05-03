@@ -1,0 +1,372 @@
+{
+  "theme_id": 14,
+  "theme_label": "Customer & Public Interface",
+  "category": "Operational",
+  "rfp_requirements": [
+    {
+      "id": 3667,
+      "code": "R-048",
+      "title": "Provide Access-Controlled Webpage for ERT Repair Data Entry",
+      "description": "Provide an access-controlled webpage to allow authorized ERTs to enter repair data.",
+      "section": "4.27.1.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3680,
+      "code": "R-061",
+      "title": "Develop ERT Repair Data Entry Module in Management Console",
+      "description": "Contractor must develop and maintain a limited access repair data entry module within the Management Console for ERTs.",
+      "section": "4.27.2.1.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4602,
+      "code": "A-014",
+      "title": "Motorist Hotline Availability and Response Standards",
+      "description": "The Motorist Hotline shall be available to the public during principal operating hours, and 98% of calls must be received and placed in a call queue, answered within 10 minutes from the queue, or receive a return call to the motorist within 2 Motorist Hotline Business Hours.",
+      "section": "4.33.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4260,
+      "code": "A-068",
+      "title": "Take over existing toll-free hotline number",
+      "description": "The existing toll-free number shall be taken over by the successful Contractor upon commencement of its CIF operation, and revert to State upon contract termination.",
+      "section": "4.33.1.A",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 4268,
+      "code": "A-076",
+      "title": "Hire and train all Call Center Representatives",
+      "description": "Contractor shall hire and train all CCRs.",
+      "section": "4.33.1.D",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1795,
+      "code": "A-017",
+      "title": "Secure advance written SCM approval for motorist appointment system",
+      "description": "Obtain advance, written SCM approval for use or implementation of any motorist appointment system.",
+      "section": "4.9.2.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1796,
+      "code": "A-018",
+      "title": "Make reservation system accessible via website and telephone",
+      "description": "Reservation system must be accessible to customers via the Contractor's website and by telephone.",
+      "section": "4.9.2.2",
+      "priority": "medium",
+      "category": "mandatory"
+    }
+  ],
+  "parsons_evidence": [
+    {
+      "chunk_id": 1927,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 2,
+      "content": "5340 Jaycee Avenue, Suite E, Harrisburg, PA 17112\n+1 717.565.7500 /Direct: +1 416.676.179 / www.parsons.com\nDecember 5, 2023\nDawn Grabuloff\nPennsylvania Department of Transportation\nBureau of Office Services\n400 North St., Keystone Bldg. 5th Floor\nHarrisburg PA 17120\nSubject: Solicitation 3522R12, Emissions Program Management\nDear Ms. Grabuloff,\nParsons Transportation Group Inc. (Parsons) is pleased to provide this proposal to the Pennsylvania Department of\nTransportation (PennDOT), Bureau of Office Services, in response to Request for Proposal (RFP) Number 3522R12\nfor Emissions Program Management.\nOur commitment to PennDOT is to continue delivering an effective Pennsylvania Vehicle Emissions Inspection and\nMaintenance Program and to innovate responsibly to move the Program forward. Building on our past performance,\nwe will implement new, cloud-based VIID systems and improved auditing infrastructure that efficiently gets Program\ndata to PennDOT. Our upgrades to the e-SAFETY system will support the enhanced safety inspection Program\ncompliance. We will upgrade our call center solution with new technology using ZenDesk and AmazonConnect as\nthe backbone of the system.\nOur Program Mana"
+    },
+    {
+      "chunk_id": 1928,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 2,
+      "content": "auditor teams, support teams, and subcontractors are in place. In this challenging\nlabor market, we do not anticipate any staffing impacts as your selected vendor in the new contract. Upon Notice to\nProceed, with no transitional risk to current operations, we will begin the implementation tasks to fulfill all RFP\nrequirements.\nParsons continues its commitment to Small Diverse Businesses and Small Businesses for this procurement.\nAdditionally, we have added two Veteran Business Enterprises to our team, 1Alpha Consulting to bolster our\nmotorist compliance activities and Berry Solutions Group for our information and education development and to\nprovide enhanced auditor training.\nOfferor Responsibilities and Exceptions to the RFP Requirements\nAll information submitted pertains exclusively to Parsons Transportation Group Inc. as a subsidiary of Parsons\nCorporation. Our proposal satisfies all mandatory requirements listed in the RFP, and we take no exceptions to any\nof the contractual provisions outlined in the RFP.\nOn behalf of Parsons, I am authorized to bind the Corporation to all the provisions in this proposal and acknowledge\nreceipt of Addenda 1 through 5. This proposal is good for"
+    },
+    {
+      "chunk_id": 1941,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 4,
+      "content": "..................................... 39\nC.2 Use of Established Communications Outlets ............................................................................................................. 40\nC.3 Oversight by and Coordination with PennDOT ............................................................................................................ 40\nIndustry Meetings .......................................................................................................................................................... 41\nPrint and Electronic Newsletter .................................................................................................................................... 41\nToll-Free Hotline ............................................................................................................................................................. 41\nTask D: Deliver Waivers and Operate Referee Program ........................................................................................................... 42\nD.1 Waivers ..............................................................................................................................................."
+    },
+    {
+      "chunk_id": 1942,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 4,
+      "content": "......................... 42\nElectronic Waiver Delivery ............................................................................................................................................ 42\nWaiver Auditing Process ............................................................................................................................................... 42\nD.2 Referee Program .......................................................................................................................................................... 43\nD.3 Help Desk Services ...................................................................................................................................................... 43\nCommonwealth and Equipment Manufacturer-related Help Desk/Conference Calls ............................................. 43\nHelp Desk ....................................................................................................................................................................... 44\nCustomer Service and Station Operator Hotlines ....................................................................................................... 45\nTask E: Hold I/"
+    },
+    {
+      "chunk_id": 1946,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 5,
+      "content": "....... 49\nReports ................................................................................................................................................................................. 49\nTask F: Motorist Compliance ....................................................................................................................................................... 49\nTraining and Public Interaction ..................................................................................................................................... 49\nCollection Procedures ................................................................................................................................................... 49\nAdditional Data Collection Procedures ........................................................................................................................ 50\nReporting ............................................................................................................................................................................. 50\nTask G: On-Road Testing Using Remote Sensing Device .........................................................................."
+    },
+    {
+      "chunk_id": 1963,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 8,
+      "content": "AWS Partner Solutions Provider, AWS DevOps Competency Partner, and AWS Advanced Tier Services\nPartner, and holds other designations. Our engineers and in-house security experts have more than 100 AWS\ncertifications, and Parsons has secured AWS\u2019s commitment to support our Pennsylvania solution during our\nimplementation and ongoing utilization of AWS/AWS products. Our experience moving the Ontario DriveON program to\nAWS allows us to implement our proposed update to the PA I/M Program VIID securely, without interruption in service\nor uptime. We will upgrade our call center solution with new technology using ZenDesk and AmazonConnect as the\nbackbone of the system.\nStation Compliance. Our operational goals align with PennDOT\u2019s focus on station and inspector compliance. We\nrecognize the Program\u2019s integrity and customer confidence are rooted in ensuring compliance. We will continually\nadapt to improve our audit and hearing processes through innovation and enhanced auditor training. Parsons has in-\nhouse professional oversight personnel with experience in the Pennsylvania Program. In this challenging labor market,\nour teams are fully staffed, trained, and dependable.\nExecutive Summary ES-1"
+    },
+    {
+      "chunk_id": 1970,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 10,
+      "content": "d safety inspection data\n\u00a7 Providing the necessary software/hardware to operate and maintain the I/M Program\n\u00a7 Providing a disaster recovery plan\n\u00a7 Providing data back-up and off-site back-up storage\n\u00a7 Providing system journal files (transaction journals), logging all system transactions\n\u00a7 Overseeing (overt, covert, and remote visual observation) I/M and Safety stations within the assigned geographic\nregion including inspectors and certified repair technicians\n\u00a7 Conducting public information and education (I&E) activities relating to the I/M Program\n\u00a7 Providing a process for investigation and fact-finding relating to I/M Program violations\n\u00a7 Providing referee service to facilitate the resolution of consumer complaints\n\u00a7 Helping I/M stations and consumers with the issuance of exemptions and waivers\n\u00a7 Providing Help Desk facilities to address equipment manufacturer, I/M station, and consumer questions and\nconcerns regarding I/M Program requirements and to address system support issues for e-SAFETY users\n\u00a7 Performing motorist compliance data collection and analysis\n\u00a7 Collecting, organizing, storing, and reporting on data related to on-road testing (remote sensing)\n\u00a7 Performing evaluat"
+    },
+    {
+      "chunk_id": 1984,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 13,
+      "content": "we deliver. Parsons experience in programs across North America can be leveraged to\nbenefit Pennsylvania. Our success is in providing complete program management services, including custom software,\ndata management and reporting, overt and covert field auditing, real-time data auditing with emissions test interruptions,\ncall center services, fee collection and management, inspector and repair technician training, and industry outreach.\nEXHIBIT I-2-2. HIGHLIGHTS OF SOME MAJOR MILESTONES OF OUR MORE THAN 20 YEARS ON PENNSYLVANIA\u2019S I/M PROGRAM.\nTechnical Submittal 4"
+    },
+    {
+      "chunk_id": 1987,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 14,
+      "content": "ed Contract Program\nProgram Contact\nName Agency Relevant to PA Experience Term Highlights\nPennsylvania PennDOT All services rendered under All proposed 1997\u20132025 Kara Templeton, See Timeline (Exhibit\nI/M Program Tasks A-M Parsons\u2019 PA Deputy Secretary PennDOT, I-2-2) on Page 5\nteam members Driver and Vehicle Services\nworked on this 1101 South Front Street\nproject Harrisburg, PA 17104\n717.705.1000 (Please\ncontact by telephone)\nKtempleton@pa.gov\nAutomated Vermont Project management, VIID 12 Parsons\u2019 PA 2016\u20132025 Wanda Minoli, Successful 6-month,\nVehicle Department of development, data security, team members DMV Commissioner 1,200-facility\nInspection Motor Vehicles equipment deployment worked on this Vermont DMV implementation and\nProgram (DMV) management, station project 120 State Street, implemented sticker\nmanagement/fee collection, 3rd Floor, Montpelier, VT printing-on-demand\ntraining industry and system 05633-5001\nadministrators, industry 802.828.2020\noutreach, and an industry Wanda.Minoli@vermont.gov\ntechnical support call center.\nNew Jersey New Jersey Project and operations 11 Parsons\u2019 PA 1998\u20132024 Fred Womack, Director of 12 stations received\nMotor Motor Vehicle management, VII"
+    },
+    {
+      "chunk_id": 1988,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 14,
+      "content": "urity, worked on this New Jersey MVC Enhanced\nInspection (MVC) software certification, project I/M Program, 225 East\nSystem equipment ATP, motorist call State Street, 4th Floor, East\ncenter, and PI&E. Wing, Trenton, NJ 08666\n609.633.9460\nFred.womack@mvc.nj.gov\nHawaii Hawaii Program and operations 5 Parsons\u2019 PA 2013\u20132024 Toby Wakumoto, Highway Successfully met the\nElectronic Department of management, VIID team members Safety Manager of the short four-month\nPeriodic Transportation development, station billing, worked on this Motor Vehicle Safety Office implementation\nMotor tablet-based software project Hawaii DOT98-339 timeline and\nVehicle development, Ponohana Place implemented sticker\nInspection implementation experience, Aiea, HI 96701 printing-on-demand\nProgram and station outreach. 808.692.7656\ntoby.wakumoto.@hawaii.gov\nTexas Texas Program management, 7 Parsons\u2019 PA 2006\u20132024 Lisa Cargill, Manager, RSD Provided equipment\nAutomated Department of software development and team members 5806 Guadalupe Street, software updates to\nVehicle Public Safety maintenance, safety worked on this Building I 6,700 private\nInspection inspection program project Austin, TX 78752 inspection stations i"
+    },
+    {
+      "chunk_id": 1989,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 14,
+      "content": "volume in lisa.cargill@dps.texas.gov integrated a\na decentralized program, comprehensive\nreporting, hearings service call ticketing\napplication, and call center and response\nsupport. tracking system\nTechnical Submittal 5\n | Program\nName | Government\nAgency |  |  | Parsons Services |  |  | Shared |  |  | Contract |  | Program Contact |  |  |  | Program | \n |  |  |  |  | Relevant to PA |  |  | Experience |  |  | Term |  |  |  |  |  | Highlights | \nPennsylvania\nI/M Program |  | PennDOT |  | All services rendered under\nTasks A-M | All services rendered under |  | All proposed\nParsons\u2019 PA\nteam members\nworked on this\nproject | All proposed |  | 1997\u20132025 | 1997\u20132025 |  |  | Kara Templeton, |  | See Timeline (Exhibit\nI-2-2) on Page 5 | See Timeline (Exhibit | \n |  |  |  |  | Tasks A-M |  |  | Parsons\u2019 PA |  |  |  |  |  | Deputy Secretary PennDOT, |  |  | I-2-2) on Page 5 | \n |  |  |  |  |  |  |  | team members |  |  |  |  |  | Driver and Vehicle Services |  |  |  | \n |  |  |  |  |  |  |  | worked on this |  |  |  |  |  | 1101 South Front Street |  |  |  | \n |  |  |  |  |  |  |  | project |  |  |  |  |  | Harrisburg, PA 17104 |  |  |  | \n |  |  |  |  |  |  |  |  |  |  |  |  |  | 717.705.10"
+    },
+    {
+      "chunk_id": 1990,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 14,
+      "content": "ne) |  |  |  | \n |  |  |  |  |  |  |  |  |  |  |  |  |  | Ktempleton@pa.gov |  |  |  | \nNew Jersey\nMotor\nVehicle\nInspection\nSystem | New Jersey\nMotor Vehicle\nCommission\n(MVC) | Project and operations\nmanagement, VIID\ndevelopment, data security,\nsoftware certification,\nequipment ATP, motorist call\ncenter, and PI&E. | 11 Parsons\u2019 PA\nteam members\nworked on this\nproject | 1998\u20132024 |  | Fred Womack, Director of |  | 12 stations received\nOSHA VPP status\n |  |  |  |  |  | Inspection Services, |  | \n |  |  |  |  |  | New Jersey MVC Enhanced |  | \n |  |  |  |  |  | I/M Program, 225 East |  | \n |  |  |  |  |  | State Street, 4th Floor, East |  | \n |  |  |  |  |  | Wing, Trenton, NJ 08666 |  | \n |  |  |  |  |  | 609.633.9460 |  | \n |  |  |  |  |  | Fred.womack@mvc.nj.gov |  | \nProject and operations\nmanagement, VIID\ndevelopment, data security,\nsoftware certification,\nequipment ATP, motorist call\ncenter, and PI&E.\n11 Parsons\u2019 PA\nteam members\nworked on this\nproject\n12 stations received\nOSHA VPP status\nTexas\nAutomated\nVehicle\nInspection\nSystem | Texas\nDepartment of\nPublic Safety |  | Program management, |  | 7 Parsons\u2019 PA\nteam members\nworked on this\nproject | 2006\u20132024 | Lisa Cargill, Manager, "
+    },
+    {
+      "chunk_id": 1991,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 14,
+      "content": "517.1318\nlisa.cargill@dps.texas.gov |  | Provided equipment | \n |  |  | software development and |  |  |  |  |  | software updates to | \n |  |  | maintenance, safety |  |  |  |  |  | 6,700 private | \n |  |  | inspection program |  |  |  |  |  | inspection stations in | \n |  |  | management, comparable |  |  |  |  |  | four months and | \n |  |  | inspection station volume in |  |  |  |  |  | integrated a | \n |  |  | a decentralized program, |  |  |  |  |  | comprehensive | \n |  |  | reporting, hearings |  |  |  |  |  | service call ticketing | \n |  |  | application, and call center |  |  |  |  |  | and response | \n |  |  | support. |  |  |  |  |  | tracking system | \n7 Parsons\u2019 PA\nteam members\nworked on this\nproject\nLisa Cargill, Manager, RSD\n5806 Guadalupe Street,\nBuilding I\nAustin, TX 78752\n281.517.1318\nlisa.cargill@dps.texas.gov"
+    },
+    {
+      "chunk_id": 1993,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 15,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nProgram Government Parsons Services Shared Contract Program\nProgram Contact\nName Agency Relevant to PA Experience Term Highlights\nIntegrated Ontario Program and operations 18 Parsons\u2019 PA 1999\u20132028 Ron Seca, Successfully\nVehicle Ministry of the management of LDV team members Contract Manager transitioned the\nSafety and Environment emissions program, VIID worked on this MOECC40 St. Clair Avenue Ontario Heavy-Duty\nEmissions and Climate development, information project West \u2013 4th Floor Emissions program\nInspection Change systems development, Toronto, Ontario M4V-1M2 to the AWS cloud\nProgram (MOECC) management and reporting, 416.624.8304 with no service\ncall center operations, Ron.seca@ontario.ca interruption or\ninspector training, facility impact to the existing\ncertification, overt and covert Emissions stations\nauditing, program QA/QC,\nfee collection, and\nequipment software\ncertification.\nAttachment A includes detailed descriptions and letters of reference from our clients.\nI-2C: Personnel\nWe offer PennDOT a reliable, experienced team of individuals with unmatched knowledge of the PA I/M P"
+    },
+    {
+      "chunk_id": 1999,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 16,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nnization with Certainty\nEXHIBIT I-2-5: PARSONS\u2019 TEAM ORGANIZATION CHART SHOWS THE DEPTH OF OUR RESOURCES.\nPROGRAM SUPPORT EXECUTIVE OVERSIGHT\nSafety Quality Director Mike Butler, VP\nBrady Harnish, CSP, CHST Michelle St. George-Coyle, PROGRAM MANAGER Bonnie McPherson, VP\nProject Controls CMQ/OE, CQA Mark Colangelo, VP\nTom Evenson, LEED AP Sustainability Officer\nCatherine Sheane , PE,\nOPERATIONS LEED AP B+C, ENV SP TECHNOLOGY\nDEPUTY PROGRAM MANAGER PRODUCT DEVELOPMENT TECHNICAL PROJECT MANAGER\nMANAGER\nJohn Ott Darryl McCarthy\nGus Nassar\nREGIONAL SUPPORT DBA INFRASTRUCTURE\nPrincipal Technical Specialist Covert Operations MANAGER\nBrett Weiser Alexa Glenn, Dasher Inc. Nash Budhwani, OCP\nField Office Coordinator Call Center Operation\nAngel Scully Courtnay Vannicola, Dasher Inc.\nData Analyst P I&E Operations\nQuinn DeMarco Bruce Lebitz, Berry Solutions\nGroup\nREGION MANAGER REGION MANAGER REGION MANAGER\n(PHILADELPHIA) (HARRISBURG) (PITTSBURGH)\nThomas Bishop William Moyer Neal Lutz\nHearing Examiner OVERT AUDIT Hearing Examiner OVERT AUDIT Hearing Examiner OVERT AUDIT DEVELOPMENT PRACTICE IT DATAB"
+    },
+    {
+      "chunk_id": 2001,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 16,
+      "content": "in Floyd \u2022 UX Analyst (1) \u2022 Middleware\nDasher Inc. \u2022 Ricky Knecht Dasher Inc. (sub) \u2022 Mike Hicks Jason Vantroba \u2022 Eric Kirby Systems Admins (3)\n\u2022 Wendy Moyer \u2022 Jeromy Horner Dasher Inc. \u2022 Thomas Ochs\nCovert QAOs (sub) Covert QAOs (sub)\n\u2022 Tyrone Parker \u2022 Jim Lachette \u2022 Gary Michaels\nCovert QAOs (sub)\n\u2022 Dennis Gorchov \u2022 Andrew Slovensky \u2022 Christopher Almedia \u2022 Marvin Langtry \u2022 Jeffrey Miller\n\u2022 Frank Flanagan \u2022 Cole Smith \u2022 Joseph Aponick \u2022 Julie Larson \u2022 Arthur Barnett \u2022 David Neely\n\u2022 Jack Heidenry \u2022 Chris Towey \u2022 Roxanne Berry \u2022 Douglas O\u2019Connor \u2022 Earl Grubbs \u2022 Melissa Vaughn\n\u2022 James Kelly \u2022 Dave Wolpert \u2022 Franci Dammann \u2022 Ross Perchak \u2022 Robert Kolarich\n\u2022 Frank Kennedy \u2022 Anna Yondura \u2022 Rick Gantz \u2022 Josh Plaza \u2022 Gerald Linkes\n\u2022 Pamela Hensley \u2022 Willard Gottshall \u2022 Ken Riggle \u2022 Lawrence Osman\n\u2022 Tameka Poulson \u2022 Frank Harchak \u2022 Luis Rodriguez \u2022 William Scheller\n\u2022 Daniel Ward \u2022 Melchoir Horn \u2022 Jeffrey Scheller\n\u2022 Sue Lloyd \u2022 Chuck Nawrocki\n\u2022 Tim Minarcik\n\u2022 Rick Rajk\n\u2022 Dave Turner\n\u2022 Terri Speece\n\u2022 Joe Wagner\n\u2022 Clyde Woomer\nSUBCONTRACTORS\nInformation & Education & Training Covert Operations Call Center Support PA I/M Program Analysis Program Support Evaluation & On-Road Testing Program Con"
+    },
+    {
+      "chunk_id": 2002,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 16,
+      "content": "Klausmeier Michael Baker International HEAT \u2013 SB Revecorp 1 Alpha Consulting - VBE\n\u2022 William Ray \u2022 Sharon Ryan \u2022 Rob Klausmeier \u2022 Daniel Szekeres \u2022 Tyler Garner \u2022 Michael J. St. Denis \u2022 Tom Holloway\n\u2022 Paul Cassarly \u2022 Jim Frasier\nTechnical Submittal 7\nPROGRAM SUPPORT | \nSafety\nBrady Harnish, CSP, CHST\nProject Controls\nTom Evenson, LEED AP | Quality Director\nMichelle St. George-Coyle,\nCMQ/OE, CQA\nSustainability Officer\nCatherine Sheane , PE,\nLEED AP B+C, ENV SP\nEXECUTIVE OVERSIGHT\nMike Butler, VP\nBonnie McPherson, VP\nPROGR | AM MANAGER\nMark C | olangelo, VP\nDEPUTY PROGR | AM MANAGER\nJohn | Ott\nPRODUCT DEVELOPMENT\nMANAGER\nGus Nassar\nTECHNICAL PRO | JECT MANAGER\nDarryl M | cCarthy\nREGIONAL SUPPORT | \nPrincipal Technical Specialist\nBrett Weiser\nField Office Coordinator\nAngel Scully\nData Analyst\nQuinn DeMarco | Covert Operations\nAlexa Glenn, Dasher Inc.\nCall Center Operation\nCourtnay Vannicola, Dasher Inc.\nP I&E Operations\nBruce Lebitz, Berry Solutions\nGroup\nDBA INFRAS\nMANA | TRUCTURE\nGER\nNash Budh | wani, OCP\nREGION MANAGER\n(PHILADELPHIA)\nThomas Bishop\nREGION M\n(HARRIS | ANAGER\nBURG)\nWilliam | Moyer\nREGION MANAGER\n(PITTSBURGH)\nNeal Lutz\nHearing Exa\nDave Wolpe\nFleet Techn\nKarl Wagne\nOffi"
+    },
+    {
+      "chunk_id": 2004,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 16,
+      "content": "gence\nDevelopers (2)\nQUALITY ASSURANCE\nMANAGER\nAnthony Liebusch\nQA Support\n\u2022 QA Analysts (5)\nCOVER\nMAN | T AUDIT\nAGER\nDonna DiJoseph\nDasher Inc. | \nCovert QAOs (sub)\n\u2022 Dennis Gorchov\n\u2022 Frank Flanagan\n\u2022 Jack Heidenry\n\u2022 James Kelly\n\u2022 Frank Kennedy\n\u2022 Pamela Hensley\n\u2022 Tameka Poulson\n\u2022 Daniel Ward | \nCOVERT AUDIT\nMANAGER\nJustin Krovic\nDasher Inc. (sub)\nCovert QAOs (sub)\n\u2022 Christopher Almedia\n\u2022 Joseph Aponick\n\u2022 Roxanne Berry\n\u2022 Franci Dammann\n\u2022 Rick Gantz\n\u2022 Willard Gottshall\n\u2022 Frank Harchak\n\u2022 Melchoir Horn\n\u2022 Sue Lloyd\n\u2022 Tim Minarcik\n\u2022 Rick Rajk\n\u2022 Dave Turner\n\u2022 Terri Speece\n\u2022 Joe Wagner\n\u2022 Clyde Woomer\nCOVER\nMAN | T AUDIT\nAGER\nJason V\nDash | antroba\ner Inc.\nCovert QAOs (sub)\n\u2022 Arthur Barnett\n\u2022 Earl Grubbs\n\u2022 Robert Kolarich\n\u2022 Gerald Linkes\n\u2022 Lawrence Osman\n\u2022 William Scheller\n\u2022 Jeffrey Scheller\n\u2022 Chuck Nawrocki | \nSUBCONTRACTORS |  |  |  |  |  |  | \nInformation & Education & Training\nBerry Solutions Group - VBE\n\u2022 William Ray\n\u2022 Paul Cassarly | Covert Operations Call Center Support\nDasher, Inc. \u2013 SDB\n\u2022 Sharon Ryan | PA I/M Program Analysis\nde la Torre Klausmeier\n\u2022 Rob Klausmeier | Program Support\nMichael Baker International\n\u2022 Daniel Szekeres\n\u2022 Jim Frasier |  | Evaluation & On-Road Testing\nHEAT "
+    },
+    {
+      "chunk_id": 2005,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 16,
+      "content": "iel Szekeres\n\u2022 Jim Frasier |  | Evaluation & On-Road Testing\nHEAT \u2013 SB\n\u2022 Tyler Garner | Program Consultant\nRevecorp\n\u2022 Michael J. St. Denis | Motorist Compliance\n1 Alpha Consulting - VBE\n\u2022 Tom Holloway"
+    },
+    {
+      "chunk_id": 2007,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 17,
+      "content": "most qualified\nfor this Program through a vetting process that includes evaluating financial stability, obtaining positive performance\nreferences, and confirming capacity to handle our proposed scope. Many of these subcontractors have worked for\nParsons on the PA I/M Program or have direct experience with similar projects. Our subcontractor manager will monitor\nour subcontractors, verifying that subcontracted Program delivery services align with Program deliverables and\nobjectives.\nIn the following table, we present our proposed subcontractors for the new contract.\nEXHIBIT I-2-6. OUR TEAM OF SUBCONTRACTORS BRINGS DIVERSITY TO THE PA I/M PROGRAM.\nSubcontractor Dasher Services, Inc, de la Torre Klausmeier Hager Environment & Atmospheric\nTechnologies (HEAT)\nAddress 777 E. Park Drive 1401 Foxtail Cove 7308 Nubbin Ridge Drive\nHarrisburg, PA 17111 Austin, TX 78704 Knoxville, TN 37919\nCertifications SDB None SDB\n# years as a Parsons sub 11 18 8\n# employees on Project Covert Auditors: 3 managers, 31 1 4\nauditors; Call Center: 1 supervisor,\n2 representatives\nServices Provided Covert I/M Auditing, Help Desk Program Trigger Evaluation, Evaluation Testing\nService, Printing, and Publications Pr"
+    },
+    {
+      "chunk_id": 2008,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 17,
+      "content": "staff time 100% committed 100% committed 100% committed\nGeographical Location Covert Auditors: Hazleton, Altoona, Austin, TX Knoxville, TN\nCranberry, and Plymouth Meeting\nCall Center: Harrisburg, PA\nTechnical Submittal 8\nSubcontractor | Dasher Services, Inc, |  |  | de la Torre Klausmeier |  | Hager Environment & Atmospheric | \n |  |  |  |  |  | Technologies (HEAT) | \nAddress |  | 777 E. Park Drive |  | 1401 Foxtail Cove\nAustin, TX 78704 |  | 7308 Nubbin Ridge Drive | \n |  | Harrisburg, PA 17111 |  |  |  | Knoxville, TN 37919 | \nCertifications |  | SDB |  | None |  | SDB | \n# years as a Parsons sub |  | 11 |  | 18 |  | 8 | \n# employees on Project |  | Covert Auditors: 3 managers, 31 |  | 1 | 4 | 4 | \n |  | auditors; Call Center: 1 supervisor, |  |  |  |  | \n |  | 2 representatives |  |  |  |  | \nServices Provided |  | Covert I/M Auditing, Help Desk |  | Program Trigger Evaluation,\nProgram Consulting | Evaluation Testing |  | \n |  | Service, Printing, and Publications |  |  |  |  | \nTask Assignment |  | Tasks B, C, D, E, & L |  | Task B & I |  | Tasks G & H | \n% of dedicated staff time |  | 100% committed |  | 100% committed |  | 100% committed | \nGeographical Location |  | Covert A"
+    },
+    {
+      "chunk_id": 2009,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 17,
+      "content": "ocation |  | Covert Auditors: Hazleton, Altoona, |  | Austin, TX | Knoxville, TN | Knoxville, TN | \n |  | Cranberry, and Plymouth Meeting |  |  |  |  | \n |  | Call Center: Harrisburg, PA |  |  |  |  |"
+    },
+    {
+      "chunk_id": 2010,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 18,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nSubcontractor Michael Baker International Revecorp, Inc. 1Alpha\nAddress 4431 N Front Street, 2nd Floor 5732 Lonetree Boulevard 20 Farm House Lane\nHarrisburg, PA 17110 Rocklin, CA 95765 Carlisle, PA 17013\nCertifications None None VBE\n# years as a Parsons sub 5 8 New Subcontractor\n# employees on Project 3 2 5\nServices Provided Data Analysis, Annual Reporting Data Analysis, Safety Recall, Trigger Motorist Compliance\nSupport, Equipment Certification Development, Program Evaluation\nSupport, Contractual Audit\nValidation\nTask Assignment Tasks B, I, J, & L Task B & J Task F\n% of dedicated staff time 100% committed 100% committed 100% committed\nGeographical Location Harrisburg, PA Rocklin, CA Pennsylvania\nSubcontractor Berry Solutions Group\nAddress 3900 Industrial Park Drive, Suite 8\nAltoona, PA 16602\nCertifications VBE\n# years as a Parsons sub New Subcontractor\n# employees on Project 6\nServices Provided I&E Material Development,\nAuditor Training\nTasks Assigned Tasks B, C, & J\n% of dedicated staff time 100% committed\nGeographical Location Altoona, PA\nI-3. TRAINING\nParsons recommends training cov"
+    },
+    {
+      "chunk_id": 2012,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 18,
+      "content": "e to answer questions in support of daily activities once the\ntraining has been completed.\nWe begin the training materials development process by conducting a needs analysis and establishing learning\nobjectives for each required curriculum. We design our comprehensive training to help PennDOT effectively manage\nassociated Program tasks using Parsons-developed systems and tools. Our start-to-finish training approach ensures a\nTechnical Submittal 9\nSubcontractor |  | Michael Baker International | Revecorp, Inc. |  | 1Alpha | \nAddress |  | 4431 N Front Street, 2nd Floor\nHarrisburg, PA 17110 | 5732 Lonetree Boulevard\nRocklin, CA 95765 |  | 20 Farm House Lane | \n |  |  |  |  | Carlisle, PA 17013 | \nCertifications |  | None | None |  | VBE | \n# years as a Parsons sub |  | 5 | 8 |  | New Subcontractor | \n# employees on Project |  | 3 | 2 |  | 5 | \nServices Provided |  | Data Analysis, Annual Reporting\nSupport, Equipment Certification\nSupport, Contractual Audit\nValidation | Data Analysis, Safety Recall, Trigger\nDevelopment, Program Evaluation | Motorist Compliance | Motorist Compliance | \nTask Assignment |  | Tasks B, I, J, & L | Task B & J |  | Task F | \n% of dedicated staff time |  | 100"
+    },
+    {
+      "chunk_id": 2021,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 20,
+      "content": "ailed in I-5A, 5B, and 5C, and\nwe commit to continuing our support of PennDOT\u2019s requirements and regulations. Our operations and systems will\nensure and support all the requirements of these sections. In addition, we respond to all listed specific responsibilities\nand services required in the appropriate Work Plan task responses. We have demonstrated our reliability by\nadministering a fully effective Program, managing tasks, including data storage and handling, overt and covert oversight\nactivities, remote records audits, remote visual audits, I/M hearings and suspensions, waiver delivery and verification,\nreferee services, motorist compliance data collection, I/M equipment certification, on-road testing, safety inspection\noversight activities, and safety hearings and suspensions. Our response to Section I-2 highlights our performance,\nexperience, and adaptability, listing key successful Program enhancements and deliverables during our partnership with\nPennDOT.\nI-5D: Program Changes\nWe recognize that PennDOT reserves the right to renegotiate the contract terms in the event of needed changes\nprompted by legislative (federal or state) requirements, compliance with legally binding cou"
+    },
+    {
+      "chunk_id": 2036,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 23,
+      "content": "e with PennDOT, providing updates and information until the emergency conditions\nare mitigated or operations return to normal. Parsons\u2019 PA I/M Management operations has built-in redundancy with three\nregional offices located in Pittsburgh, Harrisburg, and Philadelphia that contain similar management and staff positions,\ncommunications, and data transfer capabilities. As proven during the COVID-19 pandemic, our entire project team,\nincluding management, office, call center, and field staff, are equipped to work remotely, enabling continuation of critical\nbusiness services without facility access.\nIf a particular region is affected by an emergency, operations can be directed to any of the remaining operational regions.\nAll management, office, and quality assurance personnel can support operations in other regions and continue providing\nessential business activities. Quality assurance personnel can be productive in any area of the state, allowing for\ncoverage if some staff members are unavailable due to emergency conditions.\nSimilarly, if one or more regional offices closes due to emergencies such as a natural or man-made disaster, loss of\npower/communications/network connectivity, qu"
+    },
+    {
+      "chunk_id": 2037,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 23,
+      "content": "y, quarantine, or pandemic control measures, all essential business activities\nwill be redirected to remaining operational regional offices and to project staff working remotely. For example, Parsons\nwill forward telephone numbers to unaffected regional offices to ensure station and consumer issues are addressed. All\nregional Program information is stored remotely, preventing loss and allowing access by other regional and remote\nproject staff during unplanned office closures.\nIf an emergency impacts a VIID hosting location or VIID functionality, the Disaster Recovery Plan (referenced in I-5G\nabove and Attachment B) will be implemented to minimize or avoid disruption of critical business functions.\nIf an emergency impacts the stations\u2019 ability to connect to the VIID, our systems will be able to continue testing for 30\ndays or 100 inspections, as per the offline test limits set by the VIID and determined by PennDOT. Allowing offline testing\nminimizes negative impacts to both the inspection industry and the public. Once connectivity is restored, any offline\ntesting will automatically upload to the VIID.\nCustomer service and station operator hotlines are also covered in our emergency p"
+    },
+    {
+      "chunk_id": 2095,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 35,
+      "content": "tted to controlling the\nsystem, troubleshooting any problems that may arise, and making changes as needed to resolve system issues.\nA.6 Maintenance of Database Access for Emission Inspection Stations\nWe will modernize the web portal application using new technologies available in the AWS cloud environment to\ndevelop mobile-friendly features with the web portal for use on a mobile device. In addition, the web portal application\nwill allow us to perform maintenance tasks for:\n\u00a7 Adding and deleting technician access numbers and access codes\n\u00a7 Setting and clearing lockouts\n\u00a7 Sending messages to the inspection stations per instructions from PennDOT\nWe will work with all approved equipment manufacturers to ensure that software updates can be transmitted to the\ninspection units capable of receiving them. We will ensure that this process is closely controlled and monitored to\nmaintain the highest level of program integrity. We will troubleshoot any reported problems and make changes to the\nappropriate tables as required to ensure stations and inspectors can perform inspection tasks as required and\nauthorized by PennDOT.\nA.7 System Access by Authorized Personnel\nWe will provide PennDOT-auth"
+    },
+    {
+      "chunk_id": 2096,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 35,
+      "content": "ers with remote access to the VIID database through a web-based portal with\nfunctionality that displays station/technician data, audit information, training information, motorist compliance, hearings\nand suspensions, and a reporting tool that includes predefined management reports and allows users to create their own\nad hoc reports and queries.\nAccess to the application will be limited to authorized users identified by PennDOT and will require username and\npassword prior to using the system. Based on the roles assigned to the user, different functions and features will be\navailable to them when they log into the web portal. The software will allow for unlimited access to all data collected\nwithout an associated transaction fee charged to personnel authorized by PennDOT.\nTechnical Submittal 26\n | WE\u2019RE ALREADY UP TO SPEED |  | \n |  |  | \n | Our foundational knowledge of your Program |  | \n | means there\u2019s no learning curve, and we don\u2019t |  | \n | lose time during transition \u2013 we can focus on |  | \n | the future. |  |"
+    },
+    {
+      "chunk_id": 2119,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 40,
+      "content": "deficiencies to the auditor\u2019s attention.\nThese evaluation processes allow us to identify potential personnel issues, coach the auditors if necessary, and identify\nchanges in our training curriculum.\nUsing the VIID, we can monitor the types and frequency of station and inspector violations reported by auditors. We use\npeer-to-peer comparisons of auditor findings and audit results to identify areas for additional training. Our training and\nmonitoring procedures are included in our operations manual, and oversight staff audit activity is recorded in\nPennDOT\u2019s Vehicle Inspection System.\nProgram Materials and Data Security\nParsons thoroughly understands the importance of the security of PennDOT products, as well as station, personnel, and\nmotorist/public information. Our plan to ensure the security of Program materials and data includes physical and\nelectronic data collection, transfer, and storage. Personnel are trained in security procedures for both physical and\nelectronic Program materials and data before assuming their duties and are required to attend annual refresher\ntraining, including cyber security best practices. Station and inspector credentials and inspection stickers will "
+    },
+    {
+      "chunk_id": 2162,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 49,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nWe propose, with PennDOT\u2019s approval, introducing new concepts such as:\n\u00a7 Weekly tips on the Drive Clean (www.padrivecleanportal.com) and e-SAFETY (www.penndotesafety.pa.gov) web\nportals\n\u00a7 Quarterly guest authors from high-volume stations for the newsletter\n\u00a7 A live PennDOT-fed splash page with compliance reminders, news, or topics from PennDOT\u2019s inspection database\nC.2 Use of Established Communications Outlets\nAs a long-trusted source of program knowledge for both the inspection industry and the public, we will provide updated\ninformation for the Program\u2019s websites, toll-free hotlines, newsletters, and direct mailings. Our dedicated I&E resources\nwill leverage these existing communication outlets and apply new digital methods with PennDOT\u2019s approval. We use\ntargeted communications on all PennDOT-approved platforms to engage PA I/M Program stakeholders and participants\nefficiently and effectively in the most sustainable manner feasible. We will work with PennDOT to obtain written\napproval prior to releasing any information. The messages we create will use simple, concise language relevan"
+    },
+    {
+      "chunk_id": 2167,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 50,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\n\u00a7 Program identity materials (letterhead, logo if required)\n\u00a7 Media kits\n\u00a7 Targeted program brochures\n\u00a7 Enrollment packets for new stations\n\u00a7 Website and portal information updates\n\u00a7 Electronic newsletter for participating stations\n\u00a7 Posters and displays\n\u00a7 Toll-free hotline\n\u00a7 Regional meetings and industry conferences\nAdditionally, and with PennDOT approval, we will support the development and publication of social media posts\nrelating to the PA I/M Program for both industry and public audiences.\nIndustry Meetings\nMany Pennsylvania industry-related organizations recognize Parsons as a trusted resource for inspection information.\nThese organizations include:\n\u00a7 Pennsylvania Automotive Association (PAA)\n\u00a7 Petroleum Retailors and Auto Repair Association (PRARA)\n\u00a7 Alliance of Automotive Service Providers of Pennsylvania (AASP)\n\u00a7 Pennsylvania Independent Automobile Dealers Association (PIADA)\n\u00a7 Mid-Atlantic Auto Care Alliance (MAACA)\nThese organizations host approximately 10 meetings across the Commonwealth each year and look to Parsons as a\nsubject matter expert in I/M inspections. We attend"
+    },
+    {
+      "chunk_id": 2169,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 50,
+      "content": "y Inspection Newsletter, distributed via direct mail, email, and the PA Drive Clean Portal\nwebsite. Pending possible updates to the OBD I/M equipment specification, approved station equipment used by\nstations could also receive the newsletters in Adobe PDF format. By distributing print and electronic versions, PennDOT\nreaches all 8,200 I/M station contacts with each issue. With PennDOT approval, we will continue tracking the electronic\ndistribution of the newsletter, including the open, click, and read rates, based on geographic location. In doing so, we\ncan tailor the distributed newsletters to improve the effectiveness of the messaging. Parsons recognizes that these\nvarying distribution methods address how inspection stations and inspectors receive information.\nToll-Free Hotline\nWe will plan, execute, maintain, and publicize the existing toll-free customer help desk hotline number (1-800-265-\n0921) to answer motorist questions regarding the I/M Program and provide a process for motorist complaint\nresolution. Parsons\u2019 extensive experience in handling customer calls for the I/M Program will ensure successful\nissue resolution - during the past five years, Parsons has fielded over 36"
+    },
+    {
+      "chunk_id": 2171,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 51,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\ninformation regarding our proposed help desk services in our response to Task D. In our new call tracking system, all\ncalls will be recorded and housed on Amazon Connect as described in Task D, allowing for quick reference and easier\nsearch functionality.\nOur communications will be adaptable and relevant to ensure their effectiveness with the public. Parsons will update\nreference materials used by the Station Hotline call center staff to reflect the most current I/M Program details. We will\ninclude the Station Hotline operator reference documentation in the Call Tracking Application, enabling operators\nto quickly reference the most accurate information. The reference documentation will be coded by topic to track the\nmost frequently asked questions. We will analyze call topic reporting from the call center to determine what information\nwe need to communicate more effectively to the stations, inspectors, and the driving public. Data tracking, including\ngeographic mapping of call volume and inquiry topic, will assist in identifying areas throughout the state that require\nadditional communi"
+    },
+    {
+      "chunk_id": 2176,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 52,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\naction can include phone calls to inspection stations and/or assigning an auditor to investigate and collect further\nevidence on the station or technician.\nThe overt auditor will access VIID waiver data through the auditing application to review data associated with the\nnumber of waivers the station has delivered since its last audit. The auditor will also review station audit history on the\nauditing application to determine if the station has had prior waiver delivery violations. The overt auditor will use these\ncomprehensive waiver reports to validate the required station waiver documentation for each waiver issued.\nParsons will coordinate covert auditor resources to investigate stations or technicians who improperly delivered waivers\nas identified through record audits, consumer complaints, the help desk, and feedback from other program\nparticipants. In these circumstances, a covert auditor will visit stations exhibiting non-compliant behavior and observe if\nthe station and/or station personnel adhere to proper waiver delivery procedures.\nD.2 Referee Program\nParsons\u2019 team offers the "
+    },
+    {
+      "chunk_id": 2177,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 52,
+      "content": "will continue to operate the PennDOT-approved referee program. Vehicle owners dissatisfied with an I/M\ntest performed by an I/M station can file a complaint by contacting the customer hotline number. A hotline\nrepresentative will gather the necessary information and forward the complaint to the appropriate regional office. A\nParsons team member will contact the customer to resolve the complaint. If a resolution cannot be reached, we will\nschedule a referee inspection at the original I/M station if the customer agrees to return to the location. If the customer\nrefuses, we will conduct the referee inspection at another I/M station.\nBefore the referee inspection, we will give the customer and the station an overview of the referee process. The referee\nwill conduct an I/M station audit to validate the equipment operation and the station\u2019s I/M inspection and record-\nkeeping procedures. The referee will use the I/M inspection equipment referee function to witness the inspection\nperformed by the station I/M inspector and independently verify the referee test result. If the test is performed properly,\nthe referee will inform the customer that the original inspection was accurate. A vehicle"
+    },
+    {
+      "chunk_id": 2178,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 52,
+      "content": "ion sticker. If it fails, the referee will inform the vehicle owner that repairs are\nrequired before re-inspection. If the inspector performed a faulty inspection, we will document it in the auditing\napplication and forward it to PennDOT for appropriate action.\nD.3 Help Desk Services\nAn I/M program\u2019s success relates directly to the stakeholders\u2019 ability to have their questions and concerns promptly\naddressed. Since 2012, Parsons has provided Help Desk Services that proactively provide stations with Program\ninformation while receiving various stakeholder communications. Our multi-tiered approach ensures we can address\nProgram-related communications while optimizing PennDOT involvement to only necessary circumstances. We\ncontinually leverage new technology to maintain the best help desk services solution. We partner with SDB contractor\nDasher Services, Inc.\u2014with over 15 years of experience operating a call center and more than a decade in the PA\nI/M Program\u2014to provide Help Desk Services. Over the past five years, Parsons and Dasher have successfully\nfielded more than 36,000 consumer calls and over 66,000 inspection stations and technician calls.\nCommonwealth and Equipment Manufacture"
+    },
+    {
+      "chunk_id": 2179,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 52,
+      "content": "ilities for Commonwealth\nWE VALUE YOUR TIME\npersonnel to address and resolve telecommunications,\nsoftware, and hardware issues communicated via the help Our communication channels begin with our\ndesk. We also provide these capabilities as a forum for I/M customer and station support call centers,\nequipment manufacturers to address and resolve hardware graduate to our regional office support, then to\nour VIID support team, and only to PennDOT\nand software functionality, system integration issues, and\nwhen necessary. This results in a responsive\nequipment specification approval issues with PennDOT and\nsystem that addresses concerns with less\nour team. We will provide this communication support under\nreliance upon your resources and time.\nthe new contract.\nTechnical Submittal 43\n | WE VALUE YOUR TIME |  | \n |  |  | \n | Our communication channels begin with our |  | \n | customer and station support call centers, |  | \n | graduate to our regional office support, then to |  | \n | our VIID support team, and only to PennDOT |  | \n | when necessary. This results in a responsive |  | \n | system that addresses concerns with less |  | \n | reliance upon your resources and time. |  |"
+    },
+    {
+      "chunk_id": 2181,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 53,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nHelp Desk\nWe enhance our consumer information and station help desks by teaming with Dasher, a Harrisburg-based SDB, to\ndeliver in-state, customized call center services. Dasher currently manages several help desk support functions for both\nCommonwealth and private industry clients, including help desk support for the current PA I/M Program,\nCommonwealth Medicaid and CHIP programs, and data incident response lines. Dasher\u2019s average client relationship\nexceeds five years, and many relationships exceed eight years.\nWE LISTEN TO FEEDBACK AND TAKE ACTION ON IT\nCustomer satisfaction surveys (CSAT) are an essential tool we\u2019ll use to capture immediate feedback on the\nquality and effectiveness of the service we provide at the call center. Our system deploys surveys after each\ninteraction with an inspection station or inspector. Surveys empower our customers to have their voices heard\nby providing valuable feedback that allows us to drive dynamic, continuous improvement.\nDasher will use the Amazon Connect communications solution, which has call monitoring and agent coaching features,\nfor its cal"
+    },
+    {
+      "chunk_id": 2182,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 53,
+      "content": "d monitoring sessions independently and with\nParsons to assess call handling performance.\nDasher will also use Zendesk\u00ae Customer Relationship Management (CRM), which offers a highly flexible customer\nservice representative (CSR) workspace. Parsons will work collaboratively with PennDOT to change data fields and drop-\ndown menus through the CRM. For example, we can add custom fields for tickets, users, and organizations through the\nCRM \u2018Manage Ticket Fields,\u2019 \u2018Manage User Fields,\u2019 or \u2018Manage Organization Fields.\u2019 Ticket fields contain ticket data,\nsuch as subject, description, and priority.\nZendesk streamlines customer support with time-saving tools\nADVANCING CALL CENTER TECHNOLOGY\nlike triggers and automations. It\u2019s intuitive and easy to use\nbecause it\u2019s built with both customers and CSRs in mind. We\u2019ll The Zendesk CRM is a cloud-based software\nintegrate Amazon Connect Automatic Call Distribution (ACD) and engagement platform that offers\nand Interactive Voice Response (IVR) with the Zendesk CRM omnichannel support, meaning customer\ninteractions across phone, email, and web\nsolution using the Amazon Connect Computer Telephony\nforms or messages are in one place.\nIntegration (CTI). Th"
+    },
+    {
+      "chunk_id": 2183,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 53,
+      "content": "RM provide access to information sources needed to build a complete, personalized\ncustomer experience through this integration, achieving the overall Program requirement of a modern digital\nsolution.\nOur Zendesk tool uses application programming interfaces (APIs) to extract stored data from inspection stations and\ninspectors to create \u201ccustomers\u201d in the CRM. The call center CSR workspace displays the customer information\nautomatically when caller information (e.g., phone number or inspection station ID) is passed from the phone system.\nThe APIs allow us to extend CRM capabilities and integrate the database, Business Intelligence tools, VIID, and other\napplications, making complex tasks simpler and generating a shorter system implementation timeframe. The subset we\nwant is defined as \u201call open tickets\u201d with a particular tag. The search API can easily return this information for export.\nOur API authorizations will require a token or OAuth access. Base64-encoded encryption in the HTTPS authorization\nheader ensures the safety of data while in transit.\nOur Zendesk CRM provides:\n\u00a7 Centralized database: Customer information centralized under one software that\u2019s accessed, shared, and\nmanag"
+    },
+    {
+      "chunk_id": 2184,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 53,
+      "content": "ss departments\n\u00a7 Access to customer interaction history: When an inquiry is from a repeat caller, access to call history before the\ninteraction begins allows CSRs to better understand customer needs.\n\u00a7 Efficient team communication: In some cases, calls may need to be escalated or transferred to another CSR. Our\nCRM software allows CSRs to tag the ticket to another team member, giving automatic access to the customer\ninteraction history and summary of the issue progress to date.\nTechnical Submittal 44\n | WE LISTEN TO FEEDBACK AND TAKE ACTION ON IT |  | \n |  |  | \n | Customer satisfaction surveys (CSAT) are an essential tool we\u2019ll use to capture immediate feedback on the |  | \n | quality and effectiveness of the service we provide at the call center. Our system deploys surveys after each |  | \n | interaction with an inspection station or inspector. Surveys empower our customers to have their voices heard |  | \n | by providing valuable feedback that allows us to drive dynamic, continuous improvement. |  | \n | ADVANCING CALL CENTER TECHNOLOGY |  | \n |  |  | \n | The Zendesk CRM is a cloud-based software |  | \n | and engagement platform that offers |  | \n | omnichannel support, meaning c"
+    },
+    {
+      "chunk_id": 2186,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 54,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nDasher currently hosts the station operator and customer service hotlines in its Harrisburg, Pennsylvania, facility via the\nactive toll-free numbers (1-888-265-5909 and 1-800-265-0921). The numbers are publicized in all outreach and\ncommunications materials. Parsons\u2019 team will plan, execute, and maintain management of Dasher\u2019s help desks under\nthe direction of PennDOT. Help desk support will be fully functional on program start with fully trained agents supplied\nwith the most current resources. As program elements evolve and change, our experienced help desk services will\nadapt and continue to provide top-tier service.\nCustomer Service and Station Operator Hotlines\nAgents staffing the hotlines are trained in I/M Program technical subject matter and customer service skills. Agents\nobtain their Pennsylvania Safety and Emissions Inspector certifications and handle call topics, such as locating an I/M\nstation, regional program requirements, referee requests, waiver and exemption requirements, operational issues\nrelating to I/M test procedures, waiver and exemption issues, regulatory require"
+    },
+    {
+      "chunk_id": 2187,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 54,
+      "content": "ls, such as a knowledge base of program information designed to\naccommodate real-time updates and Dasher\u2019s locator system to retrieve information about the closest I/M stations to a\ncaller\u2019s location. Parsons\u2019 team will routinely evaluate feedback obtained through the hotlines and industry meetings to\nassess information needs and to identify gaps in the station network and public knowledge.\nTRAINING IS A CRITICAL COMPONENT OF OUR APPROACH TO CUSTOMER SERVICE\nDasher\u2019s call center representatives undergo customer service training, including several facilitated and\ncorporate training sessions, such as interpersonal communication, time management, conflict resolution,\ndiversity training, and call center delivery experience. Monthly sessions cover how to handle difficult callers and\nconduct simulation training.\nDasher will maintain a trained staff of agents and one account lead. This team will be flexible with call arrival\nrequirements, as agents are trained to handle questions from consumers, station operators, inspectors, repair\ntechnicians, and related industry personnel. This configuration provides the most flexibility and the best use of\nresources.\nParsons\u2019 team will manage every c"
+    },
+    {
+      "chunk_id": 2188,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 54,
+      "content": "ennDOT requires and expects. Each call\nwill be handled professionally, fairly, and objectively while maintaining the integrity and security of the program\ninformation being disseminated and collected. Dasher will rely on its over 30 years of experience fulfilling millions of\nconsumer transactions and expertise in communicating complex information to handle the PA I/M Program help desk.\nThe station operator and customer service hotlines will both use the existing toll-free numbers and be staffed during\nPennDOT\u2019s normal business hours (Monday to Friday, 8:00 a.m. to 5:00 p.m. EST). Dasher answers 80% of their calls\nwithin 20 seconds, and 100% of calls in under a minute, far exceeding the SLA requirement of average wait time of no\nmore than four minutes.\nThe help desk services downtime will not exceed 0.5%, except during pre-scheduled maintenance or other PennDOT-\napproved downtime. Dasher\u2019s phone system maintains a 99.9% uptime. This uptime is achieved with automatic backup\nand failover systems, redundant circuits, multiple Internet connections and carriers, and 24/7/365 proactive support.\nWe will provide monthly reports documenting help desk activity, as approved by PennDOT. These r"
+    },
+    {
+      "chunk_id": 2189,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 54,
+      "content": "wait time in queue for the previous month.\nWe will identify downtime to PennDOT when an incident occurs and will document PennDOT-approved downtime\nseparately from pre-scheduled maintenance downtime. We understand that failure to meet the standards listed in this\ntask may result in liquidated damages.\nTechnical Submittal 45\n | TRAINING IS A CRITICAL COMPONENT OF OUR APPROACH TO CUSTOMER SERVICE |  | \n |  |  | \n | Dasher\u2019s call center representatives undergo customer service training, including several facilitated and |  | \n | corporate training sessions, such as interpersonal communication, time management, conflict resolution, |  | \n | diversity training, and call center delivery experience. Monthly sessions cover how to handle difficult callers and |  | \n | conduct simulation training. |  |"
+    },
+    {
+      "chunk_id": 2190,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 54,
+      "content": "management, conflict resolution, |  | \n | diversity training, and call center delivery experience. Monthly sessions cover how to handle difficult callers and |  | \n | conduct simulation training. |  |"
+    },
+    {
+      "chunk_id": 2206,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 58,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nevidence concisely and reliably, supporting regulatory requirements. Our training will also teach staff to speak\nconfidently in a courtroom environment.\nAppeal of a Suspension\nTo appeal a suspension, a station or technician must obtain a supersedeas, which must be served directly to PennDOT.\nParsons\u2019 auditors will attend and support PennDOT with any supersedeas hearings. When PennDOT notifies us of an\nappealed suspension, we will return all confiscated items to the station or technician pending the outcome of the\nappeal, except for inspector licenses, which PennDOT will return.\nReports\nParsons will provide PennDOT with periodic reports relating to hearing and suspension activities that comply with EPA\nRule 40 CFR \u00a7 51.366. Every month, we will report the number of hearings scheduled, canceled, continued, or held for\nstations and technicians and hearings where a station or technician failed to appear. Our reports will also document\nthe numbers of suspensions served, appeals filed, and warning letters sent to stations and technicians, as well as any\nre-appointments after suspensions for s"
+    },
+    {
+      "chunk_id": 2207,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 58,
+      "content": "n EPA Rule 40 CFR\n\u00a7 51.366 for the EPA-required annual report.\nTask F: Motorist Compliance\nParsons will meet all requirements of Task F: Motorist Compliance. Our proposed team will provide a motorist\ncompliance program that meets the requirements of 40 CFR \u00a7 51.361(b)(2), 40 CFR \u00a7 51.361(b)(2)(E), 40 CFR\n\u00a7 51.362, and 40 CFR \u00a7 51.366. We will provide updated copies of Task F\u2019s procedures in our SOP manual.\nLeveraging our motorist compliance experience, and partnering with VBE 1Alpha Consulting, LLC, we will provide\nPennDOT with a robust Motorist Compliance Program.\nTraining and Public Interaction\nStaff assigned to perform motorist compliance enforcement duties will be certified I/M inspectors trained in motorist\ncompliance, including data collection, recording procedures, and completion of the motorist compliance incident report.\nWe will train staff members with classroom and field training in conducting proper collection techniques.\nParsons has developed a network of colleges, airports, high schools, and other large public parking lots that PennDOT\nhas approved to conduct Motorist Compliance. We have established relationships with the property owners and have\ndirect situational ex"
+    },
+    {
+      "chunk_id": 2208,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 58,
+      "content": ". We have collected, compiled,\nand reported over 300,000 motorist compliance records.\nWe recognize the importance of public acceptance of the Program. Staff will carry photo IDs and wear the PennDOT-\napproved uniform and vest displaying the Pennsylvania Drive Clean logo on the front and \u201cSurvey Team\u201d on the back to\nprovide safety, visibility, and credibility. Our staff will also have a PennDOT-issued motorist compliance permission letter\nexplaining the process and granting authority to perform this function. Our personnel will use this letter when acquiring\npermission from any security agent to perform motorist compliance collection at their site and when questioned by\nvehicle owners. The motorist compliance incident report will document incidents where the PennDOT letter does not\nsatisfy persons questioning our authority to collect motorist compliance data. We will review incident reports to\ncontinuously adapt our procedures as necessary.\nCollection Procedures\nWe will provide PennDOT with the procedure for selecting public parking areas in I/M inspection counties to conduct\nmotorist compliance surveys for approval. PennDOT has approved our current locations, and they are not assoc"
+    }
+  ]
+}

@@ -1,0 +1,588 @@
+{
+  "theme_id": 8,
+  "theme_label": "Service & Schedule",
+  "category": "Operational",
+  "rfp_requirements": [
+    {
+      "id": 7676,
+      "code": "A-022",
+      "title": "File Annual Political Contribution Disclosure with ELEC",
+      "description": "Contractor must file an annual disclosure statement on political contributions with the New Jersey Election Law Enforcement Commission (ELEC) if in a calendar year it receives one or more contracts valued at $50,000.00 or more.",
+      "section": "2.9",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2097,
+      "code": "R-018",
+      "title": "Allow State research during normal operations",
+      "description": "",
+      "section": "4.11",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 2137,
+      "code": "R-058",
+      "title": "Adhere to State holiday changes",
+      "description": "",
+      "section": "4.15.B",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 2138,
+      "code": "R-059",
+      "title": "Obtain SCM pre-approval for unscheduled closings",
+      "description": "",
+      "section": "4.15.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1117,
+      "code": "R-039",
+      "title": "Adhere to Contract Schedule",
+      "description": "Contractor must adhere to the Contract Schedule.",
+      "section": "4.3",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4263,
+      "code": "A-071",
+      "title": "Provide 24/7 automated response system for non-business hours",
+      "description": "Any automated system used for routine requests during non-business hours must be available 24 hours daily including weekends and holidays.",
+      "section": "4.33.1",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 4258,
+      "code": "A-066",
+      "title": "Conduct at least six PIF/PFF seminars in different regions",
+      "description": "Contractor must schedule and conduct no less than six PIF/PFF seminars/meetings in different geographic regions during the Implementation Phase.",
+      "section": "4.33.C.4",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4324,
+      "code": "A-042",
+      "title": "Provide comprehensive documentation to SCM per SLA schedule",
+      "description": "",
+      "section": "4.34.3",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1638,
+      "code": "A-070",
+      "title": "Any delayed payment plan must be part of PIF/PFF Support Plan",
+      "description": "Any delayed payment schedule beyond the time of installation/activation must be part of the Contractor's proposed PIF/PFF Support Plan.",
+      "section": "4.9.1.3.C",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8110,
+      "code": "A-011",
+      "title": "Cure membership failure within 10 calendar days",
+      "description": "An Employee who has failed to maintain membership shall be notified and shall have 10 calendar days following receipt of written demand from the Union to cure such failure by tendering the requested dues, or be subject to discharge.",
+      "section": "Article II.4",
+      "priority": "critical",
+      "category": "deadline"
+    },
+    {
+      "id": 8128,
+      "code": "A-029",
+      "title": "Adjust schedules for Union meetings and grievance hearings",
+      "description": "The work schedules of Union representatives shall be adjusted to permit attendance at regular Union meetings and grievance hearings provided Employer operations are not unduly impaired.",
+      "section": "Article IV.3",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8248,
+      "code": "A-068",
+      "title": "Limit Saturday forced overtime to 1 hour",
+      "description": "No Senior Lane Technicians, Lane Technicians, Full and Part-Time Associate Lane Technicians can be forced to work more than 1 hour beyond their scheduled shift on Saturdays.",
+      "section": "Article IX.14",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8233,
+      "code": "A-057",
+      "title": "Limit Lane Tech compelled overtime to 1 hour",
+      "description": "Senior Lane Technicians, Lane Technicians, Full and Part-Time Associate Lane Technicians cannot be compelled to work more than 1 hour of overtime after their scheduled shift.",
+      "section": "Article IX.8",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8236,
+      "code": "A-059",
+      "title": "Guarantee 1/2 hour pay for drafted shifts including Saturday",
+      "description": "Employees drafted to work after their scheduled shift, including on Saturday, must be guaranteed one-half hour of overtime pay regardless of time actually worked.",
+      "section": "Article IX.9",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8141,
+      "code": "A-042",
+      "title": "Grant Union stewards super-seniority for layoff/recall",
+      "description": "Union stewards shall have super-seniority at their assigned station for layoff and recall purposes, provided they are qualified and work the schedule; preference may not displace Employees at other stations.",
+      "section": "Article VI.1(c)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8170,
+      "code": "A-005",
+      "title": "Conduct layoffs by location using seniority",
+      "description": "All layoffs must be by location and the selection of employees laid off must be based on bargaining unit seniority, provided remaining employees are willing to work the remaining schedule.",
+      "section": "Article VI.5(a)",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 8174,
+      "code": "A-009",
+      "title": "Allow 7 days to meet on layoff matters",
+      "description": "The Employer must allow seven calendar days from receipt of notification for the Union and affected employees to meet to attempt to resolve layoff matters.",
+      "section": "Article VI.5(c)(iii)",
+      "priority": "high",
+      "category": "deadline"
+    },
+    {
+      "id": 8177,
+      "code": "A-011",
+      "title": "Allow bumping of junior employees within classification",
+      "description": "Employees scheduled to be laid off in specified classifications must be allowed to displace a junior employee in the same classification from their location/station by seniority; Equipment Repair Technicians are laid off by statewide seniority.",
+      "section": "Article VI.5(e)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8187,
+      "code": "A-020",
+      "title": "Part-Time full-time recall contingent on schedule acceptance",
+      "description": "A Part-Time Associate Lane Technician on layoff has recall rights to a full-time position only if willing to work the required full-time schedule.",
+      "section": "Article VI.6(b)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8188,
+      "code": "A-021",
+      "title": "Post promotional vacancy notice for 5 working days",
+      "description": "The Employer must post a notice of promotional vacancy on bulletin boards for at least five working days (excluding weekends and holidays) before filling.",
+      "section": "Article VI.7(a)",
+      "priority": "high",
+      "category": "deadline"
+    },
+    {
+      "id": 8212,
+      "code": "A-041",
+      "title": "Set Saturday hours for Lane Technicians",
+      "description": "For Saturday, hours of operation for Senior Lane Technicians, Lane Technicians, Full and Part-Time ALTs must not be less than 5 hours or more than 8 hours, subject to State of NJ restrictions.",
+      "section": "Article VIII.11",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8217,
+      "code": "A-046",
+      "title": "Senior Lane Tech makes lunch/break schedules",
+      "description": "All lunch and break schedules are to be made by Senior Lane Technicians for each lane they are responsible for, subject to station management approval (not unreasonably withheld).",
+      "section": "Article VIII.16",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8203,
+      "code": "A-033",
+      "title": "Post workweek schedules one month in advance",
+      "description": "Regular workweek schedules must be posted one month in advance.",
+      "section": "Article VIII.2",
+      "priority": "high",
+      "category": "deadline"
+    },
+    {
+      "id": 8204,
+      "code": "A-034",
+      "title": "Provide unpaid lunch and paid breaks to Technical/Material/ERT",
+      "description": "Technical Specialists, Material Handler classifications, and Equipment Repair Technicians must receive a one-hour unpaid lunch and four 15-minute paid breaks as schedule permits, without interfering with business or delaying repairs.",
+      "section": "Article VIII.3",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8413,
+      "code": "M-003",
+      "title": "Allow use of accrued vacation for emergency/personal reasons after sick exhausted",
+      "description": "If an Employee has exhausted sick time during a calendar year without using the maximum emergency/personal allowance, the Employee may use accrued and unused vacation time for this purpose until the maximum is reached.",
+      "section": "Article XXIX.10",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8415,
+      "code": "A-014",
+      "title": "Grant paid jury duty leave less stipend",
+      "description": "Employees required to serve jury duty during a scheduled workday shall be excused with pay, less the jury stipend, for any calendar day jury duty is performed.",
+      "section": "Article XXX.1(a)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8416,
+      "code": "A-015",
+      "title": "Grant paid emergency civilian duty leave",
+      "description": "Employees required to perform emergency civilian duty related to national defense or emergency shall be excused with pay up to a maximum of 5 days per calendar year.",
+      "section": "Article XXX.1(b)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8470,
+      "code": "A-059",
+      "title": "Accrue vacation at beginning of calendar year",
+      "description": "Vacation time accrues at beginning of calendar year in anticipation of continued employment; only one year of vacation credits may be carried forward into the following calendar year.",
+      "section": "Article XXXV.2",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8476,
+      "code": "A-064",
+      "title": "Grant additional vacation allowance in year of service change",
+      "description": "If vacation allowance changes based on years of service during any calendar year, the additional annual allowance will be given for that calendar year.",
+      "section": "Article XXXV.6",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8477,
+      "code": "A-065",
+      "title": "Use carried-over vacation in following year",
+      "description": "Vacation time carried over into next calendar year must be used in that calendar year.",
+      "section": "Article XXXV.7",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8294,
+      "code": "A-039",
+      "title": "Present Step 2 Grievance Within 10 Calendar Days",
+      "description": "If unsettled, the grievance may be presented in Step 2 within 10 calendar days after receipt of the Step 1 answer.",
+      "section": "XIII.1(b)",
+      "priority": "high",
+      "category": "deadline"
+    }
+  ],
+  "parsons_evidence": [
+    {
+      "chunk_id": 1934,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 3,
+      "content": ".............. 15\nI-6. TASKS ....................................................................................................................................................................... 15\nProgram Schedule ......................................................................................................................................................... 16\nTask A: Storage and Handling of All Pennsylvania I/M Program-Related Data ....................................................................... 16\nA.1 I/M Data Handling System ........................................................................................................................................... 17\nA.2 I/M Inspections Data and Documentation ................................................................................................................. 18\nA.3 I/M Data Access ........................................................................................................................................................... 21\nA.4 System Performance ..............................................................................................................................................."
+    },
+    {
+      "chunk_id": 1960,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 7,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nATTACHMENT C -- Work Plan/Program Schedule\nATTACHMENT D -- Monthly Status Report\nATTACHMENT E -- Escrow Agreements\nATTACHMENT F -- AWS PCI-DSS Compliance Attestation (Electronic Files Uploaded Under 1.1.6 and 1.1.7.)\nF1. AWS PC Responsibility Summary\nF2. PCI-DSS AWS Responsibility Summary\nATTACHMENT G - SOC 2 Type II Report & Spreadsheet. (Electronic Files Uploaded Under 1.1.6 and 1.1.7.)\nG1. SOC 2 Spreadsheet\nG2. SOC 2 Report\nATTACHMENT H - Accessibility Conformance Reports (ACR). (Electronic Files Uploaded Under 1.1.6 and 1.1.7.)\nH1. Revised Sec. 508 Edition\nH2. WCAG Edition\nATTACHMENT I. Security Testing Results Redacted. (Electronic Files Uploaded Under 1.1.6 and 1.1.7.)\nATTACHMENT J. Security Incident Response Plan. (Electronic Files Uploaded Under 1.1.6 and 1.1.7.)\nTechnical Submittal v"
+    },
+    {
+      "chunk_id": 2045,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 25,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nprogram knowledge ensures that we have the technical ability to meet the RFP requirements. We consistently meet\nPennDOT\u2019s expectations in program delivery, adapted our delivery based on State feedback, reviewed our processes for\ninefficiencies, and continually implemented PennDOT-driven and responsibly innovative enhancements. Our proposed\nwork plan leans into our shared core values of Safety and Sustainability and combines our extensive experience in\nvehicle inspection programs with our effective methodologies, processes, and procedures.\nIn the following pages, we describe our technical plan to accomplish the work critical to continuing the PA I/M Program.\nRecognizing PennDOT expects a contractor with broad industry experience, we also highlighted other experience that\ndemonstrates how Parsons is a reliable and adaptable contractor. We have and will continue to meet PennDOT\u2019s\nexpectations and provide solid operation of the PA I/M Program while creating the springboard for Program\nenhancement.\nProgram Schedule\nWe include a schedule and outline of milestones, tasks, and critical paths as"
+    },
+    {
+      "chunk_id": 2046,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 25,
+      "content": "s in Attachment C. The Gantt chart designates a start and completion date for each\ntask, with the duration (in days) to accomplish all stages of each program enhancement identified for each task. The\nGantt chart is our primary tool for tracking program progress and schedules, and we will reference it in weekly progress\nmeetings during the implementation phase of the contract. PennDOT retains final approval of the proposed draft\nschedule. Using a defined change management process, we will document any deviations from the established timeline\nand mitigate any delay issues as quickly as possible.\nTask A: Storage and Handling of All Pennsylvania I/M Program-Related Data\nTo maintain critical service continuity, we will migrate all systems to the Amazon Web Service (AWS) cloud environment.\nThe upgraded, cloud-based VIID will include enhanced reporting and data management features along with enhanced\nscalability, security, and recovery, allows for efficient implementation of PennDOT\u2019s Program and system changes to meet\nfuture requirements of the Program. Any risk associated with the AWS migration is eliminated by our existing fully\nfunctional VIID currently supporting the PA I/M Program. "
+    },
+    {
+      "chunk_id": 2088,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 34,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\n\u00a7 Ensure that all data will remain online for the life of the contract so there will be no need to provide retrieval\nprocesses for data that is no longer online.\nThe VIID will be housed, operated, and maintained by Parsons\nINTELLIGENT ARCHITECTURE\nwithin the AWS environment. Our system will consist of\ncommunications processors, CPUs, and peripheral equipment Our system architecture in the AWS cloud\nsufficient to process real-time transactions, batch updates, allows us to perform most system\nmaintenance and upgrades with no downtime,\nand other tasks required by the Commonwealth. We are\nwhich means no impact on end users,\nresponsible for ensuring our systems operate 24-hours a day,\nincluding I/M stations performing inspections.\n7 days a week each year. We understand the necessity of the\nPA I/M Program, and we will architect the system to meet the State\u2019s uptime requirements. We will provide a monthly\nreport that will include the following information:\n\u00a7 Operational minutes available and outage (or downtime) minutes for the previous month.\n\u00a7 We will identify downtime approved by PennDOT or"
+    },
+    {
+      "chunk_id": 2090,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 34,
+      "content": "infrastructure and systems. In\naddition, we have developed custom-built scripts specifically designed to provide proactive warning of system issues\nso that we can act on them before a problem occurs. We monitor servers, network traffic, databases, and\napplications using performance thresholds to send alerts when they are exceeded. To ensure that databases are\nrunning at optimal levels, our DBAs monitor the processing capacity and resource utilization statistics (CPU, memory and\ndisk input/output). We conduct application monitoring, and issues are logged and categorized in our issue tracking\nsoftware. We will track all scheduled and unscheduled downtime and separately identify each. We will provide a monthly\nreport of this information to PennDOT. We will report all system downtime incidents to PennDOT at the time of the\nincident.\nA.5 Equipment Testing and Approval\nWe have firsthand, in-depth knowledge of all types and generations of inspection equipment in the I/M Program and\nwe do not have financial interest in any equipment provider in the PA I/M Program, which ensures integrity in the\nacceptance testing process. We have successfully managed emissions equipment certification for P"
+    },
+    {
+      "chunk_id": 2098,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 36,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nA.8 Data Transfer Between Parsons and PennDOT\nOur system provides the capability to transfer data to and from PennDOT\u2019s systems and we will maintain electronic\ncommunications and resolve any VIID or database problems. We are prepared to transfer data through the existing\nElectronic File Transfer (EFT) process or a modernized method using web services. Parsons\u2019 hands-on experience and\nknowledge of PennDOT\u2019s systems, gives us insight into automating transfers to PennDOT using web services. Two\nexamples of this include the current solution to populate data directly into PennDOT\u2019s database for the successful\nimplementation of the Safety Inspection Mechanic Recertification as well as sending the Emission training results\ndirectly to PennDOT systems.\nWe will provide a means of updating the vehicle I/M information on PennDOT\u2019s Commonwealth Automated Registration\nand Titling System (CARATS) system with data collected from the VIID. We will conform to the schedule determined by\nPennDOT for these updates. If the CARATS system is changed as part of any PennDOT modernization process, we will\nmodify"
+    },
+    {
+      "chunk_id": 2114,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 39,
+      "content": "aff both before go-live and\nthroughout the contract, with additional topics added as needed.\nAfter the initial classroom instruction, a newly hired auditor will\nEXHIBIT I-6-4. ENHANCED TRAINING CYCLE\nride along with an experienced auditor for a minimum of 10\ndays of on-the-job training. All auditors will perform their first\naudits during this ride-along period under the guidance of an\nexperienced auditor. Audit Managers will review progress with\nboth the trainee and auditor trainer during this time to\ndetermine the trainee\u2019s readiness to perform their oversight\nactivities independently.\nTo aid in disseminating consistent information to all\noversight staff, we will develop, implement, and continually\nupdate a Knowledge Base (KB) as part of the updated\nauditing application. Oversight staff will use the KB to allow\nthem to ask questions and display answers to quickly receive\naccurate responses to common industry and regulatory\nquestions and will help determine topics for ongoing training\nsessions.\nAll audit staff will receive an annual refresher training course to ensure they stay current with any changes to the I/M\nProgram and to review the comprehensive instruction provided during t"
+    },
+    {
+      "chunk_id": 2128,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 42,
+      "content": "rance the identified issues will be properly\naddressed.\nB.5 Overt Oversight Activities\nWe successfully deliver a completely neutral, unbiased QA program that meets the requirements of 40 CFR \u00a7 51.363\n(a) (1) through (3) and 51.363 (b) through (d) and other applicable federal regulations as they apply to PA I/M Program.\nTo date, Parsons has conducted more than 372,000 overt audits in the PA I/M Program. We are not involved with any\nI/M equipment provider in Pennsylvania, supporting our impartial approach to all aspects of the oversight process.\nThis experience will allow our team to complete emission station and equipment audit operations more effectively\nthan any other team.\nThe overt audit provides a visible presence for PennDOT in I/M inspection stations and allows for education and\nenforcement of Program regulations. All overt audits are scheduled on the following criteria: date of last audit, record\naudit data analysis, consumer complaints, covert audit results, and/or PennDOT requests. Parsons will complete two\nunannounced overt audits during normal business hours per year for each I/M station, regardless of location in the\nCommonwealth. The audit will include an examination o"
+    },
+    {
+      "chunk_id": 2152,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 47,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nActivities\nAs directed by PennDOT, Parsons performs two covert audits per station per year, which has been accepted by the EPA\nto meet the requirements of 40 CFR \u00a7 51.363 (a) (4) (ii) through (a) (4) (vii). To assure our auditing methodology\ncontinues to meet the requirements of the EPA and PennDOT, Parsons proposes performing the equivalent of two\ncovert audits per station per year. Parsons will engage Michael Baker International for third-party validation of\ncovert audit volume to reinforce confidence in our deliverables.\nEvery I/M station will receive one covert audit per year and an equivalent number of covert audits will be performance\nbased. These will be initiated due to consumer complaints, inspection station complaints, overt auditor requests,\nPennDOT requests, and I/M inspection anomalies identified in the VIID. All covert audits are scheduled on the following\ncriteria: date of last audit, record audit data analysis, consumer complaints, overt audit results, and/or PennDOT\nrequests. All covert vehicles will be set to fail before use in covert auditing.\nBefore arriving at the s"
+    },
+    {
+      "chunk_id": 2177,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 52,
+      "content": "will continue to operate the PennDOT-approved referee program. Vehicle owners dissatisfied with an I/M\ntest performed by an I/M station can file a complaint by contacting the customer hotline number. A hotline\nrepresentative will gather the necessary information and forward the complaint to the appropriate regional office. A\nParsons team member will contact the customer to resolve the complaint. If a resolution cannot be reached, we will\nschedule a referee inspection at the original I/M station if the customer agrees to return to the location. If the customer\nrefuses, we will conduct the referee inspection at another I/M station.\nBefore the referee inspection, we will give the customer and the station an overview of the referee process. The referee\nwill conduct an I/M station audit to validate the equipment operation and the station\u2019s I/M inspection and record-\nkeeping procedures. The referee will use the I/M inspection equipment referee function to witness the inspection\nperformed by the station I/M inspector and independently verify the referee test result. If the test is performed properly,\nthe referee will inform the customer that the original inspection was accurate. A vehicle"
+    },
+    {
+      "chunk_id": 2188,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 54,
+      "content": "ennDOT requires and expects. Each call\nwill be handled professionally, fairly, and objectively while maintaining the integrity and security of the program\ninformation being disseminated and collected. Dasher will rely on its over 30 years of experience fulfilling millions of\nconsumer transactions and expertise in communicating complex information to handle the PA I/M Program help desk.\nThe station operator and customer service hotlines will both use the existing toll-free numbers and be staffed during\nPennDOT\u2019s normal business hours (Monday to Friday, 8:00 a.m. to 5:00 p.m. EST). Dasher answers 80% of their calls\nwithin 20 seconds, and 100% of calls in under a minute, far exceeding the SLA requirement of average wait time of no\nmore than four minutes.\nThe help desk services downtime will not exceed 0.5%, except during pre-scheduled maintenance or other PennDOT-\napproved downtime. Dasher\u2019s phone system maintains a 99.9% uptime. This uptime is achieved with automatic backup\nand failover systems, redundant circuits, multiple Internet connections and carriers, and 24/7/365 proactive support.\nWe will provide monthly reports documenting help desk activity, as approved by PennDOT. These r"
+    },
+    {
+      "chunk_id": 2189,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 54,
+      "content": "wait time in queue for the previous month.\nWe will identify downtime to PennDOT when an incident occurs and will document PennDOT-approved downtime\nseparately from pre-scheduled maintenance downtime. We understand that failure to meet the standards listed in this\ntask may result in liquidated damages.\nTechnical Submittal 45\n | TRAINING IS A CRITICAL COMPONENT OF OUR APPROACH TO CUSTOMER SERVICE |  | \n |  |  | \n | Dasher\u2019s call center representatives undergo customer service training, including several facilitated and |  | \n | corporate training sessions, such as interpersonal communication, time management, conflict resolution, |  | \n | diversity training, and call center delivery experience. Monthly sessions cover how to handle difficult callers and |  | \n | conduct simulation training. |  |"
+    },
+    {
+      "chunk_id": 2198,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 56,
+      "content": "nt for\nprosecution and court testimony on PennDOT\u2019s behalf. We look forward to working with PennDOT to adapt any currently\napproved procedures to meet revised requirements for more expedient results.\nWhen PennDOT determines a violation merits a hearing, we will schedule and conduct one of the following hearing\ntypes: a PennDOT-requested hearing, an expedited hearing, or an immediate hearing. After the hearing, we will submit\na written report to PennDOT regarding the evidence received.\nPennDOT-Requested Hearings\nWhen we receive notification from PennDOT that an administrative hearing must be conducted, our hearing examiners\nwill schedule the hearing within 14 days and hold it within 30 days of receipt of the notice.\nThe hearing examiner will prepare a cover letter that includes the date, time, and location of the hearing; the phone\nnumber of the regional office; the certified mail receipt number; and directions to the hearing location. The hearing\nexaminer sends the hearing letter, PennDOT hearing notification letter, and PennDOT hearing fact sheet via certified\nmail, with a return receipt requested, to the station and technician. If a station or technician email is available and\nwi"
+    },
+    {
+      "chunk_id": 2201,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 57,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nExpedited Hearings\nWhen a Parsons auditor discovers a violation that may merit an expedited hearing, the auditor will contact the audit\nmanager and report the findings. Our audit manager will contact PennDOT via telephone and request an expedited\nhearing. If PennDOT agrees, the audit report will be electronically transmitted to PennDOT, who will prepare the hearing\ndocuments and send them to the regional office. The hearing examiner will schedule the hearing following PennDOT\u2019s\ntime frames. Electronic document transfer speeds up the hearing process.\nImmediate Hearings\nWhen a Parsons auditor discovers a violation that may warrant an immediate suspension, the auditor will call the audit\nmanager and report the findings. The audit manager will contact PennDOT via email or telephone to provide details of\nthe violations and request an immediate hearing. If PennDOT agrees, the hearing can be held by telephone with the\nauditor and station representative. If an immediate suspension is necessary, PennDOT can verbally order the auditor to\nsuspend the station or technician. PennDOT will also send w"
+    },
+    {
+      "chunk_id": 2202,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 57,
+      "content": "end written documentation to the regional office for subsequent\ndelivery to the affected station or technician, and a hearing will be scheduled within three days of the suspension.\nHearing Procedures\nThe hearing examiner will hold the hearing as scheduled, obtain identification from all participants, and document it on\nthe electronic version of the MV-390 hearing abstract form. The hearing examiner will explain the hearing procedure\nand record all testimony, including documentation of all evidence received. All participants will be advised that\nPennDOT will make a decision based on all information presented. The hearing examiner will print the hearing abstract,\nattach a copy of the hearing letter, and forward the electronic packet to PennDOT for review and appropriate action.\nPenalties\nAt PennDOT\u2019s direction, Parsons will take appropriate action regarding the I/M station and/or inspection personnel.\nThese actions can include the delivery of warnings, fines, and/or suspensions for I/M stations, inspectors, and repair\ntechnicians. When PennDOT notifies Parsons of the hearing results, the hearing examiner will update the hearing\ntracking system and provide a copy of the decision to th"
+    },
+    {
+      "chunk_id": 2206,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 58,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nevidence concisely and reliably, supporting regulatory requirements. Our training will also teach staff to speak\nconfidently in a courtroom environment.\nAppeal of a Suspension\nTo appeal a suspension, a station or technician must obtain a supersedeas, which must be served directly to PennDOT.\nParsons\u2019 auditors will attend and support PennDOT with any supersedeas hearings. When PennDOT notifies us of an\nappealed suspension, we will return all confiscated items to the station or technician pending the outcome of the\nappeal, except for inspector licenses, which PennDOT will return.\nReports\nParsons will provide PennDOT with periodic reports relating to hearing and suspension activities that comply with EPA\nRule 40 CFR \u00a7 51.366. Every month, we will report the number of hearings scheduled, canceled, continued, or held for\nstations and technicians and hearings where a station or technician failed to appear. Our reports will also document\nthe numbers of suspensions served, appeals filed, and warning letters sent to stations and technicians, as well as any\nre-appointments after suspensions for s"
+    },
+    {
+      "chunk_id": 2212,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 59,
+      "content": "eness of sticker-based enforcement.\nTask G: On-Road Testing Using Remote Sensing Device\nParsons will meet all requirements of Task G: On-Road Testing Using Remote Sensing Device (RSD). Since 2012, we\nhave provided PennDOT with RSD data that complies with\nEDAR system includes:\n40 CFR \u00a751.371(a)(1)(3). We currently subcontract SDB License plate Recognition Camera\nSpeed & Acceleration Detector\nfirm, Hager Environmental Atmospheric Technologies (HEAT), Laser Remote Sensing of Vehicle Exhaust\nas our partner for Task G and will continue that proven\nrelationship in the new contract. Using HEAT\u2019s Emission\nDetecting and Reporting (EDAR) technology, we will continue\nto conduct a successful analysis of program effectiveness by\ndelivering a minimum of 20,000 valid RSD test results\nannually to meet the EPA requirement. We will secure\napproval from PennDOT to establish at least four unique\nroadside sites to collect superior data sets using HEAT\u2019s\nstable, accurate, and calibration-free equipment and\nsoftware. We will then analyze the collected data and\nprovide reports to PennDOT. The table, included later in this Scanning laser beams\nsection, provides details for data collection, storage,\nanalysi"
+    },
+    {
+      "chunk_id": 2221,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 61,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nmodel, engine size, vehicle type, GVWR, and fuel type, if available. Upon receipt of this matched data, we will verify all\nvalid records and provide a complete database to PennDOT for review and approval.\nWe will craft a complete RSD report including an introduction to RSD-record capture methodology, accuracy, record\ncounts, geographical distribution of passing/failing vehicles, observations, and conclusions. We will also include several\ngraphs and charts illustrating the results of the study. We will provide this report electronically to PennDOT in draft form\nfor comment. Once the comment period is complete, we will supply a final version to PennDOT.\nEXHIBIT I-6-8. ESTIMATED TIME FRAMES FOR EACH MAJOR SUBTASK REQUIRED UNDER TASK G\nProcedure Timeline/Schedule\nData collection at approved on-road sites 3 weeks (T)\nStorage of data Concurrent with data collection (T)\nAnalysis of data 4 weeks following data collection (T+28)\nReporting to PennDOT In conjunction with Annual Report\nT = representation of time as a value\nTask H: Evaluation and Use of Dedicated Portion of I/M Program Management Fe"
+    },
+    {
+      "chunk_id": 2224,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 61,
+      "content": "ye-safe lasers\ncapable of remotely detecting and measuring infrared absorption of environmentally critical gases such as CO, CO ,\n2\nNOx, HC, and particulate matter coming from moving-vehicle exhaust.\nHEAT will capture the following information on each vehicle test: the license plate, date, time, speed, acceleration,\nambient temperature, plume temperature, barometric pressure, humidity, wind speed, a pass or fail indication, a 3D\nimage of the exhaust plume, and a 2D image of the vehicle and plume as well as an actual image of the vehicle itself.\nParsons will store this information, or a PennDOT-defined subset, for review, analysis, and reporting.\nTechnical Submittal 52\nProcedure | Timeline/Schedule\nData collection at approved on-road sites | 3 weeks (T)\nAnalysis of data | 4 weeks following data collection (T+28)"
+    },
+    {
+      "chunk_id": 2225,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 61,
+      "content": "eview, analysis, and reporting.\nTechnical Submittal 52\nProcedure | Timeline/Schedule\nData collection at approved on-road sites | 3 weeks (T)\nAnalysis of data | 4 weeks following data collection (T+28)"
+    },
+    {
+      "chunk_id": 2266,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 70,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nSafety and enhanced safety audits will be scheduled based on the date of the last audit, complaints, or performance\nissues identified by us or PennDOT. Before audits, auditors determine the station\u2019s sticker purchase, audit, and\nviolation history using our audit application, for current data to assist with oversight activities.\nAll oversight activities will be conducted in accordance with department procedures and regulations and will require a\nsite visit to the safety inspection station. Auditors will make a general survey of the safety and enhance safety\ninspection station premises to ensure regulation compliance as stated in 67 PA Code Chapter 175. The auditor will\ncheck for posting of all required certificates and station signs and ensure the station has the proper bond or proof of\ninsurance. The auditor will verify the validity of each mechanic\u2019s safety inspection and driving credentials, and the\npresence of required inspection tools and equipment for the station type. Auditors will verify that only certified safety\nand enhanced safety inspectors perform safety and enhanced safety "
+    },
+    {
+      "chunk_id": 2279,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 72,
+      "content": "nts ensured we established the proper procedures to collect evidence sufficient for\nprosecution and court testimony on PennDOT\u2019s behalf. We look forward to working with PennDOT to adapt any currently\napproved procedures to meet revised requirements for more expedient results.\nWhen PennDOT determines a violation merits a hearing, we will schedule and conduct one of the following three types\nof hearings: PennDOT-requested hearings, expedited hearings, or immediate hearings. At the conclusion of the hearing,\nTechnical Submittal 63"
+    },
+    {
+      "chunk_id": 2280,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 72,
+      "content": "will schedule and conduct one of the following three types\nof hearings: PennDOT-requested hearings, expedited hearings, or immediate hearings. At the conclusion of the hearing,\nTechnical Submittal 63"
+    },
+    {
+      "chunk_id": 2281,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 73,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nwe will submit a written report to PennDOT regarding evidence received. We understand that PennDOT, in its sole\ndiscretion, may impose an immediate suspension on either a safety/enhanced safety inspection station or inspector.\nPennDOT-Requested Hearings\nWhen Parsons receives notification from PennDOT that an\nEXPERTISE IN SAFETY HEARINGS\nadministrative hearing must be conducted, our hearing\nOur experience, spanning over 26 years, examiner will schedule the hearing within 14 days and hold it\nmakes us the most qualified contractor to fulfill within 30 days of receipt of notice.\nTask K for PennDOT. To date, we have held\nhearings for 2,455 safety stations and 1,389 The hearing examiner prepares a cover letter that includes the\nsafety inspectors. date, time, and location of the hearing; the phone number of\nthe regional office; the certified mail receipt number; and\ndirections to the hearing location. The hearing examiner sends the hearing letter, PennDOT hearing notification letter,\nand PennDOT hearing fact sheet via certified mail, with a return receipt requested, to the station/technician. "
+    },
+    {
+      "chunk_id": 2282,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 73,
+      "content": "mail the hearing\nnotification to the station and technician and track whether it has been successfully sent and opened. We will also\nupload electronic copies in the VIID and transmit them to PennDOT.\nThe hearing examiner will notify the required Parsons personnel of the hearing date, time, and place via telephone and\nemail. The hearing examiner will enter the hearing information (e.g., station name and number, hearing date) into the\nhearing tracking system and make subsequent updates as more information becomes available, such as the date\ncertified mail was received, hearing results, or appeals.\nExpedited Hearings\nWhen an auditor discovers a violation that may merit an expedited hearing, the auditor will contact the audit manager\nand report the findings. The audit manager will contact PennDOT via telephone and request an expedited hearing. If\nPennDOT agrees, the audit report will be electronically transmitted to PennDOT, which will prepare the hearing\ndocuments and send them to the regional office. The hearing examiner will schedule the hearing in accordance with\nPennDOT\u2019s time frames. The electronic transfer of documents speeds up the hearing process.\nImmediate Suspensions\nWhen an"
+    },
+    {
+      "chunk_id": 2283,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 73,
+      "content": "lation that may warrant an immediate suspension, the auditor will call the audit\nmanager and report the findings. We train our auditors in how to collect evidence to justify the immediate suspension.\nThe audit manager will contact PennDOT via email or telephone and provide details of the violations and request an\nimmediate suspension. If an immediate suspension is necessary, PennDOT will inform Parsons to suspend the station\nand/or technician. PennDOT will send written documentation to the regional office for subsequent delivery to the\naffected station or technician.\nHearing Procedures\nThe hearing examiner will hold the hearing as scheduled, obtain identification from all participants, and record it on the\nelectronic version of the MV-390 hearing abstract form. The hearing examiner will explain the hearing procedure and\nrecord all testimony, including documentation of all evidence received. All participants will be advised that PennDOT will\nmake a decision based on all information presented. The hearing examiner will print the hearing abstract, attach a copy\nof the hearing letter, and forward the packet to PennDOT for review and appropriate action.\nPenalties\nWhen directed by PennDO"
+    },
+    {
+      "chunk_id": 2288,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 74,
+      "content": "ppeal, except for any inspector licenses, which are returned by PennDOT.\nReports\nParsons will continue to provide PennDOT with periodic reports relating to hearing and suspension activities. Monthly,\nwe will provide the number of hearings scheduled, cancelled, continued and held, as well as any hearings where a\nstation or technician failed to appear. Our reports will also document the number of suspensions served, appeals filed,\nwarning letters sent to stations and technicians, as well as any re-appointments after suspension for stations and\ntechnicians.\nTask L: Electronic Collection of e-SAFETY\nParsons will meet all requirements of Task L: Electronic Collection of Safety Inspection Data (e-SAFETY), understanding\nthat PennDOT may eliminate the need for e-SAFETY at any time or pursue a separate procurement for an electronic\ndata collection system replacement. We are prepared to transition existing inspection stations participating in the\ncurrent e-SAFETY program to any new solution determined by PennDOT. The e-SAFETY website has operated under\nParsons\u2019 oversight, with several updates, since 2012. We have collected data on over 7.4 million e-SAFETY inspections\nwithin our current syst"
+    },
+    {
+      "chunk_id": 2302,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 77,
+      "content": "ta collection fields.\nSystem Availability\nOur system is a robust and highly available infrastructure that allows inspection facilities to communicate with the VIID\nand submit their inspection results. The system will be available 24x7x52 and will meet or exceed the uptime\nrequirement (less than 30 minutes of downtime) of this RFP. Our technical team will be informed of any system issues\nthrough automatic alerts and will investigate and resolve issues to ensure the availability of applications and\ndatabases. Parsons\u2019 team uses various industry-recognized tools and custom-built scripts specifically designed and\nbuilt for each implementation to perform system availability and performance monitoring.\nOur network operations group will track all operational minutes available, including scheduled and unscheduled down\ntime, and will provide monthly reporting to PennDOT. The reports will separately identify downtime approved by\nPennDOT or downtime for prescheduled system maintenance. We will also report all system downtime to PennDOT at\nthe time of the incident. The Service Level Tracking Application (SLTA), as described in detail in Section I-8, will monitor\nthe availability status of the "
+    },
+    {
+      "chunk_id": 2339,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 85,
+      "content": "e access to these reports through the\nWe are the only vendor that currently offers the\nParsons portal, throughout the month, to verify the status of\nSLTA analytical tool, using it successfully in our\nour progress conveniently and efficiently on agreed-upon\nOntario and Vermont programs.\nbusiness rules.\nAutomated SLTA jobs extract data from many disparate sources and load the information into the data warehouse for\nprocessing. Business rules developed with and approved by PennDOT will be used to determine service level status.\nThe SLTA provides, at a summary level, the monthly service level results for any month selected by the user. This\ndetailed data can be used by the Commonwealth to conveniently and independently validate and confirm the service\nlevel results. The SLTA also sends alerts when any service level is approaching a near-miss, allowing for immediate\ncorrection. The combination of summary and detailed reports includes statistics of counts, violations, and associated\nfines for all service levels. If Parsons misses a service level, the SLTA sends email alerts to Parsons\u2019 management and\nCommonwealth staff informing them of the miss and any applicable liquidated damages.\nTo "
+    },
+    {
+      "chunk_id": 2363,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 92,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nnization with Certainty\nWe also developed and maintain the program\u2019s web portal technologies, which includes station and technician\nadministration, auditing, billing, call tracking, training, user management, message, motorist compliance, hearings/\nsuspensions, and reporting. We provide a preconfigured reporting system and ad hoc querying tools to allow\nCommonwealth employees to create, schedule, and run reports.\nWe have a geographically dispersed disaster recovery with automated site-to-site failover and conduct daily, weekly,\nand monthly offsite backup of data/systems.\nAUDITING AND ADMINISTRATION SERVICE, QA/QC: To support station auditing conducted by Parsons QA\nofficers (i.e., biannual covert and overt at all 8,000 stations), we developed and maintain a thorough electronic record\naudit system that mines emissions inspection data and past audit data for triggers, issues, and concerns the QA officer\nmay need to address. Additional oversight and QA/QC activities include motorist compliance survey data collection and\nremote roadside testing to evaluate program compliance and effectivene"
+    },
+    {
+      "chunk_id": 2369,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 93,
+      "content": "eturned to the State. The development of new materials and\ncampaigns is a collaboration between representatives from Parsons, the\nNew Jersey Motor Vehicle Commission, and the New Jersey Department of\nEnvironmental Protection. A variety of materials and mediums have been\nused throughout our 18 years on the program, including banners on buses,\ntelevision and radio advertising, printed materials, and website information.\nWe also provide and staff a toll-free call center that schedules\nappointments, provides technical support, and responds to informational\ninquiries. We assist an average of 15,000 motorists each month via the\nphone, web-based applications, and email.\nAttachment A \u2013 Project Experience A-4"
+    },
+    {
+      "chunk_id": 2380,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 96,
+      "content": "sons\ndesigned and built a fully electronic audit system to replace the paper-\nbased process. State investigators use the tablet application to perform\ninspections and enter audit data into the system. The administrative\ninformation management portal is used by State staff to schedule, track,\nand manage audits.\nTRIGGERS: Parsons has integrated its proven trigger-based reporting\nsystem to provide trend and anomaly analysis, define triggers on safety and\nemissions inspection data, and increase the ability to identify noncompliant\nactivities that may be fraudulent. State investigative staff use this system to\ninvestigate inspection stations or mechanics within their designated zones,\nresulting in improved program effectiveness and integrity.\nAttachment A \u2013 Project Experience A-7"
+    },
+    {
+      "chunk_id": 2388,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 98,
+      "content": "iness, diagnostic, and repair strategies\n\u00a7 Supplied equipment and provided ongoing maintenance for a tablet-based inspection solution for safety and\nemissions inspections for more than 1,300 stations\n\u00a7 Designed a sticker management system as a new product\n\u00a7 Completed 700,000 annual transactions\n\u00a7 Provide effective and efficient contact center services\n\u00a7 Received a 4-year contract extension because of quality service delivery\n\u201cThe Vermont DMV contracted with Parsons to provide a new Automated Vehicle Inspection Program (AVIP) to replace\nour historic and outdated paper-based system. The effort involved the installation of individual ruggedized handheld\ntablets into every Vermont inspection station. The steps necessary to complete this task were many to include software\nprograming; hardware acquisition; introduction training sessions; online purchasing activities; installation at each\nstation with additional training; conversion to the new system on an integrated schedule; and all the support to make\nfor a successful implementation.\nParsons did an outstanding job in completing the project on time and in providing value through the first time ever in\nVermont collection of information t"
+    },
+    {
+      "chunk_id": 2400,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 101,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nnization with Certainty\nthis application to the State for reference in the field and to provide data updates when needed. We worked with the\nclient and a subcontractor to develop the safety test protocols. The State relied on Parsons to help design, build, and\noperate this system. We designed, built, and maintain the inspection database. Parsons provided all infrastructure and\nsoftware necessary to securely store and transmit inspection information. We provide database, application, and\nreporting functions, as well as high availability via automated, redundant processes. We also transmit inspection\ninformation on a nightly basis to the State for use in vehicle registrations. Service levels are at 99.99 percent uptime\nsince November 2013.\nAccomplishments Achieved:\n\u00a7 We completed implementation in a four-month timeframe and provided a successful and smooth transition for all\nHawaiian inspection stations.\n\u201cParsons developed and implemented Hawaii\u2019s electronic PMVI program with an exceptional level of\nefficiency, dependability, and professionalism. The scheduling and implementation of the p"
+    },
+    {
+      "chunk_id": 2405,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 103,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nnization with Certainty\nPROGRAM FEE COLLECTION AND RECONCILIATION\nPROJECT AT A GLANCE\nSERVICES: Parsons developed and manages an online fee-\ncollection and reconciliation system to collect and remit program test\nfees daily from program facilities for direct deposit to a Ministry bank\naccount. As emissions pass and/or conditional pass certificates are\n2,500 2.8M\nissued, we electronically invoice the facilities for the tests daily. The\nfacilities pay the invoices using preauthorized debit (PAD)\nLOCATIONS ANNUAL\ntransactions. The system communicates between Parsons, the MANAGED TESTS\nfacilities, and the Ministry. We take security very seriously and always\nensure appropriate user-based roles are established in our systems\nto protect the security of personal and banking information.\nA PAD file is used to debit a facility\u2019s bank account an amount of \u2022 Program management\nmoney equal to the number of pass reports and/or conditional pass\nreports issued the previous day. We automatically monitor accounts, \u2022 Auditing\nand if a facility defaults on payment for any reason, including running\nout of fu"
+    },
+    {
+      "chunk_id": 2406,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 103,
+      "content": "that facility until their account has been reconciled and cleared of\n\u2022 System infrastructure development\nany discrepancies.\nand hosting\nIn 2017, the Ministry updated the fees schedule for the program\nmid-contract, and motorists were no longer required to pay for \u2022 Public information and public\ninspection tests. Because of this change to allow for a free test, we education/assistance\nimplemented many system changes to our fee-collection and billing\n\u2022 Contact center operations\nsystems. Even with this change, we continue to provide successful\nand seamless services and have maintained 100 percent service\n\u2022 Inspector, repair technician, and\nlevels for fee-collection services.\ncounter staff training and certification\nTRAINING SERVICES: Parsons has provided training services since\n\u2022 Facility recruitment and accreditation\nthe program's inception in 1999, and we have continually enhanced\nour delivery methods to adapt to the changing industry with proven\n\u2022 QA/QC\nand modern adult training methods, which includes distance\nlearning. \u2022 Fee collection and disbursement\nIn our light-duty program, we provided self-directed, computer-based\ntraining and certification for CSRs, inspectors, repair techn"
+    },
+    {
+      "chunk_id": 2415,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 105,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nnization with Certainty\nAUDITING AND ADMINISTRATION SERVICE, QA/QC: Parsons was responsible for the integrity of the program\u2019s\nnetwork of more than 2,000 facilities and thousands of counter staff, emissions inspectors, and repair technicians. Our\nteam provided a successful and seamless implementation when rolling out program changes or new testing equipment.\nWe provided consistent program oversight and support and handled compliance auditing through a combination of\nregularly scheduled overt, covert, telephone, and real-time video audits, along with drop-in visits. Penalties and\nsanctions for noncompliance were designed around an escalation process based on a thorough and impartial\ninvestigation.\nField visits with our personable and helpful field technicians provided us with a great working relationship with the\nfacility owners and staff in the industry, as reflected through our customer satisfaction surveys and regular touchpoints.\nOur expert and reliable field technicians performed tasks during implementation that included providing program-\nbranded signage and training, to program au"
+    },
+    {
+      "chunk_id": 2429,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 108,
+      "content": "software, hardware, and/or communication diagnostics; ticket tracking from opening to\nclosure; and resolution-reporting statistics.\nSupport was available to all stations between the hours of 7:00 a.m. to 7:00 p.m., Monday through Saturday, except\nselect holidays.\nTechnical help-desk call-center representatives created trouble tickets using an off-the-shelf customizable help-desk\nticket-tracking software called HEAT. Tickets described the issue and provided Tier 1 troubleshooting and support for\nresolution. Parsons escalated calls that appeared to be hardware failures to the appropriate equipment vendors for\nresolution. Parsons continued to track tickets in HEAT until completely resolved.\nAttachment A \u2013 Project Experience A-19\n\nPROJECT AT A GLANCE\n\n\n10,800 18M\nDECENTRALIZED ANNUAL\nLOCATIONS INSPECTIONS\n\n\n\n\u2022 Program management\n\u2022 Station management\n\u2022 Inspection software\n\u2022 Technical call center\n\u2022 Training and materials\n\u2022 Certificate inventory management\n\u2022 Management reporting\n\u2022 Compliance (trigger) reporting\n\u2022 Audit management system\n\u2022 Hearings and enforcement application"
+    },
+    {
+      "chunk_id": 2489,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 125,
+      "content": "ystems.\nAWS Backup allows to centralize and automate data protection across Pennsylvania Vehicle I/M\nProgram environments. With backup plans, we centrally control and monitor systems and data\nbackups. To minimize impact on operations, production component backups are scheduled outside\ncore business hours. Additional backup technologies such as versioning, code commit and\ninfrastructure as code are used as a means of backup and recovery.\nParsons support engineers are responsible for verifying that the backup routines are implemented\nand executed as scheduled. The status of backups is monitored daily, and the support engineer will\nevaluate the status and will work with the Backup Coordinator to rectify any issue.\nThe Pennsylvania Vehicle I/M Program backup and recovery architecture consists of the following\nsoftware components.\nComponent Backup Product Details\nDatabase AWS backup AWS backup plan initiates\nautomated database\nbackups.\nS3 buckets S3 bucket versioning, AWS backup AWS backup plan initiates\nautomated S3 data backups.\nS3 bucket versioning keeps\ntrack of file versions.\nDisaster Recovery Plan\u2013 Emissions Program Management Confidential / Sensitive / Proprietary B-16\n |  | Desc"
+    },
+    {
+      "chunk_id": 2495,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 127,
+      "content": "Sensitiv e\nEmissions Program Management\nNo. Description Responsible Role Additional\nDetails\n1 Determine environment status\nTeam Leader\n1. Identify data to be recovered.\n2. Mobilize and debrief recovery team.\n2 Database Recovery Procedure\n1. Determine if the system is ready for restore\nRestoration\n2. Identify the backups required to restore the process\nDatabase Support\ndatabase. depends on\nLead, Test and\n3. Restore the database using snapshots and the size of\nValidation Lead\ntransaction logs. the database;\n4. Update the original database endpoint CNAME to\nmay take 24\npoint to new, restored endpoint.\nto 48 hours\n5. Perform an applications sanity test to complete.\nS3 BUCKET DATA\nAWS backup plan manages automated daily S3 bucket data backups. In addition, the version control\nfeature of the Amazon S3 storage service for data recovery allows to restore previous versions of any\nobject stored in the Amazon S3 bucket, as well as recover deleted objects. All or specific objects can\nbe restored to an existing or new bucket. The following table outlines the S3 buckets backup\nschedule.\nFrequency Backup Type Start time Retention\nDaily, Mon\u2013Sun Full 3 a.m. Infinite\nThis section of the plan addres"
+    },
+    {
+      "chunk_id": 2499,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 128,
+      "content": "Sensitiv e\nEmissions Program Management\nEC2 INSTANCES\nAWS backup plan manages automated daily EC2 systems instances snapshot-based backups. The\nEC2 instance is restored using a specific recovery point, with an original instance profile to preserve\nsystem configuration. The restore process creates another system instance, and additional\napplicable configuration must be completed to complete the restore process. The following is the\nbackup schedule.\nFrequency Backup Type Start time Retention\nDaily, Mon\u2013Sun Full 3 a.m. 30 days\nThis section of the plan addresses how the recovery team will recover the EC2 system instance.\nNo. Description Responsible Role Additional\nDetails\n1 Determine environment status\nTeam Leader\n1. Identify the recovery point to be used for restoring.\n2. Mobilize and debrief recovery team.\n2 EC2 Instance Recovery Procedure\n1. Determine if the system is ready for restore Restoration\n2. Identify the backups required to restore the data. process\nSystem Support\n3. Restore the system. depends on\nLead, Test and\nthe size of\n4. Update the network configuration to reflect the Validation Lead\nthe EC2\noriginal system configuration\ninstance\n5. Perform a sanity test\nstorage\nDisas"
+    },
+    {
+      "chunk_id": 2517,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 134,
+      "content": "ATTACHMENT C\nWORK PLAN / PROGRAM\nSCHEDULE"
+    },
+    {
+      "chunk_id": 2639,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 152,
+      "content": "May 2020 by stations performing remote downloads of the software. Field installation of v1903\nwas complete at the end of October, 2020. Numerous software lockups reported from stations running v1903.\nOpus investigating and testing new software to address issues. Opus submitted v2101 for ATP in June 2021 to\naddress lockup issue and scheduled reboot and DFR issue. Focused ATP continued in August 2021 to identify\nconfiguration issue with Opus. Opus submitted v2102 for ATP in September to correct configuration issue and\ninclude new base VRT. Focused ATP for v2102 found one configuration issue. ESP submitted v2013 for\nFocused ATP near the end of November 2021. Focused ATP complete and approved for Beta testing in\nDecember 2021. ESP v2103 in beta sites and beta testing underway in January 2022. Beta testing for v2103\ncomplete in February 2022 with software approved for field release. Field installation of v2103 continued\nthrough April, May, June, July, and August 2022 and was complete by the end of September 2022.\nWORLDWIDE\nWorldwide was certified for field installation on October 23, 2018. In August 2019, Worldwide was notified of\nsoftware issues requiring correction. Worldwide submitte"
+    },
+    {
+      "chunk_id": 2644,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 153,
+      "content": "ptember 2022 with beta testing and data reviews in process. Beta for v2202 continued through October\nand November 2022. Beta testing and data review was completed for v2202 in December 2022, with the\nrecommendation for field release sent to PennDOT near the middle of the month. Worldwide v2202, OBD\nv1.06.23 released for field installation in January 2023. Field installation continued through October 2023.\nBANALOGIC\nBanalogic was certified for field installation on October 23, 2018. In September 2019, Banalogic was notified\nof issues requiring correction. Banalogic submitted release notes and Self-ATP documentation for v1901 in\nJanuary 2020. After review, clarifications were requested for the release notes, as well as updating the\nsoftware version number to reflect the 2020 calendar year. Banalogic v2001 accepted for Focused ATP with\ntesting beginning in July 2020. Banalogic v2001 passed Focused ATP and was recommended for beta release\nin August 2020. Beta station review was being performed at the end of August. Beta stations were approved\nand beta started in September 2020, with roughly half the required test records collected by the end of the\nmonth. Beta for v2001 was completed i"
+    },
+    {
+      "chunk_id": 2670,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 164,
+      "content": "gulations (22 CFR 120)(hereinafter \u201cITAR\u201d), Iron Mountain shall ensure\nthat any subcontractor who is granted access to the Deposit Material for the performance of verification Services shall be\na U.S. Person as defined in 8 U.S.C. 1101(a)(20) or who is a protected person as defined in 8 U.S.C. 1324b(a)(3). After the\nstart of fulfillment activity, each SOW may only be amended or modified in writing with the mutual agreement of both\nParties, in accordance with the change control procedures set forth in the SOW. If the verification Services extend beyond\nthose described in Exhibit A, the Depositor shall be a necessary Party to the SOW governing the Services.\n6. Payment\nThe Party responsible for payment designated in the Paying Party Billing Contact Table (\u201cPaying Party\u201d) shall pay to Iron\nMountain all fees as set forth in the Work Request (\u201cService Fees\u201d). All Service Fees are due within thirty (30) calendar days\nfrom the date of invoice in U.S. currency and are non-refundable. Iron Mountain may update Service Fees with a ninety (90)\ncalendar day written notice to the Paying Party during the Term of this Agreement (as defined below). The Paying Party is\nliable for any taxes (other tha"
+    },
+    {
+      "chunk_id": 2673,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 165,
+      "content": "terminates under another provision of this Agreement; or (iv) any time after the Initial Term, Iron Mountain provides sixty\n(60)days\u2019 prior written notice to the Depositor and Beneficiary of Iron Mountain\u2019s intent to terminate this Agreement.\nThe Effective Date and the Deposit Account Number shall be supplied by Iron Mountain only. The Effective Date supplied\nby Iron Mountain and specified above shall be the date Iron Mountain sets up the escrow account.\n(b) Unless the express terms of this Agreement provide otherwise, upon termination of this Agreement, Iron Mountain shall\nreturn physical Deposit Material to the Depositor and erase electronically submitted Deposit Material. If reasonable\nattempts to return the physical Deposit Material to Depositor are unsuccessful, Iron Mountain shall destroy the Deposit\nMaterial.\n(c) In the event of the nonpayment of undisputed Service Fees owed to Iron Mountain, Iron Mountain shall provide all\nParties to this Agreement with written notice of Iron Mountain\u2019s intent to terminate this Agreement. Any Party to this\nAgreement shall have the right to make the payment to Iron Mountain to cure the default. If the past due payment is not\nreceived in full"
+    },
+    {
+      "chunk_id": 2674,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 165,
+      "content": "thirty (30) calendar days of the date of such written notice, then Iron Mountain\nshall have the right to terminate this Agreement at any time thereafter by sending written notice to all Parties. Iron\nMountain shall have no obligation to perform the Services under this Agreement (except those obligations that survive\ntermination of this Agreement, which includes the confidentiality obligations in Section 10) so long as any undisputed\nService Fees due Iron Mountain under this Agreement remain unpaid.\n8. Infringement Indemnification\nAnything in this Agreement to the contrary notwithstanding, Depositor at its own expense shall defend, indemnify and hold\nIron Mountain fully harmless against any claim or action asserted against Iron Mountain (specifically including costs and\nreasonable attorneys\u2019 fees associated with any such claim or action) to the extent such claim or action is based on an assertion\nthat Iron Mountain\u2019s administration of this Agreement infringes any patent, copyright, license or other proprietary right of any\nthird party. When Iron Mountain has notice of a claim or action, it shall promptly notify Depositor in writing. Depositor may\nelect to control the defense of such"
+    },
+    {
+      "chunk_id": 2695,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 170,
+      "content": "Exhibit A\nEscrow Services Fee Schedule \u2013 Work Request\nDeposit Account Number\nService Service Description - Three-Party Escrow Service Agreement One- Annual\nAll services are listed below. Check the requested service and submit a Work Request to Iron Mountain for services Time/Per Fees\nrequested after agreement signature. Service Fees\nSetup Fee One-time Setup Fee for Iron Mountain to setup a standard Three-Party Escrow Service Agreement. $2,600\n(Required at\nSetup)\nDeposit Iron Mountain will set up one deposit account to manage and administrate access to Deposit Material to be secured in a $1,200\nAccount Fee controlled storage environment. Iron Mountain will provide account services that include unlimited deposits, electronic\n(Required at vaulting, access to Iron Mountain Connect\u2122 Escrow Management Center for secure online account management,\nSetup) submission of electronic Work Requests, and communication of status. Release of deposit material is also included in the\nannual fee. An oversize fee of $200 USD per 1.2 cubic foot will be charged for deposits that exceed 2.4 cubic feet.\nBeneficiary Iron Mountain will fulfill a Work Request to add a Beneficiary to an escrow deposit account "
+    },
+    {
+      "chunk_id": 2723,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 176,
+      "content": "Section 6. Distribution of the Escrow Property. Escrow Agent shall hold the Escrow\nProperty in its possession and disburse the Escrow Property or any specified portion thereof only\nas follows:\n(a) Three Business Days prior to any requested disbursement from the Escrow\nAccount, (i) Party A may deliver a written notice signed by an authorized person set forth on\nSchedule I attached hereto (\u201cAuthorized Representative\u201d) of Party Ato disburse all or a portion\nof the Escrow Property to Party B, or (ii) Party A may deliver a written notice signed by an\nAuthorized Representative of Party A to disburse all or part of the Escrow Property to Party A or\nsuch other party so specified therein (the \u201cDisbursement Instruction\u201d). A Disbursement\nInstruction must be signed by the proper party\u2019s Authorized Representative and delivered\npursuant to Section 11 below. Escrow Agent shall and is hereby authorized to withdraw and pay\nsaid disbursement as specified in a Disbursement Instruction. Escrow Agent may act upon a\nDisbursement Instruction received pursuant to Section 11 hereunder and may rely upon the\nsignature(s) thereon of an Authorized Representative regardless of by whom or by what means\nthe actua"
+    }
+  ]
+}

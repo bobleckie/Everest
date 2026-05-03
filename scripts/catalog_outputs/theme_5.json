@@ -1,0 +1,83 @@
+{
+  "title": "Facilities, Buildings & Grounds Stewardship for Inspection Station Networks",
+  "capability_statement": "Parsons operates large, geographically dispersed networks of vehicle inspection facilities and is positioned to take operational responsibility for the buildings, grounds, and on-site equipment supporting those facilities. Across our state inspection programs (PennDOT, Vermont DMV, Hawaii DOT, Texas DPS, Ontario MOECC, and the existing Northeast hybrid I/M program) we already coordinate station-level facility access, security sign-in/sign-out, and on-site equipment deployment, software certification, and ATP-driven equipment testing across thousands of inspection lanes. Our regional office structure (currently three I/M regional offices plus a centralized headquarters) demonstrates the dispatch-and-coverage model needed to deliver routine janitorial, grounds keeping, snow removal, HVAC, electrical, plumbing, alarm, and structural maintenance on a multi-site portfolio where some sites are wholly contractor-occupied and others are shared with the State. We bring a documented quality-assurance framework, a financial-stability profile (annual revenue exceeding $4.5 billion) sufficient to fund routine service and maintenance at our own expense and to carry monthly utility, alarm, and rental obligations, and a procurement and SCM-style approval workflow used today for capital decisions, escrow controls, third-party quotes, and proof-of-purchase documentation. Our facility assessment, capital planning, and OEM-aligned preventive-maintenance discipline already used for inspection equipment translates directly to building systems planning, the annual master inventory list, and the standardized PM/structural/property repair plan required within 180 days of contract effective date. For shared co-located areas we will operate to the SCM-approved scope at no additional charge, hold three independent quotes for remediation work, secure written approval before alterations, and conduct single-lane maintenance outside posted hours so that motorist-facing operations are not interrupted.",
+  "named_past_performance": [
+    {
+      "name": "Pennsylvania Vehicle Emissions I/M Program (PennDOT, 1997 to present)",
+      "scope": "Program management of one of the largest decentralized I/M programs in the United States, including station and equipment management across approximately 8,200 inspection stations in 25 counties; on-site equipment deployment, calibration, ATP, software certification, audits, sticker custody and reconciliation, and station compliance with Title 67 PA Code Chapter 175; regional office network in Pittsburgh, Harrisburg, and Philadelphia providing dispatchable coverage for site visits.",
+      "outcome": "Continuous program operation since 1997 supporting nearly 7 million inspections projected by 2025; over 306,000 covert audits and 228,000 safety audits conducted; demonstrated multi-site field operations that mirror the dispatch model needed for routine facility maintenance, grounds, and janitorial coverage.",
+      "source_chunk_ids": [1927, 1968, 2050, 2148, 2243]
+    },
+    {
+      "name": "New Jersey Motor Vehicle Inspection System (MVC, 1998 to 2024)",
+      "scope": "Project and operations management of the Enhanced I/M Program including VIID development, equipment ATP, software certification, motorist call center, and on-site station management at 12 centralized inspection stations.",
+      "outcome": "12 stations achieved OSHA Voluntary Protection Program (VPP) status under Parsons' operations, demonstrating sustained workplace safety, housekeeping, and facility-condition discipline at occupied operating sites.",
+      "source_chunk_ids": [1987, 1988, 1990]
+    },
+    {
+      "name": "Vermont Automated Vehicle Inspection Program (Vermont DMV, 2016 to present)",
+      "scope": "Program management including a 6-month, 1,200-facility implementation requiring on-site equipment deployment, station coordination, and access procedures across the entire facility portfolio.",
+      "outcome": "Successful 6-month implementation across 1,200 facilities with sticker printing-on-demand, evidencing the multi-site mobilization tempo that supports a contractor-of-record taking over facilities, buildings, and grounds responsibility.",
+      "source_chunk_ids": [1987, 2027]
+    },
+    {
+      "name": "Texas Automated Vehicle Inspection (Texas DPS, 2006 to present)",
+      "scope": "Program and software management including equipment software updates and field service across 6,700 private inspection stations in a decentralized program, with a service call ticketing and response tracking system.",
+      "outcome": "Equipment software updates pushed to 6,700 stations within four months of award, with a comprehensive service call ticketing and response tracking system integrated for ongoing field-service dispatch.",
+      "source_chunk_ids": [1988, 1991, 1992]
+    },
+    {
+      "name": "Ontario Integrated Vehicle Safety and Emissions Inspection Program / DriveON (Ontario MOECC, 1999 to 2028)",
+      "scope": "Program and operations management of the LDV emissions program including facility certification, inspector training, fee collection, and migration of program systems to AWS without service interruption to existing emissions stations.",
+      "outcome": "Successful transition of the Ontario Heavy-Duty Emissions program to AWS cloud with no service interruption or facility impact to the existing emissions stations; 100% uptime on DriveON since April 2022.",
+      "source_chunk_ids": [1993, 2027]
+    },
+    {
+      "name": "Hawaii Electronic Periodic Motor Vehicle Inspection Program (Hawaii DOT, 2013 to present)",
+      "scope": "Program and operations management, station billing, tablet-based software development, and statewide implementation including station outreach across the Hawaii station network.",
+      "outcome": "Met a four-month implementation timeline and rolled out sticker printing-on-demand across the program; demonstrated short-cycle multi-site mobilization across geographically distributed facilities.",
+      "source_chunk_ids": [1988, 2027]
+    }
+  ],
+  "quantified_outcomes": [
+    {
+      "metric": "Inspection-facility footprint under active Parsons program management",
+      "value": "8,200 PA stations + 6,700 TX stations + 1,200 VT facilities + 12 NJ MVC stations + Hawaii and Ontario station networks",
+      "context": "Demonstrates Parsons' scale of dispatchable coverage across multi-site inspection-facility portfolios, the analogue to the CIF/SIF facility maintenance population in the RFP.",
+      "source_chunk_ids": [1968, 1987, 1988, 1991]
+    },
+    {
+      "metric": "Multi-site mobilization speed (Vermont)",
+      "value": "1,200 facilities mobilized in 6 months",
+      "context": "Speed of standing up coordinated on-site activity across an entire facility portfolio, a leading indicator of capacity to transition facilities, buildings, and grounds responsibility under tight start-up windows.",
+      "source_chunk_ids": [1987]
+    },
+    {
+      "metric": "Multi-site mobilization speed (Texas)",
+      "value": "6,700 inspection stations updated in four months with integrated service-call ticketing and response tracking",
+      "context": "Field-service dispatch tempo and ticketing infrastructure directly relevant to routine facility service, alarm response, and shared-area repair workflows.",
+      "source_chunk_ids": [1991, 1992]
+    },
+    {
+      "metric": "Workplace safety / facility-condition outcome (NJ MVC)",
+      "value": "12 stations achieved OSHA VPP status",
+      "context": "Independent third-party recognition of sustained housekeeping, hazard control, and facility-condition discipline at Parsons-operated inspection sites.",
+      "source_chunk_ids": [1988, 1990]
+    },
+    {
+      "metric": "Field-service infrastructure",
+      "value": "Three regional offices (Pittsburgh, Harrisburg, Philadelphia) with built-in redundancy, mutually substitutable management/QA/office staff coverage",
+      "context": "Demonstrates the dispatch-and-substitute coverage architecture that supports SLA delivery on janitorial, grounds, snow removal, and emergency-repair calls across a state-sized footprint.",
+      "source_chunk_ids": [2036]
+    },
+    {
+      "metric": "Corporate financial scale",
+      "value": "Annual revenues exceeding $4.5 billion; publicly held with 60%+ Employee Stock Ownership Trust ownership; three years of audited financials provided in proposal package",
+      "context": "Financial depth to absorb at-Contractor-expense routine service and maintenance, monthly trailer rental obligations, alarm-service fees, and utility-fee responsibilities flagged in Appendix 3.2G.",
+      "source_chunk_ids": [2017]
+    }
+  ],
+  "differentiators": "(1) Operating tenure across six concurrent state/provincial inspection programs gives Parsons direct, in-place experience with the access-controlled, sign-in/sign-out, security-protocol environment the RFP requires before any contractor personnel may enter a facility. (2) Demonstrated multi-site mobilization tempo (1,200 VT facilities in 6 months; 6,700 TX stations in 4 months) shows we can stand up the maintenance, janitorial, grounds, and snow-removal coverage matrix on day one of contract performance. (3) Existing OEM-aligned preventive maintenance discipline for inspection equipment, including ATP scripting, calibration, equipment testing and approval, and bill-of-sale/proof-of-ownership controls, directly supports the parallel PM, spare-parts, and equipment-purchase documentation requirements for facility equipment. (4) Three-region operational redundancy (Pittsburgh, Harrisburg, Philadelphia) plus remote-work proven during COVID-19 evidences the dispatch model and continuity needed for snow events, alarm calls, and after-hours single-lane maintenance windows. (5) NJ MVC OSHA VPP recognition at 12 Parsons-operated inspection stations provides third-party validation of housekeeping, hazard-control, and facility-condition standards. (6) Established procurement, escrow, and quote-comparison workflows already used on capital decisions translate directly to the three-quote remediation rule, written-approval-before-alteration rule, and SCM-approval workflow for capital repairs and Plan updates. (7) Publicly traded firm with $4.5B+ revenue and Employee Stock Ownership Trust governance has the balance-sheet depth to carry routine maintenance, alarm fees, utilities, and trailer-rental obligations at Contractor expense without cost recovery.",
+  "gap_notes": "The Parsons evidence base for this theme establishes program-management and station-network experience but does NOT directly substantiate hands-on facilities, buildings, and grounds trade work. Capture team must source and attach: (a) for janitorial scope (A-002 carpet steam extraction twice yearly, A-012 HEPA-filter vacuuming, R-101 daily carpet vacuuming) - named janitorial subcontractor or self-perform plan with crew sizing, equipment lists, and HEPA equipment specifications; (b) for grounds keeping (A-028 monthly rough-lawn mowing of drainage ditches, catch basins, wood lots, transitions) - landscaping subcontractor or self-perform plan including equipment, frequencies, and drainage-area access procedures; (c) for snow removal - no Parsons evidence in the provided chunks addresses snow-removal capability, equipment, or response-time SLAs; this is a complete gap; (d) for HVAC maintenance per PEOSH (A-086) - no Parsons evidence describes mechanical-trades capability for HVAC, electrical, plumbing, water/waste systems on contractor-operated buildings; the company's facility experience in evidence is limited to inspection-equipment maintenance rather than building-systems trades, so a teaming partner or named HVAC subcontractor with PEOSH-compliant track record must be identified; (e) for the standardized PM/structural-repair/property-repair Plan (A-072, due within 180 days of contract effective date) - no template Plan from a prior project is in evidence; (f) for the annual master inventory list (A-034) - no example deliverable is in evidence and the format/scope must be developed; (g) for energy-efficient lighting/appliance replacement (A-053, EO 54 / N.J.S.A. 52:34-6.4) - no statute-specific compliance approach is in evidence and a New Jersey-jurisdiction reference will be needed; (h) for the Randolph Service Core trailer (M-030, ~$300/month) - the Parsons evidence does not address trailer leasing or hookup-cost handling and the capture team must confirm whether the existing trailer will be assumed, replaced, or relocated; (i) for shared co-located area repairs at no additional charge (A-095, R-002) - while Parsons has the financial capacity to absorb such costs, no past-performance example of repeated no-charge shared-area work is in evidence and a teaming case study should be sought; (j) for the historical Appendix 3.2G capital-expenditure baseline (R-004, M-048) - the capture team must obtain Appendix 3.2G itself and incorporate the historical FY2009 to FY2024 spend ranges into pricing assumptions; (k) for facility regulations/security protocol observance (R-047, R-056) - while Parsons' on-site operations show repeated state-facility access experience, the specific NJ MVC sign-in/sign-out and security-protocol procedures must be captured and documented; (l) for site-specific lighting-level adequacy testing (A-091) - no methodology in evidence; (m) most named past performance evidence references retired-state names (Pennsylvania, New Jersey MVC, Vermont, Hawaii, Ontario, Texas DPS) - in the Parsons Solution Catalog these descriptions can stand, but any narrative re-used in a New Jersey-specific proposal must keep these as separate prior projects rather than blending them into the current solicitation's voice; (n) ScreenForms/installation evidence references R-001 and R-004 hex-bolt and roller-assembly torque procedures from an installation manual, indicating Parsons-installed equipment has documented installation procedures, but this is at the work-instruction level and must be supplemented with a project-level equipment-installation past-performance narrative.",
+  "source_chunk_ids": [1927, 1932, 1935, 1962, 1968, 1987, 1988, 1990, 1991, 1992, 1993, 2017, 2027, 2036, 2040, 2050, 2058, 2073, 2076, 2077, 2080, 2088, 2089, 2091, 2092, 2094, 2095, 2104, 2113, 2123, 2148, 2186, 2188, 2189, 2208, 2209, 2217, 2218, 2243, 2246, 2267, 2302, 2307, 2312, 2313, 2316, 2331, 2332, 2353, 2354]
+}

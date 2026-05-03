@@ -1,0 +1,930 @@
+{
+  "theme_id": 15,
+  "theme_label": "Project & Implementation Management",
+  "category": "Operational",
+  "rfp_requirements": [
+    {
+      "id": 1324,
+      "code": "R-049",
+      "title": "Provide plan for equipment/supplies purchase and distribution",
+      "description": "The Mobilization Plan shall include the Bidder's plan for the purchase and distribution of equipment, inventory, supplies, materials, etc. required to begin work on the Contract on the required start date.",
+      "section": "3.18.D",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1104,
+      "code": "R-026",
+      "title": "Provide Additional Plans",
+      "description": "Bidder must provide the Additional Plans required by Section 3.19.",
+      "section": "3.19",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7736,
+      "code": "R-001",
+      "title": "State must promptly notify Contractor in writing of claim or suit",
+      "description": "",
+      "section": "4.1.E.1",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 7737,
+      "code": "R-002",
+      "title": "State approval required for settlement of claims",
+      "description": "",
+      "section": "4.1.E.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1144,
+      "code": "R-066",
+      "title": "Provide Workforce",
+      "description": "Contractor must provide the required workforce.",
+      "section": "4.10",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1148,
+      "code": "R-070",
+      "title": "Comply with Labor Requirements of P.L. 2025 C.359 (A4618/S3435)",
+      "description": "Contractor must comply with the labor requirements of P.L. 2025 C.359 (A4618/S3435).",
+      "section": "4.10.4",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 2074,
+      "code": "R-105",
+      "title": "Compliance with P.L. 2025, c.359 (A4618/S3435) labor requirements",
+      "description": "The Contractor shall comply with all labor requirements of P.L. 2025, c.359 (A4618/S3435) governing workforce transition from the current vendor.",
+      "section": "4.10.4",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 2080,
+      "code": "R-001",
+      "title": "Collective bargaining agreement binding on successors and assigns",
+      "description": "",
+      "section": "4.10.4.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2076,
+      "code": "R-107",
+      "title": "Match existing CBA terms for employees",
+      "description": "The terms of the existing collective bargaining agreement between the current vendor and labor, including compensation, health benefits, paid time off and other benefits, shall be the same as those offered by the Contractor to its employees hired to meet the needs of the Contract.",
+      "section": "4.10.4.A.b",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 2077,
+      "code": "R-108",
+      "title": "Offers must not be less than existing wage",
+      "description": "Offers of employment for positions related to the work under the Contract shall not be less than the existing or current wage for that particular position, as applicable.",
+      "section": "4.10.4.A.c",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 2078,
+      "code": "R-109",
+      "title": "CBA compensation/benefits binding on successors/assigns",
+      "description": "For assignment, merger, acquisition, sale, or transfer of Contractor's assets, the compensation and benefits delineated in this subsection that exist in a CBA between labor and the Contractor shall be binding on the successors and assigns of the Contractor.",
+      "section": "4.10.4.A.d",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 2013,
+      "code": "R-044",
+      "title": "No inspector responsible for more than one lane",
+      "description": "Any inspector shall not be responsible for more than one (1) lane at any given time.",
+      "section": "4.10.E",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2017,
+      "code": "R-048",
+      "title": "Do not represent as State employees",
+      "description": "At no time and under no circumstances shall the Contractor or its personnel represent themselves as employees of the State.",
+      "section": "4.10.F",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2124,
+      "code": "R-045",
+      "title": "Develop procedures for motorist complaints",
+      "description": "",
+      "section": "4.13.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2132,
+      "code": "R-053",
+      "title": "Develop vehicle/property damage claim procedure in TROM Plan",
+      "description": "",
+      "section": "4.14.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2575,
+      "code": "R-040",
+      "title": "Subject vehicles shall not emit visible smoke >3 consecutive seconds",
+      "description": "",
+      "section": "4.18.6",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2697,
+      "code": "A-001",
+      "title": "Maintain opacity meters in working order",
+      "description": "",
+      "section": "4.19.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 2699,
+      "code": "A-003",
+      "title": "Contractor not responsible for removing legacy workstations at exiting PIFs/PFFs",
+      "description": "",
+      "section": "4.19.2.E",
+      "priority": "low",
+      "category": "informational"
+    },
+    {
+      "id": 2705,
+      "code": "A-009",
+      "title": "Inspect MDDVs at designated CIF and participating PIF locations",
+      "description": "",
+      "section": "4.19.3.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1115,
+      "code": "R-037",
+      "title": "Deliver Project Management Plan (PMP)",
+      "description": "Contractor must deliver a Project Management Plan (PMP).",
+      "section": "4.2.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1116,
+      "code": "R-038",
+      "title": "Provide Project Management",
+      "description": "Contractor must provide ongoing project management.",
+      "section": "4.2.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3175,
+      "code": "A-051",
+      "title": "Requirements spec must identify each Bid Solicitation requirement",
+      "description": "Specification document must identify each requirement defined in the Bid Solicitation and completely describe all requirements agreed to during gathering sessions.",
+      "section": "4.23.2.1.D",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3281,
+      "code": "A-014",
+      "title": "Provide overall description of how system design meets State's requirements",
+      "description": "",
+      "section": "4.23.2.2.D.1",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3287,
+      "code": "A-020",
+      "title": "Provide map of dataflow to/from each external component",
+      "description": "",
+      "section": "4.23.2.2.D.6.b",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3288,
+      "code": "A-021",
+      "title": "Describe inbound/outbound/bi-directional data flow and authoritative source",
+      "description": "",
+      "section": "4.23.2.2.D.6.c",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3310,
+      "code": "A-043",
+      "title": "Include descriptions and flow diagrams of all system functions, features, processes",
+      "description": "",
+      "section": "4.23.2.3.B",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3321,
+      "code": "A-054",
+      "title": "Propose a hardware refresh cycle",
+      "description": "",
+      "section": "4.23.2.4.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3339,
+      "code": "A-071",
+      "title": "Include database sizing and growth forecasts",
+      "description": "",
+      "section": "4.23.2.5.B.9",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3387,
+      "code": "A-119",
+      "title": "Address stakeholder roles, organization, responsibilities",
+      "description": "",
+      "section": "4.23.2.8.C",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3390,
+      "code": "A-122",
+      "title": "Include Physical Data Models",
+      "description": "",
+      "section": "4.23.2.8.F",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3393,
+      "code": "A-125",
+      "title": "Include Data Storage methods and policies",
+      "description": "",
+      "section": "4.23.2.8.I",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3394,
+      "code": "A-126",
+      "title": "Include Data Retention methods and policies",
+      "description": "",
+      "section": "4.23.2.8.J",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3395,
+      "code": "A-127",
+      "title": "Include Data Archiving methods and policies",
+      "description": "",
+      "section": "4.23.2.8.K",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3403,
+      "code": "A-008",
+      "title": "Include DB processes for personnel to maintain content",
+      "description": "",
+      "section": "4.23.2.9.A.7",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3404,
+      "code": "A-009",
+      "title": "Apply Oracle updates/patches within six months of release",
+      "description": "",
+      "section": "4.23.2.9.A.8",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3406,
+      "code": "A-010",
+      "title": "Provide permissions and access to authorized State personnel",
+      "description": "",
+      "section": "4.23.2.9.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3410,
+      "code": "A-014",
+      "title": "Address participant roles in plan",
+      "description": "",
+      "section": "4.23.2.9.D.2",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3411,
+      "code": "A-015",
+      "title": "Address system maintenance document/artifact management",
+      "description": "",
+      "section": "4.23.2.9.D.3",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3412,
+      "code": "A-016",
+      "title": "Include Data Maintenance document",
+      "description": "",
+      "section": "4.23.2.9.D.4",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3437,
+      "code": "A-039",
+      "title": "Identify participant roles/responsibilities",
+      "description": "",
+      "section": "4.24.1.10",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3438,
+      "code": "A-040",
+      "title": "Identify stakeholder roles/responsibilities",
+      "description": "",
+      "section": "4.24.1.11",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3446,
+      "code": "A-048",
+      "title": "Provide read-only and update menu access audit",
+      "description": "",
+      "section": "4.24.1.18.b",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3447,
+      "code": "A-049",
+      "title": "Provide menu selections audit",
+      "description": "",
+      "section": "4.24.1.18.c",
+      "priority": "low",
+      "category": "mandatory"
+    },
+    {
+      "id": 3429,
+      "code": "A-031",
+      "title": "Enable single sign-on with restricted access",
+      "description": "",
+      "section": "4.24.1.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3453,
+      "code": "A-055",
+      "title": "Address continuity/recovery document management",
+      "description": "",
+      "section": "4.24.2.B.4",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3456,
+      "code": "A-058",
+      "title": "Document steps to protect and mitigate risk",
+      "description": "",
+      "section": "4.24.2.B.7",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3458,
+      "code": "A-060",
+      "title": "Develop plan enabling full recovery within reasonable time",
+      "description": "",
+      "section": "4.24.2.B.9",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3461,
+      "code": "A-063",
+      "title": "Provide updates/changes to plans with justification",
+      "description": "",
+      "section": "4.24.2.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3475,
+      "code": "A-077",
+      "title": "Identify data potentially lost in a disaster",
+      "description": "",
+      "section": "4.24.3.B.9",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3499,
+      "code": "A-100",
+      "title": "Deliver online data dictionary and ERD",
+      "description": "",
+      "section": "4.25.D.2",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3512,
+      "code": "A-112",
+      "title": "Do not commingle backed-up data with other customers",
+      "description": "",
+      "section": "4.26.1.A",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3516,
+      "code": "A-115",
+      "title": "Provide and maintain two extranet communication links",
+      "description": "",
+      "section": "4.26.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3522,
+      "code": "A-118",
+      "title": "Establish Extranet Partner relationship with State/OIT",
+      "description": "",
+      "section": "4.26.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3654,
+      "code": "R-035",
+      "title": "Document Complete List of Transactions with SCM Written Approval",
+      "description": "The complete list of transactions required shall be documented by the Contractor and approved in writing by the SCM during the design stage of the Implementation Phase.",
+      "section": "4.26.4",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3670,
+      "code": "R-051",
+      "title": "Provide CIF Wait Queue Website Linked from MVC",
+      "description": "Provide a 'CIF wait queue' website which must be linked from the MVC website.",
+      "section": "4.27.1.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3682,
+      "code": "R-063",
+      "title": "Authenticate All Repair Data Webpage Users",
+      "description": "All users of the repair data webpage must be authenticated using a user ID and password.",
+      "section": "4.27.2.1.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 3700,
+      "code": "R-081",
+      "title": "Provide Address Search with Radius/Driving Distance Filter",
+      "description": "The web map must allow the public to search for an address and obtain a list of ERFs within a selected radius or driving distance/time.",
+      "section": "4.27.2.3.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4000,
+      "code": "R-046",
+      "title": "Provide shared issue tracking tool",
+      "description": "Contractor shall provide an issue tracking tool to be used in common by both the Contractor and the State.",
+      "section": "4.28.1.D",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4060,
+      "code": "R-106",
+      "title": "Meet all specifications with SCM written approval",
+      "description": "All specifications are successfully met, as evidenced by written SCM approval.",
+      "section": "4.28.3.6.A",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 4061,
+      "code": "R-107",
+      "title": "Deliverables pass technical and quality reviews",
+      "description": "All Contractor Deliverables must pass corresponding technical and quality reviews, as evidenced by written SCM approval.",
+      "section": "4.28.3.6.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4062,
+      "code": "R-108",
+      "title": "System must pass ATP",
+      "description": "The Contractor's system must pass the ATP, as evidenced by written SCM approval.",
+      "section": "4.28.3.6.C",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 4066,
+      "code": "R-112",
+      "title": "All required Contractor deliverables and documentation accepted in writing",
+      "description": "All required Contractor deliverables and documentation must be delivered to and accepted, in writing, by the SCM.",
+      "section": "4.28.3.6.G",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 4068,
+      "code": "R-114",
+      "title": "All required documentation delivered and approved in writing",
+      "description": "All documentation required from the Contractor must be delivered to and approved in writing by the SCM.",
+      "section": "4.28.3.6.I",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4304,
+      "code": "A-022",
+      "title": "Define Participant roles, organization, and responsibilities",
+      "description": "",
+      "section": "4.34",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 4327,
+      "code": "A-045",
+      "title": "Ensure each plan/manual/specification adequately covers required breadth and depth",
+      "description": "",
+      "section": "4.35",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1137,
+      "code": "R-059",
+      "title": "Provide Project Change Management/Control",
+      "description": "Contractor must provide Project Change Management/Control.",
+      "section": "4.6",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1579,
+      "code": "A-011",
+      "title": "Secure SCM approval prior to implementing Change Requests",
+      "description": "The Contractor is solely responsible for securing SCM approval of all proposed Change Requests prior to implementation.",
+      "section": "4.6",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 1584,
+      "code": "A-016",
+      "title": "Secure written SCM approval for ITS designs, changes, and updates",
+      "description": "Secure written approval from the SCM for any ITS system designs and for all changes and updates.",
+      "section": "4.7.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 1615,
+      "code": "A-047",
+      "title": "Secure written SCM approval of dispute resolution processes",
+      "description": "The Contractor is solely responsible for securing written SCM approval for all dispute resolution processes.",
+      "section": "4.9.1.A",
+      "priority": "high",
+      "category": "mandatory"
+    }
+  ],
+  "parsons_evidence": [
+    {
+      "chunk_id": 1928,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 2,
+      "content": "auditor teams, support teams, and subcontractors are in place. In this challenging\nlabor market, we do not anticipate any staffing impacts as your selected vendor in the new contract. Upon Notice to\nProceed, with no transitional risk to current operations, we will begin the implementation tasks to fulfill all RFP\nrequirements.\nParsons continues its commitment to Small Diverse Businesses and Small Businesses for this procurement.\nAdditionally, we have added two Veteran Business Enterprises to our team, 1Alpha Consulting to bolster our\nmotorist compliance activities and Berry Solutions Group for our information and education development and to\nprovide enhanced auditor training.\nOfferor Responsibilities and Exceptions to the RFP Requirements\nAll information submitted pertains exclusively to Parsons Transportation Group Inc. as a subsidiary of Parsons\nCorporation. Our proposal satisfies all mandatory requirements listed in the RFP, and we take no exceptions to any\nof the contractual provisions outlined in the RFP.\nOn behalf of Parsons, I am authorized to bind the Corporation to all the provisions in this proposal and acknowledge\nreceipt of Addenda 1 through 5. This proposal is good for"
+    },
+    {
+      "chunk_id": 1933,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 3,
+      "content": "................... 10\nI-5D: Program Changes ....................................................................................................................................................... 11\nI-5E: Transition .................................................................................................................................................................... 11\nI-5F: Disaster Recovery ....................................................................................................................................................... 12\nI-5G: Back-Up and Back-Up Storage .................................................................................................................................. 13\nI-5H: Emergency Preparedness .......................................................................................................................................... 14\nOperational Impact ........................................................................................................................................................ 14\nContinuity of Operations ................................................................................................."
+    },
+    {
+      "chunk_id": 1961,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 8,
+      "content": "EXECUTIVE SUMMARY\nWORKING WITH PENNDOT TO MOVE THE I/M\nPROGRAM FORWARD THROUGH ADAPTABILITY\nAND INNOVATION\nParsons is uniquely positioned to deliver each requirement PennDOT has outlined for the new contract, enhancing what\nworks and innovating for the future. We\u2019re fully committed to:\nApplying innovation and advanced technology tailored to Pennsylvania\u2019s Program\nEnsuring station compliance\nEmploying advanced Cybersecurity protocols to protect against security threats\nEliminating PennDOT\u2019s transition risk\nParsons appreciates PennDOT\u2019s business. Throughout our response, we demonstrate our depth of experience, our\nreliability, our compliance, and our adaptability. We have unmatched knowledge of PennDOT\u2019s emissions and safety\nprograms, and we know what you require from your vendor. Most importantly, we won\u2019t rest on our laurels; in this new\ncontract, we will demonstrate to PennDOT that we are the best vendor to bring the Program into the future.\nHighlights of Parsons\u2019 Technical Proposal\nSecure Data and Information Management Systems. Our systems are reliable, and we are proud of the 99.99% uptime\nof our Pennsylvania VIID. Program downtime is simply unacceptable to us, and our experien"
+    },
+    {
+      "chunk_id": 1962,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 8,
+      "content": "nfrastructure that affords PennDOT the confidence to move forward. Protecting\ndata and information from loss, intrusion, and sophisticated cyber-attacks is critical to our data and management\nsystems. Our dedicated Pennsylvania team includes cybersecurity professionals, reinforced by a company-wide\nCybersecurity Practice that serves federal and state governments. Across our entire company, we integrate data and\ninformation security from the ground up through system design, system development, and day-to-day operations and\nmaintenance. The Pennsylvania VIID has never had a security or performance issue, and we will keep it that way.\nMindful Innovation. To maintain critical service continuity, and with PennDOT\u2019s approval, we will migrate all systems to\nthe Amazon Web Service (AWS) cloud environment. The system upgrade will provide efficient change management\nimplementation to adapt to future Program enhancements. The cloud-based VIID will include expanded reporting and\ndata management features along with robust scalability, security, and recovery. The upgraded system will allow\nPennDOT faster access to overt and covert audit data for the I/M and safety and enhanced safety programs. P"
+    },
+    {
+      "chunk_id": 1963,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 8,
+      "content": "AWS Partner Solutions Provider, AWS DevOps Competency Partner, and AWS Advanced Tier Services\nPartner, and holds other designations. Our engineers and in-house security experts have more than 100 AWS\ncertifications, and Parsons has secured AWS\u2019s commitment to support our Pennsylvania solution during our\nimplementation and ongoing utilization of AWS/AWS products. Our experience moving the Ontario DriveON program to\nAWS allows us to implement our proposed update to the PA I/M Program VIID securely, without interruption in service\nor uptime. We will upgrade our call center solution with new technology using ZenDesk and AmazonConnect as the\nbackbone of the system.\nStation Compliance. Our operational goals align with PennDOT\u2019s focus on station and inspector compliance. We\nrecognize the Program\u2019s integrity and customer confidence are rooted in ensuring compliance. We will continually\nadapt to improve our audit and hearing processes through innovation and enhanced auditor training. Parsons has in-\nhouse professional oversight personnel with experience in the Pennsylvania Program. In this challenging labor market,\nour teams are fully staffed, trained, and dependable.\nExecutive Summary ES-1"
+    },
+    {
+      "chunk_id": 1968,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 10,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nnization with Certainty\nI-1. STATEMENT OF THE PROJECT\nPennsylvania operates one of the largest, longest-running decentralized Vehicle Emissions Inspection and Maintenance\n(I/M) Programs in the United States. The Commonwealth\u2019s I/M Program, divided into four regions, has grown to around\n8,200 stations throughout 25 counties since 1997. PennDOT estimates nearly 7 million vehicles will be subject to\ninspection by 2025. The Program design provides consumer convenience, supports private inspection stations, and\nimproves air quality. Stations in the Program are responsible for maintaining inspection equipment appropriate for the\nrequired inspection types in the given region.\nPennDOT is seeking a reliable, experienced Offeror to provide Emissions Program Management and continue the\nsuccessful operations of the I/M Program, overseeing safety inspection stations and related systems to keep consumer\nand inspection station costs as low as possible while maintaining vehicle and consumer safety. The Program must\ncomply with federal and state requirements while providing adaptability for future Progr"
+    },
+    {
+      "chunk_id": 1969,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 10,
+      "content": "l ensure the continued success of your Program through our strong foundational Program\nknowledge and performance history of compliance and adaptability with no transition risk. We understand the need\nfor complete separation and no conflict of interest between PennDOT\u2019s Emissions Program Manager and emissions\nequipment providers. We are the only contractor that can guarantee no financial or business relationship with any\ncurrently certified emissions testing equipment manufacturer in Pennsylvania.\nThe selected Program Manager will administer all aspects of the I/M Program under PennDOT\u2019s direction, including the\nrequired services defined in the RFP and outlined in work statement Part I-6. The contractor\u2019s responsibilities include:\n\u00a7 Maintaining the nature and scope of Pennsylvania\u2019s current I/M Program\n\u00a7 Maintaining required geographic coverage and program areas\n\u00a7 Providing a seamless transition that prevents interruption in Program services or data collection by maintaining\ninterfaces with hardware and software and ensuring emission testing equipment transmits data to the Vehicle\nInformation Inspection Database (VIID) identically\n\u00a7 Providing for the storage and handling of all I/M "
+    },
+    {
+      "chunk_id": 1971,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 10,
+      "content": "nspection stations and personnel, primarily in I/M-affected counties throughout Pennsylvania\n\u00a7 Providing a process for investigation and fact-finding regarding safety inspection regulation violations\n\u00a7 Providing necessary periodic and ad hoc reports and project control utilities to monitor Program performance\n\u00a7 Enhancing the current e-SAFETY system, which electronically collects safety inspection data, as directed by\nPennDOT\nWe\u2019ve consistently worked with PennDOT to realize your vision through the successful implementation of policy,\nrequirement, and regulatory changes. In 2012, we seamlessly transitioned more than 8,000 stations to our VIID to\nensure Program continuity. In 2016, we helped revise the OBD inspection equipment specification, replacing dial-up field\nequipment with modern, web-based OBD equipment and then performing acceptance testing to certify the equipment for\nTechnical Submittal 1"
+    },
+    {
+      "chunk_id": 1974,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 11,
+      "content": "actice uses to provide security auditing for high level, sensitive US government programs.\n\u00a7 Covert audit integrity\u2014our undercover vehicle dealership, approved by the Department of State and PennDOT,\nallows us to acquire vehicles without exposure to the inspection industry and the public.\n\u00a7 Institutional knowledge\u2014our knowledge of your EPA-required reporting needs provides an accurate and detailed\nevaluation of the I/M Program.\n\u00a7 Internal training resources\u2014as the only PennDOT-certified Vehicle Emission Inspection School (VEMIS E200), we\ntrain PennDOT Program staff in-house, preventing oversight staff from training with I/M personnel they may\neventually audit.\n\u00a7 Minimal risk during the transition\u2014our current VIID is already in place and functioning and we have the necessary\nexperience to ensure a smooth transition to a cloud-based solution when approved.\n\u00a7 Proven I&E experience\u2014we\u2019ve managed successful I&E efforts in Pennsylvania, communicating with the inspection\nindustry and the motoring public in alignment with your goals. As part of our commitment to SDB inclusion, we\u2019re\nteaming with two Harrisburg-based firms to help fulfill the I&E Program.\n\u00a7 Experienced Court of Common Pleas"
+    },
+    {
+      "chunk_id": 1975,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 11,
+      "content": "and expert testimony in support of PennDOT sanctions against stations and inspectors.\n\u00a7 Program continuity\u2014we have the knowledge to support all three equipment platforms, four manufacturers, and two\nequipment specifications and the infrastructure to support legacy dial-up connectivity.\nParsons ensures a risk-free transition and reliability for PennDOT to ensure the\nI/M Program\u2019s exceptional operational performance and customer service.\nI-2. QUALIFICATIONS\nI-2A: Company Overview\nParsons is a global, 18,000+-person company with 79 years of experience supporting complex programs for its clients.\nWe entered the vehicle inspection industry in 1984, providing referee services for the California Bureau of Automotive\nRepair; our vehicle inspection team began working with PennDOT at the Program\u2019s inception that led to public safety and\na cleaner environment. We deliver cybersecurity, advanced technology solutions, and other services to federal, regional,\nand local government agencies and national and international private industrial customers. Our agile and innovative\napproach enables us to deliver solutions that satisfy our client\u2019s current and future initiatives.\nTechnical Submittal 2"
+    },
+    {
+      "chunk_id": 1978,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 12,
+      "content": "rdless of\nProgram changes supports PennDOT\u2019s compliance with state\nthe number of inspection stations or the\nand federal requirements. Our commitment to regulatory\nnetwork\u2019s geographical distribution.\ncompliance promotes Program integrity and aligns with \u2022 In-place team \u2013 Our team is already in place,\nPennDOT\u2019s goals while simultaneously protecting public health allowing us to focus time and resources on future\nand safety. Certainty plays a crucial role in PennDOT\u2019s decision enhancements versus transitioning systems.\nto choose a vendor for the I/M Program, and Parsons is the \u2022 Strong references \u2013 Our current and past clients\nbest vendor for successful ongoing Program operations and give us positive feedback and references.\n\u2022 In-place corporate resources \u2013 Our financial,\nintegrity.\nstaffing, and infrastructure resources are in place\nOur corporate structure provides all levels of management and ready to continue seamlessly from the\nwith complete access to any resources required to ensure current program.\nProgram success. We have two business units, Critical \u2022 Proven PA success \u2013 We have conducted more\nthan 80 million transactions to date and routinely\nInfrastructure and Federal Soluti"
+    },
+    {
+      "chunk_id": 1980,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 12,
+      "content": "\u00a7 Mike Butler, Vice President and Smart Vehicle Solutions Business Leader with 45 industry years' experience, will\nprovide executive support to ensure Mark has access to necessary corporate resources\n\u00a7 Bonnie McPherson, Vice President and Executive Support with 30 industry years' experience, will support Mark and\nthe Parsons PA team with corporate resource access\n\u00a7 John Ott, Pennsylvania Deputy Program Manager with 35 industry years' experience\nTechnical Submittal 3\n | PARSONS\u2019 RECORD SPEAKS FOR ITSELF |  | \n |  |  | \n | \u2022 On-time delivery \u2013 We have unmatched |  | \n | experience and expertise in delivering and |  | \n | operating I/M Programs on time, regardless of |  | \n | the number of inspection stations or the |  | \n | network\u2019s geographical distribution. |  | \n | \u2022 In-place team \u2013 Our team is already in place, |  | \n | allowing us to focus time and resources on future |  | \n | enhancements versus transitioning systems. |  | \n | \u2022 Strong references \u2013 Our current and past clients |  | \n | give us positive feedback and references. |  | \n | \u2022 In-place corporate resources \u2013 Our financial, |  | \n | staffing, and infrastructure resources are in place |  | \n | and ready to continue sea"
+    },
+    {
+      "chunk_id": 1982,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 13,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\n\u00a7 Darryl McCarthy, senior director/information technology with 33 IT years' experience, including IT system\nresponsibility of all Parsons vehicle inspection programs\nPennDOT prioritizes security and so does our responsive solution. Our dedicated security staff assigned to your\nProgram continuously work with systems and network administrators to improve the VIID environment\u2019s cybersecurity\nand mitigate threats. Since Parsons has a full cybersecurity practice, the vehicle inspection security staff has an arsenal\nof tools at their disposal and a wealth of expertise gleaned from many diverse implementations corporate-wide. Our\nsecurity service includes products and methods for antivirus and malware controls, firewall control process and intrusion\ndetection, safeguarding the database, hardening the hardware\u2019s operating systems, and securing communication\ntransmissions. We conduct monthly internal and quarterly external vulnerability tests and review the results to enhance\nour mitigation plans. Our security strategy also includes security assessments during and after critical system changes,\n"
+    },
+    {
+      "chunk_id": 1983,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 13,
+      "content": "proactive,\ndedicated cybersecurity practice protects customer information, your program\u2019s data integrity, and assesses,\nmonitors, and responds to all aspects of VIID security.\nI-2B: Prior Experience\nParsons has over 25-year history of successful implementations of large, complex, geographically dispersed vehicle\nemissions and safety inspection programs. Our many years of planning, designing, developing, managing, implementing,\noperating, and overseeing vehicle inspection programs has earned us numerous agency accolades. Our record is stellar\u2014\ncompliant, on-time delivery with no disruptions or negative customer impacts.\nParsons\u2019 motor vehicle inspection team is a consistent, high quality provider to the State of Vermont. Each\nand every time there is a program need for a change, Parsons offers innovative, appropriate and timely\nsolutions. They know the program; they know the stakeholders; they understand the State\u2019s objectives and\ngoals. Parsons experience with the industry outside of Vermont, and within our State, results in a valued\npartner relationship.\nWanda Minoli\nCommissioner Vermont DMV\nWe\u2019ve built our reputation by providing quality programs and working closely with our clien"
+    },
+    {
+      "chunk_id": 1986,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 14,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nWe consider the PA I/M Program a hallmark of our success, helping us become an industry leader in decentralized\nvehicle I/M Programs. We\u2019ve worked cooperatively with PennDOT to successfully implement every Program change since\nthe beginning of the I/M Program. We understand the risk associated with Program transitions and mitigate that risk\nthrough our exceptional commitment to the Commonwealth.\nOur current program experience and success, as outlined above, combined with the programs referenced below, attest to\nour ability to deliver a quality I/M Program for the Commonwealth. We encourage you to contact our clients\u2014your\ncolleagues\u2014for their feedback on our performance. We\u2019re confident they\u2019ll speak to our ethical and respectful approach\nto managing program goals and our success in continually creating a business operating environment based on trust and\nrespect. Our personal commitment: we\u2019ll deliver the PA I/M Program on time, drive smart innovation, and provide\nexceptional customer and operational service.\nEXHIBIT I-2-3. PARSONS\u2019 INDUSTRY-LEADING VEHICLE EMISSIONS I/M PROGRAM EXPERIEN"
+    },
+    {
+      "chunk_id": 1987,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 14,
+      "content": "ed Contract Program\nProgram Contact\nName Agency Relevant to PA Experience Term Highlights\nPennsylvania PennDOT All services rendered under All proposed 1997\u20132025 Kara Templeton, See Timeline (Exhibit\nI/M Program Tasks A-M Parsons\u2019 PA Deputy Secretary PennDOT, I-2-2) on Page 5\nteam members Driver and Vehicle Services\nworked on this 1101 South Front Street\nproject Harrisburg, PA 17104\n717.705.1000 (Please\ncontact by telephone)\nKtempleton@pa.gov\nAutomated Vermont Project management, VIID 12 Parsons\u2019 PA 2016\u20132025 Wanda Minoli, Successful 6-month,\nVehicle Department of development, data security, team members DMV Commissioner 1,200-facility\nInspection Motor Vehicles equipment deployment worked on this Vermont DMV implementation and\nProgram (DMV) management, station project 120 State Street, implemented sticker\nmanagement/fee collection, 3rd Floor, Montpelier, VT printing-on-demand\ntraining industry and system 05633-5001\nadministrators, industry 802.828.2020\noutreach, and an industry Wanda.Minoli@vermont.gov\ntechnical support call center.\nNew Jersey New Jersey Project and operations 11 Parsons\u2019 PA 1998\u20132024 Fred Womack, Director of 12 stations received\nMotor Motor Vehicle management, VII"
+    },
+    {
+      "chunk_id": 1988,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 14,
+      "content": "urity, worked on this New Jersey MVC Enhanced\nInspection (MVC) software certification, project I/M Program, 225 East\nSystem equipment ATP, motorist call State Street, 4th Floor, East\ncenter, and PI&E. Wing, Trenton, NJ 08666\n609.633.9460\nFred.womack@mvc.nj.gov\nHawaii Hawaii Program and operations 5 Parsons\u2019 PA 2013\u20132024 Toby Wakumoto, Highway Successfully met the\nElectronic Department of management, VIID team members Safety Manager of the short four-month\nPeriodic Transportation development, station billing, worked on this Motor Vehicle Safety Office implementation\nMotor tablet-based software project Hawaii DOT98-339 timeline and\nVehicle development, Ponohana Place implemented sticker\nInspection implementation experience, Aiea, HI 96701 printing-on-demand\nProgram and station outreach. 808.692.7656\ntoby.wakumoto.@hawaii.gov\nTexas Texas Program management, 7 Parsons\u2019 PA 2006\u20132024 Lisa Cargill, Manager, RSD Provided equipment\nAutomated Department of software development and team members 5806 Guadalupe Street, software updates to\nVehicle Public Safety maintenance, safety worked on this Building I 6,700 private\nInspection inspection program project Austin, TX 78752 inspection stations i"
+    },
+    {
+      "chunk_id": 1993,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 15,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nProgram Government Parsons Services Shared Contract Program\nProgram Contact\nName Agency Relevant to PA Experience Term Highlights\nIntegrated Ontario Program and operations 18 Parsons\u2019 PA 1999\u20132028 Ron Seca, Successfully\nVehicle Ministry of the management of LDV team members Contract Manager transitioned the\nSafety and Environment emissions program, VIID worked on this MOECC40 St. Clair Avenue Ontario Heavy-Duty\nEmissions and Climate development, information project West \u2013 4th Floor Emissions program\nInspection Change systems development, Toronto, Ontario M4V-1M2 to the AWS cloud\nProgram (MOECC) management and reporting, 416.624.8304 with no service\ncall center operations, Ron.seca@ontario.ca interruption or\ninspector training, facility impact to the existing\ncertification, overt and covert Emissions stations\nauditing, program QA/QC,\nfee collection, and\nequipment software\ncertification.\nAttachment A includes detailed descriptions and letters of reference from our clients.\nI-2C: Personnel\nWe offer PennDOT a reliable, experienced team of individuals with unmatched knowledge of the PA I/M P"
+    },
+    {
+      "chunk_id": 2006,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 17,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nParsons staff proposed in the organization chart are already in place, as are our primary subcontractors included on our\nteam. A challenging labor market will not impact Program continuity \u2013 Parsons\u2019 staff with Program knowledge will be\nready on day one, eliminating the need for program recruitment, education, and training, which mitigates transition\nrisk.\nI-2D: Background Checks\nParsons will conduct background checks for all employees and subcontractors with on-site or remote access to\nCommonwealth IT facilities. We\u2019ll provide written confirmation that the background checks have been completed via\nPennDOT\u2019s outlined procedure. We will not assign any employee who fails the background check. Current employees who\nfail a background check will have their access privileges revoked. We will conduct background checks at our expense\nbefore initial access and then annually. We understand that PennDOT may withhold access at its discretion.\nI-2E: Subcontractors\nOur subcontracting plan includes actively recruiting partners that share Parsons\u2019 core values and PennDOT\u2019s goals and\nwill add expertise,"
+    },
+    {
+      "chunk_id": 2011,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 18,
+      "content": "lications developed for PennDOT in relation to the\nSection I-6 Tasks. We have extensive experience training state agency staff on using system tools for the\nadministration of the programs we deliver.\nOur training approach provides effective and efficient training for all Program-related PennDOT Managers, office staff,\nand field auditors. We will offer 4-hour training classes on our systems for PennDOT staff and provide additional\nspecialized training for identified \u201csuper users\u201d for each application. We will provide initial training for all PennDOT users\nduring the implementation period and will conduct training at additional intervals throughout the life of the contract at\nPennDOT\u2019s request. This will ensure appropriate training for staff that may change roles and accommodate additions to\nthe project team. Additionally, we will offer refresher training to any PennDOT personnel as needed to address any major\nupdates, Program changes, or application enhancements.\nParsons custom-designs its I/M management systems solutions, and we involve all our trainers in developing and\nsupporting Pennsylvania\u2019s program-specific systems and applications. Our staff conducting training are fully ver"
+    },
+    {
+      "chunk_id": 2018,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 19,
+      "content": "rogram changes through coordination with PennDOT and our operational abilities and systems\nexperience. During the 2012 recompete, we moved from subcontractor to primary contract holder and seamlessly\ntransitioned the Vehicle Information Inspection Database (VIID) from the previous vendor. The Program encountered no\nTechnical Submittal 10\n | VEHICLE SAFETY AND EMISSIONS INSPECTION |  | \n | CERTIFICATION |  | \n | As the only vendor designated as a PennDOT- |  | \n | certified Vehicle Emission & Safety Inspection |  | \n | School, we can certify PennDOT personnel as |  | \n | vehicle safety, enhanced safety, and emission |  | \n | inspectors. |  | \n | OUR FINANCIAL STABILITY BENEFITS PENNDOT |  | \n |  |  | \n | As a global company with annual revenues |  | \n | exceeding $4.5 billion, Parsons\u2019 financial |  | \n | stability is founded on the following |  | \n | conservative business practices: |  | \n | \u2022 A robust risk management program |  | \n | \u2022 Accountability and incentives for management |  | \n | staff |  | \n | \u2022 Careful subcontractor selection and |  | \n | management |  | \n | \u2022 Extensive training, tools, and audits |  |"
+    },
+    {
+      "chunk_id": 2020,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 20,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\ninterruption in services or operations. Our experience and understanding of the implemented Program changes gives us\na unique understanding of I-5A-E\u2019s requirements.\nThis decentralized Program\u2019s size and complexity poses considerable transition risk to PennDOT and a new contractor.\nOur fully operational and proven VIID mitigates all transition risks and poses no threat to the continuation of a fully\nfunctioning I/M Program, allowing us to focus on implementing improvements and advancements. Through our\nmodernization of the Ontario DriveON program to Amazon Web Services (AWS) in 2022, we have the knowledge and\nexperience to implement our proposed PA I/M Program VIID systems update safely and ensure the continuity of all\nservices we provide. On the new AWS system, we will leverage our established data handling, program operations, and\noversight, allowing us to focus on the future of the I/M Program. We commit to performing all RFP-requested\nrequirements.\nOur adaptability, reliability, and adherence to compliance are unmatched\u2014and we understand the I/M Program\nrequirements and structure be"
+    },
+    {
+      "chunk_id": 2022,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 20,
+      "content": "ompliance with Pennsylvania\u2019s current or future approved I/M Program. We\u2019re responsive\nto the changing industry needs and the dynamic environment of regulatory and program changes and look forward to\nsupporting the Commonwealth\u2019s modernization initiatives.\nI-5E: Transition\nAs recent program transition and implementation issues in other states illustrate, contract transitions and associated\nimplementations can introduce risk to an I/M Program. Selecting Parsons to continue managing PA\u2019s I/M Program\neliminates the need for a comprehensive transition plan for the baseline Program and possible transition pitfalls.\nInstead, we\u2019re ready to propose advancements and support PennDOT initiatives to enhance the I/M and Safety\nPrograms.\nParsons\u2019 experience, systems, and infrastructure mitigate transition risks better than any other vendor. Our Program\nknowledge and experience have resulted in uninterrupted delivery of the PA I/M Program. Our vetted personnel, tested\nsystems, approved procedures, and proven resources are in place to deliver PA\u2019s I/M Program. Our system\ncommunicates with all manufacturers\u2019 testing equipment, as evidenced through our PennDOT-approved testing and\nprocedural plans."
+    },
+    {
+      "chunk_id": 2025,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 21,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nallows PennDOT to focus on improving the existing formats and content instead of recreating a baseline with a new\nvendor. In addition, our Service Level Tracking Application automates the identification of contract requirements and\ndetermines if the metric has been met, offering the Commonwealth a convenient and reliable method of measuring\nour deliverable compliance.\nParsons commits to the go-live date of October 1, 2025, with uninterrupted operations of the I/M Program. We have\nestablished systems, experience, and reliable operations, removing the transition risks of moving to a new contract\nperiod. Parsons\u2019 consistent open communications with PennDOT facilitates resolution of any issues in the PA I/M\nProgram.\nI-5F: Disaster Recovery\nDisaster prevention and recovery is a mainstay of Parsons\u2019 IT systems and operations methods and we have consistently\nmaintained a reliable network and mitigated risks through our disaster recovery approach. Our primary goal in disaster\nrecovery (DR) is to manage the event to reduce its impact and ensure continuous delivery of the PA I/M Program. We\nactiv"
+    },
+    {
+      "chunk_id": 2028,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 21,
+      "content": "r recovery\nplans. We have completed successful tests of the Disaster Recovery Plans (DRPs) for the PA I/M Program at least\nonce a year and after any major system release, upgrade, or recovery effort.\nOur current proven and approved VIID Disaster Recovery Plan focuses on all activities required to recover critical IT\nservices. We will continue to test, review, and update it as needed to meet recovery objectives. We will test the DRP\nprocedure in conjunction with PennDOT no later than 30 days from the go-live date; having Parsons staff who are\nexperienced in the system architecture and on-the-ground activities of the Program mitigates transition risk to PennDOT.\nThe objective of the DRP test is to verify the team\u2019s preparedness, ensure the automatic failover functionality, and\nTechnical Submittal 12\nPROGRAM | SYSTEM AVAILABILITY\nNew Jersey Motor Vehicle Inspection System | 99.99% uptime since October 2013\n | \nPennsylvania Vehicle Emissions I/M Program | 99.99% uptime since October 2012\n | \nDriveON Ontario | 100% uptime since April 2022\n |"
+    },
+    {
+      "chunk_id": 2031,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 22,
+      "content": "ff assignment of responsibilities in the event of a disaster\n\u00a7 A prioritized list of applications crucial to system recovery\n\u00a7 Operation procedures used to ensure a timely and orderly system recovery\nThe role of our Disaster Recovery Coordinator, Mark Colangelo, is outlined in the DRP. Parsons\u2019 Disaster Recovery Plan\nfor the PA I/M Program is included in Attachment B of our technical submittal, and as we modernize the system\nenvironment, we will update the DRP.\nI-5G: Back-Up and Back-Up Storage\nParsons has established procedures for backup of all data and application files. Our experience in other programs with\nretrieval and recovery of data and application files is reflected in the careful development of the back-up plan for the PA\nI/M Program. PennDOT has approved our procedures, minimizing concern and transition risk to the Commonwealth upon\ntransition to the new contract. The backup plan includes:\n\u00a7 Daily real-time full and incremental application files and data backups\n\u00a7 Instant backup and recovery of data from snapshots\n\u00a7 Configuration management system and application code stored in version control system, included in daily backup\nTo protect against data corruption, and to p"
+    },
+    {
+      "chunk_id": 2040,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 24,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nContinuity of Operations\nEven the most robust incident management plan requires knowledgeable staff for effective implementation and\nmanagement. Our team has knowledge and experience managing incidents without negative impact to the client and\ncustomers. We deliver training on our emergency preparedness plans to all staff, including key Program personnel.\nEXHIBIT: I-5-2. EMERGENCY PREPAREDNESS TRAINING FOR PROGRAM STAFF IS A CRITICAL ELEMENT TO OUR OPERATIONS.\nType of Training Recipients Frequency\nComplete Procedure Training All employees Upon hire\nFacility-specific Plans All employees for applicable facilities Upon transfer or role change\nRefresher Training All employees Annually or upon Plan update\nManagement Role Training Key Project Personnel Upon hire and annually\nTraining includes reviewing plans in detail with employees, conducting office closure drills, and reviewing interactive\nplans with diverse employee groups. Consistently reviewing, updating, and improving the plan provides PennDOT\nconfidence in our successful activation and continuity of operations delivery. We will test t"
+    },
+    {
+      "chunk_id": 2045,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 25,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nprogram knowledge ensures that we have the technical ability to meet the RFP requirements. We consistently meet\nPennDOT\u2019s expectations in program delivery, adapted our delivery based on State feedback, reviewed our processes for\ninefficiencies, and continually implemented PennDOT-driven and responsibly innovative enhancements. Our proposed\nwork plan leans into our shared core values of Safety and Sustainability and combines our extensive experience in\nvehicle inspection programs with our effective methodologies, processes, and procedures.\nIn the following pages, we describe our technical plan to accomplish the work critical to continuing the PA I/M Program.\nRecognizing PennDOT expects a contractor with broad industry experience, we also highlighted other experience that\ndemonstrates how Parsons is a reliable and adaptable contractor. We have and will continue to meet PennDOT\u2019s\nexpectations and provide solid operation of the PA I/M Program while creating the springboard for Program\nenhancement.\nProgram Schedule\nWe include a schedule and outline of milestones, tasks, and critical paths as"
+    },
+    {
+      "chunk_id": 2046,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 25,
+      "content": "s in Attachment C. The Gantt chart designates a start and completion date for each\ntask, with the duration (in days) to accomplish all stages of each program enhancement identified for each task. The\nGantt chart is our primary tool for tracking program progress and schedules, and we will reference it in weekly progress\nmeetings during the implementation phase of the contract. PennDOT retains final approval of the proposed draft\nschedule. Using a defined change management process, we will document any deviations from the established timeline\nand mitigate any delay issues as quickly as possible.\nTask A: Storage and Handling of All Pennsylvania I/M Program-Related Data\nTo maintain critical service continuity, we will migrate all systems to the Amazon Web Service (AWS) cloud environment.\nThe upgraded, cloud-based VIID will include enhanced reporting and data management features along with enhanced\nscalability, security, and recovery, allows for efficient implementation of PennDOT\u2019s Program and system changes to meet\nfuture requirements of the Program. Any risk associated with the AWS migration is eliminated by our existing fully\nfunctional VIID currently supporting the PA I/M Program. "
+    },
+    {
+      "chunk_id": 2050,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 26,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\ncitizens\u2019 expectation of government services and information being reliable and available on an ongoing basis to ensure\nbusiness continuity. If a workstation cannot communicate with the VIID, the equipment can continue operating offline,\nminimizing impact to the public. Throughout the entirety of the contract, we will communicate with PennDOT\u2019s Vehicle\nInspection System in real-time, which will provide the Commonwealth with full, immediate, and secure access to all data\nmaintained in the system. The VIID will provide a full suite of predefined management reports and ad hoc reporting\ncapabilities. We will leverage our experience building and operating hardware, software, network infrastructure, and\napplication development to acquire, implement, test, and deliver a highly available and secure system for the testing\nfacilities to connect to the VIID.\nIn addition, we provide uninterrupted dialup service for the\nFACILITATING PENNDOT\u2019S STATION\nProgram for tailpipe analyzer communications. We have the\nMANAGEMENT\nnecessary experience to maintain, support, and troubleshoot\nParsons is the only ve"
+    },
+    {
+      "chunk_id": 2051,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 26,
+      "content": "in place to maintain legacy and\nuniquely positioned to provide uninterrupted service for the PA\ncurrent technology, ensuring zero transition\nI/M program by fully supporting legacy communication\nrisk. We have extensive knowledge of\nprotocols.\nPennDOT\u2019s systems, allowing us to facilitate\nStation connectivity, data handling, and data storage are implementing new technology to integrate with\nprogram imperatives foundational to the operation of the PA I/M PennDOT\u2019s Vehicle Inspection System.\nProgram. We have the required IT solutions, hardware, and\ncommunication infrastructure to support a program of this size and complexity. We will complement PennDOT\u2019s initiatives\nthrough enhancements to our own systems infrastructure in the AWS cloud. In 2022, we successfully transitioned the\nOntario Heavy-Duty Emissions program to the AWS cloud with no service interruption or impact to the existing\nEmissions stations. Parsons\u2019 extensive experience working in conjunction with PennDOT\u2019s systems and users provides\nthe best value for developing innovative solutions for the Commonwealth.\nA.1 I/M Data Handling System\nParsons\u2019 experience in the AWS environment will advance the PA I/M Program\u2019s data handlin"
+    },
+    {
+      "chunk_id": 2053,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 26,
+      "content": "that concurrently supports both legacy dial up for three\ndifferent TSI analyzers and IP-based communications for three different OBD/VIS analyzers in the same VIID as required\nfor the PA I/M Program. We have been successfully operating the VIID interfaces with multiple legacy communication\nprotocols that support and maintain all the required communication protocols. This includes the latest communication\ninterface required for the current OBD/VIS equipment for the equipment manufacturers to integrate into their equipment.\nWe also support test equipment in the PA I/M Program that can be as much as 26 years old. Creating new systems to\ninterface with this legacy equipment would be an additional Program risk.\nIn addition to the complications posed by the variation in test equipment, the required network infrastructure for both\ndialup and Internet-based communications to support the different protocols is challenging. We are the only vendor with\nthe necessary network hardware in place and operationally positioned to continue supporting all the PA I/M\nTechnical Submittal 17\n | FACILITATING PENNDOT\u2019S STATION |  | \n | MANAGEMENT |  | \n | Parsons is the only vendor with the required |  | \n"
+    },
+    {
+      "chunk_id": 2054,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 26,
+      "content": "t technology, ensuring zero transition |  | \n | risk. We have extensive knowledge of |  | \n | PennDOT\u2019s systems, allowing us to facilitate |  | \n | implementing new technology to integrate with |  | \n | PennDOT\u2019s Vehicle Inspection System. |  |"
+    },
+    {
+      "chunk_id": 2056,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 27,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nProgram equipment. Any other direction, such as implementing additional equipment, in our experience, would pose\nsignificant Program risk. Our operational system poses no such risks for the new contract.\nWe currently operate successful I/M programs in New Jersey, Vermont, and Ontario and have been the Prime contractor\nfor the Pennsylvania Program for the past 11 years. Our foundational knowledge, deep-seated resources, and personnel\nyou know ensures the solid operation of the I/M Program while creating the springboard for Program enhancements and\ninnovations as determined appropriate by PennDOT.\nAs part of our commitment to continuous improvement, and complementing PennDOT\u2019s modernization efforts, we\nwill add new features to our Station Management Portal web-based application to allow stations to self-manage\nseveral aspects directly related to their business. Instead of calling Parsons or PennDOT to perform changes, stations\nwould go online to perform functions, such as but not limited to station enrollment, adding or removing technicians\nassigned to their inspection analyzer, and updat"
+    },
+    {
+      "chunk_id": 2057,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 27,
+      "content": "System to validate driver and inspector license privileges before inspector assignment.\nParsons has made a strategic decision to use the AWS cloud platform for all new I/M program implementations to\ntake advantage of the availability, scalability, and response time features provided with managed services within the\nAWS cloud environment. As part of our improvements to the Pennsylvania system and with PennDOT\u2019s approval, we\nwill migrate the underlying I/M Data Handling System infrastructure and development architecture from the\nexisting, on-premises platform to AWS Cloud platform. We\nUTILITY-SCALE INFRASTRUCTURE OFFERS\nsuccessfully migrated the Heavy-Duty Emissions program in\nSTABILITY\nOntario to AWS with no impact to the existing stations or the\nMinistry of Transportation and will use the same team with Shared infrastructure provided on massive\nCONUS production support to migrate the Pennsylvania system. scales by AWS Cloud would provide the\nBy taking advantage of the many features AWS provides, we will Commonwealth with a scalable infrastructure,\nadd flexibility, security, and efficiencies for application hosting. the highest commercially available\ncybersecurity protections, and t"
+    },
+    {
+      "chunk_id": 2061,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 28,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nWe will also supply updated information by means of electronic technical bulletins to I/M stations. By using the\ncommunication interfaces between the VIID and the equipment manufacturers software, in addition to providing a\nmechanism for the exchange of inspection data, we will provide lockouts, emission control system data, Technical\nService Bulletins (TSBs) and recalls, and electronic technical bulletins to comply with EPA Rules at 40 CFR \u00a751.369. We\nwill also include information related to the legal requirements of State and Federal law with respect to emission control\ndevice tampering, engine switching or similar issues, changes in the I/M program, and common problems found with\nengine families. We have successfully implemented and will continue to deliver all elements of this process at no cost to\nPennDOT or the stations.\nWe were instrumental in PennDOT\u2019s effort to implement the I/M inspector certification, recertification, and safety\ninspector recertification training data transfer projects. Moving forward, if the EFT emissions inspection data protocol\nis replaced, we will provide"
+    },
+    {
+      "chunk_id": 2064,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 29,
+      "content": "fort to implement the I/M inspector certification, recertification, and safety\ninspector recertification training data transfer projects. Moving forward, if the EFT emissions inspection data protocol\nis replaced, we will provide a real-time web service interface to PennDOT for transferring the I/M inspection data. Our\nunderstanding of your modernization plan reduces the need for PennDOT\u2019s resources for a successful implementation.\nTechnical Submittal 20\n | 1 |  |  | Inspection Test Units will access VIID system resources via secure web services. | \n2 |  |  |  |  | \n | 3 |  |  | Parsons\u2019 operations team will manage the System via encrypted channels. | \n4 |  |  |  |  | \n5 |  |  |  | AWS Web Application Firewall is enabled on CloudFront distributions and ALB and protects our applications against | \n |  |  |  | common web attack patterns such as SQL injection and cross-site scripting. AWS Shield Firewall protects against distributed | \n |  |  |  | denial of service (DDoS) attacks. | \n6 |  |  |  |  | \n | 7 |  |  | Load Balancer distributes traffic across application endpoints in two active availability zones. | \n8 |  |  |  |  | \n9 |  |  |  | AWS Fargate is a highly scalable, high-perfor"
+    },
+    {
+      "chunk_id": 2091,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 34,
+      "content": "se to Task I-6. Our PennDOT-approved testing procedures ensure that all applicable\nspecifications, calibrations, quality control requirements, and other requirements contained in EPA rules and PA I/M\nregulations are met by all equipment and that software meets all I/M Program requirements. We developed\ncomprehensive ATP scripts for every equipment implementation and update in the PA I/M Program. We will work in\ncooperation with the I/M equipment manufacturers and PennDOT in the development of application specifications and\noperations applications for all I/M test systems.\nAll of Parsons\u2019 developed applications provide common user interfaces, communications routines, data processing, and\nquality assurance. Building on our experience, we will continue to work in consultation with PennDOT to test and approve\napplications as needed in PennDOT\u2019s modernization efforts.\nTechnical Submittal 25\n | INTELLIGENT ARCHITECTURE |  | \n |  |  | \n | Our system architecture in the AWS cloud |  | \n | allows us to perform most system |  | \n | maintenance and upgrades with no downtime, |  | \n | which means no impact on end users, |  | \n | including I/M stations performing inspections. |  |"
+    },
+    {
+      "chunk_id": 2093,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 35,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nWe will also implement all future software, firmware, and\nWE\u2019RE ALREADY UP TO SPEED\nhardware updates in cooperation with the equipment\nmanufacturers. This will be done at no additional cost to Our foundational knowledge of your Program\nPennDOT. We acknowledge the unpredictability of the number of means there\u2019s no learning curve, and we don\u2019t\nfuture updates that will require acceptance testing as well as lose time during transition \u2013 we can focus on\nthe future.\nthe variability in size, nature, and timing of the software\nupdates. We commit to working with the equipment\nmanufacturers and PennDOT to complete acceptance testing as required. The VIID will capture the version numbers of\nthe deployed software and firmware and provide reports which ensure the release of only authorized software.\nWe have a thorough understanding of the different types of equipment certified for use in Pennsylvania and our\nestablished relationships with all equipment manufacturers ensures the robust continuation of all Acceptance\nTesting Protocol (ATP) services, providing confidence to PennDOT for the uninterrupte"
+    },
+    {
+      "chunk_id": 2096,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 35,
+      "content": "ers with remote access to the VIID database through a web-based portal with\nfunctionality that displays station/technician data, audit information, training information, motorist compliance, hearings\nand suspensions, and a reporting tool that includes predefined management reports and allows users to create their own\nad hoc reports and queries.\nAccess to the application will be limited to authorized users identified by PennDOT and will require username and\npassword prior to using the system. Based on the roles assigned to the user, different functions and features will be\navailable to them when they log into the web portal. The software will allow for unlimited access to all data collected\nwithout an associated transaction fee charged to personnel authorized by PennDOT.\nTechnical Submittal 26\n | WE\u2019RE ALREADY UP TO SPEED |  | \n |  |  | \n | Our foundational knowledge of your Program |  | \n | means there\u2019s no learning curve, and we don\u2019t |  | \n | lose time during transition \u2013 we can focus on |  | \n | the future. |  |"
+    },
+    {
+      "chunk_id": 2097,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 35,
+      "content": "ED |  | \n |  |  | \n | Our foundational knowledge of your Program |  | \n | means there\u2019s no learning curve, and we don\u2019t |  | \n | lose time during transition \u2013 we can focus on |  | \n | the future. |  |"
+    },
+    {
+      "chunk_id": 2098,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 36,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nA.8 Data Transfer Between Parsons and PennDOT\nOur system provides the capability to transfer data to and from PennDOT\u2019s systems and we will maintain electronic\ncommunications and resolve any VIID or database problems. We are prepared to transfer data through the existing\nElectronic File Transfer (EFT) process or a modernized method using web services. Parsons\u2019 hands-on experience and\nknowledge of PennDOT\u2019s systems, gives us insight into automating transfers to PennDOT using web services. Two\nexamples of this include the current solution to populate data directly into PennDOT\u2019s database for the successful\nimplementation of the Safety Inspection Mechanic Recertification as well as sending the Emission training results\ndirectly to PennDOT systems.\nWe will provide a means of updating the vehicle I/M information on PennDOT\u2019s Commonwealth Automated Registration\nand Titling System (CARATS) system with data collected from the VIID. We will conform to the schedule determined by\nPennDOT for these updates. If the CARATS system is changed as part of any PennDOT modernization process, we will\nmodify"
+    },
+    {
+      "chunk_id": 2100,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 36,
+      "content": "AWS system. The advantage of a cloud-based solution is its on-demand, utility-\nstyle scalability that can handle the unpredictable nature of vehicle inspections found in the I/M Program\u2014 such as the\nincreased workload and throughput required when peak demands occur, especially at the start and end of each month.\nA.10 Development and System Changes\nAll changes will be made in a reasonable period, as jointly determined by PennDOT and Parsons. For system and\ninfrastructure changes, we provide isolated environments for development, testing, and staging which are separate from\nprimary and backup production. Each environment is placed in a\nseparate network segment, and access to each is carefully WE ADAPT TO SYSTEM CHANGES THROUGH\ncontrolled to ensure only authorized people or processes have AGILE DEVELOPMENT\naccess to the systems.\nThe agile development process gathers\nOur team will use our established and reliable change feedback between parties to provide accuracy,\nalignment, and improved outcomes during\nmanagement processes to perform system or application\nproduct development. We\u2019ve successfully used\nchanges. We start with a thorough analysis of the requirements\nthis approach on the C"
+    },
+    {
+      "chunk_id": 2101,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 36,
+      "content": "rors\nOntario, and Vermont I/M programs. Agile\nare captured before transitioning from one environment to\nallows our team to work closely with\nanother, resulting in the reduction of unexpected outcomes\napplication end users to ensure we provide the\nbefore the final product hits production. We will implement all\nright solution to meet their business needs.\nsystem changes using the Agile development methodology. Agile\nconsists of an iterative and incremental development approach based on frequent feedback loops between the end\nusers of the system and the agile scrum team. Increased feedback between parties provides greater accuracy and meets\nexpectations. Feedback loops also speed the development process and ensure greater satisfaction of the outcomes.\nTechnical Submittal 27\n | WE ADAPT TO SYSTEM CHANGES THROUGH |  | \n | AGILE DEVELOPMENT |  | \n | The agile development process gathers |  | \n | feedback between parties to provide accuracy, |  | \n | alignment, and improved outcomes during |  | \n | product development. We\u2019ve successfully used |  | \n | this approach on the California, New Jersey, |  | \n | Ontario, and Vermont I/M programs. Agile |  | \n | allows our team to work closely wit"
+    },
+    {
+      "chunk_id": 2104,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 37,
+      "content": "ram QA and oversight\nactivities that meet or exceed Commonwealth requirements. Our QA/QC program has evolved in conjunction with\nPennDOT\u2019s needs to continuously meet Commonwealth and EPA requirements. Our solid Program operation and\noversight allows us to adapt our robust and proven existing solutions for I/M Program oversight activities and will bring\nPennDOT, Program participants, and the motoring public the best value without introducing any transition risk.\nUpdated Auditing Applications\nBuilding on our experience in the PA I/M Program, our move to AWS will allow us to implement a new electronic\nauditing system to adapt to changing requirements and technology. This updated system will use devices with built-\nin 5G cellular and Wi-Fi hardware to maximize connectivity to the VIID, and printing and image capture capabilities. It\nwill also support the use of smartphones for covert and remote visual applications. The new system will facilitate\noversight functions, enabling quicker review and reaction by both Parsons and PennDOT to auditing anomalies. The\nnew auditing solution will support overt I/M auditing, covert I/M auditing, safety/enhanced safety auditing, remote\nrecord audits, "
+    },
+    {
+      "chunk_id": 2109,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 38,
+      "content": "fessional oversight personnel dedicated to this project. Our personnel are in place,\nknown to their PennDOT counterparts, and are direct employees who have established proficiency in the I/M Program,\neliminating staffing risks associated with Program transition. We will build on their knowledge, expertise, and\naccountability to ensure PennDOT receives qualifiable and quantifiable results from oversight activities.\nAs the only vendor with a PennDOT-certified Vehicle Emission\nPARSONS\u2019 EXPERT INHOUSE INSTRUCTORS\nInspection School (VEMIS E200), we conduct program staff\ntraining in-house, eliminating wait times for available public Our team includes three certified Vehicle\nclasses and ensuring a much smaller student to instructor Emissions Inspector Instructors (John Ott, Karl\nratio. Wagner, and Randall Udavcak). Karl Wagner\nand Randall Udavcak are also ASE-certified\nAll Parsons personnel, including new employees, undergo a fleet technicians.\ncriminal history record check, a check of their driving record,\nand receive the applicable training described in this task. In addition to Program training, all our employees undergo\nannual training in Parsons\u2019 core values of safety, quality, integ"
+    },
+    {
+      "chunk_id": 2144,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 45,
+      "content": "h volume of manual VIN entries \u25aa Improper 5,000-mile exemption \u25aa Multiple OBD not ready rate\nissuance\nThe following exhibit provides two examples of record audit analysis methodologies.\nEXHIBIT I-6-6. RECORD AUDIT ANALYSIS METHODOLOGY EXAMPLES\nRecord Audit Name Description Method\nVIN OBD Protocol v. Expected This trigger will identify vehicles where the OBD The VIID trigger will review each OBD test. If the recorded OBD\nProtocol for YMM communications protocol of the vehicle under communication protocol does not match the identified\ntest does not match the OBD communications communication protocol for similar YMM vehicles, the inspection\nprotocol for identical YMM vehicles. will be flagged as possible clean screening.\nAnalyzer Software/Firmware This trigger will compare software and firmware The VIID trigger will review PAS ID, software and firmware version\nVersion Verification version sent from analyzers against a reference information in test records and compare against a reference table\nlist to ensure compliance with current versions. to ensure the analyzer is running the correct software and firmware\nfor the identified Equipment Manufacturer. If the versions do not\nmatch, a loc"
+    },
+    {
+      "chunk_id": 2145,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 45,
+      "content": "consultation, evaluation, and implementation of Program triggers for OBD inspection\ndata and additional analysis in support of vehicle emissions control system defeat device investigations. Revecorp\nhas worked with all major manufacturers of emissions test equipment and vehicle inspection data systems.\nTechnical Submittal 36\nRecord Audit Name | Description | Method\nVIN OBD Protocol v. Expected | This trigger will identify vehicles where the OBD | The VIID trigger will review each OBD test. If the recorded OBD\nProtocol for YMM | communications protocol of the vehicle under | communication protocol does not match the identified\n | test does not match the OBD communications | communication protocol for similar YMM vehicles, the inspection\n |  | \n | protocol for identical YMM vehicles. | will be flagged as possible clean screening.\nAnalyzer Software/Firmware |  | \nVersion Verification |  | \n |  |"
+    },
+    {
+      "chunk_id": 2183,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 53,
+      "content": "RM provide access to information sources needed to build a complete, personalized\ncustomer experience through this integration, achieving the overall Program requirement of a modern digital\nsolution.\nOur Zendesk tool uses application programming interfaces (APIs) to extract stored data from inspection stations and\ninspectors to create \u201ccustomers\u201d in the CRM. The call center CSR workspace displays the customer information\nautomatically when caller information (e.g., phone number or inspection station ID) is passed from the phone system.\nThe APIs allow us to extend CRM capabilities and integrate the database, Business Intelligence tools, VIID, and other\napplications, making complex tasks simpler and generating a shorter system implementation timeframe. The subset we\nwant is defined as \u201call open tickets\u201d with a particular tag. The search API can easily return this information for export.\nOur API authorizations will require a token or OAuth access. Base64-encoded encryption in the HTTPS authorization\nheader ensures the safety of data while in transit.\nOur Zendesk CRM provides:\n\u00a7 Centralized database: Customer information centralized under one software that\u2019s accessed, shared, and\nmanag"
+    },
+    {
+      "chunk_id": 2231,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 63,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\ntesting, approval of applications, and future hardware, software, and firmware updates. We will monitor the entire\nsystem, including communications between the emissions stations and the VIID, as well as between the VIID and\nPennDOT.\nEquipment/Software Certification\nA cornerstone of the PA I/M Program is ensuring inspection equipment and software conforms to the required\nspecifications and PA I/M regulations. Our firsthand, in-depth knowledge of all types and generations of inspection\nequipment in the I/M Program, with no financial interest in any EM, will ensure integrity in the acceptance testing\nprocess. Parsons has managed emissions equipment certification for PennDOT for the following initiatives:\n\u00a7 1997: ASM/TSI testing and implementation\n\u00a7 2003: ASM final cut point implementation and OBD/VIS testing and implementation\n\u00a7 2005: OBD/VIS specification revision testing and implementation\n\u00a7 2012: VIID testing and implementation\n\u00a7 2016: OBD/VIS specification revision testing and implementation\n\u00a7 2018 to present: testing and implementing OBD/VIS software/firmware updates\nWe will continue"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "title": "Personnel, Staffing, and Training Infrastructure for Vehicle Inspection Program Operations",
+  "capability_statement": "Parsons brings a fully operational, field-tested staffing model and training infrastructure built across more than 26 years of running large-scale vehicle inspection and maintenance programs. The model is anchored by a full-time Program Manager (Mark Colangelo, 38 industry years; 25 years on the comparable I/M program) supported by a dedicated Deputy Program Manager (John Ott, 35 industry years; 26 years on the program), an Executive Support tier of Vice Presidents who guarantee corporate-resource flow to the program (Mike Butler, 43 industry years; Bonnie McPherson, 30 industry years), and a Principal Technical Specialist, Technical Project Manager, Product Development Manager, and IT Operations Manager (chunks 1966, 1979, 1980, 1995, 2023). Below the executive tier, Parsons has demonstrated the ability to deploy a layered field workforce composed of regional and satellite-based managers operating from a headquarters office and three regional/satellite locations, plus 16 executive and professional personnel, 43 IT analysts/developers/database administrators, 45 overt auditors, 34 covert auditors, 18 support staff, and approximately 500 vehicle inspection and compliance staff in total available to support an inspection program of this scope (chunks 1994, 1995, 2023). Parsons commits that its proposed staff and primary subcontractors are already in place on day one, eliminating recruitment, education, and training delays during mobilization and mitigating transition risk in a challenging labor market (chunks 1928, 1963, 2006). Substitute personnel are formally vetted: resumes for proposed substitutes are submitted with qualifications equal to or better than those originally proposed (Section 5.5 / R-023). For hiring and onboarding, Parsons conducts criminal background checks for all employees and subcontractors with on-site or remote access to client IT facilities at its own expense before initial access and annually thereafter, will not assign any employee who fails the background check, and revokes access privileges for current employees who subsequently fail (chunk 2006). Personnel-security processes are designed to ensure all personnel with access to client information have appropriate background, skills, and training (Section 6.3 / A-011), and separation-of-duties, non-disclosure, and need-to-know data handling are enforced at the workforce level (Section 9.1.12 / R-027). Parsons supports recognized collective-bargaining commitments to offer employment first to covered CBA employees of the prior vendor (Section 4.10.4.A.a / R-106), administer the 90-day probationary period following two weeks of training (Article V.1 / A-039), publish work schedules 30 days in advance with two-week notice for training adjustments (Article VIII.13 / A-043), and supply uniforms with the laundering, replacement, and maintenance-allowance terms specified for Lane Technicians ($500 ERT/Technical Specialist allowance, $300 Material Handler allowance; 5 trousers/5 shirts plus baseball hat at hire and annually for Material Handlers/ERT/Technical Specialists; 11 trousers/11 shirts at hire for Lane Technicians plus seasonal hats and gloves annually; weekly laundry pickup of 5 sets per Lane Technician). Inspector uniforms are sourced and approved through the State Contract Manager (SCM) per Section 4.10.J. For ongoing training, Parsons operates an in-house training infrastructure that, on a comparable program, includes the only state-certified Vehicle Safety and Emissions Inspection School (VEMIS E200) operated by an inspection program contractor, with three certified Vehicle Safety Inspection instructors and Vehicle Emissions Inspection instructors (John Ott, Karl Wagner, Randall Udavcak) and a 10-students-per-instructor classroom ratio, with one-to-three-day curricula scaled to student experience (chunks 1974, 2016). Parsons custom-designs its training materials starting with a needs analysis and learning objectives for each curriculum, will secure SCM written approval for all training materials prior to activation of initial training (R-101), conducts initial training during implementation, ongoing training at additional intervals, and refresher training tied to major updates, program changes, and application enhancements, and will deliver training at a client location, at any of the regional offices, one-on-one desk-side, or via virtual classroom (chunks 2011, 2012, 2015). Parsons commits to provide periodic and ongoing information security awareness training to personnel upon hire and at least annually thereafter, with training records maintained in the personnel file (Section 6.4 / A-018, A-019, A-020) and training extending to remote-access security risks for users (Section 6.7.C / A-059). The training-curriculum scope can address all required mandatory topics including air pollution causes/effects (R-091), quality control procedures and purpose (R-097), and public relations (R-098), and Parsons' VEMIS E200 framework can certify client personnel and management staff as vehicle safety, enhanced safety, and emissions inspectors so that oversight staff are not co-trained with the personnel they will eventually audit (chunk 1974). For staffing-roster discipline (R-072), Min/Max staffing plans across daily/weekly/monthly cycles (R-039), making all personnel and backup staff available across labor categories (R-065), key-personnel deployment during mobilization (R-047), and recruitment with backup-staffing plans (R-048), Parsons brings the ready-to-use staffing model and the corporate scale (18,000+ employees, 5,000+ current projects, 250 offices worldwide; $4.5B+ annual revenues) to surge or replace personnel without program disruption.",
+  "named_past_performance": [
+    {
+      "name": "Comparable State I/M Program (Mid-Atlantic, 26-year tenure)",
+      "scope": "End-to-end personnel and training operations for a long-running state Inspection and Maintenance program: full-time Program Manager (11 years on station for the current PM), Deputy Program Manager, Principal Technical Specialist, Technical Project Manager, Product Development Manager, IT Operations Manager, and approximately 500 vehicle inspection and compliance staff including 16 executive/professional personnel, 43 IT analysts/developers/DBAs, 45 overt auditors, 34 covert auditors, and 18 support staff; in-house, state-certified Vehicle Safety and Emissions Inspection School with three certified instructors and the role of certifying state oversight personnel.",
+      "outcome": "Continuous program continuity demonstrated across multiple recompetes, including the 2012 transition of more than 8,000 stations to the central VIID with no service interruption; 2023 increase of overt audit staff in response to the agency's request for greater safety-station oversight; in-place staffing on day one of every contract with no transitional risk to current operations.",
+      "source_chunk_ids": [1928, 1973, 1979, 1980, 1995, 2006, 2023]
+    },
+    {
+      "name": "Comparable State Vehicle Inspection Program (Northeast, AVIP)",
+      "scope": "Project management, VIID development, data security, equipment deployment management, station management/fee collection, and training of industry and system administrators; sticker printing-on-demand implementation; 1,200-facility network rollout supported by Parsons' core Pennsylvania team.",
+      "outcome": "Successful 6-month, 1,200-facility implementation referenced as a comparable rollout-and-training execution model for state vehicle inspection programs.",
+      "source_chunk_ids": [1987]
+    },
+    {
+      "name": "Comparable Provincial Emissions Program (Ontario IVSEIP / DriveON)",
+      "scope": "Program and operations management of a light-duty vehicle emissions program including inspector training, facility certification, overt and covert auditing, program QA/QC, fee collection, and equipment software certification; 18 of Parsons' Pennsylvania team members shared across this contract since 1999.",
+      "outcome": "Successful transition of the heavy-duty emissions program to the AWS cloud with no service interruption or impact to existing emissions stations; demonstrated cross-program staffing depth that backstops US programs.",
+      "source_chunk_ids": [1993]
+    },
+    {
+      "name": "Comparable State Motor Vehicle Inspection Program (Northeast, NJMVIS, 1998 to present)",
+      "scope": "Project and operations management with 11 of Parsons' core Pennsylvania team members shared across the contract since 1998; long-running staffing and training continuity across an established hybrid centralized/decentralized network.",
+      "outcome": "Multi-decade staffing tenure cited as a basis for transferable I/M-program training and operational expertise.",
+      "source_chunk_ids": [1987]
+    }
+  ],
+  "quantified_outcomes": [
+    {
+      "metric": "Combined program-management experience",
+      "value": "More than 275 combined years of vehicle I/M program experience across the named program-management staff",
+      "context": "Aggregate experience across Mike Butler, Bonnie McPherson, Mark Colangelo, John Ott, Brett Weiser, Darryl McCarthy, Anthony Liebusch, and Jakub Kowalczyk on a comparable state I/M program.",
+      "source_chunk_ids": [1994, 1995]
+    },
+    {
+      "metric": "Total program staffing pool available",
+      "value": "Approximately 500 vehicle inspection and compliance staff",
+      "context": "Bench available to support a state I/M program of comparable scope, demonstrating the depth needed for Min/Max staffing plans, backup staffing, and surge across labor categories.",
+      "source_chunk_ids": [1994]
+    },
+    {
+      "metric": "Field auditor staffing demonstrated on a comparable program",
+      "value": "45 overt auditors and 34 covert auditors (79 field auditors)",
+      "context": "Direct evidence of the auditor workforce Parsons has stood up and trained for a comparable I/M program.",
+      "source_chunk_ids": [1995]
+    },
+    {
+      "metric": "IT staffing demonstrated on a comparable program",
+      "value": "43 IT analysts, developers, and database administrators",
+      "context": "Technical staffing layer that supports system training, secure-coding training, and end-user training on Management Console and audit functions.",
+      "source_chunk_ids": [1995]
+    },
+    {
+      "metric": "Executive and professional personnel",
+      "value": "16 executive and professional personnel; 18 support staff",
+      "context": "Management-tier staffing identified by name on the team organization chart for a comparable program.",
+      "source_chunk_ids": [1995]
+    },
+    {
+      "metric": "Program Manager tenure on station (current PM)",
+      "value": "11 years managing the comparable state I/M program; 38 industry years; 25 years with Parsons",
+      "context": "Mark Colangelo, full-time Program Manager, demonstrating the depth of the proposed key-personnel commitment.",
+      "source_chunk_ids": [1979, 1980, 1995, 2023]
+    },
+    {
+      "metric": "Deputy Program Manager experience",
+      "value": "35 industry years; 26 years with Parsons; 26 years on the comparable state I/M program",
+      "context": "John Ott, Pennsylvania Deputy Program Manager, anchors the deputy-PM continuity commitment.",
+      "source_chunk_ids": [1980, 1995]
+    },
+    {
+      "metric": "Field-office footprint on a comparable program",
+      "value": "1 headquarters office plus 2 regional offices (Pittsburgh and Philadelphia regions) plus 2 satellite offices (Hazleton and Altoona)",
+      "context": "Demonstrated multi-regional operating footprint that supports regional managers, lane-technician dispatch, and on-site training delivery.",
+      "source_chunk_ids": [2023]
+    },
+    {
+      "metric": "Inspector certification classroom ratio",
+      "value": "No more than 10 students per instructor; one to three days of training depending on student experience",
+      "context": "Standard Parsons training delivery ratio used in the in-house, state-certified Vehicle Safety and Emissions Inspection School.",
+      "source_chunk_ids": [2016]
+    },
+    {
+      "metric": "Certified inspection-school instructors named",
+      "value": "Three certified Vehicle Safety Inspection instructors and Vehicle Emissions Inspection instructors (John Ott, Karl Wagner, Randall Udavcak)",
+      "context": "Named training-delivery instructors with extensive I/M program and industry experience for the in-house certification school.",
+      "source_chunk_ids": [2016]
+    },
+    {
+      "metric": "Standard system-training class duration",
+      "value": "4-hour training classes on Parsons systems for client staff, plus specialized super-user training for each application",
+      "context": "Parsons' standard training cadence covering initial implementation, intervals throughout the contract, and refresher training tied to updates and program changes.",
+      "source_chunk_ids": [2011]
+    },
+    {
+      "metric": "Background-check cadence",
+      "value": "At Parsons' expense before initial access, then annually",
+      "context": "Standing personnel-security commitment for all employees and subcontractors with on-site or remote access to client IT facilities, with disqualification for failed checks and revocation of access for current employees who fail.",
+      "source_chunk_ids": [2006]
+    },
+    {
+      "metric": "Subcontractor staffing committed to the program",
+      "value": "100% dedicated time across each named subcontractor, including 3 covert-audit managers and 31 covert auditors plus 1 call center supervisor and 2 representatives at one subcontractor; 6 employees at the I&E and auditor-training subcontractor; 5 employees at the motorist-compliance subcontractor",
+      "context": "Specific evidence that subcontracted staffing commitments are quantified, named, and dedicated, supporting the staffing-roster, backup-staffing, and Min/Max requirements.",
+      "source_chunk_ids": [2007, 2010]
+    },
+    {
+      "metric": "Corporate scale supporting backup staffing and recruitment",
+      "value": "18,000+ employees; more than 5,000 current projects; 250 offices worldwide; $4.5B+ annual revenue",
+      "context": "Corporate bench available to backstop key-personnel substitution, surge staffing during mobilization, and the recruitment plan for backup staff required by R-048.",
+      "source_chunk_ids": [2016, 2017]
+    }
+  ],
+  "differentiators": "(1) In-place team on day one. The proposed Program Manager, Deputy Program Manager, Principal Technical Specialist, Technical Project Manager, Product Development Manager, IT Operations Manager, and named overt and covert auditors are already operating on a comparable program, eliminating mobilization-period recruitment and training and directly mitigating R-047 / R-048 transition risk (chunks 1928, 2006). (2) The only state-certified Vehicle Safety and Emissions Inspection School operated by an I/M program contractor on a comparable program, allowing Parsons to train and certify both its own staff and client oversight personnel without forcing oversight staff to share classrooms with the inspector population they will later audit, which is a recurring conflict-of-interest and integrity issue for competitors (chunk 1974). (3) Three named, certified Vehicle Safety and Vehicle Emissions Inspection instructors (John Ott, Karl Wagner, Randall Udavcak) with deep industry tenure available to deliver inspector certification at a 10:1 student-to-instructor ratio and customizable 1-to-3-day curricula (chunk 2016). (4) Multi-regional field-office footprint (headquarters plus three regional/satellite locations) that supports regional-manager-led dispatch, in-region lane-technician supervision, and local training delivery, plus the ability to conduct training at the client site, at any regional office, one-on-one desk-side, or virtually (chunks 2015, 2023). (5) Named, dedicated subcontractor team with VBE Berry Solutions Group specifically retained to enhance auditor training, plus VBE 1Alpha for motorist compliance, and 100% staff-time commitment across the entire subcontractor stack (chunks 2007, 2010). (6) Background-check rigor: Parsons-funded checks before initial access and annually thereafter, with non-assignment of any employee who fails and revocation of access for current employees who subsequently fail, which is materially stronger than typical one-time background-check programs (chunk 2006). (7) Combined 275+ years of vehicle-I/M program-management experience among the eight named executive personnel, demonstrating the deep institutional knowledge competitors cannot replicate (chunks 1994, 1995). (8) Cross-program staffing depth demonstrated by 11 to 26 of Parsons' Pennsylvania-program staff also having served on the New Jersey, Vermont, Ontario, Massachusetts, Hawaii, Texas, Georgia, California, and Louisiana programs, providing geographic redundancy for backup staffing (chunk 1995). (9) End-to-end training-design discipline starting with needs analysis and learning objectives, comprehensive manuals, FAQs, lectures, demonstrations, active systems use, refresher training tied to system enhancements, and SCM written approval of all training materials before activation per R-101 (chunks 2011, 2012, 2015). (10) Security-awareness training coverage upon hire and annually thereafter with documented records in the personnel file and remote-access security training, fulfilling Sections 6.4 and 6.7.C (A-018, A-019, A-020, A-059) directly from existing controls.",
+  "gap_notes": "The provided evidence does not substantiate every facet the capture team will need to address: (a) Drug screening (Sections that drove the prompt's drug-screening focus) - no evidence in the provided chunks describes a drug-testing or drug-screening program for Parsons employees or subcontractors, and the capture team must source the corporate substance-abuse policy, pre-employment / post-offer / random / for-cause testing protocols, and any DOT 49 CFR Part 40 or state-equivalent program documentation. (b) Specific staffing role names the prompt calls out (regional managers, MAC technicians, lane technicians) - the evidence describes Pennsylvania-style overt and covert auditors and a regional-office footprint but does not name a 'regional manager' role or a 'MAC technician' classification; the capture team must align Parsons' actual proposed org chart to the new agency's labor categories (Lane Technician, Senior Lane Technician, Material Handler tiers, Equipment Repair Technician, Technical Specialist) referenced in the requirements (Article IX.20(b), Article XXXII, Article XXXIII) and confirm the specific roster size by category. (c) Probationary period mechanics (Article V.1 / A-039) - the requirement is acknowledged but Parsons' specific probationary procedures, performance-evaluation cadence during the 90 days, and discharge-at-will documentation are not in evidence. (d) Uniform program execution (Article XXXII / XXXIII, Section 4.10.J) - the requirement-side specifics (5 trousers / 5 shirts at hire, 11 trousers / 11 shirts for Lane Technicians, weekly laundry pickup, $500 / $300 maintenance allowance) are RFP requirements, not Parsons evidence; capture team needs the corporate uniform-procurement vendor, laundry-service partner identification, and a sample uniform-spec sheet for SCM approval per 4.10.J. (e) Staffing roster format and Min/Max content (R-072, R-039) - no template or sample roster is included in the evidence; capture team must produce a Min/Max staffing plan covering all daily / weekly / monthly cycles. (f) Mandatory training-curriculum content for air pollution causes/effects (R-091), quality control procedures (R-097), and public relations (R-098) - no curriculum outlines, lesson plans, or sample training decks are in the evidence; capture team must develop these or import them from prior I/M curricula and obtain SCM approval per R-101. (g) Hire-from-prior-vendor commitment for covered CBA employees (R-106 / P.L. 2025 c.359) - Parsons' specific transition-hiring procedure for covered CBA employees is not addressed in the evidence. (h) Secure coding training for developers (R-038) - no specific developer secure-coding curriculum is described in the chunks; capture team must source Parsons' SDLC secure-coding program. (i) Past five-year information-security breach disclosure (A-018, Section 30.3) - no breach history is included in the evidence and the capture team must coordinate with Parsons corporate security/legal to produce the disclosure. (j) Subcontractor-payment monthly and cumulative SBE/MBE/WBE breakdown (R-045) and sole-responsibility-for-payments commitment (R-046) - acknowledged in the requirements list but not addressed in the staffing/training evidence; treat as a subcontractor-management touchpoint. (k) Training grants for terminated employees declining the contractor offer under Section 1 (C.39:8-44 f.(1)) and Workforce Development Program training-grant referrals (A-045) - these are statutory acknowledgements requiring a compliance commitment but no operational procedure is in evidence. (l) Standard Contractual Grievance Form, 15-day Step 1 grievance filing (XIII.1), and dues-deduction administration (Article III.3) - these are CBA mechanics that the capture team must address with HR/labor-relations procedures not present in the evidence.",
+  "source_chunk_ids": [1927, 1928, 1931, 1932, 1935, 1936, 1937, 1938, 1946, 1949, 1955, 1963, 1964, 1966, 1970, 1971, 1973, 1974, 1977, 1978, 1979, 1980, 1982, 1984, 1985, 1987, 1993, 1994, 1995, 2001, 2004, 2006, 2007, 2008, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2022, 2023, 2027, 2028, 2030, 2035]
+}

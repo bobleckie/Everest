@@ -1,0 +1,71 @@
+{
+  "title": "Insurance, Indemnification, and Bonding for Vehicle Inspection Program Operations",
+  "capability_statement": "Parsons carries the commercial insurance and indemnification posture required to operate large, public-facing vehicle inspection programs and to protect the contracting State from loss arising out of contract performance. We maintain general liability coverage for damages or destruction occurring at client facilities while we are fulfilling the contract, with documented procedures for restoring affected sites to original condition and coordinating with State insurance carriers when force majeure repairs are required. For specialized program activities we secure dedicated coverage, including covert vehicle insurance across an internally managed covert fleet used for emissions and safety oversight. As field auditors, we also operate the program-side controls that depend on third-party insurance: station audits include verification that each station maintains the required bond or proof of insurance and that vehicle records reflect valid insurance at the time of inspection, with new e-Safety screens flagging expired insurance for inspector confirmation. Our infrastructure is hosted in AWS with multi-availability-zone deployment and cross-region replication, supporting the cybersecurity and data-protection commitments that underlie cyber liability exposure. As a global firm with 79 years of corporate history and 18,000+ employees, Parsons brings the financial depth and program documentation (Certificate of Insurance, financial capability, and legal-action disclosures) routinely furnished as part of state proposal packages, and our drafted indemnification language in escrow and source-code agreements demonstrates our familiarity with mutual indemnity, claim-notice, and limitation-of-liability constructs typical of state contracts.",
+  "named_past_performance": [
+    {
+      "name": "State Motor Vehicle Inspection Program (Northeast hybrid I/M program)",
+      "scope": "25 years of direct experience operating and managing a hybrid centralized/decentralized inspection program (25 centralized and more than 900 decentralized facilities), including responsibility for facility-level general liability exposure and damage-or-destruction restoration provisions analogous to RFP Section 2.3.1.21.",
+      "outcome": "Continuous program operation with 99.99% inspection-system uptime since October 2013, and the operational basis cited for transferring lessons-learned to a new state Inspection Program rollout.",
+      "source_chunk_ids": [3642, 2027]
+    },
+    {
+      "name": "State Vehicle Emissions I/M Program (Mid-Atlantic, decentralized)",
+      "scope": "End-to-end I/M program management including station audits that verify each station holds the proper bond or proof of insurance, validate inspector credentials, and reconcile inspection-sticker custody; safety and enhanced-safety audits performed under 67 PA Code Chapter 175; and operation of an internally established covert vehicle dealership with full insurance on the covert fleet.",
+      "outcome": "99.99% VIID uptime since October 2012; covert oversight infrastructure described as the only existing one of its kind, with monthly covert-fleet reporting (VIN, title, odometer, commission/decommission dates) supplied to the contracting agency.",
+      "source_chunk_ids": [2134, 2266, 2155, 2271, 2027]
+    },
+    {
+      "name": "Ontario DriveON Program (cloud modernization)",
+      "scope": "2022 modernization to AWS, providing the reference architecture for multi-availability-zone deployments and cross-region data replication used to satisfy state security, reliability, and data-protection requirements that flow into cyber-liability and breach-of-security indemnification posture.",
+      "outcome": "100% uptime since April 2022, demonstrating the resiliency posture supporting cybersecurity and data-protection obligations.",
+      "source_chunk_ids": [2020, 2027]
+    },
+    {
+      "name": "State DOT Centralized Inspection Program (proposal scope)",
+      "scope": "Proposal commitments to maintain general liability insurance for damages or destruction at program facilities, coordinate with the State's insurance carrier under force-majeure scenarios, and submit a Certificate of Insurance and supporting financial-capability and legal-action documentation in TABs I, J, and L.",
+      "outcome": "Documented procedure to invoice the State only for the amount needed from the State's insurance carrier to restore the site to original value, with State Project Manager final approval on workmanship.",
+      "source_chunk_ids": [4109, 4110, 3612, 3602]
+    }
+  ],
+  "quantified_outcomes": [
+    {
+      "metric": "Inspection system uptime (Northeast state MVIS)",
+      "value": "99.99% since October 2013",
+      "context": "Resiliency baseline supporting cyber and data-protection obligations associated with insurance and indemnification clauses for breach of security.",
+      "source_chunk_ids": [2027]
+    },
+    {
+      "metric": "Inspection system uptime (Mid-Atlantic Vehicle Emissions I/M Program)",
+      "value": "99.99% since October 2012",
+      "context": "Demonstrated continuous operation underlying indemnification commitments tied to data handling and program continuity.",
+      "source_chunk_ids": [2027]
+    },
+    {
+      "metric": "DriveON Ontario uptime",
+      "value": "100% since April 2022",
+      "context": "AWS-modernized reference for the cybersecurity, encryption, and data-protection posture that bounds breach-of-security indemnification risk.",
+      "source_chunk_ids": [2027, 2020]
+    },
+    {
+      "metric": "Multi-availability-zone availability rating",
+      "value": "99.99% (approximately 53 minutes of downtime over a year, versus ~1,600 minutes at 99.7%)",
+      "context": "Quantified resiliency for the AWS Aurora and S3 deployment that underlies data-protection commitments behind cyber-liability and breach-of-security indemnification.",
+      "source_chunk_ids": [4175]
+    },
+    {
+      "metric": "Corporate scale",
+      "value": "18,000+ employees, 79 years of experience",
+      "context": "Financial and operational depth that supports an insurance program of the scale required by the RFP.",
+      "source_chunk_ids": [1975]
+    },
+    {
+      "metric": "Hybrid I/M program operating tenure",
+      "value": "25 years (25 centralized + 900+ decentralized facilities)",
+      "context": "Multi-decade history of carrying facility-level general liability and operational risk for a State client.",
+      "source_chunk_ids": [3642]
+    }
+  ],
+  "differentiators": "(1) Existing proposal-ready insurance package: Certificate of Insurance, financial capability, and legal-action summary already organized as discrete proposal tabs. (2) Documented general liability coverage for damages or destruction at client facilities, with an established process for State-carrier coordination, change-order-based site improvements, and Project Manager workmanship approval. (3) Specialty coverage that competitors typically must source: Parsons insures its own internally established covert vehicle dealership/fleet used for emissions and safety oversight, eliminating reliance on third-party insurance for covert operations. (4) Field-side insurance verification capability: auditors are already trained to verify station bonds and proof of insurance against state regulations as a routine audit step, and our new e-Safety interface includes data-validation popups for expired insurance, demonstrating that we operate as an insurance-aware field workforce in addition to being an insured contractor. (5) Cybersecurity and data-resiliency posture (multi-AZ AWS, cross-region replication, 99.99% rating, encryption to State standards) that materially reduces breach-of-security exposure and supports the cyber-liability discussion required by A-019. (6) Familiarity drafting indemnification, limitation-of-liability, and survival clauses in escrow and source-code agreements, demonstrating contracting fluency for the indemnity provisions in Sections 4.1, 7.1, 8.2, and 9.2.",
+  "gap_notes": "The provided evidence does not substantiate the specific insurance policies and limits the RFP requires; capture team must source and attach: (a) for A-019 (cybersecurity liability insurance scope) - the carrier, limits, retention, coverage form, and named perils for Parsons' cyber liability tower (no chunk describes the policy itself, only the security architecture that bounds the risk); (b) for R-005, R-018, R-019, R-020, R-021 - current Certificates of Insurance evidencing Auto Liability with $1,000,000 combined single limit, Workers' Compensation and Employer's Liability per state statute, Commercial General Liability, Umbrella/Excess if applicable, and Professional Liability/E&O, plus endorsements naming the State as Additional Insured on Auto Liability where applicable (chunks 4109 and 3612 reference general liability and the COI tab in concept but do not include limits, carriers, effective dates, or additional-insured endorsement language); (c) for R-040, A-087, A-089, A-098, V-001, V-005, A-021, A-020, R-001, R-004, R-036 - explicit mark-up or compliance statement to the State's indemnification and notice provisions (the only indemnification language in evidence is from third-party Iron Mountain escrow attachments, not Parsons' own contract response, and must not be quoted as Parsons' indemnification posture); (d) for A-012, A-021 (union check-off / defense-and-indemnify of Employer) - confirmation of any collective bargaining context for the program workforce, which is not addressed in the evidence; (e) for R-011 (Appendix B Aetna HMO offset recipients) - this is a benefits-administration appendix item that appears mis-grouped under Insurance & Bonding and likely needs reassignment by the capture team; (f) for V-012 (vendor non-involvement in prohibited Russia/Belarus activities) - the signed certification form, not addressed in evidence; (g) Performance/Payment bonding capacity letters from a Treasury-listed surety, since the theme is titled 'Insurance & Bonding' but the evidence contains no surety-bond capacity, single-project, or aggregate-program limits.",
+  "source_chunk_ids": [1961, 1966, 1967, 1975, 2006, 2020, 2021, 2027, 2043, 2047, 2048, 2069, 2133, 2134, 2155, 2263, 2266, 2271, 2293, 2296, 2674, 2675, 2677, 2678, 2689, 2721, 2722, 2723, 2724, 2727, 2728, 2729, 2731, 2735, 2736, 3601, 3602, 3612, 3642, 3745, 3746, 3879, 3951, 4109, 4110, 4167, 4170, 4175, 4183, 4188]
+}

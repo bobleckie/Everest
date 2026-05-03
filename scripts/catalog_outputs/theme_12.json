@@ -1,0 +1,71 @@
+{
+  "title": "Resilient Continuity, Backup, and Disaster Recovery for the Inspection Program",
+  "capability_statement": "Parsons treats disaster prevention and recovery as a mainstay of its IT systems and operations methods, and has consistently maintained reliable networks and mitigated risk through a fault-tolerant architecture across comparable vehicle inspection programs (chunk 2025). For the State Motor Vehicle agency's Inspection Program, Parsons will host the central inspection database in a major commercial cloud region using two isolated availability zones engineered to be isolated from failures in other zones, with redundancy distributed so each availability zone can take over complete production volume and provide a responsive end-user experience even in disaster scenarios (chunks 2026, 2048). Cross-availability-zone and cross-region data replication, automated managed-database failover, six-way replicated database volumes, and object storage with up to six replicated copies provide the fault tolerance, low-latency recovery, and zero-data-loss posture that Parsons has previously committed to (chunks 2032, 2063, 2065, 2079).\n\nParsons' Disaster Recovery Plan (DRP) covers staff assignment of responsibilities, a prioritized list of applications crucial to system recovery, and operation procedures used to ensure timely and orderly system recovery, with a designated Disaster Recovery Coordinator named in the plan (chunk 2031). On comparable inspection programs, Parsons has completed successful tests of the DRP at least once a year and after any major system release, upgrade, or recovery effort; tests cover component failures and complete system recovery, with a detailed report submitted to the agency afterward and an annually refreshed DRP delivered on a fixed date each year (chunks 2028, 2030). Parsons' goal is to make the disaster recovery environment operational within minutes of detecting a failure on the primary environment, exceeding the 24-hour recovery requirement Parsons has met on prior programs (chunk 2030).\n\nFor backup and offsite storage, Parsons has established procedures including daily real-time full and incremental application files and data backups, instant backup and recovery from snapshots, version-control-based storage of configuration management and application code, and use of a managed backup service to automate backups and replication to an alternate region so that multiple copies of program data exist in geographically dispersed areas at any given time (chunks 2031, 2032). These backup procedures have been formally approved on a comparable program, demonstrating Parsons' track record of producing backup plans the contracting agency accepts (chunk 2031).\n\nParsons' Business Continuity Plan, embedded in its Program Management Plan, addresses pandemic, natural-disaster, and connectivity-loss scenarios with built-in redundancy across multiple regional offices, fully remote-capable staff (proven during COVID-19), forwarded telephony, and offline-testing fallback for stations that lose connectivity to the inspection database (chunks 2035, 2036, 2037, 2050). Continuity training is delivered to all employees on hire and annually, with management role training for key project personnel, plus office closure drills and scenario simulations led by corporate safety and emergency response professionals (chunks 2040, 2041). Help desk and call-center continuity is reinforced by a teaming partner that maintains SOC 2 Type 2 and HITRUST CSF certifications requiring a proven disaster recovery plan, redundant internet providers, and a diesel generator (chunk 2038). Designated Program Manager and Deputy Program Manager roles, plus regional managers, ensure each can perform the others' essential business functions during an emergency (chunks 2041, 2042).",
+  "named_past_performance": [
+    {
+      "name": "State A Motor Vehicle Inspection System",
+      "scope": "Vehicle inspection database operations with disaster recovery and high-availability architecture",
+      "outcome": "99.99% uptime since October 2013",
+      "source_chunk_ids": [2027, 2028]
+    },
+    {
+      "name": "State B Vehicle Emissions I/M Program",
+      "scope": "Emissions inspection program with fault-tolerant cloud-hosted inspection database, annual DRP testing, and approved backup procedures",
+      "outcome": "99.99% uptime since October 2012; DRP tested at least annually and after every major release",
+      "source_chunk_ids": [2027, 2028, 2031]
+    },
+    {
+      "name": "State C Motor Vehicle Inspection Program",
+      "scope": "Vehicle inspection program operations with high-availability inspection database",
+      "outcome": "99.99% uptime since November 2013",
+      "source_chunk_ids": [2027]
+    },
+    {
+      "name": "State D Automated Vehicle Inspection Program",
+      "scope": "Automated vehicle inspection program operations",
+      "outcome": "99.99% uptime since January 2016",
+      "source_chunk_ids": [2027]
+    },
+    {
+      "name": "Provincial DriveON Inspection Program",
+      "scope": "Vehicle inspection program operations",
+      "outcome": "100% uptime since April 2022",
+      "source_chunk_ids": [2027, 2028]
+    }
+  ],
+  "quantified_outcomes": [
+    {
+      "metric": "Inspection database availability",
+      "value": "99.99% uptime",
+      "context": "Sustained across four state/provincial vehicle inspection programs, each measured from go-live (earliest October 2012) through the date of the cited proposal",
+      "source_chunk_ids": [2027, 2028]
+    },
+    {
+      "metric": "Disaster recovery time objective (delivered)",
+      "value": "Operational within minutes of detecting a primary-environment failure",
+      "context": "Parsons' stated DR goal on a comparable program, exceeding the agency's 24-hour recovery requirement",
+      "source_chunk_ids": [2030]
+    },
+    {
+      "metric": "DRP test cadence",
+      "value": "At least once per year and after any major system release, upgrade, or recovery effort",
+      "context": "Demonstrated cadence on a comparable inspection program, with detailed test report submitted to the agency afterward",
+      "source_chunk_ids": [2028, 2030]
+    },
+    {
+      "metric": "Backup frequency",
+      "value": "Daily real-time full and incremental backups, plus snapshot-based instant recovery",
+      "context": "Backup plan approved by the contracting agency on a comparable inspection program",
+      "source_chunk_ids": [2031, 2032]
+    },
+    {
+      "metric": "Database storage redundancy",
+      "value": "Six-way database volume replication across multiple availability zones; up to six S3 object-storage copies; cross-region replication to a geographically distant region",
+      "context": "Architecture deployed to deliver zero data loss for the central inspection database",
+      "source_chunk_ids": [2032, 2048, 2063, 2065, 2079]
+    }
+  ],
+  "differentiators": "- **Demonstrated 99.99% uptime across multiple comparable vehicle inspection programs**, with one program at 100% since April 2022, providing real-world evidence that Parsons' DR architecture works at scale (chunks 2027, 2028).\n- **Recovery in minutes, not hours**: Parsons' delivered DR posture on a comparable program is to make the disaster recovery environment operational within minutes of detecting a failure on the primary environment, well inside the 24-hour bar (chunk 2030).\n- **Geographically dispersed redundancy by design**: multi-availability-zone cloud deployment plus cross-region replication, six-way database replication, and S3 object-storage copies eliminate single points of failure for the inspection database (chunks 2026, 2032, 2048, 2063, 2065).\n- **Approved, audited backup and DR procedures**: Parsons' backup plan and DRP have been approved by the contracting agency on a comparable program, and the call-center subcontractor carries SOC 2 Type 2 and HITRUST CSF certifications that require proven DR plans (chunks 2031, 2038).\n- **Continuity proven under real-world stress**: Parsons' COVID-19 response demonstrated the ability to keep an entire project team — management, office, call center, and field staff — operating remotely without interrupting essential contract deliverables (chunks 2035, 2036).\n- **Built-in regional and personnel redundancy**: multi-office regional structure plus cross-trained Program/Deputy Program/regional managers ensure essential business functions continue if any one office or person is unavailable (chunks 2036, 2041, 2042).\n- **Offline-testing fallback**: when stations lose connectivity to the central inspection database, Parsons' equipment can continue testing offline within agency-set limits, then auto-upload once connectivity is restored, minimizing public impact (chunk 2037).",
+  "gap_notes": "- **Offsite backup retention of no less than one year (RFP A-083)**: The evidence describes daily real-time backups, snapshots, cross-AZ/cross-region replication, and a managed backup service, but does NOT cite a specific retention duration that meets or exceeds the one-year offsite requirement. Capture team should confirm and document retention policy from a real past-performance program (chunks 2031, 2032).\n- **Acronyms/terms appendix in the BC/DR plan and in the backup plan (RFP A-062, A-079)**: The evidence references Attachment B (Disaster Recovery Plan) but does not show the appendix structure. Capture team should pull a sanitized DRP/backup-plan table of contents from a delivered program to confirm the appendix exists.\n- **Participant and stakeholder roles documented in the BC/DR plan (RFP A-053, A-054)**: Evidence confirms a named Disaster Recovery Coordinator and lists the Program Manager, Deputy Program Manager, and regional managers as continuity leads (chunks 2031, 2041, 2042), but does not show a formal participant/stakeholder role matrix from the plan itself. Capture team should reproduce the role matrix from a delivered DRP.\n- **Backup/Recovery document and artifact management (RFP A-072)**: Evidence references version-control storage of configuration and application code (chunk 2031) but does not describe a full document/artifact management process for backup and recovery deliverables. Needs to be sourced from real past-performance documentation.\n- **Designate Project Manager and backup (RFP R-006)**: Evidence names a Program Manager, Deputy Program Manager (assumes PM duties as needed), and regional managers on a comparable program (chunks 2041, 2042), but the proposal team will need to designate the specific PM and backup PM for this contract.\n- **Mobile device authorization policy (RFP A-062, section 6.8.A)**: No evidence in this set addresses mobile-device authorization policy. Capture team must source from corporate security policy or another past-performance program.\n- **Order of precedence acknowledgement, State Tax Set-Off, Division of Law notice, conflict-of-interest, union access/bulletin board/sick-leave provisions (R-002, A-029, R-005, R-038, A-023, A-028, A-012, A-006, A-042)**: These are contractual/administrative acknowledgements outside the BC/DR technical scope. The evidence shows Parsons takes no exceptions to RFP contractual provisions on a comparable procurement (chunk 1928), but each acknowledgement must be made directly in the proposal — no past-performance citation is needed.",
+  "source_chunk_ids": [1928, 1933, 1958, 1959, 1970, 2025, 2026, 2027, 2028, 2030, 2031, 2032, 2035, 2036, 2037, 2038, 2040, 2041, 2042, 2047, 2048, 2050, 2063, 2065, 2073, 2079, 2088]
+}

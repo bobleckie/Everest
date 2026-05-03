@@ -1,0 +1,116 @@
+{
+  "title": "Decentralized Vehicle Inspection & Emissions Test Operations",
+  "capability_statement": "Parsons delivers end-to-end inspection and test operations for decentralized vehicle Inspection & Maintenance (I/M) and safety programs, covering the full obligation set in this theme: rules-driven test selection and inspection-cycle logic; OBD, gas, and heavy-duty diesel emission test execution (visible smoke, opacity, OBD, catalytic converter, fuel cap, fuel leak, indicator light, miscellaneous); equipment certification, calibration, retrofit, and lifecycle replacement across centralized, specialty, and private inspection facilities; station operations including queue management, wait-time SLAs, safety, hours of operation, climate-controlled customer areas, and grounds maintenance; inspector and certified repair technician training, licensing, written/hands-on testing, and continuing education aligned to 40 CFR 51.367; and overt, covert, and remote-visual oversight with electronic audit capture and third-party validation. The same Parsons technology stack and field-operations playbook can be configured to the new program's vehicle classes, cycle rules, station network, and SLA targets without disrupting test transactions or data continuity.",
+  "named_past_performance": [
+    {
+      "name": "Pennsylvania I/M Program (PennDOT) - Decentralized Emissions & Safety Inspection Program Management",
+      "scope": "Twenty-six-plus continuous years (1997-2025) administering one of the largest, longest-running decentralized Vehicle Emissions I/M Programs in the United States, covering approximately 8,200 stations across 25 counties and a vehicle population approaching 7 million by 2025. Scope includes equipment certification across three platforms / four manufacturers / two equipment specifications, OBD inspection equipment specification updates, replacement of legacy dial-up field equipment with modern web-based OBD equipment, acceptance testing to certify equipment for field use, station and inspector oversight, overt/covert/remote-visual audit, hearings, training, and call-center support. Parsons is the only contractor with no financial or business relationship to any currently certified emissions testing equipment manufacturer in the state, providing impartial equipment testing.",
+      "outcome": "Compliant on-time delivery for 26 years with no service disruptions; more than 80 million inspection transactions processed; system uptime above 99.9%; seamless 2012 transition of more than 8,000 stations to the Parsons Vehicle Information Inspection Database (VIID); 2016 OBD specification revision and re-certification of the field equipment fleet; successful adaptation through the 2020 COVID-19 closures with all program requirements still met; 2023 expansion of overt audit staff to meet increased safety-station oversight needs.",
+      "source_chunk_ids": [1965, 1968, 1969, 1971, 1972, 1973, 1975, 1978, 1979, 1986, 1987]
+    },
+    {
+      "name": "New Jersey Motor Vehicle Inspection System (NJ MVC)",
+      "scope": "1998-2024 project and operations management for an Enhanced I/M Program, including VIID development, data security, software certification, equipment Acceptance Test Procedure (ATP), motorist call center, and public information & education.",
+      "outcome": "Twelve stations received the upgraded Enhanced Inspection System equipment and certification under Parsons' management; sustained continuous operations across the full contract term.",
+      "source_chunk_ids": [1987, 1988, 1990]
+    },
+    {
+      "name": "Vermont Automated Vehicle Inspection Program (Vermont DMV)",
+      "scope": "2016-2025 project management, VIID development, data security, equipment deployment management, station management and fee collection, training of industry and system administrators, industry outreach, and an industry technical support call center.",
+      "outcome": "Successful six-month, 1,200-facility implementation with sticker printing-on-demand; Vermont DMV Commissioner cites Parsons as a 'consistent, high quality provider' that delivers 'innovative, appropriate and timely solutions' for every program change.",
+      "source_chunk_ids": [1983, 1987]
+    },
+    {
+      "name": "Texas Automated Vehicle Inspection (Texas DPS)",
+      "scope": "2006-2024 program management, software development and maintenance, safety inspection program management for a high-volume decentralized program comparable in inspection-station count and volume, with reporting, hearings application, and call-center support.",
+      "outcome": "Provided equipment software updates to 6,700 private inspection stations within four months and integrated a comprehensive service-call ticketing and response-tracking system.",
+      "source_chunk_ids": [1987, 1989, 1991]
+    },
+    {
+      "name": "Hawaii Electronic Periodic Motor Vehicle Inspection Program (Hawaii DOT)",
+      "scope": "2013-2024 program and operations management, VIID development, station billing, tablet-based software development and station outreach.",
+      "outcome": "Successfully met a short four-month implementation timeline and delivered sticker printing-on-demand.",
+      "source_chunk_ids": [1987, 1988]
+    },
+    {
+      "name": "Ontario Integrated Vehicle Safety and Emissions Inspection Program (Ontario MOECC)",
+      "scope": "1999-2028 program and operations management of a light-duty vehicle emissions program, VIID development, information-systems development, management and reporting, call-center operations, inspector training, facility certification, overt and covert auditing, program QA/QC, fee collection, and equipment software certification.",
+      "outcome": "Successfully transitioned the Ontario Heavy-Duty Emissions program to AWS cloud with no service interruption and no impact to existing emissions stations.",
+      "source_chunk_ids": [1993]
+    }
+  ],
+  "quantified_outcomes": [
+    {
+      "metric": "Inspection transactions processed",
+      "value": "More than 80 million",
+      "context": "Cumulative inspection transactions processed under Parsons' management of the Pennsylvania decentralized I/M Program, demonstrating sustained high-volume station-network operations.",
+      "source_chunk_ids": [1978]
+    },
+    {
+      "metric": "System uptime",
+      "value": "Above 99.9 percent",
+      "context": "Sustained operational availability of the Parsons-operated VIID and inspection transaction infrastructure, supporting station test execution and data capture without disruption.",
+      "source_chunk_ids": [1979]
+    },
+    {
+      "metric": "Continuous program tenure",
+      "value": "26+ years (1997-2025)",
+      "context": "Parsons has managed the Pennsylvania decentralized vehicle emissions I/M Program continuously since 1997, including every program-change cycle and a successful 2012 transition of 8,000+ stations to the Parsons VIID.",
+      "source_chunk_ids": [1971, 1985, 1986, 1987]
+    },
+    {
+      "metric": "Stations / region scope",
+      "value": "Approximately 8,200 stations across 25 counties",
+      "context": "Active station network under Parsons-managed I/M oversight, illustrating capacity to operate, audit, and equip a large decentralized inspection footprint.",
+      "source_chunk_ids": [1968]
+    },
+    {
+      "metric": "Vehicle inspection and compliance staff",
+      "value": "Approximately 500",
+      "context": "Vehicle inspection and compliance staff Parsons has available to support program operations, training, audit, and station oversight.",
+      "source_chunk_ids": [1994]
+    },
+    {
+      "metric": "Field audit workforce",
+      "value": "45 overt auditors and 34 covert auditors",
+      "context": "Dedicated overt and covert audit staff named in the Parsons program organization, with covert audits executed through an independently chartered, undercover vehicle dealership approved by the customer.",
+      "source_chunk_ids": [1974, 1995, 1999]
+    },
+    {
+      "metric": "Implementation - private inspection stations",
+      "value": "6,700 stations updated in 4 months",
+      "context": "Texas decentralized inspection program: Parsons rolled equipment software updates to 6,700 private inspection stations within four months and stood up a service-call ticketing and response-tracking system.",
+      "source_chunk_ids": [1989, 1991]
+    },
+    {
+      "metric": "Implementation - facility deployment",
+      "value": "1,200 facilities in 6 months",
+      "context": "Vermont Automated Vehicle Inspection Program: six-month, 1,200-facility implementation with sticker printing-on-demand.",
+      "source_chunk_ids": [1987]
+    },
+    {
+      "metric": "Equipment platforms supported",
+      "value": "3 platforms, 4 manufacturers, 2 equipment specifications",
+      "context": "Parsons' Pennsylvania program currently supports three equipment platforms, four manufacturers, and two equipment specifications, including legacy dial-up infrastructure - directly relevant to managing a heterogeneous CIF/SIF/PIF/PFF equipment estate.",
+      "source_chunk_ids": [1975]
+    },
+    {
+      "metric": "Combined program-management experience",
+      "value": "275+ years across named leads",
+      "context": "Parsons' Pennsylvania program-management staff cited with more than 275 combined years of experience in vehicle I/M programs, with named individuals having 25-43 years each in the industry.",
+      "source_chunk_ids": [1994, 1995]
+    }
+  ],
+  "differentiators": [
+    "Independence from emissions equipment manufacturers: Parsons is the only contractor that can guarantee no financial or business relationship with any currently certified emissions testing equipment manufacturer in the incumbent state, enabling impartial equipment testing, certification, and acceptance.",
+    "Equipment-certification heritage spanning every test era: Parsons has certified all equipment used in stations from tailpipe and dynamometer testing through current OBD equipment, and is positioned for tomorrow's vehicle communication protocols. Concrete examples include the 2016 OBD specification revision, replacement of dial-up field equipment with web-based OBD equipment, and field-acceptance testing to certify the resulting fleet.",
+    "Proprietary, in-house inspector training school: Parsons operates the only customer-certified Vehicle Emission Inspection School (VEMIS E200) in the incumbent program, training program staff in-house so oversight personnel are not trained alongside the inspectors they later audit - a separation directly applicable to inspector training, retraining, and ERT certification obligations.",
+    "Independently chartered covert-audit vehicle dealership: An undercover vehicle dealership approved by the state Department of State and the customer agency lets Parsons acquire test vehicles for covert audits without exposure to the inspection industry or the public - a unique capability for honest-broker covert oversight.",
+    "Electronic audit application replacing paper field reports: Touchscreen laptops, electronic-signature capture, and direct VIID integration eliminate paper overt-audit reports - directly transferable to modern station-audit obligations.",
+    "Service Level Tracking Application (SLTA) on AWS for SLA reporting: Provides agency stakeholders a transparent summary of contractually defined SLAs and task delivery, with third-party audit-number validation by Michael Baker International for evaluation of program oversight.",
+    "Multi-program, multi-state operating depth: Six concurrent or recently active vehicle inspection programs (PA, NJ, VT, TX, HI, Ontario) with a 500-person inspection and compliance workforce, 16 executive/professional personnel, 43 IT/database staff, 45 overt auditors, 34 covert auditors, and 18 support staff identified by name and role.",
+    "Cloud transition without service interruption: Demonstrated cloud (AWS) transition of the Ontario Heavy-Duty Emissions program with no service interruption and no station impact - directly applicable to modernizing inspection-test infrastructure during a contract transition."
+  ],
+  "gap_notes": "Evidence in this theme is heavily weighted toward incumbent-program management narrative (Parsons' Pennsylvania PennDOT proposal) and short reference summaries from sister programs (NJ, VT, TX, HI, Ontario). Several specific obligation clusters in the requirement set are not directly substantiated in the supplied evidence and will require pull-through from other source documents or proposal sections, including: (1) the detailed inspection-cycle rules-engine logic (aaCycleBeg, cycleStartDate, inspExpirationDateCycle, aaChgICD, BeginTest/EndTest rulesets, motorcycle/bus/HD-diesel category handling, retest vs. cycle-test code mapping) - the requirements list is granular but the supplied evidence chunks describe program scope rather than rules-engine artifacts; (2) specific wait-time SLA performance against 30-minute hourly and 15-minute monthly thresholds; (3) safety/lift-procedure obligations including no-lift list, lifting points, jack cycling, air-suspension shut-off, and weekly jack inspection - operational SOPs not present in the marketing-style evidence chunks; (4) details of brake-tester replacement and diesel smoke opacity meter calibration/repair workflows; (5) school-bus inspection and HDDV (over 17,999 lbs) opacity test execution specifics; (6) the public-facing VIR reprint, ERT certification, and ASE test-prep web pages. Recommended next step: pull supporting evidence from the Pennsylvania VIID design, Ontario QA/QC procedures, and Vermont/Texas operational SOPs to substantiate these clusters before final response assembly.",
+  "source_chunk_ids": [1965, 1966, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1977, 1978, 1979, 1980, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1993, 1994, 1995, 1999]
+}

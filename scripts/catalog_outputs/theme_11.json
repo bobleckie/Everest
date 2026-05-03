@@ -1,0 +1,97 @@
+{
+  "title": "Information Security & Privacy Program for Vehicle Inspection and Regulatory Data Systems",
+  "capability_statement": "Parsons delivers an end-to-end Information Security and Privacy program tailored to vehicle inspection, regulatory, and citizen-facing data systems. Security is integrated from system design through development, daily operations, and maintenance, and is governed by a company-wide Cybersecurity Practice that serves federal and state government clients (including high-level, sensitive U.S. Government programs) and is reinforced on each program by dedicated security staff working alongside system and network administrators. The program addresses encryption of data at rest, in transit, and in use; identity and access management with least privilege provisioning, periodic access reviews, and termination-driven access disablement; multi-factor authentication, IP whitelisting, and geofencing for remote and administrative access; centralized endpoint management for production environments and limits on data exfiltration; system hardening to industry-accepted baselines (referencing CIS Benchmarks, DISA STIGs, and vendor configuration guides); audit logging and system monitoring; threat management combining antivirus and malware controls, firewall and intrusion detection, OS and database hardening, and secure communications; and a vulnerability and patch management cadence built on monthly internal and quarterly external vulnerability scans, prioritized remediation, documented verification, and security assessments tied to critical system changes. Cloud-hosted workloads operate on AWS infrastructure backed by AWS PCI-DSS attestations and supported by more than 100 in-house AWS certifications across Parsons engineering and security staff; complementary contact-center operations run with partners holding SOC 2 Type II and HITRUST CSF certifications. The program also covers breach response (24-hour notification, root-cause-driven corrective action, post-incident review, and law-enforcement liaison), data protection policy governance, SDLC security controls, third-party interconnection and compliance validation, and FIPS 140-2-aligned cryptographic standards for any data permitted on mobile devices.",
+  "named_past_performance": [
+    {
+      "name": "Pennsylvania I/M Program - Vehicle Information Inspection Database (VIID)",
+      "scope": "Cybersecurity for the Vehicle Information Inspection Database supporting more than 80 million transactions, including dedicated security staff, antivirus and malware controls, firewall and intrusion detection, database safeguarding, OS hardening, secure communication transmissions, monthly internal and quarterly external vulnerability scanning, security assessments during and after critical system changes, and use of the same scanning technology employed for high-level, sensitive U.S. Government programs.",
+      "outcome": "Sustained operation with no reported security or performance issue across more than 25 years of program delivery, supporting program uptime above 99.9% (with 99.99% cited for the VIID).",
+      "source_chunk_ids": [1961, 1962, 1973, 1974, 1978, 1979, 1982, 1983]
+    },
+    {
+      "name": "Ontario Heavy-Duty Emissions Program AWS Cloud Migration (Ministry of the Environment, Conservation and Parks)",
+      "scope": "Migration of an integrated vehicle safety and emissions inspection program to the AWS cloud platform, including secure VIID development, information systems development, identity and access management, and ongoing operations support.",
+      "outcome": "Transitioned the program to AWS cloud with no service interruption and no impact to existing inspection stations, demonstrating secure cloud migration patterns reusable for similar programs.",
+      "source_chunk_ids": [1963, 1993, 2057]
+    },
+    {
+      "name": "Contact Center Operations - Dasher Services, Inc. (subcontractor partner)",
+      "scope": "Help desk and contact center services for inspection program stakeholders, including security training for all team members, VoIP/internet-based call management with redundant internet providers and backup power, and a documented disaster recovery plan covering all critical systems.",
+      "outcome": "Operates under SOC 2 Type II and HITRUST Common Security Framework (CSF) certifications, both of which require a validated disaster recovery plan and provide independent assurance of security and privacy controls for contact-center workloads.",
+      "source_chunk_ids": [2038]
+    },
+    {
+      "name": "AWS Cloud Hosting Foundation for Inspection Program Workloads",
+      "scope": "Use of AWS managed services as the hosting foundation for vehicle inspection data handling systems, leveraging AWS PCI-DSS attestation, AWS shared responsibility documentation, and Parsons' AWS Partner Solutions Provider, AWS DevOps Competency Partner, and AWS Advanced Tier Services Partner designations.",
+      "outcome": "More than 100 AWS certifications held by in-house engineers and security experts; AWS commitment secured to support program implementation and ongoing utilization, providing scalable, commercially highest-tier cybersecurity protections for hosted inspection workloads.",
+      "source_chunk_ids": [1962, 1963, 1960, 2057]
+    }
+  ],
+  "quantified_outcomes": [
+    {
+      "metric": "VIID uptime",
+      "value": "99.99%",
+      "context": "Sustained availability of the production Vehicle Information Inspection Database supporting an inspection program of state-wide scale, demonstrating effectiveness of the integrated security, hardening, and operations controls.",
+      "source_chunk_ids": [1961]
+    },
+    {
+      "metric": "Inspection transactions processed without reported security incident",
+      "value": "80,000,000+",
+      "context": "More than 80 million inspection transactions to date with program uptime above 99.9% and no reported security or performance issue on the VIID, evidencing operational effectiveness of the security program at scale.",
+      "source_chunk_ids": [1978, 1962]
+    },
+    {
+      "metric": "Internal vulnerability scan cadence",
+      "value": "Monthly",
+      "context": "Monthly internal vulnerability tests on systems supporting the production inspection database, with results reviewed to enhance mitigation plans.",
+      "source_chunk_ids": [1982]
+    },
+    {
+      "metric": "External vulnerability scan cadence",
+      "value": "Quarterly",
+      "context": "Quarterly external vulnerability tests complementing the monthly internal scans, paired with security assessments during and after critical system changes.",
+      "source_chunk_ids": [1982]
+    },
+    {
+      "metric": "AWS certifications held by in-house engineers and security experts",
+      "value": "100+",
+      "context": "More than 100 AWS certifications held across Parsons engineering and security staff, supporting secure architecture, deployment, and operations of cloud-hosted inspection workloads.",
+      "source_chunk_ids": [1963]
+    },
+    {
+      "metric": "Years of continuous secure inspection-program delivery",
+      "value": "25+",
+      "context": "More than 25 years of successful implementation and operation of large, complex, geographically dispersed vehicle emissions and safety inspection programs without disruption to customers.",
+      "source_chunk_ids": [1983]
+    },
+    {
+      "metric": "Breach notification window",
+      "value": "Within 24 hours",
+      "context": "Standard practice aligned with mandatory contractual requirement to notify the contracting authority within 24 hours (or sooner if law requires) upon confirming or reasonably believing a Breach of Security has occurred.",
+      "source_chunk_ids": []
+    }
+  ],
+  "differentiators": [
+    "Dedicated cybersecurity practice serving federal and state governments, with the same scanning and assessment tooling used for high-level, sensitive U.S. Government programs applied to inspection-program workloads.",
+    "Defense-in-depth toolset spanning antivirus and malware controls, firewall and intrusion detection, database safeguarding, OS hardening, and secured communication transmissions, operated by program-dedicated security staff.",
+    "Disciplined vulnerability and patch management cadence: monthly internal scans, quarterly external scans, prioritized remediation, documented verification, and assessments before and after critical changes.",
+    "Encryption and cryptographic standards aligned with mandatory contractual requirements - data encrypted at rest and in transit, with FIPS 140-2 validated cryptographic modules referenced for any mobile-device storage.",
+    "Cloud architecture on AWS with PCI-DSS attestation coverage, AWS Partner Solutions Provider, AWS DevOps Competency Partner, and AWS Advanced Tier Services Partner designations, and 100+ in-house AWS certifications.",
+    "Independent third-party assurance through partner certifications - SOC 2 Type II and HITRUST CSF - on the contact-center delivery channel that handles inspection-program citizen interactions.",
+    "Demonstrated secure cloud migration pattern (Ontario Heavy-Duty Emissions to AWS) executed with no service interruption, applicable to similar transitions of regulatory data systems.",
+    "Strong identity and access management posture: least-privilege provisioning, periodic access reviews, role-based read-only and update access by security group, MFA for remote access, IP whitelisting, geofencing, and access disablement on personnel termination.",
+    "Integrated SDLC security controls and project/resource management controls maintained throughout the contract term, with system hardening referencing CIS Benchmarks, DISA STIGs, and vendor configuration guides.",
+    "Mature breach-response posture: 24-hour notification practice, root-cause-driven corrective action, post-incident review, prevention of recurrence, and maintained contacts with law enforcement cybersecurity units."
+  ],
+  "gap_notes": [
+    "No direct evidence in the supplied corpus naming current Parsons-held FedRAMP, FISMA, IRS-1075, CJIS, SSA, or PCI-DSS certifications at the corporate level; PCI-DSS attestation evidence is for the underlying AWS platform and SOC 2 Type II / HITRUST CSF evidence is for the contact-center subcontractor (Dasher). A bid-time confirmation from Parsons Compliance/InfoSec is recommended before claiming any of these certifications for Parsons itself.",
+    "No specific named threat-intelligence feeds (e.g., MS-ISAC, US-CERT, commercial TI providers) are enumerated in the supplied evidence; the response narrative would benefit from a confirmed list before submission.",
+    "No explicit description of password complexity values, SAML/SSO product choices, or specific MFA factor types appears in the supplied corpus; these should be confirmed for the responding solution architecture.",
+    "ICS/SCADA/OT scope is not directly addressed in the evidence corpus and is likely 'not applicable' for inspection-program workloads, but should be confirmed against the requirement (A-069) and stated explicitly.",
+    "Specific fraud-detection tooling is not described in the supplied evidence; covert/overt audit and equipment certification programs serve a fraud-deterrence function and can be referenced, but technical fraud-detection analytics would need to be sourced separately if the requirement calls for it.",
+    "Disciplinary/sanction policy specifics, position-description security language, security program review frequency, and BYOD policy details are not present in the supplied evidence and will require pulls from corporate HR and InfoSec policy documents.",
+    "Data-residency commitments (e.g., 'no data outside the United States') are not explicitly evidenced in the supplied corpus and must be confirmed against the AWS region selection and corporate policy.",
+    "No direct evidence of API security specifics (API key storage, IP whitelisting for API access) in the supplied corpus; bid response should pull from Parsons platform engineering documentation."
+  ],
+  "source_chunk_ids": [1927, 1928, 1956, 1960, 1961, 1962, 1963, 1973, 1974, 1978, 1979, 1982, 1983, 1984, 1987, 1993, 2037, 2038, 2042, 2046, 2057]
+}

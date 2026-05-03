@@ -1,0 +1,95 @@
+{
+  "title": "QA Plan Development and Program Integrity Oversight",
+  "capability_statement": "Parsons brings a mature, contractually proven Quality Assurance discipline built around a documented QA/QC program that complies with 40 CFR Sec. 51.353, 51.366, and 51.369 and that has been refined across multiple long-running vehicle inspection programs. Our QA Manager develops and maintains a written QA Plan covering equipment, inspector, record, and station audits; the plan is delivered to the client for review and approval, evaluated each quarter, and updated within 15 days of the end of each calendar quarter so it stays current with program needs and regulatory change [chunk_ids: 2103, 4468, 4471]. We treat the QA Plan as a living document: revision history, definitions, and approval signatures are formally tracked, ensuring the customer always has the prevailing approved version of record [chunk_id: 2437].\n\nOperationally, our QA program is anchored in Parsons' company-wide PACE (Plan, Act, Check, Excel) quality management approach, which drives continuous monitoring, audits, management reviews, and corrective and preventive action across every program we run [chunk_id: 4707]. The QA/QC Manager develops the procedures and manuals, implements the program, performs data validation and QA audits, directs all project QA functions, compiles audit findings, and prepares audit reports for distribution to all levels of management — duties that map directly to the role the RFP describes for a QA Manager leading the QA Plan effort [chunk_ids: 3984, 3987]. Our existing QA/QC programs have evolved in conjunction with each client's needs to continuously meet state and EPA requirements, giving us a working template we can adapt without introducing transition risk [chunk_id: 2104].\n\nThe QA Plan is not a stand-alone document; it is the connective tissue across the program. It governs SAT and equipment acceptance testing, including communication-rate, calibration, durability, and QC-lockout demonstrations; covers covert and overt auditing, record audits, and remote/real-time oversight; sets reporting cadences (precision-and-accuracy and malfunction-and-repair quarterly reports); and defines unfettered State access to inspection facilities and records during normal operations [chunk_ids: 3759, 3763, 4465, 4468, 4470]. A signature design feature is reporting through the VID and audit website so that all inspection-workstation audits create records the client can download and analyze, with reports developed in conjunction with State analysts [chunk_id: 4465].\n\nBecause the underlying QA/QC engine — risk-based compliance monitoring, real-time triggers, electronic record-audit mining, lane and mechanic report cards, and SLTA/AMT analytics — already runs in production for Parsons clients, we can stand up a QA Plan that meets bid-solicitation requirements and defer to the State's final decision on any disagreement, while still bringing operational substance from day one [chunk_ids: 2363, 2416, 3917, 4447].",
+  "named_past_performance": [
+    {
+      "name": "Pennsylvania I/M Program (PennDOT)",
+      "scope": "Comprehensive QA/QC program for the I/M Program, compliant with 40 CFR Sec. 51.353, 51.366, 51.369 and 75 Pa. C.S. Sec. 4707; biannual covert and overt audits at all 8,000 stations; equipment, inspector, record, and station audits; electronic record audit system that mines inspection and past audit data for triggers and concerns; risk-based compliance monitoring with real-time data analysis and test-interruption capability; transition of the program to the AWS cloud with no service interruption.",
+      "outcome": "Continuously meets Commonwealth and EPA requirements; QA officers can address triggers and concerns identified by automated mining; suspect facility activity flagged in real time and fraud-detection workflow proven in production [chunk_ids: 2103, 2104, 2363, 2416].",
+      "source_chunk_ids": [2103, 2104, 2363, 2416]
+    },
+    {
+      "name": "Ontario LDV Emissions Program (MOECC, 1999-2028)",
+      "scope": "Program and operations management of the LDV emissions program including VIID development, information systems, call center operations, inspector training, facility certification, overt and covert auditing, program QA/QC, fee collection, and equipment software certification; lane and mechanic report cards comparing testing accuracy and repair effectiveness against peer groups.",
+      "outcome": "Successfully transitioned the heavy-duty emissions program to AWS cloud with no service interruption or impact to existing emissions stations; report-card concept implemented with great success and used to streamline auditor review [chunk_ids: 1993, 4447].",
+      "source_chunk_ids": [1993, 4447]
+    },
+    {
+      "name": "Massachusetts Enhanced Emissions and Safety Test Program",
+      "scope": "Prime contractor for a decentralized emissions and safety test program covering real-time data collection, application development, QA/QC, covert auditing, operation and management of 12 MACs, equipment distribution and maintenance, reporting, training, and public information; first online, real-time emissions and safety inspection program in North America; QA/QC Manager role with statistical process control charting and service-level agreements.",
+      "outcome": "Established procedures for equipment service oversight and performance tracking and implemented improved QA techniques including statistical process control [chunk_ids: 4030, 4058].",
+      "source_chunk_ids": [4030, 4058]
+    },
+    {
+      "name": "New Jersey Motor Vehicle Commission Inspection Program (2000-Present)",
+      "scope": "Training department supervision and instructional curricula for inspectors and centralized inspection facility QA/QC audit program; OBD simulator forensic investigation in cooperation with the State, analyzing 25+ unique simulator devices to build fingerprints for real-time fraud detection.",
+      "outcome": "Curricula and reports delivered for centralized facility QA/QC audit program; simulator-detection fingerprints integrated into the production system to stop inspections when a simulator signature is detected [chunk_ids: 4040, 4314].",
+      "source_chunk_ids": [4040, 4314]
+    }
+  ],
+  "quantified_outcomes": [
+    {
+      "metric": "Stations under QA/QC oversight",
+      "value": "8,000 stations",
+      "context": "Biannual covert and overt audits at all 8,000 stations supported by a thorough electronic record audit system that mines emissions inspection data and past audit data for triggers, issues, and concerns [chunk_id: 2363].",
+      "source_chunk_ids": [2363]
+    },
+    {
+      "metric": "Locations and annual tests under QA/QC (one decentralized program)",
+      "value": "12,000 locations / 7 million annual tests",
+      "context": "Project-at-a-glance for a Parsons program where QA/QC, overt and covert auditing, and equipment/software acceptance testing are core scope items [chunk_id: 2361].",
+      "source_chunk_ids": [2361]
+    },
+    {
+      "metric": "Locations and annual tests under QA/QC (additional decentralized program)",
+      "value": "1,200 locations / 2 million annual tests",
+      "context": "Project-at-a-glance for another Parsons program with QA/QC, audit applications and data-querying tools, and web-based reporting for compliance and program management [chunk_ids: 2372, 2373].",
+      "source_chunk_ids": [2372, 2373]
+    },
+    {
+      "metric": "Locations and annual tests under QA/QC (additional program)",
+      "value": "2,500 locations / 2.8 million annual tests",
+      "context": "Project-at-a-glance covering program management, auditing, VID development, QA/QC, training, and fee collection [chunk_id: 2408].",
+      "source_chunk_ids": [2408]
+    },
+    {
+      "metric": "Data audits performed using SLTA",
+      "value": "more than 300,000",
+      "context": "Innovation Spotlight: SLTA and AMT applications monitor deliverables and performance metrics; Parsons reports having conducted more data audits with SLTA than any other provider in the industry [chunk_id: 3917].",
+      "source_chunk_ids": [3917]
+    },
+    {
+      "metric": "QA/QC industry tenure",
+      "value": "25-year history of I/M auditing in North America",
+      "context": "Parsons-qualified equipment technicians hired and trained against this auditing history [chunk_id: 3917].",
+      "source_chunk_ids": [3917]
+    },
+    {
+      "metric": "Equipment SAT vehicle communication rate",
+      "value": "99.5%+",
+      "context": "Documented equipment SAT criterion used to verify OBD/kiosk readiness before deployment, supporting QA Plan acceptance-test rigor [chunk_id: 3762].",
+      "source_chunk_ids": [3762]
+    },
+    {
+      "metric": "QA Plan refresh cadence",
+      "value": "Quarterly evaluation; updated plan within 15 days of quarter-end",
+      "context": "Parsons' QA Plan event schedule commits to quarterly Precision-and-Accuracy reports, quarterly Malfunction-and-Repair reports with costs, and a QA Plan update within 15 days of the end of each calendar quarter [chunk_ids: 4468, 4471].",
+      "source_chunk_ids": [4468, 4471]
+    },
+    {
+      "metric": "Test-inaccuracy reporting SLA",
+      "value": "1 business day",
+      "context": "Any finding of test inaccuracies is reported to the client within one business day; corrective action and results also reported within one business day after initiating the corrective action [chunk_id: 4447].",
+      "source_chunk_ids": [4447]
+    },
+    {
+      "metric": "Unsatisfactory SAT result resolution",
+      "value": "addressed within 48 hours and scheduled for retest",
+      "context": "QA-driven SAT remediation cadence baked into the acceptance-testing process [chunk_id: 3759].",
+      "source_chunk_ids": [3759]
+    }
+  ],
+  "differentiators": "- **Pre-built, auditable QA Plan template.** Our QA/QC Manager already develops QA/QC procedures and manuals, implements the program, performs data validation and QA audits, directs all project QA functions, prepares audit reports for all levels of management, and operates against contract-mandated procedures — duties that align directly with the QA Manager role the bid solicitation requires [chunk_ids: 3984, 3987].\n- **PACE quality methodology.** Parsons-wide Plan-Act-Check-Excel approach drives continuous monitoring, audits, management reviews, client feedback, and corrective/preventive action, giving the QA Plan a corporate-grade backbone rather than a one-off document [chunk_id: 4707].\n- **Risk-based compliance monitoring already in production.** Real-time data analysis with test-interruption, statistical pattern detection, and remote video/audio conference with facility personnel during a live inspection — operational at scale, not aspirational [chunk_id: 2416].\n- **Lane and mechanic report cards.** Implemented with great success on the Ontario program; compares testing accuracy and repair effectiveness for inspection lanes and mechanics against peer groups, helping State auditors streamline review and target audit focus [chunk_id: 4447].\n- **SLTA/AMT auditing platform.** Parsons reports more than 300,000 data audits using SLTA, more than any other provider in the industry, and uses AMT to flag out-of-parameter equipment before it fails [chunk_ids: 3916, 3917].\n- **Updated electronic auditing infrastructure.** Cloud-hosted system uses devices with built-in 5G/Wi-Fi to maximize VIID connectivity and supports overt, covert, safety/enhanced safety, remote-record, and smartphone-based audits, enabling quicker review of audit anomalies by both Parsons and the client [chunk_id: 2104].\n- **Quarterly QA Plan refresh discipline.** Documented event schedule for Precision-and-Accuracy reports, Malfunction-and-Repair reports with costs, and QA Plan updates within 15 days of each calendar quarter — a built-in mechanism for resolving disagreements by routinely deferring to client direction [chunk_ids: 4468, 4471].\n- **Cooperative oversight stance.** Explicit commitment to provide State personnel unfettered access to inspection stations, all test equipment, systems, records, and facilities; QA Plan reporting flows through the VID and audit website with shared State/Parsons access [chunk_ids: 4465, 4468, 4470].\n- **Independent equipment-certification posture.** Parsons does not provide inspection equipment directly, allowing it to maintain impartial oversight of equipment manufacturers and certify all equipment for every test type — reinforcing QA Plan integrity [chunk_id: 2359].",
+  "gap_notes": "- **R-098 (Develop and deliver QA Plan to SCM):** Evidence shows Parsons has developed QA Plans and QA/QC programs for multiple programs and refreshes them quarterly [chunk_ids: 2103, 4468, 4471], and that the QA/QC Manager develops procedures and manuals and directs all QA functions [chunk_ids: 3984, 3987]. However, the evidence does not contain a specific delivery cadence to a Solution Contract Manager (SCM), a defined Table of Contents for the QA Plan deliverable, or sign-off workflow timing measured from contract award. Capture team should source: (1) sample QA Plan TOC from a comparable program; (2) initial QA Plan delivery timeline (days from NTP); (3) named QA Manager qualifications and resume for this pursuit.\n- **R-107 (Bid Solicitation requirements and State's final decision prevail in QA Plan disagreements):** Evidence demonstrates a cooperative posture — QA Plan reports developed in conjunction with State analysts, weekly/monthly review sessions, Technical Committee meetings, and reasonable changes made at the direction and recommendation of the State [chunk_ids: 4465, 3969]. However, no evidence chunk contains an explicit acknowledgement clause that the bid-solicitation requirements and the State's final decision will prevail in any disagreement on QA Plan content. Capture team should add boilerplate compliance language committing Parsons to that precedence rule, ideally with an example of a disagreement-resolution process used on a prior program.\n- **QA Plan governance specifics not in evidence:** No chunk describes (a) the formal QA Plan revision/approval workflow with specific State touchpoints, (b) escalation paths when QA findings conflict with operational decisions, or (c) a written commitment that Parsons will not implement a contested QA Plan provision until State approval. Capture team should source process artifacts.\n- **Operational vs. quality-system metrics:** Evidence supports outcome metrics (audits performed, test communication rates, SAT cadence) but does not provide independent third-party quality certifications (e.g., ISO 9001) for the program-management entity. Confirm whether Parsons holds or can cite a relevant ISO/CMMI certification for this pursuit.\n- **State-specific tailoring:** Evidence is drawn from programs in other jurisdictions; the QA Plan will need to be tailored to the procuring State's specific statutes, MVC oversight roles, and reporting hierarchy. Capture team should map each QA Plan section to the State's organizational chart and approval authorities.",
+  "source_chunk_ids": [1993, 2103, 2104, 2359, 2361, 2363, 2372, 2373, 2374, 2408, 2415, 2416, 2437, 2530, 2534, 3586, 3759, 3762, 3781, 3819, 3913, 3916, 3917, 3927, 3929, 3968, 3969, 3984, 3987, 4030, 4040, 4058, 4201, 4302, 4314, 4315, 4337, 4348, 4447, 4465, 4468, 4470, 4471, 4472, 4490, 4491, 4492, 4617, 4707]
+}

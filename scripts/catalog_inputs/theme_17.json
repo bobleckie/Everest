@@ -1,0 +1,1056 @@
+{
+  "theme_id": 17,
+  "theme_label": "Collective Bargaining & Labor",
+  "category": "Operational",
+  "rfp_requirements": [
+    {
+      "id": 8100,
+      "code": "A-001",
+      "title": "Notify Employer of new classification assignment contention",
+      "description": "Within 30 days of notification of any newly created classification, the Union shall notify the Employer in writing if it contends the new classification should be assigned to a particular bargaining unit.",
+      "section": "Article I.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8104,
+      "code": "A-005",
+      "title": "Provide 90-day notice of sale/conveyance/assignment/transfer",
+      "description": "In the event the Employer sells, conveys, assigns, or transfers its operation, the Employer will give the Union 90 days notice prior to the culmination of such event.",
+      "section": "Article I.5",
+      "priority": "critical",
+      "category": "deadline"
+    },
+    {
+      "id": 8106,
+      "code": "A-007",
+      "title": "Advise new Employee of Union recognition at hire",
+      "description": "At the time a new Employee subject to this Agreement is hired, the Employer shall advise the Employee that the Employer recognizes and is in contractual relations with the Union.",
+      "section": "Article I.7",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8107,
+      "code": "A-008",
+      "title": "Afford Union officer opportunity to speak during orientation",
+      "description": "The Employer shall afford a Union officer an opportunity to speak to the new Employee during orientation.",
+      "section": "Article I.7",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8108,
+      "code": "A-009",
+      "title": "Maintain existing Union membership as condition of employment",
+      "description": "All Employees on the active payroll as of May 13, 1999, who are members of the Union, shall maintain their membership in the Union as a condition of continued employment.",
+      "section": "Article II.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8109,
+      "code": "A-010",
+      "title": "Become Union member within 30 days of employment",
+      "description": "All Employees on the active payroll shall become members of the Union no later than the 30th day following the beginning of such employment, and shall thereafter maintain membership as a condition of continued employment.",
+      "section": "Article II.2",
+      "priority": "critical",
+      "category": "deadline"
+    },
+    {
+      "id": 8158,
+      "code": "M-009",
+      "title": "No deduction obligation if insufficient wages",
+      "description": "The Employer shall not be obliged to make dues deductions of any kind from any Employee who, during any dues month, shall have failed to receive sufficient wages to equal the dues deduction.",
+      "section": "Article III.4",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 8118,
+      "code": "A-019",
+      "title": "Remit monthly dues with Employee list",
+      "description": "Each month, the Employer shall remit to the Union all dues deductions for the preceding month together with a list of all Employees from whom dues have been deducted.",
+      "section": "Article III.5",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8123,
+      "code": "A-024",
+      "title": "Provide advance notice of Union representative visits",
+      "description": "Union representatives shall provide advance notice to the Labor Relations Manager or designee of intent to visit an Employer location and arrange a mutually convenient time.",
+      "section": "Article IV.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8124,
+      "code": "A-025",
+      "title": "Advise Station Manager before entering work area",
+      "description": "Where the Union representative finds it necessary to enter a work area, he/she shall first advise the Station Manager or designee in person.",
+      "section": "Article IV.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8137,
+      "code": "A-038",
+      "title": "Local 518 President/VP designates investigation representative",
+      "description": "Subject to Article XXXV, paragraph 1, the Local 518 President/Vice-President or designee shall be solely responsible for designating the Local 518 representative to conduct a disciplinary or grievance investigation.",
+      "section": "Article IV.10",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8132,
+      "code": "A-033",
+      "title": "Copy Employer on Union-related e-mails",
+      "description": "A Union representative shall have access to receive Union-related e-mails at all stations, provided the Employer is copied on all such e-mails.",
+      "section": "Article IV.6",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8238,
+      "code": "A-061",
+      "title": "Limit swing person to two contiguous lanes",
+      "description": "The Employer agrees to limit use of a swing person to situations where there are two contiguous lanes with unobstructed views for the swing person between them.",
+      "section": "Article IX.11",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8242,
+      "code": "A-065",
+      "title": "Offer overtime by seniority regardless of classification when >4 inspectors/lane",
+      "description": "If management requires more than 4 inspectors per lane, overtime must be offered to all station personnel based on seniority regardless of classification, on rotational basis.",
+      "section": "Article IX.11",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8247,
+      "code": "A-067",
+      "title": "Allow Saturday early release based on station needs",
+      "description": "Employees may volunteer for early release from Saturday shift and manager may release based on station needs; pay is for time worked.",
+      "section": "Article IX.13",
+      "priority": "low",
+      "category": "mandatory"
+    },
+    {
+      "id": 8224,
+      "code": "A-052",
+      "title": "Offer overtime to Material Handlers/Tech Specialists by seniority rotation",
+      "description": "Material Handler classifications and Technical Specialists must be offered available overtime in seniority order on a rotational basis; if insufficient volunteers, least senior employee must accept on rotational basis unless finding a replacement.",
+      "section": "Article IX.5",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8227,
+      "code": "A-054",
+      "title": "Offer ERT overtime station-first then region by seniority",
+      "description": "Equipment Repair Technicians overtime must first be offered to the employee normally assigned to the station; then to other regional employees in seniority order on rotational basis; if insufficient volunteers, least senior station employee must accept unless finding replacement.",
+      "section": "Article IX.6",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8230,
+      "code": "A-055",
+      "title": "Offer Lane Tech overtime by combined seniority rotation",
+      "description": "Senior Lane Technicians and Lane Technicians must be offered available overtime including Saturdays in seniority order of combined classifications on rotational basis, first at station then surrounding stations; then Associate Lane Technicians and other Lane Tech unit employees.",
+      "section": "Article IX.7",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8231,
+      "code": "V-010",
+      "title": "Mandatory acceptance of Lane Tech overtime by least senior including part-time",
+      "description": "For Lane Technician overtime, if insufficient numbers accept offers, the least senior employee in those classifications (including part-time employees) shall be obligated to accept the overtime assignment on a rotational basis unless finding another employee to take his/her place.",
+      "section": "Article IX.7",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8140,
+      "code": "A-041",
+      "title": "Break seniority ties per order of preference",
+      "description": "If a seniority tie must be broken, it shall be broken in order: (1) disabled veteran status, (2) veteran status, (3) lottery conducted by Employer and witnessed by impartial Union representative.",
+      "section": "Article VI.1(b)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8142,
+      "code": "A-043",
+      "title": "Commence seniority after probation, retroactive to hire date",
+      "description": "An Employee's seniority shall commence after completion of probation and be retroactive to the date of most recent hire; returning Employees within 1 month of resignation in good standing retain original date.",
+      "section": "Article VI.2(a)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8143,
+      "code": "A-044",
+      "title": "Accrue seniority during authorized leave up to 1 year",
+      "description": "Seniority continues to accrue during continuous authorized leave of absence up to 1 year (including FMLA/NJFLA), provided the Employee returns immediately upon expiration and the position remains available; also accrues during layoff up to 1 year or length of employment, whichever is less.",
+      "section": "Article VI.2(b)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8167,
+      "code": "A-002",
+      "title": "Employee must notify Employer of current address",
+      "description": "Employees are responsible for notifying the Employer of their current address.",
+      "section": "Article VI.3",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8148,
+      "code": "A-049",
+      "title": "Return within 7 days of recall notice within 30-mile radius",
+      "description": "Seniority is lost if laid off 12 months or if the employee fails to return to work within 7 days of a return to work notice to a station within a 30 mile radius of the home station, whichever is earlier.",
+      "section": "Article VI.3(d)",
+      "priority": "critical",
+      "category": "deadline"
+    },
+    {
+      "id": 8169,
+      "code": "A-004",
+      "title": "Apply seniority by location for layoffs, recalls, vacations",
+      "description": "Bargaining unit seniority must be applied by location in layoffs and recalls and for scheduling of vacations.",
+      "section": "Article VI.4(b)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8171,
+      "code": "A-006",
+      "title": "Lay off least senior employee first",
+      "description": "The employee at the location with the least bargaining unit seniority must be laid off first.",
+      "section": "Article VI.5(b)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8175,
+      "code": "V-001",
+      "title": "Layoff procedural steps do not apply in emergencies/acts of God/State-directed situations",
+      "description": "The pre-layoff procedural requirements (30-day notice, written notification to Union, 7-day meeting period) do not apply in emergencies, acts of God, or under operational situations directed by the State of New Jersey.",
+      "section": "Article VI.5(c)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8172,
+      "code": "A-007",
+      "title": "Provide 30-day layoff notice or pay in lieu",
+      "description": "Prior to layoff (except in emergencies, acts of God, or State-directed situations), the Employer must give the Union and affected employees 30 days notice, or 30 days pay in lieu.",
+      "section": "Article VI.5(c)(i)",
+      "priority": "critical",
+      "category": "deadline"
+    },
+    {
+      "id": 8173,
+      "code": "A-008",
+      "title": "Provide written notice with employee details",
+      "description": "The Employer must notify the Union in writing of all employees affected, their dates of hire, job classification, and bargaining unit seniority.",
+      "section": "Article VI.5(c)(ii)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8176,
+      "code": "A-010",
+      "title": "Lay off probationary employees first",
+      "description": "Probationary employees must be laid off first without regard to their individual period of employment; non-probationary employees are laid off next based on seniority.",
+      "section": "Article VI.5(d)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8183,
+      "code": "A-016",
+      "title": "Set seniority date upon layoff/classification elimination",
+      "description": "For Technical Specialists, Material Handlers Group, or Equipment Repair Technicians, upon layoff or classification elimination, seniority date is the start date of obtaining the current classification.",
+      "section": "Article VI.5(i)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8184,
+      "code": "A-017",
+      "title": "Recall employees in reverse order of layoff by seniority",
+      "description": "When a vacancy occurs, laid-off employees must be recalled per bargaining unit seniority in the reverse order they were laid off from their station; if not fillable at the station, vacancy is offered statewide by seniority.",
+      "section": "Article VI.6(a)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8197,
+      "code": "A-028",
+      "title": "Remit lump-sum payments to employees",
+      "description": "The Employer must remit to each employee a check in the specified amounts (2014 and 2015: $1,000 Full-Time; $500 Part-Time), less applicable withholdings.",
+      "section": "Article VII.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8198,
+      "code": "A-029",
+      "title": "Make payments on first full pay period in January",
+      "description": "The Employer will make the payments on the first full pay period in January 2014 and January 2015; employees on approved medical leave receive payment upon return to active status.",
+      "section": "Article VII.3",
+      "priority": "high",
+      "category": "deadline"
+    },
+    {
+      "id": 8201,
+      "code": "A-031",
+      "title": "Set regular workweek for Lane Technicians",
+      "description": "Regular workweek for full-time Senior Lane Technicians, Lane Technicians, and full-time Associate Lane Technicians must be 8 hours/day, 5 days/week, Monday through Friday.",
+      "section": "Article VIII.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8211,
+      "code": "A-040",
+      "title": "Guarantee 40 hours of work Monday through Friday",
+      "description": "All employees, except part-time Associate Lane Technicians, must be guaranteed 40 hours of work Monday through Friday.",
+      "section": "Article VIII.10",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8213,
+      "code": "A-042",
+      "title": "Set Saturday hours for Technical/Material/ERT",
+      "description": "For Saturday, regular hours for Technical Specialists, Material Handler classifications, and Equipment Repair Technicians must be between 6:00 AM and 12:00 PM as determined by management and subject to State of NJ restrictions.",
+      "section": "Article VIII.12",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8215,
+      "code": "A-044",
+      "title": "Take precautions during excessive heat or cold",
+      "description": "During hours of excessive heat or cold, the Employer must take necessary precautions to protect employee health and safety, including extended breaks and consolidating operations. Anemometers shall remain in current locations.",
+      "section": "Article VIII.14",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8216,
+      "code": "A-045",
+      "title": "Start full-time lunch breaks after 11:00 a.m.",
+      "description": "Lunch breaks for full-time employees must start after 11:00 a.m.",
+      "section": "Article VIII.15",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8205,
+      "code": "A-035",
+      "title": "Provide unpaid lunch and paid breaks to Lane Technicians",
+      "description": "Senior Lane Technicians, Lane Technicians, and full-time Associate Lane Technicians must receive a one-hour unpaid lunch and four 15-minute paid breaks distributed two per half-day, plus any additional paid breaks at management discretion.",
+      "section": "Article VIII.4",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8206,
+      "code": "V-005",
+      "title": "Part-Time Associate Lane Technician workweek governed by Article XXV",
+      "description": "The regular workweek for all Part-Time Associate Lane Technicians is subject to the provisions set forth in Article XXV.",
+      "section": "Article VIII.5",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8207,
+      "code": "A-036",
+      "title": "Prohibit use of Part-Time to prevent full-time overtime",
+      "description": "Part-Time Associate Lane Technicians may not be used to prevent full-time employees from working overtime.",
+      "section": "Article VIII.6",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8406,
+      "code": "A-008",
+      "title": "Charge partial-day sick leave on hourly basis",
+      "description": "Utilization of sick leave for less than a full workday shall be on an hourly basis: one hour charged for each hour or portion taken off.",
+      "section": "Article XXIX.5",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8407,
+      "code": "M-001",
+      "title": "Allow FMLA vacation substitution for exhausted sick leave",
+      "description": "Employees on approved FMLA leave who have exhausted sick leave may elect, at their discretion, to use unused vacation days during the leave.",
+      "section": "Article XXIX.6",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8409,
+      "code": "A-010",
+      "title": "Apply sick leave provisions to all Monday\u2013Saturday shifts",
+      "description": "Sick leave provisions apply to all assigned shifts Monday through Saturday regardless of whether drafted or volunteered.",
+      "section": "Article XXIX.8",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8410,
+      "code": "A-011",
+      "title": "Charge sick leave for first day of absence",
+      "description": "Except for employees using intermittent FMLA leave, employees will be charged sick leave for the first day of any absence.",
+      "section": "Article XXIX.9",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8417,
+      "code": "A-016",
+      "title": "Cap special leave hours",
+      "description": "Special leave shall not be granted or credited for more than 8 hours in a day or 40 hours in a week.",
+      "section": "Article XXX.1(c)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8419,
+      "code": "A-018",
+      "title": "Grant bereavement leave up to 24 hours",
+      "description": "Bereavement leave shall be granted with pay to regular Employees due to death of an immediate family member, up to a maximum of 24 hours per bereavement.",
+      "section": "Article XXX.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8420,
+      "code": "A-019",
+      "title": "Negotiate transfer provision if Technical Specialists or Material Handlers split locations",
+      "description": "If Technical Specialists or Material Handlers are divided into two locations, the Employer and Union agree to negotiate a transfer provision.",
+      "section": "Article XXXI.1",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8435,
+      "code": "A-029",
+      "title": "Continue probation period at new location after transfer",
+      "description": "Employees serving probation may transfer if Article provisions are met; probation period will not change but Employee continues probation at new location.",
+      "section": "Article XXXI.10",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8421,
+      "code": "A-020",
+      "title": "Complete probationary period before transfer eligibility",
+      "description": "An Employee must have completed the probationary period per Article V to be eligible to transfer to an equivalent or lesser position at another station with a vacancy.",
+      "section": "Article XXXI.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8423,
+      "code": "A-022",
+      "title": "Complete transfer preference list",
+      "description": "Employees wishing to transfer may indicate desired position and list up to three locations by completing a transfer preference list maintained by Company Human Resources.",
+      "section": "Article XXXI.2(b)",
+      "priority": "medium",
+      "category": "form"
+    },
+    {
+      "id": 8424,
+      "code": "M-004",
+      "title": "Only new listed transfer preferences receive new date",
+      "description": "Employees may update their transfer preference list at any time, but only new listed preferences will be assigned a new date.",
+      "section": "Article XXXI.2(b)",
+      "priority": "low",
+      "category": "mandatory"
+    },
+    {
+      "id": 8427,
+      "code": "A-024",
+      "title": "Fill vacant positions when no preference stated",
+      "description": "If no qualified Employee stated preference, position filled by any volunteer responding to posting, then by new hire from outside.",
+      "section": "Article XXXI.4",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8428,
+      "code": "M-006",
+      "title": "Exclude non-bargaining unit promotions from transfer provisions",
+      "description": "The transfer provisions of Article XXXI shall not apply to promotions to fill vacant non-bargaining unit positions.",
+      "section": "Article XXXI.5",
+      "priority": "low",
+      "category": "mandatory"
+    },
+    {
+      "id": 8429,
+      "code": "A-025",
+      "title": "Pay 10% differential and travel pay for temporary transfer assignments",
+      "description": "Employee assigned to fill temporary vacancy from another location shall receive 10% pay differential and travel pay, provided station resources including Part-Time Employees are exhausted.",
+      "section": "Article XXXI.6",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8434,
+      "code": "A-028",
+      "title": "Freeze Vehicle Inspector transfer lists until recall list exhausted",
+      "description": "All Vehicle Inspector transfer lists are frozen until the recall list is exhausted.",
+      "section": "Article XXXI.9",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8440,
+      "code": "A-034",
+      "title": "Provide and replace required tools",
+      "description": "Employer shall provide and replace all tools required; Employee is responsible for safekeeping and reasonable care of those tools.",
+      "section": "Article XXXII.3",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8442,
+      "code": "A-036",
+      "title": "Account for swapped/transferred inventory parts",
+      "description": "ERTs may swap/transfer parts between one another; Employee is responsible to ensure inventory is properly accounted for with required paperwork completed.",
+      "section": "Article XXXII.5",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8448,
+      "code": "A-041",
+      "title": "Provide up to 220 days of paid Union leave",
+      "description": "Employer agrees to provide up to 220 days of paid leave to Union delegates/officers/representatives for Union activities such as conventions, contract negotiations, and meetings.",
+      "section": "Article XXXIV.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8451,
+      "code": "A-043",
+      "title": "Do not carry over unused Union paid leave",
+      "description": "Any unused Union release days cannot be carried over to the following year and cannot be combined with other paid leave.",
+      "section": "Article XXXIV.2",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8453,
+      "code": "A-044",
+      "title": "Allow advance of Union release days",
+      "description": "If Union release time is exhausted during the contract year, the Union may ask Employer to advance Union release days from the upcoming contract year, which shall not be unreasonably denied; advanced days deducted from following year.",
+      "section": "Article XXXIV.3",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8464,
+      "code": "A-053",
+      "title": "Provide 45-day notice for vacation seniority conflict resolution",
+      "description": "Vacation scheduling conflicts among Employees who have provided 45 days notice shall be resolved within the station on the basis of bargaining unit seniority.",
+      "section": "Article XXXV.1",
+      "priority": "medium",
+      "category": "deadline"
+    },
+    {
+      "id": 8468,
+      "code": "A-057",
+      "title": "Grant vacation on first-come, first-serve basis",
+      "description": "Employer may deny vacation requests based on business demands but not unreasonably; requests granted first-come, first-serve based on submission date.",
+      "section": "Article XXXV.1",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8460,
+      "code": "A-049",
+      "title": "Provide vacation accrual for under 1 year service",
+      "description": "Employees with less than one year of service earn one vacation day for each two-month period of service.",
+      "section": "Article XXXV.1(a)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8461,
+      "code": "A-050",
+      "title": "Provide 15 vacation days for 1\u20134 years service",
+      "description": "Employees with one through end of fourth year of service receive 15 vacation days.",
+      "section": "Article XXXV.1(b)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8462,
+      "code": "A-051",
+      "title": "Provide 20 vacation days for 5\u201311 years service",
+      "description": "Employees with 5 through end of 11th year of service receive 20 vacation days.",
+      "section": "Article XXXV.1(c)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8463,
+      "code": "A-052",
+      "title": "Provide 25 vacation days for 12+ years service",
+      "description": "Employees with 12 or more years of service receive 25 vacation days.",
+      "section": "Article XXXV.1(d)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8465,
+      "code": "A-054",
+      "title": "Provide 15 days notice for 6+ vacation days",
+      "description": "Employees requesting 6 or more vacation days must provide 15 days notice.",
+      "section": "Article XXXV.1(i)",
+      "priority": "medium",
+      "category": "deadline"
+    },
+    {
+      "id": 8466,
+      "code": "A-055",
+      "title": "Provide 10 days notice for 3\u20135 vacation days",
+      "description": "Employees requesting 3 to 5 vacation days must provide 10 days notice.",
+      "section": "Article XXXV.1(ii)",
+      "priority": "medium",
+      "category": "deadline"
+    },
+    {
+      "id": 8467,
+      "code": "A-056",
+      "title": "Provide 24-hour notice for 1\u20132 vacation days",
+      "description": "Employees requesting 1 to 2 vacation days must provide 24 hours notice.",
+      "section": "Article XXXV.1(iii)",
+      "priority": "medium",
+      "category": "deadline"
+    },
+    {
+      "id": 8475,
+      "code": "A-063",
+      "title": "Pay accrued vacation to estate upon death",
+      "description": "If an Employee dies having accrued vacation credits, the accrued vacation time shall be paid to his estate.",
+      "section": "Article XXXV.5",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8257,
+      "code": "A-009",
+      "title": "Minimum Two Inspectors Per Lane Before 10:30 a.m.",
+      "description": "Before 10:30 a.m. on Saturday, the Employer may not have fewer than two Employees inspecting vehicles in a single lane.",
+      "section": "IX.20(a)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8259,
+      "code": "A-011",
+      "title": "Pay to Next Half-Hour After Noon on Saturday",
+      "description": "Employees who finish inspecting vehicles after 12:00 p.m. shall be paid to the next one-half hour, except those who volunteer to leave early.",
+      "section": "IX.20(c)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8260,
+      "code": "A-012",
+      "title": "Turn Away Vehicles Without Ticket by Closing",
+      "description": "The Employer will turn away vehicles that have not pulled a ticket by closing time, unless directed otherwise by the State.",
+      "section": "IX.20(d)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8284,
+      "code": "A-032",
+      "title": "Publicly Disavow Prohibited Employee Action",
+      "description": "The Union shall publicly disavow such action by the Employees.",
+      "section": "XII.4(a)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8285,
+      "code": "A-033",
+      "title": "Advise Employer in Writing of Non-Sanction",
+      "description": "The Union shall advise the Employer in writing that the action was not called or sanctioned by the Union.",
+      "section": "XII.4(b)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8286,
+      "code": "A-034",
+      "title": "Notify Employees of Union Disapproval",
+      "description": "The Union shall notify Employees of its disapproval of the action and instruct them to cease and return to work immediately.",
+      "section": "XII.4(c)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8287,
+      "code": "A-035",
+      "title": "Post Disapproval Notices on Union Bulletin Boards",
+      "description": "The Union shall post notices on Union Bulletin Boards stating its disapproval and instructing Employees to return to work immediately.",
+      "section": "XII.4(d)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8288,
+      "code": "V-004",
+      "title": "Union Shall Take No Action Undermining Disavowal Statement",
+      "description": "After delivery of the disavowal statement to the Company, the Union will take no action which in any way undermines it.",
+      "section": "XII.4(e)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8298,
+      "code": "V-007",
+      "title": "Employer Failure to Answer Not Deemed Acquiescence",
+      "description": "Failure on the part of the Employer to answer a grievance at any step shall not be deemed acquiescence thereto, but shall entitle the Union to proceed to the next step.",
+      "section": "XIII.1(b)(i)",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8299,
+      "code": "V-008",
+      "title": "Discharge/Suspension Grievance May Begin at Step 2",
+      "description": "Notwithstanding the standard procedure, a grievance concerning a discharge or suspension may be presented initially at Step 2, within the time limit specified in Step 1.",
+      "section": "XIII.1(b)(ii)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8300,
+      "code": "V-009",
+      "title": "Employer May Present Grievance Initially at Step 2",
+      "description": "Without waiving its statutory rights, a grievance on behalf of the Employer may be presented initially at Step 2 by written notice addressed to the Union at its offices.",
+      "section": "XIII.1(b)(iii)",
+      "priority": "medium",
+      "category": "mandatory"
+    }
+  ],
+  "parsons_evidence": [
+    {
+      "chunk_id": 1927,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 2,
+      "content": "5340 Jaycee Avenue, Suite E, Harrisburg, PA 17112\n+1 717.565.7500 /Direct: +1 416.676.179 / www.parsons.com\nDecember 5, 2023\nDawn Grabuloff\nPennsylvania Department of Transportation\nBureau of Office Services\n400 North St., Keystone Bldg. 5th Floor\nHarrisburg PA 17120\nSubject: Solicitation 3522R12, Emissions Program Management\nDear Ms. Grabuloff,\nParsons Transportation Group Inc. (Parsons) is pleased to provide this proposal to the Pennsylvania Department of\nTransportation (PennDOT), Bureau of Office Services, in response to Request for Proposal (RFP) Number 3522R12\nfor Emissions Program Management.\nOur commitment to PennDOT is to continue delivering an effective Pennsylvania Vehicle Emissions Inspection and\nMaintenance Program and to innovate responsibly to move the Program forward. Building on our past performance,\nwe will implement new, cloud-based VIID systems and improved auditing infrastructure that efficiently gets Program\ndata to PennDOT. Our upgrades to the e-SAFETY system will support the enhanced safety inspection Program\ncompliance. We will upgrade our call center solution with new technology using ZenDesk and AmazonConnect as\nthe backbone of the system.\nOur Program Mana"
+    },
+    {
+      "chunk_id": 1928,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 2,
+      "content": "auditor teams, support teams, and subcontractors are in place. In this challenging\nlabor market, we do not anticipate any staffing impacts as your selected vendor in the new contract. Upon Notice to\nProceed, with no transitional risk to current operations, we will begin the implementation tasks to fulfill all RFP\nrequirements.\nParsons continues its commitment to Small Diverse Businesses and Small Businesses for this procurement.\nAdditionally, we have added two Veteran Business Enterprises to our team, 1Alpha Consulting to bolster our\nmotorist compliance activities and Berry Solutions Group for our information and education development and to\nprovide enhanced auditor training.\nOfferor Responsibilities and Exceptions to the RFP Requirements\nAll information submitted pertains exclusively to Parsons Transportation Group Inc. as a subsidiary of Parsons\nCorporation. Our proposal satisfies all mandatory requirements listed in the RFP, and we take no exceptions to any\nof the contractual provisions outlined in the RFP.\nOn behalf of Parsons, I am authorized to bind the Corporation to all the provisions in this proposal and acknowledge\nreceipt of Addenda 1 through 5. This proposal is good for"
+    },
+    {
+      "chunk_id": 1963,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 8,
+      "content": "AWS Partner Solutions Provider, AWS DevOps Competency Partner, and AWS Advanced Tier Services\nPartner, and holds other designations. Our engineers and in-house security experts have more than 100 AWS\ncertifications, and Parsons has secured AWS\u2019s commitment to support our Pennsylvania solution during our\nimplementation and ongoing utilization of AWS/AWS products. Our experience moving the Ontario DriveON program to\nAWS allows us to implement our proposed update to the PA I/M Program VIID securely, without interruption in service\nor uptime. We will upgrade our call center solution with new technology using ZenDesk and AmazonConnect as the\nbackbone of the system.\nStation Compliance. Our operational goals align with PennDOT\u2019s focus on station and inspector compliance. We\nrecognize the Program\u2019s integrity and customer confidence are rooted in ensuring compliance. We will continually\nadapt to improve our audit and hearing processes through innovation and enhanced auditor training. Parsons has in-\nhouse professional oversight personnel with experience in the Pennsylvania Program. In this challenging labor market,\nour teams are fully staffed, trained, and dependable.\nExecutive Summary ES-1"
+    },
+    {
+      "chunk_id": 1964,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 8,
+      "content": "s in-\nhouse professional oversight personnel with experience in the Pennsylvania Program. In this challenging labor market,\nour teams are fully staffed, trained, and dependable.\nExecutive Summary ES-1"
+    },
+    {
+      "chunk_id": 1973,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 11,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nfield use. In 2020, we reacted and adapted to the COVID-19 pandemic, successfully delivering all Program requirements\ndespite the mandated closures. In 2021, we collaborated with you to implement important OBD system changes that\nimproved emissions testing and Program integrity. In 2023, we increased overt audit staff to meet your need for\nincreased safety station oversight. We have demonstrated our adaptability and expertise. Our understanding of the\nProgram will benefit you in the new contract through:\n\u00a7 Trusted relationships\u2014we\u2019ve established constructive relationships with both PennDOT staff and the inspection\nindustry who trust us to communicate and resolve I/M Program issues.\n\u00a7 Operational continuity\u2014our experienced team will manage the daily operational tasks of the I/M Program.\n\u00a7 Innovation\u2014we\u2019ve implemented an electronic audit application that leverages touchscreen laptops, electronic\nsignature capture, and VIID integration to eliminate paper overt audit reports submitted to PennDOT.\n\u00a7 Enhanced cybersecurity protection\u2014we scan systems supporting our VIID using the same technolo"
+    },
+    {
+      "chunk_id": 1979,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 12,
+      "content": "m uptime above 99.9%.\nstrong IT/Technology division, a cybersecurity practice, and\nprofessionally tested and proven project management staff. Our CEO\u2019s pledge to the Commonwealth of Pennsylvania is a\ntestament to our dedication to PennDOT and the PA I/M Program\u2019s success.\nParsons is honored to have the opportunity to continue to play a crucial role as your Program Manager\nresponsible for administering the Commonwealth\u2019s I/M Program. Mark Colangelo and his team are\ncommitted to extending our support for this important Program. They will have the full complement of our\nunrivaled resources, expertise, and experience to realize your vision to protect the environment and keep\nyour roads safe. Likewise, we have a robust cybersecurity practice and the capabilities necessary to ensure\nyour data and systems are secure. We look forward to collaborating with PennDOT and each of its\nstakeholders to build on our long-term, mutually successful relationship that is 26 years in the making.\nCarey Smith\nChairwoman, President, and CEO\nIn our I/M sector, PennDOT can count on the following leadership to guide the program:\n\u00a7 Mark Colangelo, Vice President and Pennsylvania Program Manager with 38 industr"
+    },
+    {
+      "chunk_id": 2006,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 17,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nParsons staff proposed in the organization chart are already in place, as are our primary subcontractors included on our\nteam. A challenging labor market will not impact Program continuity \u2013 Parsons\u2019 staff with Program knowledge will be\nready on day one, eliminating the need for program recruitment, education, and training, which mitigates transition\nrisk.\nI-2D: Background Checks\nParsons will conduct background checks for all employees and subcontractors with on-site or remote access to\nCommonwealth IT facilities. We\u2019ll provide written confirmation that the background checks have been completed via\nPennDOT\u2019s outlined procedure. We will not assign any employee who fails the background check. Current employees who\nfail a background check will have their access privileges revoked. We will conduct background checks at our expense\nbefore initial access and then annually. We understand that PennDOT may withhold access at its discretion.\nI-2E: Subcontractors\nOur subcontracting plan includes actively recruiting partners that share Parsons\u2019 core values and PennDOT\u2019s goals and\nwill add expertise,"
+    },
+    {
+      "chunk_id": 2007,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 17,
+      "content": "most qualified\nfor this Program through a vetting process that includes evaluating financial stability, obtaining positive performance\nreferences, and confirming capacity to handle our proposed scope. Many of these subcontractors have worked for\nParsons on the PA I/M Program or have direct experience with similar projects. Our subcontractor manager will monitor\nour subcontractors, verifying that subcontracted Program delivery services align with Program deliverables and\nobjectives.\nIn the following table, we present our proposed subcontractors for the new contract.\nEXHIBIT I-2-6. OUR TEAM OF SUBCONTRACTORS BRINGS DIVERSITY TO THE PA I/M PROGRAM.\nSubcontractor Dasher Services, Inc, de la Torre Klausmeier Hager Environment & Atmospheric\nTechnologies (HEAT)\nAddress 777 E. Park Drive 1401 Foxtail Cove 7308 Nubbin Ridge Drive\nHarrisburg, PA 17111 Austin, TX 78704 Knoxville, TN 37919\nCertifications SDB None SDB\n# years as a Parsons sub 11 18 8\n# employees on Project Covert Auditors: 3 managers, 31 1 4\nauditors; Call Center: 1 supervisor,\n2 representatives\nServices Provided Covert I/M Auditing, Help Desk Program Trigger Evaluation, Evaluation Testing\nService, Printing, and Publications Pr"
+    },
+    {
+      "chunk_id": 2008,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 17,
+      "content": "staff time 100% committed 100% committed 100% committed\nGeographical Location Covert Auditors: Hazleton, Altoona, Austin, TX Knoxville, TN\nCranberry, and Plymouth Meeting\nCall Center: Harrisburg, PA\nTechnical Submittal 8\nSubcontractor | Dasher Services, Inc, |  |  | de la Torre Klausmeier |  | Hager Environment & Atmospheric | \n |  |  |  |  |  | Technologies (HEAT) | \nAddress |  | 777 E. Park Drive |  | 1401 Foxtail Cove\nAustin, TX 78704 |  | 7308 Nubbin Ridge Drive | \n |  | Harrisburg, PA 17111 |  |  |  | Knoxville, TN 37919 | \nCertifications |  | SDB |  | None |  | SDB | \n# years as a Parsons sub |  | 11 |  | 18 |  | 8 | \n# employees on Project |  | Covert Auditors: 3 managers, 31 |  | 1 | 4 | 4 | \n |  | auditors; Call Center: 1 supervisor, |  |  |  |  | \n |  | 2 representatives |  |  |  |  | \nServices Provided |  | Covert I/M Auditing, Help Desk |  | Program Trigger Evaluation,\nProgram Consulting | Evaluation Testing |  | \n |  | Service, Printing, and Publications |  |  |  |  | \nTask Assignment |  | Tasks B, C, D, E, & L |  | Task B & I |  | Tasks G & H | \n% of dedicated staff time |  | 100% committed |  | 100% committed |  | 100% committed | \nGeographical Location |  | Covert A"
+    },
+    {
+      "chunk_id": 2010,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 18,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nSubcontractor Michael Baker International Revecorp, Inc. 1Alpha\nAddress 4431 N Front Street, 2nd Floor 5732 Lonetree Boulevard 20 Farm House Lane\nHarrisburg, PA 17110 Rocklin, CA 95765 Carlisle, PA 17013\nCertifications None None VBE\n# years as a Parsons sub 5 8 New Subcontractor\n# employees on Project 3 2 5\nServices Provided Data Analysis, Annual Reporting Data Analysis, Safety Recall, Trigger Motorist Compliance\nSupport, Equipment Certification Development, Program Evaluation\nSupport, Contractual Audit\nValidation\nTask Assignment Tasks B, I, J, & L Task B & J Task F\n% of dedicated staff time 100% committed 100% committed 100% committed\nGeographical Location Harrisburg, PA Rocklin, CA Pennsylvania\nSubcontractor Berry Solutions Group\nAddress 3900 Industrial Park Drive, Suite 8\nAltoona, PA 16602\nCertifications VBE\n# years as a Parsons sub New Subcontractor\n# employees on Project 6\nServices Provided I&E Material Development,\nAuditor Training\nTasks Assigned Tasks B, C, & J\n% of dedicated staff time 100% committed\nGeographical Location Altoona, PA\nI-3. TRAINING\nParsons recommends training cov"
+    },
+    {
+      "chunk_id": 2012,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 18,
+      "content": "e to answer questions in support of daily activities once the\ntraining has been completed.\nWe begin the training materials development process by conducting a needs analysis and establishing learning\nobjectives for each required curriculum. We design our comprehensive training to help PennDOT effectively manage\nassociated Program tasks using Parsons-developed systems and tools. Our start-to-finish training approach ensures a\nTechnical Submittal 9\nSubcontractor |  | Michael Baker International | Revecorp, Inc. |  | 1Alpha | \nAddress |  | 4431 N Front Street, 2nd Floor\nHarrisburg, PA 17110 | 5732 Lonetree Boulevard\nRocklin, CA 95765 |  | 20 Farm House Lane | \n |  |  |  |  | Carlisle, PA 17013 | \nCertifications |  | None | None |  | VBE | \n# years as a Parsons sub |  | 5 | 8 |  | New Subcontractor | \n# employees on Project |  | 3 | 2 |  | 5 | \nServices Provided |  | Data Analysis, Annual Reporting\nSupport, Equipment Certification\nSupport, Contractual Audit\nValidation | Data Analysis, Safety Recall, Trigger\nDevelopment, Program Evaluation | Motorist Compliance | Motorist Compliance | \nTask Assignment |  | Tasks B, I, J, & L | Task B & J |  | Task F | \n% of dedicated staff time |  | 100"
+    },
+    {
+      "chunk_id": 2013,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 18,
+      "content": "cation |  | Harrisburg, PA | Rocklin, CA |  | Pennsylvania | \nSubcontractor |  | Berry Solutions Group\nAddress |  | 3900 Industrial Park Drive, Suite 8\n |  | Altoona, PA 16602\nCertifications |  | VBE\n# years as a Parsons sub |  | New Subcontractor\n# employees on Project |  | 6\nServices Provided |  | I&E Material Development,\n |  | Auditor Training\nTasks Assigned |  | Tasks B, C, & J\n% of dedicated staff time |  | 100% committed\nGeographical Location |  | Altoona, PA"
+    },
+    {
+      "chunk_id": 2016,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 19,
+      "content": "nDOT requires Inspector\nCertification for all managers and field audit staff. We will administer all certification classes with our Pennsylvania-\nCertified Safety and Emissions Inspector instructors.\nUsing our PennDOT-certified Vehicle Safety and Emissions Inspection School, we will provide training to PennDOT\npersonnel and management staff involved in the safety, enhanced safety, and emissions inspection program throughout\nthe contract. For Inspector Certification we recommend no more\nVEHICLE SAFETY AND EMISSIONS INSPECTION\nthan 10 students per instructor for effective interactions.\nCERTIFICATION\nTraining may range from one to three days, depending on the\nstudent's experience.\nAs the only vendor designated as a PennDOT-\ncertified Vehicle Emission & Safety Inspection\nOur team includes three certified Vehicle Safety Inspection\nSchool, we can certify PennDOT personnel as\ninstructors and Vehicle Emissions Inspection instructors\u2014\nvehicle safety, enhanced safety, and emission\nJohn Ott, Karl Wagner, and Randall Udavcak\u2014with extensive\ninspectors.\nI/M Program and industry experience.\nI-4. FINANCIAL CAPABILITY\nWith 18,000+ employees, more than 5,000 current projects, and 250 offices worldwi"
+    },
+    {
+      "chunk_id": 2017,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 19,
+      "content": "capabilities, technical expertise, and available workforce to undertake almost any project and to supply the skills\nand resources required for its completion.\nOUR FINANCIAL STABILITY BENEFITS PENNDOT\nAs a global company with annual revenues Parsons is a publicly held corporation, more than 60% owned by\nexceeding $4.5 billion, Parsons\u2019 financial the Parsons Employee Stock Ownership Trust. As required, three\nstability is founded on the following years of audited financial statements, including balance sheet\nconservative business practices: and income statement or profit/loss statements, for Parsons\n\u2022 A robust risk management program Transportation Group Inc. have been emailed to Dawn Grabuloff\n\u2022 Accountability and incentives for management at dgrabuloff@pa.gov. Please keep this information confidential.\nstaff Our email to Dawn also includes a credit reference letter and\n\u2022 Careful subcontractor selection and our most recent Dun & Bradstreet comprehensive report.\nmanagement\n\u2022 Extensive training, tools, and audits\nI-5. REQUIREMENTS\nI-5A \u2013 C: Emissions Inspection and Maintenance (I/M) Program\nWe have been part of the PA I/M Program\u2019s success, as Exhibit I-2-2 (Page 5) illustrates, having"
+    },
+    {
+      "chunk_id": 2035,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 23,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nI-5H: Emergency Preparedness\nParsons worked first-hand with the Commonwealth through the uncertainty, challenges, and quickly changing scenarios\nof the COVID-19 pandemic, supporting contractual deliverables while prioritizing employee safety. Our ability to maintain\noperations comes in part from our established Emergency Response Plan (described below) and our experienced\nProgram Management Team.\nOperational Impact\nWE ADAPT TO CHANGING CONDITIONS TO KEEP\nYOUR PROGRAM MOVING FORWARD\nProgram operations can be impacted by pandemics and\nemergencies by limiting staff availability and mobility, hampering Parsons\u2019 response to the COVID-19 pandemic\nproject communications, eliminating office access, and reducing demonstrated our commitment and ability to\nor severing network connectivity. continue operations and support essential\ncontract deliverables for the Commonwealth.\nIf an emergency or pandemic occurs, Parsons will establish\ncontact with PennDOT and activate our Business Continuity Plan, which is part of our Program Management Plan. Project\nmanagement staff will communicate with PennDOT, pr"
+    },
+    {
+      "chunk_id": 2040,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 24,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nContinuity of Operations\nEven the most robust incident management plan requires knowledgeable staff for effective implementation and\nmanagement. Our team has knowledge and experience managing incidents without negative impact to the client and\ncustomers. We deliver training on our emergency preparedness plans to all staff, including key Program personnel.\nEXHIBIT: I-5-2. EMERGENCY PREPAREDNESS TRAINING FOR PROGRAM STAFF IS A CRITICAL ELEMENT TO OUR OPERATIONS.\nType of Training Recipients Frequency\nComplete Procedure Training All employees Upon hire\nFacility-specific Plans All employees for applicable facilities Upon transfer or role change\nRefresher Training All employees Annually or upon Plan update\nManagement Role Training Key Project Personnel Upon hire and annually\nTraining includes reviewing plans in detail with employees, conducting office closure drills, and reviewing interactive\nplans with diverse employee groups. Consistently reviewing, updating, and improving the plan provides PennDOT\nconfidence in our successful activation and continuity of operations delivery. We will test t"
+    },
+    {
+      "chunk_id": 2041,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 24,
+      "content": "nario simulations by our corporate safety and emergency response professionals.\nEssential business functions for the PA I/M Program include personnel and station oversight activities and assurance of\ndata connectivity between the stations, the VIID, and PennDOT. The Disaster Recovery Plan lists Parsons\u2019 personnel\nresponsible for data connectivity activities. PennDOT management will have contact methods for key personnel in the\nevent we must activate these plans. Mark Colangelo, Program Manager, will be responsible for communication with\nPennDOT and coordinating Program emergency procedures to ensure essential business functions continue. John\nOtt, Deputy Program Manager, will assist Mark in the execution of the emergency preparedness plan and will assume\nMark\u2019s duties if necessary. Parsons\u2019 regional managers, Thomas Bishop, Neal Lutz, and Bill Moyer are responsible for\nimplementing the emergency preparedness procedures and continuity of operations in their respective regions. They will\ncoordinate with emergency services, oversee area staff, and communicate with the Program and Deputy Program\nManagers. Key personnel will work together to ensure effective support and backup in an eme"
+    },
+    {
+      "chunk_id": 2042,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 24,
+      "content": "ement positions and staffing, ensuring any of the three can perform essential\nbusiness functions. Each key employee can perform the functions of their counterparts, filling in for impacted personnel.\nWe will maintain communication through any necessary combination of internet, email, texting, or cell phone contact. We\ndistribute comprehensive contact information to all key personnel to ensure communication continues and minimize risk\nto essential business functions. All project employees can work remotely as necessary. Program management will keep\nPennDOT apprised of the situation.\nA benefit of selecting Parsons as your Program Manager is the corporate resources we can activate in an emergency; we\nhave emissions program staff in multiple jurisdictions available to assist Pennsylvania. Additionally, Parsons has a\ncomprehensive and Federally recognized Cyber division with robust and proven Standard Operation Procedures and\ninternal policies to reduce cybersecurity threats, train staff to avoid threats, and provide the resources necessary to\naddress system issues.\nI-6. TASKS\nDeveloping an intricate and highly functional I/M Data Handling solution is a sophisticated and complex task. I"
+    },
+    {
+      "chunk_id": 2043,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 24,
+      "content": "ion efforts across many disciplines and functions including software development\nand systems integration; infrastructure sizing, and redundancy; integrations with a myriad number of testing equipment\nmanufacturers, communications protocols, and other diverse end-points; and significant and distributed end-user and\nsystems support training. In addition, and arguably more important to the success of the PA I/M Program, it involves\ndeveloping effective relationships with PennDOT staff and station operators.\nParsons has demonstrated the experience, adaptability, and reliability to develop and maintain a complex and highly\nfunctioning I/M technical solution. Our proven program execution, consistent regulation compliance, and unparalleled\nTechnical Submittal 15\n | Complete Procedure Training |  |  | All employees |  |  | Upon hire | \n |  |  | All employees for applicable facilities |  |  |  |  | \n | Refresher Training |  |  | All employees |  |  | Annually or upon Plan update | \n |  |  | Key Project Personnel |  |  |  |  |"
+    },
+    {
+      "chunk_id": 2044,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 24,
+      "content": "hire | \n |  |  | All employees for applicable facilities |  |  |  |  | \n | Refresher Training |  |  | All employees |  |  | Annually or upon Plan update | \n |  |  | Key Project Personnel |  |  |  |  |"
+    },
+    {
+      "chunk_id": 2069,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 30,
+      "content": "to-use web-based design interface, allowing a user\nreporting tools to customize requested reports\nto create simple operational reports without the need for IT or\nand will use our PA and other program\nreport developers. We will provide the necessary training and\nexperience to ensure PennDOT gets the right\nreports the first time. ongoing support on how to use available tools, including how to\nsearch, navigate, and access the data. We will also supply\nwritten analysis of queries used in the ad hoc reports when requested and will provide direct access to the data to run\nreports to six PennDOT employees as per the RFP.\nWe understand that periodic updates may be required, and we are responsible for transmission costs as well as the cost\nof any additional hardware and software to receive the updates from PennDOT. In addition, we will work with PennDOT to\npush all data to the PennDOT system using either a batch or web service API if an API is available to load the data into\nthe State system or data warehouse.\nA.4 System Performance\nSystem performance is a key component of the Program, and we always look for ways to improve system performance\nand reliability. By migrating our system to the "
+    },
+    {
+      "chunk_id": 2108,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 38,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nB.2 Quality Assurance\nWe have designed, implemented, and currently operate the necessary infrastructure to ensure compliance with EPA\nRules and Title 67, Chapter 177. All required oversight activities, including overt audits, covert audits, remote records\naudits, and remote visual observations will be recorded in the VIID for subsequent review, prove-up, and reporting to\nPennDOT for both internal use and submittal to the EPA. For details regarding how Parsons will meet the requirements\nof this RFP for all oversight activities, reporting requirements, and other QA requirements contained in EPA rules,\nadditional details are provided in B.4 Station Operations and Personnel Oversight. Parsons will engage Michael\nBaker International for third-party validation of covert audit volume to reinforce confidence in our\ndeliverables. We will provide PennDOT with all reporting relating to this task to comply with CFR 40 \u00a7 51.366. We\nhave consistently produced the necessary reports for PennDOT since 2012, working each year to ensure PennDOT\u2019s\npriorities are met while satisfying EPA requirements.\nB.3 S"
+    },
+    {
+      "chunk_id": 2109,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 38,
+      "content": "fessional oversight personnel dedicated to this project. Our personnel are in place,\nknown to their PennDOT counterparts, and are direct employees who have established proficiency in the I/M Program,\neliminating staffing risks associated with Program transition. We will build on their knowledge, expertise, and\naccountability to ensure PennDOT receives qualifiable and quantifiable results from oversight activities.\nAs the only vendor with a PennDOT-certified Vehicle Emission\nPARSONS\u2019 EXPERT INHOUSE INSTRUCTORS\nInspection School (VEMIS E200), we conduct program staff\ntraining in-house, eliminating wait times for available public Our team includes three certified Vehicle\nclasses and ensuring a much smaller student to instructor Emissions Inspector Instructors (John Ott, Karl\nratio. Wagner, and Randall Udavcak). Karl Wagner\nand Randall Udavcak are also ASE-certified\nAll Parsons personnel, including new employees, undergo a fleet technicians.\ncriminal history record check, a check of their driving record,\nand receive the applicable training described in this task. In addition to Program training, all our employees undergo\nannual training in Parsons\u2019 core values of safety, quality, integ"
+    },
+    {
+      "chunk_id": 2110,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 38,
+      "content": "ur employees\u2019 actions are consistent with our values in performing their daily\nactivities. As part of Parsons\u2019 commitment to employee safety, all our employees take part in ongoing safety training to\nreduce the risk of workplace accidents and injuries. Parsons maintains a driving instructor on staff who has taken the\nnationally recognized Smith System\u00ae Driver Improvement Institute Instructor Certification. The instructor provides driver\nsafety training for all company drivers. Parsons I/M oversight staff receive classroom instruction as outlined in Exhibit I-\n6-3. All present oversight and management staff have completed the training below and will require no ramp-up\ntime to begin oversight activities.\nEXHIBIT I-6-3. CLASSROOM INSTRUCTION\nManagement\nClass Description Overt Staff Covert Staff\nStaff\nBasics of air pollution P P P\nI/M Inspector certification P P P\nI/M Program rules and regulations P P P\nI/M test equipment training P P P\nBasics of engine repair relating to I/M P P P\nPennDOT\u2019s Vehicle Inspection System P P\nI/M audit equipment training and overt auditing procedures P P\nPennDOT administrative procedures P P P\nQuality assurance practices and complaint investigation techniqu"
+    },
+    {
+      "chunk_id": 2120,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 40,
+      "content": "rsonnel until retained under lock and key while in our Program offices. Any hard-\ncopy records will be kept in lockable filing cabinets in Program offices protected by security systems. Any materials\nrequiring shipping are sent via delivery service with tracking mechanisms and signature requirements.\nOur IT infrastructure provides for the security of electronic communications, data transfer, and storage with a suitable\nset of controls, including policies, processes, procedures, organizational structures, and software and hardware\nfunctions. Our response to Task A further outlines our security systems policies. Parsons also supplies secure Project\nCollaboration Portals to allow for the transfer of documents and other data between PennDOT and our Program staff.\nAll data communications by oversight personnel operating in the field require the usage of Secure Socket Layer\u2013based\nvirtual private network software to connect to the Parsons network and Program-related systems. All user computers\nand mobile devices supporting this Program use encrypted solid-state drives to prevent data compromise in case of the\nloss of the device. Password-protected screen savers are mandated to activate af"
+    },
+    {
+      "chunk_id": 2139,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 44,
+      "content": "orms\nOur auditors wear uniforms that we supply and that PennDOT has approved. The uniforms assist in identifying our\noversight personnel to the stations and will display a photo identification badge.\nFormat for Monthly Oversight Reports and Operations Manuals\nParsons will submit a monthly status report to PennDOT and host it on the secure collaboration portal to facilitate\naccess and reference. We will review the approved monthly status report with PennDOT and propose revisions.\nAttachment D includes a copy of the currently approved format. Parsons will supply copies of updated operations\nmanuals and report formats to PennDOT.\nB.6 Remote Records Audits\nParsons created electronic record audit queries specific to I/M inspection type to identify anomalies in multiple\njurisdictions, including Pennsylvania, New Jersey, Ontario, and Vermont. As part of our systems migration to AWS, we\nwill implement additional record auditing for the PA I/M Program. We are in an excellent position to apply our in-\ndepth knowledge of the I/M equipment specification and the VIID to implement accurate and useful record audit\nqueries, assisting PennDOT in the identification of anomalies and fraud.\nEach anoma"
+    },
+    {
+      "chunk_id": 2164,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 49,
+      "content": "p desk interactions and review stakeholder feedback. This\nwill help us determine the most effective distribution methods and allow us to resolve most questions and concerns\nwithout burdening PennDOT.\nWe understand that all media relations, communications, and related materials we develop under PennDOT\u2019s direction\nmust be approved by PennDOT\u2019s Press Office prior to distribution. We will not release any written or broadcast materials\nwithout obtaining written approval by PennDOT. Additionally, Parsons and our subcontractors will refrain from engaging\nin media relations, lobbying activities, or any other activity intended to obtain public or legislative support for the I/M\nProgram or modifications, or changes thereto, including releasing related materials, without express direction and\nspecific prior approval.\nC.3 Oversight by and Coordination with PennDOT\nAll Parsons employees, agents, and\nsubcontractors involved with Task C of the\nPA I/M Program contract will work under\nPennDOT\u2019s oversight and direction. With\nPennDOT\u2019s approval, we will develop,\nproduce, and distribute informational and\noutreach materials for the vehicle inspection\nand repair industry and the public.\nAdditionally, w"
+    },
+    {
+      "chunk_id": 2172,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 51,
+      "content": "ith PennDOT to develop, produce, and distribute informational\nand outreach materials for the vehicle inspection and repair industry and the public.\nTask D: Deliver Waivers and Operate Referee Program\nParsons will meet all requirements of Task D: Deliver Waivers and Operate Referee Program. Our extensive experience\nin the PA I/M Program will ensure the successful delivery and audit of waivers, and operation of the referee program.\nWe will combine our experience with Dasher\u2019s expertise to host conferencing capabilities for Commonwealth personnel\nand I/M equipment manufacturers, and provide help desk services for stations, station personnel, and consumers.\nD.1 Waivers\nPennDOT is actively changing the I/M Program repair waiver parameters. We successfully collaborated with PennDOT to\nimplement a minimum waiver fee expenditure adjustment in September 2023, which resulted in an immediate\nreduction in waiver issuances. We have an established, PennDOT-approved process for future waiver fee adjustments.\nIn conjunction with PennDOT, we developed the electronic waiver delivery process, which the VIID controls and\nmonitors, providing a robust base for enhancements. Our established and approved "
+    },
+    {
+      "chunk_id": 2182,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 53,
+      "content": "d monitoring sessions independently and with\nParsons to assess call handling performance.\nDasher will also use Zendesk\u00ae Customer Relationship Management (CRM), which offers a highly flexible customer\nservice representative (CSR) workspace. Parsons will work collaboratively with PennDOT to change data fields and drop-\ndown menus through the CRM. For example, we can add custom fields for tickets, users, and organizations through the\nCRM \u2018Manage Ticket Fields,\u2019 \u2018Manage User Fields,\u2019 or \u2018Manage Organization Fields.\u2019 Ticket fields contain ticket data,\nsuch as subject, description, and priority.\nZendesk streamlines customer support with time-saving tools\nADVANCING CALL CENTER TECHNOLOGY\nlike triggers and automations. It\u2019s intuitive and easy to use\nbecause it\u2019s built with both customers and CSRs in mind. We\u2019ll The Zendesk CRM is a cloud-based software\nintegrate Amazon Connect Automatic Call Distribution (ACD) and engagement platform that offers\nand Interactive Voice Response (IVR) with the Zendesk CRM omnichannel support, meaning customer\ninteractions across phone, email, and web\nsolution using the Amazon Connect Computer Telephony\nforms or messages are in one place.\nIntegration (CTI). Th"
+    },
+    {
+      "chunk_id": 2197,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 56,
+      "content": "the violations on the appropriate electronic\naudit form and forward it to PennDOT for review and possible action. We will not provide this report to I/M station\npersonnel, unless directed by PennDOT.\nIf violations are discovered during a remote visual audit, we will document the violations on the appropriate electronic\naudit form and forward it to PennDOT for review and possible action. We will not provide this report to I/M station\npersonnel, unless directed by PennDOT.\nWe will investigate and document any violations discovered during a record audit. When we provide the record audit to\nI/M station personnel, we will advise them that the report will be forwarded to PennDOT for review and possible action.\nThe appropriate regional audit managers will flag the covert, overt, remote visual, and record audit reports for\nPennDOT\u2019s review and possible action. We understand that PennDOT will determine if an administrative hearing is\nrequired.\nThe Hearing Process\nParsons developed the existing hearing process and hearing types in collaboration with PennDOT. Our understanding of\nPennDOT\u2019s enforcement requirements ensured we established the proper procedures to collect evidence sufficient for"
+    },
+    {
+      "chunk_id": 2217,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 60,
+      "content": "D in the following regions: Philadelphia, Northern, South Central, and Pittsburgh.\nIf PennDOT would like RSD collected at additional sites, we will conduct site surveys and provide the survey data to\nPennDOT for its selection. Parsons\u2019 offering of using EDAR technology allows for testing to occur in various traffic\nscenarios including multilane roads within city centers, state highway shoulders, intersection right-hand turns, and/or\nentrance ramps to interstates or highways. We will work collaboratively with HEAT and PennDOT to determine the best\nsites and locations.\nUpon calibrations and testing completion, the units are ready for installation during times of low traffic volume, such as\nafter evening rush hour, to increase motorist and RSD personnel safety. HEAT will install the unit, including the license\nplate camera and speed and acceleration unit, at the PennDOT approved sites. After unit alignment is complete, HEAT\nwill ensure that all equipment runs properly and securely. Once the units are turned on, the operations run 24/7,\nunmanned, with HEAT monitoring all units remotely for correct operation and data collection. In the unlikely event that\nany issues arise during data co"
+    },
+    {
+      "chunk_id": 2223,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 61,
+      "content": "nnDOT\u2019s approval of locations, we will begin data collection in 2026 and conduct annual\ntesting throughout the contract. The on-road remote sensing evaluation method involves comparing remote sensing\ndata from vehicles registered in the I/M Program area to vehicles registered in a non-I/M Program area. Obtaining an\nadequate random sample size of non-I/M Program vehicles requires collecting remote sensing samples at locations in\nI/M counties with substantial non-I/M vehicle traffic. The non-I/M Program vehicles serve as a surrogate untested fleet.\nThe difference in the fleet emissions from the I/M Program area vehicles and non-I/M Program area vehicles\nrepresents the emission reductions attributable to I/M Program effectiveness. Any differences could be compared to\navailable source emissions models to determine an overall effectiveness rating. We will manage the remote sensing\nprogram, data collection, analysis, and reporting. We will work collaboratively with HEAT and PennDOT to determine the\nbest sites and locations. HEAT will perform all field testing and Parsons will review and compile the data.\nAs described in Task G, EDAR (the technology developed by HEAT to capture this evalu"
+    },
+    {
+      "chunk_id": 2233,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 63,
+      "content": "educe the number of errors found during the official acceptance testing and minimize\nthe number of revisions required by an EM prior to release. We treat all EMs equally and monitor their development\ntime frames to facilitate the acceptance testing process.\nAcceptance Testing Management\nParsons will manage all acceptance testing for the PA I/M Program using our approved ATPs to demonstrate that all\noperational requirements are met. We have most recently managed acceptance testing for the 2016 OBD/VIS\ninspection equipment specification revision. We have supported subsequent testing and implementation of OBD/VIS\nsoftware and firmware updates in collaboration with the EMs and PennDOT. We have developed test routines for each\npiece of equipment, including descriptions of the inspections and test methods employed in demonstrating specified\nperformance. Parsons-developed ATPs include checklists indicating acceptable or unacceptable test results or\ninspections needed to demonstrate compliance with design specifications. Through these specific test scripts, our\ncomprehensive testing program will verify the EM hardware, software, and firmware against the complete set of\nrequirements as defi"
+    },
+    {
+      "chunk_id": 2247,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 66,
+      "content": "ions and personnel.\nWe recognize the need for employing experienced and professional oversight personnel. Each member of our oversight\nstaff has experience specific to the Pennsylvania Safety Program. Parsons directly hires all our overt safety oversight\nstaff and does not use individual contractors. As such, our employees are vested in the success of the Pennsylvania\nsafety program and our involvement in it, reducing staff turnover while retaining program experience and knowledge\nand making us less dependent on a volatile labor market.\nParsons is the only vendor that is a PennDOT-certified vehicle safety inspection mechanic training school (VEMIS\nE200). This allows us to conduct program staff training and inspector certification in-house, eliminating wait times that\nmay be encountered in available public classes and ensuring a much smaller student to instructor ratio. Our team\nincludes three certified Vehicle Safety Inspection Mechanic instructors and Vehicle Emissions Inspector instructors -\nJohn Ott, Karl Wagner, and Randall Udavcak. Randall is also an ASE L1 certified technician and will spearhead our\ntraining efforts. In the new contract, we will use our existing staff, who ha"
+    },
+    {
+      "chunk_id": 2251,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 67,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nAfter initial classroom training, auditors will ride along with an experienced auditor for a minimum of 10 days of on-the-\njob training. All auditors will perform their first audits during this period under the guidance of an experienced auditor.\nAudit Managers will review progress with both the trainee and auditor trainer during this time to determine the trainee\u2019s\nreadiness to perform their oversight activities independently.\nTo aid in disseminating consistent information to all oversight staff, we will implement and continue to develop a\nKnowledge Base as part of the updated auditing application. Oversight staff will use the knowledge base, which will\nallow them to ask questions, display answers to receive accurate responses to common industry and regulatory\nquestions, and help determine topics for ongoing training sessions.\nIn addition to Program training, all our employees undergo annual training in Parsons\u2019 core values of safety, quality,\nintegrity, diversity, innovation, and sustainability. This represents our commitment to ensure our employees\u2019 actions are\nconsistent with our va"
+    },
+    {
+      "chunk_id": 2252,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 67,
+      "content": "rming their daily activities. As part of Parsons\u2019 commitment to employee safety, all\nour employees take part in ongoing safety training to reduce the risk of workplace accidents and injuries. Parsons\nmaintains a driving instructor on staff who has taken the nationally recognized Smith System\u00ae Driver Improvement\nInstitute Instructor Certification. The instructor provides driver safety training for all company drivers.\nAll proposed personnel and existing auditors have undergone a\nEXHIBIT I-6-9. ENHANCED TRAINING CYCLE\ncriminal history record check, a check of their driving record,\nand have received the training described in this task. Our team\nis prepared to perform safety oversight activities upon notice to\nproceed, ensuring no disruption of service.\nWe will conduct annual refresher training for all oversight staff\nto ensure they stay current with any changes to the safety\ninspection program and review instruction provided during the\ninitial training. Monthly oversight staff meetings allow for\ndiscussion of training updates and program changes. We will\ncommunicate changes requiring immediate attention to the\nauditors via email, meetings, and/or phone. Program updates\nand changes are"
+    },
+    {
+      "chunk_id": 2261,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 69,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nOur IT infrastructure provides for the security of electronic communications, data transfer, and storage with a suitable\nset of controls including policies, processes, procedures, organizational structures, and software and hardware. Our\nresponse to Task A further outlines our security systems policies. Parsons also supplies secure Project Collaboration\nPortals to allow for the transfer of documents and other data between clients and our program staff.\nAll data communications by auditors operating in the field require the usage of Secure Socket Layer (SSL)-based virtual\nprivate network (VPN) software to connect to the Parsons network and program-related systems. All user computers\nand mobile devices supporting this program use encrypted solid-state drives to prevent data compromise in case of the\nloss of the device. Password-protected screen savers are mandated to activate after a prescribed interval of inactive\ntime. Every electronic device has location detection and data remote wipe software installed. All email between\nParsons\u2019 personnel and the Parsons mail system is encrypted.\nWe u"
+    },
+    {
+      "chunk_id": 2278,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 72,
+      "content": "ronic form ensures legibility and provides electronic storage, search, and reproduction capabilities as well as\nintegration into the VIID\u2019s hearing tracking system.\nGuidelines for Oversight Functions\nIf violations are discovered during a safety/enhanced safety audit or investigation, the auditor will immediately\ndocument them according to PennDOT\u2019s direction, using our electronic audit application. The auditor will review\nviolations with the station representative signing the electronic form and inform them that the report will be forwarded\nto PennDOT for review and possible action. The auditor will record on the audit form the violations that were discussed.\nWhen directed by PennDOT, the auditor will provide a copy of the completed audit report to the station representative.\nThe appropriate regional audit managers will review the safety/enhanced safety audit reports for completeness and\naccuracy. We will sort the audit reports according to PennDOT\u2019s instructions and forward them electronically to\nPennDOT for review and determination whether an administrative hearing will be conducted.\nThe Hearing Process\nWe developed the current hearing process and hearing types in collaboration w"
+    },
+    {
+      "chunk_id": 2303,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 77,
+      "content": "or any month selected by the user. The Commonwealth can use this detailed data to validate and confirm the\nuptime of the e-SAFETY website conveniently and independently.\nSystem Redundancy and Support\nThe database architecture provides a high-speed internet network, storage, and database service with system\nredundancy between two separate data centers. The databases are synched in real-time to ensure no loss of data and\nautomated failover activates the standby instance in the event of a disaster at the primary location. Our disaster\nrecovery strategy is described in detail in the Disaster Recovery and Emergency Preparedness sections of I-5. Our back-\nup strategy is described in detail in the Back-up and Back-up Storage section in I-5. We use numerous management\nand monitoring tools to operate and maintain the infrastructure and systems.\nOur staff responsible for maintaining and operating the infrastructure will be available for consultation and\ncollaboration with PennDOT staff during their normal business hours and will also be available any time system issues\noccur. This will enable collaboration with the State to diagnose and resolve issues.\nOur back-up strategy is described in de"
+    },
+    {
+      "chunk_id": 2313,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 79,
+      "content": "ant external processor to process credit card payments for the Pennsylvania Inspection\nand Maintenance Program. We do not store credit card payment transaction information on the system at any point.\nWe encrypt credit card data sent to the external processor to prevent fraud and data loss. See Attachment F which\nconsists of two documents (F1 and F2) for our AWS PCI-DSS compliance attestation.\nI-7B. CONUS Access to Commonwealth Systems, Data and Services\n1. Parsons will provide production support during and after-hours using CONUS-based employees who have the\nnecessary, controlled access to the production environment. Our systems are monitored on a 24/7 basis and\nemail and pager notifications are sent for serious production system issues. We act upon these alerts when\nreceived to determine the validity of the issue. We deal with all valid issues based on the severity of the issue,\neither immediately or the next business day.\n2. Parsons' development team is based in the US and Canada. Only US employees will have access to the\nproduction system or data. Our US-based employees will be able to view, add, update production data based\non their roles using the program portal. US-based clou"
+    },
+    {
+      "chunk_id": 2314,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 79,
+      "content": "monitor and support the systems. Employees working in Canada will have no access to the\nproduction systems or data. These employees are available to assist via conference calls by providing expertise\nto help resolve any system issues.\na. Parsons\u2019 development team have employees who reside in Canada. These employees have no access\nto the production systems or data.\nTechnical Submittal 70\n | FACILITATING e-SAFETY OVERSIGHT |  | \n |  |  | \n | As an innovation to the Program, Parsons will |  | \n | develop and introduce an audit summary utility |  | \n | giving a comprehensive overview of safety and |  | \n | enhanced safety inspection activity for each station. |  | \n | This will significantly improve audit efficiency and |  | \n | oversight in validating station inspection records. |  |"
+    },
+    {
+      "chunk_id": 2316,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 80,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nb. Parsons Canadian-based employees have no access to the production systems or data.\nc. Parsons will implement geo-location restrictions on the production systems and data to restrict access\nfrom all IP addresses outside of CONUS.\nd. Parsons OCONUS employees are direct employees of Parsons.\ne. Parsons OCONUS employees will not have direct access to Commonwealth data.\nf. Parsons\u2019 production systems will be configured to restrict access from all IP addresses outside of\nCONUS.\n3. We will host, handle, and process all data within the US-EAST-1 AWS environment, physically located in CONUS.\na. Parsons will be using two availability zones located within the US-EAST-1 AWS region.\nb. We will use the physical security measures applied at perimeter, infrastructure, and data layers of the\nAWS datacenters. Access to each layer is restricted based on business need and revoked when no\nlonger required. Perimeter layer security ensures only authorized personnel are permitted and granted\naccess on per needed basis to relevant areas of the datacenter facility based on job function. We\nensure that all acc"
+    },
+    {
+      "chunk_id": 2348,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 87,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nSLTA reporting processes and database tools to identify and make any modifications requested by PennDOT to support\nthis report format.\nAnnual EPA Report\nWe prepare the annual EPA report in accordance with EPA rules 40 CFR 51.366 (a), (b) and (c), which satisfies the EPA\nrequirements and provides a vehicle for PennDOT to analyze how well the program performs against the EPA mandates.\nThe format of the EPA report will contain the information listed above, including the separation of information for each\ntype of vehicle subject to the program from each I/M station. Parsons will work with our subcontractor Michael Baker\nInternational to review the data analysis prior to submittal.\nWe will submit all reports required by EPA Rule 40 CFR 51.366 and RFP requirements to PennDOT at least two months\nbefore the EPA\u2019s due date. We will prepare the annual EPA report in accordance with EPA rules for submittal by\nPennDOT. We have helped PennDOT prepare and deliver an accurate annual report since 2012 on time per the 40 CFR\n51.366 deadline.\nReporting Changes\nWe will obtain PennDOT\u2019s approval on all repo"
+    },
+    {
+      "chunk_id": 2356,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 90,
+      "content": "r payment\npurposes and establishes online access to a station-specific account. On\nBill Moyer, Region Manager\nthe first of each month, stations access an electronic invoice that reflects (Harrisburg)\nthe detail of all billable transactions for the entire previous month. On the\nThomas Bishop, Region Manager\n21st of each month, an ACH withdrawal occurs, deducting the total of that\n(Philadelphia)\nmonth\u2019s invoice from the preregistered bank account. Parsons maintains\nthe ability to lockout a station if ACH withdrawals are returned as non- Neal Lutz, Region Manager\ncollectable. (Pittsburgh)\nEven though the program management fee is fixed, each inspection facility\ndetermines the cost for the inspection itself, with each being itemized\nseparately on the consumer\u2019s receipt. This market-driven method has been\nused successfully in Pennsylvania since the program\u2019s inception in 1997,\nkeeping the cost of an inspection below current labor rates, directly\nbenefiting the consumer and allowing them to shop around to get the best\nprice.\nAttachment A \u2013 Project Experience A-1"
+    },
+    {
+      "chunk_id": 2357,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 90,
+      "content": "ion in 1997,\nkeeping the cost of an inspection below current labor rates, directly\nbenefiting the consumer and allowing them to shop around to get the best\nprice.\nAttachment A \u2013 Project Experience A-1"
+    },
+    {
+      "chunk_id": 2363,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 92,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nnization with Certainty\nWe also developed and maintain the program\u2019s web portal technologies, which includes station and technician\nadministration, auditing, billing, call tracking, training, user management, message, motorist compliance, hearings/\nsuspensions, and reporting. We provide a preconfigured reporting system and ad hoc querying tools to allow\nCommonwealth employees to create, schedule, and run reports.\nWe have a geographically dispersed disaster recovery with automated site-to-site failover and conduct daily, weekly,\nand monthly offsite backup of data/systems.\nAUDITING AND ADMINISTRATION SERVICE, QA/QC: To support station auditing conducted by Parsons QA\nofficers (i.e., biannual covert and overt at all 8,000 stations), we developed and maintain a thorough electronic record\naudit system that mines emissions inspection data and past audit data for triggers, issues, and concerns the QA officer\nmay need to address. Additional oversight and QA/QC activities include motorist compliance survey data collection and\nremote roadside testing to evaluate program compliance and effectivene"
+    },
+    {
+      "chunk_id": 2367,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 93,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nnization with Certainty\nNEW JERSEY MOTOR VEHICLE\nINSPECTION SYSTEM\nTRENTON, NEW JERSEY\nThe New Jersey Motor Vehicle Inspection System, one of the largest and\nCLIENT\nmost highly automated vehicle inspection programs in the world, is\nNew Jersey Motor Vehicle\nmanaged and operated by Parsons. The fully operational hybrid program Commission\ncontains 1,200 decentralized facilities, 26 centralized stations, and 3\nCLIENT REFERENCE\nState-owned facilities.\nFred Womack\nParsons was responsible for daily operations and maintenance of the New Director of Inspection Services New\nJersey program, which provides each vehicle with a safety inspection that Jersey Motor Vehicle Commission\nincludes a visual inspection and automated testing of suspension, steering, Enhanced I/M Program\n225 East State Street, 4th Floor,\nand brake components. Subsequent program changes required each\nEast Wing\nvehicle to also be administered one of two emissions tests (OBD II/OBD\nTrenton, NJ 08666-0124\nController Area Network [CAN] or Two-Speed Idle [TSI]) based on year,\n609.633.9460\nmake, and model, and separate gas cap and vis"
+    },
+    {
+      "chunk_id": 2368,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 93,
+      "content": "ts 48 hours per week, Monday through\nSaturday, inspecting more than two million vehicles annually. CONTACT YEARS\n1998\u20132024\nTEST EQUIPMENT: Parsons led the collaborative effort to retrofit, build, and\nequip 132 inspection lanes with state-of-the-art emissions and safety\nTEAM MEMBERS DIRECTLY\nequipment. Parsons is also responsible for maintaining and repairing INVOLVED IN PROGRAM\ninspection equipment in 26 stations and 3 State-owned inspection facilities. AND ROLES\nNew Jersey requires California BAR-approved test equipment and provides\nMike Butler, Executive Manager\nthe equipment requirements to us. We perform equipment software\nacceptance testing procedures.\nDarryl McCarthy, Director IT\nEMISSIONS AND SAFETY TEST PROTOCOLS: In 2003, Parsons integrated Development\nthe OBD II protocol and integrated ODB II CAN protocol in 2006. The State\nBonnie McPherson, Project\ndevelops all test protocols.\nManager\nPUBLIC INFORMATION AND EDUCATION: Parsons implemented a\nstatewide public information and education program, providing public\noutreach for motorists, private inspection stations, and emissions repair\nfacilities. Parsons is required to set aside 1 percent of all program revenue\nto devote to p"
+    },
+    {
+      "chunk_id": 2369,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 93,
+      "content": "eturned to the State. The development of new materials and\ncampaigns is a collaboration between representatives from Parsons, the\nNew Jersey Motor Vehicle Commission, and the New Jersey Department of\nEnvironmental Protection. A variety of materials and mediums have been\nused throughout our 18 years on the program, including banners on buses,\ntelevision and radio advertising, printed materials, and website information.\nWe also provide and staff a toll-free call center that schedules\nappointments, provides technical support, and responds to informational\ninquiries. We assist an average of 15,000 motorists each month via the\nphone, web-based applications, and email.\nAttachment A \u2013 Project Experience A-4"
+    },
+    {
+      "chunk_id": 2371,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 94,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nnization with Certainty\nINSPECTION STATION NETWORK MANAGEMENT: Parsons designed\nand built the VID, assumed operations of the centralized inspection PROJECT AT A GLANCE\nfacilities, staffed them with Parsons employees, and provides\nmanagement reporting for the entire system, including 1,200 private\ninspection facilities. Our management reporting supports the State\u2019s\nsupervision of the overall program. 1,200 2M\nELECTRONIC COMMUNICATION NETWORKS AND DATABASES:\nLOCATIONS ANNUAL\nParsons provides implementation, data communications, and MANAGED TESTS\nreporting of OBD II inspections, software and hardware development\nwith redundant databases interfacing with the New Jersey Motor\nVehicle Commission, and myriad reporting applications. The VID we\nprovide and maintain captures and reports each inspection.\n\u2022 Program management\nProductivity improvements realized through software and hardware\nenhancements have reduced average inspection wait times to less\n\u2022 Centralized emissions and safety\nthan 15 minutes.\ninspection\nMOTOR VEHICLE INSPECTOR TRAINING PROGRAMS: Parsons hires\n\u2022 Program transition and pap"
+    }
+  ]
+}

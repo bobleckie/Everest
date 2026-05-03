@@ -1,0 +1,112 @@
+{
+  "title": "Standard Terms and Conditions Acceptance and Statutory/Regulatory Compliance Posture",
+  "capability_statement": "Parsons accepts the State's standard contractual framework as written and submits this proposal without exceptions to standard provisions of the type covered by this theme (order-of-precedence, choice of law, indemnification with State settlement approval, professional-services warranty, hardware operational warranty, post-termination data retention windows and certificates of destruction, ethics/anti-influence prohibitions, pay-to-play, debarment/suspension flow-down, ADA, Equal Opportunity/EO 11246, Davis-Bacon, Copeland Anti-Kickback, Contract Work Hours and Safety Standards Act, Clean Air Act, Federal Water Pollution Control Act, Section 6002 Solid Waste Disposal Act, prohibited covered-entity telecommunications/video surveillance equipment, recruitment/posting/recordkeeping requirements, and bargaining-unit/labor-relations provisions where applicable). The same posture has been carried into prior comparable procurements: the Pennsylvania I/M technical submittal expressly affirms that the Commonwealth owns all data and that Parsons will comply with terms identified for contract end, early termination, and termination for cause, and the New Jersey-style technical proposal expressly accepts end-of-contract transition obligations and continuity-of-services duties, with manufacturer warranty terms enumerated and a state-approved Contract Termination Transition Plan invoked no later than one year before contract conclusion. On the few requirements within this theme that touch operational capability rather than pure contractual acknowledgement (professional-services warranty, hardware one-year operational warranty with delivery-receipt-based Acceptance, 48-hour mechanic response, State data ownership, no-retention/no-copying of State data, suspension-period non-erasure, post-term retention windows of 10/30/60 business days, deletion after retention period, post-termination assistance, and certificates of destruction), Parsons has executed equivalent obligations on prior emissions-program contracts, including online retention of inspection data through the contract and retrievability for 180 days after termination, redundant backup architectures with documented zero data loss across 40 years of program databases, and use of Iron Mountain as escrow agent on current programs. The remaining requirements in this theme are direct compliance acknowledgements that Parsons accepts and will execute through its corporate compliance program; no proposal-level technical narrative is required to demonstrate capability beyond that acceptance.",
+  "named_past_performance": [
+    {
+      "name": "Pennsylvania I/M Program (PennDOT) - Emissions Technical Submittal",
+      "scope": "Statewide vehicle emissions inspection program management. Submittal expressly accepts that all data belongs to the Commonwealth and commits to compliance with terms identified for contract end, early termination, and termination for cause; uses Iron Mountain as escrow agent across current programs and commits to executing an escrow agreement naming the contracting agency as beneficiary.",
+      "outcome": "Submittal accepted standard contractual framework without exceptions on data ownership, termination handling, escrow, and oversight scope adjustment provisions; AWS hosting environment carries third-party-audited SOC 1/2/3, PCI, and ISO 9001/27001/27017/27018 attestations relevant to data-handling compliance.",
+      "source_chunk_ids": [2058, 2062, 2106, 2268, 2278, 2304, 2305]
+    },
+    {
+      "name": "Comparable State Vehicle Inspection Program - Technical Proposal",
+      "scope": "Statewide vehicle emissions inspection program. Technical proposal expressly accepts: end-of-contract transition obligations including a State-approved Contract Termination Transition Plan invoked no later than one year before contract conclusion; continuity-of-services upon expiration or termination; manufacturer warranties on workstation PCs (1 yr), OneOBD (1 yr), idle test analyzer parts (1 yr) and optical bench (18 mo), fuel cap test system (1 yr), and ALPR cameras (3 yr); facility return condition obligations; compliance with state IT organization policies, standards, and guidelines; and disaster recovery sufficient to restore all system capabilities within 72 hours.",
+      "outcome": "Submittal accepted standard contractual framework without exceptions across termination, transition, warranty, facility-condition, IT-policy compliance, and continuity-of-services provisions; demonstrated track record of three major data transitions since 2011 with zero records lost across 40 years of program database operation.",
+      "source_chunk_ids": [3581, 3598, 3771, 3817, 4108, 4114, 4115, 4169, 4221, 4255, 4352]
+    },
+    {
+      "name": "Vermont Inspection Program",
+      "scope": "Statewide automated emissions and safety inspection program. Parsons developed and implemented all emissions and safety inspection protocols based on US EPA standards and federal and state safety regulations and operates the public-facing program website.",
+      "outcome": "Operational evidence of compliance with federal regulatory frameworks (EPA emissions standards, federal safety regulations) of the same character as the Clean Air Act, Federal Water Pollution Control Act, and Section 6002 Solid Waste Disposal Act compliance acknowledgements within this theme.",
+      "source_chunk_ids": [2379]
+    },
+    {
+      "name": "Iron Mountain Escrow Agreement Template (executed across current Parsons programs)",
+      "scope": "Software/source-code escrow with verification services (Levels 1-4: Inventory and Analysis, Deposit Compile Test, Binary Comparison Test, full Usability Test). Template includes survival of indemnification, warranty, confidentiality, limitation-of-liability, and consequential-damages-waiver provisions beyond termination, and standard infringement indemnification language with control of defense.",
+      "outcome": "Established template demonstrating Parsons' acceptance of indemnification-with-defense-control, survival-of-obligations, warranty, and limitation-of-liability frameworks of the type contemplated by Sections 8.2.D.2, 8.4.3.a, 8.4.4.c-e, and 9.1.5.a-e of the standard terms in this theme.",
+      "source_chunk_ids": [2667, 2668, 2671, 2673, 2674, 2675, 2677, 2687, 2688, 2689, 2690, 2698, 2703, 2712, 2724, 2725, 2727, 2728, 2731, 2742, 2743, 2753]
+    }
+  ],
+  "quantified_outcomes": [
+    {
+      "metric": "Hardware warranty term - workstation PC and Parsons OneOBD",
+      "value": "1 year",
+      "context": "Standard manufacturer warranty terms committed in comparable state vehicle-inspection technical proposal; consistent with the one-year hardware operational warranty post-Acceptance contemplated by Section 8.4.4.c.",
+      "source_chunk_ids": [3771]
+    },
+    {
+      "metric": "Hardware warranty term - idle test analyzer optical bench",
+      "value": "18 months",
+      "context": "Standard manufacturer warranty term committed in comparable state vehicle-inspection technical proposal; exceeds the one-year minimum contemplated for the optical-bench component under standard hardware warranty provisions.",
+      "source_chunk_ids": [3771]
+    },
+    {
+      "metric": "Hardware warranty term - ALPR camera",
+      "value": "3 years",
+      "context": "Standard manufacturer warranty term committed in comparable state vehicle-inspection technical proposal; exceeds the one-year minimum contemplated by Section 8.4.4.c for the ALPR component.",
+      "source_chunk_ids": [3771]
+    },
+    {
+      "metric": "Post-termination data retrievability window",
+      "value": "180 days after contract termination",
+      "context": "Operational commitment in PennDOT submittal that all vehicle data, inspection information, sticker information, station/inspector information, and program administrative files remain online for the entirety of the contract and remain retrievable for 180 days after termination - exceeds the 10/30/60 business-day non-erasure windows of Sections 9.1.5.c.1-3.",
+      "source_chunk_ids": [2304, 2305]
+    },
+    {
+      "metric": "Disaster recovery time objective for full system capability restoration",
+      "value": "72 hours from termination of initial event",
+      "context": "Architectural commitment in comparable state vehicle-inspection technical proposal using AWS multi-availability-zone active-active deployment with replication to US-EAST-2 region; relevant to Section 9.1.5 data-protection obligations during the post-termination retention period.",
+      "source_chunk_ids": [4352]
+    },
+    {
+      "metric": "Time-before-contract-end for invoking Contract Termination Transition Plan",
+      "value": "Not later than 1 year before contract conclusion",
+      "context": "Commitment in comparable state vehicle-inspection technical proposal to meet with the State and finalize the State-approved Contract Termination Transition Plan no later than one year before contract conclusion; relevant to post-termination assistance obligations of Section 9.1.5.d.",
+      "source_chunk_ids": [4108]
+    },
+    {
+      "metric": "Database records lost across program history",
+      "value": "Zero (40 years; three major data transitions since 2011)",
+      "context": "Operational track record cited in comparable state vehicle-inspection technical proposal supporting the State-data-ownership, no-intentional-erasure, and post-termination assistance obligations of Sections 9.1.1, 9.1.2.e, 9.1.5.b, and 9.1.5.d.",
+      "source_chunk_ids": [4221]
+    },
+    {
+      "metric": "Third-party-audited cloud compliance attestations",
+      "value": "SOC 1, SOC 2, SOC 3, PCI, ISO 9001, ISO 27001, ISO 27017, ISO 27018",
+      "context": "Independent attestation of the AWS hosting environment used by Parsons; supports compliance posture for data-handling, professional-services warranty, and IT-policy compliance obligations in this theme.",
+      "source_chunk_ids": [2058]
+    },
+    {
+      "metric": "Limitation of liability under standard Parsons-Iron Mountain escrow framework",
+      "value": "USD 100,000 cap (excepting death/bodily injury, gross negligence/willful misconduct, and infringement indemnification)",
+      "context": "Standard limitation-of-liability framework used across Parsons-Iron Mountain escrow programs; carve-outs preserved for the categories typically excluded from caps under standard state contracting frameworks.",
+      "source_chunk_ids": [2677]
+    }
+  ],
+  "differentiators": [
+    "Submitting without exceptions to standard contractual provisions of the type covered by this theme - reduces award-stage negotiation risk and aligns with State's order-of-precedence framework.",
+    "Documented operational track record on prior comparable emissions/inspection programs of executing post-termination data-handling obligations (online retention through contract term, 180-day retrievability window post-termination, zero records lost across 40 years and three major data migrations since 2011).",
+    "Established escrow framework using Iron Mountain across current programs, with named-beneficiary commitment ready for execution - directly responsive to State-data-ownership and post-termination-assistance obligations.",
+    "Manufacturer warranty terms on certain components (ALPR cameras at 3 years; idle-analyzer optical bench at 18 months) exceed the one-year operational warranty minimum contemplated by standard hardware warranty provisions.",
+    "AWS-hosted operational environment with independent third-party attestations (SOC 1/2/3, PCI, ISO 9001/27001/27017/27018) supports professional-standards warranty and IT-policy compliance obligations without additional onboarding effort.",
+    "Mature change-management and Agile/Scrum delivery process invites State stakeholders into sprint-review ceremonies, supporting the IT-services professional-standards warranty and reducing risk of post-acceptance disputes.",
+    "Demonstrated transition-management capability (cooperative transitions to/from incumbent and successor contractors) supports continuity-of-services and post-termination assistance obligations.",
+    "Standard limitation-of-liability framework retains carve-outs for death/bodily injury, gross negligence/willful misconduct, and infringement indemnification - aligned with typical state-contracting expectations."
+  ],
+  "gap_notes": [
+    "EVIDENCE QUALITY - This theme is overwhelmingly contractual acknowledgement language rather than capability narrative. For approximately 40 of the 50 requirements, the appropriate proposal response is a direct compliance statement (e.g., 'Parsons accepts and will comply with [provision]'), not a technical capability description. The capability statement and named past performance above surface what genuine evidence exists; the remaining requirements should be answered through compliance-attestation language at proposal-writing time.",
+    "REQUIREMENT 7695 (R-003 Choice of Law) - The input theme references New Jersey choice of law (Section 2.14). No corpus evidence; this is a direct contractual acceptance and should be acknowledged in proposal-writing without reliance on past-performance evidence. (Note: this requirement names a jurisdiction; the catalog entry above does not assert acceptance of any specific state's choice-of-law framework as a corporate policy.)",
+    "REQUIREMENT 7691 (M-008 Public Gift/Contract Exception) - Inapplicable as a contractor obligation; this is a State-officer/employee provision. No response evidence required.",
+    "REQUIREMENTS 7886/7897/7888/7890/7892/7900/7903/7906 (federally-assisted construction; Davis-Bacon; Copeland Anti-Kickback; Contract Work Hours and Safety Standards Act; EO 11246) - These are conditional on the contract qualifying as federally-assisted construction work or exceeding stated dollar thresholds. No corpus evidence directly addresses these in the inspection-program proposals reviewed (these procurements are services, not federally-assisted construction). Compliance acknowledgement should be provided; gap-flagged for the proposal team to confirm applicability of each provision to the specific procurement.",
+    "REQUIREMENTS 7919/7921 (debarment/suspension flow-down per 2 C.F.R. pt. 180 and pt. 3000) - Standard federal flow-down provision. No specific corpus evidence; Parsons accepts and includes flow-down language in lower-tier covered transactions as a matter of standard subcontracting practice. Gap-flagged for the proposal team to attach the standard certification.",
+    "REQUIREMENTS 7926/7927 (covered-entity telecommunications/video-surveillance prohibition per Section 889 / FAR 52.204-25) - Standard federal supply-chain prohibition. No specific corpus evidence; compliance is a function of corporate procurement controls. Gap-flagged for the proposal team to attach the standard representation.",
+    "REQUIREMENTS 7688/7674 (Pay-to-Play / Chapter 51 / EO 333; political-contribution prohibitions) - Jurisdiction-specific (the input cites New Jersey statutes and EO 333). No corpus evidence; compliance is a function of the corporate compliance program's contribution-disclosure procedures. Gap-flagged for proposal-team certification rather than past-performance narrative.",
+    "REQUIREMENTS 8134/8145/8168/8447 (bargaining-unit labor-relations provisions - meet/confer before suspension/termination; seniority for benefit eligibility; up to 3 paid investigation days for Union representatives) - Applicable only if the workforce is unionized and a collective-bargaining agreement is in place at the operating facility. No corpus evidence on this; gap-flagged for the proposal team to confirm applicability based on the local facility's bargaining-unit status and to attach the operative CBA terms.",
+    "REQUIREMENTS 8048/8060/8072/8079/8092/8093/8094/8096/8098 (state-specific nondiscrimination posting, minority/women waiting-list maintenance, state job-bank recruitment, recordkeeping, and state-specific administrative-code compliance) - Operational compliance obligations executed by the local human-resources function. No corpus evidence at proposal level; gap-flagged for the proposal team to provide an HR-process commitment statement.",
+    "REQUIREMENTS 7973 (48-hour mechanic response) - No corpus evidence directly quantifying historical mechanic response times. The standard manufacturer/maintenance commitments in past proposals support the obligation in principle; gap-flagged for the proposal team to add quantified field-service-response data if available from corporate records.",
+    "REQUIREMENT 8013 (certificates of destruction) - No corpus evidence directly showing certificates issued on prior programs. Iron Mountain framework supports issuance of destruction certificates as a standard service feature; gap-flagged for the proposal team to confirm the operative certificate template at proposal time.",
+    "Source-chunk evidence is concentrated in two prior emissions/inspection program proposals (PennDOT and a comparable state vehicle-inspection RFP) plus standard escrow-agreement templates. For procurements outside the inspection-program domain, the proposal team should expect to add corporate-level compliance attestations (debarment-suspension certification, Section 889 representation, Pay-to-Play disclosure forms, etc.) directly rather than rely on this catalog entry's past-performance evidence.",
+    "Several requirement IDs in the input file share duplicated short codes (e.g., A-001 appears as both 7655 and 7912; A-003 appears as both 8168 and 8048; R-027 appears as both 7892 and 7966) because the codes are scoped to different contract sections. The catalog entry treats each ID as a distinct obligation at proposal-writing time."
+  ],
+  "source_chunk_ids": [2058, 2062, 2106, 2268, 2278, 2304, 2305, 2379, 2667, 2668, 2671, 2673, 2674, 2675, 2677, 2687, 2688, 2689, 2690, 2698, 2703, 2712, 2724, 2725, 2727, 2728, 2731, 2742, 2743, 2753, 3581, 3598, 3771, 3817, 3833, 3889, 4108, 4114, 4115, 4169, 4179, 4180, 4181, 4199, 4201, 4221, 4255, 4352, 4384, 4441]
+}

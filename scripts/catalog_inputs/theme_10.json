@@ -1,0 +1,498 @@
+{
+  "theme_id": 10,
+  "theme_label": "Insurance & Bonding",
+  "category": "Commercial",
+  "rfp_requirements": [
+    {
+      "id": 9370,
+      "code": "A-019",
+      "title": "Describe scope of cybersecurity liability insurance coverage",
+      "description": "If the organization has purchased cybersecurity liability insurance, describe in detail the scope of the coverage.",
+      "section": "30.4",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 7732,
+      "code": "R-040",
+      "title": "Indemnify for injury, loss of life, or property damage",
+      "description": "Contractor shall indemnify the State for loss of life, property, or injury/damage to person, body, or property arising from or resulting directly or indirectly from the work and/or products supplied under the Contract or order.",
+      "section": "4.1",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7740,
+      "code": "R-005",
+      "title": "Secure and maintain insurance for contract term",
+      "description": "",
+      "section": "4.2",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7753,
+      "code": "R-018",
+      "title": "Provide Automobile Liability covering any automobile used",
+      "description": "",
+      "section": "4.2.b",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7754,
+      "code": "R-019",
+      "title": "Auto Liability limits $1,000,000 combined single limit",
+      "description": "",
+      "section": "4.2.b",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 7755,
+      "code": "R-020",
+      "title": "Name State as Additional Insured on Auto Liability when applicable",
+      "description": "",
+      "section": "4.2.b",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7756,
+      "code": "R-021",
+      "title": "Provide Workers' Compensation and Employers Liability Insurance",
+      "description": "",
+      "section": "4.2.c",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 5007,
+      "code": "A-087",
+      "title": "Indemnify for loss of life or property",
+      "description": "Indemnification applies to loss of life, tangible property, or injury/damage to person or property arising from work/products supplied under the Contract.",
+      "section": "7.1 / 4.1(A)(1)(i)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5009,
+      "code": "A-089",
+      "title": "Indemnify for Breach of Security from encryption failure",
+      "description": "Indemnification applies to Breach of Security resulting from Contractor's breach of its obligation to encrypt Personal Data or otherwise prevent its release or misuse.",
+      "section": "7.1 / 4.1(A)(1)(iii)",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 5018,
+      "code": "A-098",
+      "title": "Indemnification is in addition to insurance obligations",
+      "description": "Contractor's indemnification and liability under Section 4.1(A)(1) is not limited by, but is in addition to, the insurance obligations contained in Section 4.2 of the State Standard Terms and Conditions.",
+      "section": "7.1 / 4.1(A)(1)(iv)",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 5046,
+      "code": "V-001",
+      "title": "Contractor relieved of IP indemnification where claim arises solely from State actions",
+      "description": "Contractor will be relieved of its IP indemnification responsibilities under Section 4.1(A)(1)(i), (ii), and (iii) for any claims made by an unaffiliated third party that arise solely from the actions or omissions of the State, its officers, employees or agents.",
+      "section": "7.1 / 4.1(A)(4)",
+      "priority": "low",
+      "category": "informational"
+    },
+    {
+      "id": 5050,
+      "code": "V-005",
+      "title": "State will not indemnify Contractor; claim payment conditions",
+      "description": "The State of New Jersey will not indemnify, defend, or hold harmless the Contractor. The State will not pay or reimburse for claims absent compliance with Section 4.1(B) and a determination by the State to pay the claim or a final order of a court of competent jurisdiction.",
+      "section": "7.1(A)(8)",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 7932,
+      "code": "A-021",
+      "title": "Contractor relief for State-caused claims",
+      "description": "Contractor is relieved of its indemnification responsibilities under Subsection A for any third-party claims that arise solely from the actions or omissions of the State, its officers, employees, or agents.",
+      "section": "8.2.4.1.C",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 7931,
+      "code": "A-020",
+      "title": "State notice obligation for indemnified claims",
+      "description": "The State will promptly notify Contractor in writing of the claim or suit (State obligation related to Contractor's indemnification duties).",
+      "section": "8.2.4.1.D.1",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 7940,
+      "code": "R-001",
+      "title": "Promptly notify Contractor of claim or suit",
+      "description": "The State will promptly notify Contractor in writing of any claim or suit subject to indemnification.",
+      "section": "8.2.D.1",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 7943,
+      "code": "R-004",
+      "title": "State will not indemnify, defend, or hold Contractor harmless",
+      "description": "The State of New Jersey will not indemnify, defend, pay or reimburse for claims on behalf of Contractor, and will not indemnify, defend or hold harmless the Contractor. The State will not pay or reimburse claims absent compliance with Section E and either a State determination to pay or a final orde",
+      "section": "8.2.F",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8031,
+      "code": "R-036",
+      "title": "Indemnification in addition to insurance and other obligations",
+      "description": "Contractor's indemnification and liability under Subsection A is not limited by but is in addition to the insurance obligations, and does not limit Contractor's other obligations under the Contract or the State's other remedies. State approval of work does not limit Contractor's obligations.",
+      "section": "9.2.4.1.B",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8330,
+      "code": "R-011",
+      "title": "Appendix B referenced for Aetna HMO offset recipients",
+      "description": "Appendix B identifies the specific Employees who were enrolled in the 2013 Aetna HMO option and qualify for the 2014 higher-contribution offset payment.",
+      "section": "Appendix B",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 8111,
+      "code": "A-012",
+      "title": "Union to defend and indemnify Employer",
+      "description": "The Union will defend any claims, actions or proceedings brought against the Employer and indemnify and hold the Employer harmless from any recovery of damages under this Article.",
+      "section": "Article II.6",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8120,
+      "code": "A-021",
+      "title": "Union to defend/indemnify Employer for check-off actions",
+      "description": "The Union will defend any claims, actions or proceedings brought against the Employer (other than those brought by the Union), and indemnify and hold the Employer harmless for actions taken under this Article.",
+      "section": "Article III.7",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 7650,
+      "code": "V-012",
+      "title": "Comply with Vendor definition under N.J.S.A. 52:32-60.1",
+      "description": "Vendor must understand and apply the statutory definition of \"Vendor\" which includes natural persons, corporations, LLCs, partnerships, sole proprietorships, trusts, governmental entities/instrumentalities (including multilateral development institutions per 22 U.S.C. 262r(c)(3)), and any parent, su",
+      "section": "Certification of Non-Involvement in Prohibited Activities in Russia or Belarus",
+      "priority": "high",
+      "category": "mandatory"
+    }
+  ],
+  "parsons_evidence": [
+    {
+      "chunk_id": 1961,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 8,
+      "content": "EXECUTIVE SUMMARY\nWORKING WITH PENNDOT TO MOVE THE I/M\nPROGRAM FORWARD THROUGH ADAPTABILITY\nAND INNOVATION\nParsons is uniquely positioned to deliver each requirement PennDOT has outlined for the new contract, enhancing what\nworks and innovating for the future. We\u2019re fully committed to:\nApplying innovation and advanced technology tailored to Pennsylvania\u2019s Program\nEnsuring station compliance\nEmploying advanced Cybersecurity protocols to protect against security threats\nEliminating PennDOT\u2019s transition risk\nParsons appreciates PennDOT\u2019s business. Throughout our response, we demonstrate our depth of experience, our\nreliability, our compliance, and our adaptability. We have unmatched knowledge of PennDOT\u2019s emissions and safety\nprograms, and we know what you require from your vendor. Most importantly, we won\u2019t rest on our laurels; in this new\ncontract, we will demonstrate to PennDOT that we are the best vendor to bring the Program into the future.\nHighlights of Parsons\u2019 Technical Proposal\nSecure Data and Information Management Systems. Our systems are reliable, and we are proud of the 99.99% uptime\nof our Pennsylvania VIID. Program downtime is simply unacceptable to us, and our experien"
+    },
+    {
+      "chunk_id": 1966,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 9,
+      "content": "t. This will reinforce confidence in Parsons\u2019 deliverables.\nA Team with Depth that Will Deliver for Pennsylvania. Success starts with experienced leadership, and Parsons brings a\ntrusted Program team. Mark Colangelo, Vice President and Pennsylvania Program Manager, has extensive knowledge of\nCommonwealth requirements, policies, and procedures, strengthened by his many years of industry experience. Backed by\nhis in-place team and handpicked DBE/SBE/VBE companies, we stand ready to support your initiatives and deliver your\nProgram. Mike Butler, Vice President and Smart Vehicles Solutions Business Leader, and Bonnie McPherson, Vice President,\nVehicle Inspection Programs, will support Mark in making sure he has the full complement of Corporate resources and staff\nrequired to meet your goals.\nParsons brings a mindful and respectful approach to innovation that aligns with PennDOT\u2019s priorities. PennDOT has and\ncan continue to rely on us to deliver innovation based on its goals. We have carefully reviewed the RFP offered by\nPennDOT and offer a responsible, respectful, and thorough response with solid, performance-based delivery on all the\noutlined tasks.\nThe Parsons Pennsylvania team\u2019s lon"
+    },
+    {
+      "chunk_id": 1967,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 9,
+      "content": "bility, compliance, and reliability are all\nhallmarks of and a testament to delivering for PennDOT. We welcome your review of our proposal and your continued\ntrust and business.\nExecutive Summary ES-2"
+    },
+    {
+      "chunk_id": 1975,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 11,
+      "content": "and expert testimony in support of PennDOT sanctions against stations and inspectors.\n\u00a7 Program continuity\u2014we have the knowledge to support all three equipment platforms, four manufacturers, and two\nequipment specifications and the infrastructure to support legacy dial-up connectivity.\nParsons ensures a risk-free transition and reliability for PennDOT to ensure the\nI/M Program\u2019s exceptional operational performance and customer service.\nI-2. QUALIFICATIONS\nI-2A: Company Overview\nParsons is a global, 18,000+-person company with 79 years of experience supporting complex programs for its clients.\nWe entered the vehicle inspection industry in 1984, providing referee services for the California Bureau of Automotive\nRepair; our vehicle inspection team began working with PennDOT at the Program\u2019s inception that led to public safety and\na cleaner environment. We deliver cybersecurity, advanced technology solutions, and other services to federal, regional,\nand local government agencies and national and international private industrial customers. Our agile and innovative\napproach enables us to deliver solutions that satisfy our client\u2019s current and future initiatives.\nTechnical Submittal 2"
+    },
+    {
+      "chunk_id": 2006,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 17,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nParsons staff proposed in the organization chart are already in place, as are our primary subcontractors included on our\nteam. A challenging labor market will not impact Program continuity \u2013 Parsons\u2019 staff with Program knowledge will be\nready on day one, eliminating the need for program recruitment, education, and training, which mitigates transition\nrisk.\nI-2D: Background Checks\nParsons will conduct background checks for all employees and subcontractors with on-site or remote access to\nCommonwealth IT facilities. We\u2019ll provide written confirmation that the background checks have been completed via\nPennDOT\u2019s outlined procedure. We will not assign any employee who fails the background check. Current employees who\nfail a background check will have their access privileges revoked. We will conduct background checks at our expense\nbefore initial access and then annually. We understand that PennDOT may withhold access at its discretion.\nI-2E: Subcontractors\nOur subcontracting plan includes actively recruiting partners that share Parsons\u2019 core values and PennDOT\u2019s goals and\nwill add expertise,"
+    },
+    {
+      "chunk_id": 2020,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 20,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\ninterruption in services or operations. Our experience and understanding of the implemented Program changes gives us\na unique understanding of I-5A-E\u2019s requirements.\nThis decentralized Program\u2019s size and complexity poses considerable transition risk to PennDOT and a new contractor.\nOur fully operational and proven VIID mitigates all transition risks and poses no threat to the continuation of a fully\nfunctioning I/M Program, allowing us to focus on implementing improvements and advancements. Through our\nmodernization of the Ontario DriveON program to Amazon Web Services (AWS) in 2022, we have the knowledge and\nexperience to implement our proposed PA I/M Program VIID systems update safely and ensure the continuity of all\nservices we provide. On the new AWS system, we will leverage our established data handling, program operations, and\noversight, allowing us to focus on the future of the I/M Program. We commit to performing all RFP-requested\nrequirements.\nOur adaptability, reliability, and adherence to compliance are unmatched\u2014and we understand the I/M Program\nrequirements and structure be"
+    },
+    {
+      "chunk_id": 2021,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 20,
+      "content": "ailed in I-5A, 5B, and 5C, and\nwe commit to continuing our support of PennDOT\u2019s requirements and regulations. Our operations and systems will\nensure and support all the requirements of these sections. In addition, we respond to all listed specific responsibilities\nand services required in the appropriate Work Plan task responses. We have demonstrated our reliability by\nadministering a fully effective Program, managing tasks, including data storage and handling, overt and covert oversight\nactivities, remote records audits, remote visual audits, I/M hearings and suspensions, waiver delivery and verification,\nreferee services, motorist compliance data collection, I/M equipment certification, on-road testing, safety inspection\noversight activities, and safety hearings and suspensions. Our response to Section I-2 highlights our performance,\nexperience, and adaptability, listing key successful Program enhancements and deliverables during our partnership with\nPennDOT.\nI-5D: Program Changes\nWe recognize that PennDOT reserves the right to renegotiate the contract terms in the event of needed changes\nprompted by legislative (federal or state) requirements, compliance with legally binding cou"
+    },
+    {
+      "chunk_id": 2027,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 21,
+      "content": "available to end-users.\nOur proven applications run in all our programs, and we provide unmatched uptime results. \u201cExhibit I-5-1\u201d shows the\nuptime percentages for our VIID solutions in our programs.\nEXHIBIT: I-5-1. OUR PROGRAM UPTIME PERCENTAGES DEMONSTRATE OUR RELIABILITY.\nPROGRAM SYSTEM AVAILABILITY\nNew Jersey Motor Vehicle Inspection System 99.99% uptime since October 2013\nHawaii Motor Vehicle Inspection Program 99.99% uptime since November 2013\nPennsylvania Vehicle Emissions I/M Program 99.99% uptime since October 2012\nVermont Automated Vehicle Inspection Program 99.99% uptime since January 2016\nDriveON Ontario 100% uptime since April 2022\nOur experience in maintaining VIID uptime, along with our knowledge of the day-to-day needs of the PA I/M Program,\nensures that on the first day of the contract, PennDOT will have no disaster recovery concerns. Our extensive and\ndedicated US based IT staff stand ready to respond to any interruption and are prepared to exercise all protocols to\nreduce impact to the Program should we initiate disaster recovery. In addition to our unmatched Program experience,\nwe draw from our successful experience building and operating fault-tolerant systems a"
+    },
+    {
+      "chunk_id": 2043,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 24,
+      "content": "ion efforts across many disciplines and functions including software development\nand systems integration; infrastructure sizing, and redundancy; integrations with a myriad number of testing equipment\nmanufacturers, communications protocols, and other diverse end-points; and significant and distributed end-user and\nsystems support training. In addition, and arguably more important to the success of the PA I/M Program, it involves\ndeveloping effective relationships with PennDOT staff and station operators.\nParsons has demonstrated the experience, adaptability, and reliability to develop and maintain a complex and highly\nfunctioning I/M technical solution. Our proven program execution, consistent regulation compliance, and unparalleled\nTechnical Submittal 15\n | Complete Procedure Training |  |  | All employees |  |  | Upon hire | \n |  |  | All employees for applicable facilities |  |  |  |  | \n | Refresher Training |  |  | All employees |  |  | Annually or upon Plan update | \n |  |  | Key Project Personnel |  |  |  |  |"
+    },
+    {
+      "chunk_id": 2047,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 25,
+      "content": "ity. Parsons will meet all the requirements outlined in Task A: Storage and Handling of all\nPA I/M Program-related Data.\nWe\u2019ll host the system environment in the US-EAST-1 region of\nMAXIMIZING SYSTEM\nAmazon\u2019s cloud environment. This will allow us to maximize\nRELIABILITY AND RESILIENCY\nreliability and resiliency, by using serverless and managed\nservices where possible. Serverless and managed services are Our strategy also uses a combination of multi-\ncloud computing models where the cloud vendor looks after the availability zone AWS deployments and data\nserver systems and dynamically adjusts resource allocation to replication to a geographically distant region\naccommodate fluctuating capacity demands. These services to ensure system uptime by having no single\nhave automated failover built-in, with redundancy across point of failure shared between each zone\navailability zones and an availability rating of at least 99.99 and protection of the State data.\npercent. Our strategy uses a combination of multi-availability\nzone AWS deployments and data replication to a geographically distant region to ensure system uptime by having no\nsingle point of failure shared between each zone and prot"
+    },
+    {
+      "chunk_id": 2048,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 25,
+      "content": "lity and data synchronization process among the databases. Updates made to the\nprimary database instance are instantly copied to all Aurora replicas/databases. The data stored in the VIID database is\nreplicated across availability zones and as an additional layer of protection, the database backups are replicated to an\nalternate region.\nThe use of cloud-native load balancing capabilities automatically reroutes traffic away from unhealthy endpoints. Auto-\nscaling capabilities automatically deploy replacement systems as necessary, thereby minimizing service disruptions and\nthe need for emergency operations intervention. All services in production are replicated across each availability zone.\nEach availability zone has the capacity to take over complete production volume in case the primary site becomes\nunresponsive and runs 24x7, supporting continuous data replication. These measures fulfill the Commonwealth\u2019s and\nTechnical Submittal 16\n | MAXIMIZING SYSTEM |  | \n | RELIABILITY AND RESILIENCY |  | \n | Our strategy also uses a combination of multi- |  | \n | availability zone AWS deployments and data |  | \n | replication to a geographically distant region |  | \n | to ensure system upti"
+    },
+    {
+      "chunk_id": 2069,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 30,
+      "content": "to-use web-based design interface, allowing a user\nreporting tools to customize requested reports\nto create simple operational reports without the need for IT or\nand will use our PA and other program\nreport developers. We will provide the necessary training and\nexperience to ensure PennDOT gets the right\nreports the first time. ongoing support on how to use available tools, including how to\nsearch, navigate, and access the data. We will also supply\nwritten analysis of queries used in the ad hoc reports when requested and will provide direct access to the data to run\nreports to six PennDOT employees as per the RFP.\nWe understand that periodic updates may be required, and we are responsible for transmission costs as well as the cost\nof any additional hardware and software to receive the updates from PennDOT. In addition, we will work with PennDOT to\npush all data to the PennDOT system using either a batch or web service API if an API is available to load the data into\nthe State system or data warehouse.\nA.4 System Performance\nSystem performance is a key component of the Program, and we always look for ways to improve system performance\nand reliability. By migrating our system to the "
+    },
+    {
+      "chunk_id": 2133,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 43,
+      "content": "approval prior to PennDOT. A station audit history function will supply information\non past audits, violations, and any recorded complaints or investigations involving the station and/or the station\npersonnel. The auditors will review record audit results, including the number of waivers and exemptions issued, and\nother information that can indicate possible improper inspection procedures.\nParsons\u2019 audits include an examination of records and forms, verification of I/M sticker usage, and conformity of I/M\nstations to PennDOT\u2019s regulations. Auditors verify that I/M inspections at each station are performed by certified I/M\ninspectors, waivers are delivered by certified repair technicians, and I/M inspections are recorded as required by\nPennDOT regulations. We operate a fleet of auditing vehicles equipped with gas analyzer calibration verification\nsystems for emissions equipment validation. Our auditors will document all audit findings on the appropriate audit\napplication form and submitted to PennDOT, per PennDOT\u2019s direction.\nAuditors will conduct audits by inspecting the following during each station audit, in accordance with 40 CFR\n\u00a7 51.363(a) (1) through (3) and 51.363 (b) throug"
+    },
+    {
+      "chunk_id": 2134,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 43,
+      "content": "tation has the proper bond or proof\nof insurance.\n\u00a7 Verify the validity of each inspector\u2019s driving credentials and I/M inspection license and the presence of required\ninspection tools and equipment.\n\u00a7 Ensure that required record keeping practices are being followed.\n\u00a7 Review the number of exemptions issued by the station, compare it to the station\u2019s peer group, and investigate\ninconsistencies.\n\u00a7 Determine the number of waivers issued by the station since the last audit using VIID data and verify\ndocumentation for each waiver, including Vehicle Inspection Reports, repair work orders, repair data forms, and\nthat certified repair technicians delivered the waivers.\n\u00a7 Evaluate the inspector\u2019s ability to operate equipment, perform I/M inspections in compliance with regulations, and\nknowledge of the I/M Program and its rules and regulations.\nAdditionally, to ensure the station follows proper procedure in I/M inspection sticker tracking, the auditor will verify that\nstickers are kept in a lockable, secure location. They will query the sticker reconciliation application to confirm the\nnumber of stickers ordered, received, issued, voided, missing/stolen, and unused. Auditors will document a"
+    },
+    {
+      "chunk_id": 2155,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 47,
+      "content": "E\nvehicles for covert operations throughout all the Pennsylvania\nWith assistance from PennDOT and the\nProgram area. We are the only vendor with this existing\nPennsylvania Department of State, Parsons\ninfrastructure that protects the identity of covert vehicles from\nhas established its own covert vehicle\npurchase to decommissioning.\ndealership, enabling us to purchase and sell\nvehicles at auction. Parsons provides PennDOT with the specifics of the covert\nfleet monthly in electronic format. The covert vehicle report\nincludes the VIN, year, make, model, title number, starting and ending odometer readings, and the commission and\ndecommission dates of each vehicle. This information can be used with PennDOT\u2019s VIID access to the covert vehicle\nrecords for inquiry and data manipulation purposes. Parsons will provide covert vehicle insurance and will be\nTechnical Submittal 38\n | EFFECTIVE COVERT INFRASTRUCTURE |  | \n |  |  | \n | With assistance from PennDOT and the |  | \n | Pennsylvania Department of State, Parsons |  | \n | has established its own covert vehicle |  | \n | dealership, enabling us to purchase and sell |  | \n | vehicles at auction. |  |"
+    },
+    {
+      "chunk_id": 2263,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 69,
+      "content": "ehicle Fraud Investigators, and we employ several former law enforcement personnel.\nCommunication between our oversight staff, law enforcement, and PennDOT reinforces program oversight and integrity.\nWe have created an SOP detailing the safety suspension service process. This process is discussed in our response to\nTask K.\nTo minimize station interruption, safety and enhanced safety inspection audits will be performed, when possible, in\nconjunction with I/M oversight activities if the station is certified to perform safety and I/M inspections.\nOur auditors wear uniforms that we supply and that PennDOT has approved. The uniforms assist in identifying our\noversight personnel at the stations and will display a photo identification badge. To meet oversight obligations, we will\nensure an adequate number of vehicles and personnel are always available and will assume responsibility for all\napplicable vehicle insurance, fuel, repairs, and other operating expenses. Auditors will use personal vehicles to conduct\nsafety audits unless assigned a company vehicle. Auditors using personal vehicles will be reimbursed at the federal\nmileage rate.\nSafety Audits\nParsons will conduct at least one over"
+    },
+    {
+      "chunk_id": 2266,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 70,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nSafety and enhanced safety audits will be scheduled based on the date of the last audit, complaints, or performance\nissues identified by us or PennDOT. Before audits, auditors determine the station\u2019s sticker purchase, audit, and\nviolation history using our audit application, for current data to assist with oversight activities.\nAll oversight activities will be conducted in accordance with department procedures and regulations and will require a\nsite visit to the safety inspection station. Auditors will make a general survey of the safety and enhance safety\ninspection station premises to ensure regulation compliance as stated in 67 PA Code Chapter 175. The auditor will\ncheck for posting of all required certificates and station signs and ensure the station has the proper bond or proof of\ninsurance. The auditor will verify the validity of each mechanic\u2019s safety inspection and driving credentials, and the\npresence of required inspection tools and equipment for the station type. Auditors will verify that only certified safety\nand enhanced safety inspectors perform safety and enhanced safety "
+    },
+    {
+      "chunk_id": 2271,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 71,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\ncovert fleet to personnel directly involved with safety covert oversight activities and never reveal covert vehicle identity\nto any safety station personnel.\nWe will use our experience performing emissions covert oversight activities to provide personnel for this task as well as\na dedicated Safety Covert Audit Manager. We will replace vehicles and personnel at regular intervals to avoid detection\nand identification, as necessary.\nParsons has an emissions covert audit infrastructure that we can adapt for safety covert oversight activities. We will\nrevise our PennDOT-approved covert auditing investigation procedures for safety covert oversight activities. We will also\nadd safety covert oversight management capabilities to our covert auditing and vehicle applications and databases,\ncovert audit scheduling application, and covert vehicle inducement database. We will manage all safety covert\noversight activity data through the VIID. The electronic vehicle records will be available to PennDOT personnel for\ninquiry and data manipulation purposes at no cost.\nWe will provide covert vehicle insur"
+    },
+    {
+      "chunk_id": 2293,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 75,
+      "content": "n data\nkept on PennDOT\u2019s Vehicle Inspection System before recording an inspection.\nWe will improve user experience by updating the data entry screens and making them easier to use. Users will be able\nto start typing in a field and the system will suggest autofill options or create a drop-down list of matching data, such as\ninsurance company names. We will ensure that data entry remains a simple task across all platforms used to access\nthe website. Overall, our new website design will look more visually appealing and easier to understand.\nTechnical Submittal 66\n | ENHANCED MOBILITY AND ACCESSIBILITY: |  | \n | MAKING E-SAFETY INSPECTIONS MORE |  | \n | CONVENIENT FOR INSPECTORS |  | \n | Parsons will create a mobile-friendly interface, |  | \n | allowing inspectors to access the e-SAFETY |  | \n | website from any mobile device such as |  | \n | smartphones and tablets. Inspectors will be |  | \n | able to use these devices to scan vehicle |  | \n | registration and take photos of failed |  | \n | inspection items and/or required photos and |  | \n | documents for enhanced safety inspections. |  | \n | e-SAFETY INNOVATION |  | \n |  |  | \n | Our new e-SAFETY solution will be capable of |  | \n |"
+    },
+    {
+      "chunk_id": 2296,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 76,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nAs a proposed innovation, Parsons could include the optional collection of Automated Driver Assistance Systems\n(ADAS) data as part of the vehicle inspection criteria. As a service to their customers, inspectors could choose to\nevaluate the functionality of ADAS during the road test portion of the inspection, such as lane change notifications and\nautomated braking. The inspector would enter the information into e-SAFETY and provide the results on the Vehicle\nSafety Inspection Report. The collection of this information will provide PennDOT with valuable, real-world data as\nyou consider ADAS inclusion in vehicle inspections. Parsons has the knowledge and experience to work with\nPennDOT to adapt requirements as vehicle safety features evolve.\nOur updated report interface will contain data validation tools for inspections, further ensuring regulation compliance\nand reporting accuracy. The system will either flag or cause a popup for inconsistencies in entries, such as expired\ninsurance, prompting the inspector to double-check the information and confirm whether they wish to continue or\ncorre"
+    },
+    {
+      "chunk_id": 2674,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 165,
+      "content": "thirty (30) calendar days of the date of such written notice, then Iron Mountain\nshall have the right to terminate this Agreement at any time thereafter by sending written notice to all Parties. Iron\nMountain shall have no obligation to perform the Services under this Agreement (except those obligations that survive\ntermination of this Agreement, which includes the confidentiality obligations in Section 10) so long as any undisputed\nService Fees due Iron Mountain under this Agreement remain unpaid.\n8. Infringement Indemnification\nAnything in this Agreement to the contrary notwithstanding, Depositor at its own expense shall defend, indemnify and hold\nIron Mountain fully harmless against any claim or action asserted against Iron Mountain (specifically including costs and\nreasonable attorneys\u2019 fees associated with any such claim or action) to the extent such claim or action is based on an assertion\nthat Iron Mountain\u2019s administration of this Agreement infringes any patent, copyright, license or other proprietary right of any\nthird party. When Iron Mountain has notice of a claim or action, it shall promptly notify Depositor in writing. Depositor may\nelect to control the defense of such"
+    },
+    {
+      "chunk_id": 2675,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 165,
+      "content": "efense shall include any admission or implication of wrongdoing on the part of Iron Mountain without Iron Mountain\u2019s prior\nwritten consent, which consent shall not be unreasonably delayed or withheld. Iron Mountain shall have the right to employ\nseparate counsel and participate in the defense of any claim at its own expense.\n9. Warranties\nIRON MOUNTAIN WARRANTS ANY AND ALL SERVICES PROVIDED HEREUNDER SHALL BE PERFORMED IN A COMMERCIALLY\nREASONABLE MANNER CONSISTENT WITH INDUSTRY STANDARDS. EXCEPT AS SPECIFIED IN THIS SECTION, ALL CONDITIONS,\nREPRESENTATIONS, AND WARRANTIES INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OR CONDITIONS OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, SATISFACTORY QUALITY, OR ARISING FROM A COURSE OF\nDEALING, USAGE, OR TRADE PRACTICE, ARE HEREBY EXCLUDED TO THE EXTENT ALLOWED BY APPLICABLE LAW. AN\nAGGRIEVED PARTY MUST NOTIFY IRON MOUNTAIN PROMPTLY UPON LEARNING OF ANY CLAIMED BREACH OF ANY\nWARRANTY AND, TO THE EXTENT ALLOWED BY APPLICABLE LAW, SUCH PARTY\u2019S REMEDY FOR BREACH OF THIS WARRANTY\nSHALL BE SUBJECT TO THE LIMITATION OF LIABILITY AND CONSEQUENTIAL DAMAGES WAIVER IN THIS AGREEMENT. THIS\nDISCLAIMER AND EXCLUSION SHALL APPLY EVEN IF TH"
+    },
+    {
+      "chunk_id": 2677,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 165,
+      "content": "der or subpoena; provided, however, that Iron Mountain does not waive its rights to\npresent its position with respect to any such order or subpoena. Iron Mountain will cooperate with the Depositor or\nBeneficiary, as applicable, to support efforts to quash or limit any order or subpoena, at such Party\u2019s expense.\n11. Limitation of Liability\nEXCEPT FOR: (I) LIABILITY FOR DEATH OR BODILY INJURY; (II) PROVEN GROSS NEGLIGENCE OR WILLFUL MISCONDUCT; OR (III)\nTHE INFRINGEMENT INDEMNIFICATION OBLIGATIONS OF SECTION 8, ALL OTHER LIABILITY RELATED TO THIS AGREEMENT, IF\nANY, WHETHER ARISING IN CONTRACT, TORT (INCLUDING NEGLIGENCE) OR OTHERWISE, OF ANY PARTY TO THIS AGREEMENT\nSHALL BE LIMITED TO $100,000 (USD).\nAttachment E-4"
+    },
+    {
+      "chunk_id": 2678,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 165,
+      "content": "ER LIABILITY RELATED TO THIS AGREEMENT, IF\nANY, WHETHER ARISING IN CONTRACT, TORT (INCLUDING NEGLIGENCE) OR OTHERWISE, OF ANY PARTY TO THIS AGREEMENT\nSHALL BE LIMITED TO $100,000 (USD).\nAttachment E-4"
+    },
+    {
+      "chunk_id": 2689,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 167,
+      "content": "tutory or other binding approval to sign on behalf of its\norganization as named in this Agreement. This Agreement may be modified only by mutual written agreement of all the\nParties.\n(s) Counterparts. This Agreement may be executed electronically in accordance with applicable law or in any number of\ncounterparts, each of which shall be an original, but all of which together shall constitute one instrument.\n(t) Survival. Sections 7 (Term and Termination), 8 (Infringement Indemnification), 9 (Warranties), 10 (Confidential\nInformation), 11 (Limitation of Liability), 12 (Consequential Damages Waiver), and 13 (General) of this Agreement shall\nsurvive termination of this Agreement or any Exhibit attached to this Agreement.\n(BALANCE OF THIS PAGE LEFT INTENTIONALLY BLANK \u2013 SIGNATURE PAGE FOLLOWS)\nAttachment E-6"
+    },
+    {
+      "chunk_id": 2721,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 175,
+      "content": "e all or any portion of the Escrow Property\npursuant to this Agreement. In no event shall Escrow Agent be deemed an investment manager\nor adviser in respect of any selection of investments hereunder.\n1 Party A hereby acknowledges that it has received and read the Prospectus for the selected investment of the\nEscrow Property and understands that investments in the Money Market or Mutual Fund are not insured by the\nFederal Deposit Insurance Corporation and are not obligations of or guaranteed by Escrow Agent.\n2\nAttachment E-14"
+    },
+    {
+      "chunk_id": 2722,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 175,
+      "content": "understands that investments in the Money Market or Mutual Fund are not insured by the\nFederal Deposit Insurance Corporation and are not obligations of or guaranteed by Escrow Agent.\n2\nAttachment E-14"
+    },
+    {
+      "chunk_id": 2723,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 176,
+      "content": "Section 6. Distribution of the Escrow Property. Escrow Agent shall hold the Escrow\nProperty in its possession and disburse the Escrow Property or any specified portion thereof only\nas follows:\n(a) Three Business Days prior to any requested disbursement from the Escrow\nAccount, (i) Party A may deliver a written notice signed by an authorized person set forth on\nSchedule I attached hereto (\u201cAuthorized Representative\u201d) of Party Ato disburse all or a portion\nof the Escrow Property to Party B, or (ii) Party A may deliver a written notice signed by an\nAuthorized Representative of Party A to disburse all or part of the Escrow Property to Party A or\nsuch other party so specified therein (the \u201cDisbursement Instruction\u201d). A Disbursement\nInstruction must be signed by the proper party\u2019s Authorized Representative and delivered\npursuant to Section 11 below. Escrow Agent shall and is hereby authorized to withdraw and pay\nsaid disbursement as specified in a Disbursement Instruction. Escrow Agent may act upon a\nDisbursement Instruction received pursuant to Section 11 hereunder and may rely upon the\nsignature(s) thereon of an Authorized Representative regardless of by whom or by what means\nthe actua"
+    },
+    {
+      "chunk_id": 2724,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 176,
+      "content": "ture(s)\nresemble the specimen on Schedule I attached hereto or as provided to Escrow Agent from time\nto time. Escrow Agent shall incur no liability to Party A or Party B or otherwise for having acted\nin accordance with instructions on which it is authorized to rely pursuant to the provisions\nhereof.\n(b) All payments of the Escrow Property will be effected by wire transfer in\nimmediately available funds.\nSection 7. Compensation of Escrow Agent. Escrow Agent shall be entitled to receive\npayment from Party B for fees, costs and expenses for all services rendered by it hereunder in\naccordance with Schedule II to this Agreement. Party B shall reimburse Escrow Agent on\ndemand for all losses, liabilities, damages, disbursements, advances or expenses paid or incurred\nby it in the administration of its duties hereunder, including, but not limited to, all counsel,\nadvisor and agent fees and disbursements. At all times, Escrow Agent will have a right of set off\nand first lien upon the Escrow Account for payment of customary fees, costs and expenses and\nall such losses, liabilities, damages or expenses from time to time. Such fees, costs and expenses\nshall be paid from the Escrow Property to t"
+    },
+    {
+      "chunk_id": 2727,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 177,
+      "content": "If Party A is unable to appoint a successor Escrow Agent within thirty calendar days after such\nnotice, Escrow Agent may, in its sole discretion, deliver the Escrow Property to Party Bat the\naddress provided herein or may petition any court of competent jurisdiction for the appointment\nof a successor Escrow Agent or for other appropriate relief. The costs and expenses (including\nbut not limited to its attorney fees and expenses) incurred by Escrow Agent in connection with\nsuch proceeding shall be paid by Party A. On the resignation/removal date and after receipt of\nthe identity of the successor Escrow Agent, Escrow Agent shall either deliver and/or disburse\nthe Escrow Property then held hereunder to the successor Escrow Agent, less Escrow Agent\u2019s\nfees, costs and expenses or other obligations owed to Escrow Agent. Upon its resignation or\nremoval and delivery and/or disbursement of the Escrow Property in its entirety as set forth in\nthis Section, Escrow Agent shall be discharged of and from any and all future obligations\narising in connection with the Escrow Property or this Agreement.\nSection 9. Indemnification of Escrow Agent. Party Aand Party B jointly and\nseverally agree to indem"
+    },
+    {
+      "chunk_id": 2728,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 177,
+      "content": "abilities,\nlosses, claims, damages or expenses, including reasonable attorney\u2019s fees, that Escrow Agent\nmay incur by reason of or based upon its actions under this Agreement other than as a result of\nthe gross negligence or willful misconduct of Escrow Agent. This indemnification obligation\nshall survive the termination of this Agreement and the resignation or removal of Escrow Agent.\nSection 10. Rights, Duties and Immunities of Escrow Agent. Acceptance by Escrow\nAgent of its duties under this Agreement is subject to the following terms and conditions, which\nall parties to this Agreement hereby agree shall govern and control the rights, duties and\nimmunities of Escrow Agent.\n(a) The duties and obligations of Escrow Agent shall be determined solely by the\nexpress provisions of this Agreement and no duties, responsibilities, or obligations shall be\ninferred or implied. Escrow Agent shall not be liable except for the performance of such duties\nand obligations as are expressly and specifically set out in this Agreement. Escrow Agent shall\nnot be liable for the accuracy of any calculations or the sufficiency of any funds for any purpose.\n(b) Escrow Agent shall not be required to expend "
+    },
+    {
+      "chunk_id": 2729,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 177,
+      "content": "f its own funds or\notherwise incur any liability, financial or otherwise, in the performance of any of its duties\nhereunder.\n(c) Escrow Agent shall not be required to inquire as to the performance or\nobservation of any obligation, term or condition under any other agreements or arrangements\nbetween Party Aand Party B.\n(d) Escrow Agent shall not have any responsibility to determine the authenticity or\nvalidity of any notice, direction, instruction, instrument, document or other items delivered to it\nby any party, or for the identity, authority or rights of persons executing or delivering any such\nnotice, direction, instruction, instrument, document, or other items delivered to it by such party\nor parties. Escrow Agent is authorized to comply with and rely upon any notice, direction,\ninstruction or other communication believed by it to have been sent or given by Party A and/or\n4\nAttachment E-16"
+    },
+    {
+      "chunk_id": 2731,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 178,
+      "content": "Party B and shall be fully protected in acting in accordance with such written direction or\ninstructions given to it under, or pursuant to, this Agreement.\n(e) Escrow Agent is not a party to, and is not bound by, or required to comply with\nany agreement or other document out of which this Agreement may arise. Escrow Agent shall\nbe under no liability to any party hereto by reason of any failure on the part of Party A, Party B\nor any maker, guarantor, endorser or other signatory of any document or any other third party to\nperform, such party\u2019s obligations under any such document. Except for amendments to this\nAgreement referred to herein, and except for notifications or instructions to Escrow Agent under\nthis Agreement, Escrow Agent shall not be obliged to recognize or be chargeable with\nknowledge of any of the terms or conditions of any agreement between Party Aand Party B,\nnotwithstanding that references thereto may be made herein and whether or not it has knowledge\nthereof.\n(f) Escrow Agent shall not be bound by any waiver, modification, termination or\nrescission of this Agreement or any of the terms hereof, unless evidenced in writing and\ndelivered to Escrow Agent signed by the p"
+    },
+    {
+      "chunk_id": 2735,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 179,
+      "content": "Escrow Property, unless Escrow Agent receives written instructions, signed by an Authorized\nRepresentative of both Party A and Party B which eliminates such ambiguity or uncertainty.\n(j) Escrow Agent may consult with legal counsel of its own choosing, at the expense\nof Party A, as to any matter relating to this Agreement and Escrow Agent shall incur no liability\nand shall be fully protected in respect of any action taken, omitted or suffered by it in good faith\nin accordance with the advice or opinion of such counsel.\n(k) In the event of any dispute or conflicting claim with respect to the payment,\nownership or right of possession of the Escrow Account or the Escrow Property, Escrow Agent\nshall be entitled, in its sole discretion, to refuse to comply with any and all claims, demands or\ninstructions. Escrow Agent is authorized and directed to retain in its possession, without liability\nto anyone, except for its own gross negligence or willful misconduct, all or any part of the\nEscrow Property until such dispute shall have been settled either by mutual agreement of the\nparties concerned or by final order, decree or judgment of a court or other tribunal of competent\njurisdiction in th"
+    },
+    {
+      "chunk_id": 2736,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 179,
+      "content": "to the dispute or their authorized representatives and setting forth the resolution of the dispute).\nEscrow Agent shall be under no duty whatsoever to institute, defend or partake in such\nproceedings. The rights of Escrow Agent under this paragraph are in addition to all other rights\nwhich it may have by law or otherwise including, without limitation, the right to file an action in\ninterpleader.\n(l) Escrow Agent shall not incur liability for not performing any act or not fulfilling\nany duty, obligation or responsibility hereunder by reason of any occurrence beyond the control\nof Escrow Agent (including but not limited to any act or provision of any present or future law or\nregulation or governmental authority, any act of God or war, terrorism or the unavailability of\nthe Federal Reserve Bank or other wire or communication facility).\n(m) When Escrow Agent acts on any communication (including, but not limited to,\ncommunication with respect to the delivery of securities or the wire transfer of funds) sent by\nelectronic transmission, Escrow Agent, absent gross negligence or willful misconduct, shall not\nbe responsible or liable in the event such communication is not an authorized or au"
+    },
+    {
+      "chunk_id": 3601,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 9,
+      "content": "Liquidated Damages other than MBE (RFP Section 3.4.2) .......................................................... 287\n3.4.3 Initial System Transition of the Inspection Program Centralized, Kiosk, and FIS Stations (RFP\nSection 3.4.3) ........................................................................................................................................... 289\n3.4.4 the Inspection Program Operations (RFP Section 3.4.4) ............................................................................................. 290\n3.4.5 Data Management and Communication Systems (RFP Section 3.4.5) ...................................... 290\n3.5 Disaster Recovery and Data (RFP Section 3.5) .................................................................................... 291\n3.5.1 Redundancy, Data Backup and Disaster Recovery (RFP Section 3.5.1) .................................... 291\n3.5.2 Data Export/Import (RFP Section 3.5.2) ....................................................................................... 294\n3.5.3 Data Ownership and Access (RFP Section 3.5.3) ......................................................................... 294\n3.5.4 Acknowledgment of Provisions (R"
+    },
+    {
+      "chunk_id": 3602,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 9,
+      "content": "........................................................ 296\n3.6 Insurance Requirements (RFP Section 3.6) ......................................................................................... 296\n3.7 Security Requirements (RFP Section 3.7) ............................................................................................ 296\n3.7.1 Employee Identification (RFP Section 3.7.1) ................................................................................ 297\n3.7.2 Criminal Background Check (RFP Section 3.7.2) ......................................................................... 297\n3.7.3 On-Site Security Requirement(s) (RFP Section 3.7.3) .................................................................. 298\n3.7.4 Information Technology (RFP Section 3.7.4) ................................................................................ 298\n3.7.5 Data Protection and Controls (RFP Section 3.7.5) ....................................................................... 299\n3.7.6 Security Logs and Reports Access (RFP Section 3.7.6) ............................................................... 306\n3.7.7 Security Plan (RFP Section 3.7.7) ................................."
+    },
+    {
+      "chunk_id": 3612,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 11,
+      "content": "FP Section G.14) .......... 412\nTAB G \u2013 REFERENCES ................................................................................................................................................ 413\nTAB H \u2013 LIST OF CURRENT OR PRIOR STATE CONTRACTS .................................................................................. 417\nTAB I \u2013 FINANCIAL CAPABILITY ................................................................................................................................ 418\nTAB J \u2013 CERTIFICATE OF INSURANCE ...................................................................................................................... 419\nTAB K \u2013 SUBCONTRACTORS ..................................................................................................................................... 423\nTAB L \u2013 LEGAL ACTION SUMMARY .......................................................................................................................... 425\nTAB M \u2013 ECONOMIC BENEFIT FACTORS .................................................................................................................. 429\nTAB N \u2013 TECHNICAL PROPOSAL - REQUIRED FORMS AND CERTIFICATIONS .............."
+    },
+    {
+      "chunk_id": 3642,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 34,
+      "content": "sylvania, Hawaii, and Texas. This experience will result in an improved Program in the State that's\ndelivered on-time, within budget, and without disruptions. Parsons has 25 years of direct experience\noperating and managing the New Jersey Motor Vehicle Inspection Program, the world\u2019s first and largest\n(25 centralized and more than 900 decentralized facilities) hybrid I/M program. We\u2019ll leverage this\nexperience and lessons-learned to ensure smooth transition for the the Inspection Program.\nCustomer service is at the center of our solution. Our solution is comprehensive, reliable, and\nconvenient. We're expanding self-service options at all centralized locations during normal\noperating hours so service representatives are available when needed. We're improving the\nreliability of kiosks by updating the technology, providing better software screens, and adding a diagram\nto help motorists locate their OBD port. And, we're focused on keeping customers moving. By providing\npre-registration and pre-payment options, we'll significantly reduce wait times. Our testing offering does\nnot include convenience fees, a strategy which should reduce or eliminate confusion and complaints.\nA team that c"
+    },
+    {
+      "chunk_id": 3745,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 59,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nStation Location # of staffed test Number of full- Number of part- MAC Assistant Managers* Total Assigned\nunits time inspectors time inspectors (formerly \u201cCSR\u201d) Staff per Station\n3 \u2013 (regional location)*** 6 3 2 2 4 11\n4 \u2013 Westminster 4 1 1 0 3 5\n5 \u2013 Erdman Avenue*** 12 8 6 2 4 20\n6 \u2013 Edgewood 6 4 0 1 3 8\n7 \u2013 Owings Mills*** 7 4 2 1 3 10\n8 \u2013 Bel Air 5 3 1 1 3 8\n9 \u2013 Columbia 7 5 1 1 3 10\n11 \u2013 White Oak 12 8 6 2 4 20\n12 \u2013 Derwood*** 12 8 6 2 4 20\n13 \u2013 Glenarden 9 6 4 2 4 16\n14 \u2013 Clinton 6 4 1 1 3 9\n15 \u2013 (regional location) 6 4 2 1 3 10\n16 \u2013 (regional location)*** 6 4 1 1 3 9\n17 \u2013 Prince (regional location) 3 1 0 0 3 4\n18 \u2013 Waldorf 4 3 1 0 3 7\n19 \u2013 Elkton 3 1 0 0 3 4\nHQ Office Staff** N/A 4 3 N/A 7 14\nTotal 114 73 37 18 66 194\n*Managers include Station Manager, Assistant Station Manager, and Lane Managers/Second Assistant Managers\n**Administrative staff are represented under the \u201cInspector\u201d columns for HQ\n***Stations with high percentages of vehicles with wait times greater than 15 minutes per RFP Appendix 7\n2.3.1.1.4.S Security (RFP Section 2.3.1.1.4"
+    },
+    {
+      "chunk_id": 3746,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 59,
+      "content": "s, and State assets. We vet third-party services based on reputation and past proof of\nperformance, reliability, integrity, and professionalism. We\u2019ll seek a qualified local small business to provide\nthese services based on the criteria noted.\nSafety is our key corporate value. From the first day on the job\u2014throughout their daily lives, in the office or on\nthe job site\u2014employees are instilled with Parsons\u2019 OWN ZERO corporate safety philosophy. Whether\ncompleting safety training, developing processes to ensure safety, or attending daily safety talks, our\nphilosophy extends from the design and daily review of facilities to the knowledge and understanding of\nensuring a safe environment for the team and the customers we serve. With OWN ZERO, we empower every\nemployee with the mindset to create an injury- and incident-free environment at home and work.\n2.3.1.1.4.T Training (RFP Section 2.3.1.1.4.T)\nWe understand that a formal, consistent training program for our employees and State personnel is\nfundamental to a smooth transition. Having successfully implemented many similar programs over the past\n40 years, we\u2019re confident our approach will result in a successful implementation for the S"
+    },
+    {
+      "chunk_id": 3879,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 89,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nOur Training Team will monitor the effectiveness of examination questions. We\u2019ll clarify training material and\nedit examination questions as the courses and the Program changes and data analysis dictates. These\nchanges will aid in protecting the consistency and reliability of the the Inspection Program. This examination-result trend\nanalysis, driven by our continuous improvement culture will benefit Program staff, the State, the students,\nand State motorists. We\u2019ll seek State approval before implementing any recommended changes to the\ntraining material or examination banks.\nOur Training Plan will detail all the training recommendations and requirements for our the Inspection Program team. We\u2019ll\ntailor the training programs to job functions being performed, such as Lane Inspectors, Equipment\nTechnicians, MAC personnel, FIS inspectors, MAC Assistants, and Station Managers. Throughout this section,\nwe outline the training and certification details for several job functions.\nOnce the Program has moved to the operations phase and all personnel have unde"
+    },
+    {
+      "chunk_id": 3951,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 105,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nParsons will use the following process for collecting cash and checks at the\nthe Inspection Program Stations:\n\uf0a7 Test equipment software and VID systems will track data entry for\nofficial inspections and fees to be collected will be automated for the\nLane Inspector. Uploaded, official records will track expected fees\ncollected.\n\uf0a7 Cash collected from the customer will be secured in a locking cash\ndrawer located at each test unit in the the Inspection Program Station lanes.\nAccountability is Key\n\uf0a7 Periodically, the Inspection Program Station Management will drop any excess cash using\nParsons has had third-party\nthe test equipment software\u2019s automated entry process. The system\nindependent audits\nwill capture IDs and passwords for both the the Inspection Program Station Manager and\nconducted by KPMG on the\nthe Lane Inspector during this process, ensuring two-person control of\nE.A.S.E. fee collection and\nmoney removed from the cash drawer. reconciliation application.\n\uf0a7 The test equipment software will also track cash collected and issue an The latest aud"
+    },
+    {
+      "chunk_id": 4109,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 142,
+      "content": "upervisory, technician, and inspection personnel attire will consist of\nuniforms that display the State-approved, State-required logo, color-coded reflective vests, and employee\nidentification badges. Badges will identify staff as Parsons employees and include their full name,\nphotograph, position (i.e., Manager, Supervisor, Certified Inspector, Technician, or Trainee), identification\nnumber, and State-issued inspector\u2019s license number, if applicable. This uniform appearance will display\nprofessionalism, make a positive statement, and instill customers with confidence as they provide station\nemployees with documentation, vehicle access, and payment information.\nUnderstanding that outward appearance matters as much as demeanor when interacting with motorists,\nwe\u2019ll offer the Inspection Program-branded apparel to State staff, our employees, and stakeholders deemed appropriate by the\nState, with an eye toward professionalism. We\u2019ll provide samples of the proposed uniforms, vests, and\nbadges for approval.\n2.3.1.21 Damage or Destruction (RFP Section 2.3.1.21)\nWe maintain general liability insurance for damages or destruction occurring at a client facility while we are\nfulfilling the con"
+    },
+    {
+      "chunk_id": 4110,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 142,
+      "content": "btain funds to restore the site to its original condition. State-requested site improvements or\nmodifications will be handled through change orders. Facility restorations will require State approval.\nWe are prepared to handle situations when damage or destruction occurs at a the Inspection Program facility. Our goal is to\nmaintain facility operations, so we\u2019ll notify the State of the situation and quickly work to restore the premises\nin any such event, while maintaining our safety culture. If, for any reason, damage or destruction should\noccur to a the Inspection Program facility, we\u2019ll remedy the situation by repairing the premises as nearly as possible to the\noriginal condition and value before the damage or destruction. The State\u2019s Project Manager, or designated\nappointee, will have final approval on the construction workmanship.\nIf modifications or improvements are necessary due to force majeure, the State will pay for the repairs\nthrough its insurance carrier and reimburse Parsons. We\u2019ll invoice the State for the improvement costs but\nwill use only enough funds from the insurance carrier to refurbish the site to its original value. The State will\nmake the insurance funds immed"
+    },
+    {
+      "chunk_id": 4167,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 155,
+      "content": "pport team uses PagerDuty to manage incident notifications and escalations centrally. Upon event\nor incident detection, we send automated alerts to PagerDuty, where notification actions are triggered\ndepending on the severity of the incident. Our incident management and escalation strategy will ensure\nincidents are handled most efficiently to minimize impacts on the the Inspection Program.\nAWS Architected Solution\nWe architected our data management system in the AWS cloud with the State\u2019s security, reliability, and\ncontinuous improvement service objectives in mind. We\u2019ll host the Program in the North Virginia US-EAST-1\nregion to comply with the State IT organization policies, standards, guidelines, and RFP requirements. This region is\ngeographically closest to the State, with the option of using US-EAST-2 Ohio, if needed.\nWe will host the primary environment in the US-EAST-1 region to take advantage of the six\nisolated data center locations called availability zones, which far exceed the 98% service\nlevel requirement for availability and uptime of all systems applications.\n141 Tab D \u2013 Technical Response to RFP Requirements and Proposed Work Plan"
+    },
+    {
+      "chunk_id": 4170,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 156,
+      "content": "Redundancy Spanning Two Availability Zones: Each availability zone will be designed with\nthe capability to meet the capacity demands of the entire program. If one availability zone suffers a failure,\nthe two remaining have capacity to sustain operations. Using the active-active multi-availability zone\ndeployment model means we can sustain program operation without service interruption or reduced\nperformance, even if either data center becomes unavailable. The two data center active-active high\navailability model also allows us to take full advantage of the system\u2019s capacity by spreading the workload to\nmaximize performance. If one availability zone goes offline, our system will automatically continue to use the\nother availability zone until the fault at the original availability zone is resolved and it is brought back online.\nIn addition, as another layer of protection, the program data will be replicated to another region. Section 3.5\ncontains additional Disaster Recovery details.\nServerless and Managed Services with Automated Failover and Redundancy Across All Availability\nZones: To maximize reliability and resiliency, we\u2019ll use serverless and managed services where possible.\nSer"
+    },
+    {
+      "chunk_id": 4175,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 157,
+      "content": "multiple availability zones. To further improve high availability, the database backend\nstorage is fault-tolerant, transparently handling the loss of up to two copies of data. Both Aurora and Amazon\nS3 storage data will be replicated across multiple availability zones and to the US-EAST-2 region. Cross-\navailability zone failover of AWS services is transparent to end-users and limits service disruptions and the\nneed for emergency operations intervention. The multi-availability zone for the Aurora database and Amazon\nS3 storage deployment has an availability rating of 99.99%, which far exceeds the State\u2019s availability service\nlevel requirement. For example, over one year a 99.99% rating equates to only 53 minutes of downtime\nwhereas a system with 99.7% uptime would allow nearly 1,600 minutes of downtime.\nReal-Time Automated Failover at Every Layer of the Architecture: Our certified AWS solutions architects\nand certified AWS cloud engineers will architect for system resiliency, reliability, and responsiveness, with\nactive-active redundancy spanning two availability zones and real-time failover capability at each layer of the\narchitecture. We\u2019ll use our experience to design a solution"
+    },
+    {
+      "chunk_id": 4183,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 159,
+      "content": "high-performance scalability with up to six copies of data\n11 replicated across multiple availability zones is used to store static content for the front-end web pages, data archiving,\nlogging data.\n12 Serverless platform used to run code with built-in scaling and high availability in multiple availability zones.\nResilient QuickSight provides a Business Intelligence reporting service that can leverage ML technologies with high\navailability spanning multiple availability zones.\n13\nHigh performance AWS reporting database with automated recovery and scaling capabilities, to ensure reporting\nperformance scalability.\nHigh Availability: Parsons\u2019 systems operate within regional data centers for disaster recovery/business\ncontinuity and offer the necessary redundancy to ensure a minimum of 98% VID uptime, with an achievable\ngoal of 100% uptime for the life of the contract.\nThe fault-tolerant VID architecture described above provides the components necessary for extremely high\nuptime. However, the key aspect underlying a system\u2019s true uptime is the quality and reliability of the\napplications developed by the vendor to run the the Inspection Program. Applications used to perform OBD inspecti"
+    },
+    {
+      "chunk_id": 4188,
+      "document": "02_VOLUME I_TECHNICAL PROPOSAL_V-HQ-24019-S_PARSONS.pdf",
+      "page": 160,
+      "content": "Vehicle Emissions Inspection Program Management and Operation\nthe State DOT the State Motor Vehicle agency \u2502 RFP Number the procurement\nThis approach dramatically reduces the time it takes to restore a system, compared to retrieving tape media\nfrom off-site storage before the restore process can begin. Also, an automated deployment pipeline with\ninfrastructure as code allows us to deploy a fully functional replica of the production environment in less\nthan 24 hours. Data backups will meet the information systems service standard by being encrypted in\ncompliance with the State standards.\nDisaster Recovery Testing: We take business continuity very seriously and have established a solid\nreputation for system uptime in our other vehicle inspection programs. As the uptime results in the table\nbelow confirm, we\u2019ve gained valuable experience implementing high availability and automated failover\ncapabilities for multiple projects with high-uptime requirements, which will ensure we meet your service level\nfor availability and uptime of all system applications. Section 3.5 Disaster Recovery and Data details our\ndisaster recovery process.\nReliability: Our VID is architected in the AWS cloud s"
+    }
+  ]
+}

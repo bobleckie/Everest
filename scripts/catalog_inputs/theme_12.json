@@ -1,0 +1,402 @@
+{
+  "theme_id": 12,
+  "theme_label": "Business Continuity & Disaster Recovery",
+  "category": "Technical",
+  "rfp_requirements": [
+    {
+      "id": 1215,
+      "code": "R-002",
+      "title": "Acknowledge Order of Precedence of Contractual Terms",
+      "description": "Bidder must recognize that in the event of a conflict among the Contract documents, the stated order of precedence from highest to lowest ranking applies.",
+      "section": "1.4",
+      "priority": "medium",
+      "category": "informational"
+    },
+    {
+      "id": 7683,
+      "code": "A-029",
+      "title": "Acknowledge State Tax Set-Off",
+      "description": "Contractor acknowledges that pursuant to N.J.S.A. 54:49-19, whenever the Contractor (or a partner/shareholder) is entitled to payment while indebted for any State tax, the Director of the Division of Taxation shall seek to set off that amount.",
+      "section": "2.12",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 1469,
+      "code": "R-006",
+      "title": "Designate Project Manager and backup",
+      "description": "Identify and provide a designated Project Manager (PM) and no less than one (1) backup personnel authorized to act as PM to support and communicate with the SCM as requested or required.",
+      "section": "4.2.2",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 3460,
+      "code": "A-062",
+      "title": "Include acronyms/terms appendix in BC/DR plan",
+      "description": "",
+      "section": "4.24.2.B.11",
+      "priority": "low",
+      "category": "mandatory"
+    },
+    {
+      "id": 3451,
+      "code": "A-053",
+      "title": "Address participant roles in BC/DR plan",
+      "description": "",
+      "section": "4.24.2.B.2",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3452,
+      "code": "A-054",
+      "title": "Address stakeholder roles in BC/DR plan",
+      "description": "",
+      "section": "4.24.2.B.3",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3477,
+      "code": "A-079",
+      "title": "Include acronyms/terms appendix in backup plan",
+      "description": "",
+      "section": "4.24.3.B.11",
+      "priority": "low",
+      "category": "mandatory"
+    },
+    {
+      "id": 3470,
+      "code": "A-072",
+      "title": "Address Backup/Recovery document/artifact management",
+      "description": "",
+      "section": "4.24.3.B.4",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 3481,
+      "code": "A-083",
+      "title": "Retain offsite backups for no less than one year",
+      "description": "",
+      "section": "4.24.3.C",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 4982,
+      "code": "A-062",
+      "title": "Require authorization to use mobile devices",
+      "description": "Establish requirements for authorization to use mobile devices for organizational business purposes.",
+      "section": "6.8.A",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 7944,
+      "code": "R-005",
+      "title": "Notice to Division of Law before defending in State's name",
+      "description": "Neither Contractor nor its attorney shall defend a claim in the name of the State or any Authorized Purchaser, or act as its legal representative, without providing notice to the Director of the Division of Law and the Director of the Division of Purchase and Property.",
+      "section": "8.2.G",
+      "priority": "critical",
+      "category": "mandatory"
+    },
+    {
+      "id": 8033,
+      "code": "R-038",
+      "title": "Notify Division of Law before defending in State's name",
+      "description": "Neither Contractor nor any attorney engaged by Contractor may defend the claim in the name of the State or purport to act as legal representative without providing notice to the Director of the Division of Law and Director of Division of Purchase and Property.",
+      "section": "9.2.4.1.G",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8122,
+      "code": "A-023",
+      "title": "Grant Union representative reasonable access",
+      "description": "A representative of the Union shall have reasonable access to the Employer for the purpose of conferring with the Employer, shop stewards, and Employees and for administering this Agreement.",
+      "section": "Article IV.1",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8127,
+      "code": "A-028",
+      "title": "Provide Bulletin Board at each location",
+      "description": "The Employer shall provide a Bulletin Board at each location, placed conspicuously and readily accessible, to be used for posting proper Union notices.",
+      "section": "Article IV.2",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8412,
+      "code": "A-012",
+      "title": "Limit emergency/personal sick leave use",
+      "description": "Full-time employees may use no more than 40 hours per year and part-time employees no more than 20 hours per year of sick leave for emergency or personal reasons.",
+      "section": "Article XXIX.10",
+      "priority": "high",
+      "category": "mandatory"
+    },
+    {
+      "id": 8404,
+      "code": "A-006",
+      "title": "Limit partial-day sick leave to specified purposes",
+      "description": "Sick leave for less than a full work day may only be used for onset of illness while working, tending to an ill immediate family member, or medical appointments that could not be arranged during non-work time.",
+      "section": "Article XXIX.5",
+      "priority": "medium",
+      "category": "mandatory"
+    },
+    {
+      "id": 8562,
+      "code": "A-042",
+      "title": "State officer/employee bids subject to Attorney General conflict-of-interest guidelines",
+      "description": "Any State officer, employee, or group of State officers/employees entering into a contract as a private contractor under this section must do so subject to guidelines for conflict of interest established by the Attorney General.",
+      "section": "Section 1 (C.39:8-44 b.(3))",
+      "priority": "high",
+      "category": "mandatory"
+    }
+  ],
+  "parsons_evidence": [
+    {
+      "chunk_id": 1928,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 2,
+      "content": "auditor teams, support teams, and subcontractors are in place. In this challenging\nlabor market, we do not anticipate any staffing impacts as your selected vendor in the new contract. Upon Notice to\nProceed, with no transitional risk to current operations, we will begin the implementation tasks to fulfill all RFP\nrequirements.\nParsons continues its commitment to Small Diverse Businesses and Small Businesses for this procurement.\nAdditionally, we have added two Veteran Business Enterprises to our team, 1Alpha Consulting to bolster our\nmotorist compliance activities and Berry Solutions Group for our information and education development and to\nprovide enhanced auditor training.\nOfferor Responsibilities and Exceptions to the RFP Requirements\nAll information submitted pertains exclusively to Parsons Transportation Group Inc. as a subsidiary of Parsons\nCorporation. Our proposal satisfies all mandatory requirements listed in the RFP, and we take no exceptions to any\nof the contractual provisions outlined in the RFP.\nOn behalf of Parsons, I am authorized to bind the Corporation to all the provisions in this proposal and acknowledge\nreceipt of Addenda 1 through 5. This proposal is good for"
+    },
+    {
+      "chunk_id": 1933,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 3,
+      "content": "................... 10\nI-5D: Program Changes ....................................................................................................................................................... 11\nI-5E: Transition .................................................................................................................................................................... 11\nI-5F: Disaster Recovery ....................................................................................................................................................... 12\nI-5G: Back-Up and Back-Up Storage .................................................................................................................................. 13\nI-5H: Emergency Preparedness .......................................................................................................................................... 14\nOperational Impact ........................................................................................................................................................ 14\nContinuity of Operations ................................................................................................."
+    },
+    {
+      "chunk_id": 1954,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 6,
+      "content": "........................ 65\nTask L: Electronic Collection of e-SAFETY .................................................................................................................................. 65\nEvolving e-SAFETY ............................................................................................................................................................... 66\nL.1 Supporting the Existing e-SAFETY Application ............................................................................................................ 67\nMV-431, M-480, and MV-426 Capabilities .................................................................................................................. 67\nSystems Communications and Throughput ................................................................................................................. 67\nSystem Availability ......................................................................................................................................................... 68\nSystem Redundancy and Support ................................................................................................................................ 68\nSys"
+    },
+    {
+      "chunk_id": 1958,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 6,
+      "content": "............... 78\nI-8B. Invoice Submissions ................................................................................................................................................... 78\nI-9. OBJECTIONS AND ADDITIONS TO TERMS & CONDITIONS ........................................................................................ 78\nRESPONSE WRAP UP ...................................................................................................................................................... 78\nATTACHMENT A -- Project Experience\nATTACHMENT B -- Disaster Recovery Plan\nTechnical Submittal iv"
+    },
+    {
+      "chunk_id": 1959,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 6,
+      "content": ".................................................................................................... 78\nATTACHMENT A -- Project Experience\nATTACHMENT B -- Disaster Recovery Plan\nTechnical Submittal iv"
+    },
+    {
+      "chunk_id": 1966,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 9,
+      "content": "t. This will reinforce confidence in Parsons\u2019 deliverables.\nA Team with Depth that Will Deliver for Pennsylvania. Success starts with experienced leadership, and Parsons brings a\ntrusted Program team. Mark Colangelo, Vice President and Pennsylvania Program Manager, has extensive knowledge of\nCommonwealth requirements, policies, and procedures, strengthened by his many years of industry experience. Backed by\nhis in-place team and handpicked DBE/SBE/VBE companies, we stand ready to support your initiatives and deliver your\nProgram. Mike Butler, Vice President and Smart Vehicles Solutions Business Leader, and Bonnie McPherson, Vice President,\nVehicle Inspection Programs, will support Mark in making sure he has the full complement of Corporate resources and staff\nrequired to meet your goals.\nParsons brings a mindful and respectful approach to innovation that aligns with PennDOT\u2019s priorities. PennDOT has and\ncan continue to rely on us to deliver innovation based on its goals. We have carefully reviewed the RFP offered by\nPennDOT and offer a responsible, respectful, and thorough response with solid, performance-based delivery on all the\noutlined tasks.\nThe Parsons Pennsylvania team\u2019s lon"
+    },
+    {
+      "chunk_id": 1969,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 10,
+      "content": "l ensure the continued success of your Program through our strong foundational Program\nknowledge and performance history of compliance and adaptability with no transition risk. We understand the need\nfor complete separation and no conflict of interest between PennDOT\u2019s Emissions Program Manager and emissions\nequipment providers. We are the only contractor that can guarantee no financial or business relationship with any\ncurrently certified emissions testing equipment manufacturer in Pennsylvania.\nThe selected Program Manager will administer all aspects of the I/M Program under PennDOT\u2019s direction, including the\nrequired services defined in the RFP and outlined in work statement Part I-6. The contractor\u2019s responsibilities include:\n\u00a7 Maintaining the nature and scope of Pennsylvania\u2019s current I/M Program\n\u00a7 Maintaining required geographic coverage and program areas\n\u00a7 Providing a seamless transition that prevents interruption in Program services or data collection by maintaining\ninterfaces with hardware and software and ensuring emission testing equipment transmits data to the Vehicle\nInformation Inspection Database (VIID) identically\n\u00a7 Providing for the storage and handling of all I/M "
+    },
+    {
+      "chunk_id": 1970,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 10,
+      "content": "d safety inspection data\n\u00a7 Providing the necessary software/hardware to operate and maintain the I/M Program\n\u00a7 Providing a disaster recovery plan\n\u00a7 Providing data back-up and off-site back-up storage\n\u00a7 Providing system journal files (transaction journals), logging all system transactions\n\u00a7 Overseeing (overt, covert, and remote visual observation) I/M and Safety stations within the assigned geographic\nregion including inspectors and certified repair technicians\n\u00a7 Conducting public information and education (I&E) activities relating to the I/M Program\n\u00a7 Providing a process for investigation and fact-finding relating to I/M Program violations\n\u00a7 Providing referee service to facilitate the resolution of consumer complaints\n\u00a7 Helping I/M stations and consumers with the issuance of exemptions and waivers\n\u00a7 Providing Help Desk facilities to address equipment manufacturer, I/M station, and consumer questions and\nconcerns regarding I/M Program requirements and to address system support issues for e-SAFETY users\n\u00a7 Performing motorist compliance data collection and analysis\n\u00a7 Collecting, organizing, storing, and reporting on data related to on-road testing (remote sensing)\n\u00a7 Performing evaluat"
+    },
+    {
+      "chunk_id": 1978,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 12,
+      "content": "rdless of\nProgram changes supports PennDOT\u2019s compliance with state\nthe number of inspection stations or the\nand federal requirements. Our commitment to regulatory\nnetwork\u2019s geographical distribution.\ncompliance promotes Program integrity and aligns with \u2022 In-place team \u2013 Our team is already in place,\nPennDOT\u2019s goals while simultaneously protecting public health allowing us to focus time and resources on future\nand safety. Certainty plays a crucial role in PennDOT\u2019s decision enhancements versus transitioning systems.\nto choose a vendor for the I/M Program, and Parsons is the \u2022 Strong references \u2013 Our current and past clients\nbest vendor for successful ongoing Program operations and give us positive feedback and references.\n\u2022 In-place corporate resources \u2013 Our financial,\nintegrity.\nstaffing, and infrastructure resources are in place\nOur corporate structure provides all levels of management and ready to continue seamlessly from the\nwith complete access to any resources required to ensure current program.\nProgram success. We have two business units, Critical \u2022 Proven PA success \u2013 We have conducted more\nthan 80 million transactions to date and routinely\nInfrastructure and Federal Soluti"
+    },
+    {
+      "chunk_id": 1979,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 12,
+      "content": "m uptime above 99.9%.\nstrong IT/Technology division, a cybersecurity practice, and\nprofessionally tested and proven project management staff. Our CEO\u2019s pledge to the Commonwealth of Pennsylvania is a\ntestament to our dedication to PennDOT and the PA I/M Program\u2019s success.\nParsons is honored to have the opportunity to continue to play a crucial role as your Program Manager\nresponsible for administering the Commonwealth\u2019s I/M Program. Mark Colangelo and his team are\ncommitted to extending our support for this important Program. They will have the full complement of our\nunrivaled resources, expertise, and experience to realize your vision to protect the environment and keep\nyour roads safe. Likewise, we have a robust cybersecurity practice and the capabilities necessary to ensure\nyour data and systems are secure. We look forward to collaborating with PennDOT and each of its\nstakeholders to build on our long-term, mutually successful relationship that is 26 years in the making.\nCarey Smith\nChairwoman, President, and CEO\nIn our I/M sector, PennDOT can count on the following leadership to guide the program:\n\u00a7 Mark Colangelo, Vice President and Pennsylvania Program Manager with 38 industr"
+    },
+    {
+      "chunk_id": 1980,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 12,
+      "content": "\u00a7 Mike Butler, Vice President and Smart Vehicle Solutions Business Leader with 45 industry years' experience, will\nprovide executive support to ensure Mark has access to necessary corporate resources\n\u00a7 Bonnie McPherson, Vice President and Executive Support with 30 industry years' experience, will support Mark and\nthe Parsons PA team with corporate resource access\n\u00a7 John Ott, Pennsylvania Deputy Program Manager with 35 industry years' experience\nTechnical Submittal 3\n | PARSONS\u2019 RECORD SPEAKS FOR ITSELF |  | \n |  |  | \n | \u2022 On-time delivery \u2013 We have unmatched |  | \n | experience and expertise in delivering and |  | \n | operating I/M Programs on time, regardless of |  | \n | the number of inspection stations or the |  | \n | network\u2019s geographical distribution. |  | \n | \u2022 In-place team \u2013 Our team is already in place, |  | \n | allowing us to focus time and resources on future |  | \n | enhancements versus transitioning systems. |  | \n | \u2022 Strong references \u2013 Our current and past clients |  | \n | give us positive feedback and references. |  | \n | \u2022 In-place corporate resources \u2013 Our financial, |  | \n | staffing, and infrastructure resources are in place |  | \n | and ready to continue sea"
+    },
+    {
+      "chunk_id": 1982,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 13,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\n\u00a7 Darryl McCarthy, senior director/information technology with 33 IT years' experience, including IT system\nresponsibility of all Parsons vehicle inspection programs\nPennDOT prioritizes security and so does our responsive solution. Our dedicated security staff assigned to your\nProgram continuously work with systems and network administrators to improve the VIID environment\u2019s cybersecurity\nand mitigate threats. Since Parsons has a full cybersecurity practice, the vehicle inspection security staff has an arsenal\nof tools at their disposal and a wealth of expertise gleaned from many diverse implementations corporate-wide. Our\nsecurity service includes products and methods for antivirus and malware controls, firewall control process and intrusion\ndetection, safeguarding the database, hardening the hardware\u2019s operating systems, and securing communication\ntransmissions. We conduct monthly internal and quarterly external vulnerability tests and review the results to enhance\nour mitigation plans. Our security strategy also includes security assessments during and after critical system changes,\n"
+    },
+    {
+      "chunk_id": 2017,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 19,
+      "content": "capabilities, technical expertise, and available workforce to undertake almost any project and to supply the skills\nand resources required for its completion.\nOUR FINANCIAL STABILITY BENEFITS PENNDOT\nAs a global company with annual revenues Parsons is a publicly held corporation, more than 60% owned by\nexceeding $4.5 billion, Parsons\u2019 financial the Parsons Employee Stock Ownership Trust. As required, three\nstability is founded on the following years of audited financial statements, including balance sheet\nconservative business practices: and income statement or profit/loss statements, for Parsons\n\u2022 A robust risk management program Transportation Group Inc. have been emailed to Dawn Grabuloff\n\u2022 Accountability and incentives for management at dgrabuloff@pa.gov. Please keep this information confidential.\nstaff Our email to Dawn also includes a credit reference letter and\n\u2022 Careful subcontractor selection and our most recent Dun & Bradstreet comprehensive report.\nmanagement\n\u2022 Extensive training, tools, and audits\nI-5. REQUIREMENTS\nI-5A \u2013 C: Emissions Inspection and Maintenance (I/M) Program\nWe have been part of the PA I/M Program\u2019s success, as Exhibit I-2-2 (Page 5) illustrates, having"
+    },
+    {
+      "chunk_id": 2025,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 21,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nallows PennDOT to focus on improving the existing formats and content instead of recreating a baseline with a new\nvendor. In addition, our Service Level Tracking Application automates the identification of contract requirements and\ndetermines if the metric has been met, offering the Commonwealth a convenient and reliable method of measuring\nour deliverable compliance.\nParsons commits to the go-live date of October 1, 2025, with uninterrupted operations of the I/M Program. We have\nestablished systems, experience, and reliable operations, removing the transition risks of moving to a new contract\nperiod. Parsons\u2019 consistent open communications with PennDOT facilitates resolution of any issues in the PA I/M\nProgram.\nI-5F: Disaster Recovery\nDisaster prevention and recovery is a mainstay of Parsons\u2019 IT systems and operations methods and we have consistently\nmaintained a reliable network and mitigated risks through our disaster recovery approach. Our primary goal in disaster\nrecovery (DR) is to manage the event to reduce its impact and ensure continuous delivery of the PA I/M Program. We\nactiv"
+    },
+    {
+      "chunk_id": 2026,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 21,
+      "content": "ure the recovery of system operations during a disaster which disrupts the online\nVIID capabilities or interrupts operational delivery of the Program. By designing a fault-tolerant system that offers\nautomatic and immediate recovery for most disaster scenarios, Parsons enables the VIID to continue its operation\nuninterrupted. We\u2019ll host our updated system environment in the Amazon Web Service (AWS) US-EAST-1 region to take\nadvantage of the isolated data center locations, called availability zones, which exceed the 99% service level requirement\nfor availability and uptime of all systems applications. Our disaster recovery strategy also includes redundancy distributed\nacross two availability zones to ensure maximized protection with the capacity to take over complete production volume\nin each availability zone and provide a responsive end-user experience even in disaster scenarios. Each availability zone\nis engineered to be isolated from failures in other availability zones and provides fault tolerance and low-latency network\nconnectivity to other availability zones in the same region. We\u2019ve evaluated the data center locations for multiple risks,\nincluding flood and other environment"
+    },
+    {
+      "chunk_id": 2027,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 21,
+      "content": "available to end-users.\nOur proven applications run in all our programs, and we provide unmatched uptime results. \u201cExhibit I-5-1\u201d shows the\nuptime percentages for our VIID solutions in our programs.\nEXHIBIT: I-5-1. OUR PROGRAM UPTIME PERCENTAGES DEMONSTRATE OUR RELIABILITY.\nPROGRAM SYSTEM AVAILABILITY\nNew Jersey Motor Vehicle Inspection System 99.99% uptime since October 2013\nHawaii Motor Vehicle Inspection Program 99.99% uptime since November 2013\nPennsylvania Vehicle Emissions I/M Program 99.99% uptime since October 2012\nVermont Automated Vehicle Inspection Program 99.99% uptime since January 2016\nDriveON Ontario 100% uptime since April 2022\nOur experience in maintaining VIID uptime, along with our knowledge of the day-to-day needs of the PA I/M Program,\nensures that on the first day of the contract, PennDOT will have no disaster recovery concerns. Our extensive and\ndedicated US based IT staff stand ready to respond to any interruption and are prepared to exercise all protocols to\nreduce impact to the Program should we initiate disaster recovery. In addition to our unmatched Program experience,\nwe draw from our successful experience building and operating fault-tolerant systems a"
+    },
+    {
+      "chunk_id": 2028,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 21,
+      "content": "r recovery\nplans. We have completed successful tests of the Disaster Recovery Plans (DRPs) for the PA I/M Program at least\nonce a year and after any major system release, upgrade, or recovery effort.\nOur current proven and approved VIID Disaster Recovery Plan focuses on all activities required to recover critical IT\nservices. We will continue to test, review, and update it as needed to meet recovery objectives. We will test the DRP\nprocedure in conjunction with PennDOT no later than 30 days from the go-live date; having Parsons staff who are\nexperienced in the system architecture and on-the-ground activities of the Program mitigates transition risk to PennDOT.\nThe objective of the DRP test is to verify the team\u2019s preparedness, ensure the automatic failover functionality, and\nTechnical Submittal 12\nPROGRAM | SYSTEM AVAILABILITY\nNew Jersey Motor Vehicle Inspection System | 99.99% uptime since October 2013\n | \nPennsylvania Vehicle Emissions I/M Program | 99.99% uptime since October 2012\n | \nDriveON Ontario | 100% uptime since April 2022\n |"
+    },
+    {
+      "chunk_id": 2030,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 22,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nconfirm that the backup systems meet the requirements. Our annual disaster recovery test will cover different disaster\nscenarios, including component failures and complete system recovery. Upon completion of the test, Parsons will create\nand submit a detailed report to PennDOT. Parsons will review the Disaster Recovery Plan annually, update it as\nnecessary, and submit an updated version to PennDOT by January 15th each year. We will provide and support the DRP,\nalong with required systems, and will be responsible for data conversion. The intrinsic safeguards in Parsons\u2019 solution,\nour Pennsylvania Program experience, and detailed DRPs implement automatic failover to ensure minimum impact on\nthe I/M testing facilities during disaster scenarios. Our goal is to make the disaster recovery environment operational\nwithin minutes of detecting a failure on the primary environment to ensure continuous systems operation, exceeding\nPennDOT\u2019s requirement to implement the plan and become operational within 24 hours.\nOur DRP is discussed in detail in Attachment B of this technical submittal and include"
+    },
+    {
+      "chunk_id": 2031,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 22,
+      "content": "ff assignment of responsibilities in the event of a disaster\n\u00a7 A prioritized list of applications crucial to system recovery\n\u00a7 Operation procedures used to ensure a timely and orderly system recovery\nThe role of our Disaster Recovery Coordinator, Mark Colangelo, is outlined in the DRP. Parsons\u2019 Disaster Recovery Plan\nfor the PA I/M Program is included in Attachment B of our technical submittal, and as we modernize the system\nenvironment, we will update the DRP.\nI-5G: Back-Up and Back-Up Storage\nParsons has established procedures for backup of all data and application files. Our experience in other programs with\nretrieval and recovery of data and application files is reflected in the careful development of the back-up plan for the PA\nI/M Program. PennDOT has approved our procedures, minimizing concern and transition risk to the Commonwealth upon\ntransition to the new contract. The backup plan includes:\n\u00a7 Daily real-time full and incremental application files and data backups\n\u00a7 Instant backup and recovery of data from snapshots\n\u00a7 Configuration management system and application code stored in version control system, included in daily backup\nTo protect against data corruption, and to p"
+    },
+    {
+      "chunk_id": 2032,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 22,
+      "content": "n, and to provide the ability to restore point-in-time, Parsons performs full and\nincremental VIID data backups daily in real-time using specialized archiving software and snapshots. This affords the\nflexibility to instantly create a copy, restore full or partial data, and restore data from snapshots, which is non-disruptive\nand much faster than traditional backup sources. The database management tools include the capability of logging and\njournalizing each backup. Parsons\u2019 use of snapshot technology minimizes impact on the database environment when the\nbackup process is invoked.\nIn addition, cross-availability zone and cross-region data replication and specific data backup retention levels protect\nagainst data corruption, data loss, and major disasters. We will use AWS Aurora database and S3 object storage to store\ncritical PA I/M Program data, allowing data to be replicated across multiple availability zones. In addition, we will use AWS\nbackup service to automate data backups and replication to an alternate region, ensuring multiple copies of the Program\ndata exist in geographically dispersed areas at any given time and exceeding redundancy requirements.\nWe also simplify backup "
+    },
+    {
+      "chunk_id": 2035,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 23,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nI-5H: Emergency Preparedness\nParsons worked first-hand with the Commonwealth through the uncertainty, challenges, and quickly changing scenarios\nof the COVID-19 pandemic, supporting contractual deliverables while prioritizing employee safety. Our ability to maintain\noperations comes in part from our established Emergency Response Plan (described below) and our experienced\nProgram Management Team.\nOperational Impact\nWE ADAPT TO CHANGING CONDITIONS TO KEEP\nYOUR PROGRAM MOVING FORWARD\nProgram operations can be impacted by pandemics and\nemergencies by limiting staff availability and mobility, hampering Parsons\u2019 response to the COVID-19 pandemic\nproject communications, eliminating office access, and reducing demonstrated our commitment and ability to\nor severing network connectivity. continue operations and support essential\ncontract deliverables for the Commonwealth.\nIf an emergency or pandemic occurs, Parsons will establish\ncontact with PennDOT and activate our Business Continuity Plan, which is part of our Program Management Plan. Project\nmanagement staff will communicate with PennDOT, pr"
+    },
+    {
+      "chunk_id": 2036,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 23,
+      "content": "e with PennDOT, providing updates and information until the emergency conditions\nare mitigated or operations return to normal. Parsons\u2019 PA I/M Management operations has built-in redundancy with three\nregional offices located in Pittsburgh, Harrisburg, and Philadelphia that contain similar management and staff positions,\ncommunications, and data transfer capabilities. As proven during the COVID-19 pandemic, our entire project team,\nincluding management, office, call center, and field staff, are equipped to work remotely, enabling continuation of critical\nbusiness services without facility access.\nIf a particular region is affected by an emergency, operations can be directed to any of the remaining operational regions.\nAll management, office, and quality assurance personnel can support operations in other regions and continue providing\nessential business activities. Quality assurance personnel can be productive in any area of the state, allowing for\ncoverage if some staff members are unavailable due to emergency conditions.\nSimilarly, if one or more regional offices closes due to emergencies such as a natural or man-made disaster, loss of\npower/communications/network connectivity, qu"
+    },
+    {
+      "chunk_id": 2037,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 23,
+      "content": "y, quarantine, or pandemic control measures, all essential business activities\nwill be redirected to remaining operational regional offices and to project staff working remotely. For example, Parsons\nwill forward telephone numbers to unaffected regional offices to ensure station and consumer issues are addressed. All\nregional Program information is stored remotely, preventing loss and allowing access by other regional and remote\nproject staff during unplanned office closures.\nIf an emergency impacts a VIID hosting location or VIID functionality, the Disaster Recovery Plan (referenced in I-5G\nabove and Attachment B) will be implemented to minimize or avoid disruption of critical business functions.\nIf an emergency impacts the stations\u2019 ability to connect to the VIID, our systems will be able to continue testing for 30\ndays or 100 inspections, as per the offline test limits set by the VIID and determined by PennDOT. Allowing offline testing\nminimizes negative impacts to both the inspection industry and the public. Once connectivity is restored, any offline\ntesting will automatically upload to the VIID.\nCustomer service and station operator hotlines are also covered in our emergency p"
+    },
+    {
+      "chunk_id": 2038,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 23,
+      "content": "partner, Dasher Services, Inc., maintains a robust disaster recovery plan for all\ncritical systems and components necessary to fully operate its contact center services. Dasher has two data security\ncertifications that require a proven disaster recovery plan - Service Organization Control (SOC) 2SM Type 2 and HITRUST\nCommon Security Framework (CSF) Certification. All help desk team members are outfitted with computers from which\nthey can access phone, call team applications, and Program resources from any location. All team members undergo\nsecurity training and can function fully in either a remote or office environment and are backed by additional agents that\ncan handle calls. Dasher\u2019s call management system, as described in detail in response to Task D, is Voice over Internet\nProtocol (VoIP) and Internet-based. To ensure business continuity in the event of an emergency, Dasher has redundant\ninternet providers and a diesel-run generator, empowering Dasher to continue service without interruption.\nTechnical Submittal 14\n | WE ADAPT TO CHANGING CONDITIONS TO KEEP |  | \n | YOUR PROGRAM MOVING FORWARD |  | \n | Parsons\u2019 response to the COVID-19 pandemic |  | \n | demonstrated our commit"
+    },
+    {
+      "chunk_id": 2040,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 24,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nContinuity of Operations\nEven the most robust incident management plan requires knowledgeable staff for effective implementation and\nmanagement. Our team has knowledge and experience managing incidents without negative impact to the client and\ncustomers. We deliver training on our emergency preparedness plans to all staff, including key Program personnel.\nEXHIBIT: I-5-2. EMERGENCY PREPAREDNESS TRAINING FOR PROGRAM STAFF IS A CRITICAL ELEMENT TO OUR OPERATIONS.\nType of Training Recipients Frequency\nComplete Procedure Training All employees Upon hire\nFacility-specific Plans All employees for applicable facilities Upon transfer or role change\nRefresher Training All employees Annually or upon Plan update\nManagement Role Training Key Project Personnel Upon hire and annually\nTraining includes reviewing plans in detail with employees, conducting office closure drills, and reviewing interactive\nplans with diverse employee groups. Consistently reviewing, updating, and improving the plan provides PennDOT\nconfidence in our successful activation and continuity of operations delivery. We will test t"
+    },
+    {
+      "chunk_id": 2041,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 24,
+      "content": "nario simulations by our corporate safety and emergency response professionals.\nEssential business functions for the PA I/M Program include personnel and station oversight activities and assurance of\ndata connectivity between the stations, the VIID, and PennDOT. The Disaster Recovery Plan lists Parsons\u2019 personnel\nresponsible for data connectivity activities. PennDOT management will have contact methods for key personnel in the\nevent we must activate these plans. Mark Colangelo, Program Manager, will be responsible for communication with\nPennDOT and coordinating Program emergency procedures to ensure essential business functions continue. John\nOtt, Deputy Program Manager, will assist Mark in the execution of the emergency preparedness plan and will assume\nMark\u2019s duties if necessary. Parsons\u2019 regional managers, Thomas Bishop, Neal Lutz, and Bill Moyer are responsible for\nimplementing the emergency preparedness procedures and continuity of operations in their respective regions. They will\ncoordinate with emergency services, oversee area staff, and communicate with the Program and Deputy Program\nManagers. Key personnel will work together to ensure effective support and backup in an eme"
+    },
+    {
+      "chunk_id": 2042,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 24,
+      "content": "ement positions and staffing, ensuring any of the three can perform essential\nbusiness functions. Each key employee can perform the functions of their counterparts, filling in for impacted personnel.\nWe will maintain communication through any necessary combination of internet, email, texting, or cell phone contact. We\ndistribute comprehensive contact information to all key personnel to ensure communication continues and minimize risk\nto essential business functions. All project employees can work remotely as necessary. Program management will keep\nPennDOT apprised of the situation.\nA benefit of selecting Parsons as your Program Manager is the corporate resources we can activate in an emergency; we\nhave emissions program staff in multiple jurisdictions available to assist Pennsylvania. Additionally, Parsons has a\ncomprehensive and Federally recognized Cyber division with robust and proven Standard Operation Procedures and\ninternal policies to reduce cybersecurity threats, train staff to avoid threats, and provide the resources necessary to\naddress system issues.\nI-6. TASKS\nDeveloping an intricate and highly functional I/M Data Handling solution is a sophisticated and complex task. I"
+    },
+    {
+      "chunk_id": 2043,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 24,
+      "content": "ion efforts across many disciplines and functions including software development\nand systems integration; infrastructure sizing, and redundancy; integrations with a myriad number of testing equipment\nmanufacturers, communications protocols, and other diverse end-points; and significant and distributed end-user and\nsystems support training. In addition, and arguably more important to the success of the PA I/M Program, it involves\ndeveloping effective relationships with PennDOT staff and station operators.\nParsons has demonstrated the experience, adaptability, and reliability to develop and maintain a complex and highly\nfunctioning I/M technical solution. Our proven program execution, consistent regulation compliance, and unparalleled\nTechnical Submittal 15\n | Complete Procedure Training |  |  | All employees |  |  | Upon hire | \n |  |  | All employees for applicable facilities |  |  |  |  | \n | Refresher Training |  |  | All employees |  |  | Annually or upon Plan update | \n |  |  | Key Project Personnel |  |  |  |  |"
+    },
+    {
+      "chunk_id": 2047,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 25,
+      "content": "ity. Parsons will meet all the requirements outlined in Task A: Storage and Handling of all\nPA I/M Program-related Data.\nWe\u2019ll host the system environment in the US-EAST-1 region of\nMAXIMIZING SYSTEM\nAmazon\u2019s cloud environment. This will allow us to maximize\nRELIABILITY AND RESILIENCY\nreliability and resiliency, by using serverless and managed\nservices where possible. Serverless and managed services are Our strategy also uses a combination of multi-\ncloud computing models where the cloud vendor looks after the availability zone AWS deployments and data\nserver systems and dynamically adjusts resource allocation to replication to a geographically distant region\naccommodate fluctuating capacity demands. These services to ensure system uptime by having no single\nhave automated failover built-in, with redundancy across point of failure shared between each zone\navailability zones and an availability rating of at least 99.99 and protection of the State data.\npercent. Our strategy uses a combination of multi-availability\nzone AWS deployments and data replication to a geographically distant region to ensure system uptime by having no\nsingle point of failure shared between each zone and prot"
+    },
+    {
+      "chunk_id": 2048,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 25,
+      "content": "lity and data synchronization process among the databases. Updates made to the\nprimary database instance are instantly copied to all Aurora replicas/databases. The data stored in the VIID database is\nreplicated across availability zones and as an additional layer of protection, the database backups are replicated to an\nalternate region.\nThe use of cloud-native load balancing capabilities automatically reroutes traffic away from unhealthy endpoints. Auto-\nscaling capabilities automatically deploy replacement systems as necessary, thereby minimizing service disruptions and\nthe need for emergency operations intervention. All services in production are replicated across each availability zone.\nEach availability zone has the capacity to take over complete production volume in case the primary site becomes\nunresponsive and runs 24x7, supporting continuous data replication. These measures fulfill the Commonwealth\u2019s and\nTechnical Submittal 16\n | MAXIMIZING SYSTEM |  | \n | RELIABILITY AND RESILIENCY |  | \n | Our strategy also uses a combination of multi- |  | \n | availability zone AWS deployments and data |  | \n | replication to a geographically distant region |  | \n | to ensure system upti"
+    },
+    {
+      "chunk_id": 2050,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 26,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\ncitizens\u2019 expectation of government services and information being reliable and available on an ongoing basis to ensure\nbusiness continuity. If a workstation cannot communicate with the VIID, the equipment can continue operating offline,\nminimizing impact to the public. Throughout the entirety of the contract, we will communicate with PennDOT\u2019s Vehicle\nInspection System in real-time, which will provide the Commonwealth with full, immediate, and secure access to all data\nmaintained in the system. The VIID will provide a full suite of predefined management reports and ad hoc reporting\ncapabilities. We will leverage our experience building and operating hardware, software, network infrastructure, and\napplication development to acquire, implement, test, and deliver a highly available and secure system for the testing\nfacilities to connect to the VIID.\nIn addition, we provide uninterrupted dialup service for the\nFACILITATING PENNDOT\u2019S STATION\nProgram for tailpipe analyzer communications. We have the\nMANAGEMENT\nnecessary experience to maintain, support, and troubleshoot\nParsons is the only ve"
+    },
+    {
+      "chunk_id": 2063,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 29,
+      "content": "8\nAccess Control Lists (NACL), preventing access from non-authorized sources.\nAWS Fargate is a highly scalable, high-performance container platform that we deploy application microservices on, with\n9\nauto recovery, auto-scaling features and resiliency patterns applied in all layers.\n10 Pentaho system provides ad-hoc reporting service. The EC2 autoscaling group handles failover and auto-recovery.\nMulti-availability zone Aurora MySQL database features automatic failover to the standby instance. The database volume is\n11 replicated six ways, across multiple availability zones. The database backend storage is fault-tolerant, handling the loss of\nup to two copies of data.\nHighly Available S3 object storage service with resiliency, high-performance scalability with up to six copies of data\n12 replicated across multiple availability zones is used to store static content for the front-end web pages, data archiving,\nlogging data.\n13 Serverless platform used to run code with built-in scaling and high availability in multiple availability zones.\nResilient QuickSight provides Business Intelligence reporting service that can leverage ML technologies with high availability\n14\nspanning multiple a"
+    },
+    {
+      "chunk_id": 2065,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 29,
+      "content": "erformance container platform that we deploy application microservices on, with | \n |  |  |  | auto recovery, auto-scaling features and resiliency patterns applied in all layers. | \n | 10 |  |  |  | \n11 |  |  |  | Multi-availability zone Aurora MySQL database features automatic failover to the standby instance. The database volume is | \n |  |  |  | replicated six ways, across multiple availability zones. The database backend storage is fault-tolerant, handling the loss of | \n |  |  |  | up to two copies of data. | \n12 |  |  |  |  | \n | 13 |  |  | Serverless platform used to run code with built-in scaling and high availability in multiple availability zones. | \n14 |  |  |  |  |"
+    },
+    {
+      "chunk_id": 2073,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 31,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nParsons will be fully responsible for providing and maintaining the infrastructure, communications interface, application\ndevelopment, and ongoing service support. We will provide ongoing maintenance and support for the duration of the\ncontract. Our system will function with all existing test equipment. We are highly flexible, as demonstrated by our recently\nsuccessful move from batch updates to real-time web services. We look forward to working with PennDOT on its future\nupgrade strategy for new application feature development and expanding database requirements.\nEXHIBIT I-6-2. FEATURES AND BENEFITS OF PARSONS\u2019 SYSTEM ARCHITECTURE\nFeature Benefit\nHigh Availability Design \u25aa Protects overall system from downtime due to component failure\n\u25aa Minimizes systems downtime during maintenance windows\nDispersed Data Centers with Automatic Failover \u25aa Minimizes downtime during disaster recovery\n\u25aa Protects from loss of data during disaster events\nScalable Architecture \u25aa Supports future enhancements\n\u25aa Provides for future system processing capacity expansion\nMulti-layered Cybersecurity Protections \u25aa Pr"
+    },
+    {
+      "chunk_id": 2074,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 31,
+      "content": "information (PII)\n\u25aa Protects against malicious attacks and unauthorized access\nOur proposed architecture incorporates a high-speed internet network to meet the high-performance database system\nneeds. We adapted our network to be compatible with all communication protocols currently used by existing test\nequipment. This infrastructure supports both legacy TSI dial-up and OBD/VIS equipment web-based protocols and easily\nhandles the volume of transactions required to run the PA I/M Program.\nThe VIID is the central repository for all I/M program related information. This information includes, but is not limited to,\nthe following:\n\u00a7 Specified vehicle data from PennDOT files\n\u00a7 I/M test information from prior tests\n\u00a7 I/M sticker information and I/M station, inspector, and repair technician information\n\u00a7 Technical Service Bulletins regarding emissions-related information. We will also transmit TSBs and manufacturer\nrecall data from the host to the analyzer unit for the vehicle under test for printing on the vehicle inspection report.\n\u00a7 Master Reference Tables (MRT)\n\u00a7 Manufacturer recall information\n\u00a7 Specified I/M Program administrative files\n\u00a7 Calibration data, oversight data, station/ins"
+    },
+    {
+      "chunk_id": 2078,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 32,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\nThe required database will search for a match of a vehicle to be tested with the vehicle record in the database. We will\ndecode the VIN to validate that the VINs received from the analyzers during vehicle data entry (first call) are valid. The\ndatabase shall also maintain basic information such as model year, make, model, engine, and emissions control systems\n(ECS) information; emissions level cut points; previous pass/fail\nSECURING PENNDOT\u2019S DATA IS OUR PRIORITY\nresults; manufacturer recall; and other vehicle specific\ninformation. We will perform three distinct checks on all VINs for Our system protects the integrity of test data\nvehicle look-up in the system to minimize the number of and calibration results to help reduce the\ntransactions that cannot be automatically matched with the potential for damage or data loss. The VIID\nstores all records uploaded from equipment\ncorrect record including validating and decoding the VIN and\ntest analyzers in raw format and then\nchecking for previous vehicle inspections. All test result data\nprocesses it to ensure accuracy and data\ncollected will "
+    },
+    {
+      "chunk_id": 2079,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 32,
+      "content": "r VIID,\nFraud prevention is a prime focus point for all I/M Programs, the redundancy provided by our database\nand we continuously focus on identifying areas for architecture and our backup strategies\nimprovement to minimize their occurrence. Our proposed ensure zero data loss.\nsystem will collect, process, and analyze data to support\nmanagement and compliance programs which are directed towards eliminating fraud and noncompliance in the\nperformance of emissions-related inspections and repairs. Our fraud prevention technique involves the use of analytic\naudit triggers to detect data anomalies that identify potential incidents of fraudulent testing and repair. We will bolster\nour experience in Pennsylvania with additional input from our existing programs in New Jersey, Vermont, and\nOntario, to continually improve our ability to identify suspicious activity by stations and/or inspectors for the\nCommonwealth.\nOther features provided by our solution include:\n\u00a7 Alerting I/M test technicians to important information relative to the history of the vehicle under test and any special\nrequirements.\n\u00a7 Providing vehicle data to be pre-populated on the equipment screen, where it can be validated"
+    },
+    {
+      "chunk_id": 2081,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 32,
+      "content": "ed idle (TSI) inspection will pass their phone numbers for Automatic Number\nIdentification (ANI) validation when connecting to the system for units that continue to use dialup to connect to the\nVIID.\n\u00a7 For the Internet-based OBD protocol, we will use the token generated on the equipment that encodes the current\ndate and time, the PAS ID, and station ID which is decoded on the server to ensure it is a real station attempting to\ncommunicate with the VIID.\n\u00a7 Analyzers and inspectors will be assigned to stations, and only inspections from these analyzers and inspectors with\nthe correct password will be allowed access.\nTechnical Submittal 23\n | SECURING PENNDOT\u2019S DATA IS OUR PRIORITY |  | \n |  |  | \n | Our system protects the integrity of test data |  | \n | and calibration results to help reduce the |  | \n | potential for damage or data loss. The VIID |  | \n | stores all records uploaded from equipment |  | \n | test analyzers in raw format and then |  | \n | processes it to ensure accuracy and data |  | \n | validation. Once the data is stored in our VIID, |  | \n | the redundancy provided by our database |  | \n | architecture and our backup strategies |  | \n | ensure zero data loss. |  |"
+    },
+    {
+      "chunk_id": 2082,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 32,
+      "content": "and data |  | \n | validation. Once the data is stored in our VIID, |  | \n | the redundancy provided by our database |  | \n | architecture and our backup strategies |  | \n | ensure zero data loss. |  |"
+    },
+    {
+      "chunk_id": 2088,
+      "document": "3522R12_EMISSIONS TECHNICAL SUBMITTAL_Parsons_12-04-2023.pdf",
+      "page": 34,
+      "content": "Emissions Program Management Reliable, Adaptable,\nPennDOT \u2502 RFP # 3522R12 Compliant, Experienced\n\u00a7 Ensure that all data will remain online for the life of the contract so there will be no need to provide retrieval\nprocesses for data that is no longer online.\nThe VIID will be housed, operated, and maintained by Parsons\nINTELLIGENT ARCHITECTURE\nwithin the AWS environment. Our system will consist of\ncommunications processors, CPUs, and peripheral equipment Our system architecture in the AWS cloud\nsufficient to process real-time transactions, batch updates, allows us to perform most system\nmaintenance and upgrades with no downtime,\nand other tasks required by the Commonwealth. We are\nwhich means no impact on end users,\nresponsible for ensuring our systems operate 24-hours a day,\nincluding I/M stations performing inspections.\n7 days a week each year. We understand the necessity of the\nPA I/M Program, and we will architect the system to meet the State\u2019s uptime requirements. We will provide a monthly\nreport that will include the following information:\n\u00a7 Operational minutes available and outage (or downtime) minutes for the previous month.\n\u00a7 We will identify downtime approved by PennDOT or"
+    }
+  ]
+}
