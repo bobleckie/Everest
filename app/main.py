@@ -19,6 +19,7 @@ from .routers import (
     audit as audit_router, llm_usage as llm_usage_router,
     flashcards as flashcards_router,
     wait_time_ab as wait_time_ab_router,
+    gaps as gaps_router,
 )
 
 # Load environment variables
@@ -279,6 +280,7 @@ app.include_router(audit_router.router, prefix="/api/audit", tags=["Audit"])
 app.include_router(llm_usage_router.router, prefix="/api/llm-usage", tags=["LLM Usage"])
 app.include_router(flashcards_router.router, prefix="/api/flashcards", tags=["Flashcards"])
 app.include_router(wait_time_ab_router.router, prefix="/api/wait-time-ab", tags=["Wait Time A/B"])
+app.include_router(gaps_router.router, prefix="/api/gaps", tags=["Gap Workspace"])
 
 
 # ── Liveness / readiness probes (unauthenticated) ───────────────────

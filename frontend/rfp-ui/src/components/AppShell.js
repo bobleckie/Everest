@@ -115,6 +115,7 @@ const navGroups = [
       { id: 'section-narratives', path: '/section-narratives', label: 'Section Narratives', icon: <ResponseWriterIcon /> },
       { id: 'adversarial-scorecard', path: '/adversarial-scorecard', label: 'Adversarial Scorecard', icon: <CompetitorIcon /> },
       { id: 'solution-catalog', path: '/solution-catalog',  label: 'Solution Catalog',    icon: <LibraryBooksIcon /> },
+      { id: 'gap-workspace',   path: '/gap-workspace',     label: 'Gap Workspace',       icon: <KnowledgeIcon /> },
       { id: 'parsons-knowledge', path: '/parsons-knowledge', label: 'Parsons Knowledge',   icon: <LibraryBooksIcon /> },
       { id: 'competitors',       path: '/competitors',       label: 'Competitive Intel',   icon: <CompetitorIcon /> },
       { id: 'pricing',           path: '/pricing',           label: 'Pricing Model',       icon: <MonetizationIcon /> },
