@@ -1337,6 +1337,77 @@ def list_requirements_in_section(
     }
 
 
+@router.get("/solution-catalog")
+def list_solution_catalog(
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Return all Solution Catalog entries (one per requirement theme)."""
+    from sqlalchemy import text
+    rows = db.execute(text("""
+        SELECT id, theme_id, theme_label, category, title,
+               capability_statement, named_past_performance,
+               quantified_outcomes, differentiators, gap_notes,
+               source_chunk_ids, n_requirements_addressed,
+               state_neutral, generated_at
+        FROM solution_catalog_entries
+        ORDER BY category, theme_id
+    """)).fetchall()
+    out = []
+    for r in rows:
+        out.append({
+            "id": r.id,
+            "theme_id": r.theme_id,
+            "theme_label": r.theme_label,
+            "category": r.category,
+            "title": r.title,
+            "capability_statement": r.capability_statement,
+            "named_past_performance": json.loads(r.named_past_performance or "[]"),
+            "quantified_outcomes": json.loads(r.quantified_outcomes or "[]"),
+            "differentiators": r.differentiators,
+            "gap_notes": r.gap_notes,
+            "source_chunk_ids": json.loads(r.source_chunk_ids or "[]"),
+            "n_requirements_addressed": r.n_requirements_addressed,
+            "state_neutral": bool(r.state_neutral),
+            "generated_at": (r.generated_at.isoformat()
+                              if hasattr(r.generated_at, "isoformat") else r.generated_at),
+        })
+    return {"entries": out, "total": len(out)}
+
+
+@router.get("/solution-catalog/{entry_id}")
+def get_solution_catalog_entry(
+    entry_id: int,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    from sqlalchemy import text
+    r = db.execute(text("""
+        SELECT id, theme_id, theme_label, category, title,
+               capability_statement, named_past_performance,
+               quantified_outcomes, differentiators, gap_notes,
+               source_chunk_ids, n_requirements_addressed,
+               state_neutral, generated_at
+        FROM solution_catalog_entries WHERE id = :eid
+    """), {"eid": entry_id}).first()
+    if not r:
+        raise HTTPException(404, "Catalog entry not found")
+    return {
+        "id": r.id, "theme_id": r.theme_id, "theme_label": r.theme_label,
+        "category": r.category, "title": r.title,
+        "capability_statement": r.capability_statement,
+        "named_past_performance": json.loads(r.named_past_performance or "[]"),
+        "quantified_outcomes": json.loads(r.quantified_outcomes or "[]"),
+        "differentiators": r.differentiators,
+        "gap_notes": r.gap_notes,
+        "source_chunk_ids": json.loads(r.source_chunk_ids or "[]"),
+        "n_requirements_addressed": r.n_requirements_addressed,
+        "state_neutral": bool(r.state_neutral),
+        "generated_at": (r.generated_at.isoformat()
+                          if hasattr(r.generated_at, "isoformat") else r.generated_at),
+    }
+
+
 @router.get("/glossary")
 def get_glossary(
     proposal_id: Optional[int] = Query(None),
