@@ -29,7 +29,11 @@ import {
   TrendingUp as MetricIcon,
   Star as DiffIcon,
   Warning as GapIcon,
+  Article as DocumentIcon,
+  ViewList as BrowseIcon,
+  FileDownload as ExportIcon,
 } from '@mui/icons-material';
+import { Button } from '@mui/material';
 
 /**
  * Parsons Solution Catalog — one entry per requirement theme.
@@ -43,6 +47,21 @@ export default function SolutionCatalog() {
   const [error, setError] = useState(null);
   const [categoryFilter, setCategoryFilter] = useState('');
   const [search, setSearch] = useState('');
+  const [viewMode, setViewMode] = useState('browse'); // 'browse' | 'document'
+
+  const exportDocx = async () => {
+    try {
+      const res = await axios.get('/api/knowledge/solution-catalog.docx', { responseType: 'blob' });
+      const url = URL.createObjectURL(res.data);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'parsons-solution-document.docx';
+      a.click();
+      URL.revokeObjectURL(url);
+    } catch (err) {
+      setError(err?.response?.data?.detail || err.message || 'Export failed');
+    }
+  };
 
   useEffect(() => {
     setLoading(true);
@@ -81,12 +100,29 @@ export default function SolutionCatalog() {
 
   return (
     <Box sx={{ p: 3 }}>
-      <Stack direction="row" alignItems="center" spacing={2} sx={{ mb: 2 }}>
-        <Typography variant="h5">Parsons Solution Catalog</Typography>
+      <Stack direction="row" alignItems="center" spacing={2} sx={{ mb: 2, flexWrap: 'wrap' }}>
+        <Typography variant="h5">Parsons Solution Document</Typography>
         <Chip label={`${entries.length} entries`} variant="outlined" />
         <Chip label={`${totalReqs} requirements covered`} variant="outlined" />
         <Chip label={`${totalNpp} past-performance citations`} variant="outlined" />
         <Chip label={`${totalQo} quantified outcomes`} variant="outlined" />
+        <Box sx={{ flex: 1 }} />
+        <ToggleButtonGroup
+          size="small"
+          value={viewMode}
+          exclusive
+          onChange={(_, v) => v && setViewMode(v)}
+        >
+          <ToggleButton value="browse">
+            <BrowseIcon fontSize="small" sx={{ mr: 0.5 }} /> Browse
+          </ToggleButton>
+          <ToggleButton value="document">
+            <DocumentIcon fontSize="small" sx={{ mr: 0.5 }} /> Read as document
+          </ToggleButton>
+        </ToggleButtonGroup>
+        <Button variant="contained" size="small" startIcon={<ExportIcon />} onClick={exportDocx}>
+          Export .docx
+        </Button>
       </Stack>
       <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
         State-neutral capability write-ups synthesized from the ingested Parsons evidence
@@ -115,18 +151,117 @@ export default function SolutionCatalog() {
         />
       </Stack>
 
-      {Object.keys(grouped).sort().map((cat) => (
-        <Box key={cat} sx={{ mb: 3 }}>
-          <Typography variant="h6" sx={{ mb: 1 }}>{cat}</Typography>
-          {grouped[cat].map((e) => (
-            <CatalogEntry key={e.id} entry={e} />
+      {viewMode === 'browse' ? (
+        <>
+          {Object.keys(grouped).sort().map((cat) => (
+            <Box key={cat} sx={{ mb: 3 }}>
+              <Typography variant="h6" sx={{ mb: 1 }}>{cat}</Typography>
+              {grouped[cat].map((e) => (
+                <CatalogEntry key={e.id} entry={e} />
+              ))}
+            </Box>
           ))}
-        </Box>
-      ))}
+        </>
+      ) : (
+        <DocumentView grouped={grouped} />
+      )}
       {Object.keys(grouped).length === 0 ? (
         <Alert severity="info">No entries match the current filter.</Alert>
       ) : null}
     </Box>
+  );
+}
+
+function DocumentView({ grouped }) {
+  return (
+    <Paper sx={{ p: 4, maxWidth: 1000, mx: 'auto' }}>
+      <Typography variant="h4" sx={{ textAlign: 'center', mb: 1 }}>
+        Parsons Solution Document
+      </Typography>
+      <Typography variant="caption" color="text.secondary" sx={{ display: 'block', textAlign: 'center', mb: 4 }}>
+        State-neutral capability write-ups for the 2026 NJ MVC RFP
+      </Typography>
+
+      {Object.keys(grouped).sort().map((cat) => (
+        <Box key={cat} sx={{ mb: 5 }}>
+          <Typography variant="h5" sx={{
+            mt: 4, mb: 2, pb: 1,
+            borderBottom: '2px solid', borderColor: 'primary.main',
+          }}>
+            {cat}
+          </Typography>
+          {grouped[cat].map((e) => (
+            <Box key={e.id} sx={{ mb: 4 }}>
+              <Typography variant="h6" sx={{ mt: 3, mb: 0.5 }}>
+                {e.theme_label}
+              </Typography>
+              <Typography variant="subtitle2" color="text.secondary" sx={{ mb: 2 }}>
+                {e.title} · covers {e.n_requirements_addressed} RFP requirements
+              </Typography>
+
+              {e.capability_statement ? (
+                <>
+                  <Typography variant="overline" color="primary">Capability Statement</Typography>
+                  <Typography variant="body1" sx={{ whiteSpace: 'pre-wrap', mb: 2, lineHeight: 1.7 }}>
+                    {e.capability_statement}
+                  </Typography>
+                </>
+              ) : null}
+
+              {e.named_past_performance?.length ? (
+                <>
+                  <Typography variant="overline" color="primary">Named Past Performance</Typography>
+                  <Box component="ul" sx={{ mb: 2, pl: 3 }}>
+                    {e.named_past_performance.map((p, i) => (
+                      <li key={i}>
+                        <Typography variant="body2">
+                          <strong>{p.name}</strong> — {p.scope}. <em>Outcome: {p.outcome}</em>
+                        </Typography>
+                      </li>
+                    ))}
+                  </Box>
+                </>
+              ) : null}
+
+              {e.quantified_outcomes?.length ? (
+                <>
+                  <Typography variant="overline" color="primary">Quantified Outcomes</Typography>
+                  <Box component="ul" sx={{ mb: 2, pl: 3 }}>
+                    {e.quantified_outcomes.map((q, i) => (
+                      <li key={i}>
+                        <Typography variant="body2">
+                          <strong>{q.metric}:</strong> {q.value} <em>({q.context})</em>
+                        </Typography>
+                      </li>
+                    ))}
+                  </Box>
+                </>
+              ) : null}
+
+              {e.differentiators ? (
+                <>
+                  <Typography variant="overline" color="primary">Differentiators</Typography>
+                  <Typography variant="body2" sx={{ whiteSpace: 'pre-wrap', mb: 2, lineHeight: 1.7 }}>
+                    {e.differentiators}
+                  </Typography>
+                </>
+              ) : null}
+
+              {e.gap_notes ? (
+                <Box sx={{ p: 2, bgcolor: 'warning.light', borderRadius: 1, mb: 2 }}>
+                  <Typography variant="overline" color="warning.dark">
+                    Gap Notes — what evidence does NOT substantiate
+                  </Typography>
+                  <Typography variant="body2" sx={{ whiteSpace: 'pre-wrap', lineHeight: 1.7 }}>
+                    {e.gap_notes}
+                  </Typography>
+                </Box>
+              ) : null}
+            </Box>
+          ))}
+        </Box>
+      ))}
+    </Paper>
   );
 }
 

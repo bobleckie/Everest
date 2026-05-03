@@ -1375,6 +1375,106 @@ def list_solution_catalog(
     return {"entries": out, "total": len(out)}
 
 
+@router.get("/solution-catalog.docx")
+def export_solution_catalog_docx(
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Export the entire Solution Catalog as a single Word document."""
+    try:
+        from docx import Document as DocxDocument
+        from docx.shared import Pt
+    except Exception as e:
+        raise HTTPException(500, f"python-docx not installed: {e}")
+    from fastapi.responses import StreamingResponse
+    from io import BytesIO
+    from sqlalchemy import text
+    from datetime import datetime
+
+    rows = db.execute(text("""
+        SELECT theme_id, theme_label, category, title, capability_statement,
+               named_past_performance, quantified_outcomes, differentiators, gap_notes,
+               n_requirements_addressed
+        FROM solution_catalog_entries ORDER BY category, theme_id
+    """)).fetchall()
+
+    d = DocxDocument()
+    d.add_heading("Parsons Solution Document", level=0)
+    p = d.add_paragraph(
+        "State-neutral capability write-ups synthesized from the ingested "
+        "Parsons evidence corpus, organized by requirement theme. Used as the "
+        "canonical source of truth when drafting per-requirement responses to "
+        "the live 2026 NJ MVC RFP."
+    )
+    for run in p.runs:
+        run.italic = True; run.font.size = Pt(10)
+    d.add_paragraph(f"Generated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')} · {len(rows)} entries")
+    d.add_paragraph("")
+
+    current_cat = None
+    for r in rows:
+        if r.category != current_cat:
+            d.add_heading(r.category, level=1)
+            current_cat = r.category
+        d.add_heading(f"{r.theme_label} — {r.title or ''}", level=2)
+        d.add_paragraph(f"Covers {r.n_requirements_addressed} RFP requirements.")
+
+        if r.capability_statement:
+            d.add_heading("Capability Statement", level=3)
+            for line in r.capability_statement.splitlines():
+                if line.strip():
+                    d.add_paragraph(line)
+
+        npp = json.loads(r.named_past_performance or "[]")
+        if npp:
+            d.add_heading("Named Past Performance", level=3)
+            t = d.add_table(rows=1, cols=3)
+            t.style = "Light Grid Accent 1"
+            hdr = t.rows[0].cells
+            hdr[0].text = "Name"; hdr[1].text = "Scope"; hdr[2].text = "Outcome"
+            for entry in npp:
+                row = t.add_row().cells
+                row[0].text = entry.get("name", "")
+                row[1].text = entry.get("scope", "")
+                row[2].text = entry.get("outcome", "")
+
+        qo = json.loads(r.quantified_outcomes or "[]")
+        if qo:
+            d.add_heading("Quantified Outcomes", level=3)
+            t = d.add_table(rows=1, cols=3)
+            t.style = "Light Grid Accent 1"
+            hdr = t.rows[0].cells
+            hdr[0].text = "Metric"; hdr[1].text = "Value"; hdr[2].text = "Context"
+            for entry in qo:
+                row = t.add_row().cells
+                row[0].text = entry.get("metric", "")
+                row[1].text = entry.get("value", "")
+                row[2].text = entry.get("context", "")
+
+        if r.differentiators:
+            d.add_heading("Differentiators", level=3)
+            for line in r.differentiators.splitlines():
+                if line.strip():
+                    d.add_paragraph(line)
+
+        if r.gap_notes:
+            d.add_heading("Gap Notes — what evidence does NOT substantiate", level=3)
+            for line in r.gap_notes.splitlines():
+                if line.strip():
+                    d.add_paragraph(line)
+        d.add_paragraph("")
+
+    buf = BytesIO()
+    d.save(buf)
+    buf.seek(0)
+    fname = f"parsons-solution-document-{datetime.utcnow().strftime('%Y%m%d')}.docx"
+    return StreamingResponse(
+        buf,
+        media_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        headers={"Content-Disposition": f'attachment; filename="{fname}"'},
+    )
+
+
 @router.get("/solution-catalog/{entry_id}")
 def get_solution_catalog_entry(
     entry_id: int,
