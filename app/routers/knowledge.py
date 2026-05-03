@@ -780,7 +780,41 @@ def get_requirement_bundle(
                 "`python -m scripts.context.run_all` to (re)build the pipeline."
             ),
         )
-    return json.loads(row[0])
+    bundle = json.loads(row[0])
+
+    # Live overlay: the bundle is precomputed but the AI-drafted Parsons
+    # response evolves as the batch runs. Overlay the latest values from
+    # rfp_requirements so the UI reflects current state without rebuild.
+    live = db.execute(
+        text(
+            """SELECT parsons_response, compliance_disposition,
+                       parsons_response_status, parsons_response_suggestions,
+                       parsons_response_cited_evidence,
+                       parsons_response_review_feedback,
+                       parsons_response_updated_at
+               FROM rfp_requirements WHERE id=:rid"""
+        ),
+        {"rid": requirement_id},
+    ).first()
+    if live:
+        try:
+            sug = json.loads(live[3]) if live[3] else []
+        except (json.JSONDecodeError, TypeError):
+            sug = []
+        try:
+            cite = json.loads(live[4]) if live[4] else []
+        except (json.JSONDecodeError, TypeError):
+            cite = []
+        bundle["requirement"]["parsons_response"] = live[0]
+        bundle["requirement"]["parsons_response_disposition"] = live[1]
+        bundle["requirement"]["parsons_response_status"] = live[2]
+        bundle["requirement"]["parsons_response_suggestions"] = sug
+        bundle["requirement"]["parsons_response_cited_evidence"] = cite
+        bundle["requirement"]["parsons_response_review_feedback"] = live[5]
+        bundle["requirement"]["parsons_response_updated_at"] = (
+            live[6].isoformat() if hasattr(live[6], "isoformat") else live[6]
+        )
+    return bundle
 
 
 @router.get("/requirements/tree")

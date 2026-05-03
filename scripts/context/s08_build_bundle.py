@@ -323,13 +323,30 @@ def main() -> int:
             })
         rollup_parent_id = parent_of_child.get(rid)
 
-        # Pull row-kind, actionability, and effort classification from rfp_requirements
+        # Pull row-kind, actionability, effort classification AND the
+        # AI-drafted Parsons response + suggestions for inline display.
         kind_row = cur.execute(
-            "SELECT requirement_kind, actionability, response_effort FROM rfp_requirements WHERE id=?", (rid,)
+            """SELECT requirement_kind, actionability, response_effort,
+                       parsons_response, compliance_disposition,
+                       parsons_response_status, parsons_response_suggestions,
+                       parsons_response_cited_evidence
+               FROM rfp_requirements WHERE id=?""",
+            (rid,),
         ).fetchone()
         req_kind = (kind_row[0] if kind_row else None) or "obligation"
         actionability = (kind_row[1] if kind_row else None) or "actionable_obligation"
         response_effort = (kind_row[2] if kind_row else None) or "writeup"
+        parsons_response = (kind_row[3] if kind_row else None)
+        comp_disposition_drafted = (kind_row[4] if kind_row else None)
+        response_status = (kind_row[5] if kind_row else None)
+        try:
+            suggestions = json.loads(kind_row[6]) if (kind_row and kind_row[6]) else []
+        except (json.JSONDecodeError, TypeError):
+            suggestions = []
+        try:
+            cited_evidence = json.loads(kind_row[7]) if (kind_row and kind_row[7]) else []
+        except (json.JSONDecodeError, TypeError):
+            cited_evidence = []
 
         bundle = {
             "requirement": {
@@ -341,6 +358,11 @@ def main() -> int:
                 "actionability": actionability,
                 "response_effort": response_effort,
                 "compliance_status": comp_status, "verified": verified,
+                "parsons_response": parsons_response,
+                "parsons_response_disposition": comp_disposition_drafted,
+                "parsons_response_status": response_status,
+                "parsons_response_suggestions": suggestions,
+                "parsons_response_cited_evidence": cited_evidence,
                 "section_id": scode, "source_page": page,
                 "extraction_pass": extr_pass,
                 "reviewer_confidence": conf,

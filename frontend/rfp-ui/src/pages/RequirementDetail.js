@@ -250,6 +250,62 @@ export default function RequirementDetail() {
         </Paper>
       </Paper>
 
+      {/* Drafted Parsons response — at the top because this is the user's primary work artifact */}
+      {r.parsons_response ? (
+        <Paper sx={{ p: 3, mb: 2, borderLeft: '4px solid', borderColor: 'success.main' }}>
+          <Stack direction="row" alignItems="center" spacing={1} sx={{ mb: 1 }}>
+            <Typography variant="overline" color="text.secondary">
+              Drafted Parsons response
+            </Typography>
+            {r.parsons_response_disposition ? (
+              <Chip size="small" color="success" label={r.parsons_response_disposition} />
+            ) : null}
+            {r.parsons_response_status ? (
+              <Chip size="small" variant="outlined" label={r.parsons_response_status} />
+            ) : null}
+          </Stack>
+          <Typography variant="body1" sx={{ whiteSpace: 'pre-wrap', mb: 2 }}>
+            {r.parsons_response}
+          </Typography>
+
+          {Array.isArray(r.parsons_response_suggestions) && r.parsons_response_suggestions.length ? (
+            <Box sx={{ mt: 2, p: 2, bgcolor: 'warning.light', borderRadius: 1 }}>
+              <Typography variant="overline" color="text.primary">
+                Suggestions to make this stronger ({r.parsons_response_suggestions.length})
+              </Typography>
+              <Stack spacing={0.5} sx={{ mt: 1 }}>
+                {r.parsons_response_suggestions.map((s, i) => (
+                  <Typography key={i} variant="body2" sx={{ '&:before': { content: '"• "' } }}>
+                    {s}
+                  </Typography>
+                ))}
+              </Stack>
+            </Box>
+          ) : null}
+
+          {Array.isArray(r.parsons_response_cited_evidence) && r.parsons_response_cited_evidence.length ? (
+            <Box sx={{ mt: 2 }}>
+              <Typography variant="overline" color="text.secondary">
+                Evidence used ({r.parsons_response_cited_evidence.length})
+              </Typography>
+              <Stack spacing={1} sx={{ mt: 1 }}>
+                {r.parsons_response_cited_evidence.map((ev, i) => (
+                  <Paper key={i} variant="outlined" sx={{ p: 1.5, bgcolor: ev.model_named ? 'success.light' : 'grey.50' }}>
+                    <Typography variant="caption" color="text.secondary">
+                      {ev.document_name}{ev.page ? ` · p.${ev.page}` : ''} · sim={ev.similarity?.toFixed?.(2)}
+                      {ev.model_named ? ' · cited' : ''}
+                    </Typography>
+                    <Typography variant="body2" sx={{ whiteSpace: 'pre-wrap', mt: 0.5 }}>
+                      {ev.snippet}
+                    </Typography>
+                  </Paper>
+                ))}
+              </Stack>
+            </Box>
+          ) : null}
+        </Paper>
+      ) : null}
+
       {/* Source paragraph (full surrounding context) */}
       {chunk ? (
         <Paper sx={{ p: 3, mb: 2 }}>
