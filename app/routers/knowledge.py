@@ -789,6 +789,7 @@ def get_requirement_tree(
     summary: bool = Query(True, description="If true (default), return only the theme/doc/section skeleton with counts; load requirements per section via /sections/{key}/requirements."),
     category: Optional[str] = Query(None, description="Filter to one top-level category: Technical | Operational | Commercial | Compliance | Other"),
     document_ids: Optional[str] = Query(None, description="Comma-separated document_ids to scope the tree to."),
+    requirement_kind: str = Query("obligation", description="Row kind to include. Default 'obligation' hides checklist items and XML-schema specs. Pass 'all' to include everything, or 'checklist_item' / 'data_element_spec' to drill into one kind."),
     db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user),
 ):
@@ -807,6 +808,9 @@ def get_requirement_tree(
     from sqlalchemy import text
     params: Dict[str, Any] = {}
     clauses = ["(r.rollup_role IS NULL OR r.rollup_role = 'parent')"]
+    if requirement_kind and requirement_kind != "all":
+        clauses.append("(r.requirement_kind = :rkind OR r.requirement_kind IS NULL)" if requirement_kind == "obligation" else "r.requirement_kind = :rkind")
+        params["rkind"] = requirement_kind
     if proposal_id is not None:
         clauses.append("(r.proposal_id = :pid OR r.proposal_id IS NULL)")
         params["pid"] = proposal_id
@@ -964,12 +968,31 @@ def get_requirement_filters(
         where += " AND (r.proposal_id = :pid OR r.proposal_id IS NULL)"
         params["pid"] = proposal_id
 
+    # Count by row kind so the UI can offer "switch to checklist / spec view".
+    kinds = db.execute(text(f"""
+        SELECT COALESCE(r.requirement_kind, 'obligation') AS kind, COUNT(*) AS n
+        FROM rfp_requirements r
+        WHERE {where.replace('b.', 'r.')}
+          OR (r.id NOT IN (SELECT requirement_id FROM requirement_context_bundle))
+        GROUP BY COALESCE(r.requirement_kind, 'obligation')
+        ORDER BY n DESC
+    """) if False else text(f"""
+        SELECT COALESCE(r.requirement_kind, 'obligation') AS kind, COUNT(*) AS n
+        FROM requirement_context_bundle b
+        JOIN rfp_requirements r ON r.id = b.requirement_id
+        WHERE {where}
+        GROUP BY COALESCE(r.requirement_kind, 'obligation')
+        ORDER BY n DESC
+    """), params).fetchall()
+
+    # Categories — only count obligations so the headline matches the default view.
+    cat_where = where + " AND (r.requirement_kind = 'obligation' OR r.requirement_kind IS NULL)"
     cats = db.execute(text(f"""
         SELECT COALESCE(rt.category, 'Other') AS category, COUNT(*) AS n
         FROM requirement_context_bundle b
         JOIN rfp_requirements r ON r.id = b.requirement_id
         LEFT JOIN requirement_themes rt ON rt.id = b.theme_id
-        WHERE {where}
+        WHERE {cat_where}
         GROUP BY COALESCE(rt.category, 'Other')
         ORDER BY n DESC
     """), params).fetchall()
@@ -986,6 +1009,9 @@ def get_requirement_filters(
     """), params).fetchall()
 
     return {
+        "kinds": [
+            {"kind": r.kind, "n_requirements": int(r.n)} for r in kinds
+        ],
         "categories": [
             {"category": r.category, "n_requirements": int(r.n)}
             for r in cats
@@ -1010,6 +1036,7 @@ def list_requirements_in_section(
     search: Optional[str] = Query(None, description="Substring filter on title"),
     offset: int = Query(0, ge=0),
     limit: int = Query(50, ge=1, le=500),
+    requirement_kind: str = Query("obligation"),
     db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user),
 ):
@@ -1022,6 +1049,9 @@ def list_requirements_in_section(
     from sqlalchemy import text
     clauses = ["(r.rollup_role IS NULL OR r.rollup_role = 'parent')"]
     params: Dict[str, Any] = {"offset": offset, "limit": limit}
+    if requirement_kind and requirement_kind != "all":
+        clauses.append("(r.requirement_kind = :rkind OR r.requirement_kind IS NULL)" if requirement_kind == "obligation" else "r.requirement_kind = :rkind")
+        params["rkind"] = requirement_kind
     if proposal_id is not None:
         clauses.append("(r.proposal_id = :pid OR r.proposal_id IS NULL)")
         params["pid"] = proposal_id

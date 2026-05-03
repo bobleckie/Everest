@@ -62,7 +62,8 @@ export default function RequirementBrowser() {
   // Filters
   const [categoryFilter, setCategoryFilter] = useState('');           // '' = all
   const [selectedDocs, setSelectedDocs] = useState([]);                // [] = all
-  const [filterOptions, setFilterOptions] = useState({ categories: [], documents: [] });
+  const [requirementKind, setRequirementKind] = useState('obligation');
+  const [filterOptions, setFilterOptions] = useState({ categories: [], documents: [], kinds: [] });
 
   // Per-section lazy-loaded requirement caches:
   // sectionDataByKey[`${doc_id}::${section_id}`] = { rows, total, offset, limit, loading, error }
@@ -78,10 +79,10 @@ export default function RequirementBrowser() {
       .catch(() => {});
   }, [proposalId]);
 
-  // Reload tree when proposal / category / doc selection changes.
+  // Reload tree when proposal / category / doc / kind selection changes.
   useEffect(() => {
     setLoading(true);
-    const params = { summary: true };
+    const params = { summary: true, requirement_kind: requirementKind };
     if (proposalId) params.proposal_id = proposalId;
     if (categoryFilter) params.category = categoryFilter;
     if (selectedDocs.length) params.document_ids = selectedDocs.map((d) => d.document_id).join(',');
@@ -97,7 +98,7 @@ export default function RequirementBrowser() {
         setError(err?.response?.data?.detail || err.message || 'Failed to load tree');
       })
       .finally(() => setLoading(false));
-  }, [proposalId, categoryFilter, selectedDocs]);
+  }, [proposalId, categoryFilter, selectedDocs, requirementKind]);
 
   const sectionKey = (themeId, docId, sectionId) => `${themeId}::${docId}::${sectionId}`;
 
@@ -197,6 +198,37 @@ export default function RequirementBrowser() {
       </Stack>
 
       <Stack direction={{ xs: 'column', md: 'row' }} spacing={2} sx={{ mb: 2 }}>
+        {/* Row-kind toggle */}
+        <Box>
+          <Typography variant="caption" color="text.secondary" sx={{ ml: 1 }}>View</Typography>
+          <ToggleButtonGroup
+            size="small"
+            value={requirementKind}
+            exclusive
+            onChange={(_, v) => v && setRequirementKind(v)}
+          >
+            <ToggleButton value="obligation">
+              Obligations
+              {filterOptions.kinds.find((k) => k.kind === 'obligation') ? (
+                <Chip size="small" label={filterOptions.kinds.find((k) => k.kind === 'obligation').n_requirements} sx={{ ml: 0.5 }} />
+              ) : null}
+            </ToggleButton>
+            <ToggleButton value="checklist_item">
+              Checklist
+              {filterOptions.kinds.find((k) => k.kind === 'checklist_item') ? (
+                <Chip size="small" label={filterOptions.kinds.find((k) => k.kind === 'checklist_item').n_requirements} sx={{ ml: 0.5 }} />
+              ) : null}
+            </ToggleButton>
+            <ToggleButton value="data_element_spec">
+              Specs
+              {filterOptions.kinds.find((k) => k.kind === 'data_element_spec') ? (
+                <Chip size="small" label={filterOptions.kinds.find((k) => k.kind === 'data_element_spec').n_requirements} sx={{ ml: 0.5 }} />
+              ) : null}
+            </ToggleButton>
+            <ToggleButton value="all">All</ToggleButton>
+          </ToggleButtonGroup>
+        </Box>
+
         {/* Category toggle */}
         <Box>
           <Typography variant="caption" color="text.secondary" sx={{ ml: 1 }}>Category</Typography>

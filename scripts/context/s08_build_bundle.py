@@ -323,12 +323,19 @@ def main() -> int:
             })
         rollup_parent_id = parent_of_child.get(rid)
 
+        # Pull row-kind classification from rfp_requirements for the bundle
+        kind_row = cur.execute(
+            "SELECT requirement_kind FROM rfp_requirements WHERE id=?", (rid,)
+        ).fetchone()
+        req_kind = (kind_row[0] if kind_row else None) or "obligation"
+
         bundle = {
             "requirement": {
                 "id": rid, "code": code, "title": title,
                 "description": desc, "source_text": src,
                 "category": cat, "priority": prio,
                 "requirement_class": klass,
+                "requirement_kind": req_kind,
                 "compliance_status": comp_status, "verified": verified,
                 "section_id": scode, "source_page": page,
                 "extraction_pass": extr_pass,

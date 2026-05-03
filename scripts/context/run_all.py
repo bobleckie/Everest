@@ -18,6 +18,10 @@ from . import (
     s06_reverse_and_glossary_links,
     s07_volume_rollup,
     s09_subpart_rollup,
+    s10_attachment_map,
+    s11_glossary_from_tables,
+    s12_form_factor_tags,
+    s13_requirement_kinds,
     s08_build_bundle,
 )
 
@@ -30,7 +34,11 @@ STAGES = [
     s05_resolve_references,
     s06_reverse_and_glossary_links,
     s07_volume_rollup,
-    s09_subpart_rollup,   # must run after s07 and before s08
+    s09_subpart_rollup,
+    s10_attachment_map,
+    s11_glossary_from_tables,
+    s12_form_factor_tags,
+    s13_requirement_kinds,   # must run before s08 so bundle gets kind
     s08_build_bundle,
 ]
 
