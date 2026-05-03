@@ -1068,6 +1068,66 @@ def get_requirement_filters(
     }
 
 
+@router.get("/requirements/{requirement_id}/neighbors")
+def get_requirement_neighbors(
+    requirement_id: int,
+    proposal_id: Optional[int] = Query(None),
+    requirement_kind: str = Query("obligation"),
+    response_effort: str = Query("writeup"),
+    procurement_scope: str = Query("current_2026"),
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Return the previous/next requirement IDs for sequential review.
+
+    Same default scoping as the browser tree so navigation stays inside
+    the same working set.
+    """
+    from sqlalchemy import text
+    clauses = [
+        "(r.rollup_role IS NULL OR r.rollup_role = 'parent')",
+        "r.superseded_by_requirement_id IS NULL",
+    ]
+    params: Dict[str, Any] = {"rid": requirement_id}
+    if requirement_kind and requirement_kind != "all":
+        clauses.append("(r.requirement_kind = :rkind OR r.requirement_kind IS NULL)" if requirement_kind == "obligation" else "r.requirement_kind = :rkind")
+        params["rkind"] = requirement_kind
+    if response_effort and response_effort != "all":
+        clauses.append("(r.response_effort = :reff OR r.response_effort IS NULL)" if response_effort == "writeup" else "r.response_effort = :reff")
+        params["reff"] = response_effort
+    if procurement_scope and procurement_scope != "all":
+        clauses.append("r.document_id IN (SELECT id FROM ingested_documents WHERE procurement_scope = :pscope)")
+        params["pscope"] = procurement_scope
+    if proposal_id is not None:
+        clauses.append("(r.proposal_id = :pid OR r.proposal_id IS NULL)")
+        params["pid"] = proposal_id
+    where = " AND ".join(clauses)
+
+    prev = db.execute(text(f"""
+        SELECT r.id, r.title FROM rfp_requirements r
+        WHERE {where} AND r.id < :rid
+        ORDER BY r.id DESC LIMIT 1
+    """), params).first()
+    nxt = db.execute(text(f"""
+        SELECT r.id, r.title FROM rfp_requirements r
+        WHERE {where} AND r.id > :rid
+        ORDER BY r.id ASC LIMIT 1
+    """), params).first()
+    pos = db.execute(text(f"""
+        SELECT COUNT(*) FROM rfp_requirements r
+        WHERE {where} AND r.id <= :rid
+    """), params).scalar()
+    total = db.execute(text(f"""
+        SELECT COUNT(*) FROM rfp_requirements r
+        WHERE {where}
+    """), params).scalar()
+    return {
+        "current": {"requirement_id": requirement_id, "position": int(pos or 0), "total": int(total or 0)},
+        "prev": {"requirement_id": prev[0], "title": prev[1]} if prev else None,
+        "next": {"requirement_id": nxt[0], "title": nxt[1]} if nxt else None,
+    }
+
+
 @router.get("/requirements/in-section")
 def list_requirements_in_section(
     proposal_id: Optional[int] = Query(None),

@@ -26,12 +26,17 @@ import {
 import {
   Description as DocIcon,
   ArrowBack as BackIcon,
+  ArrowBackIos as PrevIcon,
+  ArrowForwardIos as NextIcon,
   Link as LinkIcon,
   TableRows as TableIcon,
   MenuBook as GlossaryIcon,
   HelpOutline as RefIcon,
   CheckCircleOutline as VerbatimIcon,
   Warning as CompressedIcon,
+  ThumbUp as ApproveIcon,
+  ThumbDown as RejectIcon,
+  Refresh as RedraftIcon,
 } from '@mui/icons-material';
 import { useProposal } from '../proposal/ProposalContext';
 
@@ -58,8 +63,10 @@ export default function RequirementDetail() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [highlightSrc, setHighlightSrc] = useState('');
+  const [neighbors, setNeighbors] = useState({ prev: null, next: null, current: { position: 0, total: 0 } });
+  const [actionBusy, setActionBusy] = useState('');
 
-  useEffect(() => {
+  const reloadBundle = () => {
     setLoading(true);
     axios
       .get(`/api/knowledge/requirements/${requirementId}/bundle`)
@@ -72,7 +79,43 @@ export default function RequirementDetail() {
         setError(err?.response?.data?.detail || err.message || 'Failed to load');
       })
       .finally(() => setLoading(false));
+  };
+
+  useEffect(() => {
+    reloadBundle();
+    // Pull neighbors for the next/prev navigator
+    const params = proposalId ? { proposal_id: proposalId } : {};
+    axios
+      .get(`/api/knowledge/requirements/${requirementId}/neighbors`, { params })
+      .then((res) => setNeighbors(res.data))
+      .catch(() => {});
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [requirementId]);
+
+  const goTo = (rid) => {
+    if (!rid) return;
+    const url = proposalId ? `/p/${proposalId}/requirement/${rid}` : `/requirement/${rid}`;
+    navigate(url);
+  };
+
+  const draftAction = async (action) => {
+    if (!requirementId || !proposalId) return;
+    setActionBusy(action);
+    try {
+      if (action === 'approve') {
+        await axios.post(`/api/parsons-response/requirements/${requirementId}/approve`, {});
+      } else if (action === 'reject') {
+        await axios.post(`/api/parsons-response/requirements/${requirementId}/reject`, {});
+      } else if (action === 'redraft') {
+        await axios.post(`/api/parsons-response/requirements/${requirementId}/draft`, { force: true });
+      }
+      reloadBundle();
+    } catch (err) {
+      setError(err?.response?.data?.detail || err.message || 'Action failed');
+    } finally {
+      setActionBusy('');
+    }
+  };
 
   if (loading) {
     return (
@@ -99,10 +142,63 @@ export default function RequirementDetail() {
 
   return (
     <Box sx={{ p: 3 }}>
-      <Stack direction="row" alignItems="center" spacing={1} sx={{ mb: 2 }}>
-        <Button startIcon={<BackIcon />} component={RouterLink} to={browseUrl}>
-          Back to browser
+      <Stack direction="row" alignItems="center" spacing={1} sx={{ mb: 2, flexWrap: 'wrap' }}>
+        <Button size="small" startIcon={<BackIcon />} component={RouterLink} to={browseUrl}>
+          Browser
         </Button>
+        <Button
+          size="small"
+          startIcon={<PrevIcon />}
+          disabled={!neighbors.prev}
+          onClick={() => goTo(neighbors.prev?.requirement_id)}
+        >
+          Prev
+        </Button>
+        <Typography variant="body2" color="text.secondary" sx={{ mx: 1 }}>
+          {neighbors.current?.position || '?'} / {neighbors.current?.total || '?'}
+        </Typography>
+        <Button
+          size="small"
+          endIcon={<NextIcon />}
+          disabled={!neighbors.next}
+          onClick={() => goTo(neighbors.next?.requirement_id)}
+        >
+          Next
+        </Button>
+        <Box sx={{ flex: 1 }} />
+        {bundle?.requirement?.parsons_response ? (
+          <>
+            <Button
+              size="small"
+              variant="outlined"
+              startIcon={<RedraftIcon />}
+              disabled={actionBusy === 'redraft'}
+              onClick={() => draftAction('redraft')}
+            >
+              Re-draft
+            </Button>
+            <Button
+              size="small"
+              variant="outlined"
+              color="error"
+              startIcon={<RejectIcon />}
+              disabled={actionBusy === 'reject'}
+              onClick={() => draftAction('reject')}
+            >
+              Reject
+            </Button>
+            <Button
+              size="small"
+              variant="contained"
+              color="success"
+              startIcon={<ApproveIcon />}
+              disabled={actionBusy === 'approve'}
+              onClick={() => draftAction('approve')}
+            >
+              Approve
+            </Button>
+          </>
+        ) : null}
       </Stack>
 
       <Paper sx={{ p: 3, mb: 2 }}>
