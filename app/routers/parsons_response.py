@@ -1087,6 +1087,58 @@ class BulkDraftBody(BaseModel):
     only_status: Optional[str] = None  # e.g. "ai_drafted" to re-draft existing
 
 
+class BulkApproveBody(BaseModel):
+    proposal_id: int
+    only_disposition: Optional[str] = "Comply"   # Comply by default — safest
+    require_evidence: bool = True                # at least one cited chunk
+    section_id: Optional[str] = None             # restrict to one section
+    dry_run: bool = False                        # preview the count before doing it
+
+
+@router.post("/requirements/bulk-approve")
+def bulk_approve_drafts(
+    body: BulkApproveBody,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Bulk-approve drafts that meet a safety bar.
+
+    Default policy is conservative: only AI-drafted rows with disposition
+    "Comply" AND at least one cited Parsons evidence chunk get promoted
+    to status='approved'. Pass dry_run=true to preview the count without
+    changing anything.
+
+    The user can flip ``only_disposition`` to None to approve all
+    dispositions, or set a specific section_id to scope to one part of
+    the proposal.
+    """
+    from sqlalchemy import or_, and_
+    q = db.query(RfpRequirement).filter(
+        RfpRequirement.proposal_id == body.proposal_id,
+        RfpRequirement.parsons_response_status == "ai_drafted",
+        RfpRequirement.parsons_response.isnot(None),
+        RfpRequirement.parsons_response != "",
+    )
+    if body.only_disposition:
+        q = q.filter(RfpRequirement.compliance_disposition == body.only_disposition)
+    if body.require_evidence:
+        q = q.filter(RfpRequirement.parsons_response_cited_evidence.isnot(None))
+        q = q.filter(RfpRequirement.parsons_response_cited_evidence != "")
+        q = q.filter(RfpRequirement.parsons_response_cited_evidence != "[]")
+    if body.section_id:
+        q = q.filter(RfpRequirement.section_id == body.section_id)
+    rows = q.all()
+    n = len(rows)
+    if body.dry_run:
+        return {"would_approve": n, "dry_run": True}
+    now = datetime.utcnow()
+    for r in rows:
+        r.parsons_response_status = "approved"
+        r.parsons_response_updated_at = now
+    db.commit()
+    return {"approved": n, "dry_run": False}
+
+
 @router.post("/proposals/{proposal_id}/draft-batch")
 def start_bulk_draft(
     proposal_id: int,

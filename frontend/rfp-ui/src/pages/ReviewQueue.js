@@ -11,11 +11,17 @@ import {
   CircularProgress,
   TablePagination,
   Tooltip,
+  Button,
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  DialogActions,
 } from '@mui/material';
 import {
   Warning as WarnIcon,
   HelpOutline as QuestionIcon,
   ErrorOutline as ErrorIcon,
+  ThumbUp as BulkApproveIcon,
 } from '@mui/icons-material';
 import { useProposal } from '../proposal/ProposalContext';
 
@@ -30,8 +36,10 @@ export default function ReviewQueue() {
   const [pageSize, setPageSize] = useState(25);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [bulkPreview, setBulkPreview] = useState(null);
+  const [bulkBusy, setBulkBusy] = useState(false);
 
-  useEffect(() => {
+  const reload = () => {
     setLoading(true);
     const params = { offset: page * pageSize, limit: pageSize };
     if (proposalId) params.proposal_id = proposalId;
@@ -45,7 +53,44 @@ export default function ReviewQueue() {
         setError(err?.response?.data?.detail || err.message || 'Failed to load');
       })
       .finally(() => setLoading(false));
-  }, [proposalId, page, pageSize]);
+  };
+
+  const previewBulkApprove = async () => {
+    setBulkBusy(true);
+    try {
+      const res = await axios.post('/api/parsons-response/requirements/bulk-approve', {
+        proposal_id: proposalId,
+        only_disposition: 'Comply',
+        require_evidence: true,
+        dry_run: true,
+      });
+      setBulkPreview(res.data.would_approve);
+    } catch (err) {
+      setError(err?.response?.data?.detail || err.message || 'Preview failed');
+    } finally {
+      setBulkBusy(false);
+    }
+  };
+
+  const confirmBulkApprove = async () => {
+    setBulkBusy(true);
+    try {
+      await axios.post('/api/parsons-response/requirements/bulk-approve', {
+        proposal_id: proposalId,
+        only_disposition: 'Comply',
+        require_evidence: true,
+        dry_run: false,
+      });
+      setBulkPreview(null);
+      reload();
+    } catch (err) {
+      setError(err?.response?.data?.detail || err.message || 'Bulk-approve failed');
+    } finally {
+      setBulkBusy(false);
+    }
+  };
+
+  useEffect(reload, [proposalId, page, pageSize]); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (loading) {
     return <Box sx={{ p: 3, textAlign: 'center' }}><CircularProgress size={28} /></Box>;
@@ -59,7 +104,40 @@ export default function ReviewQueue() {
       <Stack direction="row" alignItems="center" spacing={2} sx={{ mb: 2 }}>
         <Typography variant="h5">Review Queue</Typography>
         <Chip label={`${data.total.toLocaleString()} drafts need attention`} color="warning" />
+        <Box sx={{ flex: 1 }} />
+        <Button
+          variant="outlined"
+          startIcon={<BulkApproveIcon />}
+          disabled={bulkBusy}
+          onClick={previewBulkApprove}
+        >
+          Bulk-approve clean drafts
+        </Button>
       </Stack>
+
+      <Dialog open={bulkPreview != null} onClose={() => setBulkPreview(null)}>
+        <DialogTitle>Bulk-approve {bulkPreview} drafts?</DialogTitle>
+        <DialogContent>
+          <Typography variant="body2">
+            This will mark <strong>{bulkPreview}</strong> drafts as <em>approved</em> in one click.
+            Selection criteria:
+          </Typography>
+          <ul>
+            <li><Typography variant="body2">disposition is <strong>Comply</strong> (not exception / clarification)</Typography></li>
+            <li><Typography variant="body2">at least one Parsons evidence chunk was cited</Typography></li>
+            <li><Typography variant="body2">response text is non-empty</Typography></li>
+          </ul>
+          <Typography variant="body2" color="text.secondary">
+            Drafts that don't meet the bar (Comply-with-exception, Take-exception, Needs-Clarification, or no evidence) are <strong>not</strong> touched and remain in this Review Queue for individual attention.
+          </Typography>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={() => setBulkPreview(null)} disabled={bulkBusy}>Cancel</Button>
+          <Button onClick={confirmBulkApprove} variant="contained" color="success" disabled={bulkBusy}>
+            Approve {bulkPreview}
+          </Button>
+        </DialogActions>
+      </Dialog>
       <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
         Drafts where Parsons doesn't fully comply (Comply-with-exception / Take-exception / Needs-Clarification),
         no Parsons evidence was cited, or a previous reviewer rejected the draft.
