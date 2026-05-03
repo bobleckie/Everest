@@ -137,6 +137,34 @@ def main() -> int:
             k2_collisions += 1
         group_keys.setdefault(cid, f"k2::{key[1]}::{key[0][:50]}")
 
+    # K3 — title-only dedup. Different ingests of the same obligation
+    # often share an LLM-paraphrased title even when source_text or
+    # section differs slightly (one is verbose, one is truncated).
+    # Skip ultra-short titles to avoid generic "Submit Quote" collisions.
+    k3: Dict[tuple, List] = defaultdict(list)
+    for r in rows:
+        rid, did, section, title, src, prio, cat, klass = r
+        if rid in super_map:
+            continue
+        title_n = norm_alnum(title)
+        if not title_n or len(title_n) < 18:
+            continue
+        k3[(title_n,)].append(r)
+
+    k3_collisions = 0
+    for key, group in k3.items():
+        if len(group) <= 1:
+            continue
+        canonical = min(group, key=score)
+        cid = canonical[0]
+        for r in group:
+            if r[0] == cid:
+                continue
+            super_map[r[0]] = cid
+            group_keys[r[0]] = f"k3::title::{key[0][:50]}"
+            k3_collisions += 1
+        group_keys.setdefault(cid, f"k3::title::{key[0][:50]}")
+
     # K4 — title-PREFIX dedup, CROSS-DOC ONLY. When the first 40 normalized
     # characters of the title match across two rows from DIFFERENT documents,
     # treat as the same obligation. Different docs commonly paraphrase the
@@ -193,8 +221,6 @@ def main() -> int:
     print()
     stat("K1 (title+source+section) duplicates", k1_collisions, len(rows))
     stat("K2 (source+section) duplicates",       k2_collisions, len(rows))
-<<<<<<< HEAD
-=======
     stat("K3 (title-only, len>=18) duplicates",  k3_collisions, len(rows))
     stat("K4 (title-prefix 40, cross-doc only)", k4_collisions, len(rows))
     stat("Surviving canonical rows",              surviving,    len(rows))
