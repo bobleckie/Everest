@@ -106,7 +106,12 @@ _SYSTEM_DRAFTER = (
     '                            "Take-exception" | "Not-Applicable" |\n'
     '                            "Needs-Clarification",\n'
     '  "response": "<one or two short paragraphs answering the requirement>",\n'
-    '  "evidence_doc_ids": [int, ...]   # ids cited from the Parsons pool\n'
+    '  "evidence_doc_ids": [int, ...],  # ids cited from the Parsons pool\n'
+    '  "strengthening_suggestions": [   # 1-3 concrete moves that would\n'
+    '     "<specific, actionable suggestion>",  # make the response stronger:\n'
+    '     ...                                   # added evidence to find,\n'
+    '  ]                                        # quantified outcomes to surface,\n'
+    "                                           # named past performance, etc.\n"
     "}\n\n"
     "Rules:\n"
     " * If the supplied Parsons excerpts substantiate the requirement, "
@@ -117,6 +122,12 @@ _SYSTEM_DRAFTER = (
     " * If Parsons cannot or should not comply, Take-exception with rationale.\n"
     " * If the requirement is procedural (forms, signatures), Not-Applicable.\n"
     " * If the requirement is ambiguous and a question was needed, Needs-Clarification.\n"
+    " * strengthening_suggestions MUST be specific and actionable. Examples of\n"
+    "   good suggestions: 'Add quantified uptime SLA from the Maryland VEIP\n"
+    "   contract', 'Cite the Florida Department of Highway Safety past-performance\n"
+    "   contract for similar inspection volumes', 'Surface IS Manager's\n"
+    "   credentials (CISSP) here'. BAD suggestions: 'Make it more specific',\n"
+    "   'Add more detail'.\n"
 )
 
 
@@ -369,6 +380,10 @@ def draft_response_for_requirement(
     if disposition not in _DISPOSITIONS:
         disposition = "Needs-Clarification"
     response = (env.get("response") or "").strip()
+    raw_suggestions = env.get("strengthening_suggestions") or []
+    if isinstance(raw_suggestions, str):
+        raw_suggestions = [raw_suggestions]
+    suggestions = [str(s).strip() for s in raw_suggestions if str(s).strip()][:5]
 
     # Validate cited evidence ids against the actual pool we showed the LLM
     valid_ids = {p["document_id"] for p in pool_snippets}
@@ -412,6 +427,14 @@ def draft_response_for_requirement(
     req.parsons_response_cited_evidence = (
         json.dumps(cited_snapshot) if cited_snapshot else None
     )
+    # Strengthening suggestions — additive column ensured on first write.
+    try:
+        from sqlalchemy import text as _sql_text
+        db.execute(_sql_text(
+            "UPDATE rfp_requirements SET parsons_response_suggestions = :s WHERE id = :rid"
+        ), {"s": json.dumps(suggestions) if suggestions else None, "rid": req.id})
+    except Exception as _e:  # noqa: BLE001
+        logger.warning(f"could not persist suggestions for req {req.id}: {_e}")
     # Clear consumed feedback so a re-draft doesn't keep applying it.
     req.parsons_response_review_feedback = None
     # Mark any persisted narrative for this section as stale.
@@ -431,6 +454,7 @@ def draft_response_for_requirement(
         "parsons_response": response,
         "evidence_doc_ids": cited,
         "evidence_chunks": cited_snapshot,
+        "strengthening_suggestions": suggestions,
         "status": req.parsons_response_status,
         "updated_at": now.isoformat(),
     }
