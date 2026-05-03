@@ -63,7 +63,8 @@ export default function RequirementBrowser() {
   const [categoryFilter, setCategoryFilter] = useState('');           // '' = all
   const [selectedDocs, setSelectedDocs] = useState([]);                // [] = all
   const [requirementKind, setRequirementKind] = useState('obligation');
-  const [filterOptions, setFilterOptions] = useState({ categories: [], documents: [], kinds: [] });
+  const [responseEffort, setResponseEffort] = useState('writeup');
+  const [filterOptions, setFilterOptions] = useState({ categories: [], documents: [], kinds: [], efforts: [] });
 
   // Per-section lazy-loaded requirement caches:
   // sectionDataByKey[`${doc_id}::${section_id}`] = { rows, total, offset, limit, loading, error }
@@ -79,10 +80,14 @@ export default function RequirementBrowser() {
       .catch(() => {});
   }, [proposalId]);
 
-  // Reload tree when proposal / category / doc / kind selection changes.
+  // Reload tree when proposal / category / doc / kind / effort selection changes.
   useEffect(() => {
     setLoading(true);
-    const params = { summary: true, requirement_kind: requirementKind };
+    const params = {
+      summary: true,
+      requirement_kind: requirementKind,
+      response_effort: responseEffort,
+    };
     if (proposalId) params.proposal_id = proposalId;
     if (categoryFilter) params.category = categoryFilter;
     if (selectedDocs.length) params.document_ids = selectedDocs.map((d) => d.document_id).join(',');
@@ -98,7 +103,7 @@ export default function RequirementBrowser() {
         setError(err?.response?.data?.detail || err.message || 'Failed to load tree');
       })
       .finally(() => setLoading(false));
-  }, [proposalId, categoryFilter, selectedDocs, requirementKind]);
+  }, [proposalId, categoryFilter, selectedDocs, requirementKind, responseEffort]);
 
   const sectionKey = (themeId, docId, sectionId) => `${themeId}::${docId}::${sectionId}`;
 
@@ -198,6 +203,37 @@ export default function RequirementBrowser() {
       </Stack>
 
       <Stack direction={{ xs: 'column', md: 'row' }} spacing={2} sx={{ mb: 2 }}>
+        {/* Response-effort toggle (writer-facing) */}
+        <Box>
+          <Typography variant="caption" color="text.secondary" sx={{ ml: 1 }}>Response Effort</Typography>
+          <ToggleButtonGroup
+            size="small"
+            value={responseEffort}
+            exclusive
+            onChange={(_, v) => v && setResponseEffort(v)}
+          >
+            <ToggleButton value="writeup">
+              Writeup
+              {filterOptions.efforts?.find((e) => e.effort === 'writeup') ? (
+                <Chip size="small" label={filterOptions.efforts.find((e) => e.effort === 'writeup').n_requirements} sx={{ ml: 0.5 }} />
+              ) : null}
+            </ToggleButton>
+            <ToggleButton value="attestation">
+              Attest
+              {filterOptions.efforts?.find((e) => e.effort === 'attestation') ? (
+                <Chip size="small" label={filterOptions.efforts.find((e) => e.effort === 'attestation').n_requirements} sx={{ ml: 0.5 }} />
+              ) : null}
+            </ToggleButton>
+            <ToggleButton value="info">
+              Info
+              {filterOptions.efforts?.find((e) => e.effort === 'info') ? (
+                <Chip size="small" label={filterOptions.efforts.find((e) => e.effort === 'info').n_requirements} sx={{ ml: 0.5 }} />
+              ) : null}
+            </ToggleButton>
+            <ToggleButton value="all">All</ToggleButton>
+          </ToggleButtonGroup>
+        </Box>
+
         {/* Row-kind toggle */}
         <Box>
           <Typography variant="caption" color="text.secondary" sx={{ ml: 1 }}>View</Typography>

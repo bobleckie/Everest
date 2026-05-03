@@ -323,11 +323,13 @@ def main() -> int:
             })
         rollup_parent_id = parent_of_child.get(rid)
 
-        # Pull row-kind classification from rfp_requirements for the bundle
+        # Pull row-kind, actionability, and effort classification from rfp_requirements
         kind_row = cur.execute(
-            "SELECT requirement_kind FROM rfp_requirements WHERE id=?", (rid,)
+            "SELECT requirement_kind, actionability, response_effort FROM rfp_requirements WHERE id=?", (rid,)
         ).fetchone()
         req_kind = (kind_row[0] if kind_row else None) or "obligation"
+        actionability = (kind_row[1] if kind_row else None) or "actionable_obligation"
+        response_effort = (kind_row[2] if kind_row else None) or "writeup"
 
         bundle = {
             "requirement": {
@@ -336,6 +338,8 @@ def main() -> int:
                 "category": cat, "priority": prio,
                 "requirement_class": klass,
                 "requirement_kind": req_kind,
+                "actionability": actionability,
+                "response_effort": response_effort,
                 "compliance_status": comp_status, "verified": verified,
                 "section_id": scode, "source_page": page,
                 "extraction_pass": extr_pass,

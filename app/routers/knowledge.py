@@ -790,6 +790,7 @@ def get_requirement_tree(
     category: Optional[str] = Query(None, description="Filter to one top-level category: Technical | Operational | Commercial | Compliance | Other"),
     document_ids: Optional[str] = Query(None, description="Comma-separated document_ids to scope the tree to."),
     requirement_kind: str = Query("obligation", description="Row kind to include. Default 'obligation' hides checklist items and XML-schema specs. Pass 'all' to include everything, or 'checklist_item' / 'data_element_spec' to drill into one kind."),
+    response_effort: str = Query("writeup", description="Effort level. Default 'writeup' (substantive proposal content). Pass 'attestation' for forms/yes-comply rows, 'info' for read-only context, or 'all' for everything."),
     db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user),
 ):
@@ -811,6 +812,9 @@ def get_requirement_tree(
     if requirement_kind and requirement_kind != "all":
         clauses.append("(r.requirement_kind = :rkind OR r.requirement_kind IS NULL)" if requirement_kind == "obligation" else "r.requirement_kind = :rkind")
         params["rkind"] = requirement_kind
+    if response_effort and response_effort != "all":
+        clauses.append("(r.response_effort = :reff OR r.response_effort IS NULL)" if response_effort == "writeup" else "r.response_effort = :reff")
+        params["reff"] = response_effort
     if proposal_id is not None:
         clauses.append("(r.proposal_id = :pid OR r.proposal_id IS NULL)")
         params["pid"] = proposal_id
@@ -968,20 +972,24 @@ def get_requirement_filters(
         where += " AND (r.proposal_id = :pid OR r.proposal_id IS NULL)"
         params["pid"] = proposal_id
 
-    # Count by row kind so the UI can offer "switch to checklist / spec view".
+    # Count by row kind
     kinds = db.execute(text(f"""
-        SELECT COALESCE(r.requirement_kind, 'obligation') AS kind, COUNT(*) AS n
-        FROM rfp_requirements r
-        WHERE {where.replace('b.', 'r.')}
-          OR (r.id NOT IN (SELECT requirement_id FROM requirement_context_bundle))
-        GROUP BY COALESCE(r.requirement_kind, 'obligation')
-        ORDER BY n DESC
-    """) if False else text(f"""
         SELECT COALESCE(r.requirement_kind, 'obligation') AS kind, COUNT(*) AS n
         FROM requirement_context_bundle b
         JOIN rfp_requirements r ON r.id = b.requirement_id
         WHERE {where}
         GROUP BY COALESCE(r.requirement_kind, 'obligation')
+        ORDER BY n DESC
+    """), params).fetchall()
+
+    # Count by response effort (only meaningful for the obligation bucket)
+    effort_where = where + " AND (r.requirement_kind = 'obligation' OR r.requirement_kind IS NULL)"
+    efforts = db.execute(text(f"""
+        SELECT COALESCE(r.response_effort, 'writeup') AS effort, COUNT(*) AS n
+        FROM requirement_context_bundle b
+        JOIN rfp_requirements r ON r.id = b.requirement_id
+        WHERE {effort_where}
+        GROUP BY COALESCE(r.response_effort, 'writeup')
         ORDER BY n DESC
     """), params).fetchall()
 
@@ -1012,6 +1020,9 @@ def get_requirement_filters(
         "kinds": [
             {"kind": r.kind, "n_requirements": int(r.n)} for r in kinds
         ],
+        "efforts": [
+            {"effort": r.effort, "n_requirements": int(r.n)} for r in efforts
+        ],
         "categories": [
             {"category": r.category, "n_requirements": int(r.n)}
             for r in cats
@@ -1037,6 +1048,7 @@ def list_requirements_in_section(
     offset: int = Query(0, ge=0),
     limit: int = Query(50, ge=1, le=500),
     requirement_kind: str = Query("obligation"),
+    response_effort: str = Query("writeup"),
     db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user),
 ):
@@ -1052,6 +1064,9 @@ def list_requirements_in_section(
     if requirement_kind and requirement_kind != "all":
         clauses.append("(r.requirement_kind = :rkind OR r.requirement_kind IS NULL)" if requirement_kind == "obligation" else "r.requirement_kind = :rkind")
         params["rkind"] = requirement_kind
+    if response_effort and response_effort != "all":
+        clauses.append("(r.response_effort = :reff OR r.response_effort IS NULL)" if response_effort == "writeup" else "r.response_effort = :reff")
+        params["reff"] = response_effort
     if proposal_id is not None:
         clauses.append("(r.proposal_id = :pid OR r.proposal_id IS NULL)")
         params["pid"] = proposal_id

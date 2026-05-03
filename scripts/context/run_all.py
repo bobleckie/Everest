@@ -22,12 +22,15 @@ from . import (
     s11_glossary_from_tables,
     s12_form_factor_tags,
     s13_requirement_kinds,
+    s14_actionability_tags,
+    s15_semantic_dedup,
     s08_build_bundle,
 )
 
 
 STAGES = [
     s01_hard_dedup,
+    s15_semantic_dedup,      # additional dedup on top of K1–K4 (must run after s01)
     s02_section_hierarchy,
     s03_extract_tables,
     s04_extract_glossary,
@@ -38,7 +41,8 @@ STAGES = [
     s10_attachment_map,
     s11_glossary_from_tables,
     s12_form_factor_tags,
-    s13_requirement_kinds,   # must run before s08 so bundle gets kind
+    s13_requirement_kinds,
+    s14_actionability_tags,  # must run before s08 so bundle gets effort
     s08_build_bundle,
 ]
 
