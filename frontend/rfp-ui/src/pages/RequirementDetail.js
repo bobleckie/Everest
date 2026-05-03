@@ -22,6 +22,7 @@ import {
   TableBody,
   Card,
   CardContent,
+  TextField,
 } from '@mui/material';
 import {
   Description as DocIcon,
@@ -37,6 +38,9 @@ import {
   ThumbUp as ApproveIcon,
   ThumbDown as RejectIcon,
   Refresh as RedraftIcon,
+  Edit as EditIcon,
+  Save as SaveIcon,
+  Close as CancelIcon,
 } from '@mui/icons-material';
 import { useProposal } from '../proposal/ProposalContext';
 
@@ -65,6 +69,8 @@ export default function RequirementDetail() {
   const [highlightSrc, setHighlightSrc] = useState('');
   const [neighbors, setNeighbors] = useState({ prev: null, next: null, current: { position: 0, total: 0 } });
   const [actionBusy, setActionBusy] = useState('');
+  const [editing, setEditing] = useState(false);
+  const [editText, setEditText] = useState('');
 
   const reloadBundle = () => {
     setLoading(true);
@@ -112,6 +118,30 @@ export default function RequirementDetail() {
       reloadBundle();
     } catch (err) {
       setError(err?.response?.data?.detail || err.message || 'Action failed');
+    } finally {
+      setActionBusy('');
+    }
+  };
+
+  const startEdit = () => {
+    setEditText(bundle?.requirement?.parsons_response || '');
+    setEditing(true);
+  };
+  const cancelEdit = () => {
+    setEditing(false);
+    setEditText('');
+  };
+  const saveEdit = async () => {
+    setActionBusy('save');
+    try {
+      await axios.patch(`/api/parsons-response/requirements/${requirementId}`, {
+        parsons_response: editText,
+        // status auto-promotes to 'user_edited' on text change in the backend
+      });
+      setEditing(false);
+      reloadBundle();
+    } catch (err) {
+      setError(err?.response?.data?.detail || err.message || 'Save failed');
     } finally {
       setActionBusy('');
     }
@@ -263,10 +293,47 @@ export default function RequirementDetail() {
             {r.parsons_response_status ? (
               <Chip size="small" variant="outlined" label={r.parsons_response_status} />
             ) : null}
+            <Box sx={{ flex: 1 }} />
+            {!editing ? (
+              <Button size="small" startIcon={<EditIcon />} onClick={startEdit}>Edit</Button>
+            ) : (
+              <>
+                <Button
+                  size="small"
+                  startIcon={<CancelIcon />}
+                  onClick={cancelEdit}
+                  disabled={actionBusy === 'save'}
+                >
+                  Cancel
+                </Button>
+                <Button
+                  size="small"
+                  startIcon={<SaveIcon />}
+                  variant="contained"
+                  onClick={saveEdit}
+                  disabled={actionBusy === 'save' || !editText.trim()}
+                >
+                  Save
+                </Button>
+              </>
+            )}
           </Stack>
-          <Typography variant="body1" sx={{ whiteSpace: 'pre-wrap', mb: 2 }}>
-            {r.parsons_response}
-          </Typography>
+          {editing ? (
+            <TextField
+              fullWidth
+              multiline
+              minRows={6}
+              maxRows={20}
+              value={editText}
+              onChange={(e) => setEditText(e.target.value)}
+              variant="outlined"
+              sx={{ mb: 2 }}
+            />
+          ) : (
+            <Typography variant="body1" sx={{ whiteSpace: 'pre-wrap', mb: 2 }}>
+              {r.parsons_response}
+            </Typography>
+          )}
 
           {Array.isArray(r.parsons_response_suggestions) && r.parsons_response_suggestions.length ? (
             <Box sx={{ mt: 2, p: 2, bgcolor: 'warning.light', borderRadius: 1 }}>
