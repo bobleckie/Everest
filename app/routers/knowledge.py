@@ -791,6 +791,7 @@ def get_requirement_tree(
     document_ids: Optional[str] = Query(None, description="Comma-separated document_ids to scope the tree to."),
     requirement_kind: str = Query("obligation", description="Row kind to include. Default 'obligation' hides checklist items and XML-schema specs. Pass 'all' to include everything, or 'checklist_item' / 'data_element_spec' to drill into one kind."),
     response_effort: str = Query("writeup", description="Effort level. Default 'writeup' (substantive proposal content). Pass 'attestation' for forms/yes-comply rows, 'info' for read-only context, or 'all' for everything."),
+    procurement_scope: str = Query("current_2026", description="Procurement scope. Default 'current_2026' restricts to docs incorporated by the live RFP. Pass 'archive_2021_compare' for the prior cycle's docs, or 'all' for both."),
     db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user),
 ):
@@ -815,6 +816,9 @@ def get_requirement_tree(
     if response_effort and response_effort != "all":
         clauses.append("(r.response_effort = :reff OR r.response_effort IS NULL)" if response_effort == "writeup" else "r.response_effort = :reff")
         params["reff"] = response_effort
+    if procurement_scope and procurement_scope != "all":
+        clauses.append("b.source_doc_id IN (SELECT id FROM ingested_documents WHERE procurement_scope = :pscope)")
+        params["pscope"] = procurement_scope
     if proposal_id is not None:
         clauses.append("(r.proposal_id = :pid OR r.proposal_id IS NULL)")
         params["pid"] = proposal_id
@@ -958,12 +962,14 @@ def get_requirement_tree(
 @router.get("/requirements/filters")
 def get_requirement_filters(
     proposal_id: Optional[int] = Query(None),
+    procurement_scope: str = Query("current_2026", description="Scope to count within. 'all' for everything."),
     db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user),
 ):
     """Lightweight filter options for the requirement browser:
-    available top-level categories with their requirement counts and the
-    list of source documents the user can scope to.
+    available top-level categories with their requirement counts, the
+    list of source documents the user can scope to (within the chosen
+    procurement scope), and per-scope counts.
     """
     from sqlalchemy import text
     params: Dict[str, Any] = {}
@@ -971,6 +977,9 @@ def get_requirement_filters(
     if proposal_id is not None:
         where += " AND (r.proposal_id = :pid OR r.proposal_id IS NULL)"
         params["pid"] = proposal_id
+    if procurement_scope and procurement_scope != "all":
+        where += " AND b.source_doc_id IN (SELECT id FROM ingested_documents WHERE procurement_scope = :pscope)"
+        params["pscope"] = procurement_scope
 
     # Count by row kind
     kinds = db.execute(text(f"""
@@ -1016,7 +1025,28 @@ def get_requirement_filters(
         ORDER BY n_requirements DESC
     """), params).fetchall()
 
+    # Scope counts (always cross all scopes — independent of the current filter)
+    base_scope_where = "(r.rollup_role IS NULL OR r.rollup_role = 'parent')"
+    base_scope_params: Dict[str, Any] = {}
+    if proposal_id is not None:
+        base_scope_where += " AND (r.proposal_id = :pid OR r.proposal_id IS NULL)"
+        base_scope_params["pid"] = proposal_id
+    scopes = db.execute(text(f"""
+        SELECT COALESCE(ind.procurement_scope, 'unscoped') AS scope, COUNT(*) AS n
+        FROM requirement_context_bundle b
+        JOIN rfp_requirements r ON r.id = b.requirement_id
+        LEFT JOIN ingested_documents ind ON ind.id = b.source_doc_id
+        WHERE {base_scope_where}
+          AND (r.requirement_kind = 'obligation' OR r.requirement_kind IS NULL)
+          AND (r.response_effort = 'writeup' OR r.response_effort IS NULL)
+        GROUP BY COALESCE(ind.procurement_scope, 'unscoped')
+        ORDER BY n DESC
+    """), base_scope_params).fetchall()
+
     return {
+        "scopes": [
+            {"scope": r.scope, "n_writeups": int(r.n)} for r in scopes
+        ],
         "kinds": [
             {"kind": r.kind, "n_requirements": int(r.n)} for r in kinds
         ],
@@ -1049,6 +1079,7 @@ def list_requirements_in_section(
     limit: int = Query(50, ge=1, le=500),
     requirement_kind: str = Query("obligation"),
     response_effort: str = Query("writeup"),
+    procurement_scope: str = Query("current_2026"),
     db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user),
 ):
@@ -1067,6 +1098,9 @@ def list_requirements_in_section(
     if response_effort and response_effort != "all":
         clauses.append("(r.response_effort = :reff OR r.response_effort IS NULL)" if response_effort == "writeup" else "r.response_effort = :reff")
         params["reff"] = response_effort
+    if procurement_scope and procurement_scope != "all":
+        clauses.append("b.source_doc_id IN (SELECT id FROM ingested_documents WHERE procurement_scope = :pscope)")
+        params["pscope"] = procurement_scope
     if proposal_id is not None:
         clauses.append("(r.proposal_id = :pid OR r.proposal_id IS NULL)")
         params["pid"] = proposal_id

@@ -24,6 +24,7 @@ from . import (
     s13_requirement_kinds,
     s14_actionability_tags,
     s15_semantic_dedup,
+    s16_procurement_scope,
     s08_build_bundle,
 )
 
@@ -42,7 +43,8 @@ STAGES = [
     s11_glossary_from_tables,
     s12_form_factor_tags,
     s13_requirement_kinds,
-    s14_actionability_tags,  # must run before s08 so bundle gets effort
+    s14_actionability_tags,
+    s16_procurement_scope,   # tag docs as live-2026 vs archive-2021
     s08_build_bundle,
 ]
 

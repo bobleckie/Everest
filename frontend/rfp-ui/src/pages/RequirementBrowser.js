@@ -64,29 +64,31 @@ export default function RequirementBrowser() {
   const [selectedDocs, setSelectedDocs] = useState([]);                // [] = all
   const [requirementKind, setRequirementKind] = useState('obligation');
   const [responseEffort, setResponseEffort] = useState('writeup');
-  const [filterOptions, setFilterOptions] = useState({ categories: [], documents: [], kinds: [], efforts: [] });
+  const [procurementScope, setProcurementScope] = useState('current_2026');
+  const [filterOptions, setFilterOptions] = useState({ categories: [], documents: [], kinds: [], efforts: [], scopes: [] });
 
   // Per-section lazy-loaded requirement caches:
   // sectionDataByKey[`${doc_id}::${section_id}`] = { rows, total, offset, limit, loading, error }
   const [sectionDataByKey, setSectionDataByKey] = useState({});
 
-  // Pull filter option lists once per proposal
+  // Pull filter option lists once per proposal / scope change
   useEffect(() => {
+    const params = { procurement_scope: procurementScope };
+    if (proposalId) params.proposal_id = proposalId;
     axios
-      .get('/api/knowledge/requirements/filters', {
-        params: proposalId ? { proposal_id: proposalId } : {},
-      })
+      .get('/api/knowledge/requirements/filters', { params })
       .then((res) => setFilterOptions(res.data))
       .catch(() => {});
-  }, [proposalId]);
+  }, [proposalId, procurementScope]);
 
-  // Reload tree when proposal / category / doc / kind / effort selection changes.
+  // Reload tree when any filter changes.
   useEffect(() => {
     setLoading(true);
     const params = {
       summary: true,
       requirement_kind: requirementKind,
       response_effort: responseEffort,
+      procurement_scope: procurementScope,
     };
     if (proposalId) params.proposal_id = proposalId;
     if (categoryFilter) params.category = categoryFilter;
@@ -103,7 +105,7 @@ export default function RequirementBrowser() {
         setError(err?.response?.data?.detail || err.message || 'Failed to load tree');
       })
       .finally(() => setLoading(false));
-  }, [proposalId, categoryFilter, selectedDocs, requirementKind, responseEffort]);
+  }, [proposalId, categoryFilter, selectedDocs, requirementKind, responseEffort, procurementScope]);
 
   const sectionKey = (themeId, docId, sectionId) => `${themeId}::${docId}::${sectionId}`;
 
@@ -203,6 +205,31 @@ export default function RequirementBrowser() {
       </Stack>
 
       <Stack direction={{ xs: 'column', md: 'row' }} spacing={2} sx={{ mb: 2 }}>
+        {/* Procurement-scope toggle — primary scoping (live RFP vs prior cycle) */}
+        <Box>
+          <Typography variant="caption" color="text.secondary" sx={{ ml: 1 }}>RFP Scope</Typography>
+          <ToggleButtonGroup
+            size="small"
+            value={procurementScope}
+            exclusive
+            onChange={(_, v) => v && setProcurementScope(v)}
+          >
+            <ToggleButton value="current_2026">
+              Live 2026 RFP
+              {filterOptions.scopes?.find((s) => s.scope === 'current_2026') ? (
+                <Chip size="small" label={filterOptions.scopes.find((s) => s.scope === 'current_2026').n_writeups} sx={{ ml: 0.5 }} />
+              ) : null}
+            </ToggleButton>
+            <ToggleButton value="archive_2021_compare">
+              2021 Archive
+              {filterOptions.scopes?.find((s) => s.scope === 'archive_2021_compare') ? (
+                <Chip size="small" label={filterOptions.scopes.find((s) => s.scope === 'archive_2021_compare').n_writeups} sx={{ ml: 0.5 }} />
+              ) : null}
+            </ToggleButton>
+            <ToggleButton value="all">All</ToggleButton>
+          </ToggleButtonGroup>
+        </Box>
+
         {/* Response-effort toggle (writer-facing) */}
         <Box>
           <Typography variant="caption" color="text.secondary" sx={{ ml: 1 }}>Response Effort</Typography>
