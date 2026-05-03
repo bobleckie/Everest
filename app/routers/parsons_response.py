@@ -1392,7 +1392,10 @@ def export_assembled_narratives_docx(
     }
 
     d = DocxDocument()
-    d.add_heading(f"Parsons — Response to {proposal.name or 'RFP'}", level=0)
+    d.add_heading(
+        f"Parsons — Response to {proposal.title or proposal.rfp_reference or 'RFP'}",
+        level=0,
+    )
     d.add_paragraph(f"Generated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}")
     d.add_paragraph("")
 
